@@ -1,79 +1,80 @@
 # Math Ladder
 
-Materi dan latihan soal matematika dari SD sampai kuliah (66 topik) dalam **12 bahasa**: Inggris, Spanyol, Mandarin, Prancis, Jerman, Portugis, Rusia, Arab, Persia, Jepang, Korea, dan Indonesia. Soal latihannya dibuat acak setiap kali dibuka, lengkap dengan kunci jawaban dan tombol print. Dibuat oleh **@rendyhn**, 2026.
+Lessons and practice worksheets from elementary school to university: 66 topics in 12 languages. Every worksheet is generated fresh when it opens, with an answer key and print-ready pages.
 
-## Cara membuka di komputer
+## Contents
 
-Klik dua kali `index.html`, lalu buka di Chrome atau Edge. Perlu koneksi internet untuk menampilkan rumus (MathJax) dan font.
-
-Untuk export ke PDF: klik salah satu tombol Print, lalu pilih **Save as PDF**.
-
-## Pilihan bahasa
-
-- Pilih bahasa lewat menu bahasa di bagian atas halaman. Pilihannya diingat di browser.
-- Bisa juga lewat alamat, misalnya `index.html?lang=id` atau `?lang=ar`. Kode bahasa: `en es zh fr de pt ru ar fa ja ko id`.
-- Arab dan Persia otomatis tampil dari kanan ke kiri (RTL), termasuk saat dicetak.
-- Angka mengikuti kebiasaan tiap bahasa: bahasa dengan koma desimal (es, fr, de, pt, ru, id) menulis `2,5` dan memisahkan daftar angka dengan titik koma (`-2; 5`). Jawaban isian menerima dua-duanya.
-- Satuan ditulis dengan huruf setempat untuk Rusia dan Arab (см, кг / سم، كغ). Mata uang di soal cerita disesuaikan per bahasa (dolar, euro, real, 元, ドル, 달러, ribu rupiah, dst.).
-- File terjemahan ada di folder `lang/` (satu file per bahasa). **Folder `lang/` harus selalu ikut di-upload bersama `index.html`**; kalau tidak ada, website tetap jalan tapi hanya dalam bahasa Inggris.
-
-## Watermark
-
-- **Di website:** tulisan `@rendyhn 2026` selalu tampil di pojok kanan bawah.
-- **Di PDF / hasil print:** setiap halaman punya `Math Ladder · @rendyhn 2026` di kanan bawah dan nomor halaman di kiri bawah. Setelah dipasang di GitHub Pages, alamat situsnya otomatis ikut tercetak, misalnya `Math Ladder · @rendyhn 2026 · rendyhn.github.io/math-ladder`.
-- Lembar soal, kunci jawaban, dan materi juga punya baris **Sumber: …** di bagian atas atau bawahnya, jadi sumbernya tetap terlihat walau dicetak dari browser lain.
-- Watermark di margin halaman butuh Chrome atau Edge versi 131 ke atas (rilis akhir 2024).
-
-## Memasang di GitHub Pages
-
-Repository ini sudah ada di GitHub (`rendyhn/math-ladder`). GitHub Pages gratis hanya untuk repository **Public**; untuk repository private perlu akun berbayar (GitHub Pro).
-
-1. Buka repository di GitHub → tab **Settings** → **Pages** (menu kiri).
-2. Source: **Deploy from a branch**. Branch: **main**, folder **/ (root)** → **Save**.
-3. Tunggu 1–2 menit, lalu muat ulang halaman Settings → Pages. Alamat situs muncul di bagian atas, misalnya `https://rendyhn.github.io/math-ladder/`.
-
-Yang dibutuhkan website hanya `index.html`, `.nojekyll`, dan folder `lang/`. File lain (`src/`, `tools/`, `i18n/`, `build.py`) adalah kode sumber.
-
-## Memperbarui isi website
-
-1. Edit file di folder `src/` (materi dan soal) atau `src/lang/<kode>/` (terjemahan).
-2. Jalankan `python build.py`. Ini membuat ulang `index.html` dan semua file di `lang/`.
-3. Commit dan push (atau upload ulang `index.html` dan folder `lang/` lewat **Add file → Upload files**). Website diperbarui dalam 1–2 menit.
-
-## Menambah atau memperbaiki terjemahan
-
-Semua teks bahasa Inggris di `src/*.js` ditulis sebagai ``T`...` ``. Alat bantunya ada di `tools/i18n.py`:
-
-| Perintah | Fungsi |
+| Level | Topics |
 |---|---|
-| `python tools/i18n.py catalog` | Mengumpulkan semua teks ke `i18n/catalog.json` dan `i18n/catalog/*.txt` (baris `@kunci`, lalu teks Inggrisnya) |
-| `python tools/i18n.py status` | Tabel cakupan terjemahan per bahasa dan per jenjang |
-| `python tools/i18n.py check [kode]` | Memeriksa paket bahasa: kunci yang kurang, slot `⟦0⟧`, pasangan `$`, tag HTML, format angka. Harus 0 problems |
-| `python tools/i18n.py missing <kode> [file]` | Daftar kunci yang belum diterjemahkan |
+| Elementary | place value, the four operations, order of operations, factors and primes, fractions, decimals, percentages, measurement, perimeter, area and volume, angles and shapes, data and averages |
+| Junior high | integers, exponents and roots, scientific notation, ratio and proportion, algebraic expressions, linear equations and inequalities, sets, linear functions, systems of equations, Pythagoras, circles, solids, statistics, probability, money maths, number patterns, transformations |
+| Senior high | quadratics, functions, exponents and logarithms, sequences and series, trigonometry, polynomials, matrices, vectors, limits, derivatives, integrals, combinatorics, probability, statistics, coordinate geometry, linear programming, logic |
+| University | differentiation and integration techniques and applications, series, multivariable calculus, differential equations, linear algebra, complex numbers, probability distributions, statistical inference, discrete mathematics, numerical methods, vector calculus, Laplace transforms |
 
-Aturan menulis paket bahasa (`src/lang/<kode>/*.js`, format `addT('<kode>', { 'kunci': R`...`, … })`):
+Each topic has a lesson and a practice sheet. A sheet mixes multiple-choice and fill-in questions (or only one kind), checks the answers, and folds out worked solutions.
 
-- Tulis kunci dalam tanda kutip dan nilainya sebagai ``R`...` `` (TeX cukup satu backslash). Jangan pernah menulis `${`.
-- Pertahankan semua slot `⟦n⟧` dan tag HTML persis seperti aslinya; urutan slot boleh berubah.
-- Rumus murni (tanpa kata) tetap perlu disalin apa adanya bila `check` memintanya; untuk bahasa berkoma desimal, ubah `2.5` menjadi `2{,}5` di dalam `$…$`.
-- Untuk menambah bahasa baru: tambahkan kodenya di `LANGS` (`tools/i18n.py`) serta di `LANGS` dan `LANG_CONF` (`src/core.js`), salin salah satu folder `src/lang/<kode>/` sebagai contoh, lalu terjemahkan.
+## Languages
 
-Catatan: semua terjemahan dibuat dengan bantuan AI dan belum ditinjau penutur asli. Laporan perbaikan sangat diterima.
+English, Español, 中文（简体）, Français, Deutsch, Português, Русский, العربية, فارسی, 日本語, 한국어 and Bahasa Indonesia.
 
-## Isi folder
+- Pick a language from the menu at the top of the page, or open the page with `?lang=<code>` (`en es zh fr de pt ru ar fa ja ko id`). The choice is remembered in the browser.
+- Arabic and Persian are laid out right to left, on screen and in print.
+- Numbers follow each language: decimal-comma languages (es, fr, de, pt, ru, id) write `2,5` and separate lists with `;`. Fill-in answers accept either format.
+- Units are written in the local script for Russian and Arabic, and word problems use a local currency.
+- Translations were produced with AI assistance and have not yet been reviewed by native speakers. Corrections are welcome.
 
-| File / folder | Fungsi |
+## Running it
+
+Open `index.html` in any modern browser, from disk or from a static host, with the `lang/` folder next to it. Formulas are rendered by MathJax from a CDN, so an internet connection is needed. Without `lang/` the site still works, in English only.
+
+To save a lesson or worksheet as PDF, use its Print button and choose **Save as PDF**.
+
+## Publishing on GitHub Pages
+
+Settings → Pages → Source: **Deploy from a branch**, branch `main`, folder `/ (root)`. The site needs only `index.html`, `.nojekyll` and `lang/`. GitHub Pages on a private repository requires a paid plan.
+
+## Development
+
+The page is built from `src/`:
+
+```
+python build.py            # writes index.html and lang/<code>.js
+python build.py --artifact # also writes dist/ (body-only page for a claude.ai Artifact)
+```
+
+Edit the source, run the build, commit `index.html` and `lang/` together with the source.
+
+### Translations
+
+English text in `src/*.js` is written as ``T`...` ``; each language pack in `src/lang/<code>/` maps a key to its translation. `tools/i18n.py` keeps them in step:
+
+| Command | What it does |
 |---|---|
-| `index.html` | Website lengkap (bahasa Inggris + pemuat bahasa). Ini yang dibuka atau di-upload. |
-| `lang/` | Paket bahasa hasil build (`es.js`, `zh.js`, …). Wajib ikut di-upload. |
-| `.nojekyll` | Supaya GitHub Pages menyajikan file apa adanya |
-| `src/lvl1-elementary.js` … `src/lvl4-university.js` | Materi dan soal SD, SMP, SMA, kuliah |
-| `src/lang/<kode>/` | Terjemahan per bahasa: `0-ui.js` (tampilan, judul topik), `1-…` SD, `2-…` SMP, `3-…` SMA, `4-…` kuliah |
-| `src/core.js` | Fungsi bantu (angka acak, format pecahan/rumus, sistem terjemahan, format angka per bahasa) |
-| `src/app.js` | Navigasi, lembar soal, cek jawaban, kunci, print, watermark, menu bahasa |
-| `src/style.css` | Tampilan (tema terang/gelap, layout print, RTL) |
-| `src/head.html`, `src/body.html` | Kerangka halaman |
-| `i18n/` | Katalog teks sumber untuk penerjemah (`catalog/*.txt`) dan catatan progres (`PROGRESS.md`) |
-| `tools/i18n.py` | Alat katalog dan pemeriksa terjemahan |
-| `build.py` | Menggabungkan `src/` menjadi `index.html` dan `lang/*.js` (`--artifact` juga membuat versi claude.ai di `dist/`) |
-| `.gitignore` | Daftar folder yang tidak perlu di-upload (`.claude/`, `dist/`, `_tmp/`, …) |
+| `python tools/i18n.py catalog` | Extracts every string to `i18n/catalog.json` and `i18n/catalog/*.txt` (the files translators work from) |
+| `python tools/i18n.py status` | Coverage per language and level |
+| `python tools/i18n.py check [code]` | Validates packs: missing keys, `⟦n⟧` slots, `$` pairs, HTML tags, number format. Must report 0 problems |
+| `python tools/i18n.py missing <code> [file]` | Lists untranslated keys |
+
+Pack rules: quote the keys, write values as ``R`...` `` (single backslashes in TeX, never `${`), and keep every `⟦n⟧` slot and HTML tag of the English source. In decimal-comma languages write decimals inside `$…$` as `2{,}5`. See `i18n/PROGRESS.md` for conventions per language.
+
+To add a language: add its code to `LANGS` in `tools/i18n.py` and to `LANGS` and `LANG_CONF` in `src/core.js`, copy an existing `src/lang/<code>/` folder, translate, and run `check`.
+
+## Files
+
+| Path | What it is |
+|---|---|
+| `index.html` | The app, built from `src/`. English is built in; other languages load from `lang/`. |
+| `lang/<code>.js` | Built language packs. |
+| `.nojekyll` | Makes GitHub Pages serve the files as they are. |
+| `src/lvl1-elementary.js` … `src/lvl4-university.js` | Lessons and question generators for the four levels. |
+| `src/core.js` | Random numbers, fraction and formula formatting, the translation system, number formats per language. |
+| `src/app.js` | Navigation, worksheets, answer checking, answer key, printing, language menu. |
+| `src/style.css`, `src/head.html`, `src/body.html` | Styles (light/dark, print, right-to-left) and page skeleton. |
+| `src/lang/<code>/` | Translation sources: `0-ui.js` (interface and topic titles), then one or more files per level. |
+| `i18n/` | String catalogue for translators and `PROGRESS.md`. |
+| `tools/i18n.py` | Catalogue and translation checker. |
+| `build.py` | Build script. |
+
+---
+
+© 2026 @rendyhn
