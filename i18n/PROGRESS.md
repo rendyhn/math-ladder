@@ -13,7 +13,8 @@ How it works (see also src/core.js "i18n" section and tools/i18n.py):
 - Values are R`...` raw templates: write TeX with single backslashes, never use ${...} or backticks.
 - Decimal-comma languages (es fr de pt ru id): write decimals inside $...$ as 2{,}5 and in text as 2,5;
   lists of numbers separated by ";" ; thousands with a thin space (\, in TeX).
-- `python tools/i18n.py check <code>` validates coverage, slots, $ parity, HTML tags. `status` shows a table.
+- `python tools/i18n.py check <code>` validates coverage, slots, $ parity, HTML tags. `status` shows a table;
+  `missing <code> [file]` lists untranslated keys.
 - `python build.py` concatenates src/lang/<code>/*.js -> lang/<code>.js.
 
 Languages: es zh fr de pt ru ar fa ja ko id
@@ -26,14 +27,20 @@ Number agreement: ru/ar avoid "N + noun" with generated N (use "noun: N", "шт.
 
 | lang | ui+meta | lvl1 | lvl2 | lvl3 | lvl4 | checked |
 |------|---------|------|------|------|------|---------|
-| es   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| zh   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| fr   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| de   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| pt   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| ru   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| ar   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| fa   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| ja   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| ko   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
-| id   | done    | done | done |      |      | lvl1+2 sweep ok, TeX ok |
+| es   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| zh   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| fr   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| de   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| pt   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| ru   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| ar   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| fa   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| ja   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| ko   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+| id   | done    | done | done | done | done | all levels swept, TeX ok, print ok |
+
+Status (2026-09): every language is complete (0 missing, 0 problems). Browser sweep of all generators
+(senior + university 10 runs each, elementary + junior 4 runs each, every language): no runtime errors,
+no leftover slots, no MathJax TeX errors, fill-in answers accepted in local number format. Print view
+checked for ar/fa (RTL) and zh/ja (CJK): direction, watermark and maths render correctly.
+Translations are AI-made and have not been reviewed by native speakers.

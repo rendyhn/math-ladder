@@ -1,0 +1,280 @@
+/* 日本語 — 大学（微分法 → 微分方程式） */
+addT('ja', {
+  // diff-techniques
+  'i2e9stiapi': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>陰関数の微分</h3>
+<p>$y$ が陰関数で与えられているときは、$y$ を $x$ の関数とみなして両辺を $x$ で微分し（$\frac{d}{dx}y^2 = 2y\,y'$ となる）、$y'$ について解く。</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1kr8zytc8j5': R`積`,
+  '1fd6nxjb0xt': R`商`,
+  '21u0n9yxqot': R`合成関数`,
+  '10xmtmesa6t': R`関数`,
+  'n72fq2kxcg': R`導関数`,
+  '1qtv7snffoy': R`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4$ &nbsp;（合成関数の微分）</p><p>$\dfrac{d}{dx}\,x^2 e^{3x} = 2x e^{3x} + 3x^2 e^{3x} = xe^{3x}(2 + 3x)$ &nbsp;（積の微分）</p>`,
+  '1nhip08xeg5': R`<p>$x^2 + y^2 = 25 \Rightarrow 2x + 2y\,y' = 0 \Rightarrow y' = -\dfrac{x}{y}$。点 $(3, 4)$ での傾きは $-\frac{3}{4}$。</p>`,
+  'wvkdxn7frj': R`<p><b>対数微分法</b>は積・商・変数の累乗に使える：$y = x^x$ なら $\ln y = x\ln x$ なので $\frac{y'}{y} = \ln x + 1$、$y' = x^x(\ln x + 1)$。</p>`,
+  're4vli1oc9': R`<p>合成関数の微分：必ず<b>内側</b>の関数の導関数をかける。$\frac{d}{dx}\sin(x^2) = 2x\cos(x^2)$ であり、$\cos(x^2)$ ではない。</p>`,
+  '1iajxt140g2': R`$f(x) = (⟦0⟧)^{⟦1⟧}$ とする。$f'(⟦2⟧)$ を求めなさい。`,
+  '2108swf0nc1': R`合成関数の微分：$f'(x) = ⟦0⟧(⟦1⟧)^{⟦2⟧} \cdot ⟦3⟧$。$x = ⟦4⟧$ で内側は ⟦5⟧ なので、$f'(⟦6⟧) = ⟦7⟧ \cdot ⟦8⟧^{⟦9⟧} \cdot ⟦10⟧ = ⟦11⟧$。`,
+  '13u8g7mcany': R`$y = ⟦0⟧⟦1⟧$ を微分しなさい。`,
+  'ltfmske2sq': R`積の微分（$u = ⟦0⟧$、$v = ⟦1⟧$）：$y' = ⟦2⟧⟦3⟧ + ⟦4⟧ \cdot ⟦5⟧ =⟦6⟧⟦7⟧(⟦8⟧)$。`,
+  '24tbapqaxkt': R`$f(x) = \ln(⟦0⟧)$ とする。$f'(⟦1⟧)$ を求めなさい。`,
+  'vr5ui5jnj1': R`$f'(x) = \frac{⟦0⟧x}{⟦1⟧}$ なので、$f'(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$。`,
+  '21f80wac08v': R`$x^2 + y^2 = ⟦0⟧$ について、点 $⟦1⟧$ における $\frac{dy}{dx}$ を求めなさい。`,
+  'xl17ytois8': R`$xy = ⟦0⟧$ について、点 $⟦1⟧$ における $\frac{dy}{dx}$ を求めなさい。`,
+  'cc1dbada60': R`積の微分：$y + x\,y' = 0 \Rightarrow y' = -\frac{y}{x} = ⟦0⟧$。`,
+  'g5b3ql04b4': R`$y = \sin(⟦0⟧)$ を微分しなさい。`,
+  '1u57cjycyb3': R`合成関数の微分：外側の導関数は $\cos(⟦0⟧)$、内側の導関数は $⟦1⟧$ なので、$⟦2⟧\cos(⟦3⟧)$。`,
+  '1zcx1qjywp8': R`$f(x) = ⟦0⟧$ について、$f''(⟦1⟧)$ を求めなさい。`,
+  '22jprctwicn': R`$f'(x) = ⟦0⟧$、$f''(x) = ⟦1⟧$。よって $f''(⟦2⟧) = ⟦3⟧$。`,
+  '1pkqexq4tgg': R`$f(x) = x\ln x$ とする。$f'(e^{⟦0⟧})$ を求めなさい。`,
+  '20aqqhk2mtp': R`積の微分：$f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$。よって $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$。`,
+
+  // diff-applications
+  'g0oq20zzs': R`
+<h3>ロピタルの定理</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$（2 回適用）。</p>
+<h3>最適化</h3>
+<ol><li>最適化したい量を 1 変数の関数で表す（条件式を使う）。</li><li>微分して $f'(x) = 0$ を解く。</li><li>最大・最小であることを確かめる（2 階導関数または端点）。</li></ol>
+⟦1⟧
+<h3>関連する変化率</h3>
+<p>関係式を時間で微分する。広がる円なら $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$。</p>
+<h3>1 次近似</h3>
+⟦2⟧
+<h3>凹凸と平均値の定理</h3>
+<p>$f'' \gt 0$：下に凸；$f'' \lt 0$：上に凸；凹凸が入れかわる点が<b>変曲点</b>。<b>平均値の定理：</b>$f$ が $[a, b]$ で連続で内部で微分可能なら、$(a, b)$ 内に $f'(c) = \frac{f(b) - f(a)}{b - a}$ となる $c$ が存在する。</p>
+⟦3⟧`,
+  '11hmiu9w9s4': R`<p>$\lim \frac{f(x)}{g(x)}$ が $\frac{0}{0}$ または $\frac{\infty}{\infty}$ の形なら、$\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$（右辺の極限が存在するとき）。</p>`,
+  '189x52ko5mw': R`<p>1 辺 18 cm の正方形の板の四隅から 1 辺 $x$ の正方形を切り取り、ふちを折り曲げる。$V = x(18 - 2x)^2$、$V' = (18 - 2x)(18 - 6x) = 0$ より $x = 3$、よって $V_{\max} = 3 \cdot 12^2 = 432$ cm³。</p>`,
+  'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{例 } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1`,
+  '15384lzo6ba': R`<p>ロピタルの定理は分子と分母を<b>別々に</b>微分する——商の微分公式ではない。</p>`,
+  's2219vpl96': R`$\displaystyle\lim_{x \to 0}\frac{1 - \cos ⟦0⟧x}{x^2}$ を求めなさい。`,
+  '1tq22svmx8r': R`ロピタルの定理を 2 回：$\frac{⟦0⟧\sin ⟦1⟧x}{2x} \to \frac{⟦2⟧\cos ⟦3⟧x}{2} \to \frac{⟦4⟧}{2}$。`,
+  'v9t0b7xos3': R`$\displaystyle\lim_{x \to 0}\frac{⟦0⟧}{⟦1⟧x}$ を求めなさい。`,
+  'wudu9stdyh': R`$\frac{0}{0}$ の形なので分子と分母を微分する：$\frac{⟦0⟧}{⟦1⟧} \to \frac{⟦2⟧}{⟦3⟧}$。`,
+  'b8a0ml45bv': R`縦 ⟦0⟧ cm、横 ⟦1⟧ cm の板の四隅から 1 辺 $x$ cm の同じ正方形を切り取り、ふちを折り曲げてふたのない箱をつくります。⟦2⟧`,
+  '6fzl8050w8': R`体積が最大になる x の値はいくつですか？`,
+  '1nbs4g9250e': R`体積の最大値はいくつですか？`,
+  '1xaya4958aj': R`$V = x(⟦0⟧ - 2x)^2$、$V' = (⟦1⟧ - 2x)(⟦2⟧ - 6x) = 0$ より $x = ⟦3⟧$（もう一方の解では体積が 0）。$V = ⟦4⟧(⟦5⟧)^2 = ⟦6⟧$ cm³。`,
+  'g44lawx7yb': R`円の半径が毎秒 ⟦0⟧ cm の割合で増えています。半径が ⟦1⟧ cm のとき、面積はどんな割合で増えていますか？$\pi$ を用いて答えなさい。`,
+  'pvrsmdtr3x': R`$\frac{dA}{dt} = 2\pi r\frac{dr}{dt} = 2\pi(⟦0⟧)(⟦1⟧) = ⟦2⟧$ cm²/s。`,
+  'w8wuhpzsgd': R`球形の風船の半径が毎秒 ⟦0⟧ cm の割合で増えています。半径が ⟦1⟧ cm のとき、体積はどんな割合で増えていますか？$\pi$ を用いて答えなさい。`,
+  '1ca85zwkg9p': R`$\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt} = 4\pi(⟦0⟧)^2(⟦1⟧) = ⟦2⟧$ cm³/s。`,
+  '2c66yuykiw5': R`$\sqrt{x}$ の $x = ⟦0⟧$ における 1 次近似を使って $\sqrt{⟦1⟧}$ を見積もりなさい。`,
+  'rjw48nwhxr': R`分数または小数で入力してください。`,
+  '16wswpodtbc': R`$f(x) = ⟦0⟧$ の変曲点の $x$ 座標を求めなさい。`,
+  '16igzoef2co': R`$f''(x) = 6x ⟦0⟧ = 0$ より $x = ⟦1⟧$；そこで $f''$ の符号が変わる。`,
+  '2dw0fqk2lyr': R`$[⟦1⟧, ⟦2⟧]$ で $f(x) = ⟦0⟧$。平均値の定理が保証する $c$ の値を求めなさい。`,
+  '1c5ltuvzsrq': R`平均の傾き $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$。$f'(c) = 2c ⟦5⟧ = ⟦6⟧$ より $c = ⟦7⟧$——2 次関数ではいつも区間の中点になる。`,
+
+  // integration-techniques
+  'vrvi3bfbr': R`
+<h3>置換積分</h3>
+<p>関数とその導関数の組を探す。$u = g(x)$、$du = g'(x)\,dx$ とおくと：</p>
+⟦0⟧
+<p>定積分では積分区間も置き換える（または元の変数に戻してから計算する）。</p>
+<h3>部分積分</h3>
+⟦1⟧
+⟦2⟧
+<h3>部分分数分解</h3>
+<p>有理関数を簡単な分数に分ける：$\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$。分母を払って $x = 1$、$x = -2$ を代入すると $A = \frac{4}{3}$、$B = \frac{11}{3}$。それぞれ積分すると対数になる。</p>
+<h3>広義積分</h3>
+⟦3⟧
+⟦4⟧`,
+  '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
+  '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>$u$ は <b>対・逆・代・三・指</b>の順で選ぶ：対数関数、逆三角関数、多項式（代数関数）、三角関数、指数関数——先に来るものを $u$ にする。</p>`,
+  'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$：$u = x$、$dv = e^{2x}dx$ とすると $du = dx$、$v = \frac{1}{2}e^{2x}$。結果：$\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$。</p>`,
+  '2clmb8muggz': R`\int_1^\infty \frac{dx}{x^p} = \frac{1}{p - 1} \text{（}p \gt 1\text{；}p \le 1 \text{ では発散）} \qquad \int_0^\infty e^{-kx}\,dx = \frac{1}{k}`,
+  'l8twy4h3ug': R`<p>$\int \frac{g'(x)}{g(x)}\,dx = \ln|g(x)| + C$——重い方法を使う前に、この形に気づこう。</p>`,
+  'fesx7djw83': R`xe^{x} - e^{x}`,
+  'yia5dxx3ds': R`xe^{x} + e^{x}`,
+  '1afuqmxgeq5': R`$\displaystyle\int ⟦0⟧\,dx$ を求めなさい。`,
+  '1235n0zk19z': R`⟦0⟧ として部分積分：結果は ⟦1⟧。微分して確かめよう。`,
+  'pklgf5s2ey': R`$\displaystyle\int_0^{⟦0⟧} 2x(x^2 + 1)^{⟦1⟧}\,dx$ を計算しなさい。`,
+  '51fkmlo4j8': R`$u = x^2 + 1$、$du = 2x\,dx$ とおく。区間は $u = 1$ から $u = ⟦0⟧$：$\int_1^{⟦1⟧} u^{⟦2⟧}\,du = \left[\frac{u^{⟦3⟧}}{⟦4⟧}\right]_1^{⟦5⟧} = \frac{⟦6⟧ - 1}{⟦7⟧} = ⟦8⟧$。`,
+  '1tmpbvg6cku': R`部分分数に分解しなさい：$\dfrac{⟦0⟧}{⟦1⟧⟦2⟧}$`,
+  '1iitr1pnozn': R`$\frac{P}{⟦0⟧} + \frac{Q}{⟦1⟧}$ とおいて分母を払う。$x = ⟦2⟧$ を代入すると $P = ⟦3⟧$；$x = ⟦4⟧$ を代入すると $Q = ⟦5⟧$。`,
+  'r1rswlk024': R`$\displaystyle\int_0^{\pi/⟦0⟧} \sin(⟦1⟧x)\,dx$ を計算しなさい。`,
+  '1l97oofm3p4': R`$\displaystyle\int_0^{\pi/⟦0⟧} \cos(⟦1⟧x)\,dx$ を計算しなさい。`,
+  'pqalznrxip': R`$\displaystyle\int_1^{\infty} \frac{dx}{x^{⟦0⟧}}$ を計算しなさい。`,
+  '4t49nbtc5g': R`$\left[\frac{x^{⟦0⟧}}{⟦1⟧}\right]_1^{\infty} = 0 - \frac{1}{⟦2⟧} = ⟦3⟧$。$p = ⟦4⟧ \gt 1$ なので収束する。`,
+  'w9i8vvwvmq': R`$\displaystyle\int_0^{\infty} e^{-⟦0⟧x}\,dx$ を計算しなさい。`,
+  '1wnox68sxsf': R`$\displaystyle\int_0^{⟦0⟧} \frac{2x}{x^2 + 1}\,dx$ を計算しなさい。`,
+  '2ctr5v6it67': R`ln(10) のような答え方もできます。`,
+  '8ud8r2yql4': R`分子は分母の導関数：$\left[\ln(x^2 + 1)\right]_0^{⟦0⟧} = \ln ⟦1⟧ - \ln 1 = \ln ⟦2⟧$。`,
+
+  // integral-applications
+  '1iuoee1mxv2': R`積分`,
+  'u2fo7phj7e': R`曲線で囲まれた面積`,
+  '26rkw1zgbbl': R`体積（円板法）、x 軸のまわり`,
+  '1gdvfh77kjd': R`体積（ワッシャー法）`,
+  '2e8c5l4l65u': R`体積（円筒殻法）、y 軸のまわり`,
+  'hf97eg5buy': R`平均値`,
+  '1wrr2ozjzke': R`曲線の長さ`,
+  '1aamatrm1qc': R`仕事（変化する力）`,
+  '25psf0wh4wl': R`<p>$y = \sqrt{x}$（$0 \le x \le 4$）を $x$ 軸のまわりに回転：$V = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$。</p>`,
+  '84txgrqh8f': R`<p>ばね定数 $k = 200$ N/m のばね（フックの法則 $F = kx$）を 0.3 m 伸ばす：$W = \int_0^{0.3} 200x\,dx = 100(0.3)^2 = 9$ J。</p>`,
+  '4sufc6qh8k': R`<p>まず図をかく。曲線の交点（これが積分区間）と、どちらが上かを調べる——被積分関数はいつも<b>上の関数 − 下の関数</b>（または外側の半径の 2 乗 − 内側の半径の 2 乗）。</p>`,
+  '2dts82e214f': R`<p>円板法で 2 乗するのは<b>関数</b>であって積分ではない：$\pi\int f^2$ であり、$\pi\left(\int f\right)^2$ ではない。</p>`,
+  '254d1knheuj': R`第 1 象限で $y = x^3$ と $y = ⟦0⟧x$ に囲まれた部分の面積を求めなさい。`,
+  '6v6svg4kwp': R`交点は $x = 0$ と $x = ⟦0⟧$。$\int_0^{⟦1⟧} (⟦2⟧x - x^3)\,dx = \frac{⟦3⟧(⟦4⟧)^2}{2} - \frac{⟦5⟧^4}{4} = ⟦6⟧$。`,
+  '137eefen200': R`\pi\int_0^{⟦0⟧} x\,dx = \frac{\pi (⟦1⟧)^2}{2}`,
+  '1minpuvvl2n': R`\pi\int_0^{⟦0⟧} x^2\,dx = \frac{\pi (⟦1⟧)^3}{3}`,
+  's7flm3xrdz': R`\pi\int_0^{⟦0⟧} x^4\,dx = \frac{\pi (⟦1⟧)^5}{5}`,
+  '217wjez6n7': R`$0 \le x \le ⟦1⟧$ で $⟦0⟧$ の下側の部分を $x$ 軸のまわりに回転させます。体積を $\pi$ を用いて求めなさい。`,
+  '1icurdoc4sc': R`円板法：$V = ⟦0⟧ = ⟦1⟧$。`,
+  '2gj0lncwv9v': R`$y = ⟦0⟧x$ と $y = x^2$ で囲まれた部分を $x$ 軸のまわりに回転させます。体積を $\pi$ を用いて求めなさい。`,
+  '79trxd9ylt': R`$[0, ⟦1⟧]$ で外側の半径 $⟦0⟧x$、内側の半径 $x^2$ のワッシャー：$V = \pi\int_0^{⟦2⟧} (⟦3⟧x^2 - x^4)\,dx = \pi\left(\frac{⟦4⟧}{3} - \frac{⟦5⟧}{5}\right) = ⟦6⟧$。`,
+  '7u6xsm6kr0': R`$[0, ⟦0⟧]$ における $f(x) = x^2$ の平均値を求めなさい。`,
+  '14439tvneep': R`$[⟦1⟧, ⟦2⟧]$ における $f(x) = ⟦0⟧$ の平均値を求めなさい。`,
+  'ooxywxrn7m': R`1 次関数の平均値は中点 $x = ⟦0⟧$ での値に等しい：$⟦1⟧(⟦2⟧) ⟦3⟧ = ⟦4⟧$。`,
+  'mptjdpftfn': R`$y = \frac{2}{3}x^{3/2}$ の $x = 0$ から $x = ⟦0⟧$ までの曲線の長さを求めなさい。`,
+  'z00id81ez': R`$y' = x^{1/2}$ なので $L = \int_0^{⟦0⟧} \sqrt{1 + x}\,dx = \left[\frac{2}{3}(1 + x)^{3/2}\right]_0^{⟦1⟧} = \frac{2}{3}(⟦2⟧ - 1) = ⟦3⟧$。`,
+  'lpjavqv13n': R`ばね定数 $k = ⟦0⟧$ N/m のばねがあります。自然の長さから ⟦1⟧ m 伸ばすのに必要な仕事を求めなさい。`,
+
+  // series
+  '1efhn95iov3': R`
+<p>無限級数 $\sum a_n$ は、部分和 $S_N = a_1 + \cdots + a_N$ が有限の値に近づくとき<b>収束する</b>という。</p>
+⟦0⟧
+⟦1⟧
+<h3>べき級数とテイラー級数</h3>
+<p>べき級数 $\sum c_n (x - a)^n$ は $|x - a| \lt R$ で収束する。$R$ を<b>収束半径</b>という（比判定法で求める）。$f$ の $a$ のまわりのテイラー級数は $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$；0 のまわりのものをマクローリン級数という。</p>
+⟦2⟧
+⟦3⟧`,
+  '1fv7uha3bb4': R`判定法`,
+  '1boy0ga8tbt': R`結論`,
+  '7ih7yeq8ue': R`発散判定（一般項）`,
+  '1muum9p7rzf': R`$a_n \not\to 0$ なら級数は発散する`,
+  '1ky8r0l0qv8': R`$\sum ar^n$ は $|r| \lt 1$ のときに限り収束；和は $\frac{a}{1 - r}$`,
+  'rijv0gvehd': R`p 級数`,
+  '7fut7e3zun': R`$\sum \frac{1}{n^p}$ は $p \gt 1$ のときに限り収束`,
+  '28h8cjdskg3': R`比較判定法`,
+  '23c91vpuxqn': R`既知の級数と比べる`,
+  '1684r7a6bgw': R`比判定法`,
+  'oc6lw933sm': R`$L = \lim\left|\frac{a_{n+1}}{a_n}\right|$：$L \lt 1$ なら収束、$L \gt 1$ なら発散`,
+  '131362k70as': R`交代級数`,
+  '1ew5e8sa4g7': R`$b_n \downarrow 0$ なら $\sum (-1)^n b_n$ は収束`,
+  '12cxen3heke': R`<p><b>望遠鏡和：</b>$\displaystyle\sum_{n=1}^{N}\frac{1}{n(n+1)} = \sum\left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$ で、これは 1 に近づく。</p>`,
+  '1ql1d0zgkve': R`マクローリン級数`,
+  '1arf5rbq565': R`成り立つ範囲`,
+  'oui4ssl2gv': R`すべての x`,
+  'kvkz0oqeo6': R`<p>$a_n \to 0$ は必要条件だが十分条件ではない：調和級数 $\sum \frac{1}{n}$ は $\frac{1}{n} \to 0$ でも発散する。</p>`,
+  '16u2ienbhtn': R`$\displaystyle\sum_{n=⟦0⟧}^{\infty} ⟦1⟧\left(⟦2⟧\right)^n$ を求めなさい。`,
+  '1kgeq4tf48a': R`公比 $r = ⟦0⟧$、$|r| \lt 1$、初項 $⟦1⟧$ の等比級数：和 $= \frac{⟦2⟧}{1 - ⟦3⟧} = ⟦4⟧$。`,
+  '1eiae773y4x': R`$p = \frac{1}{2} \le 1$ の p 級数である`,
+  '1wok8okhtk9': R`調和級数（$p = 1$）である`,
+  '22u9pb285sv': R`$p = \frac{3}{2} \gt 1$ の p 級数である`,
+  '204d6a8dcww': R`$p = 2 \gt 1$ の p 級数である`,
+  '243y5j9lor6': R`一般項による判定：$\frac{n}{n+1} \to 1 \ne 0$`,
+  'ajpp0zqaap': R`交代級数の判定法（ライプニッツ）`,
+  'wlawq7ztg6': R`比判定法：$\frac{3}{n+1} \to 0 \lt 1$`,
+  '265645ebmpe': R`比判定法：$\frac{n+1}{2} \to \infty$`,
+  '1lt7pp2ijz': R`$|r| = \frac{2}{3} \lt 1$ の等比級数である`,
+  '6goqsof3sp': R`$|r| = \frac{3}{2} \ge 1$ の等比級数である`,
+  '1d4bvtuk3gt': R`$\sum\frac{1}{n^2}$ との比較`,
+  '2846ssfmjxq': R`調和級数との極限比較`,
+  's3fpv9edn1': R`$\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ は収束しますか、発散しますか？`,
+  '1szqlme8ixw': R`収束する`,
+  '1mr32mwk08w': R`発散する`,
+  '25wy0z8lea1': R`収束する（理由：⟦0⟧）。`,
+  'zibgubfq': R`発散する（理由：⟦0⟧）。`,
+  'd893gqg85h': R`$⟦1⟧$ のマクローリン級数における $x^{⟦0⟧}$ の係数を求めなさい。`,
+  '2gib9c2xh5i': R`$e^u = \sum \frac{u^n}{n!}$ で $u = ⟦0⟧$：係数は $\frac{(⟦1⟧)^{⟦2⟧}}{⟦3⟧!} = ⟦4⟧$。`,
+  '1i7l7fodjgy': R`$\cos(⟦1⟧x)$ のマクローリン級数における $x^{⟦0⟧}$ の係数を求めなさい。`,
+  '27l5wjsmcqy': R`$\cos u = 1 - \frac{u^2}{2!} + \frac{u^4}{4!} - \cdots$ で $u = ⟦0⟧x$：係数 $= ⟦1⟧$。`,
+  '13hswzoz6ds': R`$\dfrac{1}{1 ⟦1⟧x}$ のマクローリン級数における $x^{⟦0⟧}$ の係数を求めなさい。`,
+  '950amaqi7k': R`$\frac{1}{1 - u} = \sum u^n$ で $u = ⟦0⟧$：$x^{⟦1⟧}$ の係数は $(⟦2⟧)^{⟦3⟧} = ⟦4⟧$。`,
+  '12ohsobdns': R`$\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ の収束半径を求めなさい。`,
+  'y2p3mhwix3': R`比判定法：$\left|\frac{a_{n+1}}{a_n}\right| \to \frac{|⟦0⟧|}{⟦1⟧}$。これが 1 より小さいのは $|⟦2⟧| \lt ⟦3⟧$ のときなので、$R = ⟦4⟧$。`,
+  '1hfprth485h': R`$\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$ を求めなさい。`,
+  '24anbau0yh': R`望遠鏡和：$S_N = 1 - \frac{1}{N+1} \to 1$。`,
+  'kcknro2xmq': R`$\displaystyle\sum_{n=1}^{⟦0⟧} \frac{1}{n(n+1)}$ を求めなさい。`,
+  'd2ku2hqqe6': R`$\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$ なので、和は打ち消し合って $1 - \frac{1}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$。`,
+  '2d09rr0z1dx': R`マクローリン級数が $\displaystyle ⟦0⟧$ となる関数はどれですか？`,
+  '262p4pwoflz': R`これは $⟦0⟧$ の標準的な展開である。`,
+
+  // multivariable
+  'elrzs4craq': R`
+<p>$f(x, y)$ の<b>偏導関数</b> $f_x = \frac{\partial f}{\partial x}$ は、$y$ を定数とみなして $x$ で微分したもの（$f_y$ はその逆）。$f = x^2y^3$ なら $f_x = 2xy^3$、$f_y = 3x^2y^2$。</p>
+<h3>勾配と方向微分</h3>
+⟦0⟧
+<h3>臨界点：2 階導関数による判定</h3>
+<p>$f_x = f_y = 0$ となる点で $D = f_{xx}f_{yy} - f_{xy}^2$ とおく。</p>
+<ul><li>$D \gt 0$、$f_{xx} \gt 0$：極小。 &nbsp; $D \gt 0$、$f_{xx} \lt 0$：極大。</li><li>$D \lt 0$：鞍点。 &nbsp; $D = 0$：判定できない。</li></ul>
+<h3>2 重積分</h3>
+<p>長方形上では 1 変数ずつ積分する（フビニの定理）：$\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$。極座標では $dA = r\,dr\,d\theta$。</p>
+<h3>ラグランジュの未定乗数法</h3>
+<p>条件 $g = c$ のもとで $f$ を最適化するには、$\nabla f = \lambda\nabla g$ と条件式を連立して解く。</p>
+⟦1⟧
+⟦2⟧`,
+  '1lpi0dcmqpt': R`$$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ は最も急に増加する方向を向き、その大きさがその最大の変化率である。</p>`,
+  'opu0v1dwpl': R`<p>$x + y = 10$ のもとで $f = xy$ を最大化：$(y, x) = \lambda(1, 1)$ より $x = y = 5$、最大値は 25。</p>`,
+  '83uqphqp8x': R`<p>極座標では $dA = r\,dr\,d\theta$ の余分な因子 $r$ を忘れないこと。</p>`,
+  'oxpugv5o3o': R`$f(x, y) = ⟦0⟧$ について、$f_⟦1⟧(⟦2⟧, ⟦3⟧)$ を求めなさい。`,
+  '131ofsfpabh': R`$f_x = ⟦0⟧$ なので $f_x(⟦1⟧, ⟦2⟧) = ⟦3⟧$。`,
+  'tma98sxgbh': R`$f_y = ⟦0⟧$ なので $f_y(⟦1⟧, ⟦2⟧) = ⟦3⟧$。`,
+  '1894fvoucsb': R`$f(x, y) = ⟦2⟧$ について、$\nabla f(⟦0⟧, ⟦1⟧)$ を求めなさい。`,
+  '1mtqnuj8e72': R`2 つの成分をコンマで区切って入力してください。`,
+  '1wlrv45vn5z': R`$f_x = ⟦0⟧$、$f_y = ⟦1⟧$。$⟦2⟧$ で：$\nabla f = ⟦3⟧$。`,
+  '280l4hqbl71': R`$f(x, y) = ⟦0⟧$ の点 $⟦1⟧$ における $⟦2⟧$ 方向の方向微分係数を求めなさい。`,
+  '23ij1mnh3qx': R`$\nabla f = (⟦0⟧, ⟦1⟧)$、単位ベクトルは $\frac{1}{⟦2⟧}⟦3⟧$。$D_{\mathbf{u}}f = \frac{⟦4⟧(⟦5⟧) + ⟦6⟧(⟦7⟧)}{⟦8⟧} = ⟦9⟧$。`,
+  '1gbu12sd7yr': R`極小`,
+  'tfsmpd4xkw': R`極大`,
+  '29jq1piqelp': R`鞍点`,
+  '1knzmyv1q46': R`判定できない`,
+  'uai27zrool': R`$f(x, y) = ⟦0⟧$ の臨界点 $(0, 0)$ を分類しなさい。`,
+  'k6dc7gm5pm': R`$D \gt 0$ かつ $f_{xx} ⟦0⟧ 0$`,
+  'scf747plq6': R`$\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} xy\,dy\,dx$ を計算しなさい。`,
+  'scioeo7pw6': R`$\int_0^{⟦0⟧} xy\,dy = \frac{⟦1⟧x}{2}$、次に $\int_0^{⟦2⟧} \frac{⟦3⟧x}{2}\,dx = \frac{⟦4⟧ \cdot ⟦5⟧}{4} = ⟦6⟧$。`,
+  'ktiyfy2vps': R`$\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} (x + y)\,dy\,dx$ を計算しなさい。`,
+  'lgh3731wbd': R`$\int_0^{⟦0⟧} (x + y)\,dy = ⟦1⟧x + \frac{⟦2⟧}{2}$、次に $\int_0^{⟦3⟧} \left(⟦4⟧x + \frac{⟦5⟧}{2}\right)dx = \frac{⟦6⟧(⟦7⟧)^2}{2} + \frac{⟦8⟧(⟦9⟧)}{2} = ⟦10⟧$。`,
+  '1oi548attkh': R`ラグランジュの未定乗数法（または他の方法）で、$x ⟦0⟧y = ⟦1⟧$、$x, y \gt 0$ のもとでの $f = xy$ の最大値を求めなさい。`,
+  'helueus42k': R`$\nabla f = \lambda\nabla g$：$y = \lambda$、$x = ⟦0⟧\lambda$。よって $x = ⟦1⟧y$、$⟦2⟧y = ⟦3⟧$ から $y = ⟦4⟧$、$x = ⟦5⟧$、$xy = ⟦6⟧$。`,
+  '1c5ngt35a15': R`$D$ を円板 $x^2 + y^2 \le ⟦0⟧$ として、$\displaystyle\iint_D (x^2 + y^2)\,dA$ を計算しなさい。`,
+  'hl1el1t8oy': R`極座標：$\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$。`,
+
+  // ode
+  '29y4y4v6xas': R`
+<p><b>微分方程式</b>は関数とその導関数の関係を表す。現れる最も高い導関数の階数をその<b>階数</b>という。<b>一般解</b>は任意定数を含み、初期条件によって特殊解が決まる。</p>
+<h3>変数分離形</h3>
+⟦0⟧
+<p>特別な場合：$\frac{dy}{dt} = ky$ の解は $y = y_0e^{kt}$——指数関数的な増加（$k \gt 0$）または減少（$k \lt 0$）。半減期が $T$ のとき、残る量は $N_0\left(\frac{1}{2}\right)^{t/T}$。</p>
+<h3>1 階線形微分方程式</h3>
+⟦1⟧
+<h3>定数係数の 2 階線形微分方程式</h3>
+<p>$ay'' + by' + cy = 0$ に $y = e^{rx}$ を代入すると<b>特性方程式</b> $ar^2 + br + c = 0$ が得られる。</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$：変数を分離して $\int\frac{dy}{y} = \int 2x\,dx$、よって $\ln|y| = x^2 + C$、$y = Ae^{x^2}$。</p>`,
+  '24caer7vpv9': R`<p>$y' + P(x)y = Q(x)$ には<b>積分因子</b> $\mu(x) = e^{\int P(x)\,dx}$ をかける。すると $(\mu y)' = \mu Q$ となり、$y = \frac{1}{\mu}\int \mu Q\,dx$。</p>`,
+  '2fhw42v6h9r': R`特性方程式の解`,
+  'mdry0kk339': R`一般解`,
+  '1l55nwfgsi9': R`異なる 2 つの実数解 $r_1, r_2$`,
+  'fkai3ftnyj': R`重解 $r$`,
+  '3w3x9xlope': R`虚数解 $\alpha \pm \beta i$`,
+  '68uvb89pvs': R`<p>$y'' + 4y = 0$：$r^2 + 4 = 0$、$r = \pm 2i$ なので $y = C_1\cos 2x + C_2\sin 2x$——単振動。</p>`,
+  'vgovr9zohx': R`<p>重解のとき、$C_1e^{rx} + C_2e^{rx}$ は実質 1 つの解にすぎない。余分な因子 $x$ をかけると 2 つ目の解になる。</p>`,
+  '234p7duj3ts': R`$r^2 ⟦0⟧r ⟦1⟧ = 0$ の解は $r = ⟦2⟧$ と $r = ⟦3⟧$`,
+  '1hssho6k9w6': R`$r^2 ⟦0⟧r + ⟦1⟧ = (r ⟦2⟧)^2 = 0$ は重解 $r = ⟦3⟧$ をもつ`,
+  '2chd8d4gjpq': R`$r^2 ⟦0⟧r + ⟦1⟧ = 0$ は虚数解 $r = ⟦2⟧ \pm ⟦3⟧i$ をもつ`,
+  '1ngxukqkkvf': R`$⟦0⟧$ の一般解を求めなさい。`,
+  'irmvhn9wve': R`特性方程式 ⟦0⟧。よって ⟦1⟧。`,
+  '5e0s1xl4f9': R`⟦0⟧ g の放射性試料の半減期は ⟦1⟧ 年です。⟦2⟧ 年後に残っている量を求めなさい。`,
+  '2eo258s1sy7': R`$⟦0⟧$ 年は半減期 ⟦1⟧ 回分：$⟦2⟧\left(\frac{1}{2}\right)^{⟦3⟧} = ⟦4⟧$ g。`,
+  '1btlmc6ms72': R`変数分離形の微分方程式 $\dfrac{dy}{dx} = ⟦0⟧\,y$ を解きなさい。`,
+  'lgqvn6fqu1': R`$\int\frac{dy}{y} = \int ⟦0⟧\,dx$ より $\ln|y| = ⟦1⟧ + C_0$、よって $y = Ce^{⟦2⟧}$。`,
+  '1wp1r4xsb5y': R`$y' + ⟦0⟧\,y = x^2$ の積分因子は何ですか？`,
+  '1d5o356dbul': R`ニュートンの冷却の法則から $T(t) = ⟦0⟧ + ⟦1⟧e^{-⟦2⟧t}$（°C、$t$ は分）となります。⟦3⟧ 分後の温度を小数第 1 位まで求めなさい。`,
+  'uzon2x7fe4': R`\frac{dy}{dx} = x^2y`,
+  '8swe0ei2mu': R`\frac{d^2y}{dx^2} + y = 0`,
+  '28kd92q06yf': R`\frac{d^3y}{dx^3} - 2\frac{dy}{dx} = 0`,
+  '1jgz4mikafn': R`微分方程式 $⟦0⟧$ の階数はいくつですか？`,
+  'rxb07imi4n': R`階数は現れる最も高い導関数の階数：ここでは ⟦0⟧。`,
+});

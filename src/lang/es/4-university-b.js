@@ -1,0 +1,322 @@
+/* Español — Universidad (álgebra lineal → transformada de Laplace) */
+addT('es', {
+  // linear-algebra
+  'aoku0sfspm': R`
+<h3>Sistemas lineales y rango</h3>
+<p>Un sistema $A\mathbf{x} = \mathbf{b}$ se resuelve reduciendo por filas la matriz ampliada $[A \mid \mathbf{b}]$ a forma escalonada. El <b>rango</b> de $A$ es el número de pivotes (filas no nulas en la forma escalonada).</p>
+⟦0⟧
+<h3>Determinantes</h3>
+⟦1⟧
+<p>Propiedades útiles para matrices $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Regla de Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Valores propios y vectores propios</h3>
+⟦2⟧
+⟦3⟧
+<p>Si $A$ tiene $n$ vectores propios independientes, es <b>diagonalizable</b>: $A = PDP^{-1}$, con los vectores propios como columnas de $P$ y los valores propios en la diagonal de $D$.</p>
+⟦4⟧`,
+  'q9p1mxjp5t': R`<p><b>Teorema del rango:</b> para una matriz $m \times n$, $\text{rango}(A) + \text{nulidad}(A) = n$. Una matriz cuadrada $A$ es invertible $\iff \det A \ne 0 \iff$ sus columnas son linealmente independientes $\iff \text{rango} = n$.</p>`,
+  '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
+  'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Para una matriz $2 \times 2$: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. Los valores propios suman la traza y su producto es el determinante.</p>`,
+  '1khrdp55fj': R`<p>$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$: $\lambda^2 - 7\lambda + 10 = 0$, así que $\lambda = 2; 5$. Para $\lambda = 5$: $(A - 5I)\mathbf{v} = 0$ da $\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.</p>`,
+  '21awxvuldiu': R`<p>$\det(2A) = 2^n\det A$, no $2\det A$: se multiplica cada una de las $n$ filas.</p>`,
+  '19a9vb1rr2m': R`Desarrolla por la primera fila: $⟦0⟧(⟦1⟧) - ⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$.`,
+  '1j2onaty0gh': R`Halla los valores propios de $⟦0⟧$.`,
+  'ynzibmbl86': R`Escribe los dos valores propios separados por punto y coma.`,
+  '23zxsoa3fr0': R`$\lambda^2 - (\text{tr})\lambda + \det = \lambda^2 ⟦0⟧\lambda ⟦1⟧ = 0$, así que $\lambda = ⟦2⟧$ o $\lambda = ⟦3⟧$. (Comprobación: suman la traza ⟦4⟧ y su producto es el determinante ⟦5⟧.)`,
+  '2etvam6ts6i': R`Halla la nulidad de $⟦0⟧$.`,
+  '21ne48l6zig': R`Halla el rango de $⟦0⟧$.`,
+  'guqg5s6tj7': R`$\det \ne 0$, así que las tres filas son independientes: rango 3.`,
+  '1q1ko1sbkfa': R`Una fila es combinación de las otras dos, y esas dos son independientes: rango 2.`,
+  '2bdvxka58sc': R`Todas las filas son múltiplos de la misma fila: rango 1.`,
+  '1pbgto6ecv4': R` Por el teorema del rango, nulidad $= 3 - ⟦0⟧ = ⟦1⟧$.`,
+  '167s06hkdpt': R`$A$ es una matriz $⟦0⟧ \times ⟦1⟧$ con $\det A = ⟦2⟧$. Halla $\det(A^{-1})$.`,
+  '124zlt4oeit': R`$A$ es una matriz $⟦0⟧ \times ⟦1⟧$ con $\det A = ⟦2⟧$. Halla $⟦3⟧$.`,
+  'vtdcjwqxja': R`Cada una de las ⟦0⟧ filas se multiplica por ⟦1⟧: $⟦2⟧^{⟦3⟧} \times ⟦4⟧ = ⟦5⟧$.`,
+  'd4v2fg20q4': R`Trasponer no cambia el determinante: ⟦0⟧.`,
+  '26v5gcnmls7': R`Resuelve el sistema y da $⟦0⟧$: $$\begin{cases} ⟦1⟧ \end{cases}$$`,
+  '36y25q4ph4': R`Por eliminación (o por la regla de Cramer, ya que $\det A = ⟦0⟧ \ne 0$), $(x; y; z) = ⟦1⟧$, así que $⟦2⟧ = ⟦3⟧$.`,
+  '1w651quute8': R`¿Son linealmente independientes los vectores $⟦0⟧$?`,
+  '1nhr23w337j': R`Linealmente independientes`,
+  '1ykattdq3py': R`Linealmente dependientes`,
+  '71c2j2dn5w': R`Ponlos como columnas de una matriz: su determinante es ⟦0⟧. ⟦1⟧`,
+  'd8cecy9nad': R`No es cero, así que son independientes.`,
+  'nwja1imq1g': R`Es cero, así que son dependientes (uno es combinación de los otros).`,
+  '109v3qsafjj': R`$\mathbf{v} = ⟦0⟧$ es un vector propio de $A = ⟦1⟧$. ¿Cuál es su valor propio?`,
+  'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, así que $\lambda = ⟦3⟧$.`,
+
+  // complex
+  'n87wkmbfmz': R`
+<p>La unidad imaginaria cumple $i^2 = -1$. Un número complejo es $z = a + bi$, con parte real $\text{Re}(z) = a$ y parte imaginaria $\text{Im}(z) = b$. Las potencias de $i$ se repiten cada cuatro: $i; -1; -i; 1; \ldots$</p>
+⟦0⟧
+⟦1⟧
+<h3>Forma polar y fórmula de Euler</h3>
+⟦2⟧
+⟦3⟧
+<p>Las raíces $n$-ésimas de la unidad son $e^{2\pi ik/n}$ para $k = 0; 1; \ldots; n - 1$: puntos igualmente espaciados en la circunferencia unidad.</p>
+⟦4⟧`,
+  'rz9c61mn5': R`Multiplicar`,
+  '1lvuh3a6n9s': R`Conjugado`,
+  '73hhnvn9cf': R`$\bar{z} = a - bi$, y $z\bar{z} = a^2 + b^2$`,
+  '8ju8zqboy3': R`Dividir`,
+  '23m7410nhvb': R`multiplica numerador y denominador por el conjugado del denominador`,
+  '2at5jue99d3': R`Módulo`,
+  '26m66idec7i': R`Argumento`,
+  '18sul084cs9': R`$\arg z = \theta$ con $\tan\theta = \frac{b}{a}$ (atención al cuadrante)`,
+  'cavhj9pbbb': R`$$z = r(\cos\theta + i\sin\theta) = re^{i\theta} \qquad\qquad z^n = r^n e^{in\theta} \;\;\text{(De Moivre)}$$`,
+  '16lvmowwhri': R`<p>$1 + i = \sqrt{2}e^{i\pi/4}$, así que $(1 + i)^8 = (\sqrt{2})^8 e^{2\pi i} = 16$.</p>`,
+  '256fv20o5wc': R`<p>El argumento de $-1 - i$ es $-\frac{3\pi}{4}$, no $\frac{\pi}{4}$: $\arctan\frac{b}{a}$ por sí solo no distingue el tercer cuadrante del primero.</p>`,
+  '10omtzlugr6': R`Simplifica $(⟦0⟧)(⟦1⟧)$.`,
+  'hty9ty1x7v': R`Escribe la respuesta en la forma a+bi.`,
+  '1zsla5l2vrq': R`$(⟦0⟧)(⟦1⟧) + (⟦2⟧)(⟦3⟧)i + (⟦4⟧)(⟦5⟧)i + (⟦6⟧)(⟦7⟧)i^2 = ⟦8⟧$, usando $i^2 = -1$.`,
+  '1z0a8n17xaw': R`Halla $|⟦0⟧|$.`,
+  '7g8mi40aa1': R`Simplifica $\dfrac{⟦0⟧}{⟦1⟧}$.`,
+  '1lmk9l2nr3e': R`Multiplica numerador y denominador por $⟦0⟧$. El denominador pasa a ser $⟦1⟧$ y el numerador $⟦2⟧$, así que el resultado es $⟦3⟧$.`,
+  '28axbqdj3sw': R`Simplifica $i^{⟦0⟧}$.`,
+  'q7margvq3g': R`Las potencias de $i$ se repiten cada 4. $⟦0⟧ = 4 \times ⟦1⟧ + ⟦2⟧$, así que $i^{⟦3⟧} = i^{⟦4⟧} = ⟦5⟧$.`,
+  '1pjjj2x31s7': R`Halla el argumento principal $\arg z \in (-\pi; \pi]$ de $z = ⟦0⟧$.`,
+  '2fusqwp7x7b': R`$z = ⟦0⟧$ forma un ángulo $⟦1⟧$ con el semieje real positivo (comprueba su cuadrante), así que $\arg z = ⟦2⟧$.`,
+  '75mna4515k': R`Escribe $z = ⟦0⟧$ en forma exponencial $re^{i\theta}$.`,
+  'bg7vixv5uf': R`$r = |z| = ⟦0⟧$ y $\theta = \arg z = ⟦1⟧$, así que $z = ⟦2⟧e^{i ⟦3⟧}$.`,
+  '15suw4uuv8i': R`Usa el teorema de De Moivre para calcular $(⟦0⟧)^{⟦1⟧}$.`,
+  '2e4kqt1xydt': R`$⟦0⟧ = \sqrt{2}\,e^{i\theta}$ con $\theta = ⟦1⟧$. Entonces $(\sqrt{2})^{⟦2⟧}e^{i⟦3⟧\theta} = ⟦4⟧e^{i⟦5⟧\theta} = ⟦6⟧$.`,
+  '1xd7417ut46': R`Sea $z = ⟦0⟧$. Halla $\text{⟦1⟧}(z^2)$.`,
+
+  // distributions
+  '28d8604hmp9': R`
+<p>Una <b>variable aleatoria</b> $X$ asigna números a los resultados. Para una $X$ discreta con probabilidades $p(x)$:</p>
+⟦0⟧
+⟦1⟧
+<h3>La distribución normal</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
+  '115owsb7jcv': R`Distribución`,
+  'z5bw2hz29r': R`P(X = k) o densidad`,
+  '1runl3m75u8': R`Varianza`,
+  '1xs6so1xns8': R`Binomial $B(n, p)$`,
+  '1rwt3dxzew1': R`Poisson$(\lambda)$`,
+  'n8vzzqt60t': R`Uniforme en $[a; b]$`,
+  '2cdr2b2t24p': R`Exponencial$(\lambda)$`,
+  'l349ss11hc': R`Normal $N(\mu, \sigma^2)$`,
+  '26wsuf9ho5r': R`campana de Gauss`,
+  '1bw0zjk7wg1': R`<p>Tipifica con $Z = \dfrac{X - \mu}{\sigma}$ y usa las tablas de la normal estándar. La <b>regla 68–95–99,7</b>: alrededor del 68%, 95% y 99,7% de los valores están a menos de 1, 2 y 3 desviaciones típicas de la media.</p>`,
+  '1mn62kz3dqi': R`<p>Estaturas $X \sim N(170; 8^2)$. Una estatura de 186 cm tiene $z = \frac{186 - 170}{8} = 2$, así que solo alrededor del 2,5% de las personas son más altas.</p>`,
+  '20odz9yh9el': R`<p>La binomial requiere un número fijo de ensayos independientes con la misma probabilidad de éxito. La de Poisson cuenta sucesos en un intervalo con un ritmo medio constante.</p>`,
+  'hehw668sc4': R`Halla $E[X]$ para esta distribución.⟦0⟧`,
+  'ggtradb99r': R`Se lanza una moneda equilibrada ⟦0⟧ veces. ¿Cuál es la probabilidad de obtener exactamente ⟦1⟧ caras?`,
+  '1gonhfsfe0e': R`$X \sim B\!\left(⟦0⟧; \frac{1}{3}\right)$. Halla $P(X = ⟦1⟧)$.`,
+  '2e8zcm46v5k': R`$X \sim B(⟦0⟧; ⟦1⟧)$. Halla $\text{Var}(X)$.`,
+  '1sv4co448ex': R`$\text{Var}(X) = np(1 - p) = ⟦0⟧(⟦1⟧)(⟦2⟧) = ⟦3⟧$.`,
+  'qmg93npnbt': R`$X \sim B(⟦0⟧; ⟦1⟧)$. Halla $E[X]$.`,
+  '283j9ftzcid': R`$X \sim N(⟦0⟧; ⟦1⟧^2)$. Halla la puntuación $z$ de $x = ⟦2⟧$.`,
+  '1kbz6k640p5': R`$X \sim \text{Poisson}(⟦0⟧)$. Halla $P(X = ⟦1⟧)$ con 4 decimales.`,
+  '2el5p15nmmp': R`entre ⟦0⟧ y ⟦1⟧`,
+  'lwhiv9yady': R`por encima de ⟦0⟧`,
+  'x696ofvj9v': R`por debajo de ⟦0⟧`,
+  '1cdk3p0w1a9': R`Las notas de un examen siguen una distribución normal con media ⟦0⟧ y desviación típica ⟦1⟧. Según la regla 68–95–99,7, ¿qué porcentaje aproximado de notas está ⟦2⟧?`,
+  '2ciqs8smgdj': R`Expresa los valores en desviaciones típicas respecto de la media y usa: 68% a menos de 1σ, 95% a menos de 2σ, 99,7% a menos de 3σ (las colas se reparten a partes iguales lo que queda): <b>⟦0⟧%</b>.`,
+  '1b8kg565owb': R`$E[X] = ⟦0⟧$ y $\text{Var}(X) = ⟦1⟧$. Halla $\text{Var}(⟦2⟧)$.`,
+  '21eg07xqby': R`$\text{Var}(aX + b) = a^2\,\text{Var}(X) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$; la constante ⟦3⟧ no influye.`,
+  'ha18xspr5t': R`$E[X] = ⟦0⟧$ y $\text{Var}(X) = ⟦1⟧$. Halla $E[⟦2⟧]$.`,
+
+  // inference
+  'oph0fjnqfd': R`
+<p>Usamos un estadístico de la <b>muestra</b> (como $\bar{x}$) para estimar un parámetro de la <b>población</b> (como $\mu$). Por el <b>teorema central del límite</b>, para $n$ grande la media muestral es aproximadamente normal con media $\mu$ y <b>error típico</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Intervalos de confianza</h3>
+⟦0⟧
+<p>Para lograr un margen de error $E$ se necesita $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (redondeando hacia arriba). Si $\sigma$ es desconocida, usa $s$ y la distribución $t$.</p>
+<h3>Contrastes de hipótesis</h3>
+<ol><li>Plantea $H_0$ (p. ej. $\mu = \mu_0$) y $H_1$.</li><li>Calcula un estadístico de contraste, p. ej. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Halla el <b>p-valor</b>: la probabilidad, suponiendo $H_0$, de un resultado al menos tan extremo.</li><li>Si $p \le \alpha$, rechaza $H_0$; si no, no se rechaza.</li></ol>
+⟦1⟧
+<h3>Regresión lineal</h3>
+<p>La recta de mínimos cuadrados $\hat{y} = a + bx$ tiene pendiente $b = r\frac{s_y}{s_x}$ y pasa por $(\bar{x}; \bar{y})$, así que $a = \bar{y} - b\bar{x}$.</p>
+⟦2⟧`,
+  'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\%);\; 1{,}96 \;(95\%);\; 2{,}576 \;(99\%)`,
+  '7nca7j57l5': R`H₀ verdadera`,
+  '2e0zey7f13x': R`H₀ falsa`,
+  '1nokpmpua28': R`Rechazar H₀`,
+  'qa9cxjojd2': R`Error de tipo I (probabilidad α)`,
+  'z1afbgzons': R`Correcto (potencia)`,
+  'tc6mfczzyi': R`No rechazar H₀`,
+  'w131ulu49o': R`Correcto`,
+  'e51gkfcb06': R`Error de tipo II (probabilidad β)`,
+  '6idiejz1ba': R`<p>"No rechazar $H_0$" no es lo mismo que "aceptar $H_0$": simplemente los datos no aportan pruebas suficientes en su contra.</p>`,
+  'awqxfz9vdv': R`Una población tiene $\sigma = ⟦0⟧$. Halla el error típico de la media para muestras de tamaño ⟦1⟧.`,
+  'ugvd79s2wi': R`Una muestra de tamaño ⟦0⟧ tiene media ⟦1⟧; la desviación típica de la población es ⟦2⟧. Halla el límite ⟦3⟧ del intervalo de confianza del ⟦4⟧% para $\mu$, con 2 decimales.`,
+  '1n36a0strty': R`Margen $= ⟦0⟧ \times \frac{⟦1⟧}{\sqrt{⟦2⟧}} = ⟦3⟧$. ⟦4⟧`,
+  '2ekc2g43ffk': R`Límite superior $= ⟦0⟧ + ⟦1⟧ \approx ⟦2⟧$.`,
+  'u2fj3njiv8': R`Límite inferior $= ⟦0⟧ - ⟦1⟧ \approx ⟦2⟧$.`,
+  '1i53ibdizmj': R`Contrasta $H_0: \mu = ⟦0⟧$ con $\sigma = ⟦1⟧$. Una muestra de tamaño ⟦2⟧ tiene $\bar{x} = ⟦3⟧$. Calcula el estadístico $z$ con 2 decimales.`,
+  'b7sayy3tzp': R`Un contraste da un p-valor de ⟦0⟧. Con un nivel de significación del ⟦1⟧%, ¿cuál es la decisión?`,
+  '1adfzwf3gei': R`no rechazar`,
+  '2fh7exkwsd7': R`no se rechaza`,
+  '1ui411puarn': R`Compara el p-valor con $\alpha = ⟦0⟧$: $⟦1⟧ ⟦2⟧ ⟦3⟧$, ⟦4⟧`,
+  '19asmns888x': R`así que <b>rechazamos</b> $H_0$.`,
+  '28e9takeetw': R`así que <b>no rechazamos</b> $H_0$.`,
+  '3boqwtx8y6': R`La recta de regresión de $y$ sobre $x$ tiene pendiente ⟦0⟧ y pasa por $(\bar{x}; \bar{y}) = (⟦1⟧; ⟦2⟧)$. Predice $y$ cuando $x = ⟦3⟧$.`,
+  '1xlncasuj2t': R`Ordenada en el origen $a = \bar{y} - b\bar{x} = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$. Entonces $\hat{y} = ⟦4⟧ ⟦5⟧(⟦6⟧) = ⟦7⟧$.`,
+  '1juzrcbx7yp': R`La recta de regresión de $y$ sobre $x$ tiene pendiente ⟦0⟧, con $\bar{x} = ⟦1⟧$ e $\bar{y} = ⟦2⟧$. Halla la ordenada en el origen.`,
+  'ygsgt4zx8s': R`La recta pasa por $(\bar{x}; \bar{y})$: $a = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$.`,
+  '1fjn7fhcpwy': R`Rechazar H₀ cuando H₀ es en realidad verdadera`,
+  '2czv0lmmxbv': R`Error de tipo I`,
+  '1rsaomc3xxj': R`No rechazar H₀ cuando H₀ es en realidad falsa`,
+  '1knmx3avsv8': R`Error de tipo II`,
+  '7bbk61slol': R`Rechazar H₀ cuando H₀ es en realidad falsa`,
+  '6vojkrxnxd': R`Decisión correcta`,
+  '27k0u0dgkx8': R`No rechazar H₀ cuando H₀ es en realidad verdadera`,
+  'j30d9a2wnu': R`Condenar a un acusado inocente (H₀: inocente)`,
+  '1r9j0p9otdz': R`Dejar libre a un acusado culpable (H₀: inocente)`,
+  'yce1tww5je': R`¿Qué tipo de resultado es este? <i>⟦0⟧</i>.`,
+  'f5q8ah45y5': R`Tipo I = rechazar una $H_0$ verdadera (una falsa alarma); tipo II = no detectar una $H_0$ falsa. Así que es: <b>⟦0⟧</b>.`,
+  '17su48d7rp0': R`¿Cuál es el menor tamaño muestral que da un intervalo de confianza del ⟦0⟧% con un margen de error de ⟦1⟧ como máximo, si $\sigma = ⟦2⟧$?`,
+  'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, así que se redondea hacia arriba: $n = ⟦4⟧$.`,
+
+  // discrete
+  'a1ovpdx0vp': R`
+<h3>Teoría de números</h3>
+<p>$a \equiv b \pmod n$ significa que $n$ divide a $a - b$; $a \bmod n$ es el resto en $\{0; 1; \ldots; n - 1\}$. Las congruencias se pueden sumar y multiplicar, y las potencias se reducen paso a paso.</p>
+⟦0⟧
+⟦1⟧
+<p>El <b>inverso modular</b> de $a$ módulo $n$ es el $x$ con $ax \equiv 1 \pmod n$; existe exactamente cuando $\gcd(a, n) = 1$.</p>
+<h3>Conteo</h3>
+<ul><li>Funciones de un conjunto de tamaño $m$ en uno de tamaño $n$: $n^m$; las inyectivas: $n(n-1)\cdots(n-m+1)$.</li><li>Inclusión–exclusión: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Principio del palomar:</b> si más de $kn$ objetos van a $n$ cajas, alguna caja recibe al menos $k + 1$.</li></ul>
+<h3>Recurrencias y grafos</h3>
+<p>Una recurrencia define cada término a partir de los anteriores, como $a_n = 2a_{n-1} + 1$, $a_0 = 1$. En un grafo, el <b>lema del apretón de manos</b> dice que $\sum \deg(v) = 2|E|$; $K_n$ tiene $\binom{n}{2}$ aristas; un árbol con $n$ vértices tiene $n - 1$ aristas; un grafo conexo tiene un circuito euleriano si y solo si todos los grados son pares.</p>
+⟦2⟧`,
+  '1vllnifl24g': R`<p><b>Algoritmo de Euclides:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, repetido hasta que el resto sea 0.</p><p><b>Pequeño teorema de Fermat:</b> si $p$ es primo y $p \nmid a$, entonces $a^{p-1} \equiv 1 \pmod p$.</p>`,
+  '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Así que el mcd es 18.</p><p>$2^{100} \bmod 7$: como $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
+  '23tw4c5wfxh': R`<p>En problemas de inclusión–exclusión ("divisible por 3 o por 5"), la intersección es la divisibilidad por el <b>mcm</b>, 15.</p>`,
+  '8fw6na2xe1': R`Calcula $⟦0⟧ \bmod ⟦1⟧$.`,
+  'uplm3u8bhu': R`$⟦0⟧ = ⟦1⟧ \times ⟦2⟧ + ⟦3⟧$, así que el resto es ⟦4⟧.`,
+  'xlpbyjzaqw': R`Calcula $⟦0⟧^{⟦1⟧} \bmod ⟦2⟧$.`,
+  '1kd2o5jees6': R`Por Fermat, $⟦0⟧^{⟦1⟧} \equiv 1 \pmod{⟦2⟧}$. $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ + ⟦6⟧$, así que $⟦7⟧^{⟦8⟧} \equiv ⟦9⟧^{⟦10⟧} \equiv ⟦11⟧ \pmod{⟦12⟧}$.`,
+  '127b4pzxtz': R`Usa el algoritmo de Euclides para hallar $\gcd(⟦0⟧, ⟦1⟧)$.`,
+  '1aqkhdrg8qc': R`$⟦0⟧$. El último resto no nulo es <b>⟦1⟧</b>.`,
+  '1s721amox67': R`Halla el inverso de ⟦0⟧ módulo ⟦1⟧, es decir, el $x$ con $⟦2⟧x \equiv 1 \pmod{⟦3⟧}$ y $0 \lt x \lt ⟦4⟧$.`,
+  '1w7xn0v2je4': R`Comprobación: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧ = ⟦3⟧ \times ⟦4⟧ + 1$, así que $x = ⟦5⟧$.`,
+  'x5llfo779v': R`¿Cuántas aristas tiene el grafo completo $K_{⟦0⟧}$?`,
+  '1k9fldmleaq': R`Cada par de vértices está unido: $\binom{⟦0⟧}{2} = \frac{⟦1⟧ \times ⟦2⟧}{2} = ⟦3⟧$.`,
+  '1gbx4896k6y': R`Un árbol tiene ⟦0⟧ vértices. ¿Cuántas aristas tiene?`,
+  'g3rd0a2w3f': R`Todo árbol con $n$ vértices tiene $n - 1 = ⟦0⟧$ aristas.`,
+  '1b7sza9kgx9': R`Un grafo tiene vértices de grados ⟦0⟧. ¿Cuántas aristas tiene?`,
+  '2eddhu7y6e4': R`Lema del apretón de manos: $\sum\deg = ⟦0⟧ = 2|E|$, así que $|E| = ⟦1⟧$.`,
+  '6xjrxhddis': R`Un grafo conexo tiene vértices de grados ⟦0⟧. ¿Cuántos vértices tienen grado impar?`,
+  '5vsb2c69v5': R`Los grados impares son ⟦0⟧, así que hay ⟦1⟧. ⟦2⟧ (El número de vértices de grado impar siempre es par.)`,
+  '2gbggujxcvs': R`ninguno`,
+  '105xal8etax': R`Por tanto, el grafo tiene un circuito euleriano.`,
+  '1z20e1aao3p': R`Por tanto, el grafo tiene un camino euleriano pero no un circuito euleriano.`,
+  '1vy383kqrz8': R`Con más de 2 vértices impares no hay camino euleriano.`,
+  'by57uvpuwf': R`$a_0 = ⟦0⟧$ y $a_n = ⟦1⟧a_{n-1} ⟦2⟧$ para $n \ge 1$. Halla $a_{⟦3⟧}$.`,
+  '75ssmud3lg': R`Calcula término a término: ⟦0⟧.`,
+  'go6ohggc8l': R`¿Cuántas cadenas de bits de longitud ⟦0⟧ contienen exactamente ⟦1⟧ unos?`,
+  '27u4ks23cz9': R`Elige cuáles ⟦0⟧ de las ⟦1⟧ posiciones llevan unos: $\binom{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'yx3fxah4u8': R`¿Cuántas funciones hay de un conjunto de ⟦0⟧ elementos en un conjunto de ⟦1⟧ elementos?`,
+  '12owpaqzt1c': R`Cada una de las ⟦0⟧ entradas puede ir a cualquiera de las ⟦1⟧ salidas: $⟦2⟧^{⟦3⟧} = ⟦4⟧$.`,
+  '4o2cs42p15': R`¿Cuántas funciones inyectivas hay de un conjunto de ⟦0⟧ elementos en un conjunto de ⟦1⟧ elementos?`,
+  'jpinfh5krc': R`Las imágenes deben ser distintas: $⟦0⟧ = ⟦1⟧$.`,
+  '10skxcum4lz': R`¿Cuántos enteros del 1 al ⟦0⟧ son divisibles por ⟦1⟧ o por ⟦2⟧?`,
+  'nhrb9jig2q': R`$\lfloor ⟦0⟧/⟦1⟧ \rfloor + \lfloor ⟦2⟧/⟦3⟧ \rfloor - \lfloor ⟦4⟧/⟦5⟧ \rfloor = ⟦6⟧ + ⟦7⟧ - ⟦8⟧ = ⟦9⟧$ (⟦10⟧ es el mcm).`,
+  'cgzqt4g6kc': R`mes de nacimiento`,
+  '10ye3jsw3n2': R`día de la semana`,
+  '1eah1ab17mo': R`palo (de una baraja)`,
+  '1fddlc7zc0d': R`¿Cuál es el menor número de personas necesario para garantizar que al menos ⟦0⟧ de ellas compartan el mismo ⟦1⟧?`,
+  '27kjdpfw0sg': R`Con ⟦0⟧ categorías, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ personas podrían evitarlo; una más obliga a un grupo de ⟦4⟧: $⟦5⟧$.`,
+
+  // numerical
+  '106u35np5bp': R`
+<p>Los métodos numéricos aproximan respuestas que no tienen una forma cerrada cómoda. Importan dos tipos de error: el de <b>truncamiento</b> (del método) y el de <b>redondeo</b> (de la precisión finita).</p>
+⟦0⟧
+<h3>Cálculo de raíces</h3>
+<ul><li><b>Bisección:</b> si $f(a)$ y $f(b)$ tienen signos opuestos, evalúa el punto medio $m$ y quédate con la mitad donde cambia el signo. Lento pero seguro: el error se reduce a la mitad en cada paso.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Muy rápido cerca de una raíz simple (convergencia cuadrática), pero puede fallar con un mal punto de partida o si $f' \approx 0$.</li></ul>
+⟦1⟧
+<h3>Integración numérica</h3>
+⟦2⟧
+<p>Aquí $h = \frac{b - a}{n}$. La regla de Simpson es exacta para polinomios de grado hasta 3.</p>
+<h3>Método de Euler</h3>
+⟦3⟧
+⟦4⟧`,
+  '2fbw9jej1dm': R`\text{error absoluto} = |x_{\text{real}} - x_{\text{aprox}}| \qquad \text{error relativo} = \frac{|x_{\text{real}} - x_{\text{aprox}}|}{|x_{\text{real}}|}`,
+  '1a9noj3sp27': R`<p>$\sqrt{10}$ mediante $f(x) = x^2 - 10$ desde $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$: ya es correcto con 4 decimales.</p>`,
+  'vx6qz5zup7': R`\text{Trapecios: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ par}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
+  '2fmxu9hfzwl': R`<p>Para $y' = f(x, y)$ con $y(x_0) = y_0$: $\; y_{n+1} = y_n + h\,f(x_n, y_n)$, $x_{n+1} = x_n + h$. Reducir $h$ a la mitad reduce el error aproximadamente a la mitad.</p>`,
+  'fn0bl5sobc': R`<p>En la regla de los trapecios solo se duplican las ordenadas <b>interiores</b>; los dos valores extremos aparecen una sola vez.</p>`,
+  '1n5pqkgqwu1': R`Aplica un paso del método de Newton a $f(x) = x^2 - ⟦0⟧$ partiendo de $x_0 = ⟦1⟧$. Da $x_1$ con 4 decimales.`,
+  '1jvkeb9n3o6': R`Aplica un paso de bisección a $f(x) = x^2 - 3$ en $[1; 2]$. ¿Qué intervalo contiene la raíz después de ese paso?`,
+  'vksl6we3dc': R`$f(1{,}5) = -0{,}75 \lt 0$ y $f(2) = 1 \gt 0$, así que el cambio de signo está en $[1{,}5; 2]$.`,
+  '23lzoh0yq9e': R`Aplica bisección a $f(x) = x^⟦0⟧ - ⟦1⟧$ en $[⟦2⟧; ⟦3⟧]$. ¿Cuál es el punto medio calculado en la <b>segunda</b> iteración?`,
+  '114tbd27u3w': R`Primer punto medio $⟦0⟧$: $f(⟦1⟧) = ⟦2⟧$, así que la raíz está en $[⟦3⟧; ⟦4⟧]$. Segundo punto medio: $⟦5⟧$.`,
+  '1gaoigxt1uo': R`Usa la regla de los trapecios con $n = ⟦0⟧$ para aproximar $\displaystyle\int_0^{⟦1⟧} x^2\,dx$.`,
+  '1pc9rab646n': R`$h = ⟦0⟧$; ordenadas ⟦1⟧. $T = \frac{⟦2⟧}{2}\left[⟦3⟧ + ⟦4⟧ + 2(⟦5⟧)\right] = ⟦6⟧$ (valor exacto ⟦7⟧).`,
+  '1rsvekr7t2o': R`Usa la regla de Simpson con $n = 2$ para aproximar $\displaystyle\int_0^{⟦0⟧} x^4\,dx$.`,
+  '8vqt4i28qj': R`$h = \frac{⟦0⟧}{2}$: $\frac{h}{3}\left[0 + 4\left(\frac{⟦1⟧}{2}\right)^4 + ⟦2⟧^4\right] = \frac{⟦3⟧}{6} \cdot \frac{5 \cdot ⟦4⟧}{4} = ⟦5⟧$ (valor exacto $⟦6⟧$).`,
+  '1jdhmav4ljk': R`Usa el método de Euler con $h = ⟦0⟧$ para aproximar $y(⟦1⟧)$ para $y' = ⟦2⟧$, $y(0) = 1$. Redondea a 4 decimales.`,
+  '6utp8finkn': R`$⟦0⟧$ se aproxima por ⟦1⟧. Halla el error relativo en porcentaje, con 3 decimales.`,
+
+  // vector-calculus
+  'bh1w03a054': R`
+<p>Un <b>campo vectorial</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ asigna un vector a cada punto, como la velocidad del viento o una fuerza. Con $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
+⟦0⟧
+<p>La divergencia mide el flujo que sale de un punto; el rotacional mide la rotación.</p>
+<h3>Integrales de línea y campos conservativos</h3>
+⟦1⟧
+⟦2⟧
+<h3>Los grandes teoremas</h3>
+⟦3⟧
+<p>Una consecuencia elegante del teorema de Green: el área de $D$ es $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦4⟧`,
+  '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
+  'dx5b9h7rwd': R`<p>$\mathbf{F}$ es <b>conservativo</b> si $\mathbf{F} = \nabla\varphi$ para un potencial $\varphi$. Entonces $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ para cualquier camino de $A$ a $B$. En el plano (dominio simplemente conexo), $(P, Q)$ es conservativo si y solo si $P_y = Q_x$.</p>`,
+  '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, así que es conservativo con $\varphi = x^2y + 3y$. De $(0; 0)$ a $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
+  '1yct8dx5k46': R`Teorema`,
+  '3albyqcn6s': R`Green`,
+  '1osdvqguwrh': R`Stokes`,
+  '11x91oqdbb7': R`Divergencia (Gauss)`,
+  '28jc8ed48q8': R`<p>El teorema de Green exige recorrer $C$ en sentido <b>antihorario</b> (con la región a la izquierda); en sentido horario cambia el signo.</p>`,
+  'fg37vtw1nz': R`Halla $\nabla\cdot\mathbf{F}$ en $⟦0⟧$ para $\mathbf{F} = \left(⟦1⟧,\; ⟦2⟧,\; ⟦3⟧\right)$.`,
+  'i6u559ylzz': R`$P_x = ⟦0⟧$, $Q_y = ⟦1⟧$, $R_z = ⟦2⟧$. En $⟦3⟧$: $⟦4⟧ ⟦5⟧ ⟦6⟧ = ⟦7⟧$.`,
+  'dvzsgd4pt9': R`Para $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$, halla $Q_x - P_y$ (el rotacional escalar) en $⟦2⟧$.`,
+  '1f7xg7qakjk': R`$Q_x = ⟦0⟧$ y $P_y = ⟦1⟧$, así que $Q_x - P_y = ⟦2⟧$, que vale ⟦3⟧ en $⟦4⟧$.`,
+  '6gosl713kw': R`Calcula $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r}$, donde $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ y $C$ es cualquier camino de $⟦2⟧$ a $⟦3⟧$.`,
+  '1ch21kaf5wm': R`$\mathbf{F} = \nabla\varphi$ con $\varphi = ⟦0⟧$, así que la integral no depende del camino: $\varphi(B) - \varphi(A) = ⟦1⟧ - ⟦2⟧ = ⟦3⟧$.`,
+  '1czrg3saejj': R`Usa el teorema de Green para calcular $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, donde $C$ es el borde del rectángulo $[0; ⟦2⟧] \times [0; ⟦3⟧]$, recorrido en sentido antihorario.`,
+  'otc4kapbek': R`$Q_x - P_y = ⟦0⟧ - (-⟦1⟧) = ⟦2⟧$, así que la integral es $⟦3⟧ \times \text{área} = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.`,
+  '1mzbbq34ezd': R`Usa el teorema de Green para calcular $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, donde $C$ es la circunferencia $x^2 + y^2 = ⟦2⟧$, recorrida en sentido antihorario.`,
+  '2fijtuqaqq1': R`$Q_x - P_y = ⟦0⟧$, así que la integral es $⟦1⟧ \times \pi(⟦2⟧)^2 = ⟦3⟧$.`,
+  '2csh30v58t4': R`¿Es conservativo $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$?`,
+  '1ma95r0zub6': R`Conservativo`,
+  'bn62hz6wu8': R`No conservativo`,
+  '1s854ovcwco': R`no conservativo`,
+  '15asqrx4hnu': R`$P_y = ⟦0⟧$ y $Q_x = ⟦1⟧$. ⟦2⟧`,
+  'r7areoyr0a': R`Son iguales, así que F es conservativo (en todo el plano).`,
+  '6dlb2jbxf0': R`Son distintas, así que F no es conservativo.`,
+  '1ueomkx63n5': R`Halla una función potencial para $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$.`,
+  '4awle3me9d': R`Integra $P$ respecto de $x$: $\varphi = ⟦0⟧ + g(y)$. Entonces $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ da $g = ⟦3⟧$.`,
+
+  // laplace
+  'f6f4kfx30i': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<p>Las transformadas inversas suelen requerir primero fracciones parciales y luego buscar en la tabla.</p>
+⟦4⟧`,
+  '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
+  '1id74v8hrdj': R`<p><b>Linealidad:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Derivadas:</b> $\mathcal{L}\{y'\} = sY - y(0)$ y $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$: así las ecuaciones diferenciales se convierten en álgebra.</p>`,
+  'ie964pskzz': R`<p>Resuelve $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, así que $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Invirtiendo: $y = 3\cos 2t + \sin 2t$.</p>`,
+  'cgwsp3i8af': R`<p>$\mathcal{L}\{\sin bt\}$ tiene $b$ en el numerador; $\mathcal{L}\{\cos bt\}$ tiene $s$ en el numerador. Confundirlas es el error más frecuente.</p>`,
+  't6bpsx84ob': R`Halla $\mathcal{L}\{⟦0⟧\}$.`,
+  '2sqpcztdp7': R`Linealidad con $\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$ y $\mathcal{L}\{e^{ct}\} = \frac{1}{s - c}$: $\frac{⟦0⟧ \cdot ⟦1⟧!}{s^{⟦2⟧}} + \frac{⟦3⟧}{⟦4⟧}$.`,
+  '1erb7erw9za': R`Halla $\mathcal{L}\{⟦0⟧⟦1⟧ ⟦2⟧t\}$.`,
+  'ujzn9ioggu': R`$\mathcal{L}\{\sin bt\} = \frac{b}{s^2 + b^2}$, así que la respuesta es $\frac{⟦0⟧ \cdot ⟦1⟧}{s^2 + ⟦2⟧} = \frac{⟦3⟧}{s^2 + ⟦4⟧}$.`,
+  '2dljwnla25z': R`$\mathcal{L}\{\cos bt\} = \frac{s}{s^2 + b^2}$, así que la respuesta es $\frac{⟦0⟧s}{s^2 + ⟦1⟧}$.`,
+  'napbzc1h43': R`Halla $\mathcal{L}^{-1}\left\{\dfrac{⟦0⟧}{⟦1⟧} + \dfrac{⟦2⟧s}{s^2 + ⟦3⟧}\right\}$.`,
+  '6d49fl6z14': R`$\frac{1}{s - c} \leftrightarrow e^{ct}$ y $\frac{s}{s^2 + d^2} \leftrightarrow \cos dt$: el resultado es ⟦0⟧.`,
+  'hw06puz2z5': R`Halla $\mathcal{L}\{⟦0⟧\,⟦1⟧ ⟦2⟧t\}$.`,
+  'zs0uacvdu8': R`Primer teorema de traslación: $\mathcal{L}\{e^{at}f(t)\} = F(s - a)$. Con $F(s) = ⟦0⟧$, sustituye $s$ por $⟦1⟧$.`,
+  '1i1mf4ew2a': R`Sea $F(s) = \mathcal{L}\{t^{⟦0⟧}\}$. Halla $F(⟦1⟧)$.`,
+  '180y0883p6z': R`$F(s) = \frac{⟦0⟧!}{s^{⟦1⟧}}$, así que $F(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '11s9xvqwvw4': R`Sea $F(s) = \mathcal{L}\{⟦0⟧\}$. Halla $F(⟦1⟧)$.`,
+  '18wjdkl7beq': R`$F(s) = \frac{1}{s - (⟦0⟧)}$, así que $F(⟦1⟧) = \frac{1}{⟦2⟧}$.`,
+  '9v69wy5cnz': R`Resuelve $y'' + ⟦0⟧y = 0$ con $y(0) = ⟦1⟧$, $y'(0) = ⟦2⟧$ usando la transformada de Laplace.`,
+  '24mrp3u7eep': R`$s^2Y - ⟦0⟧s - ⟦1⟧ + ⟦2⟧Y = 0$, así que $Y = ⟦3⟧$. Descompón como $⟦4⟧\cdot\frac{s}{s^2 + ⟦5⟧} + \frac{⟦6⟧}{⟦7⟧}\cdot\frac{⟦8⟧}{s^2 + ⟦9⟧}$ e invierte: ⟦10⟧.`,
+});

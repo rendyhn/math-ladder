@@ -1,0 +1,280 @@
+/* Português — Universidade (técnicas de derivação → equações diferenciais) */
+addT('pt', {
+  // diff-techniques
+  'i2e9stiapi': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Derivação implícita</h3>
+<p>Quando $y$ é definido implicitamente, derive os dois lados em relação a $x$, tratando $y$ como função de $x$ (assim $\frac{d}{dx}y^2 = 2y\,y'$), e depois isole $y'$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1kr8zytc8j5': R`Produto`,
+  '1fd6nxjb0xt': R`Quociente`,
+  '21u0n9yxqot': R`Cadeia`,
+  '10xmtmesa6t': R`Função`,
+  'n72fq2kxcg': R`Derivada`,
+  '1qtv7snffoy': R`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4$ &nbsp;(regra da cadeia)</p><p>$\dfrac{d}{dx}\,x^2 e^{3x} = 2x e^{3x} + 3x^2 e^{3x} = xe^{3x}(2 + 3x)$ &nbsp;(regra do produto)</p>`,
+  '1nhip08xeg5': R`<p>$x^2 + y^2 = 25 \Rightarrow 2x + 2y\,y' = 0 \Rightarrow y' = -\dfrac{x}{y}$. Em $(3; 4)$ a inclinação é $-\frac{3}{4}$.</p>`,
+  'wvkdxn7frj': R`<p>A <b>derivação logarítmica</b> resolve produtos, quocientes e potências variáveis: para $y = x^x$, $\ln y = x\ln x$, então $\frac{y'}{y} = \ln x + 1$ e $y' = x^x(\ln x + 1)$.</p>`,
+  're4vli1oc9': R`<p>Regra da cadeia: multiplique sempre pela derivada da função <b>de dentro</b>. $\frac{d}{dx}\sin(x^2) = 2x\cos(x^2)$, e não $\cos(x^2)$.</p>`,
+  '1iajxt140g2': R`Seja $f(x) = (⟦0⟧)^{⟦1⟧}$. Calcule $f'(⟦2⟧)$.`,
+  '2108swf0nc1': R`Regra da cadeia: $f'(x) = ⟦0⟧(⟦1⟧)^{⟦2⟧} \cdot ⟦3⟧$. Em $x = ⟦4⟧$ a parte de dentro vale ⟦5⟧, então $f'(⟦6⟧) = ⟦7⟧ \cdot ⟦8⟧^{⟦9⟧} \cdot ⟦10⟧ = ⟦11⟧$.`,
+  '13u8g7mcany': R`Derive $y = ⟦0⟧⟦1⟧$.`,
+  'ltfmske2sq': R`Regra do produto com $u = ⟦0⟧$, $v = ⟦1⟧$: $y' = ⟦2⟧⟦3⟧ + ⟦4⟧ \cdot ⟦5⟧ =⟦6⟧⟦7⟧(⟦8⟧)$.`,
+  '24tbapqaxkt': R`Seja $f(x) = \ln(⟦0⟧)$. Calcule $f'(⟦1⟧)$.`,
+  'vr5ui5jnj1': R`$f'(x) = \frac{⟦0⟧x}{⟦1⟧}$, então $f'(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '21f80wac08v': R`Calcule $\frac{dy}{dx}$ para $x^2 + y^2 = ⟦0⟧$ no ponto $⟦1⟧$.`,
+  'xl17ytois8': R`Calcule $\frac{dy}{dx}$ para $xy = ⟦0⟧$ no ponto $⟦1⟧$.`,
+  'cc1dbada60': R`Regra do produto: $y + x\,y' = 0 \Rightarrow y' = -\frac{y}{x} = ⟦0⟧$.`,
+  'g5b3ql04b4': R`Derive $y = \sin(⟦0⟧)$.`,
+  '1u57cjycyb3': R`Regra da cadeia: a derivada de fora é $\cos(⟦0⟧)$ e a de dentro é $⟦1⟧$, o que dá $⟦2⟧\cos(⟦3⟧)$.`,
+  '1zcx1qjywp8': R`Para $f(x) = ⟦0⟧$, calcule $f''(⟦1⟧)$.`,
+  '22jprctwicn': R`$f'(x) = ⟦0⟧$ e $f''(x) = ⟦1⟧$. Logo $f''(⟦2⟧) = ⟦3⟧$.`,
+  '1pkqexq4tgg': R`Seja $f(x) = x\ln x$. Calcule $f'(e^{⟦0⟧})$.`,
+  '20aqqhk2mtp': R`Regra do produto: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Logo $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
+
+  // diff-applications
+  'g0oq20zzs': R`
+<h3>Regra de L'Hôpital</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (aplicada duas vezes).</p>
+<h3>Otimização</h3>
+<ol><li>Escreva a grandeza a otimizar como função de uma só variável (use a restrição).</li><li>Derive e resolva $f'(x) = 0$.</li><li>Verifique se é máximo/mínimo (segunda derivada ou extremos do intervalo).</li></ol>
+⟦1⟧
+<h3>Taxas relacionadas</h3>
+<p>Derive uma relação em relação ao tempo. Para um círculo que cresce, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Aproximação linear</h3>
+⟦2⟧
+<h3>Concavidade e teorema do valor médio</h3>
+<p>$f'' \gt 0$: concavidade para cima; $f'' \lt 0$: concavidade para baixo; um <b>ponto de inflexão</b> é onde a concavidade muda. <b>TVM:</b> se $f$ é contínua em $[a; b]$ e derivável no interior, existe $c$ em $(a; b)$ com $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦3⟧`,
+  '11hmiu9w9s4': R`<p>Se $\lim \frac{f(x)}{g(x)}$ tem a forma $\frac{0}{0}$ ou $\frac{\infty}{\infty}$, então $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (quando o lado direito existe).</p>`,
+  '189x52ko5mw': R`<p>Recortam-se quadrados de lado $x$ nos cantos de uma folha quadrada de 18 cm e dobram-se as abas. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ dá $x = 3$, então $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
+  'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{p. ex. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
+  '15384lzo6ba': R`<p>L'Hôpital deriva numerador e denominador <b>separadamente</b> — não é a regra do quociente.</p>`,
+  's2219vpl96': R`Calcule $\displaystyle\lim_{x \to 0}\frac{1 - \cos ⟦0⟧x}{x^2}$.`,
+  '1tq22svmx8r': R`L'Hôpital duas vezes: $\frac{⟦0⟧\sin ⟦1⟧x}{2x} \to \frac{⟦2⟧\cos ⟦3⟧x}{2} \to \frac{⟦4⟧}{2}$.`,
+  'v9t0b7xos3': R`Calcule $\displaystyle\lim_{x \to 0}\frac{⟦0⟧}{⟦1⟧x}$.`,
+  'wudu9stdyh': R`É da forma $\frac{0}{0}$; derive numerador e denominador: $\frac{⟦0⟧}{⟦1⟧} \to \frac{⟦2⟧}{⟦3⟧}$.`,
+  'b8a0ml45bv': R`Recortam-se quadrados iguais de lado $x$ cm nos cantos de uma folha de ⟦0⟧ cm por ⟦1⟧ cm, e as abas são dobradas para formar uma caixa aberta. ⟦2⟧`,
+  '6fzl8050w8': R`Que valor de x maximiza o volume?`,
+  '1nbs4g9250e': R`Qual é o volume máximo possível?`,
+  '1xaya4958aj': R`$V = x(⟦0⟧ - 2x)^2$, $V' = (⟦1⟧ - 2x)(⟦2⟧ - 6x) = 0$ dá $x = ⟦3⟧$ (a outra raiz dá volume zero). $V = ⟦4⟧(⟦5⟧)^2 = ⟦6⟧$ cm³.`,
+  'g44lawx7yb': R`O raio de um círculo aumenta a ⟦0⟧ cm/s. Com que rapidez a área aumenta quando o raio mede ⟦1⟧ cm? Responda em função de $\pi$.`,
+  'pvrsmdtr3x': R`$\frac{dA}{dt} = 2\pi r\frac{dr}{dt} = 2\pi(⟦0⟧)(⟦1⟧) = ⟦2⟧$ cm²/s.`,
+  'w8wuhpzsgd': R`O raio de um balão esférico cresce a ⟦0⟧ cm/s. Com que rapidez o volume aumenta quando o raio mede ⟦1⟧ cm? Responda em função de $\pi$.`,
+  '1ca85zwkg9p': R`$\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt} = 4\pi(⟦0⟧)^2(⟦1⟧) = ⟦2⟧$ cm³/s.`,
+  '2c66yuykiw5': R`Use uma aproximação linear de $\sqrt{x}$ em $x = ⟦0⟧$ para estimar $\sqrt{⟦1⟧}$.`,
+  'rjw48nwhxr': R`Digite uma fração ou um decimal.`,
+  '16wswpodtbc': R`Encontre a coordenada $x$ do ponto de inflexão de $f(x) = ⟦0⟧$.`,
+  '16igzoef2co': R`$f''(x) = 6x ⟦0⟧ = 0$ dá $x = ⟦1⟧$; ali $f''$ muda de sinal.`,
+  '2dw0fqk2lyr': R`$f(x) = ⟦0⟧$ em $[⟦1⟧; ⟦2⟧]$. Encontre o valor $c$ garantido pelo teorema do valor médio.`,
+  '1c5ltuvzsrq': R`Inclinação média $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ dá $c = ⟦7⟧$ — o ponto médio, como sempre para uma quadrática.`,
+
+  // integration-techniques
+  'vrvi3bfbr': R`
+<h3>Substituição</h3>
+<p>Procure uma função e sua derivada. Com $u = g(x)$, $du = g'(x)\,dx$:</p>
+⟦0⟧
+<p>Em integrais definidas, mude também os limites (ou volte à variável original antes de calcular).</p>
+<h3>Integração por partes</h3>
+⟦1⟧
+⟦2⟧
+<h3>Frações parciais</h3>
+<p>Decomponha uma função racional em partes mais simples: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Elimine os denominadores e substitua $x = 1$ e $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Cada parte integra para um logaritmo.</p>
+<h3>Integrais impróprias</h3>
+⟦3⟧
+⟦4⟧`,
+  '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
+  '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Escolha $u$ pela regra <b>LIATE</b>: Logarítmica, Inversa trigonométrica, Algébrica, Trigonométrica, Exponencial — a que aparecer primeiro.</p>`,
+  'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, então $du = dx$, $v = \frac{1}{2}e^{2x}$. Resultado: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
+  '2clmb8muggz': R`\int_1^\infty \frac{dx}{x^p} = \frac{1}{p - 1} \text{ para } p \gt 1 \text{ (diverge para } p \le 1) \qquad \int_0^\infty e^{-kx}\,dx = \frac{1}{k}`,
+  'l8twy4h3ug': R`<p>$\int \frac{g'(x)}{g(x)}\,dx = \ln|g(x)| + C$ — reconheça esse padrão antes de partir para algo mais pesado.</p>`,
+  'fesx7djw83': R`xe^{x} - e^{x}`,
+  'yia5dxx3ds': R`xe^{x} + e^{x}`,
+  '1afuqmxgeq5': R`Calcule $\displaystyle\int ⟦0⟧\,dx$.`,
+  '1235n0zk19z': R`Integre por partes com ⟦0⟧: o resultado é ⟦1⟧. Derive para conferir.`,
+  'pklgf5s2ey': R`Calcule $\displaystyle\int_0^{⟦0⟧} 2x(x^2 + 1)^{⟦1⟧}\,dx$.`,
+  '51fkmlo4j8': R`Faça $u = x^2 + 1$, $du = 2x\,dx$; limites de $u = 1$ a $u = ⟦0⟧$: $\int_1^{⟦1⟧} u^{⟦2⟧}\,du = \left[\frac{u^{⟦3⟧}}{⟦4⟧}\right]_1^{⟦5⟧} = \frac{⟦6⟧ - 1}{⟦7⟧} = ⟦8⟧$.`,
+  '1tmpbvg6cku': R`Decomponha em frações parciais: $\dfrac{⟦0⟧}{⟦1⟧⟦2⟧}$`,
+  '1iitr1pnozn': R`Escreva $\frac{P}{⟦0⟧} + \frac{Q}{⟦1⟧}$ e elimine os denominadores. Com $x = ⟦2⟧$ obtém-se $P = ⟦3⟧$; com $x = ⟦4⟧$, $Q = ⟦5⟧$.`,
+  'r1rswlk024': R`Calcule $\displaystyle\int_0^{\pi/⟦0⟧} \sin(⟦1⟧x)\,dx$.`,
+  '1l97oofm3p4': R`Calcule $\displaystyle\int_0^{\pi/⟦0⟧} \cos(⟦1⟧x)\,dx$.`,
+  'pqalznrxip': R`Calcule $\displaystyle\int_1^{\infty} \frac{dx}{x^{⟦0⟧}}$.`,
+  '4t49nbtc5g': R`$\left[\frac{x^{⟦0⟧}}{⟦1⟧}\right]_1^{\infty} = 0 - \frac{1}{⟦2⟧} = ⟦3⟧$. Converge porque $p = ⟦4⟧ \gt 1$.`,
+  'w9i8vvwvmq': R`Calcule $\displaystyle\int_0^{\infty} e^{-⟦0⟧x}\,dx$.`,
+  '1wnox68sxsf': R`Calcule $\displaystyle\int_0^{⟦0⟧} \frac{2x}{x^2 + 1}\,dx$.`,
+  '2ctr5v6it67': R`Respostas como ln(10) são aceitas.`,
+  '8ud8r2yql4': R`O numerador é a derivada do denominador: $\left[\ln(x^2 + 1)\right]_0^{⟦0⟧} = \ln ⟦1⟧ - \ln 1 = \ln ⟦2⟧$.`,
+
+  // integral-applications
+  '1iuoee1mxv2': R`Integral`,
+  'u2fo7phj7e': R`Área entre curvas`,
+  '26rkw1zgbbl': R`Volume (discos), em torno do eixo x`,
+  '1gdvfh77kjd': R`Volume (arruelas)`,
+  '2e8c5l4l65u': R`Volume (cascas), em torno do eixo y`,
+  'hf97eg5buy': R`Valor médio`,
+  '1wrr2ozjzke': R`Comprimento de arco`,
+  '1aamatrm1qc': R`Trabalho (força variável)`,
+  '25psf0wh4wl': R`<p>Girando $y = \sqrt{x}$, $0 \le x \le 4$, em torno do eixo $x$: $V = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$.</p>`,
+  '84txgrqh8f': R`<p>Uma mola com $k = 200$ N/m (lei de Hooke $F = kx$) esticada 0,3 m: $W = \int_0^{0{,}3} 200x\,dx = 100(0{,}3)^2 = 9$ J.</p>`,
+  '4sufc6qh8k': R`<p>Faça um esboço primeiro. Descubra onde as curvas se cruzam (esses são os limites) e qual fica em cima — o integrando é sempre <b>a de cima menos a de baixo</b> (ou raio externo ao quadrado menos raio interno ao quadrado).</p>`,
+  '2dts82e214f': R`<p>No método dos discos, eleva-se ao quadrado a <b>função</b>, não a integral: $\pi\int f^2$, e não $\pi\left(\int f\right)^2$.</p>`,
+  '254d1knheuj': R`Encontre a área entre $y = x^3$ e $y = ⟦0⟧x$ no primeiro quadrante.`,
+  '6v6svg4kwp': R`Elas se cruzam em $x = 0$ e $x = ⟦0⟧$. $\int_0^{⟦1⟧} (⟦2⟧x - x^3)\,dx = \frac{⟦3⟧(⟦4⟧)^2}{2} - \frac{⟦5⟧^4}{4} = ⟦6⟧$.`,
+  '137eefen200': R`\pi\int_0^{⟦0⟧} x\,dx = \frac{\pi (⟦1⟧)^2}{2}`,
+  '1minpuvvl2n': R`\pi\int_0^{⟦0⟧} x^2\,dx = \frac{\pi (⟦1⟧)^3}{3}`,
+  's7flm3xrdz': R`\pi\int_0^{⟦0⟧} x^4\,dx = \frac{\pi (⟦1⟧)^5}{5}`,
+  '217wjez6n7': R`A região sob $⟦0⟧$ para $0 \le x \le ⟦1⟧$ gira em torno do eixo $x$. Encontre o volume em função de $\pi$.`,
+  '1icurdoc4sc': R`Método dos discos: $V = ⟦0⟧ = ⟦1⟧$.`,
+  '2gj0lncwv9v': R`A região entre $y = ⟦0⟧x$ e $y = x^2$ gira em torno do eixo $x$. Encontre o volume em função de $\pi$.`,
+  '79trxd9ylt': R`Arruelas com raio externo $⟦0⟧x$ e raio interno $x^2$ em $[0; ⟦1⟧]$: $V = \pi\int_0^{⟦2⟧} (⟦3⟧x^2 - x^4)\,dx = \pi\left(\frac{⟦4⟧}{3} - \frac{⟦5⟧}{5}\right) = ⟦6⟧$.`,
+  '7u6xsm6kr0': R`Encontre o valor médio de $f(x) = x^2$ em $[0; ⟦0⟧]$.`,
+  '14439tvneep': R`Encontre o valor médio de $f(x) = ⟦0⟧$ em $[⟦1⟧; ⟦2⟧]$.`,
+  'ooxywxrn7m': R`A média de uma função linear é seu valor no ponto médio $x = ⟦0⟧$: $⟦1⟧(⟦2⟧) ⟦3⟧ = ⟦4⟧$.`,
+  'mptjdpftfn': R`Encontre o comprimento de arco de $y = \frac{2}{3}x^{3/2}$ de $x = 0$ a $x = ⟦0⟧$.`,
+  'z00id81ez': R`$y' = x^{1/2}$, então $L = \int_0^{⟦0⟧} \sqrt{1 + x}\,dx = \left[\frac{2}{3}(1 + x)^{3/2}\right]_0^{⟦1⟧} = \frac{2}{3}(⟦2⟧ - 1) = ⟦3⟧$.`,
+  'lpjavqv13n': R`Uma mola tem constante $k = ⟦0⟧$ N/m. Quanto trabalho é necessário para esticá-la ⟦1⟧ m a partir do comprimento natural?`,
+
+  // series
+  '1efhn95iov3': R`
+<p>Uma série infinita $\sum a_n$ <b>converge</b> se suas somas parciais $S_N = a_1 + \cdots + a_N$ tendem a um limite finito.</p>
+⟦0⟧
+⟦1⟧
+<h3>Séries de potências e séries de Taylor</h3>
+<p>Uma série de potências $\sum c_n (x - a)^n$ converge para $|x - a| \lt R$, o <b>raio de convergência</b> (encontrado com o teste da razão). A série de Taylor de $f$ em torno de $a$ é $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; em torno de 0 ela se chama série de Maclaurin.</p>
+⟦2⟧
+⟦3⟧`,
+  '1fv7uha3bb4': R`Teste`,
+  '1boy0ga8tbt': R`Conclusão`,
+  '7ih7yeq8ue': R`Teste do termo geral`,
+  '1muum9p7rzf': R`se $a_n \not\to 0$, a série diverge`,
+  '1ky8r0l0qv8': R`$\sum ar^n$ converge se e somente se $|r| \lt 1$; soma $\frac{a}{1 - r}$`,
+  'rijv0gvehd': R`Série p`,
+  '7fut7e3zun': R`$\sum \frac{1}{n^p}$ converge se e somente se $p \gt 1$`,
+  '28h8cjdskg3': R`Comparação`,
+  '23c91vpuxqn': R`comparar com uma série conhecida`,
+  '1684r7a6bgw': R`Teste da razão`,
+  'oc6lw933sm': R`$L = \lim\left|\frac{a_{n+1}}{a_n}\right|$: $L \lt 1$ converge, $L \gt 1$ diverge`,
+  '131362k70as': R`Série alternada`,
+  '1ew5e8sa4g7': R`$\sum (-1)^n b_n$ converge se $b_n \downarrow 0$`,
+  '12cxen3heke': R`<p><b>Série telescópica:</b> $\displaystyle\sum_{n=1}^{N}\frac{1}{n(n+1)} = \sum\left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$, que tende a 1.</p>`,
+  '1ql1d0zgkve': R`Série de Maclaurin`,
+  '1arf5rbq565': R`Válida para`,
+  'oui4ssl2gv': R`todo x`,
+  'kvkz0oqeo6': R`<p>$a_n \to 0$ é necessário, mas não suficiente: a série harmônica $\sum \frac{1}{n}$ diverge embora $\frac{1}{n} \to 0$.</p>`,
+  '16u2ienbhtn': R`Calcule $\displaystyle\sum_{n=⟦0⟧}^{\infty} ⟦1⟧\left(⟦2⟧\right)^n$.`,
+  '1kgeq4tf48a': R`Geométrica com $r = ⟦0⟧$, $|r| \lt 1$, primeiro termo $⟦1⟧$: soma $= \frac{⟦2⟧}{1 - ⟦3⟧} = ⟦4⟧$.`,
+  '1eiae773y4x': R`ser uma série p com $p = \frac{1}{2} \le 1$`,
+  '1wok8okhtk9': R`ser a série harmônica ($p = 1$)`,
+  '22u9pb285sv': R`ser uma série p com $p = \frac{3}{2} \gt 1$`,
+  '204d6a8dcww': R`ser uma série p com $p = 2 \gt 1$`,
+  '243y5j9lor6': R`teste do termo geral: $\frac{n}{n+1} \to 1 \ne 0$`,
+  'ajpp0zqaap': R`teste das séries alternadas`,
+  'wlawq7ztg6': R`teste da razão: $\frac{3}{n+1} \to 0 \lt 1$`,
+  '265645ebmpe': R`teste da razão: $\frac{n+1}{2} \to \infty$`,
+  '1lt7pp2ijz': R`ser uma série geométrica com $|r| = \frac{2}{3} \lt 1$`,
+  '6goqsof3sp': R`ser uma série geométrica com $|r| = \frac{3}{2} \ge 1$`,
+  '1d4bvtuk3gt': R`comparação com $\sum\frac{1}{n^2}$`,
+  '2846ssfmjxq': R`comparação no limite com a série harmônica`,
+  's3fpv9edn1': R`A série $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ converge ou diverge?`,
+  '1szqlme8ixw': R`Converge`,
+  '1mr32mwk08w': R`Diverge`,
+  '25wy0z8lea1': R`Converge por ⟦0⟧.`,
+  'zibgubfq': R`Diverge por ⟦0⟧.`,
+  'd893gqg85h': R`Encontre o coeficiente de $x^{⟦0⟧}$ na série de Maclaurin de $⟦1⟧$.`,
+  '2gib9c2xh5i': R`$e^u = \sum \frac{u^n}{n!}$ com $u = ⟦0⟧$: o coeficiente é $\frac{(⟦1⟧)^{⟦2⟧}}{⟦3⟧!} = ⟦4⟧$.`,
+  '1i7l7fodjgy': R`Encontre o coeficiente de $x^{⟦0⟧}$ na série de Maclaurin de $\cos(⟦1⟧x)$.`,
+  '27l5wjsmcqy': R`$\cos u = 1 - \frac{u^2}{2!} + \frac{u^4}{4!} - \cdots$ com $u = ⟦0⟧x$: coeficiente $= ⟦1⟧$.`,
+  '13hswzoz6ds': R`Encontre o coeficiente de $x^{⟦0⟧}$ na série de Maclaurin de $\dfrac{1}{1 ⟦1⟧x}$.`,
+  '950amaqi7k': R`$\frac{1}{1 - u} = \sum u^n$ com $u = ⟦0⟧$: o coeficiente de $x^{⟦1⟧}$ é $(⟦2⟧)^{⟦3⟧} = ⟦4⟧$.`,
+  '12ohsobdns': R`Encontre o raio de convergência de $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$.`,
+  'y2p3mhwix3': R`Teste da razão: $\left|\frac{a_{n+1}}{a_n}\right| \to \frac{|⟦0⟧|}{⟦1⟧}$. Isso é menor que 1 quando $|⟦2⟧| \lt ⟦3⟧$, então $R = ⟦4⟧$.`,
+  '1hfprth485h': R`Calcule $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.`,
+  '24anbau0yh': R`Telescópica: $S_N = 1 - \frac{1}{N+1} \to 1$.`,
+  'kcknro2xmq': R`Calcule $\displaystyle\sum_{n=1}^{⟦0⟧} \frac{1}{n(n+1)}$.`,
+  'd2ku2hqqe6': R`$\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$, então a soma é telescópica e vale $1 - \frac{1}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$.`,
+  '2d09rr0z1dx': R`Qual função tem a série de Maclaurin $\displaystyle ⟦0⟧$?`,
+  '262p4pwoflz': R`É a série conhecida de $⟦0⟧$.`,
+
+  // multivariable
+  'elrzs4craq': R`
+<p>Para $f(x, y)$, a <b>derivada parcial</b> $f_x = \frac{\partial f}{\partial x}$ deriva em relação a $x$ tratando $y$ como constante (e vice-versa para $f_y$). Para $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradiente e derivadas direcionais</h3>
+⟦0⟧
+<h3>Pontos críticos: teste da segunda derivada</h3>
+<p>Num ponto em que $f_x = f_y = 0$, seja $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$: mínimo local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: máximo local.</li><li>$D \lt 0$: ponto de sela. &nbsp; $D = 0$: o teste é inconclusivo.</li></ul>
+<h3>Integrais duplas</h3>
+<p>Sobre um retângulo, integre uma variável de cada vez (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Em coordenadas polares, $dA = r\,dr\,d\theta$.</p>
+<h3>Multiplicadores de Lagrange</h3>
+<p>Para otimizar $f$ sujeita a $g = c$, resolva $\nabla f = \lambda\nabla g$ junto com a restrição.</p>
+⟦1⟧
+⟦2⟧`,
+  '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ aponta na direção de maior crescimento; seu comprimento é essa taxa máxima.</p>`,
+  'opu0v1dwpl': R`<p>Maximize $f = xy$ sujeita a $x + y = 10$: $(y; x) = \lambda(1; 1)$ dá $x = y = 5$, então o máximo é 25.</p>`,
+  '83uqphqp8x': R`<p>Em coordenadas polares, não esqueça o fator extra $r$ em $dA = r\,dr\,d\theta$.</p>`,
+  'oxpugv5o3o': R`Para $f(x, y) = ⟦0⟧$, calcule $f_⟦1⟧(⟦2⟧; ⟦3⟧)$.`,
+  '131ofsfpabh': R`$f_x = ⟦0⟧$, então $f_x(⟦1⟧; ⟦2⟧) = ⟦3⟧$.`,
+  'tma98sxgbh': R`$f_y = ⟦0⟧$, então $f_y(⟦1⟧; ⟦2⟧) = ⟦3⟧$.`,
+  '1894fvoucsb': R`Calcule $\nabla f(⟦0⟧; ⟦1⟧)$ para $f(x, y) = ⟦2⟧$.`,
+  '1mtqnuj8e72': R`Digite as duas componentes separadas por ponto e vírgula.`,
+  '1wlrv45vn5z': R`$f_x = ⟦0⟧$, $f_y = ⟦1⟧$. Em $⟦2⟧$: $\nabla f = ⟦3⟧$.`,
+  '280l4hqbl71': R`Encontre a derivada direcional de $f(x, y) = ⟦0⟧$ em $⟦1⟧$ na direção de $⟦2⟧$.`,
+  '23ij1mnh3qx': R`$\nabla f = (⟦0⟧; ⟦1⟧)$ e o vetor unitário é $\frac{1}{⟦2⟧}⟦3⟧$. $D_{\mathbf{u}}f = \frac{⟦4⟧(⟦5⟧) + ⟦6⟧(⟦7⟧)}{⟦8⟧} = ⟦9⟧$.`,
+  '1gbu12sd7yr': R`Mínimo local`,
+  'tfsmpd4xkw': R`Máximo local`,
+  '29jq1piqelp': R`Ponto de sela`,
+  '1knzmyv1q46': R`Teste inconclusivo`,
+  'uai27zrool': R`Classifique o ponto crítico em $(0; 0)$ de $f(x, y) = ⟦0⟧$.`,
+  'k6dc7gm5pm': R`$D \gt 0$ e $f_{xx} ⟦0⟧ 0$`,
+  'scf747plq6': R`Calcule $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} xy\,dy\,dx$.`,
+  'scioeo7pw6': R`$\int_0^{⟦0⟧} xy\,dy = \frac{⟦1⟧x}{2}$; depois $\int_0^{⟦2⟧} \frac{⟦3⟧x}{2}\,dx = \frac{⟦4⟧ \cdot ⟦5⟧}{4} = ⟦6⟧$.`,
+  'ktiyfy2vps': R`Calcule $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} (x + y)\,dy\,dx$.`,
+  'lgh3731wbd': R`$\int_0^{⟦0⟧} (x + y)\,dy = ⟦1⟧x + \frac{⟦2⟧}{2}$; depois $\int_0^{⟦3⟧} \left(⟦4⟧x + \frac{⟦5⟧}{2}\right)dx = \frac{⟦6⟧(⟦7⟧)^2}{2} + \frac{⟦8⟧(⟦9⟧)}{2} = ⟦10⟧$.`,
+  '1oi548attkh': R`Usando multiplicadores de Lagrange (ou outro método), encontre o máximo de $f = xy$ sujeita a $x ⟦0⟧y = ⟦1⟧$ com $x, y \gt 0$.`,
+  'helueus42k': R`$\nabla f = \lambda\nabla g$: $y = \lambda$, $x = ⟦0⟧\lambda$. Então $x = ⟦1⟧y$ e $⟦2⟧y = ⟦3⟧$, o que dá $y = ⟦4⟧$, $x = ⟦5⟧$ e $xy = ⟦6⟧$.`,
+  '1c5ngt35a15': R`Calcule $\displaystyle\iint_D (x^2 + y^2)\,dA$, onde $D$ é o disco $x^2 + y^2 \le ⟦0⟧$.`,
+  'hl1el1t8oy': R`Coordenadas polares: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
+
+  // ode
+  '29y4y4v6xas': R`
+<p>Uma <b>equação diferencial</b> relaciona uma função com suas derivadas. Sua <b>ordem</b> é a da derivada mais alta que aparece. A <b>solução geral</b> contém constantes arbitrárias; condições iniciais determinam uma solução particular.</p>
+<h3>Equações separáveis</h3>
+⟦0⟧
+<p>Caso especial: $\frac{dy}{dt} = ky$ dá $y = y_0e^{kt}$ — crescimento ($k \gt 0$) ou decaimento ($k \lt 0$) exponencial. Com meia-vida $T$, a quantidade restante é $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>Equações lineares de primeira ordem</h3>
+⟦1⟧
+<h3>Lineares de segunda ordem com coeficientes constantes</h3>
+<p>Para $ay'' + by' + cy = 0$, tente $y = e^{rx}$ e obtenha a <b>equação característica</b> $ar^2 + br + c = 0$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: separe, $\int\frac{dy}{y} = \int 2x\,dx$, então $\ln|y| = x^2 + C$ e $y = Ae^{x^2}$.</p>`,
+  '24caer7vpv9': R`<p>Para $y' + P(x)y = Q(x)$, multiplique pelo <b>fator integrante</b> $\mu(x) = e^{\int P(x)\,dx}$. Então $(\mu y)' = \mu Q$, logo $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
+  '2fhw42v6h9r': R`Raízes`,
+  'mdry0kk339': R`Solução geral`,
+  '1l55nwfgsi9': R`reais e distintas $r_1, r_2$`,
+  'fkai3ftnyj': R`dupla $r$`,
+  '3w3x9xlope': R`complexas $\alpha \pm \beta i$`,
+  '68uvb89pvs': R`<p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $r = \pm 2i$, então $y = C_1\cos 2x + C_2\sin 2x$ — movimento harmônico simples.</p>`,
+  'vgovr9zohx': R`<p>Com uma raiz dupla, $C_1e^{rx} + C_2e^{rx}$ é na verdade uma só solução; o fator extra $x$ dá a segunda.</p>`,
+  '234p7duj3ts': R`$r^2 ⟦0⟧r ⟦1⟧ = 0$ tem raízes $r = ⟦2⟧$ e $r = ⟦3⟧$`,
+  '1hssho6k9w6': R`$r^2 ⟦0⟧r + ⟦1⟧ = (r ⟦2⟧)^2 = 0$ tem a raiz dupla $r = ⟦3⟧$`,
+  '2chd8d4gjpq': R`$r^2 ⟦0⟧r + ⟦1⟧ = 0$ tem raízes complexas $r = ⟦2⟧ \pm ⟦3⟧i$`,
+  '1ngxukqkkvf': R`Encontre a solução geral de $⟦0⟧$.`,
+  'irmvhn9wve': R`A equação característica ⟦0⟧, então ⟦1⟧.`,
+  '5e0s1xl4f9': R`Uma amostra radioativa de ⟦0⟧ g tem meia-vida de ⟦1⟧ anos. Quanto resta depois de ⟦2⟧ anos?`,
+  '2eo258s1sy7': R`$⟦0⟧$ anos são ⟦1⟧ meias-vidas: $⟦2⟧\left(\frac{1}{2}\right)^{⟦3⟧} = ⟦4⟧$ g.`,
+  '1btlmc6ms72': R`Resolva a equação separável $\dfrac{dy}{dx} = ⟦0⟧\,y$.`,
+  'lgqvn6fqu1': R`$\int\frac{dy}{y} = \int ⟦0⟧\,dx$ dá $\ln|y| = ⟦1⟧ + C_0$, então $y = Ce^{⟦2⟧}$.`,
+  '1wp1r4xsb5y': R`Qual é o fator integrante de $y' + ⟦0⟧\,y = x^2$?`,
+  '1d5o356dbul': R`A lei de resfriamento de Newton dá $T(t) = ⟦0⟧ + ⟦1⟧e^{-⟦2⟧t}$ (°C, $t$ em minutos). Encontre a temperatura após ⟦3⟧ minutos, com 1 casa decimal.`,
+  'uzon2x7fe4': R`\frac{dy}{dx} = x^2y`,
+  '8swe0ei2mu': R`\frac{d^2y}{dx^2} + y = 0`,
+  '28kd92q06yf': R`\frac{d^3y}{dx^3} - 2\frac{dy}{dx} = 0`,
+  '1jgz4mikafn': R`Qual é a ordem da equação diferencial $⟦0⟧$?`,
+  'rxb07imi4n': R`A ordem é a da derivada mais alta que aparece: aqui é ⟦0⟧.`,
+});
