@@ -71,6 +71,8 @@ addUI('ko', {
   pageOf: R`⟦0⟧ / ⟦1⟧쪽`,
   printToast: R`내보내려면 인쇄 창에서 ‘PDF로 저장’을 선택하세요. 인쇄 창이 열리지 않으면 이 뷰어가 인쇄를 막고 있는 것입니다. 내려받은 HTML 파일을 Chrome이나 Edge에서 열어 인쇄하세요.`,
   langFail: R`이 언어를 불러오지 못해 영어로 표시합니다.`,
+  themeDark: R`야간 모드로 전환`,
+  themeLight: R`주간 모드로 전환`,
 });
 addMeta('ko', {
   levels: {

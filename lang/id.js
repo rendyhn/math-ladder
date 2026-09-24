@@ -71,6 +71,8 @@ addUI('id', {
   pageOf: R`Halaman ⟦0⟧ dari ⟦1⟧`,
   printToast: R`Pilih “Simpan sebagai PDF” di jendela cetak untuk mengekspor. Jika jendela cetak tidak muncul, penampil ini memblokir pencetakan — buka file HTML yang diunduh di Chrome atau Edge lalu cetak dari sana.`,
   langFail: R`Bahasa ini tidak dapat dimuat, jadi halaman ditampilkan dalam bahasa Inggris.`,
+  themeDark: R`Beralih ke mode malam`,
+  themeLight: R`Beralih ke mode siang`,
 });
 addMeta('id', {
   levels: {

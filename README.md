@@ -31,6 +31,8 @@ Open `index.html` in any modern browser, from disk or from a static host, with t
 
 To save a lesson or worksheet as PDF, use its Print button and choose **Save as PDF**.
 
+The page follows the device's light or dark setting. The sun/moon button in the top bar switches between day and night mode, and the browser remembers the choice. Printouts are always light.
+
 ## Publishing on GitHub Pages
 
 Settings → Pages → Source: **Deploy from a branch**, branch `main`, folder `/ (root)`. The site needs only `index.html`, `.nojekyll` and `lang/`. GitHub Pages on a private repository requires a paid plan.

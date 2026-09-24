@@ -87,6 +87,8 @@ const UI_EN = {
   pageOf: 'Page ⟦0⟧ of ⟦1⟧',
   printToast: 'Choose “Save as PDF” in the print dialog to export. If no dialog opens, this viewer blocks printing — open the downloaded HTML file in Chrome or Edge and print from there.',
   langFail: 'This language could not be loaded, so the page is shown in English.',
+  themeDark: 'Switch to night mode',
+  themeLight: 'Switch to day mode',
   ladderHead: 'Where this topic sits',
   buildsOn: 'Builds on',
   leadsTo: 'Leads to',
@@ -335,6 +337,15 @@ search.addEventListener('input', () => {
     sec.hidden = !any;
   });
 });
+/* ---------------- day / night: follows the device until the viewer picks one ---------------- */
+const darkMq = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : null;
+const isDark = () => { const t = document.documentElement.dataset.theme; return t ? t === 'dark' : !!(darkMq && darkMq.matches); };
+function updateThemeBtn() { const b = $('#theme-btn'), l = ui(isDark() ? 'themeLight' : 'themeDark'); b.setAttribute('aria-label', l); b.title = l; }
+$('#theme-btn').addEventListener('click', () => {
+  const t = isDark() ? 'light' : 'dark';
+  document.documentElement.dataset.theme = t; store.set('theme', t); updateThemeBtn();
+});
+if (darkMq && darkMq.addEventListener) darkMq.addEventListener('change', updateThemeBtn);
 const openMenu = on => { document.body.classList.toggle('nav-open', on); $('#menu-btn').setAttribute('aria-expanded', String(on)); };
 $('#menu-btn').addEventListener('click', () => openMenu(!document.body.classList.contains('nav-open')));
 $('#scrim').addEventListener('click', () => openMenu(false));
@@ -554,6 +565,8 @@ function applyChrome() {
   $('#brand-tag').textContent = ui('brandTag');
   $('label[for="topic-search"]').textContent = ui('searchLabel');
   $('#lang-label').textContent = ui('language');
+  updateThemeBtn();
+  $('#lang-code').textContent = code.toUpperCase();
   langSel.value = code;
   updatePrintStyle();
 }
