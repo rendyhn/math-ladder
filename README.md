@@ -13,6 +13,8 @@ Lessons and practice worksheets from elementary school to university: 66 topics 
 
 Each topic has a lesson and a practice sheet. A sheet mixes multiple-choice and fill-in questions (or only one kind), checks the answers, and folds out worked solutions.
 
+Each lesson opens with **Where this topic sits**: the topics it builds on and the topics it leads to, each with a one-sentence reason for the link. Mathematics branches rather than running in a single line, so a topic can have several prerequisites across levels (derivatives build on both limits and the gradient of a straight line).
+
 ## Languages
 
 English, Español, 中文（简体）, Français, Deutsch, Português, Русский, العربية, فارسی, 日本語, 한국어 and Bahasa Indonesia.
@@ -67,10 +69,11 @@ To add a language: add its code to `LANGS` in `tools/i18n.py` and to `LANGS` and
 | `lang/<code>.js` | Built language packs. |
 | `.nojekyll` | Makes GitHub Pages serve the files as they are. |
 | `src/lvl1-elementary.js` … `src/lvl4-university.js` | Lessons and question generators for the four levels. |
+| `src/ladder.js` | Prerequisite links between topics, each with the reason shown on the lesson page. |
 | `src/core.js` | Random numbers, fraction and formula formatting, the translation system, number formats per language. |
 | `src/app.js` | Navigation, worksheets, answer checking, answer key, printing, language menu. |
 | `src/style.css`, `src/head.html`, `src/body.html` | Styles (light/dark, print, right-to-left) and page skeleton. |
-| `src/lang/<code>/` | Translation sources: `0-ui.js` (interface and topic titles), then one or more files per level. |
+| `src/lang/<code>/` | Translation sources: `0-ui.js` (interface and topic titles), one or more files per level, and `5-ladder.js` (prerequisite reasons). |
 | `i18n/` | String catalogue for translators and `PROGRESS.md`. |
 | `tools/i18n.py` | Catalogue and translation checker. |
 | `build.py` | Build script. |

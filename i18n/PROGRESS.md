@@ -19,7 +19,8 @@ How it works (see also src/core.js "i18n" section and tools/i18n.py):
 
 Languages: es zh fr de pt ru ar fa ja ko id
 
-Pack files per language: 0-ui.js, 1-elementary-{a,b,c}.js, 2-junior-*.js, 3-senior-*.js, 4-university-*.js
+Pack files per language: 0-ui.js, 1-elementary-{a,b,c}.js, 2-junior-*.js, 3-senior-*.js, 4-university-*.js,
+5-ladder.js (addUI for the ladder labels + addT for the reasons in src/ladder.js, catalog/ladder.txt)
 (build.py concatenates them in name order). Units: ru/ar get local unit symbols via un() in core.js, so their
 static text uses см, кг … / سم، كغ …; other languages keep SI symbols. Currency: es dólares, fr/de euros,
 pt reais, ru долл., zh 元, ja ドル, ko 달러, ar/fa دولار/دلار, id ribu rupiah.

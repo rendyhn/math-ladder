@@ -17,7 +17,7 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / 'src'
 OUT = ROOT / 'i18n'
-CONTENT_FILES = ['core.js', 'lvl1-elementary.js', 'lvl2-junior.js', 'lvl3-senior.js', 'lvl4-university.js']
+CONTENT_FILES = ['core.js', 'lvl1-elementary.js', 'lvl2-junior.js', 'lvl3-senior.js', 'lvl4-university.js', 'ladder.js']
 LANGS = ['es', 'zh', 'fr', 'de', 'pt', 'ru', 'ar', 'fa', 'ja', 'ko', 'id']
 M32 = 0xFFFFFFFF
 
