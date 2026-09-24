@@ -4,6 +4,7 @@
   python tools/i18n.py audit          list string literals in the level files that look like untranslated English
   python tools/i18n.py check [lang]   validate language packs in src/lang/<lang>/ against the catalogue
   python tools/i18n.py status         coverage table for all languages
+  python tools/i18n.py missing <lang> [file]   list keys still untranslated (optionally only one level file)
 
 Keys: the static text of a template, with ⟦0⟧, ⟦1⟧… for the ${} slots, hashed with cyrb53
 (identical to hashKey() in src/core.js).
@@ -278,6 +279,13 @@ def cmd_check(langs):
     return bad
 
 
+def cmd_missing(lang, fil=None):
+    pack = load_pack(lang)['t']
+    for e in build_catalog():
+        if (not fil or fil in e['file']) and needed(e['en'], lang) and e['key'] not in pack:
+            print(f"{e['file']:20} {e['topic']:24} {e['key']:14} {e['en'][:70]!r}")
+
+
 def load_ui_en():
     src = read_src('app.js')
     m = re.search(r'const UI_EN = \{', src)
@@ -312,5 +320,7 @@ if __name__ == '__main__':
         sys.exit(1 if cmd_check(sys.argv[2:] or LANGS) else 0)
     elif cmd == 'status':
         cmd_status()
+    elif cmd == 'missing':
+        cmd_missing(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else None)
     elif cmd == 'hash':
         print(hash_key(sys.argv[2]))
