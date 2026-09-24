@@ -2179,3 +2179,607 @@ addT('id', {
   'enorfzjcll': R`Mengetahui $q$ benar tidak memberi tahu apa pun tentang $p$ (membenarkan akibat adalah kesalahan). Tidak ada kesimpulan yang sah.`,
   '1w6l8obljn3': R`Mengetahui $\neg p$ tidak memberi tahu apa pun tentang $q$ (mengingkari anteseden adalah kesalahan). Tidak ada kesimpulan yang sah.`,
 });
+
+/* Bahasa Indonesia — Kuliah (teknik turunan → persamaan diferensial) */
+addT('id', {
+  // diff-techniques
+  'i2e9stiapi': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Turunan implisit</h3>
+<p>Jika $y$ didefinisikan secara implisit, turunkan kedua ruas terhadap $x$ dengan memandang $y$ sebagai fungsi dari $x$ (jadi $\frac{d}{dx}y^2 = 2y\,y'$), lalu selesaikan untuk $y'$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1kr8zytc8j5': R`Perkalian`,
+  '1fd6nxjb0xt': R`Pembagian`,
+  '21u0n9yxqot': R`Rantai`,
+  '10xmtmesa6t': R`Fungsi`,
+  'n72fq2kxcg': R`Turunan`,
+  '1qtv7snffoy': R`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4$ &nbsp;(aturan rantai)</p><p>$\dfrac{d}{dx}\,x^2 e^{3x} = 2x e^{3x} + 3x^2 e^{3x} = xe^{3x}(2 + 3x)$ &nbsp;(aturan perkalian)</p>`,
+  '1nhip08xeg5': R`<p>$x^2 + y^2 = 25 \Rightarrow 2x + 2y\,y' = 0 \Rightarrow y' = -\dfrac{x}{y}$. Di titik $(3; 4)$ gradiennya $-\frac{3}{4}$.</p>`,
+  'wvkdxn7frj': R`<p><b>Turunan logaritmik</b> memudahkan perkalian, pembagian, dan pangkat variabel: untuk $y = x^x$, $\ln y = x\ln x$, sehingga $\frac{y'}{y} = \ln x + 1$ dan $y' = x^x(\ln x + 1)$.</p>`,
+  're4vli1oc9': R`<p>Aturan rantai: selalu kalikan dengan turunan fungsi <b>dalam</b>. $\frac{d}{dx}\sin(x^2) = 2x\cos(x^2)$, bukan $\cos(x^2)$.</p>`,
+  '1iajxt140g2': R`Misalkan $f(x) = (⟦0⟧)^{⟦1⟧}$. Tentukan $f'(⟦2⟧)$.`,
+  '2108swf0nc1': R`Aturan rantai: $f'(x) = ⟦0⟧(⟦1⟧)^{⟦2⟧} \cdot ⟦3⟧$. Di $x = ⟦4⟧$ nilai bagian dalam adalah ⟦5⟧, jadi $f'(⟦6⟧) = ⟦7⟧ \cdot ⟦8⟧^{⟦9⟧} \cdot ⟦10⟧ = ⟦11⟧$.`,
+  '13u8g7mcany': R`Turunkan $y = ⟦0⟧⟦1⟧$.`,
+  'ltfmske2sq': R`Aturan perkalian dengan $u = ⟦0⟧$, $v = ⟦1⟧$: $y' = ⟦2⟧⟦3⟧ + ⟦4⟧ \cdot ⟦5⟧ =⟦6⟧⟦7⟧(⟦8⟧)$.`,
+  '24tbapqaxkt': R`Misalkan $f(x) = \ln(⟦0⟧)$. Tentukan $f'(⟦1⟧)$.`,
+  'vr5ui5jnj1': R`$f'(x) = \frac{⟦0⟧x}{⟦1⟧}$, jadi $f'(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '21f80wac08v': R`Tentukan $\frac{dy}{dx}$ untuk $x^2 + y^2 = ⟦0⟧$ di titik $⟦1⟧$.`,
+  'xl17ytois8': R`Tentukan $\frac{dy}{dx}$ untuk $xy = ⟦0⟧$ di titik $⟦1⟧$.`,
+  'cc1dbada60': R`Aturan perkalian: $y + x\,y' = 0 \Rightarrow y' = -\frac{y}{x} = ⟦0⟧$.`,
+  'g5b3ql04b4': R`Turunkan $y = \sin(⟦0⟧)$.`,
+  '1u57cjycyb3': R`Aturan rantai: turunan luarnya $\cos(⟦0⟧)$ dan turunan dalamnya $⟦1⟧$, sehingga hasilnya $⟦2⟧\cos(⟦3⟧)$.`,
+  '1zcx1qjywp8': R`Untuk $f(x) = ⟦0⟧$, tentukan $f''(⟦1⟧)$.`,
+  '22jprctwicn': R`$f'(x) = ⟦0⟧$ dan $f''(x) = ⟦1⟧$. Jadi $f''(⟦2⟧) = ⟦3⟧$.`,
+  '1pkqexq4tgg': R`Misalkan $f(x) = x\ln x$. Tentukan $f'(e^{⟦0⟧})$.`,
+  '20aqqhk2mtp': R`Aturan perkalian: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Jadi $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
+
+  // diff-applications
+  'g0oq20zzs': R`
+<h3>Aturan L'Hôpital</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (diterapkan dua kali).</p>
+<h3>Optimasi</h3>
+<ol><li>Tulis besaran yang dioptimalkan sebagai fungsi satu variabel (gunakan kendalanya).</li><li>Turunkan dan selesaikan $f'(x) = 0$.</li><li>Periksa apakah itu maksimum/minimum (turunan kedua atau titik ujung).</li></ol>
+⟦1⟧
+<h3>Laju yang berkaitan</h3>
+<p>Turunkan suatu hubungan terhadap waktu. Untuk lingkaran yang membesar, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Aproksimasi linear</h3>
+⟦2⟧
+<h3>Kecekungan dan teorema nilai rata-rata</h3>
+<p>$f'' \gt 0$: cekung ke atas; $f'' \lt 0$: cekung ke bawah; <b>titik belok</b> adalah tempat kecekungan berubah. <b>Teorema nilai rata-rata:</b> jika $f$ kontinu pada $[a; b]$ dan terdiferensialkan di dalamnya, ada $c$ di $(a; b)$ dengan $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦3⟧`,
+  '11hmiu9w9s4': R`<p>Jika $\lim \frac{f(x)}{g(x)}$ berbentuk $\frac{0}{0}$ atau $\frac{\infty}{\infty}$, maka $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (jika limit ruas kanan ada).</p>`,
+  '189x52ko5mw': R`<p>Dari keempat sudut lembaran persegi bersisi 18 cm dipotong persegi bersisi $x$, lalu sisinya dilipat ke atas. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ memberi $x = 3$, jadi $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
+  'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{mis. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
+  '15384lzo6ba': R`<p>L'Hôpital menurunkan pembilang dan penyebut <b>secara terpisah</b> — ini bukan aturan pembagian.</p>`,
+  's2219vpl96': R`Hitung $\displaystyle\lim_{x \to 0}\frac{1 - \cos ⟦0⟧x}{x^2}$.`,
+  '1tq22svmx8r': R`L'Hôpital dua kali: $\frac{⟦0⟧\sin ⟦1⟧x}{2x} \to \frac{⟦2⟧\cos ⟦3⟧x}{2} \to \frac{⟦4⟧}{2}$.`,
+  'v9t0b7xos3': R`Hitung $\displaystyle\lim_{x \to 0}\frac{⟦0⟧}{⟦1⟧x}$.`,
+  'wudu9stdyh': R`Bentuknya $\frac{0}{0}$; turunkan pembilang dan penyebut: $\frac{⟦0⟧}{⟦1⟧} \to \frac{⟦2⟧}{⟦3⟧}$.`,
+  'b8a0ml45bv': R`Dari keempat sudut lembaran berukuran ⟦0⟧ cm × ⟦1⟧ cm dipotong persegi-persegi sama besar bersisi $x$ cm, lalu sisinya dilipat untuk membuat kotak tanpa tutup. ⟦2⟧`,
+  '6fzl8050w8': R`Berapa nilai x yang membuat volumenya maksimum?`,
+  '1nbs4g9250e': R`Berapa volume maksimum yang mungkin?`,
+  '1xaya4958aj': R`$V = x(⟦0⟧ - 2x)^2$, $V' = (⟦1⟧ - 2x)(⟦2⟧ - 6x) = 0$ memberi $x = ⟦3⟧$ (akar lainnya memberi volume nol). $V = ⟦4⟧(⟦5⟧)^2 = ⟦6⟧$ cm³.`,
+  'g44lawx7yb': R`Jari-jari sebuah lingkaran bertambah ⟦0⟧ cm/s. Seberapa cepat luasnya bertambah saat jari-jarinya ⟦1⟧ cm? Nyatakan dalam $\pi$.`,
+  'pvrsmdtr3x': R`$\frac{dA}{dt} = 2\pi r\frac{dr}{dt} = 2\pi(⟦0⟧)(⟦1⟧) = ⟦2⟧$ cm²/s.`,
+  'w8wuhpzsgd': R`Jari-jari sebuah balon bola bertambah ⟦0⟧ cm/s. Seberapa cepat volumenya bertambah saat jari-jarinya ⟦1⟧ cm? Nyatakan dalam $\pi$.`,
+  '1ca85zwkg9p': R`$\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt} = 4\pi(⟦0⟧)^2(⟦1⟧) = ⟦2⟧$ cm³/s.`,
+  '2c66yuykiw5': R`Gunakan aproksimasi linear $\sqrt{x}$ di $x = ⟦0⟧$ untuk menaksir $\sqrt{⟦1⟧}$.`,
+  'rjw48nwhxr': R`Tulis pecahan atau desimal.`,
+  '16wswpodtbc': R`Tentukan koordinat $x$ titik belok $f(x) = ⟦0⟧$.`,
+  '16igzoef2co': R`$f''(x) = 6x ⟦0⟧ = 0$ memberi $x = ⟦1⟧$; di situ tanda $f''$ berubah.`,
+  '2dw0fqk2lyr': R`$f(x) = ⟦0⟧$ pada $[⟦1⟧; ⟦2⟧]$. Tentukan nilai $c$ yang dijamin oleh teorema nilai rata-rata.`,
+  '1c5ltuvzsrq': R`Gradien rata-rata $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ memberi $c = ⟦7⟧$ — titik tengah, seperti biasa untuk fungsi kuadrat.`,
+
+  // integration-techniques
+  'vrvi3bfbr': R`
+<h3>Substitusi</h3>
+<p>Cari sebuah fungsi beserta turunannya. Dengan $u = g(x)$, $du = g'(x)\,dx$:</p>
+⟦0⟧
+<p>Untuk integral tentu, ubah juga batasnya (atau kembalikan ke variabel semula sebelum menghitung).</p>
+<h3>Integral parsial</h3>
+⟦1⟧
+⟦2⟧
+<h3>Pecahan parsial</h3>
+<p>Pecah fungsi rasional menjadi bagian yang lebih sederhana: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Hilangkan penyebut lalu substitusikan $x = 1$ dan $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Setiap bagian diintegralkan menjadi logaritma.</p>
+<h3>Integral tak wajar</h3>
+⟦3⟧
+⟦4⟧`,
+  '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
+  '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Pilih $u$ menurut urutan <b>LIATE</b>: Logaritma, Invers trigonometri, Aljabar, Trigonometri, Eksponensial — mana yang lebih dulu muncul.</p>`,
+  'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, jadi $du = dx$, $v = \frac{1}{2}e^{2x}$. Hasil: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
+  '2clmb8muggz': R`\int_1^\infty \frac{dx}{x^p} = \frac{1}{p - 1} \text{ untuk } p \gt 1 \text{ (divergen untuk } p \le 1) \qquad \int_0^\infty e^{-kx}\,dx = \frac{1}{k}`,
+  'l8twy4h3ug': R`<p>$\int \frac{g'(x)}{g(x)}\,dx = \ln|g(x)| + C$ — kenali pola ini sebelum memakai cara yang lebih berat.</p>`,
+  'fesx7djw83': R`xe^{x} - e^{x}`,
+  'yia5dxx3ds': R`xe^{x} + e^{x}`,
+  '1afuqmxgeq5': R`Tentukan $\displaystyle\int ⟦0⟧\,dx$.`,
+  '1235n0zk19z': R`Integral parsial dengan ⟦0⟧: hasilnya ⟦1⟧. Turunkan untuk memeriksa.`,
+  'pklgf5s2ey': R`Hitung $\displaystyle\int_0^{⟦0⟧} 2x(x^2 + 1)^{⟦1⟧}\,dx$.`,
+  '51fkmlo4j8': R`Misalkan $u = x^2 + 1$, $du = 2x\,dx$; batasnya dari $u = 1$ sampai $u = ⟦0⟧$: $\int_1^{⟦1⟧} u^{⟦2⟧}\,du = \left[\frac{u^{⟦3⟧}}{⟦4⟧}\right]_1^{⟦5⟧} = \frac{⟦6⟧ - 1}{⟦7⟧} = ⟦8⟧$.`,
+  '1tmpbvg6cku': R`Uraikan menjadi pecahan parsial: $\dfrac{⟦0⟧}{⟦1⟧⟦2⟧}$`,
+  '1iitr1pnozn': R`Tulis $\frac{P}{⟦0⟧} + \frac{Q}{⟦1⟧}$ lalu hilangkan penyebut. Dengan $x = ⟦2⟧$ diperoleh $P = ⟦3⟧$; dengan $x = ⟦4⟧$ diperoleh $Q = ⟦5⟧$.`,
+  'r1rswlk024': R`Hitung $\displaystyle\int_0^{\pi/⟦0⟧} \sin(⟦1⟧x)\,dx$.`,
+  '1l97oofm3p4': R`Hitung $\displaystyle\int_0^{\pi/⟦0⟧} \cos(⟦1⟧x)\,dx$.`,
+  'pqalznrxip': R`Hitung $\displaystyle\int_1^{\infty} \frac{dx}{x^{⟦0⟧}}$.`,
+  '4t49nbtc5g': R`$\left[\frac{x^{⟦0⟧}}{⟦1⟧}\right]_1^{\infty} = 0 - \frac{1}{⟦2⟧} = ⟦3⟧$. Integralnya konvergen karena $p = ⟦4⟧ \gt 1$.`,
+  'w9i8vvwvmq': R`Hitung $\displaystyle\int_0^{\infty} e^{-⟦0⟧x}\,dx$.`,
+  '1wnox68sxsf': R`Hitung $\displaystyle\int_0^{⟦0⟧} \frac{2x}{x^2 + 1}\,dx$.`,
+  '2ctr5v6it67': R`Jawaban seperti ln(10) diterima.`,
+  '8ud8r2yql4': R`Pembilangnya adalah turunan penyebut: $\left[\ln(x^2 + 1)\right]_0^{⟦0⟧} = \ln ⟦1⟧ - \ln 1 = \ln ⟦2⟧$.`,
+
+  // integral-applications
+  '1iuoee1mxv2': R`Integral`,
+  'u2fo7phj7e': R`Luas di antara kurva`,
+  '26rkw1zgbbl': R`Volume (cakram), mengelilingi sumbu x`,
+  '1gdvfh77kjd': R`Volume (cincin)`,
+  '2e8c5l4l65u': R`Volume (kulit tabung), mengelilingi sumbu y`,
+  'hf97eg5buy': R`Nilai rata-rata`,
+  '1wrr2ozjzke': R`Panjang busur`,
+  '1aamatrm1qc': R`Usaha (gaya berubah)`,
+  '25psf0wh4wl': R`<p>Memutar $y = \sqrt{x}$, $0 \le x \le 4$, mengelilingi sumbu $x$: $V = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$.</p>`,
+  '84txgrqh8f': R`<p>Pegas dengan $k = 200$ N/m (hukum Hooke $F = kx$) diregangkan 0,3 m: $W = \int_0^{0{,}3} 200x\,dx = 100(0{,}3)^2 = 9$ J.</p>`,
+  '4sufc6qh8k': R`<p>Buat sketsa dulu. Cari titik potong kurva (itulah batasnya) dan mana yang di atas — integrannya selalu <b>atas dikurangi bawah</b> (atau kuadrat jari-jari luar dikurangi kuadrat jari-jari dalam).</p>`,
+  '2dts82e214f': R`<p>Pada metode cakram yang dikuadratkan adalah <b>fungsinya</b>, bukan integralnya: $\pi\int f^2$, bukan $\pi\left(\int f\right)^2$.</p>`,
+  '254d1knheuj': R`Tentukan luas daerah yang dibatasi $y = x^3$ dan $y = ⟦0⟧x$ di kuadran pertama.`,
+  '6v6svg4kwp': R`Keduanya berpotongan di $x = 0$ dan $x = ⟦0⟧$. $\int_0^{⟦1⟧} (⟦2⟧x - x^3)\,dx = \frac{⟦3⟧(⟦4⟧)^2}{2} - \frac{⟦5⟧^4}{4} = ⟦6⟧$.`,
+  '137eefen200': R`\pi\int_0^{⟦0⟧} x\,dx = \frac{\pi (⟦1⟧)^2}{2}`,
+  '1minpuvvl2n': R`\pi\int_0^{⟦0⟧} x^2\,dx = \frac{\pi (⟦1⟧)^3}{3}`,
+  's7flm3xrdz': R`\pi\int_0^{⟦0⟧} x^4\,dx = \frac{\pi (⟦1⟧)^5}{5}`,
+  '217wjez6n7': R`Daerah di bawah $⟦0⟧$ untuk $0 \le x \le ⟦1⟧$ diputar mengelilingi sumbu $x$. Tentukan volumenya dalam $\pi$.`,
+  '1icurdoc4sc': R`Metode cakram: $V = ⟦0⟧ = ⟦1⟧$.`,
+  '2gj0lncwv9v': R`Daerah di antara $y = ⟦0⟧x$ dan $y = x^2$ diputar mengelilingi sumbu $x$. Tentukan volumenya dalam $\pi$.`,
+  '79trxd9ylt': R`Cincin dengan jari-jari luar $⟦0⟧x$ dan jari-jari dalam $x^2$ pada $[0; ⟦1⟧]$: $V = \pi\int_0^{⟦2⟧} (⟦3⟧x^2 - x^4)\,dx = \pi\left(\frac{⟦4⟧}{3} - \frac{⟦5⟧}{5}\right) = ⟦6⟧$.`,
+  '7u6xsm6kr0': R`Tentukan nilai rata-rata $f(x) = x^2$ pada $[0; ⟦0⟧]$.`,
+  '14439tvneep': R`Tentukan nilai rata-rata $f(x) = ⟦0⟧$ pada $[⟦1⟧; ⟦2⟧]$.`,
+  'ooxywxrn7m': R`Rata-rata fungsi linear sama dengan nilainya di titik tengah $x = ⟦0⟧$: $⟦1⟧(⟦2⟧) ⟦3⟧ = ⟦4⟧$.`,
+  'mptjdpftfn': R`Tentukan panjang busur $y = \frac{2}{3}x^{3/2}$ dari $x = 0$ sampai $x = ⟦0⟧$.`,
+  'z00id81ez': R`$y' = x^{1/2}$, jadi $L = \int_0^{⟦0⟧} \sqrt{1 + x}\,dx = \left[\frac{2}{3}(1 + x)^{3/2}\right]_0^{⟦1⟧} = \frac{2}{3}(⟦2⟧ - 1) = ⟦3⟧$.`,
+  'lpjavqv13n': R`Sebuah pegas memiliki konstanta $k = ⟦0⟧$ N/m. Berapa usaha yang diperlukan untuk meregangkannya ⟦1⟧ m dari panjang alaminya?`,
+
+  // series
+  '1efhn95iov3': R`
+<p>Deret tak hingga $\sum a_n$ <b>konvergen</b> jika jumlah parsialnya $S_N = a_1 + \cdots + a_N$ mendekati suatu limit berhingga.</p>
+⟦0⟧
+⟦1⟧
+<h3>Deret pangkat dan deret Taylor</h3>
+<p>Deret pangkat $\sum c_n (x - a)^n$ konvergen untuk $|x - a| \lt R$, dengan $R$ adalah <b>jari-jari kekonvergenan</b> (dicari dengan uji rasio). Deret Taylor $f$ di sekitar $a$ adalah $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; di sekitar 0 disebut deret Maclaurin.</p>
+⟦2⟧
+⟦3⟧`,
+  '1fv7uha3bb4': R`Uji`,
+  '1boy0ga8tbt': R`Kesimpulan`,
+  '7ih7yeq8ue': R`Uji suku ke-n (divergensi)`,
+  '1muum9p7rzf': R`jika $a_n \not\to 0$, deret divergen`,
+  '1ky8r0l0qv8': R`$\sum ar^n$ konvergen jika dan hanya jika $|r| \lt 1$; jumlahnya $\frac{a}{1 - r}$`,
+  'rijv0gvehd': R`Deret p`,
+  '7fut7e3zun': R`$\sum \frac{1}{n^p}$ konvergen jika dan hanya jika $p \gt 1$`,
+  '28h8cjdskg3': R`Perbandingan`,
+  '23c91vpuxqn': R`bandingkan dengan deret yang sudah diketahui`,
+  '1684r7a6bgw': R`Uji rasio`,
+  'oc6lw933sm': R`$L = \lim\left|\frac{a_{n+1}}{a_n}\right|$: $L \lt 1$ konvergen, $L \gt 1$ divergen`,
+  '131362k70as': R`Deret berganti tanda`,
+  '1ew5e8sa4g7': R`$\sum (-1)^n b_n$ konvergen jika $b_n \downarrow 0$`,
+  '12cxen3heke': R`<p><b>Deret teleskopik:</b> $\displaystyle\sum_{n=1}^{N}\frac{1}{n(n+1)} = \sum\left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$, yang menuju 1.</p>`,
+  '1ql1d0zgkve': R`Deret Maclaurin`,
+  '1arf5rbq565': R`Berlaku untuk`,
+  'oui4ssl2gv': R`semua x`,
+  'kvkz0oqeo6': R`<p>$a_n \to 0$ perlu tetapi tidak cukup: deret harmonik $\sum \frac{1}{n}$ divergen walaupun $\frac{1}{n} \to 0$.</p>`,
+  '16u2ienbhtn': R`Tentukan $\displaystyle\sum_{n=⟦0⟧}^{\infty} ⟦1⟧\left(⟦2⟧\right)^n$.`,
+  '1kgeq4tf48a': R`Deret geometri dengan $r = ⟦0⟧$, $|r| \lt 1$, suku pertama $⟦1⟧$: jumlah $= \frac{⟦2⟧}{1 - ⟦3⟧} = ⟦4⟧$.`,
+  '1eiae773y4x': R`merupakan deret p dengan $p = \frac{1}{2} \le 1$`,
+  '1wok8okhtk9': R`merupakan deret harmonik ($p = 1$)`,
+  '22u9pb285sv': R`merupakan deret p dengan $p = \frac{3}{2} \gt 1$`,
+  '204d6a8dcww': R`merupakan deret p dengan $p = 2 \gt 1$`,
+  '243y5j9lor6': R`uji suku ke-n: $\frac{n}{n+1} \to 1 \ne 0$`,
+  'ajpp0zqaap': R`uji deret berganti tanda`,
+  'wlawq7ztg6': R`uji rasio: $\frac{3}{n+1} \to 0 \lt 1$`,
+  '265645ebmpe': R`uji rasio: $\frac{n+1}{2} \to \infty$`,
+  '1lt7pp2ijz': R`merupakan deret geometri dengan $|r| = \frac{2}{3} \lt 1$`,
+  '6goqsof3sp': R`merupakan deret geometri dengan $|r| = \frac{3}{2} \ge 1$`,
+  '1d4bvtuk3gt': R`perbandingan dengan $\sum\frac{1}{n^2}$`,
+  '2846ssfmjxq': R`uji banding limit dengan deret harmonik`,
+  's3fpv9edn1': R`Apakah $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ konvergen atau divergen?`,
+  '1szqlme8ixw': R`Konvergen`,
+  '1mr32mwk08w': R`Divergen`,
+  '25wy0z8lea1': R`Konvergen karena ⟦0⟧.`,
+  'zibgubfq': R`Divergen karena ⟦0⟧.`,
+  'd893gqg85h': R`Tentukan koefisien $x^{⟦0⟧}$ pada deret Maclaurin $⟦1⟧$.`,
+  '2gib9c2xh5i': R`$e^u = \sum \frac{u^n}{n!}$ dengan $u = ⟦0⟧$: koefisiennya $\frac{(⟦1⟧)^{⟦2⟧}}{⟦3⟧!} = ⟦4⟧$.`,
+  '1i7l7fodjgy': R`Tentukan koefisien $x^{⟦0⟧}$ pada deret Maclaurin $\cos(⟦1⟧x)$.`,
+  '27l5wjsmcqy': R`$\cos u = 1 - \frac{u^2}{2!} + \frac{u^4}{4!} - \cdots$ dengan $u = ⟦0⟧x$: koefisien $= ⟦1⟧$.`,
+  '13hswzoz6ds': R`Tentukan koefisien $x^{⟦0⟧}$ pada deret Maclaurin $\dfrac{1}{1 ⟦1⟧x}$.`,
+  '950amaqi7k': R`$\frac{1}{1 - u} = \sum u^n$ dengan $u = ⟦0⟧$: koefisien $x^{⟦1⟧}$ adalah $(⟦2⟧)^{⟦3⟧} = ⟦4⟧$.`,
+  '12ohsobdns': R`Tentukan jari-jari kekonvergenan $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$.`,
+  'y2p3mhwix3': R`Uji rasio: $\left|\frac{a_{n+1}}{a_n}\right| \to \frac{|⟦0⟧|}{⟦1⟧}$. Nilai ini kurang dari 1 jika $|⟦2⟧| \lt ⟦3⟧$, jadi $R = ⟦4⟧$.`,
+  '1hfprth485h': R`Tentukan $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.`,
+  '24anbau0yh': R`Teleskopik: $S_N = 1 - \frac{1}{N+1} \to 1$.`,
+  'kcknro2xmq': R`Tentukan $\displaystyle\sum_{n=1}^{⟦0⟧} \frac{1}{n(n+1)}$.`,
+  'd2ku2hqqe6': R`$\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$, jadi sukunya saling menghapus dan jumlahnya $1 - \frac{1}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$.`,
+  '2d09rr0z1dx': R`Fungsi manakah yang deret Maclaurinnya $\displaystyle ⟦0⟧$?`,
+  '262p4pwoflz': R`Ini adalah deret baku untuk $⟦0⟧$.`,
+
+  // multivariable
+  'elrzs4craq': R`
+<p>Untuk $f(x, y)$, <b>turunan parsial</b> $f_x = \frac{\partial f}{\partial x}$ diturunkan terhadap $x$ dengan memandang $y$ sebagai konstanta (sebaliknya untuk $f_y$). Untuk $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradien dan turunan berarah</h3>
+⟦0⟧
+<h3>Titik kritis: uji turunan kedua</h3>
+<p>Di titik tempat $f_x = f_y = 0$, misalkan $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$: minimum lokal. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: maksimum lokal.</li><li>$D \lt 0$: titik pelana. &nbsp; $D = 0$: uji tidak dapat menyimpulkan.</li></ul>
+<h3>Integral lipat dua</h3>
+<p>Pada persegi panjang, integralkan satu variabel setiap kali (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Dalam koordinat kutub, $dA = r\,dr\,d\theta$.</p>
+<h3>Pengali Lagrange</h3>
+<p>Untuk mengoptimalkan $f$ dengan kendala $g = c$, selesaikan $\nabla f = \lambda\nabla g$ bersama kendalanya.</p>
+⟦1⟧
+⟦2⟧`,
+  '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ menunjuk ke arah kenaikan tercepat; panjangnya adalah laju maksimum itu.</p>`,
+  'opu0v1dwpl': R`<p>Maksimumkan $f = xy$ dengan kendala $x + y = 10$: $(y; x) = \lambda(1; 1)$ memberi $x = y = 5$, jadi maksimumnya 25.</p>`,
+  '83uqphqp8x': R`<p>Dalam koordinat kutub, jangan lupa faktor tambahan $r$ pada $dA = r\,dr\,d\theta$.</p>`,
+  'oxpugv5o3o': R`Untuk $f(x, y) = ⟦0⟧$, tentukan $f_⟦1⟧(⟦2⟧; ⟦3⟧)$.`,
+  '131ofsfpabh': R`$f_x = ⟦0⟧$, jadi $f_x(⟦1⟧; ⟦2⟧) = ⟦3⟧$.`,
+  'tma98sxgbh': R`$f_y = ⟦0⟧$, jadi $f_y(⟦1⟧; ⟦2⟧) = ⟦3⟧$.`,
+  '1894fvoucsb': R`Tentukan $\nabla f(⟦0⟧; ⟦1⟧)$ untuk $f(x, y) = ⟦2⟧$.`,
+  '1mtqnuj8e72': R`Tulis kedua komponen dipisahkan titik koma, misalnya -2; 5.`,
+  '1wlrv45vn5z': R`$f_x = ⟦0⟧$, $f_y = ⟦1⟧$. Di $⟦2⟧$: $\nabla f = ⟦3⟧$.`,
+  '280l4hqbl71': R`Tentukan turunan berarah $f(x, y) = ⟦0⟧$ di $⟦1⟧$ dalam arah $⟦2⟧$.`,
+  '23ij1mnh3qx': R`$\nabla f = (⟦0⟧; ⟦1⟧)$ dan vektor satuannya $\frac{1}{⟦2⟧}⟦3⟧$. $D_{\mathbf{u}}f = \frac{⟦4⟧(⟦5⟧) + ⟦6⟧(⟦7⟧)}{⟦8⟧} = ⟦9⟧$.`,
+  '1gbu12sd7yr': R`Minimum lokal`,
+  'tfsmpd4xkw': R`Maksimum lokal`,
+  '29jq1piqelp': R`Titik pelana`,
+  '1knzmyv1q46': R`Uji tidak dapat menyimpulkan`,
+  'uai27zrool': R`Klasifikasikan titik kritis $(0; 0)$ dari $f(x, y) = ⟦0⟧$.`,
+  'k6dc7gm5pm': R`$D \gt 0$ dan $f_{xx} ⟦0⟧ 0$`,
+  'scf747plq6': R`Hitung $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} xy\,dy\,dx$.`,
+  'scioeo7pw6': R`$\int_0^{⟦0⟧} xy\,dy = \frac{⟦1⟧x}{2}$, lalu $\int_0^{⟦2⟧} \frac{⟦3⟧x}{2}\,dx = \frac{⟦4⟧ \cdot ⟦5⟧}{4} = ⟦6⟧$.`,
+  'ktiyfy2vps': R`Hitung $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} (x + y)\,dy\,dx$.`,
+  'lgh3731wbd': R`$\int_0^{⟦0⟧} (x + y)\,dy = ⟦1⟧x + \frac{⟦2⟧}{2}$, lalu $\int_0^{⟦3⟧} \left(⟦4⟧x + \frac{⟦5⟧}{2}\right)dx = \frac{⟦6⟧(⟦7⟧)^2}{2} + \frac{⟦8⟧(⟦9⟧)}{2} = ⟦10⟧$.`,
+  '1oi548attkh': R`Dengan pengali Lagrange (atau cara lain), tentukan maksimum $f = xy$ dengan kendala $x ⟦0⟧y = ⟦1⟧$, $x, y \gt 0$.`,
+  'helueus42k': R`$\nabla f = \lambda\nabla g$: $y = \lambda$, $x = ⟦0⟧\lambda$. Jadi $x = ⟦1⟧y$ dan $⟦2⟧y = ⟦3⟧$, sehingga $y = ⟦4⟧$, $x = ⟦5⟧$, dan $xy = ⟦6⟧$.`,
+  '1c5ngt35a15': R`Hitung $\displaystyle\iint_D (x^2 + y^2)\,dA$, dengan $D$ adalah cakram $x^2 + y^2 \le ⟦0⟧$.`,
+  'hl1el1t8oy': R`Koordinat kutub: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
+
+  // ode
+  '29y4y4v6xas': R`
+<p><b>Persamaan diferensial</b> menghubungkan suatu fungsi dengan turunan-turunannya. <b>Ordenya</b> adalah turunan tertinggi yang muncul. <b>Solusi umum</b> memuat konstanta sembarang; syarat awal menentukan solusi khusus.</p>
+<h3>Persamaan terpisahkan</h3>
+⟦0⟧
+<p>Kasus khusus: $\frac{dy}{dt} = ky$ memberi $y = y_0e^{kt}$ — pertumbuhan ($k \gt 0$) atau peluruhan ($k \lt 0$) eksponensial. Dengan waktu paruh $T$, jumlah yang tersisa adalah $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>Persamaan linear orde satu</h3>
+⟦1⟧
+<h3>Persamaan linear orde dua dengan koefisien konstan</h3>
+<p>Untuk $ay'' + by' + cy = 0$, coba $y = e^{rx}$ sehingga diperoleh <b>persamaan karakteristik</b> $ar^2 + br + c = 0$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: pisahkan, $\int\frac{dy}{y} = \int 2x\,dx$, jadi $\ln|y| = x^2 + C$ dan $y = Ae^{x^2}$.</p>`,
+  '24caer7vpv9': R`<p>Untuk $y' + P(x)y = Q(x)$, kalikan dengan <b>faktor integrasi</b> $\mu(x) = e^{\int P(x)\,dx}$. Maka $(\mu y)' = \mu Q$, jadi $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
+  '2fhw42v6h9r': R`Akar`,
+  'mdry0kk339': R`Solusi umum`,
+  '1l55nwfgsi9': R`real dan berbeda $r_1, r_2$`,
+  'fkai3ftnyj': R`kembar $r$`,
+  '3w3x9xlope': R`kompleks $\alpha \pm \beta i$`,
+  '68uvb89pvs': R`<p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $r = \pm 2i$, jadi $y = C_1\cos 2x + C_2\sin 2x$ — gerak harmonik sederhana.</p>`,
+  'vgovr9zohx': R`<p>Untuk akar kembar, $C_1e^{rx} + C_2e^{rx}$ sebenarnya hanya satu solusi; faktor tambahan $x$ memberikan solusi kedua.</p>`,
+  '234p7duj3ts': R`$r^2 ⟦0⟧r ⟦1⟧ = 0$ memiliki akar $r = ⟦2⟧$ dan $r = ⟦3⟧$`,
+  '1hssho6k9w6': R`$r^2 ⟦0⟧r + ⟦1⟧ = (r ⟦2⟧)^2 = 0$ memiliki akar kembar $r = ⟦3⟧$`,
+  '2chd8d4gjpq': R`$r^2 ⟦0⟧r + ⟦1⟧ = 0$ memiliki akar kompleks $r = ⟦2⟧ \pm ⟦3⟧i$`,
+  '1ngxukqkkvf': R`Tentukan solusi umum $⟦0⟧$.`,
+  'irmvhn9wve': R`Persamaan karakteristik ⟦0⟧, jadi ⟦1⟧.`,
+  '5e0s1xl4f9': R`Sampel radioaktif seberat ⟦0⟧ g memiliki waktu paruh ⟦1⟧ tahun. Berapa yang tersisa setelah ⟦2⟧ tahun?`,
+  '2eo258s1sy7': R`$⟦0⟧$ tahun sama dengan ⟦1⟧ kali waktu paruh: $⟦2⟧\left(\frac{1}{2}\right)^{⟦3⟧} = ⟦4⟧$ g.`,
+  '1btlmc6ms72': R`Selesaikan persamaan terpisahkan $\dfrac{dy}{dx} = ⟦0⟧\,y$.`,
+  'lgqvn6fqu1': R`$\int\frac{dy}{y} = \int ⟦0⟧\,dx$ memberi $\ln|y| = ⟦1⟧ + C_0$, jadi $y = Ce^{⟦2⟧}$.`,
+  '1wp1r4xsb5y': R`Apa faktor integrasi untuk $y' + ⟦0⟧\,y = x^2$?`,
+  '1d5o356dbul': R`Hukum pendinginan Newton memberi $T(t) = ⟦0⟧ + ⟦1⟧e^{-⟦2⟧t}$ (°C, $t$ dalam menit). Tentukan suhu setelah ⟦3⟧ menit, sampai 1 tempat desimal.`,
+  'uzon2x7fe4': R`\frac{dy}{dx} = x^2y`,
+  '8swe0ei2mu': R`\frac{d^2y}{dx^2} + y = 0`,
+  '28kd92q06yf': R`\frac{d^3y}{dx^3} - 2\frac{dy}{dx} = 0`,
+  '1jgz4mikafn': R`Berapa orde persamaan diferensial $⟦0⟧$?`,
+  'rxb07imi4n': R`Ordenya adalah turunan tertinggi yang muncul: di sini ⟦0⟧.`,
+});
+
+/* Bahasa Indonesia — Kuliah (aljabar linear → transformasi Laplace) */
+addT('id', {
+  // linear-algebra
+  'aoku0sfspm': R`
+<h3>Sistem persamaan linear dan rank</h3>
+<p>Sistem $A\mathbf{x} = \mathbf{b}$ diselesaikan dengan mereduksi baris matriks lengkap $[A \mid \mathbf{b}]$ menjadi bentuk eselon. <b>Rank</b> $A$ adalah banyaknya pivot (baris tak nol dalam bentuk eselon).</p>
+⟦0⟧
+<h3>Determinan</h3>
+⟦1⟧
+<p>Sifat-sifat yang berguna untuk matriks $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Aturan Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Nilai eigen dan vektor eigen</h3>
+⟦2⟧
+⟦3⟧
+<p>Jika $A$ memiliki $n$ vektor eigen yang bebas linear, $A$ <b>dapat didiagonalkan</b>: $A = PDP^{-1}$, dengan vektor eigen sebagai kolom $P$ dan nilai eigen pada diagonal $D$.</p>
+⟦4⟧`,
+  'q9p1mxjp5t': R`<p><b>Teorema rank–nulitas:</b> untuk matriks $m \times n$, $\text{rank}(A) + \text{nulitas}(A) = n$. Matriks persegi $A$ dapat dibalik $\iff \det A \ne 0 \iff$ kolom-kolomnya bebas linear $\iff \text{rank} = n$.</p>`,
+  '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
+  'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Untuk matriks $2 \times 2$: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. Jumlah nilai eigen sama dengan trace, dan hasil kalinya sama dengan determinan.</p>`,
+  '1khrdp55fj': R`<p>$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$: $\lambda^2 - 7\lambda + 10 = 0$, jadi $\lambda = 2; 5$. Untuk $\lambda = 5$: $(A - 5I)\mathbf{v} = 0$ memberi $\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.</p>`,
+  '21awxvuldiu': R`<p>$\det(2A) = 2^n\det A$, bukan $2\det A$ — setiap baris dari $n$ baris ikut dikalikan.</p>`,
+  '19a9vb1rr2m': R`Ekspansi menurut baris pertama: $⟦0⟧(⟦1⟧) - ⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$.`,
+  '1j2onaty0gh': R`Tentukan nilai eigen dari $⟦0⟧$.`,
+  'ynzibmbl86': R`Tulis kedua nilai eigen dipisahkan titik koma, misalnya -2; 5.`,
+  '23zxsoa3fr0': R`$\lambda^2 - (\text{tr})\lambda + \det = \lambda^2 ⟦0⟧\lambda ⟦1⟧ = 0$, jadi $\lambda = ⟦2⟧$ atau $\lambda = ⟦3⟧$. (Cek: jumlahnya sama dengan trace ⟦4⟧ dan hasil kalinya sama dengan determinan ⟦5⟧.)`,
+  '2etvam6ts6i': R`Tentukan nulitas dari $⟦0⟧$.`,
+  '21ne48l6zig': R`Tentukan rank dari $⟦0⟧$.`,
+  'guqg5s6tj7': R`$\det \ne 0$, jadi ketiga baris bebas linear: rank 3.`,
+  '1q1ko1sbkfa': R`Satu baris merupakan kombinasi dua baris lainnya, dan kedua baris itu bebas linear: rank 2.`,
+  '2bdvxka58sc': R`Setiap baris merupakan kelipatan baris yang sama: rank 1.`,
+  '1pbgto6ecv4': R` Menurut teorema rank–nulitas, nulitas $= 3 - ⟦0⟧ = ⟦1⟧$.`,
+  '167s06hkdpt': R`$A$ adalah matriks $⟦0⟧ \times ⟦1⟧$ dengan $\det A = ⟦2⟧$. Tentukan $\det(A^{-1})$.`,
+  '124zlt4oeit': R`$A$ adalah matriks $⟦0⟧ \times ⟦1⟧$ dengan $\det A = ⟦2⟧$. Tentukan $⟦3⟧$.`,
+  'vtdcjwqxja': R`Setiap baris dari ⟦0⟧ baris dikalikan ⟦1⟧: $⟦2⟧^{⟦3⟧} \times ⟦4⟧ = ⟦5⟧$.`,
+  'd4v2fg20q4': R`Transpos tidak mengubah determinan: ⟦0⟧.`,
+  '26v5gcnmls7': R`Selesaikan sistem berikut dan tentukan $⟦0⟧$: $$\begin{cases} ⟦1⟧ \end{cases}$$`,
+  '36y25q4ph4': R`Dengan eliminasi (atau aturan Cramer, karena $\det A = ⟦0⟧ \ne 0$), $(x; y; z) = ⟦1⟧$, jadi $⟦2⟧ = ⟦3⟧$.`,
+  '1w651quute8': R`Apakah vektor-vektor $⟦0⟧$ bebas linear?`,
+  '1nhr23w337j': R`Bebas linear`,
+  '1ykattdq3py': R`Bergantung linear`,
+  '71c2j2dn5w': R`Susun sebagai kolom-kolom matriks: determinannya ⟦0⟧. ⟦1⟧`,
+  'd8cecy9nad': R`Tidak nol, jadi vektor-vektor itu bebas linear.`,
+  'nwja1imq1g': R`Nol, jadi vektor-vektor itu bergantung linear (salah satunya kombinasi dari yang lain).`,
+  '109v3qsafjj': R`$\mathbf{v} = ⟦0⟧$ adalah vektor eigen dari $A = ⟦1⟧$. Berapa nilai eigennya?`,
+  'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, jadi $\lambda = ⟦3⟧$.`,
+
+  // complex
+  'n87wkmbfmz': R`
+<p>Satuan imajiner memenuhi $i^2 = -1$. Bilangan kompleks ditulis $z = a + bi$ dengan bagian real $\text{Re}(z) = a$ dan bagian imajiner $\text{Im}(z) = b$. Pangkat $i$ berulang setiap empat: $i; -1; -i; 1; \ldots$</p>
+⟦0⟧
+⟦1⟧
+<h3>Bentuk polar dan rumus Euler</h3>
+⟦2⟧
+⟦3⟧
+<p>Akar pangkat $n$ dari satu adalah $e^{2\pi ik/n}$ untuk $k = 0; 1; \ldots; n - 1$: titik-titik yang berjarak sama pada lingkaran satuan.</p>
+⟦4⟧`,
+  'rz9c61mn5': R`Perkalian`,
+  '1lvuh3a6n9s': R`Sekawan`,
+  '73hhnvn9cf': R`$\bar{z} = a - bi$, dan $z\bar{z} = a^2 + b^2$`,
+  '8ju8zqboy3': R`Pembagian`,
+  '23m7410nhvb': R`kalikan pembilang dan penyebut dengan sekawan penyebut`,
+  '2at5jue99d3': R`Modulus`,
+  '26m66idec7i': R`Argumen`,
+  '18sul084cs9': R`$\arg z = \theta$ dengan $\tan\theta = \frac{b}{a}$ (perhatikan kuadrannya)`,
+  'cavhj9pbbb': R`$$z = r(\cos\theta + i\sin\theta) = re^{i\theta} \qquad\qquad z^n = r^n e^{in\theta} \;\;\text{(De Moivre)}$$`,
+  '16lvmowwhri': R`<p>$1 + i = \sqrt{2}e^{i\pi/4}$, jadi $(1 + i)^8 = (\sqrt{2})^8 e^{2\pi i} = 16$.</p>`,
+  '256fv20o5wc': R`<p>Argumen $-1 - i$ adalah $-\frac{3\pi}{4}$, bukan $\frac{\pi}{4}$: $\arctan\frac{b}{a}$ saja tidak dapat membedakan kuadran ketiga dari kuadran pertama.</p>`,
+  '10omtzlugr6': R`Sederhanakan $(⟦0⟧)(⟦1⟧)$.`,
+  'hty9ty1x7v': R`Tulis jawaban dalam bentuk a+bi.`,
+  '1zsla5l2vrq': R`$(⟦0⟧)(⟦1⟧) + (⟦2⟧)(⟦3⟧)i + (⟦4⟧)(⟦5⟧)i + (⟦6⟧)(⟦7⟧)i^2 = ⟦8⟧$, dengan $i^2 = -1$.`,
+  '1z0a8n17xaw': R`Tentukan $|⟦0⟧|$.`,
+  '7g8mi40aa1': R`Sederhanakan $\dfrac{⟦0⟧}{⟦1⟧}$.`,
+  '1lmk9l2nr3e': R`Kalikan pembilang dan penyebut dengan $⟦0⟧$. Penyebutnya menjadi $⟦1⟧$ dan pembilangnya $⟦2⟧$, jadi hasilnya $⟦3⟧$.`,
+  '28axbqdj3sw': R`Sederhanakan $i^{⟦0⟧}$.`,
+  'q7margvq3g': R`Pangkat $i$ berulang setiap 4. $⟦0⟧ = 4 \times ⟦1⟧ + ⟦2⟧$, jadi $i^{⟦3⟧} = i^{⟦4⟧} = ⟦5⟧$.`,
+  '1pjjj2x31s7': R`Tentukan argumen utama $\arg z \in (-\pi; \pi]$ dari $z = ⟦0⟧$.`,
+  '2fusqwp7x7b': R`$z = ⟦0⟧$ membentuk sudut $⟦1⟧$ dengan sumbu real positif (periksa kuadrannya), jadi $\arg z = ⟦2⟧$.`,
+  '75mna4515k': R`Tulis $z = ⟦0⟧$ dalam bentuk eksponensial $re^{i\theta}$.`,
+  'bg7vixv5uf': R`$r = |z| = ⟦0⟧$ dan $\theta = \arg z = ⟦1⟧$, jadi $z = ⟦2⟧e^{i ⟦3⟧}$.`,
+  '15suw4uuv8i': R`Gunakan teorema De Moivre untuk menghitung $(⟦0⟧)^{⟦1⟧}$.`,
+  '2e4kqt1xydt': R`$⟦0⟧ = \sqrt{2}\,e^{i\theta}$ dengan $\theta = ⟦1⟧$. Maka $(\sqrt{2})^{⟦2⟧}e^{i⟦3⟧\theta} = ⟦4⟧e^{i⟦5⟧\theta} = ⟦6⟧$.`,
+  '1xd7417ut46': R`Misalkan $z = ⟦0⟧$. Tentukan $\text{⟦1⟧}(z^2)$.`,
+
+  // distributions
+  '28d8604hmp9': R`
+<p><b>Variabel acak</b> $X$ memberi angka pada setiap hasil. Untuk $X$ diskret dengan peluang $p(x)$:</p>
+⟦0⟧
+⟦1⟧
+<h3>Distribusi normal</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
+  '115owsb7jcv': R`Distribusi`,
+  'z5bw2hz29r': R`P(X = k) atau densitas`,
+  '1runl3m75u8': R`Variansi`,
+  '1xs6so1xns8': R`Binomial $B(n, p)$`,
+  '1rwt3dxzew1': R`Poisson$(\lambda)$`,
+  'n8vzzqt60t': R`Seragam pada $[a; b]$`,
+  '2cdr2b2t24p': R`Eksponensial$(\lambda)$`,
+  'l349ss11hc': R`Normal $N(\mu, \sigma^2)$`,
+  '26wsuf9ho5r': R`kurva lonceng`,
+  '1bw0zjk7wg1': R`<p>Bakukan dengan $Z = \dfrac{X - \mu}{\sigma}$, lalu gunakan tabel normal baku. <b>Aturan 68–95–99,7</b>: sekitar 68%, 95%, dan 99,7% nilai berada dalam jarak 1, 2, dan 3 simpangan baku dari rata-rata.</p>`,
+  '1mn62kz3dqi': R`<p>Tinggi badan $X \sim N(170; 8^2)$. Tinggi 186 cm memiliki $z = \frac{186 - 170}{8} = 2$, jadi hanya sekitar 2,5% orang yang lebih tinggi.</p>`,
+  '20odz9yh9el': R`<p>Distribusi binomial memerlukan banyak percobaan yang tetap dan saling bebas dengan peluang sukses yang sama. Distribusi Poisson menghitung kejadian dalam suatu selang dengan laju rata-rata yang konstan.</p>`,
+  'hehw668sc4': R`Tentukan $E[X]$ untuk distribusi ini.⟦0⟧`,
+  'ggtradb99r': R`Sebuah koin seimbang dilempar ⟦0⟧ kali. Berapa peluang muncul tepat ⟦1⟧ kali angka?`,
+  '1gonhfsfe0e': R`$X \sim B\!\left(⟦0⟧; \frac{1}{3}\right)$. Tentukan $P(X = ⟦1⟧)$.`,
+  '2e8zcm46v5k': R`$X \sim B(⟦0⟧; ⟦1⟧)$. Tentukan $\text{Var}(X)$.`,
+  '1sv4co448ex': R`$\text{Var}(X) = np(1 - p) = ⟦0⟧(⟦1⟧)(⟦2⟧) = ⟦3⟧$.`,
+  'qmg93npnbt': R`$X \sim B(⟦0⟧; ⟦1⟧)$. Tentukan $E[X]$.`,
+  '283j9ftzcid': R`$X \sim N(⟦0⟧; ⟦1⟧^2)$. Tentukan skor $z$ untuk $x = ⟦2⟧$.`,
+  '1kbz6k640p5': R`$X \sim \text{Poisson}(⟦0⟧)$. Tentukan $P(X = ⟦1⟧)$ sampai 4 tempat desimal.`,
+  '2el5p15nmmp': R`di antara ⟦0⟧ dan ⟦1⟧`,
+  'lwhiv9yady': R`di atas ⟦0⟧`,
+  'x696ofvj9v': R`di bawah ⟦0⟧`,
+  '1cdk3p0w1a9': R`Nilai ujian berdistribusi normal dengan rata-rata ⟦0⟧ dan simpangan baku ⟦1⟧. Menurut aturan 68–95–99,7, kira-kira berapa persen nilai yang berada ⟦2⟧?`,
+  '2ciqs8smgdj': R`Ubah ke banyaknya simpangan baku dari rata-rata, lalu gunakan 68% dalam 1σ, 95% dalam 2σ, 99,7% dalam 3σ (sisanya terbagi rata di kedua ekor): <b>⟦0⟧%</b>.`,
+  '1b8kg565owb': R`$E[X] = ⟦0⟧$ dan $\text{Var}(X) = ⟦1⟧$. Tentukan $\text{Var}(⟦2⟧)$.`,
+  '21eg07xqby': R`$\text{Var}(aX + b) = a^2\,\text{Var}(X) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ — konstanta ⟦3⟧ tidak berpengaruh.`,
+  'ha18xspr5t': R`$E[X] = ⟦0⟧$ dan $\text{Var}(X) = ⟦1⟧$. Tentukan $E[⟦2⟧]$.`,
+
+  // inference
+  'oph0fjnqfd': R`
+<p>Kita memakai statistik <b>sampel</b> (seperti $\bar{x}$) untuk menaksir parameter <b>populasi</b> (seperti $\mu$). Menurut <b>teorema limit pusat</b>, untuk $n$ besar rata-rata sampel kira-kira berdistribusi normal dengan rata-rata $\mu$ dan <b>galat baku</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Selang kepercayaan</h3>
+⟦0⟧
+<p>Agar batas galatnya $E$, diperlukan $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (dibulatkan ke atas). Jika $\sigma$ tidak diketahui, gunakan $s$ dan distribusi $t$.</p>
+<h3>Uji hipotesis</h3>
+<ol><li>Rumuskan $H_0$ (mis. $\mu = \mu_0$) dan $H_1$.</li><li>Hitung statistik uji, mis. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Tentukan <b>nilai-p</b>: peluang, dengan menganggap $H_0$ benar, memperoleh hasil yang paling sedikit seekstrem ini.</li><li>Jika $p \le \alpha$, tolak $H_0$; jika tidak, $H_0$ tidak ditolak.</li></ol>
+⟦1⟧
+<h3>Regresi linear</h3>
+<p>Garis kuadrat terkecil $\hat{y} = a + bx$ memiliki gradien $b = r\frac{s_y}{s_x}$ dan melalui $(\bar{x}; \bar{y})$, jadi $a = \bar{y} - b\bar{x}$.</p>
+⟦2⟧`,
+  'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\%);\; 1{,}96 \;(95\%);\; 2{,}576 \;(99\%)`,
+  '7nca7j57l5': R`H₀ benar`,
+  '2e0zey7f13x': R`H₀ salah`,
+  '1nokpmpua28': R`Tolak H₀`,
+  'qa9cxjojd2': R`Galat tipe I (peluang α)`,
+  'z1afbgzons': R`Benar (kuasa uji)`,
+  'tc6mfczzyi': R`Tidak menolak H₀`,
+  'w131ulu49o': R`Benar`,
+  'e51gkfcb06': R`Galat tipe II (peluang β)`,
+  '6idiejz1ba': R`<p>"Tidak menolak $H_0$" tidak sama dengan "menerima $H_0$" — datanya hanya belum cukup kuat sebagai bukti untuk menentangnya.</p>`,
+  'awqxfz9vdv': R`Suatu populasi memiliki $\sigma = ⟦0⟧$. Tentukan galat baku rata-rata untuk sampel berukuran ⟦1⟧.`,
+  'ugvd79s2wi': R`Sampel berukuran ⟦0⟧ memiliki rata-rata ⟦1⟧; simpangan baku populasi ⟦2⟧. Tentukan batas ⟦3⟧ selang kepercayaan ⟦4⟧% untuk $\mu$, sampai 2 tempat desimal.`,
+  '1n36a0strty': R`Batas galat $= ⟦0⟧ \times \frac{⟦1⟧}{\sqrt{⟦2⟧}} = ⟦3⟧$. ⟦4⟧`,
+  '2ekc2g43ffk': R`Batas atas $= ⟦0⟧ + ⟦1⟧ \approx ⟦2⟧$.`,
+  'u2fj3njiv8': R`Batas bawah $= ⟦0⟧ - ⟦1⟧ \approx ⟦2⟧$.`,
+  '1i53ibdizmj': R`Uji $H_0: \mu = ⟦0⟧$ dengan $\sigma = ⟦1⟧$. Sampel berukuran ⟦2⟧ memiliki $\bar{x} = ⟦3⟧$. Hitung statistik uji $z$ sampai 2 tempat desimal.`,
+  'b7sayy3tzp': R`Suatu uji menghasilkan nilai-p ⟦0⟧. Pada taraf signifikansi ⟦1⟧%, apa keputusannya?`,
+  '1adfzwf3gei': R`tidak menolak`,
+  '2fh7exkwsd7': R`jangan tolak`,
+  '1ui411puarn': R`Bandingkan nilai-p dengan $\alpha = ⟦0⟧$: $⟦1⟧ ⟦2⟧ ⟦3⟧$, ⟦4⟧`,
+  '19asmns888x': R`jadi kita <b>menolak</b> $H_0$.`,
+  '28e9takeetw': R`jadi kita <b>tidak menolak</b> $H_0$.`,
+  '3boqwtx8y6': R`Garis regresi $y$ atas $x$ bergradien ⟦0⟧ dan melalui $(\bar{x}; \bar{y}) = (⟦1⟧; ⟦2⟧)$. Prediksi $y$ saat $x = ⟦3⟧$.`,
+  '1xlncasuj2t': R`Intersep $a = \bar{y} - b\bar{x} = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$. Maka $\hat{y} = ⟦4⟧ ⟦5⟧(⟦6⟧) = ⟦7⟧$.`,
+  '1juzrcbx7yp': R`Garis regresi $y$ atas $x$ bergradien ⟦0⟧, dengan $\bar{x} = ⟦1⟧$ dan $\bar{y} = ⟦2⟧$. Tentukan intersepnya.`,
+  'ygsgt4zx8s': R`Garis melalui $(\bar{x}; \bar{y})$: $a = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$.`,
+  '1fjn7fhcpwy': R`Menolak H₀ padahal H₀ sebenarnya benar`,
+  '2czv0lmmxbv': R`Galat tipe I`,
+  '1rsaomc3xxj': R`Tidak menolak H₀ padahal H₀ sebenarnya salah`,
+  '1knmx3avsv8': R`Galat tipe II`,
+  '7bbk61slol': R`Menolak H₀ dan H₀ memang salah`,
+  '6vojkrxnxd': R`Keputusan benar`,
+  '27k0u0dgkx8': R`Tidak menolak H₀ dan H₀ memang benar`,
+  'j30d9a2wnu': R`Menghukum terdakwa yang tidak bersalah (H₀: tidak bersalah)`,
+  '1r9j0p9otdz': R`Membebaskan terdakwa yang bersalah (H₀: tidak bersalah)`,
+  'yce1tww5je': R`Hasil apakah ini? <i>⟦0⟧</i>.`,
+  'f5q8ah45y5': R`Tipe I = menolak $H_0$ yang benar (alarm palsu); tipe II = gagal mendeteksi $H_0$ yang salah. Jadi ini: <b>⟦0⟧</b>.`,
+  '17su48d7rp0': R`Berapa ukuran sampel terkecil yang menghasilkan selang kepercayaan ⟦0⟧% dengan batas galat paling besar ⟦1⟧, jika $\sigma = ⟦2⟧$?`,
+  'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, jadi bulatkan ke atas: $n = ⟦4⟧$.`,
+
+  // discrete
+  'a1ovpdx0vp': R`
+<h3>Teori bilangan</h3>
+<p>$a \equiv b \pmod n$ berarti $n$ membagi habis $a - b$; $a \bmod n$ adalah sisa pembagian dalam $\{0; 1; \ldots; n - 1\}$. Kongruensi boleh dijumlahkan dan dikalikan, dan pangkat dapat direduksi langkah demi langkah.</p>
+⟦0⟧
+⟦1⟧
+<p><b>Invers modular</b> $a$ modulo $n$ adalah $x$ dengan $ax \equiv 1 \pmod n$; invers ini ada tepat ketika $\gcd(a, n) = 1$.</p>
+<h3>Pencacahan</h3>
+<ul><li>Fungsi dari himpunan berukuran $m$ ke himpunan berukuran $n$: $n^m$; fungsi injektif: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusi–eksklusi: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Prinsip sarang merpati:</b> jika lebih dari $kn$ benda dimasukkan ke $n$ kotak, ada kotak yang berisi paling sedikit $k + 1$.</li></ul>
+<h3>Relasi rekurensi dan graf</h3>
+<p>Relasi rekurensi mendefinisikan setiap suku dari suku-suku sebelumnya, seperti $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Pada graf, <b>lema jabat tangan</b> menyatakan $\sum \deg(v) = 2|E|$; $K_n$ memiliki $\binom{n}{2}$ sisi; pohon dengan $n$ simpul memiliki $n - 1$ sisi; graf terhubung memiliki sirkuit Euler jika dan hanya jika semua derajatnya genap.</p>
+⟦2⟧`,
+  '1vllnifl24g': R`<p><b>Algoritma Euclid:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, diulang sampai sisanya 0.</p><p><b>Teorema kecil Fermat:</b> jika $p$ prima dan $p \nmid a$, maka $a^{p-1} \equiv 1 \pmod p$.</p>`,
+  '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Jadi FPB-nya 18.</p><p>$2^{100} \bmod 7$: karena $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
+  '23tw4c5wfxh': R`<p>Dalam soal inklusi–eksklusi ("habis dibagi 3 atau 5"), irisannya adalah habis dibagi <b>KPK</b>-nya, yaitu 15.</p>`,
+  '8fw6na2xe1': R`Tentukan $⟦0⟧ \bmod ⟦1⟧$.`,
+  'uplm3u8bhu': R`$⟦0⟧ = ⟦1⟧ \times ⟦2⟧ + ⟦3⟧$, jadi sisanya ⟦4⟧.`,
+  'xlpbyjzaqw': R`Tentukan $⟦0⟧^{⟦1⟧} \bmod ⟦2⟧$.`,
+  '1kd2o5jees6': R`Menurut Fermat, $⟦0⟧^{⟦1⟧} \equiv 1 \pmod{⟦2⟧}$. $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ + ⟦6⟧$, jadi $⟦7⟧^{⟦8⟧} \equiv ⟦9⟧^{⟦10⟧} \equiv ⟦11⟧ \pmod{⟦12⟧}$.`,
+  '127b4pzxtz': R`Gunakan algoritma Euclid untuk menentukan $\gcd(⟦0⟧, ⟦1⟧)$.`,
+  '1aqkhdrg8qc': R`$⟦0⟧$. Sisa tak nol terakhir adalah <b>⟦1⟧</b>.`,
+  '1s721amox67': R`Tentukan invers ⟦0⟧ modulo ⟦1⟧, yaitu $x$ dengan $⟦2⟧x \equiv 1 \pmod{⟦3⟧}$ dan $0 \lt x \lt ⟦4⟧$.`,
+  '1w7xn0v2je4': R`Cek: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧ = ⟦3⟧ \times ⟦4⟧ + 1$, jadi $x = ⟦5⟧$.`,
+  'x5llfo779v': R`Berapa banyak sisi graf lengkap $K_{⟦0⟧}$?`,
+  '1k9fldmleaq': R`Setiap pasang simpul terhubung: $\binom{⟦0⟧}{2} = \frac{⟦1⟧ \times ⟦2⟧}{2} = ⟦3⟧$.`,
+  '1gbx4896k6y': R`Sebuah pohon memiliki ⟦0⟧ simpul. Berapa banyak sisinya?`,
+  'g3rd0a2w3f': R`Setiap pohon dengan $n$ simpul memiliki $n - 1 = ⟦0⟧$ sisi.`,
+  '1b7sza9kgx9': R`Sebuah graf memiliki simpul-simpul berderajat ⟦0⟧. Berapa banyak sisinya?`,
+  '2eddhu7y6e4': R`Lema jabat tangan: $\sum\deg = ⟦0⟧ = 2|E|$, jadi $|E| = ⟦1⟧$.`,
+  '6xjrxhddis': R`Sebuah graf terhubung memiliki simpul-simpul berderajat ⟦0⟧. Berapa banyak simpul berderajat ganjil?`,
+  '5vsb2c69v5': R`Derajat ganjilnya ⟦0⟧, jadi ada ⟦1⟧. ⟦2⟧ (Banyaknya simpul berderajat ganjil selalu genap.)`,
+  '2gbggujxcvs': R`tidak ada`,
+  '105xal8etax': R`Jadi graf ini memiliki sirkuit Euler.`,
+  '1z20e1aao3p': R`Jadi graf ini memiliki lintasan Euler tetapi tidak memiliki sirkuit Euler.`,
+  '1vy383kqrz8': R`Dengan lebih dari 2 simpul ganjil, tidak ada lintasan Euler.`,
+  'by57uvpuwf': R`$a_0 = ⟦0⟧$ dan $a_n = ⟦1⟧a_{n-1} ⟦2⟧$ untuk $n \ge 1$. Tentukan $a_{⟦3⟧}$.`,
+  '75ssmud3lg': R`Hitung suku demi suku: ⟦0⟧.`,
+  'go6ohggc8l': R`Berapa banyak untai bit sepanjang ⟦0⟧ yang memuat tepat ⟦1⟧ angka satu?`,
+  '27u4ks23cz9': R`Pilih ⟦0⟧ dari ⟦1⟧ posisi untuk angka satu: $\binom{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'yx3fxah4u8': R`Ada berapa fungsi dari himpunan dengan ⟦0⟧ anggota ke himpunan dengan ⟦1⟧ anggota?`,
+  '12owpaqzt1c': R`Setiap dari ⟦0⟧ masukan dapat dipetakan ke salah satu dari ⟦1⟧ keluaran: $⟦2⟧^{⟦3⟧} = ⟦4⟧$.`,
+  '4o2cs42p15': R`Ada berapa fungsi satu-satu (injektif) dari himpunan dengan ⟦0⟧ anggota ke himpunan dengan ⟦1⟧ anggota?`,
+  'jpinfh5krc': R`Peta-petanya harus berbeda: $⟦0⟧ = ⟦1⟧$.`,
+  '10skxcum4lz': R`Berapa banyak bilangan bulat dari 1 sampai ⟦0⟧ yang habis dibagi ⟦1⟧ atau ⟦2⟧?`,
+  'nhrb9jig2q': R`$\lfloor ⟦0⟧/⟦1⟧ \rfloor + \lfloor ⟦2⟧/⟦3⟧ \rfloor - \lfloor ⟦4⟧/⟦5⟧ \rfloor = ⟦6⟧ + ⟦7⟧ - ⟦8⟧ = ⟦9⟧$ (⟦10⟧ adalah KPK-nya).`,
+  'cgzqt4g6kc': R`bulan lahir`,
+  '10ye3jsw3n2': R`hari dalam seminggu`,
+  '1eah1ab17mo': R`jenis kartu (pada setumpuk kartu remi)`,
+  '1fddlc7zc0d': R`Berapa banyak orang paling sedikit yang diperlukan agar dijamin paling sedikit ⟦0⟧ di antaranya memiliki ⟦1⟧ yang sama?`,
+  '27kjdpfw0sg': R`Dengan ⟦0⟧ kategori, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ orang masih bisa menghindarinya; satu orang lagi memaksa terbentuknya kelompok ⟦4⟧ orang: $⟦5⟧$.`,
+
+  // numerical
+  '106u35np5bp': R`
+<p>Metode numerik mengaproksimasi jawaban yang tidak memiliki bentuk tertutup yang praktis. Dua jenis galat penting: galat <b>pemotongan</b> (dari metodenya) dan galat <b>pembulatan</b> (dari presisi yang terbatas).</p>
+⟦0⟧
+<h3>Mencari akar</h3>
+<ul><li><b>Bagi dua (biseksi):</b> jika $f(a)$ dan $f(b)$ berlawanan tanda, uji titik tengah $m$ dan simpan separuh yang mengalami perubahan tanda. Lambat tetapi pasti: galatnya menjadi separuh setiap langkah.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sangat cepat di dekat akar sederhana (konvergensi kuadratik), tetapi bisa gagal dengan tebakan awal yang buruk atau jika $f' \approx 0$.</li></ul>
+⟦1⟧
+<h3>Integrasi numerik</h3>
+⟦2⟧
+<p>Di sini $h = \frac{b - a}{n}$. Aturan Simpson eksak untuk polinomial berderajat paling tinggi 3.</p>
+<h3>Metode Euler</h3>
+⟦3⟧
+⟦4⟧`,
+  '2fbw9jej1dm': R`\text{galat mutlak} = |x_{\text{sejati}} - x_{\text{aproks}}| \qquad \text{galat relatif} = \frac{|x_{\text{sejati}} - x_{\text{aproks}}|}{|x_{\text{sejati}}|}`,
+  '1a9noj3sp27': R`<p>$\sqrt{10}$ melalui $f(x) = x^2 - 10$ dari $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — sudah tepat sampai 4 tempat desimal.</p>`,
+  'vx6qz5zup7': R`\text{Trapesium: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ genap}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
+  '2fmxu9hfzwl': R`<p>Untuk $y' = f(x, y)$ dengan $y(x_0) = y_0$: $\; y_{n+1} = y_n + h\,f(x_n, y_n)$, $x_{n+1} = x_n + h$. Memperkecil $h$ menjadi separuhnya kira-kira membuat galatnya juga separuh.</p>`,
+  'fn0bl5sobc': R`<p>Pada aturan trapesium hanya ordinat <b>bagian dalam</b> yang dikalikan dua; kedua nilai ujung muncul sekali.</p>`,
+  '1n5pqkgqwu1': R`Terapkan satu langkah metode Newton pada $f(x) = x^2 - ⟦0⟧$ mulai dari $x_0 = ⟦1⟧$. Tulis $x_1$ sampai 4 tempat desimal.`,
+  '1jvkeb9n3o6': R`Terapkan satu langkah biseksi pada $f(x) = x^2 - 3$ di $[1; 2]$. Selang mana yang memuat akar setelah langkah itu?`,
+  'vksl6we3dc': R`$f(1{,}5) = -0{,}75 \lt 0$ dan $f(2) = 1 \gt 0$, jadi perubahan tandanya ada di $[1{,}5; 2]$.`,
+  '23lzoh0yq9e': R`Terapkan biseksi pada $f(x) = x^⟦0⟧ - ⟦1⟧$ di $[⟦2⟧; ⟦3⟧]$. Berapa titik tengah yang dihitung pada iterasi <b>kedua</b>?`,
+  '114tbd27u3w': R`Titik tengah pertama $⟦0⟧$: $f(⟦1⟧) = ⟦2⟧$, jadi akarnya di $[⟦3⟧; ⟦4⟧]$. Titik tengah kedua: $⟦5⟧$.`,
+  '1gaoigxt1uo': R`Gunakan aturan trapesium dengan $n = ⟦0⟧$ untuk mengaproksimasi $\displaystyle\int_0^{⟦1⟧} x^2\,dx$.`,
+  '1pc9rab646n': R`$h = ⟦0⟧$; ordinat ⟦1⟧. $T = \frac{⟦2⟧}{2}\left[⟦3⟧ + ⟦4⟧ + 2(⟦5⟧)\right] = ⟦6⟧$ (nilai eksak ⟦7⟧).`,
+  '1rsvekr7t2o': R`Gunakan aturan Simpson dengan $n = 2$ untuk mengaproksimasi $\displaystyle\int_0^{⟦0⟧} x^4\,dx$.`,
+  '8vqt4i28qj': R`$h = \frac{⟦0⟧}{2}$: $\frac{h}{3}\left[0 + 4\left(\frac{⟦1⟧}{2}\right)^4 + ⟦2⟧^4\right] = \frac{⟦3⟧}{6} \cdot \frac{5 \cdot ⟦4⟧}{4} = ⟦5⟧$ (nilai eksak $⟦6⟧$).`,
+  '1jdhmav4ljk': R`Gunakan metode Euler dengan $h = ⟦0⟧$ untuk mengaproksimasi $y(⟦1⟧)$ pada $y' = ⟦2⟧$, $y(0) = 1$. Bulatkan sampai 4 tempat desimal.`,
+  '6utp8finkn': R`$⟦0⟧$ diaproksimasi oleh ⟦1⟧. Tentukan galat relatifnya dalam persen, sampai 3 tempat desimal.`,
+
+  // vector-calculus
+  'bh1w03a054': R`
+<p><b>Medan vektor</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ memberikan sebuah vektor pada setiap titik — seperti kecepatan angin atau gaya. Dengan $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
+⟦0⟧
+<p>Divergensi mengukur aliran keluar dari suatu titik; curl mengukur putaran.</p>
+<h3>Integral garis dan medan konservatif</h3>
+⟦1⟧
+⟦2⟧
+<h3>Teorema-teorema besar</h3>
+⟦3⟧
+<p>Akibat menarik dari teorema Green: luas $D$ sama dengan $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦4⟧`,
+  '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
+  'dx5b9h7rwd': R`<p>$\mathbf{F}$ <b>konservatif</b> jika $\mathbf{F} = \nabla\varphi$ untuk suatu potensial $\varphi$. Maka $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ untuk sembarang lintasan dari $A$ ke $B$. Di bidang (daerah terhubung sederhana), $(P, Q)$ konservatif jika dan hanya jika $P_y = Q_x$.</p>`,
+  '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, jadi medan ini konservatif dengan $\varphi = x^2y + 3y$. Dari $(0; 0)$ ke $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
+  '1yct8dx5k46': R`Teorema`,
+  '3albyqcn6s': R`Green`,
+  '1osdvqguwrh': R`Stokes`,
+  '11x91oqdbb7': R`Divergensi (Gauss)`,
+  '28jc8ed48q8': R`<p>Teorema Green mensyaratkan $C$ ditelusuri <b>berlawanan arah jarum jam</b> (daerah di sebelah kiri); searah jarum jam membalik tandanya.</p>`,
+  'fg37vtw1nz': R`Tentukan $\nabla\cdot\mathbf{F}$ di $⟦0⟧$ untuk $\mathbf{F} = \left(⟦1⟧;\; ⟦2⟧;\; ⟦3⟧\right)$.`,
+  'i6u559ylzz': R`$P_x = ⟦0⟧$, $Q_y = ⟦1⟧$, $R_z = ⟦2⟧$. Di $⟦3⟧$: $⟦4⟧ ⟦5⟧ ⟦6⟧ = ⟦7⟧$.`,
+  'dvzsgd4pt9': R`Untuk $\mathbf{F} = \left(⟦0⟧;\; ⟦1⟧\right)$, tentukan $Q_x - P_y$ (curl skalar) di $⟦2⟧$.`,
+  '1f7xg7qakjk': R`$Q_x = ⟦0⟧$ dan $P_y = ⟦1⟧$, jadi $Q_x - P_y = ⟦2⟧$, yang bernilai ⟦3⟧ di $⟦4⟧$.`,
+  '6gosl713kw': R`Hitung $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r}$ dengan $\mathbf{F} = \left(⟦0⟧;\; ⟦1⟧\right)$ dan $C$ sembarang lintasan dari $⟦2⟧$ ke $⟦3⟧$.`,
+  '1ch21kaf5wm': R`$\mathbf{F} = \nabla\varphi$ dengan $\varphi = ⟦0⟧$, jadi integralnya tidak bergantung lintasan: $\varphi(B) - \varphi(A) = ⟦1⟧ - ⟦2⟧ = ⟦3⟧$.`,
+  '1czrg3saejj': R`Gunakan teorema Green untuk menghitung $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, dengan $C$ batas persegi panjang $[0; ⟦2⟧] \times [0; ⟦3⟧]$ yang ditelusuri berlawanan arah jarum jam.`,
+  'otc4kapbek': R`$Q_x - P_y = ⟦0⟧ - (-⟦1⟧) = ⟦2⟧$, jadi integralnya $⟦3⟧ \times \text{luas} = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.`,
+  '1mzbbq34ezd': R`Gunakan teorema Green untuk menghitung $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, dengan $C$ lingkaran $x^2 + y^2 = ⟦2⟧$, berlawanan arah jarum jam.`,
+  '2fijtuqaqq1': R`$Q_x - P_y = ⟦0⟧$, jadi integralnya $⟦1⟧ \times \pi(⟦2⟧)^2 = ⟦3⟧$.`,
+  '2csh30v58t4': R`Apakah $\mathbf{F} = \left(⟦0⟧;\; ⟦1⟧\right)$ konservatif?`,
+  '1ma95r0zub6': R`Konservatif`,
+  'bn62hz6wu8': R`Tidak konservatif`,
+  '1s854ovcwco': R`tidak konservatif`,
+  '15asqrx4hnu': R`$P_y = ⟦0⟧$ dan $Q_x = ⟦1⟧$. ⟦2⟧`,
+  'r7areoyr0a': R`Keduanya sama, jadi F konservatif (di seluruh bidang).`,
+  '6dlb2jbxf0': R`Keduanya berbeda, jadi F tidak konservatif.`,
+  '1ueomkx63n5': R`Tentukan fungsi potensial untuk $\mathbf{F} = \left(⟦0⟧;\; ⟦1⟧\right)$.`,
+  '4awle3me9d': R`Integralkan $P$ terhadap $x$: $\varphi = ⟦0⟧ + g(y)$. Lalu $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ memberi $g = ⟦3⟧$.`,
+
+  // laplace
+  'f6f4kfx30i': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<p>Transformasi invers biasanya memerlukan pecahan parsial terlebih dahulu, lalu dicocokkan dengan tabel.</p>
+⟦4⟧`,
+  '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
+  '1id74v8hrdj': R`<p><b>Linearitas:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Turunan:</b> $\mathcal{L}\{y'\} = sY - y(0)$ dan $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — dengan ini persamaan diferensial berubah menjadi aljabar.</p>`,
+  'ie964pskzz': R`<p>Selesaikan $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, jadi $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Dengan invers: $y = 3\cos 2t + \sin 2t$.</p>`,
+  'cgwsp3i8af': R`<p>$\mathcal{L}\{\sin bt\}$ memiliki $b$ di pembilang; $\mathcal{L}\{\cos bt\}$ memiliki $s$ di pembilang. Tertukar antara keduanya adalah kesalahan yang paling sering.</p>`,
+  't6bpsx84ob': R`Tentukan $\mathcal{L}\{⟦0⟧\}$.`,
+  '2sqpcztdp7': R`Linearitas dengan $\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$ dan $\mathcal{L}\{e^{ct}\} = \frac{1}{s - c}$: $\frac{⟦0⟧ \cdot ⟦1⟧!}{s^{⟦2⟧}} + \frac{⟦3⟧}{⟦4⟧}$.`,
+  '1erb7erw9za': R`Tentukan $\mathcal{L}\{⟦0⟧⟦1⟧ ⟦2⟧t\}$.`,
+  'ujzn9ioggu': R`$\mathcal{L}\{\sin bt\} = \frac{b}{s^2 + b^2}$, jadi jawabannya $\frac{⟦0⟧ \cdot ⟦1⟧}{s^2 + ⟦2⟧} = \frac{⟦3⟧}{s^2 + ⟦4⟧}$.`,
+  '2dljwnla25z': R`$\mathcal{L}\{\cos bt\} = \frac{s}{s^2 + b^2}$, jadi jawabannya $\frac{⟦0⟧s}{s^2 + ⟦1⟧}$.`,
+  'napbzc1h43': R`Tentukan $\mathcal{L}^{-1}\left\{\dfrac{⟦0⟧}{⟦1⟧} + \dfrac{⟦2⟧s}{s^2 + ⟦3⟧}\right\}$.`,
+  '6d49fl6z14': R`$\frac{1}{s - c} \leftrightarrow e^{ct}$ dan $\frac{s}{s^2 + d^2} \leftrightarrow \cos dt$: hasilnya ⟦0⟧.`,
+  'hw06puz2z5': R`Tentukan $\mathcal{L}\{⟦0⟧\,⟦1⟧ ⟦2⟧t\}$.`,
+  'zs0uacvdu8': R`Teorema pergeseran pertama: $\mathcal{L}\{e^{at}f(t)\} = F(s - a)$. Dengan $F(s) = ⟦0⟧$, ganti $s$ dengan $⟦1⟧$.`,
+  '1i1mf4ew2a': R`Misalkan $F(s) = \mathcal{L}\{t^{⟦0⟧}\}$. Tentukan $F(⟦1⟧)$.`,
+  '180y0883p6z': R`$F(s) = \frac{⟦0⟧!}{s^{⟦1⟧}}$, jadi $F(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '11s9xvqwvw4': R`Misalkan $F(s) = \mathcal{L}\{⟦0⟧\}$. Tentukan $F(⟦1⟧)$.`,
+  '18wjdkl7beq': R`$F(s) = \frac{1}{s - (⟦0⟧)}$, jadi $F(⟦1⟧) = \frac{1}{⟦2⟧}$.`,
+  '9v69wy5cnz': R`Selesaikan $y'' + ⟦0⟧y = 0$ dengan $y(0) = ⟦1⟧$, $y'(0) = ⟦2⟧$ menggunakan transformasi Laplace.`,
+  '24mrp3u7eep': R`$s^2Y - ⟦0⟧s - ⟦1⟧ + ⟦2⟧Y = 0$, jadi $Y = ⟦3⟧$. Pecah menjadi $⟦4⟧\cdot\frac{s}{s^2 + ⟦5⟧} + \frac{⟦6⟧}{⟦7⟧}\cdot\frac{⟦8⟧}{s^2 + ⟦9⟧}$ lalu cari inversnya: ⟦10⟧.`,
+});
