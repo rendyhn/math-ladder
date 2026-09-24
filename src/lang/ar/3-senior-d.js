@@ -207,7 +207,7 @@ addT('ar', {
   '1h0id2d836q': R`<p>الاستلزام $p \Rightarrow q$ خاطئ <b>فقط</b> عندما تكون $p$ صائبة و$q$ خاطئة.</p>`,
   '2aojok6ubm7': R`الصيغة`,
   '1bpxgxn3wdt': R`هل يكافئ الأصل؟`,
-  'clyih3qga0': R`القضية الأصلية`,
+  'clyih3qga0': R`القضية`,
   '13tp70kq9iu': R`العكس`,
   '5lqm3x6p6i': R`لا`,
   '1vsuatfpf7o': R`المعكوس`,

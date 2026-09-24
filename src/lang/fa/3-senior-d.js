@@ -207,7 +207,7 @@ addT('fa', {
   '1h0id2d836q': R`<p>ترکیب شرطی $p \Rightarrow q$ <b>فقط</b> وقتی نادرست است که $p$ درست و $q$ نادرست باشد.</p>`,
   '2aojok6ubm7': R`شکل`,
   '1bpxgxn3wdt': R`هم‌ارز با گزارهٔ اصلی؟`,
-  'clyih3qga0': R`گزارهٔ اصلی`,
+  'clyih3qga0': R`گزاره`,
   '13tp70kq9iu': R`عکس`,
   '5lqm3x6p6i': R`خیر`,
   '1vsuatfpf7o': R`وارون`,

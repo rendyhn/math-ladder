@@ -207,7 +207,7 @@ addT('ko', {
   '1h0id2d836q': R`<p>조건문 $p \Rightarrow q$는 $p$가 참이고 $q$가 거짓일 때<b>만</b> 거짓이다.</p>`,
   '2aojok6ubm7': R`형태`,
   '1bpxgxn3wdt': R`원래 명제와 동치인가?`,
-  'clyih3qga0': R`원래 명제`,
+  'clyih3qga0': R`명제`,
   '13tp70kq9iu': R`역`,
   '5lqm3x6p6i': R`아니요`,
   '1vsuatfpf7o': R`이`,

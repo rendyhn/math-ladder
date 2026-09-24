@@ -1,0 +1,322 @@
+/* Français — Université (algèbre linéaire → transformée de Laplace) */
+addT('fr', {
+  // linear-algebra
+  'aoku0sfspm': R`
+<h3>Systèmes linéaires et rang</h3>
+<p>On résout un système $A\mathbf{x} = \mathbf{b}$ en échelonnant la matrice augmentée $[A \mid \mathbf{b}]$ par opérations sur les lignes. Le <b>rang</b> de $A$ est le nombre de pivots (lignes non nulles de la forme échelonnée).</p>
+⟦0⟧
+<h3>Déterminants</h3>
+⟦1⟧
+<p>Propriétés utiles pour les matrices $n \times n$ : $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Règle de Cramer : $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Valeurs propres et vecteurs propres</h3>
+⟦2⟧
+⟦3⟧
+<p>Si $A$ possède $n$ vecteurs propres indépendants, elle est <b>diagonalisable</b> : $A = PDP^{-1}$, avec les vecteurs propres en colonnes de $P$ et les valeurs propres sur la diagonale de $D$.</p>
+⟦4⟧`,
+  'q9p1mxjp5t': R`<p><b>Théorème du rang :</b> pour une matrice $m \times n$, $\text{rg}(A) + \dim\ker(A) = n$. Une matrice carrée $A$ est inversible $\iff \det A \ne 0 \iff$ ses colonnes sont linéairement indépendantes $\iff \text{rg} = n$.</p>`,
+  '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
+  'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Pour une matrice $2 \times 2$ : $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. La somme des valeurs propres est la trace et leur produit est le déterminant.</p>`,
+  '1khrdp55fj': R`<p>$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$ : $\lambda^2 - 7\lambda + 10 = 0$, donc $\lambda = 2 ; 5$. Pour $\lambda = 5$ : $(A - 5I)\mathbf{v} = 0$ donne $\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.</p>`,
+  '21awxvuldiu': R`<p>$\det(2A) = 2^n\det A$, et non $2\det A$ : chacune des $n$ lignes est multipliée.</p>`,
+  '19a9vb1rr2m': R`Développe selon la première ligne : $⟦0⟧(⟦1⟧) - ⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$.`,
+  '1j2onaty0gh': R`Trouve les valeurs propres de $⟦0⟧$.`,
+  'ynzibmbl86': R`Écris les deux valeurs propres séparées par un point-virgule.`,
+  '23zxsoa3fr0': R`$\lambda^2 - (\text{tr})\lambda + \det = \lambda^2 ⟦0⟧\lambda ⟦1⟧ = 0$, donc $\lambda = ⟦2⟧$ ou $\lambda = ⟦3⟧$. (Vérification : leur somme est la trace ⟦4⟧ et leur produit le déterminant ⟦5⟧.)`,
+  '2etvam6ts6i': R`Trouve la dimension du noyau de $⟦0⟧$.`,
+  '21ne48l6zig': R`Trouve le rang de $⟦0⟧$.`,
+  'guqg5s6tj7': R`$\det \ne 0$, donc les trois lignes sont indépendantes : rang 3.`,
+  '1q1ko1sbkfa': R`Une ligne est combinaison des deux autres, et ces deux-là sont indépendantes : rang 2.`,
+  '2bdvxka58sc': R`Toutes les lignes sont multiples d'une même ligne : rang 1.`,
+  '1pbgto6ecv4': R` D'après le théorème du rang, $\dim\ker = 3 - ⟦0⟧ = ⟦1⟧$.`,
+  '167s06hkdpt': R`$A$ est une matrice $⟦0⟧ \times ⟦1⟧$ avec $\det A = ⟦2⟧$. Calcule $\det(A^{-1})$.`,
+  '124zlt4oeit': R`$A$ est une matrice $⟦0⟧ \times ⟦1⟧$ avec $\det A = ⟦2⟧$. Calcule $⟦3⟧$.`,
+  'vtdcjwqxja': R`Chacune des ⟦0⟧ lignes est multipliée par ⟦1⟧ : $⟦2⟧^{⟦3⟧} \times ⟦4⟧ = ⟦5⟧$.`,
+  'd4v2fg20q4': R`La transposition ne change pas le déterminant : ⟦0⟧.`,
+  '26v5gcnmls7': R`Résous le système et donne $⟦0⟧$ : $$\begin{cases} ⟦1⟧ \end{cases}$$`,
+  '36y25q4ph4': R`Par élimination (ou par la règle de Cramer, puisque $\det A = ⟦0⟧ \ne 0$), $(x ; y ; z) = ⟦1⟧$, donc $⟦2⟧ = ⟦3⟧$.`,
+  '1w651quute8': R`Les vecteurs $⟦0⟧$ sont-ils linéairement indépendants ?`,
+  '1nhr23w337j': R`Linéairement indépendants`,
+  '1ykattdq3py': R`Linéairement dépendants`,
+  '71c2j2dn5w': R`Place-les en colonnes d'une matrice : son déterminant vaut ⟦0⟧. ⟦1⟧`,
+  'd8cecy9nad': R`Il est non nul, donc ils sont indépendants.`,
+  'nwja1imq1g': R`Il est nul, donc ils sont dépendants (l'un est combinaison des autres).`,
+  '109v3qsafjj': R`$\mathbf{v} = ⟦0⟧$ est un vecteur propre de $A = ⟦1⟧$. Quelle est sa valeur propre ?`,
+  'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, donc $\lambda = ⟦3⟧$.`,
+
+  // complex
+  'n87wkmbfmz': R`
+<p>L'unité imaginaire vérifie $i^2 = -1$. Un nombre complexe s'écrit $z = a + bi$, de partie réelle $\text{Re}(z) = a$ et de partie imaginaire $\text{Im}(z) = b$. Les puissances de $i$ se répètent tous les quatre : $i ; -1 ; -i ; 1 ; \ldots$</p>
+⟦0⟧
+⟦1⟧
+<h3>Forme exponentielle et formule d'Euler</h3>
+⟦2⟧
+⟦3⟧
+<p>Les racines $n$-ièmes de l'unité sont $e^{2\pi ik/n}$ pour $k = 0 ; 1 ; \ldots ; n - 1$ : des points régulièrement espacés sur le cercle unité.</p>
+⟦4⟧`,
+  'rz9c61mn5': R`Multiplier`,
+  '1lvuh3a6n9s': R`Conjugué`,
+  '73hhnvn9cf': R`$\bar{z} = a - bi$, et $z\bar{z} = a^2 + b^2$`,
+  '8ju8zqboy3': R`Diviser`,
+  '23m7410nhvb': R`multiplier numérateur et dénominateur par le conjugué du dénominateur`,
+  '2at5jue99d3': R`Module`,
+  '26m66idec7i': R`Argument`,
+  '18sul084cs9': R`$\arg z = \theta$ avec $\tan\theta = \frac{b}{a}$ (attention au quadrant)`,
+  'cavhj9pbbb': R`$$z = r(\cos\theta + i\sin\theta) = re^{i\theta} \qquad\qquad z^n = r^n e^{in\theta} \;\;\text{(Moivre)}$$`,
+  '16lvmowwhri': R`<p>$1 + i = \sqrt{2}e^{i\pi/4}$, donc $(1 + i)^8 = (\sqrt{2})^8 e^{2\pi i} = 16$.</p>`,
+  '256fv20o5wc': R`<p>L'argument de $-1 - i$ est $-\frac{3\pi}{4}$, et non $\frac{\pi}{4}$ : $\arctan\frac{b}{a}$ seul ne distingue pas le troisième quadrant du premier.</p>`,
+  '10omtzlugr6': R`Simplifie $(⟦0⟧)(⟦1⟧)$.`,
+  'hty9ty1x7v': R`Écris la réponse sous la forme a+bi.`,
+  '1zsla5l2vrq': R`$(⟦0⟧)(⟦1⟧) + (⟦2⟧)(⟦3⟧)i + (⟦4⟧)(⟦5⟧)i + (⟦6⟧)(⟦7⟧)i^2 = ⟦8⟧$, en utilisant $i^2 = -1$.`,
+  '1z0a8n17xaw': R`Calcule $|⟦0⟧|$.`,
+  '7g8mi40aa1': R`Simplifie $\dfrac{⟦0⟧}{⟦1⟧}$.`,
+  '1lmk9l2nr3e': R`Multiplie numérateur et dénominateur par $⟦0⟧$. Le dénominateur devient $⟦1⟧$ et le numérateur $⟦2⟧$, donc le résultat est $⟦3⟧$.`,
+  '28axbqdj3sw': R`Simplifie $i^{⟦0⟧}$.`,
+  'q7margvq3g': R`Les puissances de $i$ se répètent tous les 4. $⟦0⟧ = 4 \times ⟦1⟧ + ⟦2⟧$, donc $i^{⟦3⟧} = i^{⟦4⟧} = ⟦5⟧$.`,
+  '1pjjj2x31s7': R`Trouve l'argument principal $\arg z \in \left]-\pi ; \pi\right]$ de $z = ⟦0⟧$.`,
+  '2fusqwp7x7b': R`$z = ⟦0⟧$ fait un angle $⟦1⟧$ avec le demi-axe réel positif (vérifie son quadrant), donc $\arg z = ⟦2⟧$.`,
+  '75mna4515k': R`Écris $z = ⟦0⟧$ sous forme exponentielle $re^{i\theta}$.`,
+  'bg7vixv5uf': R`$r = |z| = ⟦0⟧$ et $\theta = \arg z = ⟦1⟧$, donc $z = ⟦2⟧e^{i ⟦3⟧}$.`,
+  '15suw4uuv8i': R`Utilise la formule de Moivre pour calculer $(⟦0⟧)^{⟦1⟧}$.`,
+  '2e4kqt1xydt': R`$⟦0⟧ = \sqrt{2}\,e^{i\theta}$ avec $\theta = ⟦1⟧$. Alors $(\sqrt{2})^{⟦2⟧}e^{i⟦3⟧\theta} = ⟦4⟧e^{i⟦5⟧\theta} = ⟦6⟧$.`,
+  '1xd7417ut46': R`Soit $z = ⟦0⟧$. Calcule $\text{⟦1⟧}(z^2)$.`,
+
+  // distributions
+  '28d8604hmp9': R`
+<p>Une <b>variable aléatoire</b> $X$ associe des nombres aux issues. Pour une variable $X$ discrète de probabilités $p(x)$ :</p>
+⟦0⟧
+⟦1⟧
+<h3>La loi normale</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
+  '115owsb7jcv': R`Loi`,
+  'z5bw2hz29r': R`P(X = k) ou densité`,
+  '1runl3m75u8': R`Variance`,
+  '1xs6so1xns8': R`Binomiale $B(n, p)$`,
+  '1rwt3dxzew1': R`Poisson$(\lambda)$`,
+  'n8vzzqt60t': R`Uniforme sur $[a ; b]$`,
+  '2cdr2b2t24p': R`Exponentielle$(\lambda)$`,
+  'l349ss11hc': R`Normale $N(\mu, \sigma^2)$`,
+  '26wsuf9ho5r': R`courbe en cloche`,
+  '1bw0zjk7wg1': R`<p>Centre et réduis avec $Z = \dfrac{X - \mu}{\sigma}$, puis utilise la table de la loi normale centrée réduite. <b>Règle 68–95–99,7</b> : environ 68 %, 95 % et 99,7 % des valeurs sont à moins de 1, 2 et 3 écarts-types de la moyenne.</p>`,
+  '1mn62kz3dqi': R`<p>Tailles $X \sim N(170 ; 8^2)$. Une taille de 186 cm a $z = \frac{186 - 170}{8} = 2$, donc seulement environ 2,5 % des personnes sont plus grandes.</p>`,
+  '20odz9yh9el': R`<p>La loi binomiale suppose un nombre fixé d'épreuves indépendantes de même probabilité de succès. La loi de Poisson compte des événements dans un intervalle à taux moyen constant.</p>`,
+  'hehw668sc4': R`Calcule $E[X]$ pour cette loi.⟦0⟧`,
+  'ggtradb99r': R`On lance ⟦0⟧ fois une pièce équilibrée. Quelle est la probabilité d'obtenir exactement ⟦1⟧ fois pile ?`,
+  '1gonhfsfe0e': R`$X \sim B\!\left(⟦0⟧ ; \frac{1}{3}\right)$. Calcule $P(X = ⟦1⟧)$.`,
+  '2e8zcm46v5k': R`$X \sim B(⟦0⟧ ; ⟦1⟧)$. Calcule $\text{Var}(X)$.`,
+  '1sv4co448ex': R`$\text{Var}(X) = np(1 - p) = ⟦0⟧(⟦1⟧)(⟦2⟧) = ⟦3⟧$.`,
+  'qmg93npnbt': R`$X \sim B(⟦0⟧ ; ⟦1⟧)$. Calcule $E[X]$.`,
+  '283j9ftzcid': R`$X \sim N(⟦0⟧ ; ⟦1⟧^2)$. Calcule la valeur centrée réduite $z$ de $x = ⟦2⟧$.`,
+  '1kbz6k640p5': R`$X \sim \text{Poisson}(⟦0⟧)$. Calcule $P(X = ⟦1⟧)$ à 4 décimales près.`,
+  '2el5p15nmmp': R`entre ⟦0⟧ et ⟦1⟧`,
+  'lwhiv9yady': R`au-dessus de ⟦0⟧`,
+  'x696ofvj9v': R`en dessous de ⟦0⟧`,
+  '1cdk3p0w1a9': R`Des notes suivent une loi normale de moyenne ⟦0⟧ et d'écart-type ⟦1⟧. D'après la règle 68–95–99,7, quel pourcentage environ des notes se situe ⟦2⟧ ?`,
+  '2ciqs8smgdj': R`Exprime les valeurs en écarts-types par rapport à la moyenne et utilise 68 % à moins de 1σ, 95 % à moins de 2σ, 99,7 % à moins de 3σ (les queues se partagent équitablement le reste) : <b>⟦0⟧ %</b>.`,
+  '1b8kg565owb': R`$E[X] = ⟦0⟧$ et $\text{Var}(X) = ⟦1⟧$. Calcule $\text{Var}(⟦2⟧)$.`,
+  '21eg07xqby': R`$\text{Var}(aX + b) = a^2\,\text{Var}(X) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ — la constante ⟦3⟧ n'a aucun effet.`,
+  'ha18xspr5t': R`$E[X] = ⟦0⟧$ et $\text{Var}(X) = ⟦1⟧$. Calcule $E[⟦2⟧]$.`,
+
+  // inference
+  'oph0fjnqfd': R`
+<p>On utilise une statistique de l'<b>échantillon</b> (comme $\bar{x}$) pour estimer un paramètre de la <b>population</b> (comme $\mu$). D'après le <b>théorème central limite</b>, pour $n$ grand, la moyenne de l'échantillon suit approximativement une loi normale de moyenne $\mu$ et d'<b>erreur type</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Intervalles de confiance</h3>
+⟦0⟧
+<p>Pour obtenir une marge d'erreur $E$, il faut $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (arrondi à l'entier supérieur). Si $\sigma$ est inconnu, utilise $s$ et la loi de Student $t$.</p>
+<h3>Tests d'hypothèse</h3>
+<ol><li>Énonce $H_0$ (p. ex. $\mu = \mu_0$) et $H_1$.</li><li>Calcule une statistique de test, p. ex. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Trouve la <b>p-valeur</b> : la probabilité, sous $H_0$, d'obtenir un résultat au moins aussi extrême.</li><li>Si $p \le \alpha$, rejette $H_0$ ; sinon, ne la rejette pas.</li></ol>
+⟦1⟧
+<h3>Régression linéaire</h3>
+<p>La droite des moindres carrés $\hat{y} = a + bx$ a pour pente $b = r\frac{s_y}{s_x}$ et passe par $(\bar{x} ; \bar{y})$, donc $a = \bar{y} - b\bar{x}$.</p>
+⟦2⟧`,
+  'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\,\%);\; 1{,}96 \;(95\,\%);\; 2{,}576 \;(99\,\%)`,
+  '7nca7j57l5': R`H₀ vraie`,
+  '2e0zey7f13x': R`H₀ fausse`,
+  '1nokpmpua28': R`Rejeter H₀`,
+  'qa9cxjojd2': R`Erreur de première espèce (probabilité α)`,
+  'z1afbgzons': R`Correct (puissance)`,
+  'tc6mfczzyi': R`Ne pas rejeter H₀`,
+  'w131ulu49o': R`Correct`,
+  'e51gkfcb06': R`Erreur de seconde espèce (probabilité β)`,
+  '6idiejz1ba': R`<p>« Ne pas rejeter $H_0$ » n'est pas la même chose qu'« accepter $H_0$ » : les données ne fournissent simplement pas assez de preuves contre elle.</p>`,
+  'awqxfz9vdv': R`Une population a $\sigma = ⟦0⟧$. Calcule l'erreur type de la moyenne pour des échantillons de taille ⟦1⟧.`,
+  'ugvd79s2wi': R`Un échantillon de taille ⟦0⟧ a pour moyenne ⟦1⟧ ; l'écart-type de la population est ⟦2⟧. Calcule la borne ⟦3⟧ de l'intervalle de confiance à ⟦4⟧ % pour $\mu$, à 2 décimales près.`,
+  '1n36a0strty': R`Marge $= ⟦0⟧ \times \frac{⟦1⟧}{\sqrt{⟦2⟧}} = ⟦3⟧$. ⟦4⟧`,
+  '2ekc2g43ffk': R`Borne supérieure $= ⟦0⟧ + ⟦1⟧ \approx ⟦2⟧$.`,
+  'u2fj3njiv8': R`Borne inférieure $= ⟦0⟧ - ⟦1⟧ \approx ⟦2⟧$.`,
+  '1i53ibdizmj': R`Teste $H_0 : \mu = ⟦0⟧$ avec $\sigma = ⟦1⟧$. Un échantillon de taille ⟦2⟧ a $\bar{x} = ⟦3⟧$. Calcule la statistique de test $z$ à 2 décimales près.`,
+  'b7sayy3tzp': R`Un test donne une p-valeur de ⟦0⟧. Au seuil de ⟦1⟧ %, quelle est la décision ?`,
+  '1adfzwf3gei': R`ne pas rejeter`,
+  '2fh7exkwsd7': R`on ne rejette pas`,
+  '1ui411puarn': R`Compare la p-valeur à $\alpha = ⟦0⟧$ : $⟦1⟧ ⟦2⟧ ⟦3⟧$, ⟦4⟧`,
+  '19asmns888x': R`donc on <b>rejette</b> $H_0$.`,
+  '28e9takeetw': R`donc on <b>ne rejette pas</b> $H_0$.`,
+  '3boqwtx8y6': R`La droite de régression de $y$ en $x$ a pour pente ⟦0⟧ et passe par $(\bar{x} ; \bar{y}) = (⟦1⟧ ; ⟦2⟧)$. Prédis $y$ pour $x = ⟦3⟧$.`,
+  '1xlncasuj2t': R`Ordonnée à l'origine $a = \bar{y} - b\bar{x} = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$. Alors $\hat{y} = ⟦4⟧ ⟦5⟧(⟦6⟧) = ⟦7⟧$.`,
+  '1juzrcbx7yp': R`La droite de régression de $y$ en $x$ a pour pente ⟦0⟧, avec $\bar{x} = ⟦1⟧$ et $\bar{y} = ⟦2⟧$. Trouve l'ordonnée à l'origine.`,
+  'ygsgt4zx8s': R`La droite passe par $(\bar{x} ; \bar{y})$ : $a = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$.`,
+  '1fjn7fhcpwy': R`Rejeter H₀ alors que H₀ est vraie`,
+  '2czv0lmmxbv': R`Erreur de première espèce`,
+  '1rsaomc3xxj': R`Ne pas rejeter H₀ alors que H₀ est fausse`,
+  '1knmx3avsv8': R`Erreur de seconde espèce`,
+  '7bbk61slol': R`Rejeter H₀ alors que H₀ est fausse`,
+  '6vojkrxnxd': R`Bonne décision`,
+  '27k0u0dgkx8': R`Ne pas rejeter H₀ alors que H₀ est vraie`,
+  'j30d9a2wnu': R`Condamner un accusé innocent (H₀ : innocent)`,
+  '1r9j0p9otdz': R`Relâcher un accusé coupable (H₀ : innocent)`,
+  'yce1tww5je': R`De quel type de résultat s'agit-il ? <i>⟦0⟧</i>.`,
+  'f5q8ah45y5': R`Première espèce = rejeter une $H_0$ vraie (fausse alerte) ; seconde espèce = ne pas détecter une $H_0$ fausse. C'est donc : <b>⟦0⟧</b>.`,
+  '17su48d7rp0': R`Quelle est la plus petite taille d'échantillon donnant un intervalle de confiance à ⟦0⟧ % avec une marge d'erreur d'au plus ⟦1⟧, si $\sigma = ⟦2⟧$ ?`,
+  'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, donc on arrondit à l'entier supérieur : $n = ⟦4⟧$.`,
+
+  // discrete
+  'a1ovpdx0vp': R`
+<h3>Arithmétique</h3>
+<p>$a \equiv b \pmod n$ signifie que $n$ divise $a - b$ ; $a \bmod n$ est le reste dans $\{0 ; 1 ; \ldots ; n - 1\}$. On peut additionner et multiplier des congruences, et réduire les puissances pas à pas.</p>
+⟦0⟧
+⟦1⟧
+<p>L'<b>inverse modulaire</b> de $a$ modulo $n$ est le $x$ tel que $ax \equiv 1 \pmod n$ ; il existe exactement quand $\gcd(a, n) = 1$.</p>
+<h3>Dénombrement</h3>
+<ul><li>Applications d'un ensemble à $m$ éléments dans un ensemble à $n$ éléments : $n^m$ ; injectives : $n(n-1)\cdots(n-m+1)$.</li><li>Inclusion–exclusion : $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Principe des tiroirs :</b> si plus de $kn$ objets vont dans $n$ tiroirs, un tiroir en reçoit au moins $k + 1$.</li></ul>
+<h3>Récurrences et graphes</h3>
+<p>Une relation de récurrence définit chaque terme à partir des précédents, comme $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Dans un graphe, le <b>lemme des poignées de main</b> dit que $\sum \deg(v) = 2|E|$ ; $K_n$ a $\binom{n}{2}$ arêtes ; un arbre à $n$ sommets a $n - 1$ arêtes ; un graphe connexe a un cycle eulérien ssi tous les degrés sont pairs.</p>
+⟦2⟧`,
+  '1vllnifl24g': R`<p><b>Algorithme d'Euclide :</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, répété jusqu'à obtenir un reste nul.</p><p><b>Petit théorème de Fermat :</b> si $p$ est premier et $p \nmid a$, alors $a^{p-1} \equiv 1 \pmod p$.</p>`,
+  '28pp2kgl31t': R`<p>$\gcd(252, 198)$ : $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Le PGCD est donc 18.</p><p>$2^{100} \bmod 7$ : comme $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
+  '23tw4c5wfxh': R`<p>Dans les problèmes d'inclusion–exclusion (« divisible par 3 ou par 5 »), l'intersection correspond à la divisibilité par le <b>PPCM</b>, 15.</p>`,
+  '8fw6na2xe1': R`Calcule $⟦0⟧ \bmod ⟦1⟧$.`,
+  'uplm3u8bhu': R`$⟦0⟧ = ⟦1⟧ \times ⟦2⟧ + ⟦3⟧$, donc le reste est ⟦4⟧.`,
+  'xlpbyjzaqw': R`Calcule $⟦0⟧^{⟦1⟧} \bmod ⟦2⟧$.`,
+  '1kd2o5jees6': R`D'après Fermat, $⟦0⟧^{⟦1⟧} \equiv 1 \pmod{⟦2⟧}$. $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ + ⟦6⟧$, donc $⟦7⟧^{⟦8⟧} \equiv ⟦9⟧^{⟦10⟧} \equiv ⟦11⟧ \pmod{⟦12⟧}$.`,
+  '127b4pzxtz': R`Utilise l'algorithme d'Euclide pour trouver $\gcd(⟦0⟧, ⟦1⟧)$.`,
+  '1aqkhdrg8qc': R`$⟦0⟧$. Le dernier reste non nul est <b>⟦1⟧</b>.`,
+  '1s721amox67': R`Trouve l'inverse de ⟦0⟧ modulo ⟦1⟧, c'est-à-dire le $x$ tel que $⟦2⟧x \equiv 1 \pmod{⟦3⟧}$ et $0 \lt x \lt ⟦4⟧$.`,
+  '1w7xn0v2je4': R`Vérification : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧ = ⟦3⟧ \times ⟦4⟧ + 1$, donc $x = ⟦5⟧$.`,
+  'x5llfo779v': R`Combien d'arêtes le graphe complet $K_{⟦0⟧}$ possède-t-il ?`,
+  '1k9fldmleaq': R`Chaque paire de sommets est reliée : $\binom{⟦0⟧}{2} = \frac{⟦1⟧ \times ⟦2⟧}{2} = ⟦3⟧$.`,
+  '1gbx4896k6y': R`Un arbre a ⟦0⟧ sommets. Combien a-t-il d'arêtes ?`,
+  'g3rd0a2w3f': R`Tout arbre à $n$ sommets a $n - 1 = ⟦0⟧$ arêtes.`,
+  '1b7sza9kgx9': R`Un graphe a des sommets de degrés ⟦0⟧. Combien a-t-il d'arêtes ?`,
+  '2eddhu7y6e4': R`Lemme des poignées de main : $\sum\deg = ⟦0⟧ = 2|E|$, donc $|E| = ⟦1⟧$.`,
+  '6xjrxhddis': R`Un graphe connexe a des sommets de degrés ⟦0⟧. Combien de sommets sont de degré impair ?`,
+  '5vsb2c69v5': R`Les degrés impairs sont ⟦0⟧, il y en a donc ⟦1⟧. ⟦2⟧ (Le nombre de sommets de degré impair est toujours pair.)`,
+  '2gbggujxcvs': R`aucun`,
+  '105xal8etax': R`Le graphe possède donc un cycle eulérien.`,
+  '1z20e1aao3p': R`Le graphe possède donc une chaîne eulérienne mais pas de cycle eulérien.`,
+  '1vy383kqrz8': R`Avec plus de 2 sommets impairs, il n'y a pas de chaîne eulérienne.`,
+  'by57uvpuwf': R`$a_0 = ⟦0⟧$ et $a_n = ⟦1⟧a_{n-1} ⟦2⟧$ pour $n \ge 1$. Calcule $a_{⟦3⟧}$.`,
+  '75ssmud3lg': R`Calcule terme à terme : ⟦0⟧.`,
+  'go6ohggc8l': R`Combien de chaînes binaires de longueur ⟦0⟧ contiennent exactement ⟦1⟧ uns ?`,
+  '27u4ks23cz9': R`Choisis lesquelles des ⟦1⟧ positions (⟦0⟧ d'entre elles) portent un 1 : $\binom{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'yx3fxah4u8': R`Combien y a-t-il d'applications d'un ensemble à ⟦0⟧ éléments dans un ensemble à ⟦1⟧ éléments ?`,
+  '12owpaqzt1c': R`Chacun des ⟦0⟧ éléments de départ peut aller vers n'importe lequel des ⟦1⟧ éléments d'arrivée : $⟦2⟧^{⟦3⟧} = ⟦4⟧$.`,
+  '4o2cs42p15': R`Combien y a-t-il d'applications injectives d'un ensemble à ⟦0⟧ éléments dans un ensemble à ⟦1⟧ éléments ?`,
+  'jpinfh5krc': R`Les images doivent être distinctes : $⟦0⟧ = ⟦1⟧$.`,
+  '10skxcum4lz': R`Combien d'entiers de 1 à ⟦0⟧ sont divisibles par ⟦1⟧ ou par ⟦2⟧ ?`,
+  'nhrb9jig2q': R`$\lfloor ⟦0⟧/⟦1⟧ \rfloor + \lfloor ⟦2⟧/⟦3⟧ \rfloor - \lfloor ⟦4⟧/⟦5⟧ \rfloor = ⟦6⟧ + ⟦7⟧ - ⟦8⟧ = ⟦9⟧$ (⟦10⟧ est le PPCM).`,
+  'cgzqt4g6kc': R`mois de naissance`,
+  '10ye3jsw3n2': R`jour de la semaine`,
+  '1eah1ab17mo': R`couleur (d'un jeu de cartes)`,
+  '1fddlc7zc0d': R`Quel est le plus petit nombre de personnes garantissant qu'au moins ⟦0⟧ d'entre elles aient le même ⟦1⟧ ?`,
+  '27kjdpfw0sg': R`Avec ⟦0⟧ catégories, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ personnes pourraient l'éviter ; une de plus impose un groupe de ⟦4⟧ : $⟦5⟧$.`,
+
+  // numerical
+  '106u35np5bp': R`
+<p>Les méthodes numériques approchent des résultats qui n'ont pas de forme explicite commode. Deux types d'erreur comptent : l'erreur de <b>troncature</b> (due à la méthode) et l'erreur d'<b>arrondi</b> (due à la précision finie).</p>
+⟦0⟧
+<h3>Recherche de racines</h3>
+<ul><li><b>Dichotomie :</b> si $f(a)$ et $f(b)$ sont de signes contraires, teste le milieu $m$ et garde la moitié où le signe change. Lente mais sûre : l'erreur est divisée par deux à chaque étape.</li><li><b>Newton–Raphson :</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Très rapide près d'une racine simple (convergence quadratique), mais peut échouer avec un mauvais point de départ ou si $f' \approx 0$.</li></ul>
+⟦1⟧
+<h3>Intégration numérique</h3>
+⟦2⟧
+<p>Ici $h = \frac{b - a}{n}$. La méthode de Simpson est exacte pour les polynômes de degré au plus 3.</p>
+<h3>Méthode d'Euler</h3>
+⟦3⟧
+⟦4⟧`,
+  '2fbw9jej1dm': R`\text{erreur absolue} = |x_{\text{exact}} - x_{\text{approché}}| \qquad \text{erreur relative} = \frac{|x_{\text{exact}} - x_{\text{approché}}|}{|x_{\text{exact}}|}`,
+  '1a9noj3sp27': R`<p>$\sqrt{10}$ avec $f(x) = x^2 - 10$ à partir de $x_0 = 3$ : $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — déjà exact à 4 décimales.</p>`,
+  'vx6qz5zup7': R`\text{Trapèzes : } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ pair}) : \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
+  '2fmxu9hfzwl': R`<p>Pour $y' = f(x, y)$ avec $y(x_0) = y_0$ : $\; y_{n+1} = y_n + h\,f(x_n, y_n)$, $x_{n+1} = x_n + h$. Diviser $h$ par deux divise à peu près l'erreur par deux.</p>`,
+  'fn0bl5sobc': R`<p>Dans la méthode des trapèzes, seules les ordonnées <b>intérieures</b> sont doublées ; les deux valeurs aux bornes n'apparaissent qu'une fois.</p>`,
+  '1n5pqkgqwu1': R`Applique une étape de la méthode de Newton à $f(x) = x^2 - ⟦0⟧$ à partir de $x_0 = ⟦1⟧$. Donne $x_1$ à 4 décimales près.`,
+  '1jvkeb9n3o6': R`Applique une étape de dichotomie à $f(x) = x^2 - 3$ sur $[1 ; 2]$. Quel intervalle contient la racine après cette étape ?`,
+  'vksl6we3dc': R`$f(1{,}5) = -0{,}75 \lt 0$ et $f(2) = 1 \gt 0$, donc le changement de signe est dans $[1{,}5 ; 2]$.`,
+  '23lzoh0yq9e': R`Applique la dichotomie à $f(x) = x^⟦0⟧ - ⟦1⟧$ sur $[⟦2⟧ ; ⟦3⟧]$. Quel est le milieu calculé à la <b>deuxième</b> itération ?`,
+  '114tbd27u3w': R`Premier milieu $⟦0⟧$ : $f(⟦1⟧) = ⟦2⟧$, donc la racine est dans $[⟦3⟧ ; ⟦4⟧]$. Deuxième milieu : $⟦5⟧$.`,
+  '1gaoigxt1uo': R`Utilise la méthode des trapèzes avec $n = ⟦0⟧$ pour approcher $\displaystyle\int_0^{⟦1⟧} x^2\,dx$.`,
+  '1pc9rab646n': R`$h = ⟦0⟧$ ; ordonnées ⟦1⟧. $T = \frac{⟦2⟧}{2}\left[⟦3⟧ + ⟦4⟧ + 2(⟦5⟧)\right] = ⟦6⟧$ (valeur exacte ⟦7⟧).`,
+  '1rsvekr7t2o': R`Utilise la méthode de Simpson avec $n = 2$ pour approcher $\displaystyle\int_0^{⟦0⟧} x^4\,dx$.`,
+  '8vqt4i28qj': R`$h = \frac{⟦0⟧}{2}$ : $\frac{h}{3}\left[0 + 4\left(\frac{⟦1⟧}{2}\right)^4 + ⟦2⟧^4\right] = \frac{⟦3⟧}{6} \cdot \frac{5 \cdot ⟦4⟧}{4} = ⟦5⟧$ (valeur exacte $⟦6⟧$).`,
+  '1jdhmav4ljk': R`Utilise la méthode d'Euler avec $h = ⟦0⟧$ pour approcher $y(⟦1⟧)$ pour $y' = ⟦2⟧$, $y(0) = 1$. Arrondis à 4 décimales.`,
+  '6utp8finkn': R`$⟦0⟧$ est approché par ⟦1⟧. Calcule l'erreur relative en pourcentage, à 3 décimales près.`,
+
+  // vector-calculus
+  'bh1w03a054': R`
+<p>Un <b>champ de vecteurs</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ associe un vecteur à chaque point — comme la vitesse du vent ou une force. Avec $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$ :</p>
+⟦0⟧
+<p>La divergence mesure le flux sortant d'un point ; le rotationnel mesure la rotation.</p>
+<h3>Intégrales curvilignes et champs conservatifs</h3>
+⟦1⟧
+⟦2⟧
+<h3>Les grands théorèmes</h3>
+⟦3⟧
+<p>Une jolie conséquence du théorème de Green : l'aire de $D$ vaut $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦4⟧`,
+  '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
+  'dx5b9h7rwd': R`<p>$\mathbf{F}$ est <b>conservatif</b> si $\mathbf{F} = \nabla\varphi$ pour un potentiel $\varphi$. Alors $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ pour tout chemin de $A$ à $B$. Dans le plan (domaine simplement connexe), $(P, Q)$ est conservatif ssi $P_y = Q_x$.</p>`,
+  '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$ : $P_y = 2x = Q_x$, donc il est conservatif avec $\varphi = x^2y + 3y$. De $(0 ; 0)$ à $(2 ; 1)$ : $\varphi(2 ; 1) - \varphi(0 ; 0) = 4 + 3 = 7$.</p>`,
+  '1yct8dx5k46': R`Théorème`,
+  '3albyqcn6s': R`Green`,
+  '1osdvqguwrh': R`Stokes`,
+  '11x91oqdbb7': R`Flux-divergence (Gauss)`,
+  '28jc8ed48q8': R`<p>Le théorème de Green suppose que $C$ est parcouru dans le sens <b>trigonométrique</b> (région à gauche) ; le sens horaire change le signe.</p>`,
+  'fg37vtw1nz': R`Calcule $\nabla\cdot\mathbf{F}$ en $⟦0⟧$ pour $\mathbf{F} = \left(⟦1⟧,\; ⟦2⟧,\; ⟦3⟧\right)$.`,
+  'i6u559ylzz': R`$P_x = ⟦0⟧$, $Q_y = ⟦1⟧$, $R_z = ⟦2⟧$. En $⟦3⟧$ : $⟦4⟧ ⟦5⟧ ⟦6⟧ = ⟦7⟧$.`,
+  'dvzsgd4pt9': R`Pour $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$, calcule $Q_x - P_y$ (le rotationnel scalaire) en $⟦2⟧$.`,
+  '1f7xg7qakjk': R`$Q_x = ⟦0⟧$ et $P_y = ⟦1⟧$, donc $Q_x - P_y = ⟦2⟧$, qui vaut ⟦3⟧ en $⟦4⟧$.`,
+  '6gosl713kw': R`Calcule $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r}$ où $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ et $C$ est un chemin quelconque de $⟦2⟧$ à $⟦3⟧$.`,
+  '1ch21kaf5wm': R`$\mathbf{F} = \nabla\varphi$ avec $\varphi = ⟦0⟧$, donc l'intégrale ne dépend pas du chemin : $\varphi(B) - \varphi(A) = ⟦1⟧ - ⟦2⟧ = ⟦3⟧$.`,
+  '1czrg3saejj': R`Utilise le théorème de Green pour calculer $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, où $C$ est le bord du rectangle $[0 ; ⟦2⟧] \times [0 ; ⟦3⟧]$, parcouru dans le sens trigonométrique.`,
+  'otc4kapbek': R`$Q_x - P_y = ⟦0⟧ - (-⟦1⟧) = ⟦2⟧$, donc l'intégrale vaut $⟦3⟧ \times \text{aire} = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.`,
+  '1mzbbq34ezd': R`Utilise le théorème de Green pour calculer $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, où $C$ est le cercle $x^2 + y^2 = ⟦2⟧$, parcouru dans le sens trigonométrique.`,
+  '2fijtuqaqq1': R`$Q_x - P_y = ⟦0⟧$, donc l'intégrale vaut $⟦1⟧ \times \pi(⟦2⟧)^2 = ⟦3⟧$.`,
+  '2csh30v58t4': R`Le champ $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ est-il conservatif ?`,
+  '1ma95r0zub6': R`Conservatif`,
+  'bn62hz6wu8': R`Non conservatif`,
+  '1s854ovcwco': R`non conservatif`,
+  '15asqrx4hnu': R`$P_y = ⟦0⟧$ et $Q_x = ⟦1⟧$. ⟦2⟧`,
+  'r7areoyr0a': R`Elles sont égales, donc F est conservatif (sur tout le plan).`,
+  '6dlb2jbxf0': R`Elles diffèrent, donc F n'est pas conservatif.`,
+  '1ueomkx63n5': R`Trouve un potentiel pour $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$.`,
+  '4awle3me9d': R`Intègre $P$ par rapport à $x$ : $\varphi = ⟦0⟧ + g(y)$. Alors $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ donne $g = ⟦3⟧$.`,
+
+  // laplace
+  'f6f4kfx30i': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<p>Les transformées inverses demandent en général d'abord une décomposition en éléments simples, puis une lecture de la table.</p>
+⟦4⟧`,
+  '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
+  '1id74v8hrdj': R`<p><b>Linéarité :</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Dérivées :</b> $\mathcal{L}\{y'\} = sY - y(0)$ et $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — les équations différentielles deviennent de l'algèbre.</p>`,
+  'ie964pskzz': R`<p>Résous $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, donc $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. En inversant : $y = 3\cos 2t + \sin 2t$.</p>`,
+  'cgwsp3i8af': R`<p>$\mathcal{L}\{\sin bt\}$ a $b$ au numérateur ; $\mathcal{L}\{\cos bt\}$ a $s$ au numérateur. Les confondre est l'erreur la plus fréquente.</p>`,
+  't6bpsx84ob': R`Calcule $\mathcal{L}\{⟦0⟧\}$.`,
+  '2sqpcztdp7': R`Linéarité avec $\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$ et $\mathcal{L}\{e^{ct}\} = \frac{1}{s - c}$ : $\frac{⟦0⟧ \cdot ⟦1⟧!}{s^{⟦2⟧}} + \frac{⟦3⟧}{⟦4⟧}$.`,
+  '1erb7erw9za': R`Calcule $\mathcal{L}\{⟦0⟧⟦1⟧ ⟦2⟧t\}$.`,
+  'ujzn9ioggu': R`$\mathcal{L}\{\sin bt\} = \frac{b}{s^2 + b^2}$, donc la réponse est $\frac{⟦0⟧ \cdot ⟦1⟧}{s^2 + ⟦2⟧} = \frac{⟦3⟧}{s^2 + ⟦4⟧}$.`,
+  '2dljwnla25z': R`$\mathcal{L}\{\cos bt\} = \frac{s}{s^2 + b^2}$, donc la réponse est $\frac{⟦0⟧s}{s^2 + ⟦1⟧}$.`,
+  'napbzc1h43': R`Calcule $\mathcal{L}^{-1}\left\{\dfrac{⟦0⟧}{⟦1⟧} + \dfrac{⟦2⟧s}{s^2 + ⟦3⟧}\right\}$.`,
+  '6d49fl6z14': R`$\frac{1}{s - c} \leftrightarrow e^{ct}$ et $\frac{s}{s^2 + d^2} \leftrightarrow \cos dt$ : le résultat est ⟦0⟧.`,
+  'hw06puz2z5': R`Calcule $\mathcal{L}\{⟦0⟧\,⟦1⟧ ⟦2⟧t\}$.`,
+  'zs0uacvdu8': R`Premier théorème de translation : $\mathcal{L}\{e^{at}f(t)\} = F(s - a)$. Avec $F(s) = ⟦0⟧$, remplace $s$ par $⟦1⟧$.`,
+  '1i1mf4ew2a': R`Soit $F(s) = \mathcal{L}\{t^{⟦0⟧}\}$. Calcule $F(⟦1⟧)$.`,
+  '180y0883p6z': R`$F(s) = \frac{⟦0⟧!}{s^{⟦1⟧}}$, donc $F(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '11s9xvqwvw4': R`Soit $F(s) = \mathcal{L}\{⟦0⟧\}$. Calcule $F(⟦1⟧)$.`,
+  '18wjdkl7beq': R`$F(s) = \frac{1}{s - (⟦0⟧)}$, donc $F(⟦1⟧) = \frac{1}{⟦2⟧}$.`,
+  '9v69wy5cnz': R`Résous $y'' + ⟦0⟧y = 0$ avec $y(0) = ⟦1⟧$, $y'(0) = ⟦2⟧$ à l'aide de la transformée de Laplace.`,
+  '24mrp3u7eep': R`$s^2Y - ⟦0⟧s - ⟦1⟧ + ⟦2⟧Y = 0$, donc $Y = ⟦3⟧$. Décompose en $⟦4⟧\cdot\frac{s}{s^2 + ⟦5⟧} + \frac{⟦6⟧}{⟦7⟧}\cdot\frac{⟦8⟧}{s^2 + ⟦9⟧}$ et inverse : ⟦10⟧.`,
+});

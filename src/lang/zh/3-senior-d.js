@@ -207,7 +207,7 @@ addT('zh', {
   '1h0id2d836q': R`<p>蕴含式 $p \Rightarrow q$ <b>只有</b>在 $p$ 真且 $q$ 假时才为假。</p>`,
   '2aojok6ubm7': R`形式`,
   '1bpxgxn3wdt': R`与原命题等价吗？`,
-  'clyih3qga0': R`原命题`,
+  'clyih3qga0': R`命题`,
   '13tp70kq9iu': R`逆命题`,
   '5lqm3x6p6i': R`否`,
   '1vsuatfpf7o': R`否命题`,

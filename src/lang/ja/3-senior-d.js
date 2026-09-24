@@ -207,7 +207,7 @@ addT('ja', {
   '1h0id2d836q': R`<p>命題 $p \Rightarrow q$ が偽になるのは、$p$ が真で $q$ が偽のとき<b>だけ</b>である。</p>`,
   '2aojok6ubm7': R`形`,
   '1bpxgxn3wdt': R`もとの命題と同値？`,
-  'clyih3qga0': R`もとの命題`,
+  'clyih3qga0': R`命題`,
   '13tp70kq9iu': R`逆`,
   '5lqm3x6p6i': R`いいえ`,
   '1vsuatfpf7o': R`裏`,
