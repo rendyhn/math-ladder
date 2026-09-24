@@ -1,0 +1,280 @@
+/* 中文 — 大学（求导技巧 → 微分方程） */
+addT('zh', {
+  // diff-techniques
+  'i2e9stiapi': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>隐函数求导</h3>
+<p>当 $y$ 由方程隐式给出时，两边同时对 $x$ 求导，把 $y$ 看作 $x$ 的函数（所以 $\frac{d}{dx}y^2 = 2y\,y'$），再解出 $y'$。</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1kr8zytc8j5': R`乘积`,
+  '1fd6nxjb0xt': R`商`,
+  '21u0n9yxqot': R`链式`,
+  '10xmtmesa6t': R`函数`,
+  'n72fq2kxcg': R`导数`,
+  '1qtv7snffoy': R`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4$ &nbsp;（链式法则）</p><p>$\dfrac{d}{dx}\,x^2 e^{3x} = 2x e^{3x} + 3x^2 e^{3x} = xe^{3x}(2 + 3x)$ &nbsp;（乘积法则）</p>`,
+  '1nhip08xeg5': R`<p>$x^2 + y^2 = 25 \Rightarrow 2x + 2y\,y' = 0 \Rightarrow y' = -\dfrac{x}{y}$。在 $(3, 4)$ 处斜率为 $-\frac{3}{4}$。</p>`,
+  'wvkdxn7frj': R`<p><b>对数求导法</b>适用于乘积、商和幂指函数：对 $y = x^x$，$\ln y = x\ln x$，所以 $\frac{y'}{y} = \ln x + 1$，$y' = x^x(\ln x + 1)$。</p>`,
+  're4vli1oc9': R`<p>链式法则：一定要乘以<b>内层</b>函数的导数。$\frac{d}{dx}\sin(x^2) = 2x\cos(x^2)$，而不是 $\cos(x^2)$。</p>`,
+  '1iajxt140g2': R`设 $f(x) = (⟦0⟧)^{⟦1⟧}$。求 $f'(⟦2⟧)$。`,
+  '2108swf0nc1': R`链式法则：$f'(x) = ⟦0⟧(⟦1⟧)^{⟦2⟧} \cdot ⟦3⟧$。当 $x = ⟦4⟧$ 时内层的值为 ⟦5⟧，所以 $f'(⟦6⟧) = ⟦7⟧ \cdot ⟦8⟧^{⟦9⟧} \cdot ⟦10⟧ = ⟦11⟧$。`,
+  '13u8g7mcany': R`求 $y = ⟦0⟧⟦1⟧$ 的导数。`,
+  'ltfmske2sq': R`乘积法则，$u = ⟦0⟧$，$v = ⟦1⟧$：$y' = ⟦2⟧⟦3⟧ + ⟦4⟧ \cdot ⟦5⟧ =⟦6⟧⟦7⟧(⟦8⟧)$。`,
+  '24tbapqaxkt': R`设 $f(x) = \ln(⟦0⟧)$。求 $f'(⟦1⟧)$。`,
+  'vr5ui5jnj1': R`$f'(x) = \frac{⟦0⟧x}{⟦1⟧}$，所以 $f'(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$。`,
+  '21f80wac08v': R`对 $x^2 + y^2 = ⟦0⟧$，求在点 $⟦1⟧$ 处的 $\frac{dy}{dx}$。`,
+  'xl17ytois8': R`对 $xy = ⟦0⟧$，求在点 $⟦1⟧$ 处的 $\frac{dy}{dx}$。`,
+  'cc1dbada60': R`乘积法则：$y + x\,y' = 0 \Rightarrow y' = -\frac{y}{x} = ⟦0⟧$。`,
+  'g5b3ql04b4': R`求 $y = \sin(⟦0⟧)$ 的导数。`,
+  '1u57cjycyb3': R`链式法则：外层导数是 $\cos(⟦0⟧)$，内层导数是 $⟦1⟧$，得到 $⟦2⟧\cos(⟦3⟧)$。`,
+  '1zcx1qjywp8': R`对 $f(x) = ⟦0⟧$，求 $f''(⟦1⟧)$。`,
+  '22jprctwicn': R`$f'(x) = ⟦0⟧$，$f''(x) = ⟦1⟧$。所以 $f''(⟦2⟧) = ⟦3⟧$。`,
+  '1pkqexq4tgg': R`设 $f(x) = x\ln x$。求 $f'(e^{⟦0⟧})$。`,
+  '20aqqhk2mtp': R`乘积法则：$f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$。所以 $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$。`,
+
+  // diff-applications
+  'g0oq20zzs': R`
+<h3>洛必达法则</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$（用了两次）。</p>
+<h3>最优化</h3>
+<ol><li>把要优化的量写成一个变量的函数（利用约束条件）。</li><li>求导并解 $f'(x) = 0$。</li><li>检验它是最大值还是最小值（二阶导数或端点）。</li></ol>
+⟦1⟧
+<h3>相关变化率</h3>
+<p>把一个关系式对时间求导。对于不断变大的圆，$A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$。</p>
+<h3>线性近似</h3>
+⟦2⟧
+<h3>凹凸性与中值定理</h3>
+<p>$f'' \gt 0$：下凸（凹向上）；$f'' \lt 0$：上凸（凹向下）；凹凸性改变的点叫<b>拐点</b>。<b>拉格朗日中值定理：</b>若 $f$ 在 $[a, b]$ 上连续、在内部可导，则存在 $c \in (a, b)$ 使 $f'(c) = \frac{f(b) - f(a)}{b - a}$。</p>
+⟦3⟧`,
+  '11hmiu9w9s4': R`<p>若 $\lim \frac{f(x)}{g(x)}$ 是 $\frac{0}{0}$ 或 $\frac{\infty}{\infty}$ 型，则 $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$（右边极限存在时）。</p>`,
+  '189x52ko5mw': R`<p>从边长 18 cm 的正方形铁皮四角各剪去边长为 $x$ 的小正方形，再把四边折起。$V = x(18 - 2x)^2$，$V' = (18 - 2x)(18 - 6x) = 0$ 得 $x = 3$，所以 $V_{\max} = 3 \cdot 12^2 = 432$ cm³。</p>`,
+  'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{例如 } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1`,
+  '15384lzo6ba': R`<p>洛必达法则是分子、分母<b>分别</b>求导——不是商的求导法则。</p>`,
+  's2219vpl96': R`求 $\displaystyle\lim_{x \to 0}\frac{1 - \cos ⟦0⟧x}{x^2}$。`,
+  '1tq22svmx8r': R`用两次洛必达法则：$\frac{⟦0⟧\sin ⟦1⟧x}{2x} \to \frac{⟦2⟧\cos ⟦3⟧x}{2} \to \frac{⟦4⟧}{2}$。`,
+  'v9t0b7xos3': R`求 $\displaystyle\lim_{x \to 0}\frac{⟦0⟧}{⟦1⟧x}$。`,
+  'wudu9stdyh': R`这是 $\frac{0}{0}$ 型；分子、分母分别求导：$\frac{⟦0⟧}{⟦1⟧} \to \frac{⟦2⟧}{⟦3⟧}$。`,
+  'b8a0ml45bv': R`从一张 ⟦0⟧ cm × ⟦1⟧ cm 的铁皮四角各剪去边长为 $x$ cm 的相同小正方形，再把四边折起做成无盖盒子。⟦2⟧`,
+  '6fzl8050w8': R`x 取何值时体积最大？`,
+  '1nbs4g9250e': R`最大体积是多少？`,
+  '1xaya4958aj': R`$V = x(⟦0⟧ - 2x)^2$，$V' = (⟦1⟧ - 2x)(⟦2⟧ - 6x) = 0$ 得 $x = ⟦3⟧$（另一个根使体积为零）。$V = ⟦4⟧(⟦5⟧)^2 = ⟦6⟧$ cm³。`,
+  'g44lawx7yb': R`圆的半径以 ⟦0⟧ cm/s 的速度增大。当半径为 ⟦1⟧ cm 时，面积增大的速度是多少？用 $\pi$ 表示。`,
+  'pvrsmdtr3x': R`$\frac{dA}{dt} = 2\pi r\frac{dr}{dt} = 2\pi(⟦0⟧)(⟦1⟧) = ⟦2⟧$ cm²/s。`,
+  'w8wuhpzsgd': R`球形气球的半径以 ⟦0⟧ cm/s 的速度增大。当半径为 ⟦1⟧ cm 时，体积增大的速度是多少？用 $\pi$ 表示。`,
+  '1ca85zwkg9p': R`$\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt} = 4\pi(⟦0⟧)^2(⟦1⟧) = ⟦2⟧$ cm³/s。`,
+  '2c66yuykiw5': R`用 $\sqrt{x}$ 在 $x = ⟦0⟧$ 处的线性近似估计 $\sqrt{⟦1⟧}$。`,
+  'rjw48nwhxr': R`请输入分数或小数。`,
+  '16wswpodtbc': R`求 $f(x) = ⟦0⟧$ 的拐点的横坐标。`,
+  '16igzoef2co': R`$f''(x) = 6x ⟦0⟧ = 0$ 得 $x = ⟦1⟧$；$f''$ 在此变号。`,
+  '2dw0fqk2lyr': R`$f(x) = ⟦0⟧$，区间 $[⟦1⟧, ⟦2⟧]$。求中值定理保证存在的 $c$。`,
+  '1c5ltuvzsrq': R`平均斜率 $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$。$f'(c) = 2c ⟦5⟧ = ⟦6⟧$ 得 $c = ⟦7⟧$——正是区间中点，二次函数总是如此。`,
+
+  // integration-techniques
+  'vrvi3bfbr': R`
+<h3>换元法</h3>
+<p>寻找一个函数和它的导数。令 $u = g(x)$，$du = g'(x)\,dx$：</p>
+⟦0⟧
+<p>对定积分，积分上下限也要一起换（或先换回原变量再代入）。</p>
+<h3>分部积分法</h3>
+⟦1⟧
+⟦2⟧
+<h3>部分分式</h3>
+<p>把有理函数拆成更简单的部分：$\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$。去分母后代入 $x = 1$ 和 $x = -2$：$A = \frac{4}{3}$，$B = \frac{11}{3}$。每一部分积分后都是对数。</p>
+<h3>反常积分</h3>
+⟦3⟧
+⟦4⟧`,
+  '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
+  '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>按<b>“反对幂三指”</b>选择 $u$：反三角函数、对数函数、幂函数（代数式）、三角函数、指数函数——排在前面的优先作 $u$。</p>`,
+  'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$：$u = x$，$dv = e^{2x}dx$，所以 $du = dx$，$v = \frac{1}{2}e^{2x}$。结果：$\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$。</p>`,
+  '2clmb8muggz': R`\int_1^\infty \frac{dx}{x^p} = \frac{1}{p - 1} \text{（}p \gt 1\text{；}p \le 1 \text{ 时发散）} \qquad \int_0^\infty e^{-kx}\,dx = \frac{1}{k}`,
+  'l8twy4h3ug': R`<p>$\int \frac{g'(x)}{g(x)}\,dx = \ln|g(x)| + C$——先看出这种形式，再考虑更复杂的方法。</p>`,
+  'fesx7djw83': R`xe^{x} - e^{x}`,
+  'yia5dxx3ds': R`xe^{x} + e^{x}`,
+  '1afuqmxgeq5': R`求 $\displaystyle\int ⟦0⟧\,dx$。`,
+  '1235n0zk19z': R`分部积分，取 ⟦0⟧：结果是 ⟦1⟧。求导可以验证。`,
+  'pklgf5s2ey': R`计算 $\displaystyle\int_0^{⟦0⟧} 2x(x^2 + 1)^{⟦1⟧}\,dx$。`,
+  '51fkmlo4j8': R`令 $u = x^2 + 1$，$du = 2x\,dx$；积分限从 $u = 1$ 到 $u = ⟦0⟧$：$\int_1^{⟦1⟧} u^{⟦2⟧}\,du = \left[\frac{u^{⟦3⟧}}{⟦4⟧}\right]_1^{⟦5⟧} = \frac{⟦6⟧ - 1}{⟦7⟧} = ⟦8⟧$。`,
+  '1tmpbvg6cku': R`把下式分解为部分分式：$\dfrac{⟦0⟧}{⟦1⟧⟦2⟧}$`,
+  '1iitr1pnozn': R`写成 $\frac{P}{⟦0⟧} + \frac{Q}{⟦1⟧}$ 并去分母。令 $x = ⟦2⟧$ 得 $P = ⟦3⟧$；令 $x = ⟦4⟧$ 得 $Q = ⟦5⟧$。`,
+  'r1rswlk024': R`计算 $\displaystyle\int_0^{\pi/⟦0⟧} \sin(⟦1⟧x)\,dx$。`,
+  '1l97oofm3p4': R`计算 $\displaystyle\int_0^{\pi/⟦0⟧} \cos(⟦1⟧x)\,dx$。`,
+  'pqalznrxip': R`计算 $\displaystyle\int_1^{\infty} \frac{dx}{x^{⟦0⟧}}$。`,
+  '4t49nbtc5g': R`$\left[\frac{x^{⟦0⟧}}{⟦1⟧}\right]_1^{\infty} = 0 - \frac{1}{⟦2⟧} = ⟦3⟧$。因为 $p = ⟦4⟧ \gt 1$，所以收敛。`,
+  'w9i8vvwvmq': R`计算 $\displaystyle\int_0^{\infty} e^{-⟦0⟧x}\,dx$。`,
+  '1wnox68sxsf': R`计算 $\displaystyle\int_0^{⟦0⟧} \frac{2x}{x^2 + 1}\,dx$。`,
+  '2ctr5v6it67': R`可以输入 ln(10) 这样的答案。`,
+  '8ud8r2yql4': R`分子是分母的导数：$\left[\ln(x^2 + 1)\right]_0^{⟦0⟧} = \ln ⟦1⟧ - \ln 1 = \ln ⟦2⟧$。`,
+
+  // integral-applications
+  '1iuoee1mxv2': R`积分`,
+  'u2fo7phj7e': R`曲线间的面积`,
+  '26rkw1zgbbl': R`体积（圆盘法），绕 x 轴`,
+  '1gdvfh77kjd': R`体积（垫圈法）`,
+  '2e8c5l4l65u': R`体积（柱壳法），绕 y 轴`,
+  'hf97eg5buy': R`平均值`,
+  '1wrr2ozjzke': R`弧长`,
+  '1aamatrm1qc': R`功（变力）`,
+  '25psf0wh4wl': R`<p>把 $y = \sqrt{x}$（$0 \le x \le 4$）绕 $x$ 轴旋转：$V = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$。</p>`,
+  '84txgrqh8f': R`<p>劲度系数 $k = 200$ N/m 的弹簧（胡克定律 $F = kx$）被拉长 0.3 m：$W = \int_0^{0.3} 200x\,dx = 100(0.3)^2 = 9$ J。</p>`,
+  '4sufc6qh8k': R`<p>先画草图。求出曲线的交点（这就是积分限），并判断哪条在上方——被积函数总是<b>上方减下方</b>（或外半径平方减内半径平方）。</p>`,
+  '2dts82e214f': R`<p>圆盘法中平方的是<b>函数</b>，不是积分：是 $\pi\int f^2$，不是 $\pi\left(\int f\right)^2$。</p>`,
+  '254d1knheuj': R`求第一象限内 $y = x^3$ 与 $y = ⟦0⟧x$ 所围成的面积。`,
+  '6v6svg4kwp': R`两曲线交于 $x = 0$ 和 $x = ⟦0⟧$。$\int_0^{⟦1⟧} (⟦2⟧x - x^3)\,dx = \frac{⟦3⟧(⟦4⟧)^2}{2} - \frac{⟦5⟧^4}{4} = ⟦6⟧$。`,
+  '137eefen200': R`\pi\int_0^{⟦0⟧} x\,dx = \frac{\pi (⟦1⟧)^2}{2}`,
+  '1minpuvvl2n': R`\pi\int_0^{⟦0⟧} x^2\,dx = \frac{\pi (⟦1⟧)^3}{3}`,
+  's7flm3xrdz': R`\pi\int_0^{⟦0⟧} x^4\,dx = \frac{\pi (⟦1⟧)^5}{5}`,
+  '217wjez6n7': R`把 $⟦0⟧$ 在 $0 \le x \le ⟦1⟧$ 下方的区域绕 $x$ 轴旋转。求体积（用 $\pi$ 表示）。`,
+  '1icurdoc4sc': R`圆盘法：$V = ⟦0⟧ = ⟦1⟧$。`,
+  '2gj0lncwv9v': R`把 $y = ⟦0⟧x$ 与 $y = x^2$ 之间的区域绕 $x$ 轴旋转。求体积（用 $\pi$ 表示）。`,
+  '79trxd9ylt': R`垫圈外半径 $⟦0⟧x$，内半径 $x^2$，区间 $[0, ⟦1⟧]$：$V = \pi\int_0^{⟦2⟧} (⟦3⟧x^2 - x^4)\,dx = \pi\left(\frac{⟦4⟧}{3} - \frac{⟦5⟧}{5}\right) = ⟦6⟧$。`,
+  '7u6xsm6kr0': R`求 $f(x) = x^2$ 在 $[0, ⟦0⟧]$ 上的平均值。`,
+  '14439tvneep': R`求 $f(x) = ⟦0⟧$ 在 $[⟦1⟧, ⟦2⟧]$ 上的平均值。`,
+  'ooxywxrn7m': R`一次函数的平均值等于它在中点 $x = ⟦0⟧$ 处的值：$⟦1⟧(⟦2⟧) ⟦3⟧ = ⟦4⟧$。`,
+  'mptjdpftfn': R`求 $y = \frac{2}{3}x^{3/2}$ 从 $x = 0$ 到 $x = ⟦0⟧$ 的弧长。`,
+  'z00id81ez': R`$y' = x^{1/2}$，所以 $L = \int_0^{⟦0⟧} \sqrt{1 + x}\,dx = \left[\frac{2}{3}(1 + x)^{3/2}\right]_0^{⟦1⟧} = \frac{2}{3}(⟦2⟧ - 1) = ⟦3⟧$。`,
+  'lpjavqv13n': R`弹簧的劲度系数 $k = ⟦0⟧$ N/m。把它从自然长度拉长 ⟦1⟧ m 需要做多少功？`,
+
+  // series
+  '1efhn95iov3': R`
+<p>如果无穷级数 $\sum a_n$ 的部分和 $S_N = a_1 + \cdots + a_N$ 趋于一个有限极限，就称它<b>收敛</b>。</p>
+⟦0⟧
+⟦1⟧
+<h3>幂级数与泰勒级数</h3>
+<p>幂级数 $\sum c_n (x - a)^n$ 在 $|x - a| \lt R$ 时收敛，$R$ 称为<b>收敛半径</b>（用比值判别法求）。$f$ 在 $a$ 处的泰勒级数是 $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$；在 0 处的称为麦克劳林级数。</p>
+⟦2⟧
+⟦3⟧`,
+  '1fv7uha3bb4': R`判别法`,
+  '1boy0ga8tbt': R`结论`,
+  '7ih7yeq8ue': R`发散判别（通项）`,
+  '1muum9p7rzf': R`若 $a_n \not\to 0$，级数发散`,
+  '1ky8r0l0qv8': R`$\sum ar^n$ 收敛当且仅当 $|r| \lt 1$；和为 $\frac{a}{1 - r}$`,
+  'rijv0gvehd': R`p 级数`,
+  '7fut7e3zun': R`$\sum \frac{1}{n^p}$ 收敛当且仅当 $p \gt 1$`,
+  '28h8cjdskg3': R`比较判别法`,
+  '23c91vpuxqn': R`与已知级数比较`,
+  '1684r7a6bgw': R`比值判别法`,
+  'oc6lw933sm': R`$L = \lim\left|\frac{a_{n+1}}{a_n}\right|$：$L \lt 1$ 收敛，$L \gt 1$ 发散`,
+  '131362k70as': R`交错级数`,
+  '1ew5e8sa4g7': R`若 $b_n \downarrow 0$，则 $\sum (-1)^n b_n$ 收敛`,
+  '12cxen3heke': R`<p><b>裂项相消：</b>$\displaystyle\sum_{n=1}^{N}\frac{1}{n(n+1)} = \sum\left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$，趋于 1。</p>`,
+  '1ql1d0zgkve': R`麦克劳林级数`,
+  '1arf5rbq565': R`成立范围`,
+  'oui4ssl2gv': R`所有 x`,
+  'kvkz0oqeo6': R`<p>$a_n \to 0$ 是必要条件，但不是充分条件：调和级数 $\sum \frac{1}{n}$ 发散，尽管 $\frac{1}{n} \to 0$。</p>`,
+  '16u2ienbhtn': R`求 $\displaystyle\sum_{n=⟦0⟧}^{\infty} ⟦1⟧\left(⟦2⟧\right)^n$。`,
+  '1kgeq4tf48a': R`公比 $r = ⟦0⟧$ 的等比级数，$|r| \lt 1$，首项 $⟦1⟧$：和 $= \frac{⟦2⟧}{1 - ⟦3⟧} = ⟦4⟧$。`,
+  '1eiae773y4x': R`它是 $p = \frac{1}{2} \le 1$ 的 p 级数`,
+  '1wok8okhtk9': R`它是调和级数（$p = 1$）`,
+  '22u9pb285sv': R`它是 $p = \frac{3}{2} \gt 1$ 的 p 级数`,
+  '204d6a8dcww': R`它是 $p = 2 \gt 1$ 的 p 级数`,
+  '243y5j9lor6': R`通项判别：$\frac{n}{n+1} \to 1 \ne 0$`,
+  'ajpp0zqaap': R`交错级数判别法（莱布尼茨）`,
+  'wlawq7ztg6': R`比值判别法：$\frac{3}{n+1} \to 0 \lt 1$`,
+  '265645ebmpe': R`比值判别法：$\frac{n+1}{2} \to \infty$`,
+  '1lt7pp2ijz': R`它是 $|r| = \frac{2}{3} \lt 1$ 的等比级数`,
+  '6goqsof3sp': R`它是 $|r| = \frac{3}{2} \ge 1$ 的等比级数`,
+  '1d4bvtuk3gt': R`与 $\sum\frac{1}{n^2}$ 比较`,
+  '2846ssfmjxq': R`与调和级数作极限比较`,
+  's3fpv9edn1': R`$\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ 收敛还是发散？`,
+  '1szqlme8ixw': R`收敛`,
+  '1mr32mwk08w': R`发散`,
+  '25wy0z8lea1': R`收敛，理由：⟦0⟧。`,
+  'zibgubfq': R`发散，理由：⟦0⟧。`,
+  'd893gqg85h': R`求 $⟦1⟧$ 的麦克劳林级数中 $x^{⟦0⟧}$ 的系数。`,
+  '2gib9c2xh5i': R`$e^u = \sum \frac{u^n}{n!}$，$u = ⟦0⟧$：系数为 $\frac{(⟦1⟧)^{⟦2⟧}}{⟦3⟧!} = ⟦4⟧$。`,
+  '1i7l7fodjgy': R`求 $\cos(⟦1⟧x)$ 的麦克劳林级数中 $x^{⟦0⟧}$ 的系数。`,
+  '27l5wjsmcqy': R`$\cos u = 1 - \frac{u^2}{2!} + \frac{u^4}{4!} - \cdots$，$u = ⟦0⟧x$：系数 $= ⟦1⟧$。`,
+  '13hswzoz6ds': R`求 $\dfrac{1}{1 ⟦1⟧x}$ 的麦克劳林级数中 $x^{⟦0⟧}$ 的系数。`,
+  '950amaqi7k': R`$\frac{1}{1 - u} = \sum u^n$，$u = ⟦0⟧$：$x^{⟦1⟧}$ 的系数为 $(⟦2⟧)^{⟦3⟧} = ⟦4⟧$。`,
+  '12ohsobdns': R`求 $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ 的收敛半径。`,
+  'y2p3mhwix3': R`比值判别法：$\left|\frac{a_{n+1}}{a_n}\right| \to \frac{|⟦0⟧|}{⟦1⟧}$。当 $|⟦2⟧| \lt ⟦3⟧$ 时它小于 1，所以 $R = ⟦4⟧$。`,
+  '1hfprth485h': R`求 $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$。`,
+  '24anbau0yh': R`裂项相消：$S_N = 1 - \frac{1}{N+1} \to 1$。`,
+  'kcknro2xmq': R`求 $\displaystyle\sum_{n=1}^{⟦0⟧} \frac{1}{n(n+1)}$。`,
+  'd2ku2hqqe6': R`$\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$，裂项相消后和为 $1 - \frac{1}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$。`,
+  '2d09rr0z1dx': R`麦克劳林级数为 $\displaystyle ⟦0⟧$ 的是哪个函数？`,
+  '262p4pwoflz': R`这是 $⟦0⟧$ 的标准展开式。`,
+
+  // multivariable
+  'elrzs4craq': R`
+<p>对 $f(x, y)$，<b>偏导数</b> $f_x = \frac{\partial f}{\partial x}$ 是把 $y$ 看作常数、对 $x$ 求导（$f_y$ 反之）。对 $f = x^2y^3$：$f_x = 2xy^3$，$f_y = 3x^2y^2$。</p>
+<h3>梯度与方向导数</h3>
+⟦0⟧
+<h3>驻点：二阶导数判别法</h3>
+<p>在 $f_x = f_y = 0$ 的点处，令 $D = f_{xx}f_{yy} - f_{xy}^2$。</p>
+<ul><li>$D \gt 0$，$f_{xx} \gt 0$：极小值。 &nbsp; $D \gt 0$，$f_{xx} \lt 0$：极大值。</li><li>$D \lt 0$：鞍点。 &nbsp; $D = 0$：无法判定。</li></ul>
+<h3>二重积分</h3>
+<p>在矩形区域上逐个变量积分（富比尼定理）：$\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$。在极坐标下，$dA = r\,dr\,d\theta$。</p>
+<h3>拉格朗日乘数法</h3>
+<p>在约束 $g = c$ 下求 $f$ 的最值，解 $\nabla f = \lambda\nabla g$ 并联立约束条件。</p>
+⟦1⟧
+⟦2⟧`,
+  '1lpi0dcmqpt': R`$$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ 指向函数增长最快的方向；它的长度就是这个最大变化率。</p>`,
+  'opu0v1dwpl': R`<p>在 $x + y = 10$ 下求 $f = xy$ 的最大值：$(y, x) = \lambda(1, 1)$ 得 $x = y = 5$，所以最大值为 25。</p>`,
+  '83uqphqp8x': R`<p>用极坐标时，别忘了 $dA = r\,dr\,d\theta$ 中多出的因子 $r$。</p>`,
+  'oxpugv5o3o': R`对 $f(x, y) = ⟦0⟧$，求 $f_⟦1⟧(⟦2⟧, ⟦3⟧)$。`,
+  '131ofsfpabh': R`$f_x = ⟦0⟧$，所以 $f_x(⟦1⟧, ⟦2⟧) = ⟦3⟧$。`,
+  'tma98sxgbh': R`$f_y = ⟦0⟧$，所以 $f_y(⟦1⟧, ⟦2⟧) = ⟦3⟧$。`,
+  '1894fvoucsb': R`对 $f(x, y) = ⟦2⟧$，求 $\nabla f(⟦0⟧, ⟦1⟧)$。`,
+  '1mtqnuj8e72': R`输入两个分量，用逗号隔开。`,
+  '1wlrv45vn5z': R`$f_x = ⟦0⟧$，$f_y = ⟦1⟧$。在 $⟦2⟧$ 处：$\nabla f = ⟦3⟧$。`,
+  '280l4hqbl71': R`求 $f(x, y) = ⟦0⟧$ 在 $⟦1⟧$ 处沿 $⟦2⟧$ 方向的方向导数。`,
+  '23ij1mnh3qx': R`$\nabla f = (⟦0⟧, ⟦1⟧)$，单位向量为 $\frac{1}{⟦2⟧}⟦3⟧$。$D_{\mathbf{u}}f = \frac{⟦4⟧(⟦5⟧) + ⟦6⟧(⟦7⟧)}{⟦8⟧} = ⟦9⟧$。`,
+  '1gbu12sd7yr': R`极小值点`,
+  'tfsmpd4xkw': R`极大值点`,
+  '29jq1piqelp': R`鞍点`,
+  '1knzmyv1q46': R`无法判定`,
+  'uai27zrool': R`判断 $f(x, y) = ⟦0⟧$ 在驻点 $(0, 0)$ 的类型。`,
+  'k6dc7gm5pm': R`$D \gt 0$ 且 $f_{xx} ⟦0⟧ 0$`,
+  'scf747plq6': R`计算 $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} xy\,dy\,dx$。`,
+  'scioeo7pw6': R`$\int_0^{⟦0⟧} xy\,dy = \frac{⟦1⟧x}{2}$，再算 $\int_0^{⟦2⟧} \frac{⟦3⟧x}{2}\,dx = \frac{⟦4⟧ \cdot ⟦5⟧}{4} = ⟦6⟧$。`,
+  'ktiyfy2vps': R`计算 $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} (x + y)\,dy\,dx$。`,
+  'lgh3731wbd': R`$\int_0^{⟦0⟧} (x + y)\,dy = ⟦1⟧x + \frac{⟦2⟧}{2}$，再算 $\int_0^{⟦3⟧} \left(⟦4⟧x + \frac{⟦5⟧}{2}\right)dx = \frac{⟦6⟧(⟦7⟧)^2}{2} + \frac{⟦8⟧(⟦9⟧)}{2} = ⟦10⟧$。`,
+  '1oi548attkh': R`用拉格朗日乘数法（或其他方法）求 $f = xy$ 在约束 $x ⟦0⟧y = ⟦1⟧$（$x, y \gt 0$）下的最大值。`,
+  'helueus42k': R`$\nabla f = \lambda\nabla g$：$y = \lambda$，$x = ⟦0⟧\lambda$。所以 $x = ⟦1⟧y$，$⟦2⟧y = ⟦3⟧$，得 $y = ⟦4⟧$，$x = ⟦5⟧$，$xy = ⟦6⟧$。`,
+  '1c5ngt35a15': R`计算 $\displaystyle\iint_D (x^2 + y^2)\,dA$，其中 $D$ 是圆盘 $x^2 + y^2 \le ⟦0⟧$。`,
+  'hl1el1t8oy': R`极坐标：$\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$。`,
+
+  // ode
+  '29y4y4v6xas': R`
+<p><b>微分方程</b>把一个函数与它的导数联系起来。它的<b>阶</b>是出现的最高阶导数。<b>通解</b>含有任意常数；初始条件确定一个特解。</p>
+<h3>可分离变量方程</h3>
+⟦0⟧
+<p>特例：$\frac{dy}{dt} = ky$ 的解是 $y = y_0e^{kt}$——指数增长（$k \gt 0$）或衰减（$k \lt 0$）。半衰期为 $T$ 时，剩余量为 $N_0\left(\frac{1}{2}\right)^{t/T}$。</p>
+<h3>一阶线性方程</h3>
+⟦1⟧
+<h3>二阶常系数线性方程</h3>
+<p>对 $ay'' + by' + cy = 0$，设 $y = e^{rx}$，得到<b>特征方程</b> $ar^2 + br + c = 0$。</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$：分离变量，$\int\frac{dy}{y} = \int 2x\,dx$，所以 $\ln|y| = x^2 + C$，$y = Ae^{x^2}$。</p>`,
+  '24caer7vpv9': R`<p>对 $y' + P(x)y = Q(x)$，乘以<b>积分因子</b> $\mu(x) = e^{\int P(x)\,dx}$。于是 $(\mu y)' = \mu Q$，所以 $y = \frac{1}{\mu}\int \mu Q\,dx$。</p>`,
+  '2fhw42v6h9r': R`特征根`,
+  'mdry0kk339': R`通解`,
+  '1l55nwfgsi9': R`两个不等实根 $r_1, r_2$`,
+  'fkai3ftnyj': R`重根 $r$`,
+  '3w3x9xlope': R`共轭复根 $\alpha \pm \beta i$`,
+  '68uvb89pvs': R`<p>$y'' + 4y = 0$：$r^2 + 4 = 0$，$r = \pm 2i$，所以 $y = C_1\cos 2x + C_2\sin 2x$——简谐运动。</p>`,
+  'vgovr9zohx': R`<p>重根时，$C_1e^{rx} + C_2e^{rx}$ 其实只是一个解；多乘一个因子 $x$ 才得到第二个解。</p>`,
+  '234p7duj3ts': R`$r^2 ⟦0⟧r ⟦1⟧ = 0$ 的根为 $r = ⟦2⟧$ 和 $r = ⟦3⟧$`,
+  '1hssho6k9w6': R`$r^2 ⟦0⟧r + ⟦1⟧ = (r ⟦2⟧)^2 = 0$ 有重根 $r = ⟦3⟧$`,
+  '2chd8d4gjpq': R`$r^2 ⟦0⟧r + ⟦1⟧ = 0$ 有复根 $r = ⟦2⟧ \pm ⟦3⟧i$`,
+  '1ngxukqkkvf': R`求 $⟦0⟧$ 的通解。`,
+  'irmvhn9wve': R`特征方程 ⟦0⟧，所以 ⟦1⟧。`,
+  '5e0s1xl4f9': R`一份 ⟦0⟧ g 的放射性样品，半衰期为 ⟦1⟧ 年。⟦2⟧ 年后还剩多少？`,
+  '2eo258s1sy7': R`$⟦0⟧$ 年是 ⟦1⟧ 个半衰期：$⟦2⟧\left(\frac{1}{2}\right)^{⟦3⟧} = ⟦4⟧$ g。`,
+  '1btlmc6ms72': R`解可分离变量方程 $\dfrac{dy}{dx} = ⟦0⟧\,y$。`,
+  'lgqvn6fqu1': R`$\int\frac{dy}{y} = \int ⟦0⟧\,dx$ 得 $\ln|y| = ⟦1⟧ + C_0$，所以 $y = Ce^{⟦2⟧}$。`,
+  '1wp1r4xsb5y': R`$y' + ⟦0⟧\,y = x^2$ 的积分因子是什么？`,
+  '1d5o356dbul': R`由牛顿冷却定律得 $T(t) = ⟦0⟧ + ⟦1⟧e^{-⟦2⟧t}$（°C，$t$ 的单位是分钟）。求 ⟦3⟧ 分钟后的温度，保留 1 位小数。`,
+  'uzon2x7fe4': R`\frac{dy}{dx} = x^2y`,
+  '8swe0ei2mu': R`\frac{d^2y}{dx^2} + y = 0`,
+  '28kd92q06yf': R`\frac{d^3y}{dx^3} - 2\frac{dy}{dx} = 0`,
+  '1jgz4mikafn': R`微分方程 $⟦0⟧$ 是几阶的？`,
+  'rxb07imi4n': R`阶数就是出现的最高阶导数：这里是 ⟦0⟧。`,
+});

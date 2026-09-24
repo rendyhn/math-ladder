@@ -1,0 +1,322 @@
+/* 中文 — 大学（线性代数 → 拉普拉斯变换） */
+addT('zh', {
+  // linear-algebra
+  'aoku0sfspm': R`
+<h3>线性方程组与秩</h3>
+<p>解方程组 $A\mathbf{x} = \mathbf{b}$ 时，把增广矩阵 $[A \mid \mathbf{b}]$ 用初等行变换化为阶梯形。$A$ 的<b>秩</b>是主元的个数（阶梯形中非零行的行数）。</p>
+⟦0⟧
+<h3>行列式</h3>
+⟦1⟧
+<p>$n \times n$ 矩阵的常用性质：$\det(AB) = \det A \det B$，$\det(A^T) = \det A$，$\det(A^{-1}) = \frac{1}{\det A}$，$\det(kA) = k^n\det A$。克拉默法则：$x_i = \frac{\det A_i}{\det A}$。</p>
+<h3>特征值与特征向量</h3>
+⟦2⟧
+⟦3⟧
+<p>如果 $A$ 有 $n$ 个线性无关的特征向量，它就<b>可对角化</b>：$A = PDP^{-1}$，其中 $P$ 的列是特征向量，$D$ 的对角线上是特征值。</p>
+⟦4⟧`,
+  'q9p1mxjp5t': R`<p><b>秩–零化度定理：</b>对 $m \times n$ 矩阵，$\text{rank}(A) + \text{nullity}(A) = n$。方阵 $A$ 可逆 $\iff \det A \ne 0 \iff$ 各列线性无关 $\iff \text{rank} = n$。</p>`,
+  '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
+  'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>对 $2 \times 2$ 矩阵：$\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$。特征值之和等于迹，之积等于行列式。</p>`,
+  '1khrdp55fj': R`<p>$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$：$\lambda^2 - 7\lambda + 10 = 0$，所以 $\lambda = 2, 5$。对 $\lambda = 5$：$(A - 5I)\mathbf{v} = 0$ 得 $\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$。</p>`,
+  '21awxvuldiu': R`<p>$\det(2A) = 2^n\det A$，不是 $2\det A$——$n$ 行中每一行都乘了 2。</p>`,
+  '19a9vb1rr2m': R`按第一行展开：$⟦0⟧(⟦1⟧) - ⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$。`,
+  '1j2onaty0gh': R`求 $⟦0⟧$ 的特征值。`,
+  'ynzibmbl86': R`输入两个特征值，用逗号隔开。`,
+  '23zxsoa3fr0': R`$\lambda^2 - (\text{tr})\lambda + \det = \lambda^2 ⟦0⟧\lambda ⟦1⟧ = 0$，所以 $\lambda = ⟦2⟧$ 或 $\lambda = ⟦3⟧$。（检验：它们的和等于迹 ⟦4⟧，积等于行列式 ⟦5⟧。）`,
+  '2etvam6ts6i': R`求 $⟦0⟧$ 的零化度（零空间的维数）。`,
+  '21ne48l6zig': R`求 $⟦0⟧$ 的秩。`,
+  'guqg5s6tj7': R`$\det \ne 0$，所以三行线性无关：秩为 3。`,
+  '1q1ko1sbkfa': R`有一行是另外两行的线性组合，而这两行线性无关：秩为 2。`,
+  '2bdvxka58sc': R`每一行都是同一行的倍数：秩为 1。`,
+  '1pbgto6ecv4': R` 由秩–零化度定理，零化度 $= 3 - ⟦0⟧ = ⟦1⟧$。`,
+  '167s06hkdpt': R`$A$ 是 $⟦0⟧ \times ⟦1⟧$ 矩阵，$\det A = ⟦2⟧$。求 $\det(A^{-1})$。`,
+  '124zlt4oeit': R`$A$ 是 $⟦0⟧ \times ⟦1⟧$ 矩阵，$\det A = ⟦2⟧$。求 $⟦3⟧$。`,
+  'vtdcjwqxja': R`⟦0⟧ 行中每一行都乘以 ⟦1⟧：$⟦2⟧^{⟦3⟧} \times ⟦4⟧ = ⟦5⟧$。`,
+  'd4v2fg20q4': R`转置不改变行列式：⟦0⟧。`,
+  '26v5gcnmls7': R`解方程组并给出 $⟦0⟧$：$$\begin{cases} ⟦1⟧ \end{cases}$$`,
+  '36y25q4ph4': R`用消元法（或克拉默法则，因为 $\det A = ⟦0⟧ \ne 0$），得 $(x, y, z) = ⟦1⟧$，所以 $⟦2⟧ = ⟦3⟧$。`,
+  '1w651quute8': R`向量 $⟦0⟧$ 线性无关吗？`,
+  '1nhr23w337j': R`线性无关`,
+  '1ykattdq3py': R`线性相关`,
+  '71c2j2dn5w': R`把它们作为矩阵的列：行列式为 ⟦0⟧。⟦1⟧`,
+  'd8cecy9nad': R`它不为零，所以它们线性无关。`,
+  'nwja1imq1g': R`它为零，所以它们线性相关（其中一个是其他向量的线性组合）。`,
+  '109v3qsafjj': R`$\mathbf{v} = ⟦0⟧$ 是 $A = ⟦1⟧$ 的特征向量。它对应的特征值是多少？`,
+  'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$，所以 $\lambda = ⟦3⟧$。`,
+
+  // complex
+  'n87wkmbfmz': R`
+<p>虚数单位满足 $i^2 = -1$。复数写成 $z = a + bi$，实部 $\text{Re}(z) = a$，虚部 $\text{Im}(z) = b$。$i$ 的幂每四个一循环：$i, -1, -i, 1, \ldots$</p>
+⟦0⟧
+⟦1⟧
+<h3>三角形式与欧拉公式</h3>
+⟦2⟧
+⟦3⟧
+<p>$n$ 次单位根是 $e^{2\pi ik/n}$，$k = 0, 1, \ldots, n - 1$：单位圆上等距分布的点。</p>
+⟦4⟧`,
+  'rz9c61mn5': R`乘法`,
+  '1lvuh3a6n9s': R`共轭`,
+  '73hhnvn9cf': R`$\bar{z} = a - bi$，且 $z\bar{z} = a^2 + b^2$`,
+  '8ju8zqboy3': R`除法`,
+  '23m7410nhvb': R`分子、分母同乘分母的共轭`,
+  '2at5jue99d3': R`模`,
+  '26m66idec7i': R`辐角`,
+  '18sul084cs9': R`$\arg z = \theta$，$\tan\theta = \frac{b}{a}$（注意象限）`,
+  'cavhj9pbbb': R`$$z = r(\cos\theta + i\sin\theta) = re^{i\theta} \qquad\qquad z^n = r^n e^{in\theta} \;\;\text{（棣莫弗公式）}$$`,
+  '16lvmowwhri': R`<p>$1 + i = \sqrt{2}e^{i\pi/4}$，所以 $(1 + i)^8 = (\sqrt{2})^8 e^{2\pi i} = 16$。</p>`,
+  '256fv20o5wc': R`<p>$-1 - i$ 的辐角是 $-\frac{3\pi}{4}$，不是 $\frac{\pi}{4}$：只看 $\arctan\frac{b}{a}$ 无法区分第三象限和第一象限。</p>`,
+  '10omtzlugr6': R`化简 $(⟦0⟧)(⟦1⟧)$。`,
+  'hty9ty1x7v': R`按 a+bi 的形式输入答案。`,
+  '1zsla5l2vrq': R`$(⟦0⟧)(⟦1⟧) + (⟦2⟧)(⟦3⟧)i + (⟦4⟧)(⟦5⟧)i + (⟦6⟧)(⟦7⟧)i^2 = ⟦8⟧$，利用 $i^2 = -1$。`,
+  '1z0a8n17xaw': R`求 $|⟦0⟧|$。`,
+  '7g8mi40aa1': R`化简 $\dfrac{⟦0⟧}{⟦1⟧}$。`,
+  '1lmk9l2nr3e': R`分子、分母同乘 $⟦0⟧$。分母变为 $⟦1⟧$，分子变为 $⟦2⟧$，所以结果是 $⟦3⟧$。`,
+  '28axbqdj3sw': R`化简 $i^{⟦0⟧}$。`,
+  'q7margvq3g': R`$i$ 的幂每 4 个一循环。$⟦0⟧ = 4 \times ⟦1⟧ + ⟦2⟧$，所以 $i^{⟦3⟧} = i^{⟦4⟧} = ⟦5⟧$。`,
+  '1pjjj2x31s7': R`求 $z = ⟦0⟧$ 的辐角主值 $\arg z \in (-\pi, \pi]$。`,
+  '2fusqwp7x7b': R`$z = ⟦0⟧$ 与正实轴的夹角为 $⟦1⟧$（注意所在象限），所以 $\arg z = ⟦2⟧$。`,
+  '75mna4515k': R`把 $z = ⟦0⟧$ 写成指数形式 $re^{i\theta}$。`,
+  'bg7vixv5uf': R`$r = |z| = ⟦0⟧$，$\theta = \arg z = ⟦1⟧$，所以 $z = ⟦2⟧e^{i ⟦3⟧}$。`,
+  '15suw4uuv8i': R`用棣莫弗定理计算 $(⟦0⟧)^{⟦1⟧}$。`,
+  '2e4kqt1xydt': R`$⟦0⟧ = \sqrt{2}\,e^{i\theta}$，$\theta = ⟦1⟧$。于是 $(\sqrt{2})^{⟦2⟧}e^{i⟦3⟧\theta} = ⟦4⟧e^{i⟦5⟧\theta} = ⟦6⟧$。`,
+  '1xd7417ut46': R`设 $z = ⟦0⟧$。求 $\text{⟦1⟧}(z^2)$。`,
+
+  // distributions
+  '28d8604hmp9': R`
+<p><b>随机变量</b> $X$ 给每个结果对应一个数。对概率为 $p(x)$ 的离散型 $X$：</p>
+⟦0⟧
+⟦1⟧
+<h3>正态分布</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
+  '115owsb7jcv': R`分布`,
+  'z5bw2hz29r': R`P(X = k) 或密度`,
+  '1runl3m75u8': R`方差`,
+  '1xs6so1xns8': R`二项分布 $B(n, p)$`,
+  '1rwt3dxzew1': R`泊松分布 $(\lambda)$`,
+  'n8vzzqt60t': R`$[a, b]$ 上的均匀分布`,
+  '2cdr2b2t24p': R`指数分布 $(\lambda)$`,
+  'l349ss11hc': R`正态分布 $N(\mu, \sigma^2)$`,
+  '26wsuf9ho5r': R`钟形曲线`,
+  '1bw0zjk7wg1': R`<p>用 $Z = \dfrac{X - \mu}{\sigma}$ 标准化，再查标准正态分布表。<b>68–95–99.7 法则</b>：大约 68%、95% 和 99.7% 的数值落在平均数的 1、2、3 个标准差之内。</p>`,
+  '1mn62kz3dqi': R`<p>身高 $X \sim N(170, 8^2)$。身高 186 cm 对应 $z = \frac{186 - 170}{8} = 2$，所以只有约 2.5% 的人比他高。</p>`,
+  '20odz9yh9el': R`<p>二项分布要求试验次数固定、各次独立且成功概率相同。泊松分布统计的是平均发生率不变时某段区间内事件发生的次数。</p>`,
+  'hehw668sc4': R`求这个分布的 $E[X]$。⟦0⟧`,
+  'ggtradb99r': R`把一枚均匀硬币抛 ⟦0⟧ 次。恰好出现 ⟦1⟧ 次正面的概率是多少？`,
+  '1gonhfsfe0e': R`$X \sim B\!\left(⟦0⟧, \frac{1}{3}\right)$。求 $P(X = ⟦1⟧)$。`,
+  '2e8zcm46v5k': R`$X \sim B(⟦0⟧, ⟦1⟧)$。求 $\text{Var}(X)$。`,
+  '1sv4co448ex': R`$\text{Var}(X) = np(1 - p) = ⟦0⟧(⟦1⟧)(⟦2⟧) = ⟦3⟧$。`,
+  'qmg93npnbt': R`$X \sim B(⟦0⟧, ⟦1⟧)$。求 $E[X]$。`,
+  '283j9ftzcid': R`$X \sim N(⟦0⟧, ⟦1⟧^2)$。求 $x = ⟦2⟧$ 的 $z$ 分数。`,
+  '1kbz6k640p5': R`$X \sim \text{Poisson}(⟦0⟧)$。求 $P(X = ⟦1⟧)$，保留 4 位小数。`,
+  '2el5p15nmmp': R`在 ⟦0⟧ 与 ⟦1⟧ 之间`,
+  'lwhiv9yady': R`高于 ⟦0⟧`,
+  'x696ofvj9v': R`低于 ⟦0⟧`,
+  '1cdk3p0w1a9': R`考试成绩服从正态分布，平均数为 ⟦0⟧，标准差为 ⟦1⟧。用 68–95–99.7 法则，成绩⟦2⟧的大约占百分之几？`,
+  '2ciqs8smgdj': R`换算成离平均数几个标准差，并利用 1σ 内 68%、2σ 内 95%、3σ 内 99.7%（剩余部分两侧尾部各占一半）：<b>⟦0⟧%</b>。`,
+  '1b8kg565owb': R`$E[X] = ⟦0⟧$，$\text{Var}(X) = ⟦1⟧$。求 $\text{Var}(⟦2⟧)$。`,
+  '21eg07xqby': R`$\text{Var}(aX + b) = a^2\,\text{Var}(X) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$——常数 ⟦3⟧ 不影响方差。`,
+  'ha18xspr5t': R`$E[X] = ⟦0⟧$，$\text{Var}(X) = ⟦1⟧$。求 $E[⟦2⟧]$。`,
+
+  // inference
+  'oph0fjnqfd': R`
+<p>我们用<b>样本</b>统计量（如 $\bar{x}$）估计<b>总体</b>参数（如 $\mu$）。由<b>中心极限定理</b>，当 $n$ 较大时，样本均值近似服从均值为 $\mu$、<b>标准误</b>为 $\frac{\sigma}{\sqrt{n}}$ 的正态分布。</p>
+<h3>置信区间</h3>
+⟦0⟧
+<p>要使误差限为 $E$，需要 $n \ge \left(\frac{z^*\sigma}{E}\right)^2$（向上取整）。$\sigma$ 未知时，用 $s$ 和 $t$ 分布。</p>
+<h3>假设检验</h3>
+<ol><li>提出 $H_0$（例如 $\mu = \mu_0$）和 $H_1$。</li><li>计算检验统计量，例如 $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$。</li><li>求 <b>p 值</b>：在 $H_0$ 成立的前提下，得到至少这样极端结果的概率。</li><li>若 $p \le \alpha$，拒绝 $H_0$；否则不拒绝。</li></ol>
+⟦1⟧
+<h3>线性回归</h3>
+<p>最小二乘直线 $\hat{y} = a + bx$ 的斜率为 $b = r\frac{s_y}{s_x}$，并经过 $(\bar{x}, \bar{y})$，所以 $a = \bar{y} - b\bar{x}$。</p>
+⟦2⟧`,
+  'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1.645 \;(90\%),\; 1.96 \;(95\%),\; 2.576 \;(99\%)`,
+  '7nca7j57l5': R`H₀ 为真`,
+  '2e0zey7f13x': R`H₀ 为假`,
+  '1nokpmpua28': R`拒绝 H₀`,
+  'qa9cxjojd2': R`第一类错误（概率 α）`,
+  'z1afbgzons': R`正确（功效）`,
+  'tc6mfczzyi': R`不拒绝 H₀`,
+  'w131ulu49o': R`正确`,
+  'e51gkfcb06': R`第二类错误（概率 β）`,
+  '6idiejz1ba': R`<p>“不拒绝 $H_0$”不等于“接受 $H_0$”——只是数据还不足以构成反对它的有力证据。</p>`,
+  'awqxfz9vdv': R`某总体的 $\sigma = ⟦0⟧$。求样本量为 ⟦1⟧ 时样本均值的标准误。`,
+  'ugvd79s2wi': R`一个容量为 ⟦0⟧ 的样本，均值为 ⟦1⟧；总体标准差为 ⟦2⟧。求 $\mu$ 的 ⟦4⟧% 置信区间的⟦3⟧限，保留 2 位小数。`,
+  '1n36a0strty': R`误差限 $= ⟦0⟧ \times \frac{⟦1⟧}{\sqrt{⟦2⟧}} = ⟦3⟧$。⟦4⟧`,
+  '2ekc2g43ffk': R`上限 $= ⟦0⟧ + ⟦1⟧ \approx ⟦2⟧$。`,
+  'u2fj3njiv8': R`下限 $= ⟦0⟧ - ⟦1⟧ \approx ⟦2⟧$。`,
+  '1i53ibdizmj': R`检验 $H_0: \mu = ⟦0⟧$，$\sigma = ⟦1⟧$。一个容量为 ⟦2⟧ 的样本 $\bar{x} = ⟦3⟧$。计算 $z$ 检验统计量，保留 2 位小数。`,
+  'b7sayy3tzp': R`某检验的 p 值为 ⟦0⟧。在 ⟦1⟧% 的显著性水平下，应作何决策？`,
+  '1adfzwf3gei': R`不拒绝`,
+  '2fh7exkwsd7': R`不拒绝原假设`,
+  '1ui411puarn': R`把 p 值与 $\alpha = ⟦0⟧$ 比较：$⟦1⟧ ⟦2⟧ ⟦3⟧$，⟦4⟧`,
+  '19asmns888x': R`所以<b>拒绝</b> $H_0$。`,
+  '28e9takeetw': R`所以<b>不拒绝</b> $H_0$。`,
+  '3boqwtx8y6': R`$y$ 关于 $x$ 的回归直线斜率为 ⟦0⟧，且经过 $(\bar{x}, \bar{y}) = (⟦1⟧, ⟦2⟧)$。预测 $x = ⟦3⟧$ 时的 $y$。`,
+  '1xlncasuj2t': R`截距 $a = \bar{y} - b\bar{x} = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$。于是 $\hat{y} = ⟦4⟧ ⟦5⟧(⟦6⟧) = ⟦7⟧$。`,
+  '1juzrcbx7yp': R`$y$ 关于 $x$ 的回归直线斜率为 ⟦0⟧，$\bar{x} = ⟦1⟧$，$\bar{y} = ⟦2⟧$。求截距。`,
+  'ygsgt4zx8s': R`直线经过 $(\bar{x}, \bar{y})$：$a = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$。`,
+  '1fjn7fhcpwy': R`H₀ 实际为真，却拒绝了 H₀`,
+  '2czv0lmmxbv': R`第一类错误`,
+  '1rsaomc3xxj': R`H₀ 实际为假，却没有拒绝 H₀`,
+  '1knmx3avsv8': R`第二类错误`,
+  '7bbk61slol': R`H₀ 实际为假，拒绝了 H₀`,
+  '6vojkrxnxd': R`正确决策`,
+  '27k0u0dgkx8': R`H₀ 实际为真，没有拒绝 H₀`,
+  'j30d9a2wnu': R`判无辜的被告有罪（H₀：无罪）`,
+  '1r9j0p9otdz': R`放走有罪的被告（H₀：无罪）`,
+  'yce1tww5je': R`这属于哪种结果？<i>⟦0⟧</i>。`,
+  'f5q8ah45y5': R`第一类错误 = 拒绝了真的 $H_0$（误报）；第二类错误 = 没发现假的 $H_0$。所以这是：<b>⟦0⟧</b>。`,
+  '17su48d7rp0': R`若 $\sigma = ⟦2⟧$，要使 ⟦0⟧% 置信区间的误差限不超过 ⟦1⟧，样本量至少为多少？`,
+  'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$，向上取整：$n = ⟦4⟧$。`,
+
+  // discrete
+  'a1ovpdx0vp': R`
+<h3>数论</h3>
+<p>$a \equiv b \pmod n$ 表示 $n$ 整除 $a - b$；$a \bmod n$ 是 $\{0, 1, \ldots, n - 1\}$ 中的余数。同余式可以相加、相乘，幂可以逐步约简。</p>
+⟦0⟧
+⟦1⟧
+<p>$a$ 模 $n$ 的<b>模逆元</b>是满足 $ax \equiv 1 \pmod n$ 的 $x$；它存在当且仅当 $\gcd(a, n) = 1$。</p>
+<h3>计数</h3>
+<ul><li>从 $m$ 元集合到 $n$ 元集合的映射有 $n^m$ 个；单射有 $n(n-1)\cdots(n-m+1)$ 个。</li><li>容斥原理：$|A \cup B| = |A| + |B| - |A \cap B|$。</li><li><b>抽屉原理：</b>把多于 $kn$ 个物体放进 $n$ 个抽屉，至少有一个抽屉里不少于 $k + 1$ 个。</li></ul>
+<h3>递推与图</h3>
+<p>递推关系用前面的项定义每一项，如 $a_n = 2a_{n-1} + 1$，$a_0 = 1$。在图中，<b>握手定理</b>说 $\sum \deg(v) = 2|E|$；$K_n$ 有 $\binom{n}{2}$ 条边；$n$ 个顶点的树有 $n - 1$ 条边；连通图有欧拉回路当且仅当所有顶点的度都是偶数。</p>
+⟦2⟧`,
+  '1vllnifl24g': R`<p><b>欧几里得算法（辗转相除法）：</b>$\gcd(a, b) = \gcd(b, a \bmod b)$，重复直到余数为 0。</p><p><b>费马小定理：</b>若 $p$ 为质数且 $p \nmid a$，则 $a^{p-1} \equiv 1 \pmod p$。</p>`,
+  '28pp2kgl31t': R`<p>$\gcd(252, 198)$：$252 = 1 \cdot 198 + 54$，$198 = 3 \cdot 54 + 36$，$54 = 1 \cdot 36 + 18$，$36 = 2 \cdot 18$。所以最大公约数是 18。</p><p>$2^{100} \bmod 7$：因为 $2^3 = 8 \equiv 1$，$2^{100} = (2^3)^{33} \cdot 2 \equiv 2$。</p>`,
+  '23tw4c5wfxh': R`<p>在容斥问题（“能被 3 或 5 整除”）中，重叠部分是能被<b>最小公倍数</b> 15 整除。</p>`,
+  '8fw6na2xe1': R`求 $⟦0⟧ \bmod ⟦1⟧$。`,
+  'uplm3u8bhu': R`$⟦0⟧ = ⟦1⟧ \times ⟦2⟧ + ⟦3⟧$，所以余数是 ⟦4⟧。`,
+  'xlpbyjzaqw': R`求 $⟦0⟧^{⟦1⟧} \bmod ⟦2⟧$。`,
+  '1kd2o5jees6': R`由费马小定理，$⟦0⟧^{⟦1⟧} \equiv 1 \pmod{⟦2⟧}$。$⟦3⟧ = ⟦4⟧ \times ⟦5⟧ + ⟦6⟧$，所以 $⟦7⟧^{⟦8⟧} \equiv ⟦9⟧^{⟦10⟧} \equiv ⟦11⟧ \pmod{⟦12⟧}$。`,
+  '127b4pzxtz': R`用欧几里得算法求 $\gcd(⟦0⟧, ⟦1⟧)$。`,
+  '1aqkhdrg8qc': R`$⟦0⟧$。最后一个非零余数是 <b>⟦1⟧</b>。`,
+  '1s721amox67': R`求 ⟦0⟧ 模 ⟦1⟧ 的逆元，即满足 $⟦2⟧x \equiv 1 \pmod{⟦3⟧}$ 且 $0 \lt x \lt ⟦4⟧$ 的 $x$。`,
+  '1w7xn0v2je4': R`检验：$⟦0⟧ \times ⟦1⟧ = ⟦2⟧ = ⟦3⟧ \times ⟦4⟧ + 1$，所以 $x = ⟦5⟧$。`,
+  'x5llfo779v': R`完全图 $K_{⟦0⟧}$ 有多少条边？`,
+  '1k9fldmleaq': R`每两个顶点之间都有一条边：$\binom{⟦0⟧}{2} = \frac{⟦1⟧ \times ⟦2⟧}{2} = ⟦3⟧$。`,
+  '1gbx4896k6y': R`一棵树有 ⟦0⟧ 个顶点。它有多少条边？`,
+  'g3rd0a2w3f': R`有 $n$ 个顶点的树都有 $n - 1 = ⟦0⟧$ 条边。`,
+  '1b7sza9kgx9': R`一个图的各顶点的度为 ⟦0⟧。它有多少条边？`,
+  '2eddhu7y6e4': R`握手定理：$\sum\deg = ⟦0⟧ = 2|E|$，所以 $|E| = ⟦1⟧$。`,
+  '6xjrxhddis': R`一个连通图的各顶点的度为 ⟦0⟧。有多少个顶点的度是奇数？`,
+  '5vsb2c69v5': R`奇数度为 ⟦0⟧，所以共有 ⟦1⟧ 个。⟦2⟧（奇数度顶点的个数总是偶数。）`,
+  '2gbggujxcvs': R`无`,
+  '105xal8etax': R`因此该图有欧拉回路。`,
+  '1z20e1aao3p': R`因此该图有欧拉路径，但没有欧拉回路。`,
+  '1vy383kqrz8': R`奇数度顶点多于 2 个时，没有欧拉路径。`,
+  'by57uvpuwf': R`$a_0 = ⟦0⟧$，当 $n \ge 1$ 时 $a_n = ⟦1⟧a_{n-1} ⟦2⟧$。求 $a_{⟦3⟧}$。`,
+  '75ssmud3lg': R`逐项计算：⟦0⟧。`,
+  'go6ohggc8l': R`长度为 ⟦0⟧ 的二进制串中，恰好含 ⟦1⟧ 个 1 的有多少个？`,
+  '27u4ks23cz9': R`从 ⟦1⟧ 个位置中选出 ⟦0⟧ 个放 1：$\binom{⟦2⟧}{⟦3⟧} = ⟦4⟧$。`,
+  'yx3fxah4u8': R`从含 ⟦0⟧ 个元素的集合到含 ⟦1⟧ 个元素的集合，共有多少个映射？`,
+  '12owpaqzt1c': R`⟦0⟧ 个输入中的每一个都可以对应 ⟦1⟧ 个输出中的任意一个：$⟦2⟧^{⟦3⟧} = ⟦4⟧$。`,
+  '4o2cs42p15': R`从含 ⟦0⟧ 个元素的集合到含 ⟦1⟧ 个元素的集合，共有多少个单射（一一映射）？`,
+  'jpinfh5krc': R`像必须互不相同：$⟦0⟧ = ⟦1⟧$。`,
+  '10skxcum4lz': R`从 1 到 ⟦0⟧ 的整数中，能被 ⟦1⟧ 或 ⟦2⟧ 整除的有多少个？`,
+  'nhrb9jig2q': R`$\lfloor ⟦0⟧/⟦1⟧ \rfloor + \lfloor ⟦2⟧/⟦3⟧ \rfloor - \lfloor ⟦4⟧/⟦5⟧ \rfloor = ⟦6⟧ + ⟦7⟧ - ⟦8⟧ = ⟦9⟧$（⟦10⟧ 是最小公倍数）。`,
+  'cgzqt4g6kc': R`出生月份`,
+  '10ye3jsw3n2': R`星期几`,
+  '1eah1ab17mo': R`花色（扑克牌）`,
+  '1fddlc7zc0d': R`至少需要多少人，才能保证其中至少有 ⟦0⟧ 人的⟦1⟧相同？`,
+  '27kjdpfw0sg': R`共有 ⟦0⟧ 类，$⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ 人还可能避免；再多一人就必然有 ⟦4⟧ 人同类：$⟦5⟧$。`,
+
+  // numerical
+  '106u35np5bp': R`
+<p>数值方法用来近似那些没有方便的解析形式的答案。要注意两种误差：<b>截断</b>误差（来自方法本身）和<b>舍入</b>误差（来自有限精度）。</p>
+⟦0⟧
+<h3>求根</h3>
+<ul><li><b>二分法：</b>若 $f(a)$ 与 $f(b)$ 异号，检查中点 $m$，保留变号的那一半。慢但一定成功：每一步误差减半。</li><li><b>牛顿法：</b>$x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$。在单根附近非常快（二次收敛），但初值不好或 $f' \approx 0$ 时可能失败。</li></ul>
+⟦1⟧
+<h3>数值积分</h3>
+⟦2⟧
+<p>这里 $h = \frac{b - a}{n}$。辛普森公式对不超过 3 次的多项式是精确的。</p>
+<h3>欧拉法</h3>
+⟦3⟧
+⟦4⟧`,
+  '2fbw9jej1dm': R`\text{绝对误差} = |x_{\text{真}} - x_{\text{近似}}| \qquad \text{相对误差} = \frac{|x_{\text{真}} - x_{\text{近似}}|}{|x_{\text{真}}|}`,
+  '1a9noj3sp27': R`<p>用 $f(x) = x^2 - 10$ 从 $x_0 = 3$ 开始求 $\sqrt{10}$：$x_1 = 3 - \frac{-1}{6} = 3.1667$，$x_2 = 3.1623$——已经精确到 4 位小数。</p>`,
+  'vx6qz5zup7': R`\text{梯形公式：} \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{辛普森公式（}n \text{ 为偶数）：} \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
+  '2fmxu9hfzwl': R`<p>对 $y' = f(x, y)$，$y(x_0) = y_0$：$\; y_{n+1} = y_n + h\,f(x_n, y_n)$，$x_{n+1} = x_n + h$。步长 $h$ 减半，误差大约也减半。</p>`,
+  'fn0bl5sobc': R`<p>梯形公式中只有<b>内部</b>的函数值乘 2；两端的值只出现一次。</p>`,
+  '1n5pqkgqwu1': R`对 $f(x) = x^2 - ⟦0⟧$ 从 $x_0 = ⟦1⟧$ 开始用牛顿法迭代一步。求 $x_1$，保留 4 位小数。`,
+  '1jvkeb9n3o6': R`对 $f(x) = x^2 - 3$ 在 $[1, 2]$ 上用二分法做一步。这一步之后根在哪个区间？`,
+  'vksl6we3dc': R`$f(1.5) = -0.75 \lt 0$，$f(2) = 1 \gt 0$，所以变号发生在 $[1.5, 2]$ 内。`,
+  '23lzoh0yq9e': R`对 $f(x) = x^⟦0⟧ - ⟦1⟧$ 在 $[⟦2⟧, ⟦3⟧]$ 上用二分法。<b>第二</b>次迭代计算的中点是多少？`,
+  '114tbd27u3w': R`第一个中点 $⟦0⟧$：$f(⟦1⟧) = ⟦2⟧$，所以根在 $[⟦3⟧, ⟦4⟧]$ 内。第二个中点：$⟦5⟧$。`,
+  '1gaoigxt1uo': R`用 $n = ⟦0⟧$ 的梯形公式近似计算 $\displaystyle\int_0^{⟦1⟧} x^2\,dx$。`,
+  '1pc9rab646n': R`$h = ⟦0⟧$；函数值 ⟦1⟧。$T = \frac{⟦2⟧}{2}\left[⟦3⟧ + ⟦4⟧ + 2(⟦5⟧)\right] = ⟦6⟧$（精确值 ⟦7⟧）。`,
+  '1rsvekr7t2o': R`用 $n = 2$ 的辛普森公式近似计算 $\displaystyle\int_0^{⟦0⟧} x^4\,dx$。`,
+  '8vqt4i28qj': R`$h = \frac{⟦0⟧}{2}$：$\frac{h}{3}\left[0 + 4\left(\frac{⟦1⟧}{2}\right)^4 + ⟦2⟧^4\right] = \frac{⟦3⟧}{6} \cdot \frac{5 \cdot ⟦4⟧}{4} = ⟦5⟧$（精确值 $⟦6⟧$）。`,
+  '1jdhmav4ljk': R`用步长 $h = ⟦0⟧$ 的欧拉法，对 $y' = ⟦2⟧$，$y(0) = 1$ 近似计算 $y(⟦1⟧)$。保留 4 位小数。`,
+  '6utp8finkn': R`用 ⟦1⟧ 近似 $⟦0⟧$。求相对误差（百分比），保留 3 位小数。`,
+
+  // vector-calculus
+  'bh1w03a054': R`
+<p><b>向量场</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ 给每一点指定一个向量——比如风速或力。记 $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$：</p>
+⟦0⟧
+<p>散度衡量从一点向外的流出量；旋度衡量旋转的程度。</p>
+<h3>曲线积分与保守场</h3>
+⟦1⟧
+⟦2⟧
+<h3>几个重要定理</h3>
+⟦3⟧
+<p>格林公式的一个巧妙推论：$D$ 的面积是 $\frac{1}{2}\oint_C (x\,dy - y\,dx)$。</p>
+⟦4⟧`,
+  '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
+  'dx5b9h7rwd': R`<p>若存在势函数 $\varphi$ 使 $\mathbf{F} = \nabla\varphi$，则 $\mathbf{F}$ 是<b>保守场</b>。这时对任意从 $A$ 到 $B$ 的路径，$\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$。在平面（单连通区域）上，$(P, Q)$ 是保守场当且仅当 $P_y = Q_x$。</p>`,
+  '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$：$P_y = 2x = Q_x$，所以它是保守场，$\varphi = x^2y + 3y$。从 $(0, 0)$ 到 $(2, 1)$：$\varphi(2, 1) - \varphi(0, 0) = 4 + 3 = 7$。</p>`,
+  '1yct8dx5k46': R`定理`,
+  '3albyqcn6s': R`格林公式`,
+  '1osdvqguwrh': R`斯托克斯公式`,
+  '11x91oqdbb7': R`散度定理（高斯公式）`,
+  '28jc8ed48q8': R`<p>格林公式要求 $C$ 沿<b>逆时针</b>方向（区域在左侧）；顺时针会改变符号。</p>`,
+  'fg37vtw1nz': R`对 $\mathbf{F} = \left(⟦1⟧,\; ⟦2⟧,\; ⟦3⟧\right)$，求在 $⟦0⟧$ 处的 $\nabla\cdot\mathbf{F}$。`,
+  'i6u559ylzz': R`$P_x = ⟦0⟧$，$Q_y = ⟦1⟧$，$R_z = ⟦2⟧$。在 $⟦3⟧$ 处：$⟦4⟧ ⟦5⟧ ⟦6⟧ = ⟦7⟧$。`,
+  'dvzsgd4pt9': R`对 $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$，求在 $⟦2⟧$ 处的 $Q_x - P_y$（平面旋度）。`,
+  '1f7xg7qakjk': R`$Q_x = ⟦0⟧$，$P_y = ⟦1⟧$，所以 $Q_x - P_y = ⟦2⟧$，在 $⟦4⟧$ 处等于 ⟦3⟧。`,
+  '6gosl713kw': R`计算 $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r}$，其中 $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$，$C$ 是从 $⟦2⟧$ 到 $⟦3⟧$ 的任意路径。`,
+  '1ch21kaf5wm': R`$\mathbf{F} = \nabla\varphi$，$\varphi = ⟦0⟧$，所以积分与路径无关：$\varphi(B) - \varphi(A) = ⟦1⟧ - ⟦2⟧ = ⟦3⟧$。`,
+  '1czrg3saejj': R`用格林公式计算 $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$，其中 $C$ 是矩形 $[0, ⟦2⟧] \times [0, ⟦3⟧]$ 的边界，逆时针方向。`,
+  'otc4kapbek': R`$Q_x - P_y = ⟦0⟧ - (-⟦1⟧) = ⟦2⟧$，所以积分为 $⟦3⟧ \times \text{面积} = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$。`,
+  '1mzbbq34ezd': R`用格林公式计算 $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$，其中 $C$ 是圆 $x^2 + y^2 = ⟦2⟧$，逆时针方向。`,
+  '2fijtuqaqq1': R`$Q_x - P_y = ⟦0⟧$，所以积分为 $⟦1⟧ \times \pi(⟦2⟧)^2 = ⟦3⟧$。`,
+  '2csh30v58t4': R`$\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ 是保守场吗？`,
+  '1ma95r0zub6': R`是保守场`,
+  'bn62hz6wu8': R`不是保守场`,
+  '1s854ovcwco': R`不是保守场`,
+  '15asqrx4hnu': R`$P_y = ⟦0⟧$，$Q_x = ⟦1⟧$。⟦2⟧`,
+  'r7areoyr0a': R`两者相等，所以 F 是保守场（在整个平面上）。`,
+  '6dlb2jbxf0': R`两者不相等，所以 F 不是保守场。`,
+  '1ueomkx63n5': R`求 $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ 的一个势函数。`,
+  '4awle3me9d': R`把 $P$ 对 $x$ 积分：$\varphi = ⟦0⟧ + g(y)$。再由 $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ 得 $g = ⟦3⟧$。`,
+
+  // laplace
+  'f6f4kfx30i': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<p>求拉普拉斯逆变换通常要先做部分分式分解，再对照变换表。</p>
+⟦4⟧`,
+  '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
+  '1id74v8hrdj': R`<p><b>线性：</b>$\mathcal{L}\{af + bg\} = aF + bG$。<b>导数：</b>$\mathcal{L}\{y'\} = sY - y(0)$，$\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$——这样就把微分方程变成了代数方程。</p>`,
+  'ie964pskzz': R`<p>解 $y'' + 4y = 0$，$y(0) = 3$，$y'(0) = 2$。</p><p>$s^2Y - 3s - 2 + 4Y = 0$，所以 $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$。取逆变换：$y = 3\cos 2t + \sin 2t$。</p>`,
+  'cgwsp3i8af': R`<p>$\mathcal{L}\{\sin bt\}$ 的分子是 $b$；$\mathcal{L}\{\cos bt\}$ 的分子是 $s$。把两者弄混是最常见的错误。</p>`,
+  't6bpsx84ob': R`求 $\mathcal{L}\{⟦0⟧\}$。`,
+  '2sqpcztdp7': R`利用线性和 $\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$、$\mathcal{L}\{e^{ct}\} = \frac{1}{s - c}$：$\frac{⟦0⟧ \cdot ⟦1⟧!}{s^{⟦2⟧}} + \frac{⟦3⟧}{⟦4⟧}$。`,
+  '1erb7erw9za': R`求 $\mathcal{L}\{⟦0⟧⟦1⟧ ⟦2⟧t\}$。`,
+  'ujzn9ioggu': R`$\mathcal{L}\{\sin bt\} = \frac{b}{s^2 + b^2}$，所以答案是 $\frac{⟦0⟧ \cdot ⟦1⟧}{s^2 + ⟦2⟧} = \frac{⟦3⟧}{s^2 + ⟦4⟧}$。`,
+  '2dljwnla25z': R`$\mathcal{L}\{\cos bt\} = \frac{s}{s^2 + b^2}$，所以答案是 $\frac{⟦0⟧s}{s^2 + ⟦1⟧}$。`,
+  'napbzc1h43': R`求 $\mathcal{L}^{-1}\left\{\dfrac{⟦0⟧}{⟦1⟧} + \dfrac{⟦2⟧s}{s^2 + ⟦3⟧}\right\}$。`,
+  '6d49fl6z14': R`$\frac{1}{s - c} \leftrightarrow e^{ct}$，$\frac{s}{s^2 + d^2} \leftrightarrow \cos dt$：结果是 ⟦0⟧。`,
+  'hw06puz2z5': R`求 $\mathcal{L}\{⟦0⟧\,⟦1⟧ ⟦2⟧t\}$。`,
+  'zs0uacvdu8': R`第一平移定理：$\mathcal{L}\{e^{at}f(t)\} = F(s - a)$。已知 $F(s) = ⟦0⟧$，把 $s$ 换成 $⟦1⟧$。`,
+  '1i1mf4ew2a': R`设 $F(s) = \mathcal{L}\{t^{⟦0⟧}\}$。求 $F(⟦1⟧)$。`,
+  '180y0883p6z': R`$F(s) = \frac{⟦0⟧!}{s^{⟦1⟧}}$，所以 $F(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$。`,
+  '11s9xvqwvw4': R`设 $F(s) = \mathcal{L}\{⟦0⟧\}$。求 $F(⟦1⟧)$。`,
+  '18wjdkl7beq': R`$F(s) = \frac{1}{s - (⟦0⟧)}$，所以 $F(⟦1⟧) = \frac{1}{⟦2⟧}$。`,
+  '9v69wy5cnz': R`用拉普拉斯变换解 $y'' + ⟦0⟧y = 0$，$y(0) = ⟦1⟧$，$y'(0) = ⟦2⟧$。`,
+  '24mrp3u7eep': R`$s^2Y - ⟦0⟧s - ⟦1⟧ + ⟦2⟧Y = 0$，所以 $Y = ⟦3⟧$。拆成 $⟦4⟧\cdot\frac{s}{s^2 + ⟦5⟧} + \frac{⟦6⟧}{⟦7⟧}\cdot\frac{⟦8⟧}{s^2 + ⟦9⟧}$ 再取逆变换：⟦10⟧。`,
+});
