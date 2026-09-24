@@ -1,0 +1,303 @@
+/* Bahasa Indonesia — SMA (kaidah pencacahan → logika) */
+addT('id', {
+  // combinatorics
+  '205beb6gfix': R`
+⟦0⟧
+<h3>Permutasi: urutan diperhatikan</h3>
+⟦1⟧
+<p>Juara pertama, kedua, dan ketiga dari 10 orang: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Susunan dengan unsur yang sama: $\frac{n!}{p!\,q!\cdots}$. Kata "BANANA" memiliki $\frac{6!}{3!\,2!} = 60$ susunan.</li><li>Permutasi siklis (melingkar): $(n - 1)!$ (hasil rotasi dianggap sama).</li></ul>
+<h3>Kombinasi: urutan tidak diperhatikan</h3>
+⟦2⟧
+<p>Panitia 3 orang dari 10 orang: $\binom{10}{3} = 120$. Panitia berisi 2 pria (dari 5) dan 3 wanita (dari 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Teorema binomial</h3>
+⟦3⟧
+<p>Koefisien $x^2$ pada $(x + 3)^5$ adalah $\binom{5}{2}3^{3} = 270$.</p>
+⟦4⟧`,
+  '1v1ul4mcyis': R`<p><b>Aturan perkalian:</b> jika pilihan pertama dapat dilakukan dengan $m$ cara dan pilihan kedua dengan $n$ cara, keduanya bersama-sama dapat dilakukan dengan $m \times n$ cara.</p>`,
+  'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
+  '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
+  '44tf1m2pka': R`<p>Tanyakan: "Apakah menukar dua unsur yang terpilih menghasilkan sesuatu yang berbeda?" Jika ya, gunakan permutasi; jika tidak, kombinasi.</p>`,
+  'asaw2vy5ho': R`Dengan berapa cara juara ⟦0⟧ dapat dipilih dari ⟦1⟧ orang?`,
+  '1qec64m00zt': R`pertama, kedua, dan ketiga`,
+  '1yxzw7y67ed': R`pertama dan kedua`,
+  '1lyu4ddmyjw': R`Urutan diperhatikan: $^{⟦0⟧}P_{⟦1⟧} = ⟦2⟧ = ⟦3⟧$.`,
+  'mt1d3k54sw': R`Dengan berapa cara panitia beranggotakan ⟦0⟧ orang dapat dipilih dari ⟦1⟧ orang?`,
+  'jcb5dbxzw7': R`Urutan tidak diperhatikan: $\binom{⟦0⟧}{⟦1⟧} = \frac{⟦2⟧!}{⟦3⟧!\,⟦4⟧!} = ⟦5⟧$.`,
+  '1f3hbyul4kh': R`Dari ⟦2⟧ pria dan ⟦3⟧ wanita akan dipilih panitia yang terdiri atas ⟦0⟧ pria dan ⟦1⟧ wanita. Ada berapa panitia berbeda yang mungkin?`,
+  '219eq0t6hby': R`Ada berapa susunan berbeda dari huruf-huruf pada kata <b>⟦0⟧</b>?`,
+  'hkyvcodvcm': R`⟦0⟧ huruf dengan huruf berulang ⟦1⟧: $\frac{⟦2⟧!}{⟦3⟧} = ⟦4⟧$.`,
+  'qqcdrtkh5v': R`Dengan berapa cara ⟦0⟧ orang dapat duduk mengelilingi meja bundar (hasil rotasi dianggap sama)?`,
+  '1n6howxe7gj': R`Tetapkan tempat duduk satu orang untuk menghilangkan rotasi, lalu susun sisanya: $(⟦0⟧ - 1)! = ⟦1⟧$.`,
+  '1hwymhgsxow': R`Tentukan koefisien $x^{⟦0⟧}$ pada penjabaran $(x + ⟦1⟧)^{⟦2⟧}$.`,
+  '22kaf86ykzl': R`Suku yang memuat $x^{⟦0⟧}$ adalah $\binom{⟦1⟧}{⟦2⟧}x^{⟦3⟧}\cdot ⟦4⟧^{⟦5⟧}$, jadi koefisiennya $⟦6⟧ \times ⟦7⟧ = ⟦8⟧$.`,
+  '1zya3uq0ode': R`Tentukan koefisien $x^{⟦0⟧}$ pada penjabaran $(⟦1⟧x + 1)^{⟦2⟧}$.`,
+  'po66a6fw7b': R`Suku yang memuat $x^{⟦0⟧}$ adalah $\binom{⟦1⟧}{⟦2⟧}(⟦3⟧x)^{⟦4⟧}$, jadi koefisiennya $⟦5⟧ \times ⟦6⟧ = ⟦7⟧$.`,
+  'yh0td3xino': R`Kamu punya ⟦0⟧ kemeja, ⟦1⟧ celana, dan ⟦2⟧ pasang sepatu. Berapa banyak setelan berbeda (masing-masing satu) yang dapat kamu buat?`,
+  'ruo6vpaqqc': R`Aturan perkalian: $⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.`,
+  '24djh3i5509': R`Berapa banyak kode PIN ⟦0⟧ angka yang dapat dibuat dari angka 0–9 ⟦1⟧?`,
+  '1djueshnkes': R`jika angka boleh berulang`,
+  'jadsq7o4xb': R`jika tidak ada angka yang boleh dipakai dua kali`,
+  '22ey7x4a0ix': R`Setiap posisi dari ⟦0⟧ posisi punya 10 pilihan: $10^{⟦1⟧} = ⟦2⟧$.`,
+  'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ faktor) $= ⟦1⟧$.`,
+
+  // probability-sh
+  '1uh8iajnkq0': R`
+⟦0⟧
+<h3>Dengan dan tanpa pengembalian</h3>
+⟦1⟧
+<p>Diagram pohon membantu mengaturnya: kalikan sepanjang cabang, jumlahkan antarcabang.</p>
+<h3>"Paling sedikit satu"</h3>
+<p>Gunakan komplemen: $P(\text{paling sedikit satu mata 6 dalam 3 lemparan}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Teorema Bayes</h3>
+⟦2⟧
+⟦3⟧`,
+  '2e5fwx8zs1w': R`Rumus`,
+  '29i7n2pf82k': R`Komplemen`,
+  '1q1cgu220ce': R`Saling lepas`,
+  'xux9y4rrwd': R`$P(A \cap B) = 0$, jadi $P(A \cup B) = P(A) + P(B)$`,
+  'rl5n9i6yyd': R`Saling bebas`,
+  '1oou6k826kr': R`Bersyarat`,
+  '1qgmh66fhna': R`<p>Sebuah kantong berisi 5 bola merah dan 3 bola biru. Dua bola diambil <b>tanpa</b> pengembalian. $P(\text{keduanya merah}) = \frac{5}{8} \times \frac{4}{7} = \frac{5}{14}$. Dengan pengembalian, hasilnya $\frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$.</p>`,
+  '6418q9b2s4': R`$$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B \mid A)P(A) + P(B \mid A')P(A')}$$<p>Teorema ini "membalik" peluang bersyarat — misalnya dari $P(\text{tes positif} \mid \text{sakit})$ ke $P(\text{sakit} \mid \text{tes positif})$.</p>`,
+  '1zp2m1asa8t': R`<p>$P(A \mid B)$ dan $P(B \mid A)$ biasanya berbeda. Sebuah tes bisa 99% akurat, tetapi jika penyakitnya langka, hasil positif tetap lebih mungkin merupakan alarm palsu.</p>`,
+  '5fmcyqy5g8': R`Sebuah kantong berisi ⟦0⟧ bola merah dan ⟦1⟧ bola biru. Dua bola diambil tanpa pengembalian. Berapa peluang keduanya berwarna ⟦2⟧?`,
+  '16uk5urbde9': R`$P(A) = ⟦0⟧$, $P(B) = ⟦1⟧$, dan $P(A \cap B) = ⟦2⟧$. Tentukan $P(A \cup B)$.`,
+  '2az4z9znymk': R`Kejadian $A$ dan $B$ saling bebas dengan $P(A) = ⟦0⟧$ dan $P(B) = ⟦1⟧$. Tentukan $P(A \cap B)$.`,
+  '1ohoi8ye65': R`Saling bebas: $P(A \cap B) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+  'ymjaeaaedm': R`Kejadian $A$ dan $B$ saling bebas dengan $P(A) = ⟦0⟧$ dan $P(B) = ⟦1⟧$. Tentukan peluang paling sedikit satu di antaranya terjadi.`,
+  'y6o9k7peax': R`$1 - P(\text{tidak keduanya}) = 1 - (⟦0⟧)(⟦1⟧) = ⟦2⟧$.`,
+  '2ct3qu61tjb': R`Laki-laki`,
+  '2402etzr9nx': R`Perempuan`,
+  '18ehauvt7sj': R`Berolahraga`,
+  '1wnwpnaqcse': R`Tidak berolahraga`,
+  'hlkdm5jkod': R`Kelas 10`,
+  '25bc5gb05vn': R`Kelas 11`,
+  '1i4vzjjdcmk': R`Jalan kaki ke sekolah`,
+  '26ih1igl5gl': R`Naik bus`,
+  '2bybvgum1tw': R`Dewasa`,
+  '1lglnmdikqt': R`Anak-anak`,
+  'xfv76cldjt': R`Suka kopi`,
+  'yxuw13xcv3': R`Tidak suka`,
+  '1mojcap1eui': R`Sebuah survei memberikan hasil berikut.⟦0⟧Seseorang dipilih secara acak. Jika diketahui ia termasuk kelompok "⟦1⟧", berapa peluang ia termasuk "⟦2⟧"?`,
+  '1461hv2wfqt': R`Batasi pada ⟦0⟧ orang di "⟦1⟧": $P = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  '12180tm9why': R`Sebuah survei memberikan hasil berikut.⟦0⟧Seseorang dipilih secara acak. Jika diketahui ia termasuk "⟦1⟧", berapa peluang ia termasuk kelompok "⟦2⟧"?`,
+  'eppqyrg22a': R`Sebuah dadu seimbang dilempar ⟦0⟧ kali. Berapa peluang muncul mata 6 paling sedikit satu kali?`,
+  'wzrge9rclz': R`$1 - P(\text{tidak ada 6}) = 1 - \left(\frac{5}{6}\right)^{⟦0⟧} = 1 - \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$.`,
+  '1sg12en11ty': R`Suatu penyakit diderita ⟦0⟧% orang. Sebuah tes mendeteksinya pada ⟦1⟧% penderita, tetapi juga memberi hasil positif pada ⟦2⟧% orang yang tidak sakit. Jika seseorang dites positif, berapa peluang ia benar-benar sakit? Bulatkan sampai 3 tempat desimal.`,
+  '1n6kg7z10yy': R`Sebuah kantong berisi ⟦0⟧ keping merah dan ⟦1⟧ keping biru. Satu keping diambil, dikembalikan, lalu keping kedua diambil. Berapa peluang terambil merah lalu biru?`,
+  '29cd8gay3w4': R`Dengan pengembalian, kedua pengambilan saling bebas: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+
+  // statistics-sh
+  '1xab92vueba': R`
+<h3>Kuartil dan diagram kotak-garis</h3>
+<p>Urutkan data. Median $Q_2$ membagi data menjadi dua bagian; $Q_1$ adalah median bagian bawah dan $Q_3$ median bagian atas (di sini median tidak dimasukkan ke kedua bagian jika $n$ ganjil). <b>Jangkauan antarkuartil</b> $\text{JAK} = Q_3 - Q_1$ mengukur sebaran 50% data di tengah.</p>
+⟦0⟧
+<h3>Ragam dan simpangan baku</h3>
+⟦1⟧
+⟦2⟧
+<h3>Data berkelompok</h3>
+<p>Taksir rata-rata dengan titik tengah kelas: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+<h3>Transformasi data</h3>
+⟦3⟧
+⟦4⟧`,
+  'l167vch4m7': R`<p>Aturan pencilan yang umum: nilai di bawah $Q_1 - 1{,}5\,\text{JAK}$ atau di atas $Q_3 + 1{,}5\,\text{JAK}$.</p>`,
+  '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sampel)}`,
+  '1c6crwakkdh': R`<p>Data 2; 4; 4; 4; 5; 5; 7; 9: rata-rata 5, kuadrat simpangan 9; 1; 1; 1; 0; 0; 4; 16 (jumlah 32). Ragam populasi $= \frac{32}{8} = 4$ dan $\sigma = 2$.</p>`,
+  'etseh8nv9i': R`Jika setiap nilai menjadi`,
+  'tocb6e1sav': R`Rata-rata menjadi`,
+  '1ng2ylp8qsd': R`Simpangan baku menjadi`,
+  's70utdhfyg': R`$\sigma$ (tetap)`,
+  '1ixl32zcrbx': R`<p>Menambahkan konstanta hanya menggeser data tanpa membuatnya lebih menyebar, jadi simpangan bakunya tetap.</p>`,
+  '1os4b58x5gr': R`Tentukan ragam <b>sampel</b> dari: ⟦0⟧.`,
+  '5koevyyrqx': R`Tentukan ragam <b>populasi</b> dari: ⟦0⟧.`,
+  '2gl7bcglff0': R`Rata-rata $= ⟦0⟧$. Kuadrat simpangan: ⟦1⟧ (jumlah ⟦2⟧). Bagi dengan ⟦3⟧: $⟦4⟧$.`,
+  'zh9si0i2s': R`Tentukan simpangan baku populasi dari: ⟦0⟧. Bulatkan sampai 2 tempat desimal.`,
+  'iohahpasm4': R`Rata-rata $= ⟦0⟧$; $\sigma^2 = \frac{⟦1⟧}{5} = ⟦2⟧$, jadi $\sigma = \sqrt{⟦3⟧} \approx ⟦4⟧$.`,
+  'box0w6rodc': R`Tentukan jangkauan antarkuartil dari: ⟦0⟧. (Median tidak dimasukkan saat membagi data menjadi dua bagian.)`,
+  'dvfyzp44sk': R`Setelah diurutkan: ⟦0⟧. Bagian bawah ⟦1⟧ memberi $Q_1 = ⟦2⟧$; bagian atas ⟦3⟧ memberi $Q_3 = ⟦4⟧$. $\text{JAK} = ⟦5⟧ - ⟦6⟧ = ⟦7⟧$.`,
+  '25jr4jzamls': R`Sekumpulan data memiliki rata-rata ⟦0⟧ dan simpangan baku ⟦1⟧. Setiap nilai ditransformasi dengan $y = ⟦2⟧x ⟦3⟧$. Berapa simpangan baku yang baru?`,
+  '1h7x4xfpmhw': R`Menambahkan ⟦0⟧ tidak mengubah sebaran; mengalikan dengan ⟦1⟧ mengubah skalanya dengan faktor $|⟦2⟧|$: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$.`,
+  '158l5v4dkra': R`Sekumpulan data memiliki rata-rata ⟦0⟧ dan simpangan baku ⟦1⟧. Setiap nilai ditransformasi dengan $y = ⟦2⟧x ⟦3⟧$. Berapa rata-rata yang baru?`,
+  '21c6bmoi3b4': R`Rata-rata mengikuti transformasinya: $⟦0⟧(⟦1⟧) ⟦2⟧ = ⟦3⟧$.`,
+  'th9c52kib0': R`Taksir rata-rata dari tabel distribusi frekuensi berkelompok ini (gunakan titik tengah kelas). Bulatkan sampai 2 tempat desimal.⟦0⟧`,
+  '1h8qh0j4anc': R`Kelas`,
+  '1yeuaowmmsc': R`Titik tengah ⟦0⟧; $\sum f = ⟦1⟧$, $\sum fm = ⟦2⟧$. Rata-rata $\approx \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.`,
+  '1kja7bg5lcu': R`Sekumpulan data memiliki $Q_1 = ⟦0⟧$ dan $Q_3 = ⟦1⟧$. Dengan aturan $1{,}5 \times \text{JAK}$, berapa batas ⟦2⟧ untuk pencilan?`,
+  '3zu0ol0nfw': R`atas`,
+  '9nl2sip6fg': R`bawah`,
+  '1u7a09okm0e': R`$\text{JAK} = ⟦0⟧$ dan $1{,}5 \times ⟦1⟧ = ⟦2⟧$. ⟦3⟧`,
+  '191ugb8bucx': R`Batas atas $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '111p9ug7ykx': R`Batas bawah $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+
+  // conics
+  '12p1gvv8rrs': R`
+⟦0⟧
+<h3>Persamaan lingkaran</h3>
+⟦1⟧
+<p>Jika dijabarkan, diperoleh <b>bentuk umum</b> $x^2 + y^2 + Dx + Ey + F = 0$ dengan pusat $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ dan jari-jari $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+<h3>Kedudukan titik</h3>
+<p>Substitusikan titik ke $(x - a)^2 + (y - b)^2$ dan bandingkan dengan $r^2$: lebih kecil → di dalam, sama → pada lingkaran, lebih besar → di luar.</p>
+<h3>Garis singgung</h3>
+<p>Garis singgung tegak lurus jari-jari di titik singgung. Untuk lingkaran $x^2 + y^2 = r^2$ di titik $(x_1; y_1)$, gradien jari-jarinya $\frac{y_1}{x_1}$, jadi gradien garis singgungnya $-\frac{x_1}{y_1}$.</p>
+<h3>Parabola</h3>
+<p>$y^2 = 4px$ memiliki fokus $(p; 0)$ dan direktriks $x = -p$; $x^2 = 4py$ memiliki fokus $(0; p)$ dan direktriks $y = -p$. Setiap titik pada parabola berjarak sama ke fokus dan ke direktriks.</p>
+⟦3⟧`,
+  'd8g3n0gso0': R`\text{Titik tengah } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Jarak } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
+  'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{pusat } (a; b), \text{ jari-jari } r$$`,
+  '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: lengkapkan kuadrat, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Pusat $(3; -2)$, jari-jari 5.</p>`,
+  '11ib4pk61jv': R`<p>Pada $(x + 3)^2 + (y - 1)^2 = 16$ pusatnya $(-3; 1)$ — tandanya berbalik — dan jari-jarinya 4, bukan 16.</p>`,
+  'a19ymany96': R`Tentukan titik tengah $⟦0⟧$ dan $⟦1⟧$.`,
+  'l7s72risy9': R`Rata-ratakan koordinatnya: $\left(\frac{⟦0⟧ + ⟦1⟧}{2}; \frac{⟦2⟧ + ⟦3⟧}{2}\right) = ⟦4⟧$.`,
+  '1mu3r9x32jw': R`Tentukan jari-jari lingkaran $⟦0⟧ = 0$.`,
+  '1bhxlcedykj': R`Lengkapkan kuadrat: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧ + ⟦3⟧ ⟦4⟧ = ⟦5⟧$, jadi $r = ⟦6⟧$.`,
+  'd11etx15kp': R`Tentukan pusat lingkaran $⟦0⟧ = 0$.`,
+  '15nydo8wzsx': R`Pusatnya $\left(-\frac{D}{2}; -\frac{E}{2}\right) = \left(-\frac{⟦0⟧}{2}; -\frac{⟦1⟧}{2}\right) = ⟦2⟧$.`,
+  '10fdmgbsvjs': R`Manakah persamaan lingkaran dengan pusat $⟦0⟧$ dan jari-jari ⟦1⟧?`,
+  'j31butbqt0': R`Substitusikan ke $(x - a)^2 + (y - b)^2 = r^2$: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧$.`,
+  'qntj72wic0': R`Di dalam lingkaran`,
+  '1z2fjcjol1w': R`di dalam`,
+  '1h4trl2qo1h': R`Pada lingkaran`,
+  '1sg9ogxwlev': R`pada`,
+  '8uau8fsxbq': R`Di luar lingkaran`,
+  '6gv2pbcp7q': R`di luar`,
+  '24luyo2ftju': R`Apakah titik $⟦0⟧$ terletak di dalam, pada, atau di luar lingkaran $(x ⟦1⟧)^2 + (y ⟦2⟧)^2 = ⟦3⟧$?`,
+  '28keqi93flp': R`$⟦0⟧$, sama dengan $r^2 = ⟦1⟧$: titik terletak <b>pada</b> lingkaran.`,
+  '1hj2pbrwkr7': R`$⟦0⟧$, lebih kecil dari $r^2 = ⟦1⟧$: titik terletak <b>di dalam</b> lingkaran.`,
+  'kv7senj1fr': R`$⟦0⟧$, lebih besar dari $r^2 = ⟦1⟧$: titik terletak <b>di luar</b> lingkaran.`,
+  '1hxz2qew8oz': R`Tentukan fokus parabola $⟦0⟧$.`,
+  '22fls2lezk5': R`Bandingkan dengan ⟦0⟧: $4p = ⟦1⟧$, jadi $p = ⟦2⟧$ dan fokusnya $⟦3⟧$.`,
+  'ez3m02hgj1': R`Tentukan gradien garis singgung pada $x^2 + y^2 = ⟦0⟧$ di titik $⟦1⟧$.`,
+  '1huwumypuyf': R`Jari-jari ke $⟦0⟧$ bergradien $\frac{⟦1⟧}{⟦2⟧}$. Garis singgung tegak lurus padanya: gradien $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+
+  // linear-programming
+  '23l7ef2fdyh': R`
+<p><b>Program linear</b> mencari nilai terbaik (terbesar atau terkecil) dari <b>fungsi objektif</b> linear, misalnya keuntungan $z = 30x + 20y$, dengan <b>kendala</b> linear seperti $x + y \le 40$.</p>
+<ol><li>Tulis kendala sebagai pertidaksamaan (termasuk $x \ge 0$, $y \ge 0$).</li><li>Gambar setiap garis batas dan arsir daerah yang memenuhi semua kendala — <b>daerah penyelesaian</b> (daerah layak).</li><li>Tentukan titik-titik pojok dengan menyelesaikan pasangan persamaan garis batas.</li><li>Hitung nilai fungsi objektif di setiap titik pojok.</li></ol>
+⟦0⟧
+⟦1⟧
+<p>Untuk masalah minimum dengan kendala "≥", daerahnya sering tidak terbatas; jika biayanya positif, nilai minimum tetap tercapai di titik pojok.</p>
+⟦2⟧`,
+  'hs1573xprv': R`<p><b>Teorema titik pojok:</b> jika nilai optimum ada, nilai itu tercapai di salah satu titik pojok daerah penyelesaian.</p>`,
+  '1g8qhbmqb9w': R`<p>Maksimumkan $z = 3x + 2y$ dengan kendala $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Titik pojok: $(0; 0)$, $(6; 0)$, $(4; 4)$ [perpotongan $x + y = 8$ dan $2x + y = 12$], $(0; 8)$.</p><p>Nilai $z$: 0; 18; 20; 16. Maksimum $z = 20$ di $(4; 4)$.</p>`,
+  '11p3z90h4pd': R`<p>Periksa apakah setiap titik pojok memenuhi <b>semua</b> kendala — perpotongan dua garis batas bisa saja berada di luar daerah.</p>`,
+  '22hgo1z3v51': R`Maksimumkan $z = ⟦0⟧ + ⟦1⟧$ dengan kendala ⟦2⟧, $x \ge 0$, $y \ge 0$. Berapa nilai maksimum $z$?`,
+  'thttp4dv20': R`Titik pojok dan nilai $z$: ⟦0⟧. Nilai maksimumnya <b>⟦1⟧</b>.`,
+  '2g9b1szo820': R`Minimumkan $z = ⟦0⟧ + ⟦1⟧$ dengan kendala $x + y \ge ⟦2⟧$, $x + 2y \ge ⟦3⟧$, $x \ge 0$, $y \ge 0$. Berapa nilai minimum $z$?`,
+  '72m6dlh1yr': R`Daerah penyelesaiannya tidak terbatas, dengan titik pojok ⟦0⟧. Karena biayanya positif, nilai minimumnya <b>⟦1⟧</b>.`,
+  '4eos6o7rio': R`Titik manakah yang terletak di daerah penyelesaian yang dibatasi oleh ⟦0⟧, $x \ge 0$, $y \ge 0$?`,
+  '1jqzy1kt3ra': R`Uji setiap titik pada setiap kendala. $⟦0⟧$ memenuhi semuanya; titik-titik lain masing-masing melanggar paling sedikit satu kendala.`,
+  '15d4uuzw5eq': R`Sebuah toko roti membuat kue ($x$) dan pai ($y$) setiap hari. Toko itu dapat membuat paling banyak ⟦0⟧ buah, dan waktu memanggang memberi kendala ⟦1⟧. Keuntungannya ⟦2⟧ ribu rupiah per kue dan ⟦3⟧ ribu rupiah per pai. Berapa keuntungan harian maksimumnya?`,
+  '296rrmt4h4q': R`Kendala: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Titik pojok: ⟦3⟧. Keuntungan maksimum: <b>⟦4⟧</b> ribu rupiah.`,
+
+  // logic
+  '22xng4phovn': R`
+<p><b>Pernyataan</b> (proposisi) adalah kalimat yang bernilai benar atau salah, tetapi tidak keduanya. Pernyataan majemuk dibentuk dengan <b>kata hubung logika</b>:</p>
+⟦0⟧
+⟦1⟧
+<h3>Konvers, invers, dan kontraposisi</h3>
+⟦2⟧
+<h3>Kuantor</h3>
+<p>$\forall$ "untuk semua" dan $\exists$ "ada/terdapat". Negasi menukar keduanya: negasi dari "Semua siswa lulus" adalah "<b>Ada</b> siswa yang <b>tidak</b> lulus"; negasi dari "Ada burung yang tidak dapat terbang" adalah "Semua burung dapat terbang".</p>
+<h3>Penarikan kesimpulan yang sah</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; jadi $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; jadi $\neg p$.</li><li><b>Silogisme:</b> $p \Rightarrow q$, $q \Rightarrow r$; jadi $p \Rightarrow r$.</li></ul>
+⟦3⟧`,
+  '2aa32u1lmw9': R`BS`,
+  '1h0id2d836q': R`<p>Implikasi $p \Rightarrow q$ bernilai salah <b>hanya</b> jika $p$ benar dan $q$ salah.</p>`,
+  '2aojok6ubm7': R`Bentuk`,
+  '1bpxgxn3wdt': R`Ekuivalen dengan pernyataan awal?`,
+  'clyih3qga0': R`Pernyataan`,
+  '13tp70kq9iu': R`Konvers`,
+  '5lqm3x6p6i': R`tidak`,
+  '1vsuatfpf7o': R`Invers`,
+  '1zjwynaslfy': R`Kontraposisi`,
+  '2377erd9rpv': R`ya`,
+  '1vdptccpewy': R`<p>Dari $p \Rightarrow q$ dan $q$ <b>tidak dapat</b> disimpulkan $p$ ("membenarkan akibat" adalah kesalahan). Tanah yang basah tidak membuktikan bahwa hujan telah turun.</p>`,
+  'e62y0oj6y7': R`$p$ bernilai ⟦0⟧, $q$ bernilai ⟦1⟧, dan $r$ bernilai ⟦2⟧. Apa nilai kebenaran $⟦3⟧$?`,
+  'x0xbdvafwl': R`Substitusikan $p = \text{⟦0⟧}$, $q = \text{⟦1⟧}$, $r = \text{⟦2⟧}$ dan hitung dari dalam ke luar: $⟦3⟧$ bernilai <b>⟦4⟧</b>. (Ingat: $\Rightarrow$ bernilai salah hanya untuk B ⇒ S.)`,
+  '1kkjzumhca1': R`hari hujan`,
+  'ia7w0co89o': R`hari tidak hujan`,
+  '1ihx0acpu6a': R`tanah basah`,
+  '1v63alfxz6x': R`tanah tidak basah`,
+  '1l79oqrjsck': R`$n$ habis dibagi 4`,
+  '1yshjhf0kon': R`$n$ tidak habis dibagi 4`,
+  'qa8yzaajhn': R`$n$ genap`,
+  'cbcna6lfv': R`$n$ tidak genap`,
+  '31grcmmyn9': R`$ABCD$ persegi`,
+  'pqxtvsjzqa': R`$ABCD$ bukan persegi`,
+  '2gdyvqap69i': R`$ABCD$ persegi panjang`,
+  'lxgoo3xc2q': R`$ABCD$ bukan persegi panjang`,
+  's4qelj4pfa': R`kamu belajar dengan giat`,
+  '1ri3py7kjks': R`kamu tidak belajar dengan giat`,
+  '1wmmmy5ybwg': R`kamu lulus ujian`,
+  'uo17m9mxei': R`kamu tidak lulus ujian`,
+  '14thczs4bru': R`lampu menyala`,
+  '1mg8dlhg5lp': R`lampu padam`,
+  '496x9r1bce': R`ruangan terang`,
+  '383gdutznm': R`ruangan tidak terang`,
+  '12lqix1f1k9': R`Jika ⟦0⟧, maka ⟦1⟧.`,
+  'z7jgfl3knp': R`konvers`,
+  'aqxfua2az0': R`invers`,
+  '1qj3c13iq5c': R`kontraposisi`,
+  '14dtm0889wo': R`Apa <b>⟦0⟧</b> dari pernyataan "⟦1⟧"?`,
+  '1izj6udg2zz': R`Konvers: tukar ($q \Rightarrow p$). Invers: negasikan keduanya ($\neg p \Rightarrow \neg q$). Kontraposisi: tukar dan negasikan ($\neg q \Rightarrow \neg p$). Jadi ⟦0⟧-nya adalah "⟦1⟧"⟦2⟧`,
+  '15513xdtwsn': R` — ekuivalen secara logika dengan pernyataan awal.`,
+  '6brkkcy85o': R`Semua siswa lulus ujian.`,
+  '2rjnejqvqb': R`Ada siswa yang tidak lulus ujian.`,
+  'vjzsxd6qou': R`Tidak ada siswa yang lulus ujian.`,
+  'oolor24qct': R`Semua siswa tidak lulus ujian.`,
+  'aesopm7ka0': R`Ada siswa yang lulus ujian.`,
+  '1c9ng778gwv': R`Tidak semua siswa lulus ujian.`,
+  'f39jhzzlxm': R`Semua kucing suka susu.`,
+  '1rgve8hw4eg': R`Ada kucing yang tidak suka susu.`,
+  '19hhf94uign': R`Tidak ada kucing yang suka susu.`,
+  '1qzto8uhyzs': R`Semua kucing tidak suka susu.`,
+  'xi1gnm2hxv': R`Ada kucing yang suka susu.`,
+  'aijf9tywlh': R`Tidak semua kucing suka susu.`,
+  '2c7t0e33rd1': R`Semua karyawan datang tepat waktu.`,
+  'avwdd5b0gg': R`Ada karyawan yang tidak datang tepat waktu.`,
+  '28adrxoh914': R`Tidak ada karyawan yang datang tepat waktu.`,
+  '1000i19kpx7': R`Semua karyawan tidak datang tepat waktu.`,
+  '1tupibwtosw': R`Ada karyawan yang datang tepat waktu.`,
+  'syr088g2qb': R`Tidak semua karyawan datang tepat waktu.`,
+  '1rwcznrx3zt': R`Semua bilangan dalam daftar itu genap.`,
+  'g4py4lm4nz': R`Ada bilangan dalam daftar itu yang tidak genap.`,
+  'z8en25csvv': R`Tidak ada bilangan dalam daftar itu yang genap.`,
+  '1m3jao43f24': R`Semua bilangan dalam daftar itu tidak genap.`,
+  '2nfvm4et1c': R`Ada bilangan dalam daftar itu yang genap.`,
+  'xfe0p0mnov': R`Tidak semua bilangan dalam daftar itu genap.`,
+  '1w0eku5479x': R`Semua pemain mencetak gol.`,
+  '2xjzgvosy4': R`Ada pemain yang tidak mencetak gol.`,
+  '1eb39gddsae': R`Tidak ada pemain yang mencetak gol.`,
+  '1xbzgu8l71r': R`Semua pemain tidak mencetak gol.`,
+  't7ja96nwk4': R`Ada pemain yang mencetak gol.`,
+  '8j4qjj5ufj': R`Tidak semua pemain mencetak gol.`,
+  'b5r03m1c02': R`Apa negasi dari "⟦0⟧"?`,
+  '1a591wdfgbv': R`$\neg(\forall x\, P(x)) \equiv \exists x\, \neg P(x)$: cukup <i>sebagian</i> saja yang tidak memenuhi. Negasi: "⟦0⟧"`,
+  'do28na3fol': R`$\neg(\exists x\, P(x)) \equiv \forall x\, \neg P(x)$: tidak satu pun yang memenuhi. Negasi: "⟦0⟧"`,
+  'ndnufyumww': R`Berapa baris tabel kebenaran dengan ⟦0⟧ variabel pernyataan yang berbeda?`,
+  'u75a1of7f2': R`Setiap variabel bernilai B atau S, jadi ada $2^{⟦0⟧} = ⟦1⟧$ kombinasi.`,
+  '1w39q86nfhw': R`Pada tabel kebenaran $⟦0⟧$, pada berapa baris pernyataan itu bernilai benar?`,
+  'ny2shau597': R`Tabel itu memiliki ⟦0⟧ baris; setelah setiap baris dihitung, pernyataan itu benar pada <b>⟦1⟧</b> baris dan salah pada ⟦2⟧ baris.`,
+  '1zkv6notm6x': R`pertandingan dibatalkan`,
+  '28hyo4t2whc': R`pertandingan tidak dibatalkan`,
+  'amilvofe40': R`suatu bilangan berakhiran 0`,
+  'osyuok2ad2': R`suatu bilangan tidak berakhiran 0`,
+  'fabia2grh6': R`bilangan itu habis dibagi 5`,
+  '18q6q6gwd11': R`bilangan itu tidak habis dibagi 5`,
+  'm30q1lwox2': R`kamu menyiram tanaman`,
+  '1ku1ogs6cx8': R`kamu tidak menyiram tanaman`,
+  '1zfcrbg8kca': R`tanaman tumbuh`,
+  'ax498dx365': R`tanaman tidak tumbuh`,
+  '10pj6yxl1t7': R`alarm berbunyi`,
+  '4ju91rp1va': R`alarm tidak berbunyi`,
+  'smmfh9u0rs': R`Budi bangun`,
+  '1al6yo6prnr': R`Budi tidak bangun`,
+  '1wbxqjf54ui': R`Tidak ada kesimpulan yang sah.`,
+  '1h3hboouplr': R`Premis 1: "Jika ⟦0⟧, maka ⟦1⟧." Premis 2: "⟦2⟧." Kesimpulan apa yang sah?`,
+  '19xzw2kl48j': R`Ini modus ponens ($p \Rightarrow q$, $p$ ⊢ $q$): "⟦0⟧."`,
+  '4fjcpvhawf': R`Ini modus tollens ($p \Rightarrow q$, $\neg q$ ⊢ $\neg p$): "⟦0⟧."`,
+  'enorfzjcll': R`Mengetahui $q$ benar tidak memberi tahu apa pun tentang $p$ (membenarkan akibat adalah kesalahan). Tidak ada kesimpulan yang sah.`,
+  '1w6l8obljn3': R`Mengetahui $\neg p$ tidak memberi tahu apa pun tentang $q$ (mengingkari anteseden adalah kesalahan). Tidak ada kesimpulan yang sah.`,
+});

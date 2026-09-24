@@ -1396,3 +1396,786 @@ addT('es', {
   '1iy8baeb4jd': R`Al punto $⟦0⟧$ se le aplica una homotecia con centro en el origen y razón ⟦1⟧. ¿Dónde está su imagen?`,
   '1fyw56nqicr': R`Multiplica ambas coordenadas por ⟦0⟧: $(⟦1⟧ \times ⟦2⟧;\; ⟦3⟧ \times ⟦4⟧) = ⟦5⟧$.`,
 });
+
+/* Español — Bachillerato (núcleo, cuadráticas → exponenciales y logaritmos) */
+addT('es', {
+  // core
+  '3idcm4kbiz': R`Escribe ambas soluciones separadas por punto y coma, p. ej. -2; 5.`,
+  '2gdno2vs4iz': R`Escribe una respuesta como 9pi o 3pi/4.`,
+
+  // quadratics
+  'zojqk1lf1a': R`
+<p>Una <b>ecuación cuadrática</b> tiene la forma $ax^2 + bx + c = 0$ con $a \ne 0$. Tiene como máximo dos soluciones (raíces).</p>
+<h3>1. Factorización</h3>
+<p>Si un producto es cero, uno de sus factores es cero. Busca dos números cuyo producto sea $c$ y cuya suma sea $b$ (cuando $a = 1$):</p>
+⟦0⟧
+<h3>2. Completar el cuadrado</h3>
+⟦1⟧
+<h3>3. La fórmula general</h3>
+⟦2⟧
+<h3>Suma y producto de las raíces (Vieta)</h3>
+⟦3⟧
+<p>Así, una ecuación con raíces $r$ y $s$ es $x^2 - (r + s)x + rs = 0$.</p>
+⟦4⟧
+⟦5⟧`,
+  '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ o } x = -3`,
+  '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>El <b>discriminante</b> $D = b^2 - 4ac$ indica cuántas raíces reales hay:</p><ul><li>$D \gt 0$: dos raíces reales distintas</li><li>$D = 0$: una raíz real doble</li><li>$D \lt 0$: ninguna raíz real (dos raíces complejas)</li></ul>`,
+  '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, así que $x = \frac{7 \pm 5}{4}$, lo que da $x = 3$ o $x = \frac{1}{2}$. Comprobación: suma $= \frac{7}{2}$ ✓, producto $= \frac{3}{2}$ ✓.</p>`,
+  '2fn72wvlok5': R`<p>Nunca dividas ambos lados entre $x$: perderías la raíz $x = 0$. Pasa todo a un lado y factoriza.</p>`,
+  'wqvbu9g7qm': R`$x = ⟦0⟧ \text{ o } x = ⟦1⟧$`,
+  '2g53wo2odbr': R`Resuelve $⟦0⟧ = 0$.`,
+  'zl23t8993d': R`Factoriza: $(x ⟦0⟧)(x ⟦1⟧) = 0$, así que $x = ⟦2⟧$ o $x = ⟦3⟧$.`,
+  '116407nwdrj': R`Halla el discriminante de $⟦0⟧ = 0$.`,
+  '3gb665scdq': R`Dos raíces reales distintas`,
+  '2fay79x4phj': R`Una raíz real doble`,
+  'ha2iee3mi': R`Ninguna raíz real`,
+  '21o8qulmmck': R`¿Cuántas raíces reales tiene $⟦0⟧ = 0$?`,
+  '2v9wp16hr5': R`$⟦0⟧$ es positivo, así que hay dos raíces reales distintas.`,
+  '1awtt37lduc': R`$⟦0⟧$ es cero, así que hay una raíz real doble.`,
+  '1b3c8vdz0p': R`$⟦0⟧$ es negativo, así que no hay raíces reales.`,
+  '13khpmu10gc': R`Halla la suma de las raíces de $⟦0⟧ = 0$.`,
+  '23qtrsvpbqj': R`Suma de las raíces $= -\frac{b}{a} = ⟦0⟧$.`,
+  '2e310dsl6wd': R`Halla el producto de las raíces de $⟦0⟧ = 0$.`,
+  '1s4vvexqix0': R`Producto de las raíces $= \frac{c}{a} = ⟦0⟧$.`,
+  '27metzx2wv2': R`Resuelve $⟦0⟧ = 0$ y da las soluciones exactas.`,
+  '1pprj3loiqe': R`Escribe ambas soluciones separadas por punto y coma, p. ej. -3+sqrt(5); -3-sqrt(5).`,
+  '28yk466lqnm': R`Completa el cuadrado: $(x ⟦0⟧)^2 - ⟦1⟧ ⟦2⟧ = 0$, así que $(x ⟦3⟧)^2 = ⟦4⟧$ y $x = ⟦5⟧ \pm \sqrt{⟦6⟧}$.`,
+  '13i18rd2v1i': R`¿Qué ecuación cuadrática tiene raíces $⟦0⟧$ y $⟦1⟧$?`,
+  '1qw3sazqaaj': R`El largo de un rectángulo mide ⟦0⟧ m más que su ancho, y su área es ⟦1⟧ m². Halla el ancho.`,
+  '27ssy7fe6w9': R`Sea $w$ el ancho: $w(w + ⟦0⟧) = ⟦1⟧$, así que $⟦2⟧ = 0$, es decir, $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Un ancho debe ser positivo, así que $w = ⟦5⟧$ m.`,
+
+  // quad-functions
+  't6hwj355ki': R`
+<p>La gráfica de $f(x) = ax^2 + bx + c$ es una <b>parábola</b>. Abre <b>hacia arriba</b> si $a \gt 0$ (un valle, con un mínimo) y <b>hacia abajo</b> si $a \lt 0$ (una colina, con un máximo).</p>
+⟦0⟧
+<h3>Forma canónica (del vértice)</h3>
+⟦1⟧
+<p>Completar el cuadrado convierte la forma general en la forma canónica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, así que el vértice es $(3; 2)$ y el valor mínimo es 2. El recorrido es $y \ge 2$.</p>
+⟦2⟧
+⟦3⟧`,
+  's0tk1crha5': R`<ul><li>Eje de simetría y vértice: $x = -\dfrac{b}{2a}$; el vértice es $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Corte con el eje $y$: $(0; c)$.</li><li>Cortes con el eje $x$: las raíces de $ax^2 + bx + c = 0$ (si las hay).</li></ul>`,
+  '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{vértice } (h; k)`,
+  '17der0pee5r': R`<p>La altura de una pelota es $h(t) = -5t^2 + 20t + 1$ metros. El vértice está en $t = -\frac{20}{2(-5)} = 2$ s, y la altura máxima es $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
+  'zvghnbm8dy': R`<p>El eje de simetría está exactamente a mitad de camino entre los dos cortes con el eje $x$: si las raíces son $p$ y $q$, es $x = \frac{p + q}{2}$.</p>`,
+  '1mhp7175d34': R`Halla la coordenada $x$ del vértice de $y = ⟦0⟧$.`,
+  '2clzljfduzb': R`Halla el valor máximo de $f(x) = ⟦0⟧$.`,
+  '2gjwh27g0hr': R`Halla el valor mínimo de $f(x) = ⟦0⟧$.`,
+  '27czsvma29h': R`El vértice está en $x = -\frac{b}{2a} = ⟦0⟧$, y $f(⟦1⟧) = ⟦2⟧$. Como $a \lt 0$, la parábola abre hacia abajo, así que ⟦3⟧ es el máximo.`,
+  '14ge4kcc386': R`El vértice está en $x = -\frac{b}{2a} = ⟦0⟧$, y $f(⟦1⟧) = ⟦2⟧$. Como $a \gt 0$, la parábola abre hacia arriba, así que ⟦3⟧ es el mínimo.`,
+  'c44znu24a9': R`Escribe $y = ⟦0⟧$ en forma canónica.`,
+  '1vsnqklq7o3': R`Completa el cuadrado: $x^2 ⟦0⟧x = (x ⟦1⟧)^2 - ⟦2⟧$. Así, $y = (x ⟦3⟧)^2 - ⟦4⟧ ⟦5⟧ = (x ⟦6⟧)^2 ⟦7⟧$, con vértice $⟦8⟧$.`,
+  'zpcs87kljp': R`Una parábola corta el eje $x$ en $x = ⟦0⟧$ y $x = ⟦1⟧$. ¿Cuál es la ecuación de su eje de simetría? Da el valor de $x$.`,
+  'fw0opla76f': R`El eje de simetría está a mitad de camino entre las raíces: $x = \frac{⟦0⟧ + ⟦1⟧}{2} = ⟦2⟧$.`,
+  'v46mha0d5d': R`La altura en metros de una pelota después de $t$ segundos es $h(t) = ⟦0⟧$. ⟦1⟧`,
+  '1hvtdauomyu': R`¿Después de cuántos segundos alcanza su altura máxima?`,
+  '1316b0fmwet': R`¿Cuál es su altura máxima?`,
+  'ycs9rjyck7': R`El vértice está en $t = -\frac{⟦0⟧}{2(-5)} = ⟦1⟧$ s.⟦2⟧`,
+  'ztkk37xmwf': R` Entonces $h(⟦0⟧) = -5(⟦1⟧)^2 + ⟦2⟧(⟦3⟧) + ⟦4⟧ = ⟦5⟧$ m.`,
+  '1e1oh4ob6ax': R`¿Cuál es el recorrido de $f(x) = ⟦0⟧$?`,
+  '1xjsk3emsrc': R`El vértice es $⟦0⟧$ y la parábola abre hacia arriba, así que el recorrido es $y \ge ⟦1⟧$.`,
+  'xs3xxut6a6': R`El vértice es $⟦0⟧$ y la parábola abre hacia abajo, así que el recorrido es $y \le ⟦1⟧$.`,
+
+  // functions
+  '8naid6th7m': R`
+<p>Una <b>función</b> asigna a cada entrada exactamente <b>una</b> salida. El conjunto de entradas permitidas es el <b>dominio</b>; el conjunto de salidas es el <b>recorrido</b>.</p>
+<h3>Dominios naturales</h3>
+<ul><li>No se puede dividir entre cero: para $\frac{1}{x - 2}$, el dominio es $x \ne 2$.</li><li>No hay raíces cuadradas de negativos: para $\sqrt{x + 3}$, el dominio es $x \ge -3$.</li><li>Los logaritmos necesitan argumentos positivos: para $\log(x - 1)$, el dominio es $x \gt 1$.</li></ul>
+<h3>Composición</h3>
+⟦0⟧
+⟦1⟧
+<h3>Funciones inversas</h3>
+<p>$f^{-1}$ deshace lo que hace $f$: si $f(a) = b$, entonces $f^{-1}(b) = a$. Para hallarla, escribe $y = f(x)$, intercambia $x$ e $y$, y despeja $y$.</p>
+⟦2⟧
+<p>La gráfica de $f^{-1}$ es la simétrica de la gráfica de $f$ respecto a la recta $y = x$. Solo las funciones inyectivas tienen inversa.</p>
+⟦3⟧`,
+  '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Aplica primero $g$ y después $f$. En general, $f \circ g \ne g \circ f$.</p>`,
+  '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Entonces $f(g(3)) = f(9) = 19$, pero $g(f(3)) = g(7) = 49$. Como expresiones: $f(g(x)) = 2x^2 + 1$ y $g(f(x)) = (2x + 1)^2$.</p>`,
+  '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: al intercambiar se obtiene $x = 3y - 5$, así que $y = \frac{x + 5}{3}$ y $f^{-1}(x) = \frac{x + 5}{3}$. Comprobación: $f(f^{-1}(x)) = x$ ✓</p>`,
+  '26njpf4q54n': R`<p>$f^{-1}(x)$ significa la función inversa, no $\frac{1}{f(x)}$.</p>`,
+  'i7pel35sqq': R`Sean $f(x) = ⟦0⟧$ y $g(x) = ⟦1⟧$. Halla $⟦2⟧$.`,
+  '1znd9mktzvv': R`Primero lo de dentro: $g(⟦0⟧) = ⟦1⟧$. Luego $f(⟦2⟧) = ⟦3⟧$.`,
+  'hfjxna60e5': R`Primero lo de dentro: $f(⟦0⟧) = ⟦1⟧$. Luego $g(⟦2⟧) = ⟦3⟧$.`,
+  '202pgbw3wu2': R`Si $f(x) = ⟦0⟧$ y $g(x) = ⟦1⟧$, halla $(f \circ g)(x)$.`,
+  'f0qp6mlevp': R`Halla la inversa de $f(x) = ⟦0⟧$.`,
+  '169q0jrvorq': R`Escribe $y = ⟦0⟧$ e intercambia $x$ e $y$: $x = ⟦1⟧$. Despeja $y$: $y = \frac{x ⟦2⟧}{⟦3⟧}$.`,
+  'qmg4emyl6w': R`Dada $f(x) = ⟦0⟧$, halla $f^{-1}(⟦1⟧)$.`,
+  '15zrqw164xy': R`$f^{-1}(⟦0⟧)$ es la entrada que da ⟦1⟧: $⟦2⟧ = ⟦3⟧$, así que $x = ⟦4⟧$.`,
+  'uego2o122d': R`La expresión dentro de la raíz no puede ser negativa: $x ⟦0⟧ \ge 0$.`,
+  '39j6h0pn24': R`El denominador no puede ser cero: $x ⟦0⟧ \ne 0$.`,
+  'sbga4fns30': R`Necesitamos $⟦0⟧ - x \ge 0$.`,
+  '21vfyvxcrw8': R`Un logaritmo necesita un argumento positivo: $x ⟦0⟧ \gt 0$.`,
+  '10h8v1f5joc': R`¿Cuál es el dominio de $f(x) = ⟦0⟧$?`,
+  '1i0w7q8kkjh': R`⟦0⟧ Así que el dominio es ⟦1⟧.`,
+  '1qymltc7n95': R`Sea $f(x) = \begin{cases} ⟦0⟧, & x \lt ⟦1⟧ \\ ⟦2⟧, & x \ge ⟦3⟧ \end{cases}$. Halla $f(⟦4⟧)$.`,
+  '2c8e7agksdd': R`Como $⟦0⟧ \lt ⟦1⟧$, se usa la primera regla: $f(⟦2⟧) = ⟦3⟧$.`,
+  'ranlsqjvf9': R`Como $⟦0⟧ \ge ⟦1⟧$, se usa la segunda regla: $f(⟦2⟧) = ⟦3⟧$.`,
+
+  // exp-log
+  'l9f49uc5fx': R`
+<p>Los exponentes racionales combinan potencias y raíces: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Así, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ y $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logaritmos</h3>
+⟦0⟧
+⟦1⟧
+<h3>Resolver ecuaciones</h3>
+<ul><li>Misma base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Ecuación logarítmica: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases distintas: toma logaritmos en ambos lados, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
+<h3>Crecimiento y decrecimiento exponencial</h3>
+<p>$A = A_0 \cdot r^{t/T}$: una cantidad que se multiplica por $r$ cada $T$ unidades de tiempo. Interés compuesto: $A = P(1 + i)^n$.</p>
+⟦2⟧`,
+  'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Un logaritmo responde a «¿a qué potencia hay que elevar $b$ para obtener $a$?»; así, $\log_2 32 = 5$. $\log x$ significa $\log_{10} x$; $\ln x$ significa $\log_e x$, con $e \approx 2{,}718$.</p>`,
+  '5k5p7u9mjc': R`cambio de base`,
+  'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. La propiedad del producto convierte un <i>producto</i> dentro en una suma fuera.</p>`,
+  'osur1d06sr': R`Calcula $\log_{⟦0⟧} ⟦1⟧$.`,
+  '8m3m9l7mik': R`$⟦0⟧^{⟦1⟧} = ⟦2⟧$, así que $\log_{⟦3⟧} ⟦4⟧ = ⟦5⟧$.`,
+  '1qkid4ac6wc': R`Calcula $\log_{⟦0⟧} ⟦1⟧ + \log_{⟦2⟧} ⟦3⟧$.`,
+  '1kop25xxaoo': R`Calcula $\log_{⟦0⟧} ⟦1⟧ - \log_{⟦2⟧} ⟦3⟧$.`,
+  '1cctawopufn': R`Calcula $⟦0⟧^{-\frac{⟦1⟧}{⟦2⟧}}$.`,
+  '2bg5dnahfhi': R`Escribe una fracción como 1/4.`,
+  '2cumtrnn88x': R`Calcula $⟦0⟧^{\frac{⟦1⟧}{⟦2⟧}}$.`,
+  'x9eagz2e3z': R`Resuelve $⟦0⟧^{⟦1⟧} = ⟦2⟧$.`,
+  '1zhriq8g9vc': R`$⟦0⟧ = ⟦1⟧^{⟦2⟧}$. Con bases iguales, los exponentes son iguales: $⟦3⟧ = ⟦4⟧$, así que $x = ⟦5⟧$.`,
+  '5s8f33ips': R`Resuelve $\log_{⟦0⟧}(⟦1⟧) = ⟦2⟧$.`,
+  '1qw3ujxvp13': R`En forma exponencial: $⟦0⟧ = ⟦1⟧^{⟦2⟧} = ⟦3⟧$, así que $⟦4⟧ = ⟦5⟧$ y $x = ⟦6⟧$.`,
+  '1owsh5togde': R`Una colonia de ⟦0⟧ bacterias se duplica cada ⟦1⟧ horas. ¿Cuántas bacterias hay después de ⟦2⟧ horas?`,
+  '24ouek9sj2d': R`Una colonia de ⟦0⟧ bacterias se triplica cada ⟦1⟧ horas. ¿Cuántas bacterias hay después de ⟦2⟧ horas?`,
+  'sad2coi0y': R`Hay $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ periodos, así que $N = ⟦3⟧ \times ⟦4⟧^{⟦5⟧} = ⟦6⟧$.`,
+  'uyumfdhjnr': R`Sabiendo que $\log 2 \approx 0{,}3010$ y $\log 3 \approx 0{,}4771$, halla $\log ⟦0⟧$ con 4 decimales.⟦1⟧`,
+  'a59cccufc1': R` (Pista: $\log 5 = \log 10 - \log 2$.)`,
+  '12khv2t073z': R`$⟦0⟧ = ⟦1⟧$, así que $\log ⟦2⟧ = ⟦3⟧ \approx ⟦4⟧$.⟦5⟧`,
+  '2aoxsl3f4vw': R` Aquí $\log 5 = 1 - 0{,}3010 = 0{,}6990$.`,
+});
+
+/* Español — Bachillerato (sucesiones → resolución de triángulos) */
+addT('es', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>Aquí $a$ es el primer término y $l$ el último.</p>
+⟦1⟧
+⟦2⟧
+<h3>Series geométricas infinitas</h3>
+⟦3⟧
+<p>Ejemplo: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Notación sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Datos útiles: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ y $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`Aritmética`,
+  '1atqzl7ltey': R`Geométrica`,
+  'zs186mkwh5': R`se suma $d$ cada vez`,
+  '160nuilyero': R`se multiplica por $r$ cada vez`,
+  '99dr6iy4ys': R`Suma de n términos`,
+  '1yzmu3p7b4v': R`<p>La suma de los 20 primeros términos de $3; 7; 11; \ldots$ es $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>`,
+  '8pkxhjbkfd': R`<p>En una sucesión aritmética, $u_4 = 17$ y $u_9 = 42$. Los separan cinco pasos de $d$, así que $5d = 25$, $d = 5$ y $a = 17 - 3 \times 5 = 2$.</p>`,
+  '3zsr22exdg': R`<p>Si $|r| \lt 1$, los términos disminuyen lo bastante rápido como para que la suma se estabilice en un valor finito:</p>$$S_\infty = \frac{a}{1 - r}$$<p>Si $|r| \ge 1$, la serie no tiene suma finita.</p>`,
+  '22swm7le3e': R`<p>Entre $u_p$ y $u_q$ hay $q - p$ pasos, no $q - p + 1$.</p>`,
+  'v83xyier66': R`En una sucesión aritmética, $u_{⟦0⟧} = ⟦1⟧$ y $u_{⟦2⟧} = ⟦3⟧$. Halla $u_{⟦4⟧}$.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, así que $d = ⟦3⟧$. Entonces $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ y $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`Halla la suma de los ⟦0⟧ primeros términos de la sucesión aritmética ⟦1⟧; …`,
+  'vsiejpaurw': R`Halla el término $u_{⟦0⟧}$ de la sucesión geométrica ⟦1⟧; …`,
+  '2fg2ivyt6zs': R`Halla la suma de los ⟦0⟧ primeros términos de la serie geométrica $⟦1⟧ + \cdots$`,
+  '6by3ukfsg3': R`Halla la suma infinita de la serie geométrica de primer término ⟦0⟧ y razón $⟦1⟧$.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$, así que $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`Calcula $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.`,
+  'zk5lcxjf3d': R`El sueldo de Lucía en su primer año es de ⟦0⟧ dólares y aumenta ⟦1⟧ dólares cada año. ¿Cuánto gana en total en sus ⟦2⟧ primeros años?`,
+  '222tg0c1ffy': R`Es una serie aritmética: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ dólares.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>En un triángulo rectángulo, respecto a un ángulo agudo $\theta$:</p>
+⟦0⟧
+<p>Regla mnemotécnica: <b>SOH-CAH-TOA</b> (seno = opuesto/hipotenusa, coseno = adyacente/hipotenusa, tangente = opuesto/adyacente). Además, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, y las razones recíprocas son $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Valores exactos</h3>
+⟦1⟧
+<h3>Radianes</h3>
+<p>$180^\circ = \pi$ radianes. Para pasar de grados a radianes se multiplica por $\frac{\pi}{180}$; de radianes a grados, por $\frac{180}{\pi}$. Así, $60^\circ = \frac{\pi}{3}$ y $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>La circunferencia unitaria</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}} \qquad \cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}} \qquad \tan\theta = \frac{\text{opuesto}}{\text{adyacente}}`,
+  'ig8vf2x1y6': R`sen θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`no definida`,
+  'uyvhui04wr': R`<p>Para cualquier ángulo $\theta$, el punto de la circunferencia unitaria es $(\cos\theta; \sin\theta)$. Signos por cuadrante: «<b>T</b>odas, <b>S</b>eno, <b>T</b>angente, <b>C</b>oseno»: todas positivas en I, el seno en II, la tangente en III y el coseno en IV.</p><p>Usa el <b>ángulo de referencia</b> (el ángulo agudo con el eje $x$) y el signo correcto: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>Desde 30 m de distancia, el ángulo de elevación a lo alto de una torre es de $60^\circ$. Altura $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52{,}0$ m.</p>`,
+  'neyxpix7b9': R`<p>Comprueba el modo de tu calculadora (DEG o RAD) antes de calcular funciones trigonométricas.</p>`,
+  '67i6rxexro': R`Halla el valor exacto de $⟦0⟧ ⟦1⟧$.`,
+  'pdy7ypcls7': R`Se aceptan valores exactos como sqrt(3)/2.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ está en el cuadrante ⟦2⟧, donde $⟦3⟧$ es ⟦4⟧. El ángulo de referencia es $⟦5⟧^\circ$ y $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, así que $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧En $⟦1⟧^\circ$ el punto de la circunferencia unitaria es $⟦2⟧$ $= (\cos\theta; \sin\theta)$, así que $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`Convierte $⟦0⟧^\circ$ a radianes.`,
+  'gs4x19407v': R`Multiplica por $\frac{\pi}{180}$: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`Convierte $⟦0⟧$ radianes a grados.`,
+  'zfi973h2bw': R`Multiplica por $\frac{180}{\pi}$: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`En un triángulo rectángulo, el cateto adyacente a un ángulo de $⟦0⟧^\circ$ mide ⟦1⟧ cm. Halla el cateto opuesto, con 2 decimales.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{op}}{⟦1⟧}$, así que op $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`Un triángulo rectángulo tiene hipotenusa ⟦0⟧ cm y un ángulo de $⟦1⟧^\circ$. Halla el cateto opuesto a ese ángulo, con 2 decimales.`,
+  '22kukzeyh6': R`Un triángulo rectángulo tiene hipotenusa ⟦0⟧ cm y un ángulo de $⟦1⟧^\circ$. Halla el cateto adyacente a ese ángulo, con 2 decimales.`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, así que el cateto $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  'w56ix8w8yr': R`op`,
+  '5ydwv3it97': R`ady`,
+  '2abmsiuwu52': R`$\theta$ es agudo y $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Halla $⟦2⟧\theta$.`,
+  '1qudt03n4v8': R`Dibuja un triángulo rectángulo con cateto opuesto ⟦0⟧ e hipotenusa ⟦1⟧; el cateto adyacente es $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. Así que $⟦5⟧$.`,
+  '28dk1p4hmng': R`Desde un punto a ⟦0⟧ m del pie de un edificio, el ángulo de elevación a lo alto es de $⟦1⟧^\circ$. ¿Cuánto mide el edificio? Da una respuesta exacta.`,
+  '1fxpcv94bft': R`Se aceptan respuestas exactas como 12sqrt(3).`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ y $\tan ⟦2⟧^\circ = ⟦3⟧$, así que $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`Cuadrante I`,
+  '4o87w2367v': R`Cuadrante II`,
+  '11djzpzc46w': R`Cuadrante III`,
+  '26d39yjlrkj': R`Cuadrante IV`,
+  '1t5qxibr3fa': R`¿En qué cuadrante está $\theta$ si $⟦0⟧\theta ⟦1⟧ 0$ y $⟦2⟧\theta ⟦3⟧ 0$?`,
+  '1856p6n9vrk': R`El seno es positivo en I y II; el coseno, en I y IV; la tangente, en I y III. Solo el <b>⟦0⟧</b> cumple ambas condiciones.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p>Una <b>identidad</b> se cumple para todo ángulo. Las más importantes:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Resolver ecuaciones trigonométricas</h3>
+<p>Halla el ángulo de referencia y luego todos los ángulos del intervalo pedido que tengan el signo correcto.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`Identidades pitagóricas`,
+  '28msif6x03y': R`Ángulos compuestos`,
+  '1qlqqnnfd2i': R`Ángulo doble`,
+  '14xjp53gt4x': R`<p>Resuelve $\sin x = -\frac{1}{2}$ para $0^\circ \le x \lt 360^\circ$. El ángulo de referencia es $30^\circ$; el seno es negativo en los cuadrantes III y IV, así que $x = 180^\circ + 30^\circ = 210^\circ$ o $x = 360^\circ - 30^\circ = 330^\circ$.</p>`,
+  '1hkvix57r6q': R`<p>Si $\sin\theta = \frac{3}{5}$ y $\theta$ está en el cuadrante II, entonces $\cos\theta = -\frac{4}{5}$: la identidad pitagórica da el valor absoluto y el cuadrante da el signo.</p>`,
+  '64164qr2jw': R`$\theta$ es agudo y $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Halla $\sin 2\theta$.`,
+  '27wxa35nxaa': R`Sabiendo que $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$, halla $\cos 2\theta$.`,
+  'szbqx0thv8': R`Resuelve $⟦0⟧ x = ⟦1⟧$ para $0^\circ \le x \lt 360^\circ$.`,
+  '22m72qx0p66': R`Escribe los ángulos en grados separados por punto y coma, p. ej. 30; 150.`,
+  'ygon4mdoxw': R`El ángulo de referencia es $⟦0⟧^\circ$. $⟦1⟧$ es ⟦2⟧ en los cuadrantes de $⟦3⟧^\circ$ y $⟦4⟧^\circ$, así que $x = ⟦5⟧^\circ$ o $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`la diferencia de cuadrados y luego $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`la fórmula del ángulo doble`,
+  'sj6onjglro': R`el desarrollo, que da $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$`,
+  '7gzo83e030': R`Usa ⟦0⟧: $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`Halla el valor exacto de $⟦0⟧$.`,
+  '2ayoc6nyniw': R`Se aceptan respuestas exactas como (sqrt(6)+sqrt(2))/4.`,
+  '1mewvixpsgq': R`Escríbelo como $⟦0⟧$ y usa la fórmula del ángulo compuesto con los valores exactos de $30^\circ$, $45^\circ$ y $60^\circ$: el resultado es $⟦1⟧$.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ y $\theta$ está en el cuadrante ⟦1⟧. Halla $⟦2⟧$.`,
+  '19cq8bi37ib': R`El triángulo tiene lados ⟦0⟧, ⟦1⟧ y ⟦2⟧. En el cuadrante ⟦3⟧, el seno es ⟦4⟧ y el coseno es ⟦5⟧, así que $\sin\theta = ⟦6⟧$ y $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>Nombra un triángulo de modo que el lado $a$ sea opuesto al ángulo $A$, $b$ opuesto a $B$ y $c$ opuesto a $C$. Estas reglas sirven para <b>cualquier</b> triángulo, no solo para los rectángulos.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Úsalo cuando conozcas un lado y su ángulo opuesto, además de otro lado u otro ángulo.</p>`,
+  'mp16igkhf3': R`Teorema del seno`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Úsalo con dos lados y el ángulo comprendido (LAL), o con los tres lados (LLL).</p>`,
+  'kgaid4s1rf': R`Teorema del coseno`,
+  '1w8yehsbjfu': R`$$\text{Área} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Herón: } \text{Área} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>Lados 5 y 8 con un ángulo comprendido de $60^\circ$: el tercer lado es $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, y el área es $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>`,
+  '11plyaa7o04': R`<p>El teorema del seno puede dar dos triángulos posibles al hallar un ángulo (el «caso ambiguo»): $\sin B = 0{,}8$ permite $B \approx 53{,}1^\circ$ <i>o</i> $B \approx 126{,}9^\circ$. Comprueba si cada uno es válido.</p>`,
+  'l2pu7cls8u': R`En el triángulo $ABC$, $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm y $A = ⟦2⟧^\circ$. Halla $a$ con 2 decimales.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, así que $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`Un triángulo tiene lados ⟦0⟧, ⟦1⟧ y ⟦2⟧. Halla el ángulo opuesto al lado de longitud ⟦3⟧.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, así que $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`En el triángulo $ABC$, $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$ y $a = ⟦2⟧$ cm. Halla $b$ con 2 decimales.`,
+  'i5vdhhm6yu': R`Teorema del seno: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, así que $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`Halla el área exacta de un triángulo con lados de ⟦0⟧ cm y ⟦1⟧ cm y un ángulo comprendido de $⟦2⟧^\circ$.`,
+  '25opm4iwiww': R`Se aceptan respuestas exactas como 6sqrt(3).`,
+  'cb99xoymur': R`Área $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$, con $\sin ⟦3⟧^\circ = ⟦4⟧$, lo que da $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`Usa la fórmula de Herón para hallar el área de un triángulo con lados ⟦0⟧, ⟦1⟧ y ⟦2⟧.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Área $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});
+
+/* Español — Bachillerato (polinomios → integrales) */
+addT('es', {
+  // polynomials
+  '1dv82xempy': R`
+<p>Un <b>polinomio</b> es una suma de términos $a_n x^n + \cdots + a_1 x + a_0$ con exponentes naturales. Su <b>grado</b> es el mayor exponente; $a_n$ es el <b>coeficiente principal</b>. Al multiplicar polinomios, los grados se suman y los coeficientes principales se multiplican.</p>
+<h3>División</h3>
+<p>Dividir $P(x)$ entre $(x - a)$ da un cociente $Q(x)$ y un resto $R$: $P(x) = (x - a)Q(x) + R$. La <b>regla de Ruffini</b> es una forma rápida de hacerlo usando solo los coeficientes.</p>
+⟦0⟧
+⟦1⟧
+<h3>Raíces de un polinomio cúbico</h3>
+<p>Para $ax^3 + bx^2 + cx + d = 0$ con raíces $r_1, r_2, r_3$:</p>
+⟦2⟧
+⟦3⟧`,
+  '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ por la regla de Ruffini:</p>⟦0⟧<p>Cociente $x^2 - 2x - 3$, resto 0.</p>`,
+  'agfsjitvd': R`<p><b>Teorema del resto:</b> el resto de dividir $P(x)$ entre $(x - a)$ es $P(a)$.</p><p><b>Teorema del factor:</b> $(x - a)$ es un factor de $P(x)$ exactamente cuando $P(a) = 0$.</p>`,
+  'sqyu8zjvtn': R`<p>Dividir entre $(x + 3)$ significa $a = -3$: calcula $P(-3)$, no $P(3)$.</p>`,
+  'u4dg9by4un': R`Halla el resto de dividir $P(x) = ⟦0⟧$ entre $(x ⟦1⟧)$.`,
+  '212dl6gy5gu': R`Por el teorema del resto, el resto es $P(⟦0⟧) = ⟦1⟧(⟦2⟧)^3 ⟦3⟧(⟦4⟧)^2 ⟦5⟧(⟦6⟧) ⟦7⟧ = ⟦8⟧$.`,
+  '20swcfjanfa': R`$(x ⟦0⟧)$ es un factor de $P(x) = ⟦1⟧$. Halla $k$.`,
+  '2cscisbqmyg': R`Por el teorema del factor, $P(⟦0⟧) = 0$: $⟦1⟧ ⟦2⟧ ⟦3⟧k ⟦4⟧ = 0$, así que $⟦5⟧k = ⟦6⟧$ y $k = ⟦7⟧$.`,
+  '28czzdou58n': R`Para $ax^3 + bx^2 + cx + d = 0$, ⟦0⟧.`,
+  '1uakfcji416': R`la suma de las raíces es $-\frac{b}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1cl4qeneyhq': R`el producto de las raíces es $-\frac{d}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1h1il3vuozs': R`Divide $⟦0⟧$ entre $(x ⟦1⟧)$. ¿Cuál es el cociente?`,
+  '1432prhuyml': R`La regla de Ruffini con ⟦0⟧ sobre los coeficientes ⟦1⟧ da ⟦2⟧ y resto 0, así que el cociente es $⟦3⟧$.`,
+  '1v0pp8s5fwz': R`Considera $⟦0⟧$. ¿Cuál es el grado del producto?`,
+  '79jcaurtjl': R`Considera $⟦0⟧$. ¿Cuál es el coeficiente principal del producto?`,
+  'lgw9ke18qe': R`Considera $⟦0⟧$. ¿Cuál es el término independiente del producto?`,
+  '18bitz7l1ry': R`Al multiplicar, los grados se suman: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '1x77krhanqb': R`Multiplica los términos principales: $⟦0⟧ \cdot ⟦1⟧ = ⟦2⟧$, así que el coeficiente principal es ⟦3⟧.`,
+  '1uusi8yg5sk': R`El término independiente es el producto de los términos independientes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+
+  // matrices
+  '104wb071wss': R`
+<p>Una <b>matriz</b> es una tabla rectangular de números. Una matriz $m \times n$ tiene $m$ filas y $n$ columnas; $a_{ij}$ es el elemento de la fila $i$ y la columna $j$.</p>
+<h3>Operaciones</h3>
+<ul><li><b>Sumar/restar</b> elemento a elemento (solo si tienen el mismo tamaño).</li><li><b>Producto por un escalar</b>: se multiplica cada elemento.</li><li><b>Producto</b> $AB$: el elemento $(i, j)$ es la fila $i$ de $A$ por la columna $j$ de $B$. Requiere (columnas de $A$) = (filas de $B$), y una $m \times n$ por una $n \times p$ da una $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinante e inversa (2 × 2)</h3>
+⟦2⟧
+<p>Si $\det A = 0$, la matriz es <b>singular</b> y no tiene inversa. Las inversas resuelven sistemas: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧`,
+  '4bk6hc9is8': R`<p>El producto de matrices <b>no es conmutativo</b>: en general $AB \ne BA$.</p>`,
+  '4ckwr8umw4': R`<p>Para la inversa: <b>intercambia</b> $a$ y $d$, <b>cambia el signo</b> de $b$ y $c$, y divide entre el determinante.</p>`,
+  '1h6gnxjh2g6': R`Halla el determinante de $⟦0⟧$.`,
+  '1gfhimaac6g': R`Halla $AB$, donde $A = ⟦0⟧$ y $B = ⟦1⟧$.`,
+  '1dy8pvpnep7': R`Escribe los cuatro elementos fila por fila, p. ej. 19; 22; 43; 50.`,
+  'xfxhg5b3o2': R`Fila por columna: $AB = \begin{pmatrix} ⟦0⟧\cdot⟦1⟧ + ⟦2⟧\cdot⟦3⟧ & \cdots \\ \cdots & \cdots \end{pmatrix} = ⟦4⟧$.`,
+  '27lrdslcvs8': R`Halla la inversa de $⟦0⟧$.`,
+  'ea7d95erhp': R`Escribe los cuatro elementos fila por fila, separados por punto y coma.`,
+  '2euzxos9ar7': R`$\det = (⟦0⟧)(⟦1⟧) - (⟦2⟧)(⟦3⟧) = ⟦4⟧$. Intercambia $a$ y $d$, cambia el signo de $b$ y $c$ y divide entre ⟦5⟧: $⟦6⟧$.`,
+  '2fs8fio5g5w': R`¿Para qué valor de $x$ es singular $⟦0⟧$?`,
+  'et7lf19q4x': R`Singular significa $\det = 0$: $⟦0⟧x - (⟦1⟧)(⟦2⟧) = 0$, así que $x = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '2280y15nq4f': R`$A = ⟦0⟧$ y $B = ⟦1⟧$. Halla el elemento de la fila ⟦2⟧ y la columna ⟦3⟧ de $⟦4⟧A - ⟦5⟧B$.`,
+  'h3p6r4d6o': R`$A = ⟦0⟧$ y $B = ⟦1⟧$. Halla el elemento de la fila ⟦2⟧ y la columna ⟦3⟧ de $AB$.`,
+  'xdj657lej': R`Fila ⟦0⟧ de $A$ por columna ⟦1⟧ de $B$: $⟦2⟧ = ⟦3⟧$. (Una matriz $2 \times 3$ por una $3 \times 2$ da una $2 \times 2$).`,
+
+  // vectors
+  '1gljxtukffx': R`
+<p>Un <b>vector</b> tiene módulo y dirección. En componentes, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ o $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. El vector de $P$ a $Q$ es $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  'i7t2goihqv': R`Módulo`,
+  '1czax49eh4c': R`Suma`,
+  'q2ntocofkn': R`se suman las componentes`,
+  'oswzhgqxwz': R`Producto por un escalar`,
+  '1bnyaikchfp': R`$k\mathbf{a}$: se multiplica cada componente por $k$`,
+  '28hldv2q33s': R`Vector unitario`,
+  '214ftyeo0vg': R`Producto escalar`,
+  '1xghg9dwzeq': R`$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Dos vectores no nulos son <b>perpendiculares</b> exactamente cuando $\mathbf{a}\cdot\mathbf{b} = 0$.</p>`,
+  '1w9baxb120w': R`<p>$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, $\mathbf{b} = \begin{pmatrix} 5 \\ 12 \end{pmatrix}$: $\mathbf{a}\cdot\mathbf{b} = 15 + 48 = 63$, $|\mathbf{a}| = 5$, $|\mathbf{b}| = 13$, así que $\cos\theta = \frac{63}{65}$ y $\theta \approx 14{,}3^\circ$.</p>`,
+  '6pzkmdncqf': R`<p>El producto escalar de dos vectores es un <b>número</b>, no un vector.</p>`,
+  '4u2plhe47g': R`Halla el módulo de $⟦0⟧$.`,
+  '252q8tpxn2p': R`Halla $\mathbf{a}\cdot\mathbf{b}$ para $\mathbf{a} = ⟦0⟧$ y $\mathbf{b} = ⟦1⟧$.`,
+  '17ht25mwywu': R`Dados $\mathbf{a} = ⟦0⟧$ y $\mathbf{b} = ⟦1⟧$, halla $⟦2⟧\mathbf{a} ⟦3⟧ ⟦4⟧\mathbf{b}$.`,
+  '2gdqizkyobq': R`Escribe las componentes en orden, separadas por punto y coma.`,
+  '1mpyqj0mwgx': R`Componente a componente: $⟦0⟧ = ⟦1⟧$.`,
+  '14p7yoy4f3a': R`Halla $k$ para que $⟦0⟧$ y $⟦1⟧$ sean perpendiculares.`,
+  '127php4kbc3': R`Perpendiculares significa producto escalar 0: $⟦0⟧k + (⟦1⟧)(⟦2⟧) = 0$, así que $k = ⟦3⟧$.`,
+  '1kydmvss2ex': R`Halla $\cos\theta$, donde $\theta$ es el ángulo entre $⟦0⟧$ y $⟦1⟧$.`,
+  '1b0azawmrlf': R`Halla el vector unitario en la dirección de $⟦0⟧$.`,
+  '280s3ajjt4e': R`Escribe las componentes separadas por punto y coma, p. ej. 3/5; -4/5.`,
+  '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Divide cada componente entre ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
+
+  // limits
+  '239kmg9x5mj': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ significa que $f(x)$ se acerca tanto como queramos a $L$ cuando $x$ se acerca a $a$, pase lo que pase exactamente en $x = a$.</p>
+<h3>Técnicas</h3>
+<ol><li><b>Sustitución directa</b>: funciona con polinomios y otras funciones continuas: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factorizar y simplificar</b> ante $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Racionalizar</b> expresiones con raíces: multiplica por el conjugado.</li></ol>
+⟦0⟧
+<h3>Límites en el infinito</h3>
+⟦1⟧
+<h3>Un límite trigonométrico especial</h3>
+⟦2⟧
+<h3>Continuidad</h3>
+<p>$f$ es continua en $a$ si $\lim_{x \to a} f(x) = f(a)$: sin huecos, saltos ni asíntotas en ese punto. En una función definida a trozos, haz que los dos trozos coincidan en el punto de unión.</p>
+⟦3⟧`,
+  '25jnb5snm7z': R`<p>En una función racional, divide numerador y denominador entre la mayor potencia de $x$ del denominador:</p><ul><li>mismo grado → cociente de los coeficientes principales;</li><li>numerador de menor grado → 0;</li><li>numerador de mayor grado → no hay límite finito ($\pm\infty$).</li></ul>`,
+  'extw7corym': R`<p>$\frac{0}{0}$ no es «0» ni «no definido»: indica que hace falta más trabajo (factorizar, racionalizar).</p>`,
+  '18znpgymeuk': R`Calcula $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
+  '1tq4b7d4h53': R`Es un polinomio, así que sustituimos: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧$.`,
+  '1n96bgorw1d': R`Calcula $\displaystyle\lim_{x \to ⟦0⟧} \frac{⟦1⟧}{x ⟦2⟧}$.`,
+  '295o4zt7f3w': R`Al sustituir se obtiene $\frac{0}{0}$. Factorizamos: $\frac{(x ⟦0⟧)(x ⟦1⟧)}{x ⟦2⟧} = x ⟦3⟧$, así que el límite es $⟦4⟧ ⟦5⟧ = ⟦6⟧$.`,
+  '1rjdd048rzk': R`Calcula $\displaystyle\lim_{x \to \infty} \frac{⟦0⟧}{⟦1⟧}$.`,
+  '229ply6f2l2': R`El numerador tiene menor grado que el denominador; al dividir entre $x^2$ todos los términos del numerador tienden a 0, así que el límite es $0$.`,
+  '1m8u7pc3qh1': R`Mismo grado, así que el límite es el cociente de los coeficientes principales: $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.`,
+  '1ynpy6v2s15': R`Calcula $\displaystyle\lim_{x \to 0} \frac{⟦0⟧}{⟦1⟧}$.`,
+  'if95qf815v': R`Usa $\frac{\sin u}{u} \to 1$ (y $\frac{\tan u}{u} \to 1$): la expresión se comporta como $\frac{⟦0⟧x}{⟦1⟧x} = ⟦2⟧$.`,
+  'blyu2go12i': R`Calcula $\displaystyle\lim_{x \to 0} \frac{\sqrt{x + ⟦0⟧} - ⟦1⟧}{x}$.`,
+  'fj8u70cngg': R`Multiplica por el conjugado: $\frac{(x + ⟦0⟧) - ⟦1⟧}{x(\sqrt{x + ⟦2⟧} + ⟦3⟧)} = \frac{1}{\sqrt{x + ⟦4⟧} + ⟦5⟧} \to \frac{1}{⟦6⟧}$.`,
+  '1kmmd6tilgi': R`Halla $k$ para que $f(x) = \begin{cases} x^2 + k, & x \lt ⟦0⟧ \\ ⟦1⟧, & x \ge ⟦2⟧ \end{cases}$ sea continua en $x = ⟦3⟧$.`,
+  '1l84k7ifkz6': R`Los trozos deben coincidir en $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, así que $⟦5⟧ + k = ⟦6⟧$ y $k = ⟦7⟧$.`,
+
+  // derivatives
+  '1pv2wkwyvwg': R`
+<p>La <b>derivada</b> $f'(x)$ es la tasa de cambio instantánea de $f$: la pendiente de la recta tangente en $x$. Se define mediante un límite:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Rectas tangentes</h3>
+<p>En $x = a$, la tangente tiene pendiente $m = f'(a)$ y pasa por $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Puntos estacionarios</h3>
+<p>Donde $f'(x) = 0$ la gráfica es momentáneamente horizontal. Usa la segunda derivada: $f''(a) \gt 0$ → mínimo local; $f''(a) \lt 0$ → máximo local. $f$ es creciente donde $f' \gt 0$ y decreciente donde $f' \lt 0$.</p>
+<h3>Optimización</h3>
+⟦3⟧
+⟦4⟧`,
+  '1kddytp99dm': R`Reglas`,
+  '21wooetnwi8': R`<p>Con 100 m de valla se cerca un rectángulo junto a un río (el lado del río no necesita valla). Con lados $x, y, x$: $2x + y = 100$ y el área es $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ da $x = 25$, así que $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
+  '14x6kebc9en': R`<p>La derivada de una constante es 0: no arrastres el término constante a $f'(x)$.</p>`,
+  'sk165jmy0e': R`Halla $f'(x)$ para $f(x) = ⟦0⟧$.`,
+  '1z8enx6jmxw': R`Aplica la regla de la potencia a cada término: $f'(x) = ⟦0⟧$ (la constante desaparece).`,
+  'rdfbrjf6fd': R`Dada $f(x) = ⟦0⟧$, halla $f'(⟦1⟧)$.`,
+  '12fn6a7y0fo': R`$f'(x) = ⟦0⟧$, así que $f'(⟦1⟧) = ⟦2⟧$.`,
+  '13xytl77ctg': R`Halla la ecuación de la tangente a $y = ⟦0⟧$ en $x = ⟦1⟧$.`,
+  'zxpf5t25tk': R`Pendiente: $y' = 2x ⟦0⟧$, así que $m = ⟦1⟧$ en $x = ⟦2⟧$. Punto: $(⟦3⟧; ⟦4⟧)$. Entonces $y - ⟦5⟧ = ⟦6⟧(x - ⟦7⟧)$, es decir, $y = ⟦8⟧$.`,
+  '6or380e65b': R`$x = ⟦0⟧ \text{ y } x = ⟦1⟧$`,
+  '1ib3oh8we5r': R`Halla las coordenadas $x$ de los puntos estacionarios de $f(x) = ⟦0⟧$.`,
+  '8cxs5u8eb2': R`$f'(x) = ⟦0⟧ = 3(x ⟦1⟧)(x ⟦2⟧) = 0$, así que $x = ⟦3⟧$ o $x = ⟦4⟧$.`,
+  '2diynqfs1vm': R`¿Para qué valor de $x$ tiene $f(x) = ⟦0⟧$ un mínimo local?`,
+  'qiab8fav1k': R`$f'(x) = 3(x ⟦0⟧)(x ⟦1⟧)$ se anula en $x = ⟦2⟧$ y $x = ⟦3⟧$. $f''(x) = 6x ⟦4⟧$ es positiva en $x = ⟦5⟧$, así que ahí está el mínimo local.`,
+  '2bfp82dmoiw': R`Un agricultor tiene ⟦0⟧ m de valla para cercar un campo rectangular junto a un río recto. No hace falta valla a lo largo del río. ¿Cuál es el área máxima posible?`,
+  '1sgjbqwzp29': R`Lados $x, y, x$ con $2x + y = ⟦0⟧$. $A = x(⟦1⟧ - 2x)$, $A' = ⟦2⟧ - 4x = 0$ da $x = ⟦3⟧$, $y = ⟦4⟧$ y $A = ⟦5⟧$ m².`,
+  '1dz6162q97e': R`Un rectángulo tiene un perímetro de ⟦0⟧ cm. ¿Cuál es el área máxima que puede tener?`,
+  '12er060agfx': R`Con ancho $x$, el largo es $⟦0⟧ - x$ y $A = x(⟦1⟧ - x)$. $A' = ⟦2⟧ - 2x = 0$ da $x = ⟦3⟧$ —un cuadrado— con área $⟦4⟧$ cm².`,
+  'jksdr4ukrw': R`Deriva $y = ⟦0⟧$.`,
+  '1gytk3lwm2l': R`$\frac{d}{dx}\sin x = \cos x$ y $\frac{d}{dx}\cos x = -\sin x$, así que $y' = ⟦0⟧$.`,
+  't51ufxvzbf': R`Una partícula se mueve con posición $s(t) = ⟦0⟧$ metros. Halla su aceleración en $t = ⟦1⟧$ s.`,
+  'bakv4or3q9': R`$v(t) = s'(t) = ⟦0⟧$ y $a(t) = v'(t) = ⟦1⟧$. En $t = ⟦2⟧$: $a = ⟦3⟧$ m/s².`,
+  'twj64cwqj6': R`Una partícula se mueve con posición $s(t) = ⟦0⟧$ metros. Halla su velocidad en $t = ⟦1⟧$ s.`,
+  '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, así que $v(⟦1⟧) = ⟦2⟧$ m/s.`,
+
+  // integrals
+  '1wdt9h7s66j': R`
+<p>La integración deshace la derivación. Una <b>primitiva</b> de $f$ es cualquier $F$ con $F' = f$; la <b>integral indefinida</b> incluye la constante de integración:</p>
+⟦0⟧
+⟦1⟧
+<h3>Integrales definidas</h3>
+⟦2⟧
+<p>Si $f \ge 0$, es el área bajo la curva entre $x = a$ y $x = b$. El área por debajo del eje $x$ cuenta como negativa, así que divide la integral en las raíces si quieres el área total.</p>
+⟦3⟧
+<h3>Hallar una función a partir de su derivada</h3>
+<p>Si $f'(x) = 6x + 2$ y $f(1) = 10$, entonces $f(x) = 3x^2 + 2x + C$ y $3 + 2 + C = 10$ da $C = 5$.</p>
+⟦4⟧`,
+  '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Compruébalo derivando.</p>`,
+  '1jsx5j8bwuv': R`Teorema fundamental del cálculo`,
+  'k8jg70602j': R`<p>Área entre $y = x^2$ e $y = 2x$: se cortan en $x = 0$ y $x = 2$, y $2x \ge x^2$ entre ellos, así que $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
+  '2645ntoenmj': R`<p>No olvides el $+ C$ en las integrales indefinidas, y no lo incluyas en las definidas (se cancela).</p>`,
+  '1a4h4aolv1n': R`Halla $\displaystyle\int (⟦0⟧)\,dx$.`,
+  '14w03nftsp9': R`Aumenta cada exponente en uno y divide entre el nuevo exponente: $⟦0⟧ + C$.`,
+  'lhk659hv1w': R`Calcula $\displaystyle\int_{⟦0⟧}^{⟦1⟧} (⟦2⟧)\,dx$.`,
+  'wzkchwuid3': R`Una primitiva es $F(x) = ⟦0⟧$. $F(⟦1⟧) - F(⟦2⟧) = ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '2g5117b4rfq': R`Halla el área encerrada por $y = ⟦0⟧$ y el eje $x$.`,
+  '1qd8emk0tlu': R`La curva corta el eje en $x = \pm ⟦0⟧$. Área $= \int_{-⟦1⟧}^{⟦2⟧} (⟦3⟧ - x^2)\,dx = \left[⟦4⟧x - \frac{x^3}{3}\right]_{-⟦5⟧}^{⟦6⟧} = ⟦7⟧$.`,
+  '1wjuv7zitnn': R`Halla el área de la región entre $y = x^2$ e $y = ⟦0⟧x$.`,
+  'ospw7lwugt': R`Se cortan en $x = 0$ y $x = ⟦0⟧$. Área $= \int_0^{⟦1⟧} (⟦2⟧x - x^2)\,dx = \frac{⟦3⟧^3}{2} - \frac{⟦4⟧^3}{3} = ⟦5⟧$.`,
+  '2c9m4g6dimy': R`$f'(x) = ⟦0⟧$ y $f(0) = ⟦1⟧$. Halla $f(⟦2⟧)$.`,
+  '29kyl7mnwt5': R`$f(x) = ⟦0⟧ + C$, y $f(0) = C = ⟦1⟧$. Así que $f(⟦2⟧) = ⟦3⟧$.`,
+  '1p83y3ccpb': R`$\int \cos x\,dx = \sin x$ y $\int -\sin x\,dx = \cos x$, así que el resultado es $⟦0⟧ + C$.`,
+  '22xlapf2gb7': R`Calcula $\displaystyle\int_0^{\pi/2} ⟦0⟧\cos x\,dx$.`,
+  '1ppkvfv3p1b': R`Calcula $\displaystyle\int_0^{\pi} ⟦0⟧\sin x\,dx$.`,
+  // formula-only entries
+  'itm4o8cny': R`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} = \begin{pmatrix} 1\cdot5 + 2\cdot7 & 1\cdot6 + 2\cdot8 \\ 3\cdot5 + 4\cdot7 & 3\cdot6 + 4\cdot8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}`,
+  '25hetn68fsz': R`A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}`,
+  '1i9j07wofgh': R`\lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}`,
+  '21rfw9yowzp': R`$$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$`,
+  'oq0mo2ln2m': R`$$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$$$\int \cos x\,dx = \sin x + C \qquad \int \sin x\,dx = -\cos x + C$$`,
+  'ktnrryzzqc': R`$$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$`,
+});
+
+/* Español — Bachillerato (combinatoria → lógica) */
+addT('es', {
+  // combinatorics
+  '205beb6gfix': R`
+⟦0⟧
+<h3>Permutaciones: el orden importa</h3>
+⟦1⟧
+<p>Primer, segundo y tercer premio entre 10 personas: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Ordenaciones con elementos repetidos: $\frac{n!}{p!\,q!\cdots}$. «BANANA» tiene $\frac{6!}{3!\,2!} = 60$ ordenaciones.</li><li>Alrededor de una mesa circular: $(n - 1)!$ (los giros cuentan como iguales).</li></ul>
+<h3>Combinaciones: el orden no importa</h3>
+⟦2⟧
+<p>Un comité de 3 personas elegidas entre 10: $\binom{10}{3} = 120$. Un comité de 2 hombres (de 5) y 3 mujeres (de 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Binomio de Newton</h3>
+⟦3⟧
+<p>El coeficiente de $x^2$ en $(x + 3)^5$ es $\binom{5}{2}3^{3} = 270$.</p>
+⟦4⟧`,
+  '1v1ul4mcyis': R`<p><b>Principio multiplicativo:</b> si una elección se puede hacer de $m$ maneras y otra de $n$ maneras, juntas se pueden hacer de $m \times n$ maneras.</p>`,
+  'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
+  '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
+  '44tf1m2pka': R`<p>Pregúntate: «¿intercambiar dos elementos elegidos da algo distinto?». Si la respuesta es sí, usa permutaciones; si es no, combinaciones.</p>`,
+  'asaw2vy5ho': R`¿De cuántas maneras se pueden repartir los premios ⟦0⟧ entre ⟦1⟧ personas?`,
+  '1qec64m00zt': R`primero, segundo y tercero`,
+  '1yxzw7y67ed': R`primero y segundo`,
+  '1lyu4ddmyjw': R`El orden importa: $^{⟦0⟧}P_{⟦1⟧} = ⟦2⟧ = ⟦3⟧$.`,
+  'mt1d3k54sw': R`¿De cuántas maneras se puede elegir un comité de ⟦0⟧ personas entre ⟦1⟧?`,
+  'jcb5dbxzw7': R`El orden no importa: $\binom{⟦0⟧}{⟦1⟧} = \frac{⟦2⟧!}{⟦3⟧!\,⟦4⟧!} = ⟦5⟧$.`,
+  '1f3hbyul4kh': R`Se elige un comité de ⟦0⟧ hombres y ⟦1⟧ mujeres entre ⟦2⟧ hombres y ⟦3⟧ mujeres. ¿Cuántos comités distintos son posibles?`,
+  '219eq0t6hby': R`¿Cuántas ordenaciones distintas hay de las letras de la palabra <b>⟦0⟧</b>?`,
+  'hkyvcodvcm': R`⟦0⟧ letras con repeticiones ⟦1⟧: $\frac{⟦2⟧!}{⟦3⟧} = ⟦4⟧$.`,
+  'qqcdrtkh5v': R`¿De cuántas maneras se pueden sentar ⟦0⟧ personas alrededor de una mesa redonda (los giros cuentan como iguales)?`,
+  '1n6howxe7gj': R`Fija el asiento de una persona para eliminar los giros y ordena al resto: $(⟦0⟧ - 1)! = ⟦1⟧$.`,
+  '1hwymhgsxow': R`Halla el coeficiente de $x^{⟦0⟧}$ en el desarrollo de $(x + ⟦1⟧)^{⟦2⟧}$.`,
+  '22kaf86ykzl': R`El término con $x^{⟦0⟧}$ es $\binom{⟦1⟧}{⟦2⟧}x^{⟦3⟧}\cdot ⟦4⟧^{⟦5⟧}$, así que el coeficiente es $⟦6⟧ \times ⟦7⟧ = ⟦8⟧$.`,
+  '1zya3uq0ode': R`Halla el coeficiente de $x^{⟦0⟧}$ en el desarrollo de $(⟦1⟧x + 1)^{⟦2⟧}$.`,
+  'po66a6fw7b': R`El término con $x^{⟦0⟧}$ es $\binom{⟦1⟧}{⟦2⟧}(⟦3⟧x)^{⟦4⟧}$, así que el coeficiente es $⟦5⟧ \times ⟦6⟧ = ⟦7⟧$.`,
+  'yh0td3xino': R`Tienes ⟦0⟧ camisas, ⟦1⟧ pantalones y ⟦2⟧ pares de zapatos. ¿Cuántos conjuntos distintos (una prenda de cada tipo) puedes formar?`,
+  'ruo6vpaqqc': R`Principio multiplicativo: $⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.`,
+  '24djh3i5509': R`¿Cuántos códigos PIN de ⟦0⟧ cifras se pueden formar con los dígitos 0–9 ⟦1⟧?`,
+  '1djueshnkes': R`si los dígitos se pueden repetir`,
+  'jadsq7o4xb': R`si ningún dígito se puede usar dos veces`,
+  '22ey7x4a0ix': R`Cada una de las ⟦0⟧ posiciones tiene 10 opciones: $10^{⟦1⟧} = ⟦2⟧$.`,
+  'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ factores) $= ⟦1⟧$.`,
+
+  // probability-sh
+  '1uh8iajnkq0': R`
+⟦0⟧
+<h3>Con y sin reemplazo</h3>
+⟦1⟧
+<p>Los diagramas de árbol lo organizan: se multiplica a lo largo de las ramas y se suma entre ramas.</p>
+<h3>«Al menos uno»</h3>
+<p>Usa el complementario: $P(\text{al menos un seis en 3 tiradas}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Teorema de Bayes</h3>
+⟦2⟧
+⟦3⟧`,
+  '2e5fwx8zs1w': R`Fórmula`,
+  '29i7n2pf82k': R`Complementario`,
+  '1q1cgu220ce': R`Mutuamente excluyentes`,
+  'xux9y4rrwd': R`$P(A \cap B) = 0$, así que $P(A \cup B) = P(A) + P(B)$`,
+  'rl5n9i6yyd': R`Independientes`,
+  '1oou6k826kr': R`Condicionada`,
+  '1qgmh66fhna': R`<p>Una bolsa tiene 5 bolas rojas y 3 azules. Se sacan dos <b>sin</b> reemplazo. $P(\text{ambas rojas}) = \frac{5}{8} \times \frac{4}{7} = \frac{5}{14}$. Con reemplazo sería $\frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$.</p>`,
+  '6418q9b2s4': R`$$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B \mid A)P(A) + P(B \mid A')P(A')}$$<p>«Invierte» una probabilidad condicionada: por ejemplo, de $P(\text{prueba positiva} \mid \text{enfermedad})$ a $P(\text{enfermedad} \mid \text{prueba positiva})$.</p>`,
+  '1zp2m1asa8t': R`<p>$P(A \mid B)$ y $P(B \mid A)$ suelen ser distintas. Una prueba puede tener un 99% de precisión y, aun así, un resultado positivo puede ser con más probabilidad una falsa alarma cuando la enfermedad es rara.</p>`,
+  '5fmcyqy5g8': R`Una bolsa contiene ⟦0⟧ bolas rojas y ⟦1⟧ azules. Se sacan dos bolas sin reemplazo. ¿Cuál es la probabilidad de que ambas sean de color ⟦2⟧?`,
+  '16uk5urbde9': R`$P(A) = ⟦0⟧$, $P(B) = ⟦1⟧$ y $P(A \cap B) = ⟦2⟧$. Halla $P(A \cup B)$.`,
+  '2az4z9znymk': R`Los sucesos $A$ y $B$ son independientes, con $P(A) = ⟦0⟧$ y $P(B) = ⟦1⟧$. Halla $P(A \cap B)$.`,
+  '1ohoi8ye65': R`Independientes: $P(A \cap B) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+  'ymjaeaaedm': R`Los sucesos $A$ y $B$ son independientes, con $P(A) = ⟦0⟧$ y $P(B) = ⟦1⟧$. Halla la probabilidad de que ocurra al menos uno de ellos.`,
+  'y6o9k7peax': R`$1 - P(\text{ninguno}) = 1 - (⟦0⟧)(⟦1⟧) = ⟦2⟧$.`,
+  '2ct3qu61tjb': R`Chicos`,
+  '2402etzr9nx': R`Chicas`,
+  '18ehauvt7sj': R`Hace deporte`,
+  '1wnwpnaqcse': R`No hace deporte`,
+  'hlkdm5jkod': R`Curso 10`,
+  '25bc5gb05vn': R`Curso 11`,
+  '1i4vzjjdcmk': R`Va a pie a la escuela`,
+  '26ih1igl5gl': R`Va en autobús`,
+  '2bybvgum1tw': R`Adultos`,
+  '1lglnmdikqt': R`Niños`,
+  'xfv76cldjt': R`Le gusta el café`,
+  'yxuw13xcv3': R`No le gusta`,
+  '1mojcap1eui': R`Una encuesta dio estos resultados.⟦0⟧Se elige una persona al azar. Sabiendo que pertenece al grupo «⟦1⟧», ¿cuál es la probabilidad de que pertenezca a «⟦2⟧»?`,
+  '1461hv2wfqt': R`Nos limitamos a las ⟦0⟧ personas de «⟦1⟧»: $P = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  '12180tm9why': R`Una encuesta dio estos resultados.⟦0⟧Se elige una persona al azar. Sabiendo que pertenece a «⟦1⟧», ¿cuál es la probabilidad de que pertenezca al grupo «⟦2⟧»?`,
+  'eppqyrg22a': R`Se lanza un dado equilibrado ⟦0⟧ veces. ¿Cuál es la probabilidad de obtener al menos un seis?`,
+  'wzrge9rclz': R`$1 - P(\text{ningún seis}) = 1 - \left(\frac{5}{6}\right)^{⟦0⟧} = 1 - \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$.`,
+  '1sg12en11ty': R`Una enfermedad afecta al ⟦0⟧% de las personas. Una prueba la detecta en el ⟦1⟧% de quienes la tienen, pero también da positivo en el ⟦2⟧% de quienes no la tienen. Si alguien da positivo, ¿cuál es la probabilidad de que tenga la enfermedad? Redondea a 3 decimales.`,
+  '1n6kg7z10yy': R`Una bolsa tiene ⟦0⟧ fichas rojas y ⟦1⟧ azules. Se saca una ficha, se devuelve y se saca una segunda. ¿Cuál es la probabilidad de sacar roja y luego azul?`,
+  '29cd8gay3w4': R`Con reemplazo, las extracciones son independientes: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+
+  // statistics-sh
+  '1xab92vueba': R`
+<h3>Cuartiles y diagramas de caja</h3>
+<p>Ordena los datos. La mediana $Q_2$ los divide por la mitad; $Q_1$ es la mediana de la mitad inferior y $Q_3$ la de la mitad superior (aquí dejamos la mediana fuera de ambas mitades cuando $n$ es impar). El <b>rango intercuartílico</b> $\text{RIC} = Q_3 - Q_1$ mide la dispersión del 50% central.</p>
+⟦0⟧
+<h3>Varianza y desviación típica</h3>
+⟦1⟧
+⟦2⟧
+<h3>Datos agrupados</h3>
+<p>Estima la media con las marcas de clase: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+<h3>Transformar los datos</h3>
+⟦3⟧
+⟦4⟧`,
+  'l167vch4m7': R`<p>Una regla habitual para valores atípicos: los valores por debajo de $Q_1 - 1{,}5\,\text{RIC}$ o por encima de $Q_3 + 1{,}5\,\text{RIC}$.</p>`,
+  '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (muestral)}`,
+  '1c6crwakkdh': R`<p>Datos 2; 4; 4; 4; 5; 5; 7; 9: media 5, desviaciones al cuadrado 9; 1; 1; 1; 0; 0; 4; 16 (suma 32). Varianza poblacional $= \frac{32}{8} = 4$ y $\sigma = 2$.</p>`,
+  'etseh8nv9i': R`Si cada valor pasa a ser`,
+  'tocb6e1sav': R`La media pasa a ser`,
+  '1ng2ylp8qsd': R`La desviación típica pasa a ser`,
+  's70utdhfyg': R`$\sigma$ (sin cambio)`,
+  '1ixl32zcrbx': R`<p>Sumar una constante desplaza los datos pero no los dispersa, así que la desviación típica no cambia.</p>`,
+  '1os4b58x5gr': R`Halla la varianza <b>muestral</b> de: ⟦0⟧.`,
+  '5koevyyrqx': R`Halla la varianza <b>poblacional</b> de: ⟦0⟧.`,
+  '2gl7bcglff0': R`Media $= ⟦0⟧$. Desviaciones al cuadrado: ⟦1⟧ (suma ⟦2⟧). Divide entre ⟦3⟧: $⟦4⟧$.`,
+  'zh9si0i2s': R`Halla la desviación típica poblacional de: ⟦0⟧. Redondea a 2 decimales.`,
+  'iohahpasm4': R`Media $= ⟦0⟧$; $\sigma^2 = \frac{⟦1⟧}{5} = ⟦2⟧$, así que $\sigma = \sqrt{⟦3⟧} \approx ⟦4⟧$.`,
+  'box0w6rodc': R`Halla el rango intercuartílico de: ⟦0⟧. (Deja fuera la mediana al dividir los datos en mitades).`,
+  'dvfyzp44sk': R`Ordenados: ⟦0⟧. La mitad inferior ⟦1⟧ da $Q_1 = ⟦2⟧$; la mitad superior ⟦3⟧ da $Q_3 = ⟦4⟧$. $\text{RIC} = ⟦5⟧ - ⟦6⟧ = ⟦7⟧$.`,
+  '25jr4jzamls': R`Un conjunto de datos tiene media ⟦0⟧ y desviación típica ⟦1⟧. Cada valor se transforma mediante $y = ⟦2⟧x ⟦3⟧$. ¿Cuál es la nueva desviación típica?`,
+  '1h7x4xfpmhw': R`Sumar ⟦0⟧ no cambia la dispersión; multiplicar por ⟦1⟧ la escala por $|⟦2⟧|$: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$.`,
+  '158l5v4dkra': R`Un conjunto de datos tiene media ⟦0⟧ y desviación típica ⟦1⟧. Cada valor se transforma mediante $y = ⟦2⟧x ⟦3⟧$. ¿Cuál es la nueva media?`,
+  '21c6bmoi3b4': R`La media sigue la transformación: $⟦0⟧(⟦1⟧) ⟦2⟧ = ⟦3⟧$.`,
+  'th9c52kib0': R`Estima la media a partir de esta tabla de frecuencias agrupadas (usa las marcas de clase). Redondea a 2 decimales.⟦0⟧`,
+  '1h8qh0j4anc': R`Clase`,
+  '1yeuaowmmsc': R`Marcas de clase ⟦0⟧; $\sum f = ⟦1⟧$, $\sum fm = ⟦2⟧$. Media $\approx \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.`,
+  '1kja7bg5lcu': R`Un conjunto de datos tiene $Q_1 = ⟦0⟧$ y $Q_3 = ⟦1⟧$. Con la regla de $1{,}5 \times \text{RIC}$, ¿cuál es el límite ⟦2⟧ para valores atípicos?`,
+  '3zu0ol0nfw': R`superior`,
+  '9nl2sip6fg': R`inferior`,
+  '1u7a09okm0e': R`$\text{RIC} = ⟦0⟧$ y $1{,}5 \times ⟦1⟧ = ⟦2⟧$. ⟦3⟧`,
+  '191ugb8bucx': R`Límite superior $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '111p9ug7ykx': R`Límite inferior $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+
+  // conics
+  '12p1gvv8rrs': R`
+⟦0⟧
+<h3>Ecuación de la circunferencia</h3>
+⟦1⟧
+<p>Al desarrollar se obtiene la <b>ecuación general</b> $x^2 + y^2 + Dx + Ey + F = 0$, con centro $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ y radio $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+<h3>Posición de un punto</h3>
+<p>Sustituye el punto en $(x - a)^2 + (y - b)^2$ y compara con $r^2$: menor → dentro, igual → sobre, mayor → fuera.</p>
+<h3>Rectas tangentes</h3>
+<p>Una tangente es perpendicular al radio en el punto de contacto. Para la circunferencia $x^2 + y^2 = r^2$ en $(x_1; y_1)$, el radio tiene pendiente $\frac{y_1}{x_1}$, así que la tangente tiene pendiente $-\frac{x_1}{y_1}$.</p>
+<h3>Parábolas</h3>
+<p>$y^2 = 4px$ tiene foco $(p; 0)$ y directriz $x = -p$; $x^2 = 4py$ tiene foco $(0; p)$ y directriz $y = -p$. Cada punto de una parábola está a la misma distancia del foco que de la directriz.</p>
+⟦3⟧`,
+  'd8g3n0gso0': R`\text{Punto medio } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Distancia } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
+  'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centro } (a; b), \text{ radio } r$$`,
+  '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: completando cuadrados, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centro $(3; -2)$, radio 5.</p>`,
+  '11ib4pk61jv': R`<p>En $(x + 3)^2 + (y - 1)^2 = 16$ el centro es $(-3; 1)$ —los signos cambian— y el radio es 4, no 16.</p>`,
+  'a19ymany96': R`Halla el punto medio de $⟦0⟧$ y $⟦1⟧$.`,
+  'l7s72risy9': R`Promedia las coordenadas: $\left(\frac{⟦0⟧ + ⟦1⟧}{2}; \frac{⟦2⟧ + ⟦3⟧}{2}\right) = ⟦4⟧$.`,
+  '1mu3r9x32jw': R`Halla el radio de la circunferencia $⟦0⟧ = 0$.`,
+  '1bhxlcedykj': R`Completando cuadrados: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧ + ⟦3⟧ ⟦4⟧ = ⟦5⟧$, así que $r = ⟦6⟧$.`,
+  'd11etx15kp': R`Halla el centro de la circunferencia $⟦0⟧ = 0$.`,
+  '15nydo8wzsx': R`El centro es $\left(-\frac{D}{2}; -\frac{E}{2}\right) = \left(-\frac{⟦0⟧}{2}; -\frac{⟦1⟧}{2}\right) = ⟦2⟧$.`,
+  '10fdmgbsvjs': R`¿Cuál es la ecuación de la circunferencia de centro $⟦0⟧$ y radio ⟦1⟧?`,
+  'j31butbqt0': R`Sustituye en $(x - a)^2 + (y - b)^2 = r^2$: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧$.`,
+  'qntj72wic0': R`Dentro de la circunferencia`,
+  '1z2fjcjol1w': R`dentro`,
+  '1h4trl2qo1h': R`Sobre la circunferencia`,
+  '1sg9ogxwlev': R`sobre`,
+  '8uau8fsxbq': R`Fuera de la circunferencia`,
+  '6gv2pbcp7q': R`fuera`,
+  '24luyo2ftju': R`¿El punto $⟦0⟧$ está dentro, sobre o fuera de la circunferencia $(x ⟦1⟧)^2 + (y ⟦2⟧)^2 = ⟦3⟧$?`,
+  '28keqi93flp': R`$⟦0⟧$, que es igual a $r^2 = ⟦1⟧$: el punto está <b>sobre</b> la circunferencia.`,
+  '1hj2pbrwkr7': R`$⟦0⟧$, que es menor que $r^2 = ⟦1⟧$: el punto está <b>dentro</b> de la circunferencia.`,
+  'kv7senj1fr': R`$⟦0⟧$, que es mayor que $r^2 = ⟦1⟧$: el punto está <b>fuera</b> de la circunferencia.`,
+  '1hxz2qew8oz': R`Halla el foco de la parábola $⟦0⟧$.`,
+  '22fls2lezk5': R`Compara con ⟦0⟧: $4p = ⟦1⟧$, así que $p = ⟦2⟧$ y el foco es $⟦3⟧$.`,
+  'ez3m02hgj1': R`Halla la pendiente de la tangente a $x^2 + y^2 = ⟦0⟧$ en el punto $⟦1⟧$.`,
+  '1huwumypuyf': R`El radio hasta $⟦0⟧$ tiene pendiente $\frac{⟦1⟧}{⟦2⟧}$. La tangente es perpendicular: pendiente $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+
+  // linear-programming
+  '23l7ef2fdyh': R`
+<p>La <b>programación lineal</b> busca el mejor valor (el mayor o el menor) de una <b>función objetivo</b> lineal, como el beneficio $z = 30x + 20y$, sujeta a <b>restricciones</b> lineales como $x + y \le 40$.</p>
+<ol><li>Escribe las restricciones como inecuaciones (incluye $x \ge 0$, $y \ge 0$).</li><li>Dibuja cada recta frontera y sombrea la región que cumple todas las restricciones: la <b>región factible</b>.</li><li>Halla los vértices resolviendo pares de ecuaciones frontera.</li><li>Evalúa la función objetivo en cada vértice.</li></ol>
+⟦0⟧
+⟦1⟧
+<p>En los problemas de minimización con restricciones «≥», la región suele ser no acotada; con costes positivos, el mínimo sigue estando en un vértice.</p>
+⟦2⟧`,
+  'hs1573xprv': R`<p><b>Teorema de los vértices:</b> si existe un óptimo, se alcanza en un vértice de la región factible.</p>`,
+  '1g8qhbmqb9w': R`<p>Maximiza $z = 3x + 2y$ sujeta a $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vértices: $(0; 0)$, $(6; 0)$, $(4; 4)$ [donde $x + y = 8$ corta a $2x + y = 12$], $(0; 8)$.</p><p>Valores de $z$: 0; 18; 20; 16. Máximo $z = 20$ en $(4; 4)$.</p>`,
+  '11p3z90h4pd': R`<p>Comprueba que cada vértice cumple <b>todas</b> las restricciones: la intersección de dos rectas frontera puede quedar fuera de la región.</p>`,
+  '22hgo1z3v51': R`Maximiza $z = ⟦0⟧ + ⟦1⟧$ sujeta a ⟦2⟧, $x \ge 0$, $y \ge 0$. ¿Cuál es el valor máximo de $z$?`,
+  'thttp4dv20': R`Vértices y valores de $z$: ⟦0⟧. El máximo es <b>⟦1⟧</b>.`,
+  '2g9b1szo820': R`Minimiza $z = ⟦0⟧ + ⟦1⟧$ sujeta a $x + y \ge ⟦2⟧$, $x + 2y \ge ⟦3⟧$, $x \ge 0$, $y \ge 0$. ¿Cuál es el valor mínimo de $z$?`,
+  '72m6dlh1yr': R`La región factible no está acotada, con vértices ⟦0⟧. Como los costes son positivos, el mínimo es <b>⟦1⟧</b>.`,
+  '4eos6o7rio': R`¿Qué punto está en la región factible definida por ⟦0⟧, $x \ge 0$, $y \ge 0$?`,
+  '1jqzy1kt3ra': R`Prueba cada punto en todas las restricciones. $⟦0⟧$ las cumple todas; cada uno de los demás incumple al menos una.`,
+  '15d4uuzw5eq': R`Una panadería hace tartas ($x$) y empanadas ($y$) cada día. Puede hornear como máximo ⟦0⟧ piezas, y el tiempo de horneado da la restricción ⟦1⟧. El beneficio es de ⟦2⟧ dólares por tarta y ⟦3⟧ dólares por empanada. ¿Cuál es el beneficio diario máximo?`,
+  '296rrmt4h4q': R`Restricciones: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Vértices: ⟦3⟧. Beneficio máximo: <b>⟦4⟧</b> dólares.`,
+
+  // logic
+  '22xng4phovn': R`
+<p>Una <b>proposición</b> es un enunciado que es verdadero o falso. Las proposiciones compuestas se forman con <b>conectivos</b>:</p>
+⟦0⟧
+⟦1⟧
+<h3>Condicionales relacionados</h3>
+⟦2⟧
+<h3>Cuantificadores</h3>
+<p>$\forall$ «para todo» y $\exists$ «existe». La negación los intercambia: la negación de «Todos los estudiantes aprobaron» es «<b>Algunos</b> estudiantes <b>no</b> aprobaron»; la negación de «Algunas aves no pueden volar» es «Todas las aves pueden volar».</p>
+<h3>Razonamientos válidos</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; por tanto, $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; por tanto, $\neg p$.</li><li><b>Silogismo:</b> $p \Rightarrow q$, $q \Rightarrow r$; por tanto, $p \Rightarrow r$.</li></ul>
+⟦3⟧`,
+  '2aa32u1lmw9': R`VF`,
+  '1h0id2d836q': R`<p>Una implicación $p \Rightarrow q$ es falsa <b>solo</b> cuando $p$ es verdadera y $q$ es falsa.</p>`,
+  '2aojok6ubm7': R`Forma`,
+  '1bpxgxn3wdt': R`¿Equivalente a la original?`,
+  'clyih3qga0': R`Proposición`,
+  '13tp70kq9iu': R`Recíproca`,
+  '5lqm3x6p6i': R`no`,
+  '1vsuatfpf7o': R`Inversa`,
+  '1zjwynaslfy': R`Contrarrecíproca`,
+  '2377erd9rpv': R`sí`,
+  '1vdptccpewy': R`<p>De $p \Rightarrow q$ y $q$ <b>no</b> se puede concluir $p$ («afirmación del consecuente»). Que el suelo esté mojado no prueba que haya llovido.</p>`,
+  'e62y0oj6y7': R`$p$ es ⟦0⟧, $q$ es ⟦1⟧ y $r$ es ⟦2⟧. ¿Cuál es el valor de verdad de $⟦3⟧$?`,
+  'x0xbdvafwl': R`Sustituye $p = \text{⟦0⟧}$, $q = \text{⟦1⟧}$, $r = \text{⟦2⟧}$ y evalúa de dentro hacia fuera: $⟦3⟧$ es <b>⟦4⟧</b>. (Recuerda: $\Rightarrow$ solo es falsa en el caso V ⇒ F).`,
+  '1kkjzumhca1': R`llueve`,
+  'ia7w0co89o': R`no llueve`,
+  '1ihx0acpu6a': R`el suelo está mojado`,
+  '1v63alfxz6x': R`el suelo no está mojado`,
+  '1l79oqrjsck': R`$n$ es divisible entre 4`,
+  '1yshjhf0kon': R`$n$ no es divisible entre 4`,
+  'qa8yzaajhn': R`$n$ es par`,
+  'cbcna6lfv': R`$n$ no es par`,
+  '31grcmmyn9': R`$ABCD$ es un cuadrado`,
+  'pqxtvsjzqa': R`$ABCD$ no es un cuadrado`,
+  '2gdyvqap69i': R`$ABCD$ es un rectángulo`,
+  'lxgoo3xc2q': R`$ABCD$ no es un rectángulo`,
+  's4qelj4pfa': R`estudias mucho`,
+  '1ri3py7kjks': R`no estudias mucho`,
+  '1wmmmy5ybwg': R`apruebas el examen`,
+  'uo17m9mxei': R`no apruebas el examen`,
+  '14thczs4bru': R`la lámpara está encendida`,
+  '1mg8dlhg5lp': R`la lámpara está apagada`,
+  '496x9r1bce': R`la habitación está iluminada`,
+  '383gdutznm': R`la habitación no está iluminada`,
+  '12lqix1f1k9': R`Si ⟦0⟧, entonces ⟦1⟧.`,
+  'z7jgfl3knp': R`recíproca`,
+  'aqxfua2az0': R`inversa`,
+  '1qj3c13iq5c': R`contrarrecíproca`,
+  '14dtm0889wo': R`¿Cuál es la <b>⟦0⟧</b> de la proposición «⟦1⟧»?`,
+  '1izj6udg2zz': R`Recíproca: intercambiar ($q \Rightarrow p$). Inversa: negar ambas ($\neg p \Rightarrow \neg q$). Contrarrecíproca: intercambiar y negar ($\neg q \Rightarrow \neg p$). Así que la ⟦0⟧ es «⟦1⟧»⟦2⟧`,
+  '15513xdtwsn': R`: es lógicamente equivalente a la original.`,
+  '6brkkcy85o': R`Todos los estudiantes aprobaron el examen.`,
+  '2rjnejqvqb': R`Algunos estudiantes no aprobaron el examen.`,
+  'vjzsxd6qou': R`Ningún estudiante aprobó el examen.`,
+  'oolor24qct': R`Todos los estudiantes suspendieron el examen.`,
+  'aesopm7ka0': R`Algunos estudiantes aprobaron el examen.`,
+  '1c9ng778gwv': R`No todos los estudiantes aprobaron el examen.`,
+  'f39jhzzlxm': R`A todos los gatos les gusta la leche.`,
+  '1rgve8hw4eg': R`A algunos gatos no les gusta la leche.`,
+  '19hhf94uign': R`A ningún gato le gusta la leche.`,
+  '1qzto8uhyzs': R`A todos los gatos les disgusta la leche.`,
+  'xi1gnm2hxv': R`A algunos gatos les gusta la leche.`,
+  'aijf9tywlh': R`No a todos los gatos les gusta la leche.`,
+  '2c7t0e33rd1': R`Todos los empleados llegaron a tiempo.`,
+  'avwdd5b0gg': R`Algunos empleados no llegaron a tiempo.`,
+  '28adrxoh914': R`Ningún empleado llegó a tiempo.`,
+  '1000i19kpx7': R`Todos los empleados llegaron tarde.`,
+  '1tupibwtosw': R`Algunos empleados llegaron a tiempo.`,
+  'syr088g2qb': R`No todos los empleados llegaron a tiempo.`,
+  '1rwcznrx3zt': R`Todos los números de la lista son pares.`,
+  'g4py4lm4nz': R`Algunos números de la lista no son pares.`,
+  'z8en25csvv': R`Ningún número de la lista es par.`,
+  '1m3jao43f24': R`Todos los números de la lista son impares.`,
+  '2nfvm4et1c': R`Algunos números de la lista son pares.`,
+  'xfe0p0mnov': R`No todos los números de la lista son pares.`,
+  '1w0eku5479x': R`Todos los jugadores marcaron un gol.`,
+  '2xjzgvosy4': R`Algunos jugadores no marcaron ningún gol.`,
+  '1eb39gddsae': R`Ningún jugador marcó un gol.`,
+  '1xbzgu8l71r': R`Todos los jugadores se quedaron sin marcar.`,
+  't7ja96nwk4': R`Algunos jugadores marcaron un gol.`,
+  '8j4qjj5ufj': R`No todos los jugadores marcaron un gol.`,
+  'b5r03m1c02': R`¿Cuál es la negación de «⟦0⟧»?`,
+  '1a591wdfgbv': R`$\neg(\forall x\, P(x)) \equiv \exists x\, \neg P(x)$: basta con que <i>algunos</i> no lo cumplan. Negación: «⟦0⟧»`,
+  'do28na3fol': R`$\neg(\exists x\, P(x)) \equiv \forall x\, \neg P(x)$: ninguno lo cumple. Negación: «⟦0⟧»`,
+  'ndnufyumww': R`¿Cuántas filas tiene una tabla de verdad con ⟦0⟧ variables proposicionales distintas?`,
+  'u75a1of7f2': R`Cada variable es V o F, así que hay $2^{⟦0⟧} = ⟦1⟧$ combinaciones.`,
+  '1w39q86nfhw': R`En la tabla de verdad de $⟦0⟧$, ¿en cuántas filas es verdadera la proposición?`,
+  'ny2shau597': R`La tabla tiene ⟦0⟧ filas; al evaluar cada una se ve que la proposición es verdadera en <b>⟦1⟧</b> de ellas y falsa en ⟦2⟧.`,
+  '1zkv6notm6x': R`el partido se suspende`,
+  '28hyo4t2whc': R`el partido no se suspende`,
+  'amilvofe40': R`un número termina en 0`,
+  'osyuok2ad2': R`un número no termina en 0`,
+  'fabia2grh6': R`es divisible entre 5`,
+  '18q6q6gwd11': R`no es divisible entre 5`,
+  'm30q1lwox2': R`riegas la planta`,
+  '1ku1ogs6cx8': R`no riegas la planta`,
+  '1zfcrbg8kca': R`la planta crece`,
+  'ax498dx365': R`la planta no crece`,
+  '10pj6yxl1t7': R`suena la alarma`,
+  '4ju91rp1va': R`no suena la alarma`,
+  'smmfh9u0rs': R`Pablo se despierta`,
+  '1al6yo6prnr': R`Pablo no se despierta`,
+  '1wbxqjf54ui': R`No se puede sacar ninguna conclusión válida.`,
+  '1h3hboouplr': R`Premisa 1: «Si ⟦0⟧, entonces ⟦1⟧». Premisa 2: «⟦2⟧». ¿Qué se puede concluir válidamente?`,
+  '19xzw2kl48j': R`Es un modus ponens ($p \Rightarrow q$, $p$ ⊢ $q$): «⟦0⟧».`,
+  '4fjcpvhawf': R`Es un modus tollens ($p \Rightarrow q$, $\neg q$ ⊢ $\neg p$): «⟦0⟧».`,
+  'enorfzjcll': R`Saber que $q$ es verdadera no nos dice nada sobre $p$ (afirmar el consecuente es una falacia). No hay conclusión válida.`,
+  '1w6l8obljn3': R`Saber $\neg p$ no nos dice nada sobre $q$ (negar el antecedente es una falacia). No hay conclusión válida.`,
+});

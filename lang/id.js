@@ -1396,3 +1396,786 @@ addT('id', {
   '1iy8baeb4jd': R`Titik $⟦0⟧$ didilatasi dengan pusat titik asal dan faktor skala ⟦1⟧. Di manakah bayangannya?`,
   '1fyw56nqicr': R`Kalikan kedua koordinat dengan ⟦0⟧: $(⟦1⟧ \times ⟦2⟧;\; ⟦3⟧ \times ⟦4⟧) = ⟦5⟧$.`,
 });
+
+/* Bahasa Indonesia — SMA (umum, persamaan kuadrat → eksponen dan logaritma) */
+addT('id', {
+  // core
+  '3idcm4kbiz': R`Tuliskan kedua penyelesaian dipisahkan titik koma, misalnya -2; 5.`,
+  '2gdno2vs4iz': R`Tuliskan jawaban seperti 9pi atau 3pi/4.`,
+
+  // quadratics
+  'zojqk1lf1a': R`
+<p><b>Persamaan kuadrat</b> berbentuk $ax^2 + bx + c = 0$ dengan $a \ne 0$. Persamaan ini memiliki paling banyak dua penyelesaian (akar).</p>
+<h3>1. Pemfaktoran</h3>
+<p>Jika suatu hasil kali bernilai nol, salah satu faktornya nol. Cari dua bilangan yang hasil kalinya $c$ dan jumlahnya $b$ (jika $a = 1$):</p>
+⟦0⟧
+<h3>2. Melengkapkan kuadrat sempurna</h3>
+⟦1⟧
+<h3>3. Rumus kuadrat (rumus abc)</h3>
+⟦2⟧
+<h3>Jumlah dan hasil kali akar (Vieta)</h3>
+⟦3⟧
+<p>Jadi, persamaan dengan akar-akar $r$ dan $s$ adalah $x^2 - (r + s)x + rs = 0$.</p>
+⟦4⟧
+⟦5⟧`,
+  '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ atau } x = -3`,
+  '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p><b>Diskriminan</b> $D = b^2 - 4ac$ menunjukkan banyaknya akar real:</p><ul><li>$D \gt 0$: dua akar real berbeda</li><li>$D = 0$: satu akar real kembar</li><li>$D \lt 0$: tidak ada akar real (dua akar kompleks)</li></ul>`,
+  '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, jadi $x = \frac{7 \pm 5}{4}$, sehingga $x = 3$ atau $x = \frac{1}{2}$. Periksa: jumlah $= \frac{7}{2}$ ✓, hasil kali $= \frac{3}{2}$ ✓.</p>`,
+  '2fn72wvlok5': R`<p>Jangan pernah membagi kedua ruas dengan $x$ — akar $x = 0$ akan hilang. Pindahkan semua suku ke satu ruas lalu faktorkan.</p>`,
+  'wqvbu9g7qm': R`$x = ⟦0⟧ \text{ atau } x = ⟦1⟧$`,
+  '2g53wo2odbr': R`Selesaikan $⟦0⟧ = 0$.`,
+  'zl23t8993d': R`Faktorkan: $(x ⟦0⟧)(x ⟦1⟧) = 0$, jadi $x = ⟦2⟧$ atau $x = ⟦3⟧$.`,
+  '116407nwdrj': R`Tentukan diskriminan dari $⟦0⟧ = 0$.`,
+  '3gb665scdq': R`Dua akar real berbeda`,
+  '2fay79x4phj': R`Satu akar real kembar`,
+  'ha2iee3mi': R`Tidak ada akar real`,
+  '21o8qulmmck': R`Berapa banyak akar real dari $⟦0⟧ = 0$?`,
+  '2v9wp16hr5': R`$⟦0⟧$ bernilai positif, jadi ada dua akar real berbeda.`,
+  '1awtt37lduc': R`$⟦0⟧$ bernilai nol, jadi ada satu akar real kembar.`,
+  '1b3c8vdz0p': R`$⟦0⟧$ bernilai negatif, jadi tidak ada akar real.`,
+  '13khpmu10gc': R`Tentukan jumlah akar-akar dari $⟦0⟧ = 0$.`,
+  '23qtrsvpbqj': R`Jumlah akar $= -\frac{b}{a} = ⟦0⟧$.`,
+  '2e310dsl6wd': R`Tentukan hasil kali akar-akar dari $⟦0⟧ = 0$.`,
+  '1s4vvexqix0': R`Hasil kali akar $= \frac{c}{a} = ⟦0⟧$.`,
+  '27metzx2wv2': R`Selesaikan $⟦0⟧ = 0$ dengan jawaban eksak.`,
+  '1pprj3loiqe': R`Tuliskan kedua penyelesaian dipisahkan titik koma, misalnya -3+sqrt(5); -3-sqrt(5).`,
+  '28yk466lqnm': R`Lengkapkan kuadrat: $(x ⟦0⟧)^2 - ⟦1⟧ ⟦2⟧ = 0$, jadi $(x ⟦3⟧)^2 = ⟦4⟧$ dan $x = ⟦5⟧ \pm \sqrt{⟦6⟧}$.`,
+  '13i18rd2v1i': R`Persamaan kuadrat manakah yang akar-akarnya $⟦0⟧$ dan $⟦1⟧$?`,
+  '1qw3sazqaaj': R`Panjang sebuah persegi panjang ⟦0⟧ m lebih dari lebarnya, dan luasnya ⟦1⟧ m². Tentukan lebarnya.`,
+  '27ssy7fe6w9': R`Misalkan lebarnya $w$: $w(w + ⟦0⟧) = ⟦1⟧$, jadi $⟦2⟧ = 0$, yaitu $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Lebar harus positif, jadi $w = ⟦5⟧$ m.`,
+
+  // quad-functions
+  't6hwj355ki': R`
+<p>Grafik $f(x) = ax^2 + bx + c$ berupa <b>parabola</b>. Parabola terbuka <b>ke atas</b> jika $a \gt 0$ (seperti lembah, dengan nilai minimum) dan <b>ke bawah</b> jika $a \lt 0$ (seperti bukit, dengan nilai maksimum).</p>
+⟦0⟧
+<h3>Bentuk puncak</h3>
+⟦1⟧
+<p>Melengkapkan kuadrat mengubah bentuk umum menjadi bentuk puncak: $x^2 - 6x + 11 = (x - 3)^2 + 2$, jadi titik puncaknya $(3; 2)$ dan nilai minimumnya 2. Daerah hasilnya $y \ge 2$.</p>
+⟦2⟧
+⟦3⟧`,
+  's0tk1crha5': R`<ul><li>Sumbu simetri dan titik puncak: $x = -\dfrac{b}{2a}$; titik puncaknya $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Titik potong sumbu-$y$: $(0; c)$.</li><li>Titik potong sumbu-$x$: akar-akar $ax^2 + bx + c = 0$ (jika ada).</li></ul>`,
+  '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{titik puncak } (h; k)`,
+  '17der0pee5r': R`<p>Tinggi sebuah bola adalah $h(t) = -5t^2 + 20t + 1$ meter. Titik puncaknya pada $t = -\frac{20}{2(-5)} = 2$ s, dan tinggi maksimumnya $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
+  'zvghnbm8dy': R`<p>Sumbu simetri tepat berada di tengah-tengah kedua titik potong sumbu-$x$: jika akar-akarnya $p$ dan $q$, sumbu simetrinya $x = \frac{p + q}{2}$.</p>`,
+  '1mhp7175d34': R`Tentukan koordinat $x$ titik puncak $y = ⟦0⟧$.`,
+  '2clzljfduzb': R`Tentukan nilai maksimum $f(x) = ⟦0⟧$.`,
+  '2gjwh27g0hr': R`Tentukan nilai minimum $f(x) = ⟦0⟧$.`,
+  '27czsvma29h': R`Titik puncak di $x = -\frac{b}{2a} = ⟦0⟧$, dan $f(⟦1⟧) = ⟦2⟧$. Karena $a \lt 0$, parabola terbuka ke bawah, jadi ⟦3⟧ adalah nilai maksimum.`,
+  '14ge4kcc386': R`Titik puncak di $x = -\frac{b}{2a} = ⟦0⟧$, dan $f(⟦1⟧) = ⟦2⟧$. Karena $a \gt 0$, parabola terbuka ke atas, jadi ⟦3⟧ adalah nilai minimum.`,
+  'c44znu24a9': R`Tuliskan $y = ⟦0⟧$ dalam bentuk puncak.`,
+  '1vsnqklq7o3': R`Lengkapkan kuadrat: $x^2 ⟦0⟧x = (x ⟦1⟧)^2 - ⟦2⟧$. Jadi $y = (x ⟦3⟧)^2 - ⟦4⟧ ⟦5⟧ = (x ⟦6⟧)^2 ⟦7⟧$, dengan titik puncak $⟦8⟧$.`,
+  'zpcs87kljp': R`Sebuah parabola memotong sumbu-$x$ di $x = ⟦0⟧$ dan $x = ⟦1⟧$. Apa persamaan sumbu simetrinya? Tuliskan nilai $x$-nya.`,
+  'fw0opla76f': R`Sumbu simetri berada di tengah-tengah kedua akar: $x = \frac{⟦0⟧ + ⟦1⟧}{2} = ⟦2⟧$.`,
+  'v46mha0d5d': R`Tinggi sebuah bola (dalam meter) setelah $t$ detik adalah $h(t) = ⟦0⟧$. ⟦1⟧`,
+  '1hvtdauomyu': R`Setelah berapa detik bola mencapai tinggi maksimum?`,
+  '1316b0fmwet': R`Berapa tinggi maksimumnya?`,
+  'ycs9rjyck7': R`Titik puncak di $t = -\frac{⟦0⟧}{2(-5)} = ⟦1⟧$ s.⟦2⟧`,
+  'ztkk37xmwf': R` Maka $h(⟦0⟧) = -5(⟦1⟧)^2 + ⟦2⟧(⟦3⟧) + ⟦4⟧ = ⟦5⟧$ m.`,
+  '1e1oh4ob6ax': R`Apa daerah hasil $f(x) = ⟦0⟧$?`,
+  '1xjsk3emsrc': R`Titik puncaknya $⟦0⟧$ dan parabola terbuka ke atas, jadi daerah hasilnya $y \ge ⟦1⟧$.`,
+  'xs3xxut6a6': R`Titik puncaknya $⟦0⟧$ dan parabola terbuka ke bawah, jadi daerah hasilnya $y \le ⟦1⟧$.`,
+
+  // functions
+  '8naid6th7m': R`
+<p><b>Fungsi</b> memasangkan setiap masukan dengan tepat <b>satu</b> keluaran. Himpunan masukan yang diperbolehkan disebut <b>daerah asal</b> (domain); himpunan keluarannya disebut <b>daerah hasil</b> (range).</p>
+<h3>Daerah asal alami</h3>
+<ul><li>Tidak boleh membagi dengan nol: untuk $\frac{1}{x - 2}$, daerah asalnya $x \ne 2$.</li><li>Tidak ada akar kuadrat dari bilangan negatif: untuk $\sqrt{x + 3}$, daerah asalnya $x \ge -3$.</li><li>Logaritma memerlukan numerus positif: untuk $\log(x - 1)$, daerah asalnya $x \gt 1$.</li></ul>
+<h3>Komposisi</h3>
+⟦0⟧
+⟦1⟧
+<h3>Fungsi invers</h3>
+<p>$f^{-1}$ membatalkan kerja $f$: jika $f(a) = b$ maka $f^{-1}(b) = a$. Untuk mencarinya, tulis $y = f(x)$, tukar $x$ dan $y$, lalu nyatakan $y$.</p>
+⟦2⟧
+<p>Grafik $f^{-1}$ adalah pencerminan grafik $f$ terhadap garis $y = x$. Hanya fungsi satu-satu (injektif) yang memiliki invers.</p>
+⟦3⟧`,
+  '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Terapkan $g$ dahulu, lalu $f$. Secara umum, $f \circ g \ne g \circ f$.</p>`,
+  '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Maka $f(g(3)) = f(9) = 19$, tetapi $g(f(3)) = g(7) = 49$. Dalam bentuk ekspresi: $f(g(x)) = 2x^2 + 1$ dan $g(f(x)) = (2x + 1)^2$.</p>`,
+  '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: tukar untuk mendapat $x = 3y - 5$, jadi $y = \frac{x + 5}{3}$ dan $f^{-1}(x) = \frac{x + 5}{3}$. Periksa: $f(f^{-1}(x)) = x$ ✓</p>`,
+  '26njpf4q54n': R`<p>$f^{-1}(x)$ berarti fungsi invers, bukan $\frac{1}{f(x)}$.</p>`,
+  'i7pel35sqq': R`Misalkan $f(x) = ⟦0⟧$ dan $g(x) = ⟦1⟧$. Tentukan $⟦2⟧$.`,
+  '1znd9mktzvv': R`Hitung bagian dalam dahulu: $g(⟦0⟧) = ⟦1⟧$. Lalu $f(⟦2⟧) = ⟦3⟧$.`,
+  'hfjxna60e5': R`Hitung bagian dalam dahulu: $f(⟦0⟧) = ⟦1⟧$. Lalu $g(⟦2⟧) = ⟦3⟧$.`,
+  '202pgbw3wu2': R`Jika $f(x) = ⟦0⟧$ dan $g(x) = ⟦1⟧$, tentukan $(f \circ g)(x)$.`,
+  'f0qp6mlevp': R`Tentukan invers dari $f(x) = ⟦0⟧$.`,
+  '169q0jrvorq': R`Tulis $y = ⟦0⟧$ lalu tukar $x$ dan $y$: $x = ⟦1⟧$. Nyatakan $y$: $y = \frac{x ⟦2⟧}{⟦3⟧}$.`,
+  'qmg4emyl6w': R`Diketahui $f(x) = ⟦0⟧$. Tentukan $f^{-1}(⟦1⟧)$.`,
+  '15zrqw164xy': R`$f^{-1}(⟦0⟧)$ adalah masukan yang menghasilkan ⟦1⟧: $⟦2⟧ = ⟦3⟧$, jadi $x = ⟦4⟧$.`,
+  'uego2o122d': R`Bilangan di bawah tanda akar tidak boleh negatif: $x ⟦0⟧ \ge 0$.`,
+  '39j6h0pn24': R`Penyebut tidak boleh nol: $x ⟦0⟧ \ne 0$.`,
+  'sbga4fns30': R`Kita perlu $⟦0⟧ - x \ge 0$.`,
+  '21vfyvxcrw8': R`Numerus logaritma harus positif: $x ⟦0⟧ \gt 0$.`,
+  '10h8v1f5joc': R`Apa daerah asal $f(x) = ⟦0⟧$?`,
+  '1i0w7q8kkjh': R`⟦0⟧ Jadi daerah asalnya ⟦1⟧.`,
+  '1qymltc7n95': R`Misalkan $f(x) = \begin{cases} ⟦0⟧, & x \lt ⟦1⟧ \\ ⟦2⟧, & x \ge ⟦3⟧ \end{cases}$. Tentukan $f(⟦4⟧)$.`,
+  '2c8e7agksdd': R`Karena $⟦0⟧ \lt ⟦1⟧$, gunakan aturan pertama: $f(⟦2⟧) = ⟦3⟧$.`,
+  'ranlsqjvf9': R`Karena $⟦0⟧ \ge ⟦1⟧$, gunakan aturan kedua: $f(⟦2⟧) = ⟦3⟧$.`,
+
+  // exp-log
+  'l9f49uc5fx': R`
+<p>Eksponen pecahan menggabungkan pangkat dan akar: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Jadi $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ dan $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logaritma</h3>
+⟦0⟧
+⟦1⟧
+<h3>Menyelesaikan persamaan</h3>
+<ul><li>Basis sama: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Persamaan logaritma: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Basis berbeda: logaritmakan kedua ruas, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
+<h3>Pertumbuhan dan peluruhan eksponensial</h3>
+<p>$A = A_0 \cdot r^{t/T}$: besaran yang dikalikan $r$ setiap $T$ satuan waktu. Bunga majemuk: $A = P(1 + i)^n$.</p>
+⟦2⟧`,
+  'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Logaritma menjawab pertanyaan "$b$ dipangkatkan berapa agar menjadi $a$?" — jadi $\log_2 32 = 5$. $\log x$ berarti $\log_{10} x$; $\ln x$ berarti $\log_e x$ dengan $e \approx 2{,}718$.</p>`,
+  '5k5p7u9mjc': R`perubahan basis`,
+  'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. Sifat perkalian mengubah <i>hasil kali</i> di dalam menjadi penjumlahan di luar.</p>`,
+  'osur1d06sr': R`Hitunglah $\log_{⟦0⟧} ⟦1⟧$.`,
+  '8m3m9l7mik': R`$⟦0⟧^{⟦1⟧} = ⟦2⟧$, jadi $\log_{⟦3⟧} ⟦4⟧ = ⟦5⟧$.`,
+  '1qkid4ac6wc': R`Hitunglah $\log_{⟦0⟧} ⟦1⟧ + \log_{⟦2⟧} ⟦3⟧$.`,
+  '1kop25xxaoo': R`Hitunglah $\log_{⟦0⟧} ⟦1⟧ - \log_{⟦2⟧} ⟦3⟧$.`,
+  '1cctawopufn': R`Hitunglah $⟦0⟧^{-\frac{⟦1⟧}{⟦2⟧}}$.`,
+  '2bg5dnahfhi': R`Tuliskan pecahan seperti 1/4.`,
+  '2cumtrnn88x': R`Hitunglah $⟦0⟧^{\frac{⟦1⟧}{⟦2⟧}}$.`,
+  'x9eagz2e3z': R`Selesaikan $⟦0⟧^{⟦1⟧} = ⟦2⟧$.`,
+  '1zhriq8g9vc': R`$⟦0⟧ = ⟦1⟧^{⟦2⟧}$. Basis yang sama berarti eksponennya sama: $⟦3⟧ = ⟦4⟧$, jadi $x = ⟦5⟧$.`,
+  '5s8f33ips': R`Selesaikan $\log_{⟦0⟧}(⟦1⟧) = ⟦2⟧$.`,
+  '1qw3ujxvp13': R`Dalam bentuk eksponen: $⟦0⟧ = ⟦1⟧^{⟦2⟧} = ⟦3⟧$, jadi $⟦4⟧ = ⟦5⟧$ dan $x = ⟦6⟧$.`,
+  '1owsh5togde': R`Sebuah koloni bakteri berisi ⟦0⟧ sel menjadi dua kali lipat setiap ⟦1⟧ jam. Berapa banyak sel setelah ⟦2⟧ jam?`,
+  '24ouek9sj2d': R`Sebuah koloni bakteri berisi ⟦0⟧ sel menjadi tiga kali lipat setiap ⟦1⟧ jam. Berapa banyak sel setelah ⟦2⟧ jam?`,
+  'sad2coi0y': R`Ada $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ periode, jadi $N = ⟦3⟧ \times ⟦4⟧^{⟦5⟧} = ⟦6⟧$.`,
+  'uyumfdhjnr': R`Diketahui $\log 2 \approx 0{,}3010$ dan $\log 3 \approx 0{,}4771$. Tentukan $\log ⟦0⟧$ sampai 4 angka di belakang koma.⟦1⟧`,
+  'a59cccufc1': R` (Petunjuk: $\log 5 = \log 10 - \log 2$.)`,
+  '12khv2t073z': R`$⟦0⟧ = ⟦1⟧$, jadi $\log ⟦2⟧ = ⟦3⟧ \approx ⟦4⟧$.⟦5⟧`,
+  '2aoxsl3f4vw': R` Di sini $\log 5 = 1 - 0{,}3010 = 0{,}6990$.`,
+});
+
+/* Bahasa Indonesia — SMA (barisan dan deret → aturan sinus dan kosinus) */
+addT('id', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>Di sini $a$ adalah suku pertama dan $l$ suku terakhir.</p>
+⟦1⟧
+⟦2⟧
+<h3>Deret geometri tak hingga</h3>
+⟦3⟧
+<p>Contoh: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Notasi sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`Aritmetika`,
+  '1atqzl7ltey': R`Geometri`,
+  'zs186mkwh5': R`ditambah $d$ setiap kali`,
+  '160nuilyero': R`dikali $r$ setiap kali`,
+  '99dr6iy4ys': R`Jumlah n suku`,
+  '1yzmu3p7b4v': R`<p>Jumlah 20 suku pertama dari $3; 7; 11; \ldots$ adalah $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>`,
+  '8pkxhjbkfd': R`<p>Pada barisan aritmetika, $u_4 = 17$ dan $u_9 = 42$. Keduanya terpisah lima langkah $d$, jadi $5d = 25$, $d = 5$, dan $a = 17 - 3 \times 5 = 2$.</p>`,
+  '3zsr22exdg': R`<p>Jika $|r| \lt 1$, suku-sukunya mengecil cukup cepat sehingga jumlahnya menuju suatu nilai berhingga:</p>$$S_\infty = \frac{a}{1 - r}$$<p>Jika $|r| \ge 1$, deret tidak memiliki jumlah berhingga.</p>`,
+  '22swm7le3e': R`<p>Antara $u_p$ dan $u_q$ ada $q - p$ langkah, bukan $q - p + 1$.</p>`,
+  'v83xyier66': R`Pada barisan aritmetika, $u_{⟦0⟧} = ⟦1⟧$ dan $u_{⟦2⟧} = ⟦3⟧$. Tentukan $u_{⟦4⟧}$.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, jadi $d = ⟦3⟧$. Lalu $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ dan $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`Tentukan jumlah ⟦0⟧ suku pertama barisan aritmetika ⟦1⟧; …`,
+  'vsiejpaurw': R`Tentukan suku $u_{⟦0⟧}$ dari barisan geometri ⟦1⟧; …`,
+  '2fg2ivyt6zs': R`Tentukan jumlah ⟦0⟧ suku pertama deret geometri $⟦1⟧ + \cdots$`,
+  '6by3ukfsg3': R`Tentukan jumlah tak hingga deret geometri dengan suku pertama ⟦0⟧ dan rasio $⟦1⟧$.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$, jadi $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`Hitunglah $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.`,
+  'zk5lcxjf3d': R`Gaji Dina pada tahun pertama adalah ⟦0⟧ ribu rupiah dan naik ⟦1⟧ ribu rupiah setiap tahun. Berapa total penghasilannya selama ⟦2⟧ tahun pertama?`,
+  '222tg0c1ffy': R`Ini deret aritmetika: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ ribu rupiah.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
+⟦0⟧
+<p>Jembatan keledai: <b>SOH-CAH-TOA</b> (sin = depan/miring, cos = samping/miring, tan = depan/samping). Selain itu, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, dan kebalikannya adalah $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Nilai eksak</h3>
+⟦1⟧
+<h3>Radian</h3>
+<p>$180^\circ = \pi$ radian. Untuk mengubah derajat ke radian, kalikan dengan $\frac{\pi}{180}$; radian ke derajat, kalikan dengan $\frac{180}{\pi}$. Jadi $60^\circ = \frac{\pi}{3}$ dan $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Lingkaran satuan</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{sisi depan}}{\text{sisi miring}} \qquad \cos\theta = \frac{\text{sisi samping}}{\text{sisi miring}} \qquad \tan\theta = \frac{\text{sisi depan}}{\text{sisi samping}}`,
+  'ig8vf2x1y6': R`sin θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`tidak terdefinisi`,
+  'uyvhui04wr': R`<p>Untuk setiap sudut $\theta$, titik pada lingkaran satuan adalah $(\cos\theta; \sin\theta)$. Tanda di tiap kuadran — "<b>Se</b>mua <b>Sin</b>dikat <b>Tan</b>gannya <b>Kos</b>ong": semua positif di kuadran I, sin di II, tan di III, cos di IV.</p><p>Gunakan <b>sudut acuan</b> (sudut lancip terhadap sumbu-$x$) dengan tanda yang tepat: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>Dari jarak 30 m, sudut elevasi ke puncak menara adalah $60^\circ$. Tinggi $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52{,}0$ m.</p>`,
+  'neyxpix7b9': R`<p>Periksa mode kalkulator (DEG atau RAD) sebelum menghitung fungsi trigonometri.</p>`,
+  '67i6rxexro': R`Tentukan nilai eksak $⟦0⟧ ⟦1⟧$.`,
+  'pdy7ypcls7': R`Nilai eksak seperti sqrt(3)/2 diterima.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ berada di kuadran ⟦2⟧, tempat $⟦3⟧$ bernilai ⟦4⟧. Sudut acuannya $⟦5⟧^\circ$ dan $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, jadi $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧Pada $⟦1⟧^\circ$, titik pada lingkaran satuan adalah $⟦2⟧$ $= (\cos\theta; \sin\theta)$, jadi $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`Ubah $⟦0⟧^\circ$ ke radian.`,
+  'gs4x19407v': R`Kalikan dengan $\frac{\pi}{180}$: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`Ubah $⟦0⟧$ radian ke derajat.`,
+  'zfi973h2bw': R`Kalikan dengan $\frac{180}{\pi}$: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`Pada segitiga siku-siku, sisi samping sudut $⟦0⟧^\circ$ panjangnya ⟦1⟧ cm. Tentukan sisi depannya sampai 2 angka di belakang koma.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{de}}{⟦1⟧}$, jadi de $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`Sebuah segitiga siku-siku memiliki sisi miring ⟦0⟧ cm dan sebuah sudut $⟦1⟧^\circ$. Tentukan sisi depan sudut itu sampai 2 angka di belakang koma.`,
+  '22kukzeyh6': R`Sebuah segitiga siku-siku memiliki sisi miring ⟦0⟧ cm dan sebuah sudut $⟦1⟧^\circ$. Tentukan sisi samping sudut itu sampai 2 angka di belakang koma.`,
+  'w56ix8w8yr': R`de`,
+  '5ydwv3it97': R`sa`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, jadi sisinya $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  '2abmsiuwu52': R`$\theta$ lancip dan $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Tentukan $⟦2⟧\theta$.`,
+  '1qudt03n4v8': R`Gambar segitiga siku-siku dengan sisi depan ⟦0⟧ dan sisi miring ⟦1⟧; sisi sampingnya $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. Jadi $⟦5⟧$.`,
+  '28dk1p4hmng': R`Dari sebuah titik yang berjarak ⟦0⟧ m dari kaki gedung, sudut elevasi ke puncaknya $⟦1⟧^\circ$. Berapa tinggi gedung itu? Berikan jawaban eksak.`,
+  '1fxpcv94bft': R`Jawaban eksak seperti 12sqrt(3) diterima.`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ dan $\tan ⟦2⟧^\circ = ⟦3⟧$, jadi $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`Kuadran I`,
+  '4o87w2367v': R`Kuadran II`,
+  '11djzpzc46w': R`Kuadran III`,
+  '26d39yjlrkj': R`Kuadran IV`,
+  '1t5qxibr3fa': R`Di kuadran manakah $\theta$ jika $⟦0⟧\theta ⟦1⟧ 0$ dan $⟦2⟧\theta ⟦3⟧ 0$?`,
+  '1856p6n9vrk': R`sin positif di kuadran I dan II; cos di I dan IV; tan di I dan III. Hanya <b>⟦0⟧</b> yang memenuhi kedua syarat.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Menyelesaikan persamaan trigonometri</h3>
+<p>Tentukan sudut acuannya, lalu semua sudut pada interval yang diminta dengan tanda yang benar.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`Identitas Pythagoras`,
+  '28msif6x03y': R`Jumlah dan selisih sudut`,
+  '1qlqqnnfd2i': R`Sudut rangkap`,
+  '14xjp53gt4x': R`<p>Selesaikan $\sin x = -\frac{1}{2}$ untuk $0^\circ \le x \lt 360^\circ$. Sudut acuannya $30^\circ$; sinus negatif di kuadran III dan IV, jadi $x = 180^\circ + 30^\circ = 210^\circ$ atau $x = 360^\circ - 30^\circ = 330^\circ$.</p>`,
+  '1hkvix57r6q': R`<p>Jika $\sin\theta = \frac{3}{5}$ dan $\theta$ di kuadran II, maka $\cos\theta = -\frac{4}{5}$ — identitas Pythagoras memberi besarnya, kuadran memberi tandanya.</p>`,
+  '64164qr2jw': R`$\theta$ lancip dan $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Tentukan $\sin 2\theta$.`,
+  '27wxa35nxaa': R`Diketahui $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Tentukan $\cos 2\theta$.`,
+  'szbqx0thv8': R`Selesaikan $⟦0⟧ x = ⟦1⟧$ untuk $0^\circ \le x \lt 360^\circ$.`,
+  '22m72qx0p66': R`Tuliskan sudut-sudutnya dalam derajat, dipisahkan titik koma, misalnya 30; 150.`,
+  'ygon4mdoxw': R`Sudut acuannya $⟦0⟧^\circ$. $⟦1⟧$ bernilai ⟦2⟧ di kuadran tempat $⟦3⟧^\circ$ dan $⟦4⟧^\circ$ berada, jadi $x = ⟦5⟧^\circ$ atau $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`selisih dua kuadrat, lalu $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`rumus sudut rangkap`,
+  'sj6onjglro': R`penjabaran, yang menghasilkan $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$`,
+  '7gzo83e030': R`Gunakan ⟦0⟧: $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`Tentukan nilai eksak $⟦0⟧$.`,
+  '2ayoc6nyniw': R`Jawaban eksak seperti (sqrt(6)+sqrt(2))/4 diterima.`,
+  '1mewvixpsgq': R`Tuliskan sebagai $⟦0⟧$ dan gunakan rumus jumlah sudut dengan nilai eksak untuk $30^\circ$, $45^\circ$, dan $60^\circ$: hasilnya $⟦1⟧$.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ dan $\theta$ di kuadran ⟦1⟧. Tentukan $⟦2⟧$.`,
+  '19cq8bi37ib': R`Sisi-sisi segitiganya ⟦0⟧, ⟦1⟧, dan ⟦2⟧. Di kuadran ⟦3⟧, sinus bernilai ⟦4⟧ dan kosinus bernilai ⟦5⟧, jadi $\sin\theta = ⟦6⟧$ dan $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>Beri nama segitiga sehingga sisi $a$ berhadapan dengan sudut $A$, $b$ dengan $B$, dan $c$ dengan $C$. Aturan ini berlaku untuk <b>setiap</b> segitiga, bukan hanya segitiga siku-siku.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Gunakan jika diketahui satu sisi dan sudut di hadapannya, ditambah satu sisi atau sudut lain.</p>`,
+  'mp16igkhf3': R`Aturan sinus`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Gunakan jika diketahui dua sisi dan sudut apitnya (sisi-sudut-sisi), atau ketiga sisinya.</p>`,
+  'kgaid4s1rf': R`Aturan kosinus`,
+  '1w8yehsbjfu': R`$$\text{Luas} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Heron: } \text{Luas} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>Sisi 5 dan 8 dengan sudut apit $60^\circ$: sisi ketiga $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, dan luasnya $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>`,
+  '11plyaa7o04': R`<p>Aturan sinus bisa menghasilkan dua segitiga yang mungkin saat mencari sudut ("kasus ambigu"): $\sin B = 0{,}8$ memungkinkan $B \approx 53{,}1^\circ$ <i>atau</i> $B \approx 126{,}9^\circ$. Periksa apakah keduanya memenuhi.</p>`,
+  'l2pu7cls8u': R`Pada segitiga $ABC$, $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm, dan $A = ⟦2⟧^\circ$. Tentukan $a$ sampai 2 angka di belakang koma.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, jadi $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`Sebuah segitiga memiliki sisi ⟦0⟧, ⟦1⟧, dan ⟦2⟧. Tentukan sudut di hadapan sisi yang panjangnya ⟦3⟧.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, jadi $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`Pada segitiga $ABC$, $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$, dan $a = ⟦2⟧$ cm. Tentukan $b$ sampai 2 angka di belakang koma.`,
+  'i5vdhhm6yu': R`Aturan sinus: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, jadi $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`Tentukan luas eksak segitiga dengan sisi ⟦0⟧ cm dan ⟦1⟧ cm serta sudut apit $⟦2⟧^\circ$.`,
+  '25opm4iwiww': R`Jawaban eksak seperti 6sqrt(3) diterima.`,
+  'cb99xoymur': R`Luas $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$, dengan $\sin ⟦3⟧^\circ = ⟦4⟧$, sehingga $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`Gunakan rumus Heron untuk menentukan luas segitiga dengan sisi ⟦0⟧, ⟦1⟧, dan ⟦2⟧.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Luas $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});
+
+/* Bahasa Indonesia — SMA (polinomial → integral) */
+addT('id', {
+  // polynomials
+  '1dv82xempy': R`
+<p><b>Polinomial</b> (suku banyak) adalah jumlah suku-suku $a_n x^n + \cdots + a_1 x + a_0$ dengan pangkat bilangan cacah. <b>Derajatnya</b> adalah pangkat tertinggi; $a_n$ adalah <b>koefisien utama</b>. Saat polinomial dikalikan, derajatnya dijumlahkan dan koefisien utamanya dikalikan.</p>
+<h3>Pembagian</h3>
+<p>Membagi $P(x)$ dengan $(x - a)$ menghasilkan hasil bagi $Q(x)$ dan sisa $R$: $P(x) = (x - a)Q(x) + R$. <b>Cara Horner</b> (pembagian sintetis) adalah cara cepat yang hanya memakai koefisien.</p>
+⟦0⟧
+⟦1⟧
+<h3>Akar-akar polinomial berderajat tiga</h3>
+<p>Untuk $ax^3 + bx^2 + cx + d = 0$ dengan akar-akar $r_1, r_2, r_3$:</p>
+⟦2⟧
+⟦3⟧`,
+  '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ dengan cara Horner:</p>⟦0⟧<p>Hasil bagi $x^2 - 2x - 3$, sisa 0.</p>`,
+  'agfsjitvd': R`<p><b>Teorema sisa:</b> sisa pembagian $P(x)$ oleh $(x - a)$ adalah $P(a)$.</p><p><b>Teorema faktor:</b> $(x - a)$ adalah faktor $P(x)$ tepat ketika $P(a) = 0$.</p>`,
+  'sqyu8zjvtn': R`<p>Membagi dengan $(x + 3)$ berarti $a = -3$: hitung $P(-3)$, bukan $P(3)$.</p>`,
+  'u4dg9by4un': R`Tentukan sisa pembagian $P(x) = ⟦0⟧$ oleh $(x ⟦1⟧)$.`,
+  '212dl6gy5gu': R`Menurut teorema sisa, sisanya adalah $P(⟦0⟧) = ⟦1⟧(⟦2⟧)^3 ⟦3⟧(⟦4⟧)^2 ⟦5⟧(⟦6⟧) ⟦7⟧ = ⟦8⟧$.`,
+  '20swcfjanfa': R`$(x ⟦0⟧)$ adalah faktor dari $P(x) = ⟦1⟧$. Tentukan $k$.`,
+  '2cscisbqmyg': R`Menurut teorema faktor $P(⟦0⟧) = 0$: $⟦1⟧ ⟦2⟧ ⟦3⟧k ⟦4⟧ = 0$, jadi $⟦5⟧k = ⟦6⟧$ dan $k = ⟦7⟧$.`,
+  '28czzdou58n': R`Untuk $ax^3 + bx^2 + cx + d = 0$, ⟦0⟧.`,
+  '1uakfcji416': R`jumlah akar-akarnya adalah $-\frac{b}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1cl4qeneyhq': R`hasil kali akar-akarnya adalah $-\frac{d}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1h1il3vuozs': R`Bagilah $⟦0⟧$ dengan $(x ⟦1⟧)$. Apa hasil baginya?`,
+  '1432prhuyml': R`Cara Horner dengan ⟦0⟧ pada koefisien ⟦1⟧ menghasilkan ⟦2⟧ dan sisa 0, jadi hasil baginya $⟦3⟧$.`,
+  '1v0pp8s5fwz': R`Perhatikan $⟦0⟧$. Berapa derajat hasil kalinya?`,
+  '79jcaurtjl': R`Perhatikan $⟦0⟧$. Berapa koefisien utama hasil kalinya?`,
+  'lgw9ke18qe': R`Perhatikan $⟦0⟧$. Berapa konstanta hasil kalinya?`,
+  '18bitz7l1ry': R`Saat dikalikan, derajatnya dijumlahkan: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '1x77krhanqb': R`Kalikan suku-suku utamanya: $⟦0⟧ \cdot ⟦1⟧ = ⟦2⟧$, jadi koefisien utamanya ⟦3⟧.`,
+  '1uusi8yg5sk': R`Konstanta hasil kali adalah hasil kali konstanta-konstantanya: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+
+  // matrices
+  '104wb071wss': R`
+<p><b>Matriks</b> adalah susunan bilangan berbentuk persegi panjang. Matriks $m \times n$ memiliki $m$ baris dan $n$ kolom; $a_{ij}$ adalah elemen pada baris $i$, kolom $j$.</p>
+<h3>Operasi</h3>
+<ul><li><b>Penjumlahan/pengurangan</b> elemen demi elemen (hanya untuk ordo yang sama).</li><li><b>Perkalian skalar</b>: kalikan setiap elemen.</li><li><b>Perkalian</b> $AB$: elemen $(i, j)$ adalah baris $i$ dari $A$ "dikali" kolom $j$ dari $B$. Syaratnya (banyak kolom $A$) = (banyak baris $B$), dan matriks $m \times n$ dikali $n \times p$ menghasilkan $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinan dan invers (2 × 2)</h3>
+⟦2⟧
+<p>Jika $\det A = 0$, matriksnya <b>singular</b> dan tidak memiliki invers. Invers dapat menyelesaikan sistem persamaan: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧`,
+  '4bk6hc9is8': R`<p>Perkalian matriks <b>tidak komutatif</b>: umumnya $AB \ne BA$.</p>`,
+  '4ckwr8umw4': R`<p>Untuk invers: <b>tukar</b> $a$ dan $d$, <b>ubah tanda</b> $b$ dan $c$, lalu bagi dengan determinan.</p>`,
+  '1h6gnxjh2g6': R`Tentukan determinan dari $⟦0⟧$.`,
+  '1gfhimaac6g': R`Tentukan $AB$ dengan $A = ⟦0⟧$ dan $B = ⟦1⟧$.`,
+  '1dy8pvpnep7': R`Tuliskan keempat elemen baris demi baris, misalnya 19; 22; 43; 50.`,
+  'xfxhg5b3o2': R`Baris dikali kolom: $AB = \begin{pmatrix} ⟦0⟧\cdot⟦1⟧ + ⟦2⟧\cdot⟦3⟧ & \cdots \\ \cdots & \cdots \end{pmatrix} = ⟦4⟧$.`,
+  '27lrdslcvs8': R`Tentukan invers dari $⟦0⟧$.`,
+  'ea7d95erhp': R`Tuliskan keempat elemen baris demi baris, dipisahkan titik koma.`,
+  '2euzxos9ar7': R`$\det = (⟦0⟧)(⟦1⟧) - (⟦2⟧)(⟦3⟧) = ⟦4⟧$. Tukar $a$ dan $d$, ubah tanda $b$ dan $c$, bagi dengan ⟦5⟧: $⟦6⟧$.`,
+  '2fs8fio5g5w': R`Untuk nilai $x$ berapa $⟦0⟧$ merupakan matriks singular?`,
+  'et7lf19q4x': R`Singular berarti $\det = 0$: $⟦0⟧x - (⟦1⟧)(⟦2⟧) = 0$, jadi $x = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '2280y15nq4f': R`$A = ⟦0⟧$ dan $B = ⟦1⟧$. Tentukan elemen baris ⟦2⟧, kolom ⟦3⟧ dari $⟦4⟧A - ⟦5⟧B$.`,
+  'h3p6r4d6o': R`$A = ⟦0⟧$ dan $B = ⟦1⟧$. Tentukan elemen baris ⟦2⟧, kolom ⟦3⟧ dari $AB$.`,
+  'xdj657lej': R`Baris ⟦0⟧ dari $A$ dikali kolom ⟦1⟧ dari $B$: $⟦2⟧ = ⟦3⟧$. (Matriks $2 \times 3$ dikali $3 \times 2$ menghasilkan $2 \times 2$.)`,
+
+  // vectors
+  '1gljxtukffx': R`
+<p><b>Vektor</b> memiliki besar dan arah. Dalam komponen, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ atau $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Vektor dari $P$ ke $Q$ adalah $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  'i7t2goihqv': R`Panjang (besar)`,
+  '1czax49eh4c': R`Penjumlahan`,
+  'q2ntocofkn': R`jumlahkan komponennya`,
+  'oswzhgqxwz': R`Perkalian skalar`,
+  '1bnyaikchfp': R`$k\mathbf{a}$: kalikan setiap komponen dengan $k$`,
+  '28hldv2q33s': R`Vektor satuan`,
+  '214ftyeo0vg': R`Hasil kali titik (dot product)`,
+  '1xghg9dwzeq': R`$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Dua vektor tak nol saling <b>tegak lurus</b> tepat ketika $\mathbf{a}\cdot\mathbf{b} = 0$.</p>`,
+  '1w9baxb120w': R`<p>$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, $\mathbf{b} = \begin{pmatrix} 5 \\ 12 \end{pmatrix}$: $\mathbf{a}\cdot\mathbf{b} = 15 + 48 = 63$, $|\mathbf{a}| = 5$, $|\mathbf{b}| = 13$, jadi $\cos\theta = \frac{63}{65}$ dan $\theta \approx 14{,}3^\circ$.</p>`,
+  '6pzkmdncqf': R`<p>Hasil kali titik dua vektor adalah sebuah <b>bilangan</b>, bukan vektor.</p>`,
+  '4u2plhe47g': R`Tentukan panjang $⟦0⟧$.`,
+  '252q8tpxn2p': R`Tentukan $\mathbf{a}\cdot\mathbf{b}$ untuk $\mathbf{a} = ⟦0⟧$ dan $\mathbf{b} = ⟦1⟧$.`,
+  '17ht25mwywu': R`Diketahui $\mathbf{a} = ⟦0⟧$ dan $\mathbf{b} = ⟦1⟧$. Tentukan $⟦2⟧\mathbf{a} ⟦3⟧ ⟦4⟧\mathbf{b}$.`,
+  '2gdqizkyobq': R`Tuliskan komponennya berurutan, dipisahkan titik koma.`,
+  '1mpyqj0mwgx': R`Hitung per komponen: $⟦0⟧ = ⟦1⟧$.`,
+  '14p7yoy4f3a': R`Tentukan $k$ agar $⟦0⟧$ dan $⟦1⟧$ saling tegak lurus.`,
+  '127php4kbc3': R`Tegak lurus berarti hasil kali titiknya 0: $⟦0⟧k + (⟦1⟧)(⟦2⟧) = 0$, jadi $k = ⟦3⟧$.`,
+  '1kydmvss2ex': R`Tentukan $\cos\theta$, dengan $\theta$ sudut antara $⟦0⟧$ dan $⟦1⟧$.`,
+  '1b0azawmrlf': R`Tentukan vektor satuan yang searah dengan $⟦0⟧$.`,
+  '280s3ajjt4e': R`Tuliskan komponennya dipisahkan titik koma, misalnya 3/5; -4/5.`,
+  '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Bagi setiap komponen dengan ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
+
+  // limits
+  '239kmg9x5mj': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ berarti $f(x)$ dapat sedekat mungkin dengan $L$ ketika $x$ mendekati $a$ — apa pun yang terjadi tepat di $x = a$.</p>
+<h3>Teknik</h3>
+<ol><li><b>Substitusi langsung</b> berlaku untuk polinomial dan fungsi kontinu lainnya: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorkan lalu sederhanakan</b> untuk bentuk $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rasionalkan</b> bentuk akar: kalikan dengan sekawannya.</li></ol>
+⟦0⟧
+<h3>Limit di tak hingga</h3>
+⟦1⟧
+<h3>Limit trigonometri istimewa</h3>
+⟦2⟧
+<h3>Kekontinuan</h3>
+<p>$f$ kontinu di $a$ jika $\lim_{x \to a} f(x) = f(a)$: tidak ada lubang, lompatan, atau asimtot di sana. Untuk fungsi sepotong-sepotong, kedua potongan harus bertemu di titik sambungnya.</p>
+⟦3⟧`,
+  '25jnb5snm7z': R`<p>Untuk fungsi rasional, bagi pembilang dan penyebut dengan pangkat tertinggi $x$ pada penyebut:</p><ul><li>derajat sama → perbandingan koefisien utama;</li><li>derajat pembilang lebih kecil → 0;</li><li>derajat pembilang lebih besar → tidak ada limit berhingga ($\pm\infty$).</li></ul>`,
+  'extw7corym': R`<p>$\frac{0}{0}$ bukan "0" dan bukan "tidak terdefinisi" — itu bentuk tak tentu yang menandakan perlu langkah lanjut (memfaktorkan, merasionalkan).</p>`,
+  '18znpgymeuk': R`Hitunglah $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
+  '1tq4b7d4h53': R`Fungsinya polinomial, jadi substitusikan: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧$.`,
+  '1n96bgorw1d': R`Hitunglah $\displaystyle\lim_{x \to ⟦0⟧} \frac{⟦1⟧}{x ⟦2⟧}$.`,
+  '295o4zt7f3w': R`Substitusi menghasilkan $\frac{0}{0}$. Faktorkan: $\frac{(x ⟦0⟧)(x ⟦1⟧)}{x ⟦2⟧} = x ⟦3⟧$, jadi limitnya $⟦4⟧ ⟦5⟧ = ⟦6⟧$.`,
+  '1rjdd048rzk': R`Hitunglah $\displaystyle\lim_{x \to \infty} \frac{⟦0⟧}{⟦1⟧}$.`,
+  '229ply6f2l2': R`Derajat pembilang lebih kecil daripada penyebut; setelah dibagi $x^2$, setiap suku pembilang menuju 0, jadi limitnya $0$.`,
+  '1m8u7pc3qh1': R`Derajatnya sama, jadi limitnya adalah perbandingan koefisien utama: $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.`,
+  '1ynpy6v2s15': R`Hitunglah $\displaystyle\lim_{x \to 0} \frac{⟦0⟧}{⟦1⟧}$.`,
+  'if95qf815v': R`Gunakan $\frac{\sin u}{u} \to 1$ (dan $\frac{\tan u}{u} \to 1$): bentuknya berperilaku seperti $\frac{⟦0⟧x}{⟦1⟧x} = ⟦2⟧$.`,
+  'blyu2go12i': R`Hitunglah $\displaystyle\lim_{x \to 0} \frac{\sqrt{x + ⟦0⟧} - ⟦1⟧}{x}$.`,
+  'fj8u70cngg': R`Kalikan dengan sekawannya: $\frac{(x + ⟦0⟧) - ⟦1⟧}{x(\sqrt{x + ⟦2⟧} + ⟦3⟧)} = \frac{1}{\sqrt{x + ⟦4⟧} + ⟦5⟧} \to \frac{1}{⟦6⟧}$.`,
+  '1kmmd6tilgi': R`Tentukan $k$ agar $f(x) = \begin{cases} x^2 + k, & x \lt ⟦0⟧ \\ ⟦1⟧, & x \ge ⟦2⟧ \end{cases}$ kontinu di $x = ⟦3⟧$.`,
+  '1l84k7ifkz6': R`Kedua potongan harus bertemu di $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, jadi $⟦5⟧ + k = ⟦6⟧$ dan $k = ⟦7⟧$.`,
+
+  // derivatives
+  '1pv2wkwyvwg': R`
+<p><b>Turunan</b> $f'(x)$ adalah laju perubahan sesaat $f$ — gradien garis singgung di $x$. Turunan didefinisikan dengan limit:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Garis singgung</h3>
+<p>Di $x = a$, garis singgung bergradien $m = f'(a)$ dan melalui $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Titik stasioner</h3>
+<p>Di tempat $f'(x) = 0$, grafik sesaat mendatar. Gunakan turunan kedua: $f''(a) \gt 0$ → minimum lokal; $f''(a) \lt 0$ → maksimum lokal. $f$ naik di tempat $f' \gt 0$ dan turun di tempat $f' \lt 0$.</p>
+<h3>Optimasi</h3>
+⟦3⟧
+⟦4⟧`,
+  '1kddytp99dm': R`Aturan`,
+  '21wooetnwi8': R`<p>Pagar sepanjang 100 m dipakai untuk memagari persegi panjang di tepi sungai (sisi sungai tidak perlu dipagari). Dengan sisi $x, y, x$: $2x + y = 100$, luas $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ memberikan $x = 25$, jadi $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
+  '14x6kebc9en': R`<p>Turunan konstanta adalah 0 — jangan membawa suku konstanta ke $f'(x)$.</p>`,
+  'sk165jmy0e': R`Tentukan $f'(x)$ untuk $f(x) = ⟦0⟧$.`,
+  '1z8enx6jmxw': R`Gunakan aturan pangkat pada setiap suku: $f'(x) = ⟦0⟧$ (konstantanya hilang).`,
+  'rdfbrjf6fd': R`Diketahui $f(x) = ⟦0⟧$. Tentukan $f'(⟦1⟧)$.`,
+  '12fn6a7y0fo': R`$f'(x) = ⟦0⟧$, jadi $f'(⟦1⟧) = ⟦2⟧$.`,
+  '13xytl77ctg': R`Tentukan persamaan garis singgung $y = ⟦0⟧$ di $x = ⟦1⟧$.`,
+  'zxpf5t25tk': R`Gradien: $y' = 2x ⟦0⟧$, jadi $m = ⟦1⟧$ di $x = ⟦2⟧$. Titik: $(⟦3⟧; ⟦4⟧)$. Maka $y - ⟦5⟧ = ⟦6⟧(x - ⟦7⟧)$, yaitu $y = ⟦8⟧$.`,
+  '6or380e65b': R`$x = ⟦0⟧ \text{ dan } x = ⟦1⟧$`,
+  '1ib3oh8we5r': R`Tentukan koordinat $x$ titik-titik stasioner $f(x) = ⟦0⟧$.`,
+  '8cxs5u8eb2': R`$f'(x) = ⟦0⟧ = 3(x ⟦1⟧)(x ⟦2⟧) = 0$, jadi $x = ⟦3⟧$ atau $x = ⟦4⟧$.`,
+  '2diynqfs1vm': R`Pada nilai $x$ berapa $f(x) = ⟦0⟧$ mencapai minimum lokal?`,
+  'qiab8fav1k': R`$f'(x) = 3(x ⟦0⟧)(x ⟦1⟧)$ bernilai nol di $x = ⟦2⟧$ dan $x = ⟦3⟧$. $f''(x) = 6x ⟦4⟧$ positif di $x = ⟦5⟧$, jadi di situlah minimum lokalnya.`,
+  '2bfp82dmoiw': R`Seorang petani memiliki pagar sepanjang ⟦0⟧ m untuk memagari ladang persegi panjang di tepi sungai yang lurus. Sisi sepanjang sungai tidak perlu dipagari. Berapa luas terbesar yang mungkin?`,
+  '1sgjbqwzp29': R`Sisi $x, y, x$ dengan $2x + y = ⟦0⟧$. $A = x(⟦1⟧ - 2x)$, $A' = ⟦2⟧ - 4x = 0$ memberikan $x = ⟦3⟧$, $y = ⟦4⟧$, dan $A = ⟦5⟧$ m².`,
+  '1dz6162q97e': R`Sebuah persegi panjang memiliki keliling ⟦0⟧ cm. Berapa luas terbesar yang mungkin?`,
+  '12er060agfx': R`Dengan lebar $x$, panjangnya $⟦0⟧ - x$ dan $A = x(⟦1⟧ - x)$. $A' = ⟦2⟧ - 2x = 0$ memberikan $x = ⟦3⟧$ — sebuah persegi — dengan luas $⟦4⟧$ cm².`,
+  'jksdr4ukrw': R`Turunkan $y = ⟦0⟧$.`,
+  '1gytk3lwm2l': R`$\frac{d}{dx}\sin x = \cos x$ dan $\frac{d}{dx}\cos x = -\sin x$, jadi $y' = ⟦0⟧$.`,
+  't51ufxvzbf': R`Sebuah partikel bergerak dengan posisi $s(t) = ⟦0⟧$ meter. Tentukan percepatannya saat $t = ⟦1⟧$ s.`,
+  'bakv4or3q9': R`$v(t) = s'(t) = ⟦0⟧$ dan $a(t) = v'(t) = ⟦1⟧$. Saat $t = ⟦2⟧$: $a = ⟦3⟧$ m/s².`,
+  'twj64cwqj6': R`Sebuah partikel bergerak dengan posisi $s(t) = ⟦0⟧$ meter. Tentukan kecepatannya saat $t = ⟦1⟧$ s.`,
+  '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, jadi $v(⟦1⟧) = ⟦2⟧$ m/s.`,
+
+  // integrals
+  '1wdt9h7s66j': R`
+<p>Integral adalah kebalikan dari turunan. <b>Antiturunan</b> dari $f$ adalah sembarang $F$ dengan $F' = f$; <b>integral tak tentu</b> memuat konstanta integrasi:</p>
+⟦0⟧
+⟦1⟧
+<h3>Integral tentu</h3>
+⟦2⟧
+<p>Untuk $f \ge 0$, ini adalah luas di bawah kurva antara $x = a$ dan $x = b$. Luas di bawah sumbu-$x$ dihitung negatif, jadi pisahkan integral di akar-akarnya jika ingin luas total.</p>
+⟦3⟧
+<h3>Menentukan fungsi dari turunannya</h3>
+<p>Jika $f'(x) = 6x + 2$ dan $f(1) = 10$, maka $f(x) = 3x^2 + 2x + C$ dan $3 + 2 + C = 10$ memberikan $C = 5$.</p>
+⟦4⟧`,
+  '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Periksa dengan menurunkannya.</p>`,
+  '1jsx5j8bwuv': R`Teorema Dasar Kalkulus`,
+  'k8jg70602j': R`<p>Luas antara $y = x^2$ dan $y = 2x$: keduanya berpotongan di $x = 0$ dan $x = 2$, dan $2x \ge x^2$ di antaranya, jadi $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
+  '2645ntoenmj': R`<p>Jangan lupa $+ C$ pada integral tak tentu — dan jangan menuliskannya pada integral tentu (saling menghilangkan).</p>`,
+  '1a4h4aolv1n': R`Tentukan $\displaystyle\int (⟦0⟧)\,dx$.`,
+  '14w03nftsp9': R`Naikkan setiap pangkat satu lalu bagi dengan pangkat barunya: $⟦0⟧ + C$.`,
+  'lhk659hv1w': R`Hitunglah $\displaystyle\int_{⟦0⟧}^{⟦1⟧} (⟦2⟧)\,dx$.`,
+  'wzkchwuid3': R`Sebuah antiturunannya $F(x) = ⟦0⟧$. $F(⟦1⟧) - F(⟦2⟧) = ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '2g5117b4rfq': R`Tentukan luas daerah yang dibatasi $y = ⟦0⟧$ dan sumbu-$x$.`,
+  '1qd8emk0tlu': R`Kurva memotong sumbu di $x = \pm ⟦0⟧$. Luas $= \int_{-⟦1⟧}^{⟦2⟧} (⟦3⟧ - x^2)\,dx = \left[⟦4⟧x - \frac{x^3}{3}\right]_{-⟦5⟧}^{⟦6⟧} = ⟦7⟧$.`,
+  '1wjuv7zitnn': R`Tentukan luas daerah antara $y = x^2$ dan $y = ⟦0⟧x$.`,
+  'ospw7lwugt': R`Keduanya berpotongan di $x = 0$ dan $x = ⟦0⟧$. Luas $= \int_0^{⟦1⟧} (⟦2⟧x - x^2)\,dx = \frac{⟦3⟧^3}{2} - \frac{⟦4⟧^3}{3} = ⟦5⟧$.`,
+  '2c9m4g6dimy': R`$f'(x) = ⟦0⟧$ dan $f(0) = ⟦1⟧$. Tentukan $f(⟦2⟧)$.`,
+  '29kyl7mnwt5': R`$f(x) = ⟦0⟧ + C$, dan $f(0) = C = ⟦1⟧$. Jadi $f(⟦2⟧) = ⟦3⟧$.`,
+  '1p83y3ccpb': R`$\int \cos x\,dx = \sin x$ dan $\int -\sin x\,dx = \cos x$, jadi hasilnya $⟦0⟧ + C$.`,
+  '22xlapf2gb7': R`Hitunglah $\displaystyle\int_0^{\pi/2} ⟦0⟧\cos x\,dx$.`,
+  '1ppkvfv3p1b': R`Hitunglah $\displaystyle\int_0^{\pi} ⟦0⟧\sin x\,dx$.`,
+  // formula-only entries
+  'itm4o8cny': R`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} = \begin{pmatrix} 1\cdot5 + 2\cdot7 & 1\cdot6 + 2\cdot8 \\ 3\cdot5 + 4\cdot7 & 3\cdot6 + 4\cdot8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}`,
+  '25hetn68fsz': R`A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}`,
+  '1i9j07wofgh': R`\lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}`,
+  '21rfw9yowzp': R`$$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$`,
+  'oq0mo2ln2m': R`$$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$$$\int \cos x\,dx = \sin x + C \qquad \int \sin x\,dx = -\cos x + C$$`,
+  'ktnrryzzqc': R`$$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$`,
+});
+
+/* Bahasa Indonesia — SMA (kaidah pencacahan → logika) */
+addT('id', {
+  // combinatorics
+  '205beb6gfix': R`
+⟦0⟧
+<h3>Permutasi: urutan diperhatikan</h3>
+⟦1⟧
+<p>Juara pertama, kedua, dan ketiga dari 10 orang: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Susunan dengan unsur yang sama: $\frac{n!}{p!\,q!\cdots}$. Kata "BANANA" memiliki $\frac{6!}{3!\,2!} = 60$ susunan.</li><li>Permutasi siklis (melingkar): $(n - 1)!$ (hasil rotasi dianggap sama).</li></ul>
+<h3>Kombinasi: urutan tidak diperhatikan</h3>
+⟦2⟧
+<p>Panitia 3 orang dari 10 orang: $\binom{10}{3} = 120$. Panitia berisi 2 pria (dari 5) dan 3 wanita (dari 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Teorema binomial</h3>
+⟦3⟧
+<p>Koefisien $x^2$ pada $(x + 3)^5$ adalah $\binom{5}{2}3^{3} = 270$.</p>
+⟦4⟧`,
+  '1v1ul4mcyis': R`<p><b>Aturan perkalian:</b> jika pilihan pertama dapat dilakukan dengan $m$ cara dan pilihan kedua dengan $n$ cara, keduanya bersama-sama dapat dilakukan dengan $m \times n$ cara.</p>`,
+  'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
+  '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
+  '44tf1m2pka': R`<p>Tanyakan: "Apakah menukar dua unsur yang terpilih menghasilkan sesuatu yang berbeda?" Jika ya, gunakan permutasi; jika tidak, kombinasi.</p>`,
+  'asaw2vy5ho': R`Dengan berapa cara juara ⟦0⟧ dapat dipilih dari ⟦1⟧ orang?`,
+  '1qec64m00zt': R`pertama, kedua, dan ketiga`,
+  '1yxzw7y67ed': R`pertama dan kedua`,
+  '1lyu4ddmyjw': R`Urutan diperhatikan: $^{⟦0⟧}P_{⟦1⟧} = ⟦2⟧ = ⟦3⟧$.`,
+  'mt1d3k54sw': R`Dengan berapa cara panitia beranggotakan ⟦0⟧ orang dapat dipilih dari ⟦1⟧ orang?`,
+  'jcb5dbxzw7': R`Urutan tidak diperhatikan: $\binom{⟦0⟧}{⟦1⟧} = \frac{⟦2⟧!}{⟦3⟧!\,⟦4⟧!} = ⟦5⟧$.`,
+  '1f3hbyul4kh': R`Dari ⟦2⟧ pria dan ⟦3⟧ wanita akan dipilih panitia yang terdiri atas ⟦0⟧ pria dan ⟦1⟧ wanita. Ada berapa panitia berbeda yang mungkin?`,
+  '219eq0t6hby': R`Ada berapa susunan berbeda dari huruf-huruf pada kata <b>⟦0⟧</b>?`,
+  'hkyvcodvcm': R`⟦0⟧ huruf dengan huruf berulang ⟦1⟧: $\frac{⟦2⟧!}{⟦3⟧} = ⟦4⟧$.`,
+  'qqcdrtkh5v': R`Dengan berapa cara ⟦0⟧ orang dapat duduk mengelilingi meja bundar (hasil rotasi dianggap sama)?`,
+  '1n6howxe7gj': R`Tetapkan tempat duduk satu orang untuk menghilangkan rotasi, lalu susun sisanya: $(⟦0⟧ - 1)! = ⟦1⟧$.`,
+  '1hwymhgsxow': R`Tentukan koefisien $x^{⟦0⟧}$ pada penjabaran $(x + ⟦1⟧)^{⟦2⟧}$.`,
+  '22kaf86ykzl': R`Suku yang memuat $x^{⟦0⟧}$ adalah $\binom{⟦1⟧}{⟦2⟧}x^{⟦3⟧}\cdot ⟦4⟧^{⟦5⟧}$, jadi koefisiennya $⟦6⟧ \times ⟦7⟧ = ⟦8⟧$.`,
+  '1zya3uq0ode': R`Tentukan koefisien $x^{⟦0⟧}$ pada penjabaran $(⟦1⟧x + 1)^{⟦2⟧}$.`,
+  'po66a6fw7b': R`Suku yang memuat $x^{⟦0⟧}$ adalah $\binom{⟦1⟧}{⟦2⟧}(⟦3⟧x)^{⟦4⟧}$, jadi koefisiennya $⟦5⟧ \times ⟦6⟧ = ⟦7⟧$.`,
+  'yh0td3xino': R`Kamu punya ⟦0⟧ kemeja, ⟦1⟧ celana, dan ⟦2⟧ pasang sepatu. Berapa banyak setelan berbeda (masing-masing satu) yang dapat kamu buat?`,
+  'ruo6vpaqqc': R`Aturan perkalian: $⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.`,
+  '24djh3i5509': R`Berapa banyak kode PIN ⟦0⟧ angka yang dapat dibuat dari angka 0–9 ⟦1⟧?`,
+  '1djueshnkes': R`jika angka boleh berulang`,
+  'jadsq7o4xb': R`jika tidak ada angka yang boleh dipakai dua kali`,
+  '22ey7x4a0ix': R`Setiap posisi dari ⟦0⟧ posisi punya 10 pilihan: $10^{⟦1⟧} = ⟦2⟧$.`,
+  'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ faktor) $= ⟦1⟧$.`,
+
+  // probability-sh
+  '1uh8iajnkq0': R`
+⟦0⟧
+<h3>Dengan dan tanpa pengembalian</h3>
+⟦1⟧
+<p>Diagram pohon membantu mengaturnya: kalikan sepanjang cabang, jumlahkan antarcabang.</p>
+<h3>"Paling sedikit satu"</h3>
+<p>Gunakan komplemen: $P(\text{paling sedikit satu mata 6 dalam 3 lemparan}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Teorema Bayes</h3>
+⟦2⟧
+⟦3⟧`,
+  '2e5fwx8zs1w': R`Rumus`,
+  '29i7n2pf82k': R`Komplemen`,
+  '1q1cgu220ce': R`Saling lepas`,
+  'xux9y4rrwd': R`$P(A \cap B) = 0$, jadi $P(A \cup B) = P(A) + P(B)$`,
+  'rl5n9i6yyd': R`Saling bebas`,
+  '1oou6k826kr': R`Bersyarat`,
+  '1qgmh66fhna': R`<p>Sebuah kantong berisi 5 bola merah dan 3 bola biru. Dua bola diambil <b>tanpa</b> pengembalian. $P(\text{keduanya merah}) = \frac{5}{8} \times \frac{4}{7} = \frac{5}{14}$. Dengan pengembalian, hasilnya $\frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$.</p>`,
+  '6418q9b2s4': R`$$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B \mid A)P(A) + P(B \mid A')P(A')}$$<p>Teorema ini "membalik" peluang bersyarat — misalnya dari $P(\text{tes positif} \mid \text{sakit})$ ke $P(\text{sakit} \mid \text{tes positif})$.</p>`,
+  '1zp2m1asa8t': R`<p>$P(A \mid B)$ dan $P(B \mid A)$ biasanya berbeda. Sebuah tes bisa 99% akurat, tetapi jika penyakitnya langka, hasil positif tetap lebih mungkin merupakan alarm palsu.</p>`,
+  '5fmcyqy5g8': R`Sebuah kantong berisi ⟦0⟧ bola merah dan ⟦1⟧ bola biru. Dua bola diambil tanpa pengembalian. Berapa peluang keduanya berwarna ⟦2⟧?`,
+  '16uk5urbde9': R`$P(A) = ⟦0⟧$, $P(B) = ⟦1⟧$, dan $P(A \cap B) = ⟦2⟧$. Tentukan $P(A \cup B)$.`,
+  '2az4z9znymk': R`Kejadian $A$ dan $B$ saling bebas dengan $P(A) = ⟦0⟧$ dan $P(B) = ⟦1⟧$. Tentukan $P(A \cap B)$.`,
+  '1ohoi8ye65': R`Saling bebas: $P(A \cap B) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+  'ymjaeaaedm': R`Kejadian $A$ dan $B$ saling bebas dengan $P(A) = ⟦0⟧$ dan $P(B) = ⟦1⟧$. Tentukan peluang paling sedikit satu di antaranya terjadi.`,
+  'y6o9k7peax': R`$1 - P(\text{tidak keduanya}) = 1 - (⟦0⟧)(⟦1⟧) = ⟦2⟧$.`,
+  '2ct3qu61tjb': R`Laki-laki`,
+  '2402etzr9nx': R`Perempuan`,
+  '18ehauvt7sj': R`Berolahraga`,
+  '1wnwpnaqcse': R`Tidak berolahraga`,
+  'hlkdm5jkod': R`Kelas 10`,
+  '25bc5gb05vn': R`Kelas 11`,
+  '1i4vzjjdcmk': R`Jalan kaki ke sekolah`,
+  '26ih1igl5gl': R`Naik bus`,
+  '2bybvgum1tw': R`Dewasa`,
+  '1lglnmdikqt': R`Anak-anak`,
+  'xfv76cldjt': R`Suka kopi`,
+  'yxuw13xcv3': R`Tidak suka`,
+  '1mojcap1eui': R`Sebuah survei memberikan hasil berikut.⟦0⟧Seseorang dipilih secara acak. Jika diketahui ia termasuk kelompok "⟦1⟧", berapa peluang ia termasuk "⟦2⟧"?`,
+  '1461hv2wfqt': R`Batasi pada ⟦0⟧ orang di "⟦1⟧": $P = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  '12180tm9why': R`Sebuah survei memberikan hasil berikut.⟦0⟧Seseorang dipilih secara acak. Jika diketahui ia termasuk "⟦1⟧", berapa peluang ia termasuk kelompok "⟦2⟧"?`,
+  'eppqyrg22a': R`Sebuah dadu seimbang dilempar ⟦0⟧ kali. Berapa peluang muncul mata 6 paling sedikit satu kali?`,
+  'wzrge9rclz': R`$1 - P(\text{tidak ada 6}) = 1 - \left(\frac{5}{6}\right)^{⟦0⟧} = 1 - \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$.`,
+  '1sg12en11ty': R`Suatu penyakit diderita ⟦0⟧% orang. Sebuah tes mendeteksinya pada ⟦1⟧% penderita, tetapi juga memberi hasil positif pada ⟦2⟧% orang yang tidak sakit. Jika seseorang dites positif, berapa peluang ia benar-benar sakit? Bulatkan sampai 3 tempat desimal.`,
+  '1n6kg7z10yy': R`Sebuah kantong berisi ⟦0⟧ keping merah dan ⟦1⟧ keping biru. Satu keping diambil, dikembalikan, lalu keping kedua diambil. Berapa peluang terambil merah lalu biru?`,
+  '29cd8gay3w4': R`Dengan pengembalian, kedua pengambilan saling bebas: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+
+  // statistics-sh
+  '1xab92vueba': R`
+<h3>Kuartil dan diagram kotak-garis</h3>
+<p>Urutkan data. Median $Q_2$ membagi data menjadi dua bagian; $Q_1$ adalah median bagian bawah dan $Q_3$ median bagian atas (di sini median tidak dimasukkan ke kedua bagian jika $n$ ganjil). <b>Jangkauan antarkuartil</b> $\text{JAK} = Q_3 - Q_1$ mengukur sebaran 50% data di tengah.</p>
+⟦0⟧
+<h3>Ragam dan simpangan baku</h3>
+⟦1⟧
+⟦2⟧
+<h3>Data berkelompok</h3>
+<p>Taksir rata-rata dengan titik tengah kelas: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+<h3>Transformasi data</h3>
+⟦3⟧
+⟦4⟧`,
+  'l167vch4m7': R`<p>Aturan pencilan yang umum: nilai di bawah $Q_1 - 1{,}5\,\text{JAK}$ atau di atas $Q_3 + 1{,}5\,\text{JAK}$.</p>`,
+  '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sampel)}`,
+  '1c6crwakkdh': R`<p>Data 2; 4; 4; 4; 5; 5; 7; 9: rata-rata 5, kuadrat simpangan 9; 1; 1; 1; 0; 0; 4; 16 (jumlah 32). Ragam populasi $= \frac{32}{8} = 4$ dan $\sigma = 2$.</p>`,
+  'etseh8nv9i': R`Jika setiap nilai menjadi`,
+  'tocb6e1sav': R`Rata-rata menjadi`,
+  '1ng2ylp8qsd': R`Simpangan baku menjadi`,
+  's70utdhfyg': R`$\sigma$ (tetap)`,
+  '1ixl32zcrbx': R`<p>Menambahkan konstanta hanya menggeser data tanpa membuatnya lebih menyebar, jadi simpangan bakunya tetap.</p>`,
+  '1os4b58x5gr': R`Tentukan ragam <b>sampel</b> dari: ⟦0⟧.`,
+  '5koevyyrqx': R`Tentukan ragam <b>populasi</b> dari: ⟦0⟧.`,
+  '2gl7bcglff0': R`Rata-rata $= ⟦0⟧$. Kuadrat simpangan: ⟦1⟧ (jumlah ⟦2⟧). Bagi dengan ⟦3⟧: $⟦4⟧$.`,
+  'zh9si0i2s': R`Tentukan simpangan baku populasi dari: ⟦0⟧. Bulatkan sampai 2 tempat desimal.`,
+  'iohahpasm4': R`Rata-rata $= ⟦0⟧$; $\sigma^2 = \frac{⟦1⟧}{5} = ⟦2⟧$, jadi $\sigma = \sqrt{⟦3⟧} \approx ⟦4⟧$.`,
+  'box0w6rodc': R`Tentukan jangkauan antarkuartil dari: ⟦0⟧. (Median tidak dimasukkan saat membagi data menjadi dua bagian.)`,
+  'dvfyzp44sk': R`Setelah diurutkan: ⟦0⟧. Bagian bawah ⟦1⟧ memberi $Q_1 = ⟦2⟧$; bagian atas ⟦3⟧ memberi $Q_3 = ⟦4⟧$. $\text{JAK} = ⟦5⟧ - ⟦6⟧ = ⟦7⟧$.`,
+  '25jr4jzamls': R`Sekumpulan data memiliki rata-rata ⟦0⟧ dan simpangan baku ⟦1⟧. Setiap nilai ditransformasi dengan $y = ⟦2⟧x ⟦3⟧$. Berapa simpangan baku yang baru?`,
+  '1h7x4xfpmhw': R`Menambahkan ⟦0⟧ tidak mengubah sebaran; mengalikan dengan ⟦1⟧ mengubah skalanya dengan faktor $|⟦2⟧|$: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$.`,
+  '158l5v4dkra': R`Sekumpulan data memiliki rata-rata ⟦0⟧ dan simpangan baku ⟦1⟧. Setiap nilai ditransformasi dengan $y = ⟦2⟧x ⟦3⟧$. Berapa rata-rata yang baru?`,
+  '21c6bmoi3b4': R`Rata-rata mengikuti transformasinya: $⟦0⟧(⟦1⟧) ⟦2⟧ = ⟦3⟧$.`,
+  'th9c52kib0': R`Taksir rata-rata dari tabel distribusi frekuensi berkelompok ini (gunakan titik tengah kelas). Bulatkan sampai 2 tempat desimal.⟦0⟧`,
+  '1h8qh0j4anc': R`Kelas`,
+  '1yeuaowmmsc': R`Titik tengah ⟦0⟧; $\sum f = ⟦1⟧$, $\sum fm = ⟦2⟧$. Rata-rata $\approx \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.`,
+  '1kja7bg5lcu': R`Sekumpulan data memiliki $Q_1 = ⟦0⟧$ dan $Q_3 = ⟦1⟧$. Dengan aturan $1{,}5 \times \text{JAK}$, berapa batas ⟦2⟧ untuk pencilan?`,
+  '3zu0ol0nfw': R`atas`,
+  '9nl2sip6fg': R`bawah`,
+  '1u7a09okm0e': R`$\text{JAK} = ⟦0⟧$ dan $1{,}5 \times ⟦1⟧ = ⟦2⟧$. ⟦3⟧`,
+  '191ugb8bucx': R`Batas atas $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '111p9ug7ykx': R`Batas bawah $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+
+  // conics
+  '12p1gvv8rrs': R`
+⟦0⟧
+<h3>Persamaan lingkaran</h3>
+⟦1⟧
+<p>Jika dijabarkan, diperoleh <b>bentuk umum</b> $x^2 + y^2 + Dx + Ey + F = 0$ dengan pusat $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ dan jari-jari $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+<h3>Kedudukan titik</h3>
+<p>Substitusikan titik ke $(x - a)^2 + (y - b)^2$ dan bandingkan dengan $r^2$: lebih kecil → di dalam, sama → pada lingkaran, lebih besar → di luar.</p>
+<h3>Garis singgung</h3>
+<p>Garis singgung tegak lurus jari-jari di titik singgung. Untuk lingkaran $x^2 + y^2 = r^2$ di titik $(x_1; y_1)$, gradien jari-jarinya $\frac{y_1}{x_1}$, jadi gradien garis singgungnya $-\frac{x_1}{y_1}$.</p>
+<h3>Parabola</h3>
+<p>$y^2 = 4px$ memiliki fokus $(p; 0)$ dan direktriks $x = -p$; $x^2 = 4py$ memiliki fokus $(0; p)$ dan direktriks $y = -p$. Setiap titik pada parabola berjarak sama ke fokus dan ke direktriks.</p>
+⟦3⟧`,
+  'd8g3n0gso0': R`\text{Titik tengah } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Jarak } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
+  'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{pusat } (a; b), \text{ jari-jari } r$$`,
+  '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: lengkapkan kuadrat, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Pusat $(3; -2)$, jari-jari 5.</p>`,
+  '11ib4pk61jv': R`<p>Pada $(x + 3)^2 + (y - 1)^2 = 16$ pusatnya $(-3; 1)$ — tandanya berbalik — dan jari-jarinya 4, bukan 16.</p>`,
+  'a19ymany96': R`Tentukan titik tengah $⟦0⟧$ dan $⟦1⟧$.`,
+  'l7s72risy9': R`Rata-ratakan koordinatnya: $\left(\frac{⟦0⟧ + ⟦1⟧}{2}; \frac{⟦2⟧ + ⟦3⟧}{2}\right) = ⟦4⟧$.`,
+  '1mu3r9x32jw': R`Tentukan jari-jari lingkaran $⟦0⟧ = 0$.`,
+  '1bhxlcedykj': R`Lengkapkan kuadrat: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧ + ⟦3⟧ ⟦4⟧ = ⟦5⟧$, jadi $r = ⟦6⟧$.`,
+  'd11etx15kp': R`Tentukan pusat lingkaran $⟦0⟧ = 0$.`,
+  '15nydo8wzsx': R`Pusatnya $\left(-\frac{D}{2}; -\frac{E}{2}\right) = \left(-\frac{⟦0⟧}{2}; -\frac{⟦1⟧}{2}\right) = ⟦2⟧$.`,
+  '10fdmgbsvjs': R`Manakah persamaan lingkaran dengan pusat $⟦0⟧$ dan jari-jari ⟦1⟧?`,
+  'j31butbqt0': R`Substitusikan ke $(x - a)^2 + (y - b)^2 = r^2$: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧$.`,
+  'qntj72wic0': R`Di dalam lingkaran`,
+  '1z2fjcjol1w': R`di dalam`,
+  '1h4trl2qo1h': R`Pada lingkaran`,
+  '1sg9ogxwlev': R`pada`,
+  '8uau8fsxbq': R`Di luar lingkaran`,
+  '6gv2pbcp7q': R`di luar`,
+  '24luyo2ftju': R`Apakah titik $⟦0⟧$ terletak di dalam, pada, atau di luar lingkaran $(x ⟦1⟧)^2 + (y ⟦2⟧)^2 = ⟦3⟧$?`,
+  '28keqi93flp': R`$⟦0⟧$, sama dengan $r^2 = ⟦1⟧$: titik terletak <b>pada</b> lingkaran.`,
+  '1hj2pbrwkr7': R`$⟦0⟧$, lebih kecil dari $r^2 = ⟦1⟧$: titik terletak <b>di dalam</b> lingkaran.`,
+  'kv7senj1fr': R`$⟦0⟧$, lebih besar dari $r^2 = ⟦1⟧$: titik terletak <b>di luar</b> lingkaran.`,
+  '1hxz2qew8oz': R`Tentukan fokus parabola $⟦0⟧$.`,
+  '22fls2lezk5': R`Bandingkan dengan ⟦0⟧: $4p = ⟦1⟧$, jadi $p = ⟦2⟧$ dan fokusnya $⟦3⟧$.`,
+  'ez3m02hgj1': R`Tentukan gradien garis singgung pada $x^2 + y^2 = ⟦0⟧$ di titik $⟦1⟧$.`,
+  '1huwumypuyf': R`Jari-jari ke $⟦0⟧$ bergradien $\frac{⟦1⟧}{⟦2⟧}$. Garis singgung tegak lurus padanya: gradien $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+
+  // linear-programming
+  '23l7ef2fdyh': R`
+<p><b>Program linear</b> mencari nilai terbaik (terbesar atau terkecil) dari <b>fungsi objektif</b> linear, misalnya keuntungan $z = 30x + 20y$, dengan <b>kendala</b> linear seperti $x + y \le 40$.</p>
+<ol><li>Tulis kendala sebagai pertidaksamaan (termasuk $x \ge 0$, $y \ge 0$).</li><li>Gambar setiap garis batas dan arsir daerah yang memenuhi semua kendala — <b>daerah penyelesaian</b> (daerah layak).</li><li>Tentukan titik-titik pojok dengan menyelesaikan pasangan persamaan garis batas.</li><li>Hitung nilai fungsi objektif di setiap titik pojok.</li></ol>
+⟦0⟧
+⟦1⟧
+<p>Untuk masalah minimum dengan kendala "≥", daerahnya sering tidak terbatas; jika biayanya positif, nilai minimum tetap tercapai di titik pojok.</p>
+⟦2⟧`,
+  'hs1573xprv': R`<p><b>Teorema titik pojok:</b> jika nilai optimum ada, nilai itu tercapai di salah satu titik pojok daerah penyelesaian.</p>`,
+  '1g8qhbmqb9w': R`<p>Maksimumkan $z = 3x + 2y$ dengan kendala $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Titik pojok: $(0; 0)$, $(6; 0)$, $(4; 4)$ [perpotongan $x + y = 8$ dan $2x + y = 12$], $(0; 8)$.</p><p>Nilai $z$: 0; 18; 20; 16. Maksimum $z = 20$ di $(4; 4)$.</p>`,
+  '11p3z90h4pd': R`<p>Periksa apakah setiap titik pojok memenuhi <b>semua</b> kendala — perpotongan dua garis batas bisa saja berada di luar daerah.</p>`,
+  '22hgo1z3v51': R`Maksimumkan $z = ⟦0⟧ + ⟦1⟧$ dengan kendala ⟦2⟧, $x \ge 0$, $y \ge 0$. Berapa nilai maksimum $z$?`,
+  'thttp4dv20': R`Titik pojok dan nilai $z$: ⟦0⟧. Nilai maksimumnya <b>⟦1⟧</b>.`,
+  '2g9b1szo820': R`Minimumkan $z = ⟦0⟧ + ⟦1⟧$ dengan kendala $x + y \ge ⟦2⟧$, $x + 2y \ge ⟦3⟧$, $x \ge 0$, $y \ge 0$. Berapa nilai minimum $z$?`,
+  '72m6dlh1yr': R`Daerah penyelesaiannya tidak terbatas, dengan titik pojok ⟦0⟧. Karena biayanya positif, nilai minimumnya <b>⟦1⟧</b>.`,
+  '4eos6o7rio': R`Titik manakah yang terletak di daerah penyelesaian yang dibatasi oleh ⟦0⟧, $x \ge 0$, $y \ge 0$?`,
+  '1jqzy1kt3ra': R`Uji setiap titik pada setiap kendala. $⟦0⟧$ memenuhi semuanya; titik-titik lain masing-masing melanggar paling sedikit satu kendala.`,
+  '15d4uuzw5eq': R`Sebuah toko roti membuat kue ($x$) dan pai ($y$) setiap hari. Toko itu dapat membuat paling banyak ⟦0⟧ buah, dan waktu memanggang memberi kendala ⟦1⟧. Keuntungannya ⟦2⟧ ribu rupiah per kue dan ⟦3⟧ ribu rupiah per pai. Berapa keuntungan harian maksimumnya?`,
+  '296rrmt4h4q': R`Kendala: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Titik pojok: ⟦3⟧. Keuntungan maksimum: <b>⟦4⟧</b> ribu rupiah.`,
+
+  // logic
+  '22xng4phovn': R`
+<p><b>Pernyataan</b> (proposisi) adalah kalimat yang bernilai benar atau salah, tetapi tidak keduanya. Pernyataan majemuk dibentuk dengan <b>kata hubung logika</b>:</p>
+⟦0⟧
+⟦1⟧
+<h3>Konvers, invers, dan kontraposisi</h3>
+⟦2⟧
+<h3>Kuantor</h3>
+<p>$\forall$ "untuk semua" dan $\exists$ "ada/terdapat". Negasi menukar keduanya: negasi dari "Semua siswa lulus" adalah "<b>Ada</b> siswa yang <b>tidak</b> lulus"; negasi dari "Ada burung yang tidak dapat terbang" adalah "Semua burung dapat terbang".</p>
+<h3>Penarikan kesimpulan yang sah</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; jadi $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; jadi $\neg p$.</li><li><b>Silogisme:</b> $p \Rightarrow q$, $q \Rightarrow r$; jadi $p \Rightarrow r$.</li></ul>
+⟦3⟧`,
+  '2aa32u1lmw9': R`BS`,
+  '1h0id2d836q': R`<p>Implikasi $p \Rightarrow q$ bernilai salah <b>hanya</b> jika $p$ benar dan $q$ salah.</p>`,
+  '2aojok6ubm7': R`Bentuk`,
+  '1bpxgxn3wdt': R`Ekuivalen dengan pernyataan awal?`,
+  'clyih3qga0': R`Pernyataan`,
+  '13tp70kq9iu': R`Konvers`,
+  '5lqm3x6p6i': R`tidak`,
+  '1vsuatfpf7o': R`Invers`,
+  '1zjwynaslfy': R`Kontraposisi`,
+  '2377erd9rpv': R`ya`,
+  '1vdptccpewy': R`<p>Dari $p \Rightarrow q$ dan $q$ <b>tidak dapat</b> disimpulkan $p$ ("membenarkan akibat" adalah kesalahan). Tanah yang basah tidak membuktikan bahwa hujan telah turun.</p>`,
+  'e62y0oj6y7': R`$p$ bernilai ⟦0⟧, $q$ bernilai ⟦1⟧, dan $r$ bernilai ⟦2⟧. Apa nilai kebenaran $⟦3⟧$?`,
+  'x0xbdvafwl': R`Substitusikan $p = \text{⟦0⟧}$, $q = \text{⟦1⟧}$, $r = \text{⟦2⟧}$ dan hitung dari dalam ke luar: $⟦3⟧$ bernilai <b>⟦4⟧</b>. (Ingat: $\Rightarrow$ bernilai salah hanya untuk B ⇒ S.)`,
+  '1kkjzumhca1': R`hari hujan`,
+  'ia7w0co89o': R`hari tidak hujan`,
+  '1ihx0acpu6a': R`tanah basah`,
+  '1v63alfxz6x': R`tanah tidak basah`,
+  '1l79oqrjsck': R`$n$ habis dibagi 4`,
+  '1yshjhf0kon': R`$n$ tidak habis dibagi 4`,
+  'qa8yzaajhn': R`$n$ genap`,
+  'cbcna6lfv': R`$n$ tidak genap`,
+  '31grcmmyn9': R`$ABCD$ persegi`,
+  'pqxtvsjzqa': R`$ABCD$ bukan persegi`,
+  '2gdyvqap69i': R`$ABCD$ persegi panjang`,
+  'lxgoo3xc2q': R`$ABCD$ bukan persegi panjang`,
+  's4qelj4pfa': R`kamu belajar dengan giat`,
+  '1ri3py7kjks': R`kamu tidak belajar dengan giat`,
+  '1wmmmy5ybwg': R`kamu lulus ujian`,
+  'uo17m9mxei': R`kamu tidak lulus ujian`,
+  '14thczs4bru': R`lampu menyala`,
+  '1mg8dlhg5lp': R`lampu padam`,
+  '496x9r1bce': R`ruangan terang`,
+  '383gdutznm': R`ruangan tidak terang`,
+  '12lqix1f1k9': R`Jika ⟦0⟧, maka ⟦1⟧.`,
+  'z7jgfl3knp': R`konvers`,
+  'aqxfua2az0': R`invers`,
+  '1qj3c13iq5c': R`kontraposisi`,
+  '14dtm0889wo': R`Apa <b>⟦0⟧</b> dari pernyataan "⟦1⟧"?`,
+  '1izj6udg2zz': R`Konvers: tukar ($q \Rightarrow p$). Invers: negasikan keduanya ($\neg p \Rightarrow \neg q$). Kontraposisi: tukar dan negasikan ($\neg q \Rightarrow \neg p$). Jadi ⟦0⟧-nya adalah "⟦1⟧"⟦2⟧`,
+  '15513xdtwsn': R` — ekuivalen secara logika dengan pernyataan awal.`,
+  '6brkkcy85o': R`Semua siswa lulus ujian.`,
+  '2rjnejqvqb': R`Ada siswa yang tidak lulus ujian.`,
+  'vjzsxd6qou': R`Tidak ada siswa yang lulus ujian.`,
+  'oolor24qct': R`Semua siswa tidak lulus ujian.`,
+  'aesopm7ka0': R`Ada siswa yang lulus ujian.`,
+  '1c9ng778gwv': R`Tidak semua siswa lulus ujian.`,
+  'f39jhzzlxm': R`Semua kucing suka susu.`,
+  '1rgve8hw4eg': R`Ada kucing yang tidak suka susu.`,
+  '19hhf94uign': R`Tidak ada kucing yang suka susu.`,
+  '1qzto8uhyzs': R`Semua kucing tidak suka susu.`,
+  'xi1gnm2hxv': R`Ada kucing yang suka susu.`,
+  'aijf9tywlh': R`Tidak semua kucing suka susu.`,
+  '2c7t0e33rd1': R`Semua karyawan datang tepat waktu.`,
+  'avwdd5b0gg': R`Ada karyawan yang tidak datang tepat waktu.`,
+  '28adrxoh914': R`Tidak ada karyawan yang datang tepat waktu.`,
+  '1000i19kpx7': R`Semua karyawan tidak datang tepat waktu.`,
+  '1tupibwtosw': R`Ada karyawan yang datang tepat waktu.`,
+  'syr088g2qb': R`Tidak semua karyawan datang tepat waktu.`,
+  '1rwcznrx3zt': R`Semua bilangan dalam daftar itu genap.`,
+  'g4py4lm4nz': R`Ada bilangan dalam daftar itu yang tidak genap.`,
+  'z8en25csvv': R`Tidak ada bilangan dalam daftar itu yang genap.`,
+  '1m3jao43f24': R`Semua bilangan dalam daftar itu tidak genap.`,
+  '2nfvm4et1c': R`Ada bilangan dalam daftar itu yang genap.`,
+  'xfe0p0mnov': R`Tidak semua bilangan dalam daftar itu genap.`,
+  '1w0eku5479x': R`Semua pemain mencetak gol.`,
+  '2xjzgvosy4': R`Ada pemain yang tidak mencetak gol.`,
+  '1eb39gddsae': R`Tidak ada pemain yang mencetak gol.`,
+  '1xbzgu8l71r': R`Semua pemain tidak mencetak gol.`,
+  't7ja96nwk4': R`Ada pemain yang mencetak gol.`,
+  '8j4qjj5ufj': R`Tidak semua pemain mencetak gol.`,
+  'b5r03m1c02': R`Apa negasi dari "⟦0⟧"?`,
+  '1a591wdfgbv': R`$\neg(\forall x\, P(x)) \equiv \exists x\, \neg P(x)$: cukup <i>sebagian</i> saja yang tidak memenuhi. Negasi: "⟦0⟧"`,
+  'do28na3fol': R`$\neg(\exists x\, P(x)) \equiv \forall x\, \neg P(x)$: tidak satu pun yang memenuhi. Negasi: "⟦0⟧"`,
+  'ndnufyumww': R`Berapa baris tabel kebenaran dengan ⟦0⟧ variabel pernyataan yang berbeda?`,
+  'u75a1of7f2': R`Setiap variabel bernilai B atau S, jadi ada $2^{⟦0⟧} = ⟦1⟧$ kombinasi.`,
+  '1w39q86nfhw': R`Pada tabel kebenaran $⟦0⟧$, pada berapa baris pernyataan itu bernilai benar?`,
+  'ny2shau597': R`Tabel itu memiliki ⟦0⟧ baris; setelah setiap baris dihitung, pernyataan itu benar pada <b>⟦1⟧</b> baris dan salah pada ⟦2⟧ baris.`,
+  '1zkv6notm6x': R`pertandingan dibatalkan`,
+  '28hyo4t2whc': R`pertandingan tidak dibatalkan`,
+  'amilvofe40': R`suatu bilangan berakhiran 0`,
+  'osyuok2ad2': R`suatu bilangan tidak berakhiran 0`,
+  'fabia2grh6': R`bilangan itu habis dibagi 5`,
+  '18q6q6gwd11': R`bilangan itu tidak habis dibagi 5`,
+  'm30q1lwox2': R`kamu menyiram tanaman`,
+  '1ku1ogs6cx8': R`kamu tidak menyiram tanaman`,
+  '1zfcrbg8kca': R`tanaman tumbuh`,
+  'ax498dx365': R`tanaman tidak tumbuh`,
+  '10pj6yxl1t7': R`alarm berbunyi`,
+  '4ju91rp1va': R`alarm tidak berbunyi`,
+  'smmfh9u0rs': R`Budi bangun`,
+  '1al6yo6prnr': R`Budi tidak bangun`,
+  '1wbxqjf54ui': R`Tidak ada kesimpulan yang sah.`,
+  '1h3hboouplr': R`Premis 1: "Jika ⟦0⟧, maka ⟦1⟧." Premis 2: "⟦2⟧." Kesimpulan apa yang sah?`,
+  '19xzw2kl48j': R`Ini modus ponens ($p \Rightarrow q$, $p$ ⊢ $q$): "⟦0⟧."`,
+  '4fjcpvhawf': R`Ini modus tollens ($p \Rightarrow q$, $\neg q$ ⊢ $\neg p$): "⟦0⟧."`,
+  'enorfzjcll': R`Mengetahui $q$ benar tidak memberi tahu apa pun tentang $p$ (membenarkan akibat adalah kesalahan). Tidak ada kesimpulan yang sah.`,
+  '1w6l8obljn3': R`Mengetahui $\neg p$ tidak memberi tahu apa pun tentang $q$ (mengingkari anteseden adalah kesalahan). Tidak ada kesimpulan yang sah.`,
+});
