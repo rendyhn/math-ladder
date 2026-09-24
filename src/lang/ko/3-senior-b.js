@@ -1,0 +1,139 @@
+/* 한국어 — 고등학교 (수열 → 삼각형의 풀이) */
+addT('ko', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>여기서 $a$는 첫째항, $l$은 끝항입니다.</p>
+⟦1⟧
+⟦2⟧
+<h3>무한등비급수</h3>
+⟦3⟧
+<p>예: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>시그마 기호</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$는 $f(1) + f(2) + \cdots + f(n)$을 뜻합니다. 유용한 공식: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$, $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`등차수열`,
+  '1atqzl7ltey': R`등비수열`,
+  'zs186mkwh5': R`매번 $d$를 더함`,
+  '160nuilyero': R`매번 $r$을 곱함`,
+  '99dr6iy4ys': R`첫째항부터 제n항까지의 합`,
+  '1yzmu3p7b4v': R`<p>$3, 7, 11, \ldots$의 첫째항부터 제20항까지의 합은 $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$입니다.</p>`,
+  '8pkxhjbkfd': R`<p>등차수열에서 $u_4 = 17$, $u_9 = 42$이면 그 사이는 공차 5개만큼이므로 $5d = 25$, $d = 5$, $a = 17 - 3 \times 5 = 2$입니다.</p>`,
+  '3zsr22exdg': R`<p>$|r| \lt 1$이면 항이 충분히 빨리 작아져서 합이 유한한 값으로 수렴합니다:</p>$$S_\infty = \frac{a}{1 - r}$$<p>$|r| \ge 1$이면 급수의 합은 유한하지 않습니다.</p>`,
+  '22swm7le3e': R`<p>$u_p$와 $u_q$ 사이는 $q - p + 1$걸음이 아니라 $q - p$걸음입니다.</p>`,
+  'v83xyier66': R`등차수열에서 $u_{⟦0⟧} = ⟦1⟧$, $u_{⟦2⟧} = ⟦3⟧$입니다. $u_{⟦4⟧}$를 구하시오.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$이므로 $d = ⟦3⟧$. 따라서 $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$, $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`등차수열 ⟦1⟧, …의 첫째항부터 제⟦0⟧항까지의 합을 구하시오.`,
+  'vsiejpaurw': R`등비수열 ⟦1⟧, …의 제⟦0⟧항 $u_{⟦0⟧}$를 구하시오.`,
+  '2fg2ivyt6zs': R`등비급수 $⟦1⟧ + \cdots$의 첫째항부터 제⟦0⟧항까지의 합을 구하시오.`,
+  '6by3ukfsg3': R`첫째항이 ⟦0⟧, 공비가 $⟦1⟧$인 무한등비급수의 합을 구하시오.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$이므로 $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`$\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$의 값을 구하시오.`,
+  'zk5lcxjf3d': R`지은이의 첫해 연봉은 ⟦0⟧달러이고, 매년 ⟦1⟧달러씩 오릅니다. 처음 ⟦2⟧년 동안 받는 연봉의 합은 얼마입니까?`,
+  '222tg0c1ffy': R`등차수열의 합입니다: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$달러.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>직각삼각형에서 예각 $\theta$에 대하여:</p>
+⟦0⟧
+<p>영어권 암기법: <b>SOH-CAH-TOA</b> (sin = 대변/빗변, cos = 인접변/빗변, tan = 대변/인접변). 또한 $\tan\theta = \frac{\sin\theta}{\cos\theta}$이고, 역수는 $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$입니다.</p>
+<h3>특수각의 삼각비</h3>
+⟦1⟧
+<h3>호도법</h3>
+<p>$180^\circ = \pi$ 라디안. 도를 라디안으로 바꾸려면 $\frac{\pi}{180}$을, 라디안을 도로 바꾸려면 $\frac{180}{\pi}$을 곱합니다. 따라서 $60^\circ = \frac{\pi}{3}$, $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>단위원</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{대변}}{\text{빗변}} \qquad \cos\theta = \frac{\text{인접변}}{\text{빗변}} \qquad \tan\theta = \frac{\text{대변}}{\text{인접변}}`,
+  'ig8vf2x1y6': R`sin θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`정의되지 않음`,
+  'uyvhui04wr': R`<p>임의의 각 $\theta$에 대하여 단위원 위의 점은 $(\cos\theta, \sin\theta)$입니다. 사분면별 부호 — "<b>올</b>·<b>사</b>·<b>탄</b>·<b>코</b>": 제1사분면은 모두 양, 제2사분면은 sin, 제3사분면은 tan, 제4사분면은 cos가 양입니다.</p><p><b>기준각</b>($x$축과 이루는 예각)을 쓰고 알맞은 부호를 붙입니다: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>30 m 떨어진 곳에서 탑 꼭대기를 올려본각이 $60^\circ$입니다. 높이 $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52.0$ m.</p>`,
+  'neyxpix7b9': R`<p>삼각함수를 계산하기 전에 계산기 모드(DEG 또는 RAD)를 확인하시오.</p>`,
+  '67i6rxexro': R`$⟦0⟧ ⟦1⟧$의 정확한 값을 구하시오.`,
+  'pdy7ypcls7': R`sqrt(3)/2 같은 정확한 값으로 입력할 수 있습니다.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$는 제⟦2⟧사분면에 있고, 여기서 $⟦3⟧$은(는) ⟦4⟧입니다. 기준각은 $⟦5⟧^\circ$이고 $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$이므로 $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧$⟦1⟧^\circ$에서 단위원 위의 점은 $⟦2⟧$ $= (\cos\theta, \sin\theta)$이므로 $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`$⟦0⟧^\circ$를 라디안으로 나타내시오.`,
+  'gs4x19407v': R`$\frac{\pi}{180}$을 곱합니다: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`$⟦0⟧$ 라디안을 도로 나타내시오.`,
+  'zfi973h2bw': R`$\frac{180}{\pi}$을 곱합니다: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`직각삼각형에서 $⟦0⟧^\circ$인 각에 인접한 변의 길이가 ⟦1⟧ cm입니다. 대변의 길이를 소수 둘째 자리까지 구하시오.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{대변}}{⟦1⟧}$이므로 대변 $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`빗변이 ⟦0⟧ cm이고 한 각이 $⟦1⟧^\circ$인 직각삼각형이 있습니다. 그 각의 대변의 길이를 소수 둘째 자리까지 구하시오.`,
+  '22kukzeyh6': R`빗변이 ⟦0⟧ cm이고 한 각이 $⟦1⟧^\circ$인 직각삼각형이 있습니다. 그 각에 인접한 변의 길이를 소수 둘째 자리까지 구하시오.`,
+  'w56ix8w8yr': R`대변`,
+  '5ydwv3it97': R`인접변`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$이므로 그 변 $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  '2abmsiuwu52': R`$\theta$는 예각이고 $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$입니다. $⟦2⟧\theta$를 구하시오.`,
+  '1qudt03n4v8': R`대변이 ⟦0⟧, 빗변이 ⟦1⟧인 직각삼각형을 그리면 인접변은 $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. 따라서 $⟦5⟧$.`,
+  '28dk1p4hmng': R`건물 밑에서 ⟦0⟧ m 떨어진 지점에서 건물 꼭대기를 올려본각이 $⟦1⟧^\circ$입니다. 건물의 높이를 정확한 값으로 구하시오.`,
+  '1fxpcv94bft': R`12sqrt(3) 같은 정확한 값으로 입력할 수 있습니다.`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$이고 $\tan ⟦2⟧^\circ = ⟦3⟧$이므로 $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`제1사분면`,
+  '4o87w2367v': R`제2사분면`,
+  '11djzpzc46w': R`제3사분면`,
+  '26d39yjlrkj': R`제4사분면`,
+  '1t5qxibr3fa': R`$⟦0⟧\theta ⟦1⟧ 0$이고 $⟦2⟧\theta ⟦3⟧ 0$이면 $\theta$는 제몇 사분면의 각입니까?`,
+  '1856p6n9vrk': R`sin은 제1, 2사분면에서, cos는 제1, 4사분면에서, tan은 제1, 3사분면에서 양입니다. 두 조건을 모두 만족하는 것은 <b>⟦0⟧</b>뿐입니다.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p><b>항등식</b>은 모든 각에서 성립합니다. 가장 중요한 것들:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>삼각방정식 풀기</h3>
+<p>기준각을 구한 다음, 주어진 범위에서 부호가 맞는 각을 모두 찾습니다.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`피타고라스 항등식`,
+  '28msif6x03y': R`덧셈정리`,
+  '1qlqqnnfd2i': R`배각공식`,
+  '14xjp53gt4x': R`<p>$0^\circ \le x \lt 360^\circ$에서 $\sin x = -\frac{1}{2}$를 풉니다. 기준각은 $30^\circ$이고 sin은 제3, 4사분면에서 음이므로 $x = 180^\circ + 30^\circ = 210^\circ$ 또는 $x = 360^\circ - 30^\circ = 330^\circ$입니다.</p>`,
+  '1hkvix57r6q': R`<p>$\sin\theta = \frac{3}{5}$이고 $\theta$가 제2사분면의 각이면 $\cos\theta = -\frac{4}{5}$입니다. 피타고라스 항등식으로 크기를, 사분면으로 부호를 정합니다.</p>`,
+  '64164qr2jw': R`$\theta$는 예각이고 $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$입니다. $\sin 2\theta$를 구하시오.`,
+  '27wxa35nxaa': R`$\sin\theta = \frac{⟦0⟧}{⟦1⟧}$일 때 $\cos 2\theta$를 구하시오.`,
+  'szbqx0thv8': R`$0^\circ \le x \lt 360^\circ$에서 $⟦0⟧ x = ⟦1⟧$을 푸시오.`,
+  '22m72qx0p66': R`각도(도)를 쉼표로 구분하여 입력하시오. 예: 30, 150`,
+  'ygon4mdoxw': R`기준각은 $⟦0⟧^\circ$입니다. $⟦1⟧$은(는) $⟦3⟧^\circ$와 $⟦4⟧^\circ$가 있는 사분면에서 ⟦2⟧이므로 $x = ⟦5⟧^\circ$ 또는 $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`합차공식, 그다음 $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`배각공식`,
+  'sj6onjglro': R`전개($\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$이 됨)`,
+  '7gzo83e030': R`⟦0⟧을(를) 이용하면: $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`$⟦0⟧$의 정확한 값을 구하시오.`,
+  '2ayoc6nyniw': R`(sqrt(6)+sqrt(2))/4 같은 정확한 값으로 입력할 수 있습니다.`,
+  '1mewvixpsgq': R`$⟦0⟧$로 나타내고 $30^\circ$, $45^\circ$, $60^\circ$의 정확한 값과 덧셈정리를 이용하면 결과는 $⟦1⟧$입니다.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$이고 $\theta$는 제⟦1⟧사분면의 각입니다. $⟦2⟧$를 구하시오.`,
+  '19cq8bi37ib': R`삼각형의 세 변은 ⟦0⟧, ⟦1⟧, ⟦2⟧입니다. 제⟦3⟧사분면에서 sin은 ⟦4⟧, cos는 ⟦5⟧이므로 $\sin\theta = ⟦6⟧$, $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>변 $a$가 각 $A$의 대변, $b$가 $B$의 대변, $c$가 $C$의 대변이 되도록 이름을 붙입니다. 이 법칙들은 직각삼각형뿐 아니라 <b>모든</b> 삼각형에서 성립합니다.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>한 변과 그 대각, 그리고 다른 한 변이나 한 각을 알 때 사용합니다.</p>`,
+  'mp16igkhf3': R`사인법칙`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>두 변과 그 끼인각을 알 때, 또는 세 변을 알 때 사용합니다.</p>`,
+  'kgaid4s1rf': R`코사인법칙`,
+  '1w8yehsbjfu': R`$$\text{넓이} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{헤론: } \text{넓이} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>두 변이 5와 8이고 끼인각이 $60^\circ$이면 나머지 변은 $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, 넓이는 $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$입니다.</p>`,
+  '11plyaa7o04': R`<p>사인법칙으로 각을 구하면 삼각형이 두 개 나올 수 있습니다: $\sin B = 0.8$이면 $B \approx 53.1^\circ$ <i>또는</i> $B \approx 126.9^\circ$. 각각이 조건에 맞는지 확인하시오.</p>`,
+  'l2pu7cls8u': R`삼각형 $ABC$에서 $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm, $A = ⟦2⟧^\circ$입니다. $a$를 소수 둘째 자리까지 구하시오.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$이므로 $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`세 변의 길이가 ⟦0⟧, ⟦1⟧, ⟦2⟧인 삼각형이 있습니다. 길이가 ⟦3⟧인 변의 대각을 구하시오.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$이므로 $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`삼각형 $ABC$에서 $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$, $a = ⟦2⟧$ cm입니다. $b$를 소수 둘째 자리까지 구하시오.`,
+  'i5vdhhm6yu': R`사인법칙: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$이므로 $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`두 변이 ⟦0⟧ cm, ⟦1⟧ cm이고 끼인각이 $⟦2⟧^\circ$인 삼각형의 넓이를 정확한 값으로 구하시오.`,
+  '25opm4iwiww': R`6sqrt(3) 같은 정확한 값으로 입력할 수 있습니다.`,
+  'cb99xoymur': R`넓이 $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$이고 $\sin ⟦3⟧^\circ = ⟦4⟧$이므로 $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`헤론의 공식을 이용하여 세 변이 ⟦0⟧, ⟦1⟧, ⟦2⟧인 삼각형의 넓이를 구하시오.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. 넓이 $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});

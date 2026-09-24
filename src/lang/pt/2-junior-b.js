@@ -1,0 +1,170 @@
+/* Português — anos finais (expressões algébricas → funções afins) */
+addT('pt', {
+  // algebra-expr
+  '2ngxvisbtd': R`
+<p>Na expressão $5x^2 - 3xy + 7$, os <b>termos</b> são $5x^2$, $-3xy$ e $7$; os <b>coeficientes</b> são 5 e $-3$; 7 é o <b>termo independente</b>. <b>Termos semelhantes</b> têm exatamente as mesmas letras com os mesmos expoentes ($4ab$ e $-ab$ são semelhantes; $x^2$ e $x$ não são).</p>
+<h3>Simplificar</h3>
+<p>Junte os termos semelhantes somando seus coeficientes: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Eliminar parênteses</h3>
+⟦0⟧
+⟦1⟧
+<h3>Produtos notáveis</h3>
+⟦2⟧
+<h3>Fatorar</h3>
+<p>Fatorar é desenvolver ao contrário. Coloque em evidência o maior fator comum: $12x - 18 = 6(2x - 3)$.</p>
+<h3>Substituir</h3>
+<p>Troque cada letra pelo seu valor, usando parênteses para os negativos: se $x = -2$, então $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦3⟧`,
+  '107qibv29t1': R`<p><b>Propriedade distributiva:</b> $a(b + c) = ab + ac$. Multiplique <i>cada</i> termo dentro do parêntese pelo termo de fora.</p><p><b>Dois parênteses:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
+  'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
+  'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. É fácil esquecer o termo do meio, $2 \cdot 4 \cdot x = 8x$.</p>`,
+  '1lzyurkx6yg': R`Simplifique $⟦0⟧$.`,
+  'c34hz2en6w': R`Junte os termos semelhantes: $(⟦0⟧ ⟦1⟧)⟦2⟧ + (⟦3⟧ ⟦4⟧)⟦5⟧ = ⟦6⟧$.`,
+  '1u1kf05ab7b': R`Desenvolva $⟦0⟧(⟦1⟧)$.`,
+  '1eys0d9g1vl': R`Multiplique cada termo do parêntese por ⟦0⟧: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ e $⟦4⟧ \times ⟦5⟧ = ⟦6⟧$. Resultado: $⟦7⟧$.`,
+  '1xv73exk1ey': R`Calcule o valor de $⟦0⟧$ para $x = ⟦1⟧$.`,
+  'lz4v2y9o7u': R`Substitua usando parênteses: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧ ⟦6⟧ ⟦7⟧ = ⟦8⟧$.`,
+  '26qvjy7rwjy': R`Fatore completamente: $⟦0⟧$.`,
+  '19u3t9utdnl': R`O MDC de ⟦0⟧ e ⟦1⟧ é ⟦2⟧: $⟦3⟧ = ⟦4⟧(⟦5⟧)$. Confira desenvolvendo.`,
+  '1im4ugi7thh': R`Desenvolva e simplifique $(x ⟦0⟧)(x ⟦1⟧)$.`,
+  '1bafsr7t5do': R`Multiplique termo a termo: $⟦0⟧ = ⟦1⟧$.`,
+  '2e60a5izj9m': R`Desenvolva $(x ⟦0⟧)^2$.`,
+
+  // linear-eq
+  '2e108zyv3t2': R`
+<p>Uma equação diz que duas expressões são iguais. Pense numa balança: o que você fizer de um lado, faça também do outro, e ela continua equilibrada. O objetivo é isolar a incógnita.</p>
+⟦0⟧
+⟦1⟧
+<h3>Parênteses e frações</h3>
+<p>Primeiro elimine os parênteses (ou divida os dois lados pelo número de fora). Elimine as frações multiplicando cada termo pelo denominador comum:</p>
+⟦2⟧
+<h3>Problemas</h3>
+<ol><li>Escolha uma letra para a incógnita e diga o que ela representa.</li><li>Traduza o enunciado em uma equação.</li><li>Resolva e confira se a resposta faz sentido no problema.</li></ol>
+⟦3⟧
+⟦4⟧`,
+  '23dcqvv32cf': R`<p>Desfaça as operações na ordem inversa usando <b>operações inversas</b>: adição ↔ subtração, multiplicação ↔ divisão.</p>`,
+  '11eu1q8a3p': R`<p>Resolva $5x - 7 = 2x + 11$.</p><ol><li>Subtraia $2x$ dos dois lados: $3x - 7 = 11$.</li><li>Some 7: $3x = 18$.</li><li>Divida por 3: $x = 6$.</li></ol><p>Verificação: $5(6) - 7 = 23$ e $2(6) + 11 = 23$ ✓</p>`,
+  '1wy5h98gkn6': R`<p>A soma de três inteiros consecutivos é 72. Chame-os de $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, então $n = 23$. Os inteiros são 23, 24 e 25.</p>`,
+  '2cslj9svu1g': R`<p>Quando um termo passa para o outro lado do sinal de igual, ele troca de sinal — porque na verdade você o está subtraindo (ou somando) dos dois lados.</p>`,
+  '1655nrncx2v': R`Resolva $⟦0⟧ = ⟦1⟧$.`,
+  'x5jse5nhwr': R`Digite o valor de x.`,
+  '2b0gu3x69ls': R`⟦0⟧: $⟦1⟧ = ⟦2⟧$. Divida por ⟦3⟧: $x = ⟦4⟧$.`,
+  '7pot73w6ik': R`Junte os termos em $x$ à esquerda e os números à direita: $⟦0⟧ = ⟦1⟧$, então $x = ⟦2⟧$.`,
+  'xzdgg8oaxi': R`Resolva $⟦0⟧(x ⟦1⟧) = ⟦2⟧$.`,
+  '9hdqgjqpdz': R`Divida os dois lados por ⟦0⟧: $x ⟦1⟧ = ⟦2⟧$. Então $x = ⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  '2fru7tuxryf': R`Resolva $\frac{x}{⟦0⟧} ⟦1⟧ = ⟦2⟧$.`,
+  '1f73j076fzb': R`⟦0⟧: $\frac{x}{⟦1⟧} = ⟦2⟧$. Multiplique os dois lados por ⟦3⟧: $x = ⟦4⟧$.`,
+  '211mafg3dgs': R`A soma de três inteiros consecutivos é ⟦0⟧. Qual é o maior deles?`,
+  '8v51kosf3f': R`A soma de três inteiros consecutivos é ⟦0⟧. Qual é o menor deles?`,
+  '28zr6x8xv6r': R`Chame-os de $n$, $n + 1$, $n + 2$. Então $3n + 3 = ⟦0⟧$, logo $3n = ⟦1⟧$ e $n = ⟦2⟧$. Os inteiros são ⟦3⟧, ⟦4⟧ e ⟦5⟧.`,
+  '6tcx6zie13': R`Andi`,
+  'bdnp7aucau': R`Maya`,
+  '111efujhij3': R`Nina`,
+  '2ffyzeo9a9u': R`Omar`,
+  '1o7plzvqsb1': R`Pablo`,
+  'xm9ndonr7a': R`⟦0⟧ tem ⟦1⟧ anos a mais que ⟦2⟧. A soma das idades dos dois é ⟦3⟧. Quantos anos tem ⟦4⟧?`,
+  '1dg7mtcy0c9': R`anos`,
+  '1i0et4blzn8': R`Seja $x$ a idade de ⟦0⟧. Então $x + (x + ⟦1⟧) = ⟦2⟧$, logo $2x = ⟦3⟧$ e $x = ⟦4⟧$.`,
+  '24q7bzlhbax': R`Pensei em um número, multipliquei por ⟦0⟧ e depois subtraí ⟦1⟧. O resultado foi ⟦2⟧. Em que número pensei?`,
+  'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, então $⟦3⟧x = ⟦4⟧$ e $x = ⟦5⟧$.`,
+
+  // inequalities
+  'x75whe4hrd': R`
+<p>Uma <b>inequação</b> compara duas expressões: $\lt$ (menor que), $\gt$ (maior que), $\le$ (menor ou igual a), $\ge$ (maior ou igual a). Sua solução costuma ser todo um intervalo de números.</p>
+<p>Na reta numérica, $x \gt 2$ é desenhado com uma bolinha <b>aberta</b> em 2 (o 2 não está incluído) e uma seta para a direita; $x \le 2$ usa uma bolinha <b>fechada</b> e uma seta para a esquerda.</p>
+<h3>Resolvendo</h3>
+<p>Resolva como uma equação — somando, subtraindo, multiplicando ou dividindo os dois lados — com uma regra a mais:</p>
+⟦0⟧
+<p>Por quê? $2 \lt 5$, mas multiplicando os dois lados por $-1$ obtemos $-2$ e $-5$, e $-2 \gt -5$.</p>
+⟦1⟧
+<h3>Inequações duplas</h3>
+<p>Faça a mesma operação nas três partes: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. As soluções inteiras são $-1; 0; 1; 2; 3$.</p>
+⟦2⟧`,
+  '4uypmmfwnv': R`<p>Quando você <b>multiplica ou divide por um número negativo</b>, inverta o sinal da desigualdade.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
+  '2g9ptainv5b': R`<p>Resolva $7 - 2x \ge 1$.</p><ol><li>Subtraia 7: $-2x \ge -6$.</li><li>Divida por $-2$ e inverta o sinal: $x \le 3$.</li></ol>`,
+  'q5ww8c7swj': R`<p>"O menor inteiro com $x \gt 4$" é 5, e não 4 — uma desigualdade estrita exclui o extremo.</p>`,
+  '1mxokpl5kuf': R`Resolva $⟦0⟧ ⟦1⟧ ⟦2⟧$.`,
+  '1iwjn3pne9': R`⟦0⟧: $⟦1⟧ ⟦2⟧ ⟦3⟧$. Divida por ⟦4⟧ (positivo, então o sinal se mantém): $x ⟦5⟧ ⟦6⟧$.`,
+  '1s1hpevc8ap': R`⟦0⟧: $⟦1⟧ ⟦2⟧ ⟦3⟧$. Divida por ⟦4⟧. Ele é <b>negativo</b>, então inverta o sinal: $x ⟦5⟧ ⟦6⟧$.`,
+  'io0ae9g8yj': R`O menor inteiro maior que ⟦0⟧ é <b>⟦1⟧</b>.`,
+  'civ81fo6ci': R`O menor inteiro maior ou igual a ⟦0⟧ é <b>⟦1⟧</b>.`,
+  '62e1f42m8l': R`O maior inteiro menor que ⟦0⟧ é <b>⟦1⟧</b>.`,
+  '1ime7hqq5cd': R`O maior inteiro menor ou igual a ⟦0⟧ é <b>⟦1⟧</b>.`,
+  '2cy3ba2hfyd': R`Qual é o menor inteiro $x$ que satisfaz $⟦0⟧$?`,
+  'uffp85dcny': R`Qual é o maior inteiro $x$ que satisfaz $⟦0⟧$?`,
+  '33ggbvntvo': R`Resolvendo, obtemos $x ⟦0⟧ ⟦1⟧$. ⟦2⟧`,
+  '116sbg7r1dd': R`Quantos inteiros $x$ satisfazem $⟦0⟧ ⟦1⟧ ⟦2⟧ ⟦3⟧ ⟦4⟧$?`,
+  '17y5i2hhz2j': R`⟦0⟧ e divida por ⟦1⟧: $⟦2⟧ ⟦3⟧ x ⟦4⟧ ⟦5⟧$. Os inteiros são ⟦6⟧, então são <b>⟦7⟧</b>.`,
+  'abjkjjicc6': R`todas as partes`,
+
+  // sets
+  '1upw9az6tpj': R`
+<p>Um <b>conjunto</b> é uma coleção bem definida de objetos, os seus <b>elementos</b>. Escrevemos $A = \{2; 4; 6; 8\}$ e $4 \in A$ ("4 pertence a A"), $5 \notin A$. $n(A)$ é o número de elementos; aqui $n(A) = 4$. O <b>conjunto vazio</b> $\varnothing$ não tem elementos; o <b>conjunto universo</b> $U$ contém tudo o que está em discussão.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'zdmpl6ts1e': R`Um diagrama de Venn: cada região é uma combinação diferente de "está em A" e "está em B".`,
+  '142ifrt0jkt': R`Notação`,
+  '14czndj1h0b': R`Exemplo com A = {1; 2; 3; 4}, B = {3; 4; 5}`,
+  '17jfg6qecmz': R`interseção: nos dois`,
+  '93vbzoy4wv': R`união: em pelo menos um`,
+  'j83k8kg7rg': R`em A mas não em B`,
+  'ul55bfe733': R`complementar: em U mas não em A`,
+  '1m3czehh1lg': R`todo o resto de U`,
+  '9y4djdoyyu': R`todo elemento de A está em B`,
+  'w227m2d70o': R`$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$<p>Subtraímos a interseção porque ela foi contada duas vezes. Um conjunto com $n$ elementos tem $2^n$ subconjuntos (incluindo $\varnothing$ e o próprio conjunto).</p>`,
+  '4thfgx5jwf': R`<p>Numa turma de 35 alunos, 20 jogam futebol, 18 jogam basquete e 8 jogam os dois. Então $n(F \cup B) = 20 + 18 - 8 = 30$ praticam pelo menos um esporte e $35 - 30 = 5$ não praticam nenhum.</p>`,
+  '27eu4624ja8': R`<p>"Quantos jogam só futebol?" é $20 - 8 = 12$, e não 20. Preencha primeiro a interseção do diagrama de Venn e depois vá para fora.</p>`,
+  '27zhedv4gc': R`Numa turma de ⟦0⟧ alunos, ⟦1⟧ gostam de futebol, ⟦2⟧ gostam de basquete e ⟦3⟧ gostam dos dois. Quantos alunos não gostam de nenhum dos dois esportes?`,
+  '26xw5lahqxo': R`$n(F \cup B) = ⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$. Nenhum: $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
+  '1619zngy4yv': R`Num grupo, ⟦0⟧ pessoas falam inglês, ⟦1⟧ falam francês e ⟦2⟧ falam as duas línguas. Quantas falam pelo menos uma das duas?`,
+  '18t2zte9r05': R`Quantos subconjuntos <b>próprios</b> $⟦0⟧$ tem?`,
+  '2dvh10c76ll': R`Quantos subconjuntos $⟦0⟧$ tem?`,
+  'o8q41j2x4h': R`Um conjunto com ⟦0⟧ elementos tem $2^{⟦1⟧} = ⟦2⟧$ subconjuntos; deixando de fora o próprio $A$, restam ⟦3⟧ subconjuntos próprios.`,
+  '1levxnz2zxu': R`Um conjunto com ⟦0⟧ elementos tem $2^{⟦1⟧} = ⟦2⟧$ subconjuntos.`,
+  'ngdtyzf3i3': R`elementos que estão nos dois conjuntos`,
+  'ygni6ry4dh': R`elementos que estão em pelo menos um dos conjuntos`,
+  'v15s4csij3': R`elementos de A que não estão em B`,
+  '1j1pykn2kdj': R`Sejam $A = ⟦0⟧$ e $B = ⟦1⟧$. Determine $A ⟦2⟧ B$.`,
+  '256hp0emm8w': R`$A ⟦0⟧ B$ contém os ⟦1⟧: $⟦2⟧$.`,
+  '1vmjbk89h3x': R`$U = \{1; 2; 3; \ldots; ⟦0⟧\}$ e $A = ⟦1⟧$. Quantos elementos há em $A'$, o complementar de $A$?`,
+  'fzclz65o4l': R`$A'$ contém os elementos de $U$ que não estão em $A$: $n(A') = n(U) - n(A) = ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '27rc7060yur': R`números primos`,
+  '1qm9u9pg5gt': R`números pares`,
+  '19ysprsc13w': R`múltiplos de 3`,
+  '2bluzo1qazo': R`quadrados perfeitos`,
+  '1ncphoa2uf2': R`$A$ é o conjunto dos inteiros positivos menores que ⟦0⟧ que são ⟦1⟧. Determine $n(A)$.`,
+  '9yersm2gye': R`$A = ⟦0⟧$, então $n(A) = ⟦1⟧$.`,
+
+  // linear-functions
+  '1dcyn9qstbs': R`
+<p>Uma <b>função afim</b> tem como gráfico uma reta. Na <b>forma reduzida</b></p>
+⟦0⟧
+<p>$m$ é o <b>coeficiente angular</b> (a inclinação): quanto $y$ varia quando $x$ aumenta 1. $c$ é o <b>coeficiente linear</b>, onde a reta corta o eixo $y$. Na notação de funções escrevemos $f(x) = mx + c$, então $f(3)$ significa "o valor quando $x = 3$".</p>
+<h3>Coeficiente angular a partir de dois pontos</h3>
+⟦1⟧
+⟦2⟧
+<h3>Interceptos e outras formas</h3>
+<p>Faça $x = 0$ para achar onde a reta corta o eixo $y$ e $y = 0$ para onde corta o eixo $x$. Uma reta pode ser escrita $ax + by = c$; isole $y = -\frac{a}{b}x + \frac{c}{b}$ para ler o coeficiente angular. Passando por um ponto $(x_1; y_1)$ com coeficiente angular $m$: $y - y_1 = m(x - x_1)$.</p>
+⟦3⟧
+⟦4⟧`,
+  'b6i5f4mrw8': R`y = mx + c`,
+  '2debyr8clym': R`m = \frac{\text{variação vertical}}{\text{variação horizontal}} = \frac{y_2 - y_1}{x_2 - x_1}`,
+  '2487xq0zh4o': R`<p>Por $(1; 2)$ e $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitua $(1; 2)$ em $y = 3x + c$: $2 = 3 + c$, então $c = -1$ e a reta é $y = 3x - 1$.</p>`,
+  '1jy9kk0ffnl': R`<ul><li>Retas <b>paralelas</b> têm o mesmo coeficiente angular: $m_1 = m_2$.</li><li>Retas <b>perpendiculares</b> têm coeficientes angulares cujo produto é $-1$: $m_1 m_2 = -1$, então $m_2 = -\frac{1}{m_1}$.</li></ul>`,
+  'mf12am34lg': R`<p>Mantenha a ordem: se usar $y_2 - y_1$ em cima, use $x_2 - x_1$ embaixo. Um coeficiente angular positivo sobe para a direita; um negativo desce.</p>`,
+  'cmysd7luf4': R`Determine o coeficiente angular da reta que passa por $⟦0⟧$ e $⟦1⟧$.`,
+  'bn7cydwexg': R`Dada $f(x) = ⟦0⟧$, calcule $f(⟦1⟧)$.`,
+  'aaz26bx5zl': R`Em que valor de $y$ a reta $⟦0⟧$ corta o eixo $y$?`,
+  '286d6a0jwny': R`Faça $x = 0$: $⟦0⟧ = ⟦1⟧$, então $y = ⟦2⟧$.`,
+  '2aba0g68aq0': R`Qual é o coeficiente angular da reta $⟦0⟧$?`,
+  '2cp0qhukifo': R`Isole $y$: $y = \frac{⟦0⟧x ⟦1⟧}{⟦2⟧}$. O coeficiente angular é o coeficiente de $x$: $⟦3⟧$.`,
+  '9s9um0dbpj': R`Qual equação descreve a reta que passa por $⟦0⟧$ e $⟦1⟧$?`,
+  '2ewjcigtyej': R`Coeficiente angular: $m = \frac{⟦0⟧ - ⟦1⟧}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. Substitua $⟦5⟧$ em $y = ⟦6⟧ + c$: $c = ⟦7⟧ - ⟦8⟧ = ⟦9⟧$.`,
+  'dog47xwchb': R`Uma reta tem coeficiente angular $⟦0⟧$. Qual é o coeficiente angular de uma reta perpendicular a ela?`,
+  '22x7dksxq1f': R`Os coeficientes angulares de retas perpendiculares têm produto $-1$: $m_2 = -\frac{1}{m_1} = ⟦0⟧$.`,
+  '1p3mlag1dqo': R`Para qual valor de $x$ a reta $y = ⟦0⟧$ corta o eixo $x$?`,
+  'v36n3a0on1': R`No eixo $x$, $y = 0$: $⟦0⟧ ⟦1⟧ = 0$, então $x = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+});

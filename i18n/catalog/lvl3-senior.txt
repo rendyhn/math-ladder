@@ -1,0 +1,1307 @@
+##### core
+@3idcm4kbiz
+Type both solutions separated by a comma, e.g. -2, 5.
+@2gdno2vs4iz
+Type an answer such as 9pi or 3pi/4.
+@2aa32u1lmw9
+TF
+
+##### quadratics
+@zojqk1lf1a  ; 0=Fm(T`x^2 - x - 12 = 0 \;\Rightarrow\; (x | 1=Fm(T`x^2 + 6x + 2 = 0 \;\Rightarrow\; (x | 2=Key(T`$$x = \frac{-b \pm \sqrt{b^2 - 4ac | 3=Fm(T`x_1 + x_2 = -\frac{b}{a} \qquad\qqu | 4=Ex(T`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 2 | 5=Tip(T`<p>Never divide both sides by $x$ 
+
+<p>A <b>quadratic equation</b> has the form $ax^2 + bx + c = 0$ with $a \ne 0$. It has at most two solutions (roots).</p>
+<h3>1. Factorising</h3>
+<p>If a product is zero, one of its factors is zero. Find two numbers that multiply to $c$ and add to $b$ (when $a = 1$):</p>
+⟦0⟧
+<h3>2. Completing the square</h3>
+⟦1⟧
+<h3>3. The quadratic formula</h3>
+⟦2⟧
+<h3>Sum and product of roots (Vieta)</h3>
+⟦3⟧
+<p>So an equation with roots $r$ and $s$ is $x^2 - (r + s)x + rs = 0$.</p>
+⟦4⟧
+⟦5⟧
+@2eim40ubkm5
+x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ or } x = -3
+@2fswinarukx
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>The <b>discriminant</b> $D = b^2 - 4ac$ tells you how many real roots there are:</p><ul><li>$D \gt 0$: two distinct real roots</li><li>$D = 0$: one repeated real root</li><li>$D \lt 0$: no real roots (two complex roots)</li></ul>
+@2es7ki62fmx
+<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, so $x = \frac{7 \pm 5}{4}$, giving $x = 3$ or $x = \frac{1}{2}$. Check: sum $= \frac{7}{2}$ ✓, product $= \frac{3}{2}$ ✓.</p>
+@2fn72wvlok5
+<p>Never divide both sides by $x$ — you lose the root $x = 0$. Move everything to one side and factorise instead.</p>
+@wqvbu9g7qm  ; 0=Math.min(p, q) | 1=Math.max(p, q)
+$x = ⟦0⟧ \text{ or } x = ⟦1⟧$
+@2g53wo2odbr  ; 0=poly([1, -(r1 + r2), r1 * r2])
+Solve $⟦0⟧ = 0$.
+@zl23t8993d  ; 0=sg(-r1) | 1=sg(-r2) | 2=Math.min(r1, r2) | 3=Math.max(r1, r2)
+Factorise: $(x ⟦0⟧)(x ⟦1⟧) = 0$, so $x = ⟦2⟧$ or $x = ⟦3⟧$.
+@116407nwdrj  ; 0=poly([a, b, c])
+Find the discriminant of $⟦0⟧ = 0$.
+@3gb665scdq
+Two distinct real roots
+@2fay79x4phj
+One repeated real root
+@ha2iee3mi
+No real roots
+@21o8qulmmck  ; 0=poly([a, b, c])
+How many real roots does $⟦0⟧ = 0$ have?
+@2v9wp16hr5  ; 0=Dt
+$⟦0⟧$ is positive, so there are two distinct real roots.
+@1awtt37lduc  ; 0=Dt
+$⟦0⟧$ is zero, so there is one repeated real root.
+@1b3c8vdz0p  ; 0=Dt
+$⟦0⟧$ is negative, so there are no real roots.
+@13khpmu10gc  ; 0=poly([a, b, c])
+Find the sum of the roots of $⟦0⟧ = 0$.
+@23qtrsvpbqj  ; 0=frT(-b, a)
+Sum of roots $= -\frac{b}{a} = ⟦0⟧$.
+@2e310dsl6wd  ; 0=poly([a, b, c])
+Find the product of the roots of $⟦0⟧ = 0$.
+@1s4vvexqix0  ; 0=frT(c, a)
+Product of roots $= \frac{c}{a} = ⟦0⟧$.
+@27metzx2wv2  ; 0=poly([1, 2 * p, c])
+Solve $⟦0⟧ = 0$, giving exact answers.
+@1pprj3loiqe
+Type both solutions separated by a comma, e.g. -3+sqrt(5), -3-sqrt(5).
+@28yk466lqnm  ; 0=sg(p) | 1=p * p | 2=sg(c) | 3=sg(p) | 4=m | 5=M(-p) | 6=m
+Complete the square: $(x ⟦0⟧)^2 - ⟦1⟧ ⟦2⟧ = 0$, so $(x ⟦3⟧)^2 = ⟦4⟧$ and $x = ⟦5⟧ \pm \sqrt{⟦6⟧}$.
+@13i18rd2v1i  ; 0=r1 | 1=r2
+Which quadratic equation has roots $⟦0⟧$ and $⟦1⟧$?
+@1qw3sazqaaj  ; 0=k | 1=A
+A rectangle's length is ⟦0⟧ m more than its width, and its area is ⟦1⟧ m². Find the width.
+@27ssy7fe6w9  ; 0=k | 1=A | 2=poly([1, k, -A], 'w') | 3=w | 4=w + k | 5=w
+Let the width be $w$: $w(w + ⟦0⟧) = ⟦1⟧$, so $⟦2⟧ = 0$, i.e. $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. A width must be positive, so $w = ⟦5⟧$ m.
+
+##### quad-functions
+@t6hwj355ki  ; 0=Key(T`<ul><li>Axis of symmetry and verte | 1=Fm(T`f(x) = a(x - h)^2 + k \qquad \text{ | 2=Ex(T`<p>A ball's height is $h(t) = -5t^2 | 3=Tip(T`<p>The axis of symmetry lies exact
+
+<p>The graph of $f(x) = ax^2 + bx + c$ is a <b>parabola</b>. It opens <b>upward</b> if $a \gt 0$ (a valley, with a minimum) and <b>downward</b> if $a \lt 0$ (a hill, with a maximum).</p>
+⟦0⟧
+<h3>Vertex form</h3>
+⟦1⟧
+<p>Completing the square converts standard form to vertex form: $x^2 - 6x + 11 = (x - 3)^2 + 2$, so the vertex is $(3, 2)$ and the minimum value is 2. The range is $y \ge 2$.</p>
+⟦2⟧
+⟦3⟧
+@s0tk1crha5
+<ul><li>Axis of symmetry and vertex: $x = -\dfrac{b}{2a}$; the vertex is $\left(-\dfrac{b}{2a},\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>$y$-intercept: $(0, c)$.</li><li>$x$-intercepts: the roots of $ax^2 + bx + c = 0$ (if any).</li></ul>
+@8vanwczjp2
+f(x) = a(x - h)^2 + k \qquad \text{vertex } (h, k)
+@17der0pee5r
+<p>A ball's height is $h(t) = -5t^2 + 20t + 1$ metres. The vertex is at $t = -\frac{20}{2(-5)} = 2$ s, and the maximum height is $h(2) = -20 + 40 + 1 = 21$ m.</p>
+@zvghnbm8dy
+<p>The axis of symmetry lies exactly halfway between the two $x$-intercepts: if the roots are $p$ and $q$, it is $x = \frac{p + q}{2}$.</p>
+@1mhp7175d34  ; 0=poly([a, b, c])
+Find the $x$-coordinate of the vertex of $y = ⟦0⟧$.
+@2clzljfduzb  ; 0=f
+Find the maximum value of $f(x) = ⟦0⟧$.
+@2gjwh27g0hr  ; 0=f
+Find the minimum value of $f(x) = ⟦0⟧$.
+@27czsvma29h  ; 0=h | 1=h | 2=k | 3=k
+The vertex is at $x = -\frac{b}{2a} = ⟦0⟧$, and $f(⟦1⟧) = ⟦2⟧$. Since $a \lt 0$ the parabola opens downward, so ⟦3⟧ is the maximum.
+@14ge4kcc386  ; 0=h | 1=h | 2=k | 3=k
+The vertex is at $x = -\frac{b}{2a} = ⟦0⟧$, and $f(⟦1⟧) = ⟦2⟧$. Since $a \gt 0$ the parabola opens upward, so ⟦3⟧ is the minimum.
+@c44znu24a9  ; 0=poly([1, b, c])
+Write $y = ⟦0⟧$ in vertex form.
+@1vsnqklq7o3  ; 0=sg(b) | 1=sg(-h) | 2=h * h | 3=sg(-h) | 4=h * h | 5=sg(c) | 6=sg(-h) | 7=sg(k) | 8=pt(h, k)
+Complete the square: $x^2 ⟦0⟧x = (x ⟦1⟧)^2 - ⟦2⟧$. So $y = (x ⟦3⟧)^2 - ⟦4⟧ ⟦5⟧ = (x ⟦6⟧)^2 ⟦7⟧$, with vertex $⟦8⟧$.
+@zpcs87kljp  ; 0=p | 1=q
+A parabola crosses the $x$-axis at $x = ⟦0⟧$ and $x = ⟦1⟧$. What is the equation of its axis of symmetry? Give the value of $x$.
+@fw0opla76f  ; 0=p | 1=pn(q) | 2=M((p + q) / 2)
+The axis of symmetry is halfway between the roots: $x = \frac{⟦0⟧ + ⟦1⟧}{2} = ⟦2⟧$.
+@v46mha0d5d  ; 0=poly([-5, v, h0], 't') | 1=askT ? T`After how many seconds does it 
+A ball's height in metres after $t$ seconds is $h(t) = ⟦0⟧$. ⟦1⟧
+@1hvtdauomyu
+After how many seconds does it reach its maximum height?
+@1316b0fmwet
+What is its maximum height?
+@ycs9rjyck7  ; 0=v | 1=M(tm) | 2=askT ? '' : T` Then $h(${M(tm)}) = -5(${
+The vertex is at $t = -\frac{⟦0⟧}{2(-5)} = ⟦1⟧$ s.⟦2⟧
+@ztkk37xmwf  ; 0=M(tm) | 1=M(tm) | 2=v | 3=M(tm) | 4=h0 | 5=M(H)
+ Then $h(⟦0⟧) = -5(⟦1⟧)^2 + ⟦2⟧(⟦3⟧) + ⟦4⟧ = ⟦5⟧$ m.
+@1e1oh4ob6ax  ; 0=poly([a, b, c])
+What is the range of $f(x) = ⟦0⟧$?
+@1xjsk3emsrc  ; 0=pt(h, k) | 1=k
+The vertex is $⟦0⟧$ and the parabola opens upward, so the range is $y \ge ⟦1⟧$.
+@xs3xxut6a6  ; 0=pt(h, k) | 1=k
+The vertex is $⟦0⟧$ and the parabola opens downward, so the range is $y \le ⟦1⟧$.
+
+##### functions
+@8naid6th7m  ; 0=Key(T`$$(f \circ g)(x) = f(g(x))$$<p>App | 1=Ex(T`<p>$f(x) = 2x + 1$, $g(x) = x^2$. T | 2=Ex(T`<p>$f(x) = 3x - 5$: swap to get $x  | 3=Tip(T`<p>$f^{-1}(x)$ means the inverse f
+
+<p>A <b>function</b> assigns to each input exactly <b>one</b> output. The set of allowed inputs is the <b>domain</b>; the set of outputs is the <b>range</b>.</p>
+<h3>Natural domains</h3>
+<ul><li>No division by zero: for $\frac{1}{x - 2}$, the domain is $x \ne 2$.</li><li>No square roots of negatives: for $\sqrt{x + 3}$, the domain is $x \ge -3$.</li><li>Logarithms need positive arguments: for $\log(x - 1)$, the domain is $x \gt 1$.</li></ul>
+<h3>Composition</h3>
+⟦0⟧
+⟦1⟧
+<h3>Inverse functions</h3>
+<p>$f^{-1}$ undoes $f$: if $f(a) = b$ then $f^{-1}(b) = a$. To find it, write $y = f(x)$, swap $x$ and $y$, and solve for $y$.</p>
+⟦2⟧
+<p>The graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y = x$. Only one-to-one functions have inverses.</p>
+⟦3⟧
+@1ph305emxqf
+$$(f \circ g)(x) = f(g(x))$$<p>Apply $g$ first, then $f$. In general $f \circ g \ne g \circ f$.</p>
+@1cxwjq7z97r
+<p>$f(x) = 2x + 1$, $g(x) = x^2$. Then $f(g(3)) = f(9) = 19$, but $g(f(3)) = g(7) = 49$. As expressions: $f(g(x)) = 2x^2 + 1$ and $g(f(x)) = (2x + 1)^2$.</p>
+@15c8mvolh1o
+<p>$f(x) = 3x - 5$: swap to get $x = 3y - 5$, so $y = \frac{x + 5}{3}$ and $f^{-1}(x) = \frac{x + 5}{3}$. Check: $f(f^{-1}(x)) = x$ ✓</p>
+@26njpf4q54n
+<p>$f^{-1}(x)$ means the inverse function, not $\frac{1}{f(x)}$.</p>
+@i7pel35sqq  ; 0=lin(a, b) | 1=poly([1, 0, c]) | 2=fg ? `f(g(${k}))` : `g(f(${k}))`
+Let $f(x) = ⟦0⟧$ and $g(x) = ⟦1⟧$. Find $⟦2⟧$.
+@1znd9mktzvv  ; 0=k | 1=g(k) | 2=g(k) | 3=val
+Inside first: $g(⟦0⟧) = ⟦1⟧$. Then $f(⟦2⟧) = ⟦3⟧$.
+@hfjxna60e5  ; 0=k | 1=f(k) | 2=f(k) | 3=val
+Inside first: $f(⟦0⟧) = ⟦1⟧$. Then $g(⟦2⟧) = ⟦3⟧$.
+@202pgbw3wu2  ; 0=lin(a, b) | 1=lin(c, d)
+If $f(x) = ⟦0⟧$ and $g(x) = ⟦1⟧$, find $(f \circ g)(x)$.
+@f0qp6mlevp  ; 0=lin(a, b)
+Find the inverse of $f(x) = ⟦0⟧$.
+@169q0jrvorq  ; 0=lin(a, b) | 1=lin(a, b, 'y') | 2=sg(-b) | 3=a
+Write $y = ⟦0⟧$ and swap $x$ and $y$: $x = ⟦1⟧$. Solve for $y$: $y = \frac{x ⟦2⟧}{⟦3⟧}$.
+@qmg4emyl6w  ; 0=lin(a, b) | 1=k
+Given $f(x) = ⟦0⟧$, find $f^{-1}(⟦1⟧)$.
+@15zrqw164xy  ; 0=k | 1=k | 2=lin(a, b) | 3=k | 4=t
+$f^{-1}(⟦0⟧)$ is the input that gives ⟦1⟧: $⟦2⟧ = ⟦3⟧$, so $x = ⟦4⟧$.
+@uego2o122d  ; 0=sg(-a)
+The expression under the root must be non-negative: $x ⟦0⟧ \ge 0$.
+@39j6h0pn24  ; 0=sg(-a)
+The denominator cannot be zero: $x ⟦0⟧ \ne 0$.
+@sbga4fns30  ; 0=a
+We need $⟦0⟧ - x \ge 0$.
+@21vfyvxcrw8  ; 0=sg(-a)
+A logarithm needs a positive argument: $x ⟦0⟧ \gt 0$.
+@10h8v1f5joc  ; 0=D[0]
+What is the domain of $f(x) = ⟦0⟧$?
+@1i0w7q8kkjh  ; 0=D[2] | 1=D[1]
+⟦0⟧ So the domain is ⟦1⟧.
+@1qymltc7n95  ; 0=poly([1, 0, p]) | 1=c | 2=lin(m, n) | 3=c | 4=k
+Let $f(x) = \begin{cases} ⟦0⟧, & x \lt ⟦1⟧ \\ ⟦2⟧, & x \ge ⟦3⟧ \end{cases}$. Find $f(⟦4⟧)$.
+@2c8e7agksdd  ; 0=k | 1=c | 2=k | 3=f(k)
+Since $⟦0⟧ \lt ⟦1⟧$, use the first rule: $f(⟦2⟧) = ⟦3⟧$.
+@ranlsqjvf9  ; 0=k | 1=c | 2=k | 3=f(k)
+Since $⟦0⟧ \ge ⟦1⟧$, use the second rule: $f(⟦2⟧) = ⟦3⟧$.
+
+##### exp-log
+@l9f49uc5fx  ; 0=Key(T`$$\log_b a = c \quad\Longleftright | 1=Tbl([T`Law`, T`Example`], [[T`$\log_b(xy | 2=Tip(T`<p>$\log(x + y) \ne \log x + \log 
+
+<p>Rational exponents combine powers and roots: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. So $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ and $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logarithms</h3>
+⟦0⟧
+⟦1⟧
+<h3>Solving equations</h3>
+<ul><li>Same base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Log equation: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Different bases: take logs of both sides, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1.861$.</li></ul>
+<h3>Exponential growth and decay</h3>
+<p>$A = A_0 \cdot r^{t/T}$: a quantity multiplied by $r$ every $T$ time units. Compound interest: $A = P(1 + i)^n$.</p>
+⟦2⟧
+@cgsm0nxs87
+$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0,\; b \ne 1,\; a \gt 0)$$<p>A logarithm answers "what power of $b$ gives $a$?" — so $\log_2 32 = 5$. $\log x$ means $\log_{10} x$; $\ln x$ means $\log_e x$ with $e \approx 2.718$.</p>
+@5k5p7u9mjc
+change of base
+@unmvz575yi
+<p>$\log(x + y) \ne \log x + \log y$. The product law turns a <i>product</i> inside into a sum outside.</p>
+@osur1d06sr  ; 0=b | 1=arg
+Evaluate $\log_{⟦0⟧} ⟦1⟧$.
+@8m3m9l7mik  ; 0=b | 1=n | 2=arg | 3=b | 4=arg | 5=n
+$⟦0⟧^{⟦1⟧} = ⟦2⟧$, so $\log_{⟦3⟧} ⟦4⟧ = ⟦5⟧$.
+@1qkid4ac6wc  ; 0=a | 1=M(x) | 2=a | 3=M(y)
+Evaluate $\log_{⟦0⟧} ⟦1⟧ + \log_{⟦2⟧} ⟦3⟧$.
+@1kop25xxaoo  ; 0=a | 1=M(X) | 2=a | 3=Y
+Evaluate $\log_{⟦0⟧} ⟦1⟧ - \log_{⟦2⟧} ⟦3⟧$.
+@1cctawopufn  ; 0=base | 1=p | 2=q
+Evaluate $⟦0⟧^{-\frac{⟦1⟧}{⟦2⟧}}$.
+@2bg5dnahfhi
+Type a fraction such as 1/4.
+@2cumtrnn88x  ; 0=base | 1=p | 2=q
+Evaluate $⟦0⟧^{\frac{⟦1⟧}{⟦2⟧}}$.
+@x9eagz2e3z  ; 0=b | 1=lin(a, c) | 2=M(b ** m)
+Solve $⟦0⟧^{⟦1⟧} = ⟦2⟧$.
+@1zhriq8g9vc  ; 0=M(b ** m) | 1=b | 2=m | 3=lin(a, c) | 4=m | 5=x
+$⟦0⟧ = ⟦1⟧^{⟦2⟧}$. Equal bases give equal exponents: $⟦3⟧ = ⟦4⟧$, so $x = ⟦5⟧$.
+@5s8f33ips  ; 0=b | 1=lin(a, c) | 2=n
+Solve $\log_{⟦0⟧}(⟦1⟧) = ⟦2⟧$.
+@1qw3ujxvp13  ; 0=lin(a, c) | 1=b | 2=n | 3=M(b ** n) | 4=xt(a) | 5=M(b ** n - c) | 6=x
+In exponential form: $⟦0⟧ = ⟦1⟧^{⟦2⟧} = ⟦3⟧$, so $⟦4⟧ = ⟦5⟧$ and $x = ⟦6⟧$.
+@1owsh5togde  ; 0=F(P0) | 1=d | 2=t
+A bacteria colony of ⟦0⟧ cells doubles every ⟦1⟧ hours. How many cells are there after ⟦2⟧ hours?
+@24ouek9sj2d  ; 0=F(P0) | 1=d | 2=t
+A bacteria colony of ⟦0⟧ cells triples every ⟦1⟧ hours. How many cells are there after ⟦2⟧ hours?
+@sad2coi0y  ; 0=t | 1=d | 2=k | 3=M(P0) | 4=f | 5=k | 6=M(P0 * f ** k)
+There are $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ periods, so $N = ⟦3⟧ \times ⟦4⟧^{⟦5⟧} = ⟦6⟧$.
+@uyumfdhjnr  ; 0=n | 1=e[2] ? T` (Hint: $\log 5 = \log 10 - \lo
+Given $\log 2 \approx 0.3010$ and $\log 3 \approx 0.4771$, find $\log ⟦0⟧$ to 4 decimal places.⟦1⟧
+@a59cccufc1
+ (Hint: $\log 5 = \log 10 - \log 2$.)
+@12khv2t073z  ; 0=n | 1=parts.map(p => (p[0] > 1 ? `${p[1]}^{${p | 2=n | 3=parts.map(p => (p[0] > 1 ? `${p[0]}\\log | 4=M(val) | 5=e[2] ? T` Here $\log 5 = 1 - 0.3010 = 0.
+$⟦0⟧ = ⟦1⟧$, so $\log ⟦2⟧ = ⟦3⟧ \approx ⟦4⟧$.⟦5⟧
+@2aoxsl3f4vw
+ Here $\log 5 = 1 - 0.3010 = 0.6990$.
+
+##### sequences
+@214j3dem4vw  ; 0=Tbl(['', T`Arithmetic`, T`Geometric`], [ | 1=Ex(T`<p>The sum of the first 20 terms of | 2=Ex(T`<p>In an arithmetic sequence $u_4 = | 3=Key(T`<p>If $|r| \lt 1$ the terms shrink | 4=Tip(T`<p>Between $u_p$ and $u_q$ there a
+
+⟦0⟧
+<p>Here $a$ is the first term and $l$ the last term.</p>
+⟦1⟧
+⟦2⟧
+<h3>Infinite geometric series</h3>
+⟦3⟧
+<p>Example: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Sigma notation</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ means $f(1) + f(2) + \cdots + f(n)$. Useful facts: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ and $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧
+@lwukzez7ke
+Arithmetic
+@1atqzl7ltey
+Geometric
+@zs186mkwh5
+add $d$ each time
+@160nuilyero
+multiply by $r$ each time
+@99dr6iy4ys
+Sum of n terms
+@1yzmu3p7b4v
+<p>The sum of the first 20 terms of $3, 7, 11, \ldots$ is $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>
+@8pkxhjbkfd
+<p>In an arithmetic sequence $u_4 = 17$ and $u_9 = 42$. Five steps of $d$ separate them, so $5d = 25$, $d = 5$, and $a = 17 - 3 \times 5 = 2$.</p>
+@3zsr22exdg
+<p>If $|r| \lt 1$ the terms shrink fast enough for the sum to settle on a finite value:</p>$$S_\infty = \frac{a}{1 - r}$$<p>If $|r| \ge 1$ the series has no finite sum.</p>
+@22swm7le3e
+<p>Between $u_p$ and $u_q$ there are $q - p$ steps, not $q - p + 1$.</p>
+@v83xyier66  ; 0=p | 1=a + (p - 1) * d | 2=q | 3=a + (q - 1) * d | 4=r
+In an arithmetic sequence, $u_{⟦0⟧} = ⟦1⟧$ and $u_{⟦2⟧} = ⟦3⟧$. Find $u_{⟦4⟧}$.
+@1vrn63sndie  ; 0=q | 1=p | 2=(q - p) * d | 3=d | 4=p | 5=p - 1 | 6=a | 7=r | 8=a | 9=r - 1 | 10=d | 11=a + (r - 1) * d
+$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, so $d = ⟦3⟧$. Then $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ and $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.
+@ltcwrvbh9s  ; 0=n | 1=[0, 1, 2].map(i => a + i * d).join(LS())
+Find the sum of the first ⟦0⟧ terms of the arithmetic sequence ⟦1⟧, …
+@vsiejpaurw  ; 0=n | 1=listF([0, 1, 2].map(i => a * r ** i))
+Find the term $u_{⟦0⟧}$ of the geometric sequence ⟦1⟧, …
+@2fg2ivyt6zs  ; 0=n | 1=[0, 1, 2].map(i => a * r ** i).join(' + 
+Find the sum of the first ⟦0⟧ terms of the geometric series $⟦1⟧ + \cdots$
+@6by3ukfsg3  ; 0=a | 1=frT(p, q)
+Find the sum to infinity of the geometric series with first term ⟦0⟧ and common ratio $⟦1⟧$.
+@1c4uqsdtxyr  ; 0=a | 1=p < 0 ? `(${frT(p, q)})` : frT(p, q) | 2=a | 3=frT(q - p, q) | 4=frT(a * q, q - p)
+$|r| \lt 1$, so $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.
+@m56xkk6hj0  ; 0=n | 1=lin(c, d, 'k')
+Evaluate $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.
+@zk5lcxjf3d  ; 0=F(s0) | 1=inc | 2=n
+Dina's first-year salary is ⟦0⟧ dollars and it rises by ⟦1⟧ dollars every year. How much does she earn in total over her first ⟦2⟧ years?
+@222tg0c1ffy  ; 0=n | 1=n | 2=M(s0) | 3=n - 1 | 4=inc | 5=M(T0)
+This is an arithmetic series: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ dollars.
+
+##### trig-basics
+@25ycjlixcfv  ; 0=Fm(T`\sin\theta = \frac{\text{opposite}} | 1=Tbl(['θ', '0°', '30°', '45°', '60°', '90 | 2=Key(T`<p>For any angle $\theta$, the poi | 3=Ex(T`<p>From 30 m away, the angle of ele | 4=Tip(T`<p>Check your calculator mode (DEG
+
+<p>In a right triangle, relative to an acute angle $\theta$:</p>
+⟦0⟧
+<p>Memory aid: <b>SOH-CAH-TOA</b>. Also $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and the reciprocals are $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Exact values</h3>
+⟦1⟧
+<h3>Radians</h3>
+<p>$180^\circ = \pi$ radians. To convert degrees to radians multiply by $\frac{\pi}{180}$; radians to degrees multiply by $\frac{180}{\pi}$. So $60^\circ = \frac{\pi}{3}$ and $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>The unit circle</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@27jmws7mgxv
+\sin\theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan\theta = \frac{\text{opposite}}{\text{adjacent}}
+@ig8vf2x1y6
+sin θ
+@1qsg2x3tak
+cos θ
+@27gocnzhjrz
+tan θ
+@5bd73v8u9s
+undefined
+@uyvhui04wr
+<p>For any angle $\theta$, the point on the unit circle is $(\cos\theta, \sin\theta)$. Signs by quadrant — "<b>A</b>ll <b>S</b>tudents <b>T</b>ake <b>C</b>alculus": all positive in I, sin in II, tan in III, cos in IV.</p><p>Use the <b>reference angle</b> (the acute angle to the $x$-axis) plus the correct sign: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>
+@hizqd1rl8k
+<p>From 30 m away, the angle of elevation to the top of a tower is $60^\circ$. Height $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52.0$ m.</p>
+@neyxpix7b9
+<p>Check your calculator mode (DEG vs RAD) before evaluating trig functions.</p>
+@67i6rxexro  ; 0=Fn | 1=angT
+Find the exact value of $⟦0⟧ ⟦1⟧$.
+@pdy7ypcls7
+Exact values like sqrt(3)/2 are accepted.
+@2b66gqgt1o8  ; 0=rad ? T`$${angT} = ${deg}^\circ$. ` : '' | 1=deg | 2=['I', 'II', 'III', 'IV'][quad - 1] | 3=Fn | 4=v.val > 0 ? T`positive` : T`negative` | 5=ref | 6=Fn | 7=ref | 8=exactTrig(fn, ref).tex | 9=Fn | 10=angT | 11=v.tex
+⟦0⟧$⟦1⟧^\circ$ is in quadrant ⟦2⟧, where $⟦3⟧$ is ⟦4⟧. The reference angle is $⟦5⟧^\circ$ and $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, so $⟦9⟧ ⟦10⟧ = ⟦11⟧$.
+@1fngyjdzj11  ; 0=rad ? T`$${angT} = ${deg}^\circ$. ` : '' | 1=deg | 2=pt(Math.round(Math.cos((deg * Math.PI) / | 3=Fn | 4=angT | 5=v.tex
+⟦0⟧At $⟦1⟧^\circ$ the unit-circle point is $⟦2⟧$ $= (\cos\theta, \sin\theta)$, so $⟦3⟧ ⟦4⟧ = ⟦5⟧$.
+@d9ifn6iock  ; 0=deg
+Convert $⟦0⟧^\circ$ to radians.
+@gs4x19407v  ; 0=deg | 1=piT(deg, 180)
+Multiply by $\frac{\pi}{180}$: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.
+@hgjh318aic  ; 0=piT(deg, 180)
+Convert $⟦0⟧$ radians to degrees.
+@zfi973h2bw  ; 0=piT(deg, 180) | 1=deg
+Multiply by $\frac{180}{\pi}$: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.
+@1lrzh5jmv15  ; 0=th | 1=h
+In a right triangle, the side adjacent to an angle of $⟦0⟧^\circ$ is ⟦1⟧ cm. Find the opposite side, to 2 decimal places.
+@1p43u7j4b13  ; 0=th | 1=h | 2=h | 3=th | 4=M(ans)
+$\tan ⟦0⟧^\circ = \frac{\text{opp}}{⟦1⟧}$, so opp $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.
+@8jiaz8zixv  ; 0=h | 1=th
+A right triangle has hypotenuse ⟦0⟧ cm and an angle of $⟦1⟧^\circ$. Find the side opposite that angle, to 2 decimal places.
+@22kukzeyh6  ; 0=h | 1=th
+A right triangle has hypotenuse ⟦0⟧ cm and an angle of $⟦1⟧^\circ$. Find the side adjacent to that angle, to 2 decimal places.
+@187jvg9zdbu  ; 0=fnT(sn ? 'sin' : 'cos') | 1=th | 2=sn ? T`opp` : T`adj` | 3=h | 4=h | 5=fnT(sn ? 'sin' : 'cos') | 6=th | 7=M(ans)
+$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, so the side $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.
+@w56ix8w8yr
+opp
+@5ydwv3it97
+adj
+@2abmsiuwu52  ; 0=a | 1=c | 2=fnT(ask)
+$\theta$ is acute and $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Find $⟦2⟧\theta$.
+@1qudt03n4v8  ; 0=a | 1=c | 2=c | 3=a | 4=b | 5=ask === 'cos' ? T`\cos\theta = \frac{${b
+Draw a right triangle with opposite ⟦0⟧ and hypotenuse ⟦1⟧; the adjacent side is $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. So $⟦5⟧$.
+@28dk1p4hmng  ; 0=d | 1=th
+From a point ⟦0⟧ m from the foot of a building, the angle of elevation of the top is $⟦1⟧^\circ$. How tall is the building? Give an exact answer.
+@1fxpcv94bft
+Exact answers like 12sqrt(3) are accepted.
+@yywe4b70u1  ; 0=d | 1=th | 2=th | 3=exactTrig('tan', th).tex | 4=ans[th][0]
+$h = ⟦0⟧\tan ⟦1⟧^\circ$ and $\tan ⟦2⟧^\circ = ⟦3⟧$, so $h = ⟦4⟧$ m.
+@1ttcab6tj5m
+Quadrant I
+@4o87w2367v
+Quadrant II
+@11djzpzc46w
+Quadrant III
+@26d39yjlrkj
+Quadrant IV
+@1t5qxibr3fa  ; 0=fnT(f1) | 1=rel(f1) | 2=fnT(f2) | 3=rel(f2)
+In which quadrant does $\theta$ lie if $⟦0⟧\theta ⟦1⟧ 0$ and $⟦2⟧\theta ⟦3⟧ 0$?
+@1856p6n9vrk  ; 0=Q[qd - 1]
+sin is positive in I and II; cos in I and IV; tan in I and III. Only <b>⟦0⟧</b> matches both conditions.
+
+##### trig-identities
+@v1udjwhzk5  ; 0=Key(T`$$\sin^2\theta + \cos^2\theta = 1  | 1=Tbl([T`Compound angles`, T`Double angles | 2=Ex(T`<p>$\sin 75^\circ = \sin(45^\circ + | 3=Ex(T`<p>Solve $\sin x = -\frac{1}{2}$ fo | 4=Tip(T`<p>If $\sin\theta = \frac{3}{5}$ a
+
+<p>An <b>identity</b> is true for every angle. The most important ones:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Solving trig equations</h3>
+<p>Find the reference angle, then every angle in the required interval with the right sign.</p>
+⟦3⟧
+⟦4⟧
+@23mroepg91v
+Pythagorean identities
+@28msif6x03y
+Compound angles
+@1qlqqnnfd2i
+Double angles
+@14xjp53gt4x
+<p>Solve $\sin x = -\frac{1}{2}$ for $0^\circ \le x \lt 360^\circ$. The reference angle is $30^\circ$; sine is negative in quadrants III and IV, so $x = 180^\circ + 30^\circ = 210^\circ$ or $x = 360^\circ - 30^\circ = 330^\circ$.</p>
+@1hkvix57r6q
+<p>If $\sin\theta = \frac{3}{5}$ and $\theta$ is in quadrant II, then $\cos\theta = -\frac{4}{5}$ — the Pythagorean identity gives the size, the quadrant gives the sign.</p>
+@64164qr2jw  ; 0=a | 1=c
+$\theta$ is acute and $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Find $\sin 2\theta$.
+@27wxa35nxaa  ; 0=p | 1=c
+Given $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$, find $\cos 2\theta$.
+@szbqx0thv8  ; 0=fnT(fn) | 1=val
+Solve $⟦0⟧ x = ⟦1⟧$ for $0^\circ \le x \lt 360^\circ$.
+@22m72qx0p66
+Type the angles in degrees separated by a comma, e.g. 30, 150.
+@ygon4mdoxw  ; 0=Math.min(sol[0], Math.abs(180 - sol[0]), | 1=fnT(fn) | 2=val.startsWith('-') ? T`negative` : T`po | 3=sol[0] | 4=sol[1] | 5=sol[0] | 6=sol[1]
+The reference angle is $⟦0⟧^\circ$. $⟦1⟧$ is ⟦2⟧ in the quadrants of $⟦3⟧^\circ$ and $⟦4⟧^\circ$, so $x = ⟦5⟧^\circ$ or $x = ⟦6⟧^\circ$.
+@15odwmxybxs
+difference of squares, then $1 - \sin^2 x = \cos^2 x$
+@x5u3qd3gs1
+the double-angle formula
+@sj6onjglro
+expanding gives $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$
+@7gzo83e030  ; 0=why | 1=e | 2=ans
+Use ⟦0⟧: $⟦1⟧ = ⟦2⟧$.
+@1ico65e8qdc  ; 0=e
+Find the exact value of $⟦0⟧$.
+@2ayoc6nyniw
+Exact answers like (sqrt(6)+sqrt(2))/4 are accepted.
+@1mewvixpsgq  ; 0=split | 1=ans
+Write it as $⟦0⟧$ and use the compound-angle formula with the exact values for $30^\circ$, $45^\circ$ and $60^\circ$: the result is $⟦1⟧$.
+@ahced7ioyb  ; 0=frT(tNum, b) | 1=['I', 'II', 'III', 'IV'][qd - 1] | 2=askSin ? T`\sin\theta` : T`\cos\theta`
+$\tan\theta = ⟦0⟧$ and $\theta$ lies in quadrant ⟦1⟧. Find $⟦2⟧$.
+@19cq8bi37ib  ; 0=a | 1=b | 2=c | 3=['I', 'II', 'III', 'IV'][qd - 1] | 4=sS > 0 ? T`positive` : T`negative` | 5=cS > 0 ? T`positive` : T`negative` | 6=frT(sS * a, c) | 7=frT(cS * b, c)
+The triangle has sides ⟦0⟧, ⟦1⟧, ⟦2⟧. In quadrant ⟦3⟧, sine is ⟦4⟧ and cosine is ⟦5⟧, so $\sin\theta = ⟦6⟧$ and $\cos\theta = ⟦7⟧$.
+
+##### triangle-rules
+@2ga1qjtwo42  ; 0=Key(T`$$\frac{a}{\sin A} = \frac{b}{\sin | 1=Key(T`$$a^2 = b^2 + c^2 - 2bc\cos A \qqu | 2=Key(T`$$\text{Area} = \tfrac{1}{2}ab\sin | 3=Ex(T`<p>Sides 5 and 8 with an included a | 4=Tip(T`<p>The sine rule can give two poss
+
+<p>Label a triangle so that side $a$ is opposite angle $A$, $b$ opposite $B$, and $c$ opposite $C$. These rules work for <b>any</b> triangle, not just right triangles.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@2fw62bzegqh
+$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Use it when you know a side and its opposite angle, plus one more side or angle.</p>
+@mp16igkhf3
+Sine rule
+@eonocytnm1
+$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Use it with two sides and the angle between them (SAS), or with all three sides (SSS).</p>
+@kgaid4s1rf
+Cosine rule
+@1w8yehsbjfu
+$$\text{Area} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Heron: } \text{Area} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$
+@26feyop5vyd
+<p>Sides 5 and 8 with an included angle of $60^\circ$: the third side is $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, and the area is $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>
+@11plyaa7o04
+<p>The sine rule can give two possible triangles when you find an angle (the "ambiguous case"): $\sin B = 0.8$ allows $B \approx 53.1^\circ$ <i>or</i> $B \approx 126.9^\circ$. Check whether each fits.</p>
+@l2pu7cls8u  ; 0=b | 1=c | 2=A
+In triangle $ABC$, $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm and $A = ⟦2⟧^\circ$. Find $a$ to 2 decimal places.
+@27jp4mdtjl6  ; 0=b | 1=c | 2=b | 3=c | 4=A | 5=M(rnd(a * a, 2)) | 6=M(a)
+$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, so $a \approx ⟦6⟧$ cm.
+@1s6102ghcou  ; 0=x | 1=y | 2=z | 3=z
+A triangle has sides ⟦0⟧, ⟦1⟧ and ⟦2⟧. Find the angle opposite the side of length ⟦3⟧.
+@adoadf3ehm  ; 0=x | 1=y | 2=z | 3=x | 4=y | 5=x * x + y * y - z * z | 6=2 * x * y | 7=frT(x * x + y * y - z * z, 2 * x * y) | 8=ang
+$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, so $\theta = ⟦8⟧^\circ$.
+@3e8310hzv  ; 0=A | 1=B | 2=a
+In triangle $ABC$, $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$ and $a = ⟦2⟧$ cm. Find $b$ to 2 decimal places.
+@i5vdhhm6yu  ; 0=B | 1=a | 2=A | 3=a | 4=B | 5=A | 6=M(b)
+Sine rule: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, so $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.
+@1uuy2y52gu0  ; 0=a | 1=b | 2=C
+Find the exact area of a triangle with sides ⟦0⟧ cm and ⟦1⟧ cm and an included angle of $⟦2⟧^\circ$.
+@25opm4iwiww
+Exact answers like 6sqrt(3) are accepted.
+@cb99xoymur  ; 0=a | 1=b | 2=C | 3=C | 4=exactTrig('sin', C).tex | 5=tex
+Area $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$, with $\sin ⟦3⟧^\circ = ⟦4⟧$, giving $⟦5⟧$ cm².
+@1dwe3yjuxqj  ; 0=x * k | 1=y * k | 2=z * k
+Use Heron's formula to find the area of a triangle with sides ⟦0⟧, ⟦1⟧ and ⟦2⟧.
+@8vmvle7x3  ; 0=x * k | 1=y * k | 2=z * k | 3=s | 4=s | 5=s - x * k | 6=s - y * k | 7=s - z * k | 8=s * (s - x * k) * (s - y * k) * (s - z * | 9=A * k * k
+$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Area $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.
+
+##### polynomials
+@1dv82xempy  ; 0=Ex(T`<p>$(x^3 - 4x^2 + x + 6) \div (x -  | 1=Key(T`<p><b>Remainder theorem:</b> the r | 2=Fm(T`r_1 + r_2 + r_3 = -\frac{b}{a} \qqu | 3=Tip(T`<p>Dividing by $(x + 3)$ means $a 
+
+<p>A <b>polynomial</b> is a sum of terms $a_n x^n + \cdots + a_1 x + a_0$ with whole-number powers. Its <b>degree</b> is the highest power; $a_n$ is the <b>leading coefficient</b>. When multiplying polynomials, degrees add and leading coefficients multiply.</p>
+<h3>Division</h3>
+<p>Dividing $P(x)$ by $(x - a)$ gives a quotient $Q(x)$ and a remainder $R$: $P(x) = (x - a)Q(x) + R$. <b>Synthetic division</b> is a quick way to do it using only the coefficients.</p>
+⟦0⟧
+⟦1⟧
+<h3>Roots of a cubic</h3>
+<p>For $ax^3 + bx^2 + cx + d = 0$ with roots $r_1, r_2, r_3$:</p>
+⟦2⟧
+⟦3⟧
+@16v6jrymjv2  ; 0=Tbl(['2', '1', '−4', '1', '6'], [['', ''
+<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ with synthetic division:</p>⟦0⟧<p>Quotient $x^2 - 2x - 3$, remainder 0.</p>
+@agfsjitvd
+<p><b>Remainder theorem:</b> the remainder when $P(x)$ is divided by $(x - a)$ is $P(a)$.</p><p><b>Factor theorem:</b> $(x - a)$ is a factor of $P(x)$ exactly when $P(a) = 0$.</p>
+@sqyu8zjvtn
+<p>Dividing by $(x + 3)$ means $a = -3$: evaluate $P(-3)$, not $P(3)$.</p>
+@u4dg9by4un  ; 0=poly(c) | 1=sg(-r)
+Find the remainder when $P(x) = ⟦0⟧$ is divided by $(x ⟦1⟧)$.
+@212dl6gy5gu  ; 0=r | 1=M(c[0]) | 2=r | 3=sg(c[1]) | 4=r | 5=sg(c[2]) | 6=r | 7=sg(c[3]) | 8=P(r)
+By the remainder theorem, the remainder is $P(⟦0⟧) = ⟦1⟧(⟦2⟧)^3 ⟦3⟧(⟦4⟧)^2 ⟦5⟧(⟦6⟧) ⟦7⟧ = ⟦8⟧$.
+@20swcfjanfa  ; 0=sg(-r) | 1=terms([[1, 'x^3'], [p, 'x^2'], [1, 'kx']
+$(x ⟦0⟧)$ is a factor of $P(x) = ⟦1⟧$. Find $k$.
+@2cscisbqmyg  ; 0=r | 1=r ** 3 | 2=sg(p * r * r) | 3=sg(r) | 4=sg(d) | 5=M(r) | 6=M(-(r ** 3 + p * r * r + d)) | 7=k
+By the factor theorem $P(⟦0⟧) = 0$: $⟦1⟧ ⟦2⟧ ⟦3⟧k ⟦4⟧ = 0$, so $⟦5⟧k = ⟦6⟧$ and $k = ⟦7⟧$.
+@28czzdou58n  ; 0=askSum ? T`sum of the roots is $-\frac{b
+For $ax^3 + bx^2 + cx + d = 0$, the ⟦0⟧.
+@1uakfcji416  ; 0=M(co[1]) | 1=a | 2=e1
+sum of the roots is $-\frac{b}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$
+@1cl4qeneyhq  ; 0=M(co[3]) | 1=a | 2=e3
+product of the roots is $-\frac{d}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$
+@1h1il3vuozs  ; 0=poly(P) | 1=sg(-r)
+Divide $⟦0⟧$ by $(x ⟦1⟧)$. What is the quotient?
+@1432prhuyml  ; 0=r | 1=P.join(LS()) | 2=[1, m, n].join(LS()) | 3=poly([1, m, n])
+Synthetic division with ⟦0⟧ on the coefficients ⟦1⟧ gives ⟦2⟧ and remainder 0, so the quotient is $⟦3⟧$.
+@1v0pp8s5fwz  ; 0=pr
+Consider $⟦0⟧$. What is the degree of the product?
+@79jcaurtjl  ; 0=pr
+Consider $⟦0⟧$. What is the leading coefficient of the product?
+@lgw9ke18qe  ; 0=pr
+Consider $⟦0⟧$. What is the constant term of the product?
+@18bitz7l1ry  ; 0=m | 1=n | 2=m + n
+Degrees add when multiplying: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.
+@1x77krhanqb  ; 0=xt(A[0], `x^{${m}}`) | 1=xt(B[0], n === 1 ? 'x' : `x^{${n}}`) | 2=xt(ans, `x^{${m + n}}`) | 3=ans
+Multiply the leading terms: $⟦0⟧ \cdot ⟦1⟧ = ⟦2⟧$, so the leading coefficient is ⟦3⟧.
+@1uusi8yg5sk  ; 0=pn(A[m]) | 1=pn(B[n]) | 2=ans
+The constant term is the product of the constant terms: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.
+
+##### matrices
+@104wb071wss  ; 0=Fm(T`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end | 1=Key(T`<p>Matrix multiplication is <b>not | 2=Fm(T`A = \begin{pmatrix} a & b \\ c & d  | 3=Tip(T`<p>For the inverse: <b>swap</b> $a
+
+<p>A <b>matrix</b> is a rectangular array of numbers. An $m \times n$ matrix has $m$ rows and $n$ columns; $a_{ij}$ is the entry in row $i$, column $j$.</p>
+<h3>Operations</h3>
+<ul><li><b>Add/subtract</b> entry by entry (same size only).</li><li><b>Scalar multiple</b>: multiply every entry.</li><li><b>Multiply</b> $AB$: entry $(i, j)$ is row $i$ of $A$ dotted with column $j$ of $B$. It needs (columns of $A$) = (rows of $B$), and an $m \times n$ times $n \times p$ gives $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinant and inverse (2 × 2)</h3>
+⟦2⟧
+<p>If $\det A = 0$ the matrix is <b>singular</b> and has no inverse. Inverses solve systems: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧
+@itm4o8cny
+\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} = \begin{pmatrix} 1\cdot5 + 2\cdot7 & 1\cdot6 + 2\cdot8 \\ 3\cdot5 + 4\cdot7 & 3\cdot6 + 4\cdot8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
+@4bk6hc9is8
+<p>Matrix multiplication is <b>not commutative</b>: usually $AB \ne BA$.</p>
+@25hetn68fsz
+A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+@4ckwr8umw4
+<p>For the inverse: <b>swap</b> $a$ and $d$, <b>negate</b> $b$ and $c$, then divide by the determinant.</p>
+@1h6gnxjh2g6  ; 0=mat(m)
+Find the determinant of $⟦0⟧$.
+@1gfhimaac6g  ; 0=mat(A) | 1=mat(B)
+Find $AB$ where $A = ⟦0⟧$ and $B = ⟦1⟧$.
+@1dy8pvpnep7
+Type the four entries row by row, e.g. 19, 22, 43, 50.
+@xfxhg5b3o2  ; 0=A[0][0] | 1=pn(B[0][0]) | 2=A[0][1] | 3=pn(B[1][0]) | 4=mat(P)
+Row times column: $AB = \begin{pmatrix} ⟦0⟧\cdot⟦1⟧ + ⟦2⟧\cdot⟦3⟧ & \cdots \\ \cdots & \cdots \end{pmatrix} = ⟦4⟧$.
+@27lrdslcvs8  ; 0=mat([[a, b], [c, d]])
+Find the inverse of $⟦0⟧$.
+@ea7d95erhp
+Type the four entries row by row.
+@2euzxos9ar7  ; 0=a | 1=d | 2=b | 3=c | 4=D | 5=D | 6=mat(inv)
+$\det = (⟦0⟧)(⟦1⟧) - (⟦2⟧)(⟦3⟧) = ⟦4⟧$. Swap $a$ and $d$, negate $b$ and $c$, divide by ⟦5⟧: $⟦6⟧$.
+@2fs8fio5g5w  ; 0=mat([['x', a], [b, c]])
+For what value of $x$ is $⟦0⟧$ singular?
+@et7lf19q4x  ; 0=M(c) | 1=a | 2=b | 3=prod | 4=c | 5=x
+Singular means $\det = 0$: $⟦0⟧x - (⟦1⟧)(⟦2⟧) = 0$, so $x = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.
+@2280y15nq4f  ; 0=mat(A) | 1=mat(B) | 2=i + 1 | 3=j + 1 | 4=p | 5=q
+$A = ⟦0⟧$ and $B = ⟦1⟧$. Find the entry in row ⟦2⟧, column ⟦3⟧ of $⟦4⟧A - ⟦5⟧B$.
+@h3p6r4d6o  ; 0=mat(A) | 1=mat(B) | 2=i + 1 | 3=j + 1
+$A = ⟦0⟧$ and $B = ⟦1⟧$. Find the entry in row ⟦2⟧, column ⟦3⟧ of $AB$.
+@xdj657lej  ; 0=i + 1 | 1=j + 1 | 2=A[i].map((x, k) => `(${x})(${B[k][j]})`) | 3=P[i][j]
+Row ⟦0⟧ of $A$ dotted with column ⟦1⟧ of $B$: $⟦2⟧ = ⟦3⟧$. (A $2 \times 3$ times a $3 \times 2$ matrix is $2 \times 2$.)
+
+##### vectors
+@1gljxtukffx  ; 0=Tbl([T`Operation`, T`Rule`], [[T`Magnitu | 1=Key(T`$$\mathbf{a}\cdot\mathbf{b} = |\ma | 2=Ex(T`<p>$\mathbf{a} = \begin{pmatrix} 3  | 3=Tip(T`<p>The dot product of two vectors 
+
+<p>A <b>vector</b> has size and direction. In components, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ or $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. The vector from $P$ to $Q$ is $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+@i7t2goihqv
+Magnitude
+@1czax49eh4c
+Addition
+@q2ntocofkn
+add components
+@oswzhgqxwz
+Scalar multiple
+@1bnyaikchfp
+$k\mathbf{a}$: multiply every component by $k$
+@28hldv2q33s
+Unit vector
+@214ftyeo0vg
+Dot product
+@1xghg9dwzeq
+$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Two non-zero vectors are <b>perpendicular</b> exactly when $\mathbf{a}\cdot\mathbf{b} = 0$.</p>
+@1w9baxb120w
+<p>$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, $\mathbf{b} = \begin{pmatrix} 5 \\ 12 \end{pmatrix}$: $\mathbf{a}\cdot\mathbf{b} = 15 + 48 = 63$, $|\mathbf{a}| = 5$, $|\mathbf{b}| = 13$, so $\cos\theta = \frac{63}{65}$ and $\theta \approx 14.3^\circ$.</p>
+@6pzkmdncqf
+<p>The dot product of two vectors is a <b>number</b>, not a vector.</p>
+@4u2plhe47g  ; 0=colv(v)
+Find the magnitude of $⟦0⟧$.
+@252q8tpxn2p  ; 0=colv(a) | 1=colv(b)
+Find $\mathbf{a}\cdot\mathbf{b}$ for $\mathbf{a} = ⟦0⟧$ and $\mathbf{b} = ⟦1⟧$.
+@17ht25mwywu  ; 0=colv(a) | 1=colv(b) | 2=p === 1 ? '' : p === -1 ? '-' : p | 3=q < 0 ? '-' : '+' | 4=Math.abs(q) === 1 ? '' : Math.abs(q)
+Given $\mathbf{a} = ⟦0⟧$ and $\mathbf{b} = ⟦1⟧$, find $⟦2⟧\mathbf{a} ⟦3⟧ ⟦4⟧\mathbf{b}$.
+@2gdqizkyobq
+Type the components in order, separated by commas.
+@1mpyqj0mwgx  ; 0=colv(a.map((x, i) => `${p}(${x}) ${sg(q) | 1=colv(r)
+Work component by component: $⟦0⟧ = ⟦1⟧$.
+@14p7yoy4f3a  ; 0=colv([a1, a2]) | 1=colv(['k', b2])
+Find $k$ so that $⟦0⟧$ and $⟦1⟧$ are perpendicular.
+@127php4kbc3  ; 0=a1 | 1=a2 | 2=b2 | 3=k
+Perpendicular means the dot product is 0: $⟦0⟧k + (⟦1⟧)(⟦2⟧) = 0$, so $k = ⟦3⟧$.
+@1kydmvss2ex  ; 0=colv(u) | 1=colv(w)
+Find $\cos\theta$, where $\theta$ is the angle between $⟦0⟧$ and $⟦1⟧$.
+@1b0azawmrlf  ; 0=colv(v)
+Find the unit vector in the direction of $⟦0⟧$.
+@280s3ajjt4e
+Type the components separated by a comma, e.g. 3/5, -4/5.
+@22ii0i40ri  ; 0=c | 1=c | 2=colv([frT(v[0], c), frT(v[1], c)])
+$|\mathbf{v}| = ⟦0⟧$. Divide each component by ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.
+
+##### limits
+@239kmg9x5mj  ; 0=Ex(T`$$\lim_{x \to 0}\frac{\sqrt{x + 4}  | 1=Key(T`<p>For a rational function, divide | 2=Fm(T`\lim_{x \to 0}\frac{\sin x}{x} = 1  | 3=Tip(T`<p>$\frac{0}{0}$ is not "0" or "un
+
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ means $f(x)$ gets as close as we like to $L$ as $x$ approaches $a$ — whatever happens exactly at $x = a$.</p>
+<h3>Techniques</h3>
+<ol><li><b>Direct substitution</b> works for polynomials and other continuous functions: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factor and cancel</b> for $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rationalise</b> expressions with roots: multiply by the conjugate.</li></ol>
+⟦0⟧
+<h3>Limits at infinity</h3>
+⟦1⟧
+<h3>A special trig limit</h3>
+⟦2⟧
+<h3>Continuity</h3>
+<p>$f$ is continuous at $a$ if $\lim_{x \to a} f(x) = f(a)$: no holes, jumps or asymptotes there. For a piecewise function, make the two pieces meet at the join.</p>
+⟦3⟧
+@25jnb5snm7z
+<p>For a rational function, divide top and bottom by the highest power of $x$ in the denominator:</p><ul><li>same degree → ratio of leading coefficients;</li><li>numerator of lower degree → 0;</li><li>numerator of higher degree → no finite limit ($\pm\infty$).</li></ul>
+@1i9j07wofgh
+\lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}
+@extw7corym
+<p>$\frac{0}{0}$ is not "0" or "undefined" — it signals that more work (factoring, rationalising) is needed.</p>
+@18znpgymeuk  ; 0=a | 1=poly(c)
+Evaluate $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.
+@1tq4b7d4h53  ; 0=M(c[0]) | 1=a | 2=sg(c[1]) | 3=a | 4=sg(c[2]) | 5=v
+The function is a polynomial, so substitute: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧$.
+@1n96bgorw1d  ; 0=a | 1=poly([1, b - a, -a * b]) | 2=sg(-a)
+Evaluate $\displaystyle\lim_{x \to ⟦0⟧} \frac{⟦1⟧}{x ⟦2⟧}$.
+@295o4zt7f3w  ; 0=sg(-a) | 1=sg(b) | 2=sg(-a) | 3=sg(b) | 4=a | 5=sg(b) | 6=a + b
+Substitution gives $\frac{0}{0}$. Factor: $\frac{(x ⟦0⟧)(x ⟦1⟧)}{x ⟦2⟧} = x ⟦3⟧$, so the limit is $⟦4⟧ ⟦5⟧ = ⟦6⟧$.
+@1rjdd048rzk  ; 0=lin(q || 1, r) | 1=poly([s, t, u])
+Evaluate $\displaystyle\lim_{x \to \infty} \frac{⟦0⟧}{⟦1⟧}$.
+@229ply6f2l2
+The numerator has lower degree than the denominator; dividing by $x^2$ sends every numerator term to 0, so the limit is $0$.
+@1m8u7pc3qh1  ; 0=p | 1=s | 2=frT(p, s)
+Same degree, so the limit is the ratio of the leading coefficients: $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.
+@1ynpy6v2s15  ; 0=tanV ? T`\tan ${a === 1 ? '' : a}x` : T` | 1=tanV ? T`\sin ${b === 1 ? '' : b}x` : `$
+Evaluate $\displaystyle\lim_{x \to 0} \frac{⟦0⟧}{⟦1⟧}$.
+@if95qf815v  ; 0=a | 1=b | 2=frT(a, b)
+Use $\frac{\sin u}{u} \to 1$ (and $\frac{\tan u}{u} \to 1$): the expression behaves like $\frac{⟦0⟧x}{⟦1⟧x} = ⟦2⟧$.
+@blyu2go12i  ; 0=k * k | 1=k
+Evaluate $\displaystyle\lim_{x \to 0} \frac{\sqrt{x + ⟦0⟧} - ⟦1⟧}{x}$.
+@fj8u70cngg  ; 0=k * k | 1=k * k | 2=k * k | 3=k | 4=k * k | 5=k | 6=2 * k
+Multiply by the conjugate: $\frac{(x + ⟦0⟧) - ⟦1⟧}{x(\sqrt{x + ⟦2⟧} + ⟦3⟧)} = \frac{1}{\sqrt{x + ⟦4⟧} + ⟦5⟧} \to \frac{1}{⟦6⟧}$.
+@1kmmd6tilgi  ; 0=c | 1=lin(m, n) | 2=c | 3=c
+Find $k$ so that $f(x) = \begin{cases} x^2 + k, & x \lt ⟦0⟧ \\ ⟦1⟧, & x \ge ⟦2⟧ \end{cases}$ is continuous at $x = ⟦3⟧$.
+@1l84k7ifkz6  ; 0=c | 1=c | 2=M(m) | 3=c | 4=sg(n) | 5=c * c | 6=m * c + n | 7=k
+The pieces must meet at $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, so $⟦5⟧ + k = ⟦6⟧$ and $k = ⟦7⟧$.
+
+##### derivatives
+@1pv2wkwyvwg  ; 0=Fm(T`f'(x) = \lim_{h \to 0}\frac{f(x + h | 1=Key(T`$$\frac{d}{dx}x^n = nx^{n-1} \qqua | 2=Ex(T`<p>$f(x) = 2x^3 - 5x^2 + 4x - 7 \;\ | 3=Ex(T`<p>100 m of fencing encloses a rect | 4=Tip(T`<p>The derivative of a constant is
+
+<p>The <b>derivative</b> $f'(x)$ is the instantaneous rate of change of $f$ — the slope of the tangent line at $x$. It is defined by a limit:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Tangent lines</h3>
+<p>At $x = a$, the tangent has slope $m = f'(a)$ and passes through $(a, f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Stationary points</h3>
+<p>Where $f'(x) = 0$ the graph is momentarily flat. Use the second derivative: $f''(a) \gt 0$ → local minimum; $f''(a) \lt 0$ → local maximum. $f$ is increasing where $f' \gt 0$ and decreasing where $f' \lt 0$.</p>
+<h3>Optimisation</h3>
+⟦3⟧
+⟦4⟧
+@21rfw9yowzp
+$$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$
+@1kddytp99dm
+Rules
+@21wooetnwi8
+<p>100 m of fencing encloses a rectangle against a river (no fence needed on the river side). With sides $x, y, x$: $2x + y = 100$, area $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ gives $x = 25$, so $A_{\max} = 25 \times 50 = 1250$ m².</p>
+@14x6kebc9en
+<p>The derivative of a constant is 0 — don't carry the constant term into $f'(x)$.</p>
+@sk165jmy0e  ; 0=poly(c)
+Find $f'(x)$ for $f(x) = ⟦0⟧$.
+@1z8enx6jmxw  ; 0=poly([3 * c[0], 2 * c[1], c[2]])
+Apply the power rule to each term: $f'(x) = ⟦0⟧$ (the constant disappears).
+@rdfbrjf6fd  ; 0=poly(c) | 1=a
+Given $f(x) = ⟦0⟧$, find $f'(⟦1⟧)$.
+@12fn6a7y0fo  ; 0=poly([3 * c[0], 2 * c[1], c[2]]) | 1=a | 2=d
+$f'(x) = ⟦0⟧$, so $f'(⟦1⟧) = ⟦2⟧$.
+@13xytl77ctg  ; 0=poly([1, b, c]) | 1=a
+Find the equation of the tangent to $y = ⟦0⟧$ at $x = ⟦1⟧$.
+@zxpf5t25tk  ; 0=sg(b) | 1=m | 2=a | 3=a | 4=fa | 5=pn(fa) | 6=m | 7=pn(a) | 8=lin(m, k)
+Slope: $y' = 2x ⟦0⟧$, so $m = ⟦1⟧$ at $x = ⟦2⟧$. Point: $(⟦3⟧, ⟦4⟧)$. Then $y - ⟦5⟧ = ⟦6⟧(x - ⟦7⟧)$, i.e. $y = ⟦8⟧$.
+@6or380e65b  ; 0=Math.min(r, s) | 1=Math.max(r, s)
+$x = ⟦0⟧ \text{ and } x = ⟦1⟧$
+@1ib3oh8we5r  ; 0=poly(f)
+Find the $x$-coordinates of the stationary points of $f(x) = ⟦0⟧$.
+@8cxs5u8eb2  ; 0=poly([3, 2 * b, c]) | 1=sg(-p) | 2=sg(-q) | 3=Math.min(p, q) | 4=Math.max(p, q)
+$f'(x) = ⟦0⟧ = 3(x ⟦1⟧)(x ⟦2⟧) = 0$, so $x = ⟦3⟧$ or $x = ⟦4⟧$.
+@2diynqfs1vm  ; 0=poly(f)
+At what value of $x$ does $f(x) = ⟦0⟧$ have a local minimum?
+@qiab8fav1k  ; 0=sg(-p) | 1=sg(-q) | 2=p | 3=q | 4=sg(2 * b) | 5=mn
+$f'(x) = 3(x ⟦0⟧)(x ⟦1⟧)$ is zero at $x = ⟦2⟧$ and $x = ⟦3⟧$. $f''(x) = 6x ⟦4⟧$ is positive at $x = ⟦5⟧$, so that is the local minimum.
+@2bfp82dmoiw  ; 0=P
+A farmer has ⟦0⟧ m of fencing to enclose a rectangular field along a straight river. No fence is needed along the river. What is the largest possible area?
+@1sgjbqwzp29  ; 0=P | 1=P | 2=P | 3=k | 4=2 * k | 5=2 * k * k
+Sides $x, y, x$ with $2x + y = ⟦0⟧$. $A = x(⟦1⟧ - 2x)$, $A' = ⟦2⟧ - 4x = 0$ gives $x = ⟦3⟧$, $y = ⟦4⟧$, and $A = ⟦5⟧$ m².
+@1dz6162q97e  ; 0=P
+A rectangle has a perimeter of ⟦0⟧ cm. What is the largest area it can have?
+@12er060agfx  ; 0=2 * k | 1=2 * k | 2=2 * k | 3=k | 4=k * k
+With width $x$, the length is $⟦0⟧ - x$ and $A = x(⟦1⟧ - x)$. $A' = ⟦2⟧ - 2x = 0$ gives $x = ⟦3⟧$ — a square — with area $⟦4⟧$ cm².
+@jksdr4ukrw  ; 0=terms([[a, T`\sin x`], [b, T`\cos x`]])
+Differentiate $y = ⟦0⟧$.
+@1gytk3lwm2l  ; 0=terms([[a, T`\cos x`], [-b, T`\sin x`]])
+$\frac{d}{dx}\sin x = \cos x$ and $\frac{d}{dx}\cos x = -\sin x$, so $y' = ⟦0⟧$.
+@t51ufxvzbf  ; 0=poly([1, -p, q, 0], 't') | 1=t
+A particle moves with position $s(t) = ⟦0⟧$ metres. Find its acceleration at $t = ⟦1⟧$ s.
+@bakv4or3q9  ; 0=poly([3, -2 * p, q], 't') | 1=lin(6, -2 * p, 't') | 2=t | 3=6 * t - 2 * p
+$v(t) = s'(t) = ⟦0⟧$ and $a(t) = v'(t) = ⟦1⟧$. At $t = ⟦2⟧$: $a = ⟦3⟧$ m/s².
+@twj64cwqj6  ; 0=poly([1, -p, q, 0], 't') | 1=t
+A particle moves with position $s(t) = ⟦0⟧$ metres. Find its velocity at $t = ⟦1⟧$ s.
+@1yi10f0kgm7  ; 0=poly([3, -2 * p, q], 't') | 1=t | 2=3 * t * t - 2 * p * t + q
+$v(t) = s'(t) = ⟦0⟧$, so $v(⟦1⟧) = ⟦2⟧$ m/s.
+
+##### integrals
+@1wdt9h7s66j  ; 0=Key(T`$$\int x^n\,dx = \frac{x^{n+1}}{n  | 1=Ex(T`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 | 2=Key(T`$$\int_a^b f(x)\,dx = \Big[F(x)\Bi | 3=Ex(T`<p>Area between $y = x^2$ and $y =  | 4=Tip(T`<p>Don't forget $+ C$ on indefinit
+
+<p>Integration reverses differentiation. An <b>antiderivative</b> of $f$ is any $F$ with $F' = f$; the <b>indefinite integral</b> includes the constant of integration:</p>
+⟦0⟧
+⟦1⟧
+<h3>Definite integrals</h3>
+⟦2⟧
+<p>For $f \ge 0$ this is the area under the curve between $x = a$ and $x = b$. Area below the $x$-axis counts as negative, so split the integral at the roots when you want total area.</p>
+⟦3⟧
+<h3>Finding a function from its derivative</h3>
+<p>If $f'(x) = 6x + 2$ and $f(1) = 10$, then $f(x) = 3x^2 + 2x + C$ and $3 + 2 + C = 10$ gives $C = 5$.</p>
+⟦4⟧
+@oq0mo2ln2m
+$$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$$$\int \cos x\,dx = \sin x + C \qquad \int \sin x\,dx = -\cos x + C$$
+@20z1821bwrr
+<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Check by differentiating.</p>
+@ktnrryzzqc
+$$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$
+@1jsx5j8bwuv
+Fundamental Theorem of Calculus
+@k8jg70602j
+<p>Area between $y = x^2$ and $y = 2x$: they meet at $x = 0$ and $x = 2$, and $2x \ge x^2$ in between, so $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>
+@2645ntoenmj
+<p>Don't forget $+ C$ on indefinite integrals — and don't include it in definite ones (it cancels).</p>
+@1a4h4aolv1n  ; 0=poly([a, b, c])
+Find $\displaystyle\int (⟦0⟧)\,dx$.
+@14w03nftsp9  ; 0=poly([[a, 3], [b, 2], c, 0])
+Raise each power by one and divide by the new power: $⟦0⟧ + C$.
+@lhk659hv1w  ; 0=p | 1=q | 2=poly([3 * a, 2 * b, c])
+Evaluate $\displaystyle\int_{⟦0⟧}^{⟦1⟧} (⟦2⟧)\,dx$.
+@wzkchwuid3  ; 0=poly([a, b, c, 0]) | 1=q | 2=p | 3=F(q) | 4=pn(F(p)) | 5=v
+An antiderivative is $F(x) = ⟦0⟧$. $F(⟦1⟧) - F(⟦2⟧) = ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.
+@2g5117b4rfq  ; 0=poly([-1, 0, m * m])
+Find the area enclosed by $y = ⟦0⟧$ and the $x$-axis.
+@1qd8emk0tlu  ; 0=m | 1=m | 2=m | 3=m * m | 4=m * m | 5=m | 6=m | 7=frT(4 * m ** 3, 3)
+The curve meets the axis at $x = \pm ⟦0⟧$. Area $= \int_{-⟦1⟧}^{⟦2⟧} (⟦3⟧ - x^2)\,dx = \left[⟦4⟧x - \frac{x^3}{3}\right]_{-⟦5⟧}^{⟦6⟧} = ⟦7⟧$.
+@1wjuv7zitnn  ; 0=k === 1 ? '' : k
+Find the area of the region between $y = x^2$ and $y = ⟦0⟧x$.
+@ospw7lwugt  ; 0=k | 1=k | 2=k === 1 ? '' : k | 3=k | 4=k | 5=frT(k ** 3, 6)
+They meet at $x = 0$ and $x = ⟦0⟧$. Area $= \int_0^{⟦1⟧} (⟦2⟧x - x^2)\,dx = \frac{⟦3⟧^3}{2} - \frac{⟦4⟧^3}{3} = ⟦5⟧$.
+@2c9m4g6dimy  ; 0=lin(2 * a, b) | 1=c | 2=k
+$f'(x) = ⟦0⟧$ and $f(0) = ⟦1⟧$. Find $f(⟦2⟧)$.
+@29kyl7mnwt5  ; 0=poly([a, b, 0]) | 1=c | 2=k | 3=a * k * k + b * k + c
+$f(x) = ⟦0⟧ + C$, and $f(0) = C = ⟦1⟧$. So $f(⟦2⟧) = ⟦3⟧$.
+@1p83y3ccpb  ; 0=terms([[a, T`\sin x`], [b, T`\cos x`]])
+$\int \cos x\,dx = \sin x$ and $\int -\sin x\,dx = \cos x$, so the result is $⟦0⟧ + C$.
+@22xlapf2gb7  ; 0=a
+Evaluate $\displaystyle\int_0^{\pi/2} ⟦0⟧\cos x\,dx$.
+@1ppkvfv3p1b  ; 0=a
+Evaluate $\displaystyle\int_0^{\pi} ⟦0⟧\sin x\,dx$.
+
+##### combinatorics
+@205beb6gfix  ; 0=Key(T`<p><b>Multiplication principle:</b | 1=Fm(T`^nP_r = \frac{n!}{(n - r)!} \qquad  | 2=Fm(T`^nC_r = \binom{n}{r} = \frac{n!}{r! | 3=Fm(T`(a + b)^n = \sum_{k=0}^{n}\binom{n} | 4=Tip(T`<p>Ask "does swapping two chosen i
+
+⟦0⟧
+<h3>Permutations: order matters</h3>
+⟦1⟧
+<p>First, second and third prizes among 10 people: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Arrangements with repeated items: $\frac{n!}{p!\,q!\cdots}$. "BANANA" has $\frac{6!}{3!\,2!} = 60$ arrangements.</li><li>Around a circle: $(n - 1)!$ (rotations are the same).</li></ul>
+<h3>Combinations: order doesn't matter</h3>
+⟦2⟧
+<p>A committee of 3 from 10 people: $\binom{10}{3} = 120$. A committee of 2 men (from 5) and 3 women (from 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Binomial theorem</h3>
+⟦3⟧
+<p>The coefficient of $x^2$ in $(x + 3)^5$ is $\binom{5}{2}3^{3} = 270$.</p>
+⟦4⟧
+@1v1ul4mcyis
+<p><b>Multiplication principle:</b> if one choice can be made in $m$ ways and a second in $n$ ways, together they can be made in $m \times n$ ways.</p>
+@zol45txfa7
+^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1
+@1mk1wwf7o0g
+^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}
+@44tf1m2pka
+<p>Ask "does swapping two chosen items give something different?" If yes, use permutations; if no, combinations.</p>
+@asaw2vy5ho  ; 0=r === 3 ? T`first, second and third` : T | 1=n
+In how many ways can ⟦0⟧ prizes be awarded among ⟦1⟧ people?
+@1qec64m00zt
+first, second and third
+@1yxzw7y67ed
+first and second
+@1lyu4ddmyjw  ; 0=n | 1=r | 2=range(0, r - 1).map(i => n - i).join(T`  | 3=nPr(n, r)
+Order matters: $^{⟦0⟧}P_{⟦1⟧} = ⟦2⟧ = ⟦3⟧$.
+@mt1d3k54sw  ; 0=r | 1=n
+In how many ways can a committee of ⟦0⟧ be chosen from ⟦1⟧ people?
+@jcb5dbxzw7  ; 0=n | 1=r | 2=n | 3=r | 4=n - r | 5=nCr(n, r)
+Order doesn't matter: $\binom{⟦0⟧}{⟦1⟧} = \frac{⟦2⟧!}{⟦3⟧!\,⟦4⟧!} = ⟦5⟧$.
+@1f3hbyul4kh  ; 0=a | 1=b | 2=m | 3=w
+A committee of ⟦0⟧ men and ⟦1⟧ women is chosen from ⟦2⟧ men and ⟦3⟧ women. How many different committees are possible?
+@219eq0t6hby  ; 0=word
+How many different arrangements are there of the letters in the word <b>⟦0⟧</b>?
+@hkyvcodvcm  ; 0=word.length | 1=reps.map(([ch, c]) => `${ch} (×${c})`).j | 2=word.length | 3=reps.map(([, c]) => `${c}!`).join('\\,') | 4=M(ans)
+⟦0⟧ letters with repeats ⟦1⟧: $\frac{⟦2⟧!}{⟦3⟧} = ⟦4⟧$.
+@qqcdrtkh5v  ; 0=n
+In how many ways can ⟦0⟧ people be seated around a circular table (rotations count as the same)?
+@1n6howxe7gj  ; 0=n | 1=M(fact(n - 1))
+Fix one person's seat to remove rotations; arrange the rest: $(⟦0⟧ - 1)! = ⟦1⟧$.
+@1hwymhgsxow  ; 0=k | 1=a | 2=n
+Find the coefficient of $x^{⟦0⟧}$ in the expansion of $(x + ⟦1⟧)^{⟦2⟧}$.
+@22kaf86ykzl  ; 0=k | 1=n | 2=k | 3=k | 4=a | 5=n - k | 6=nCr(n, k) | 7=a ** (n - k) | 8=M(nCr(n, k) * a ** (n - k))
+The term with $x^{⟦0⟧}$ is $\binom{⟦1⟧}{⟦2⟧}x^{⟦3⟧}\cdot ⟦4⟧^{⟦5⟧}$, so the coefficient is $⟦6⟧ \times ⟦7⟧ = ⟦8⟧$.
+@1zya3uq0ode  ; 0=k | 1=a | 2=n
+Find the coefficient of $x^{⟦0⟧}$ in the expansion of $(⟦1⟧x + 1)^{⟦2⟧}$.
+@po66a6fw7b  ; 0=k | 1=n | 2=k | 3=a | 4=k | 5=nCr(n, k) | 6=a ** k | 7=M(nCr(n, k) * a ** k)
+The term with $x^{⟦0⟧}$ is $\binom{⟦1⟧}{⟦2⟧}(⟦3⟧x)^{⟦4⟧}$, so the coefficient is $⟦5⟧ \times ⟦6⟧ = ⟦7⟧$.
+@yh0td3xino  ; 0=s | 1=p | 2=h
+You have ⟦0⟧ shirts, ⟦1⟧ pairs of trousers and ⟦2⟧ pairs of shoes. How many different outfits (one of each) can you make?
+@ruo6vpaqqc  ; 0=s | 1=p | 2=h | 3=s * p * h
+Multiplication principle: $⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.
+@24djh3i5509  ; 0=L | 1=rep ? T`if digits may repeat` : T`if no 
+How many ⟦0⟧-digit PIN codes can be made from the digits 0–9 ⟦1⟧?
+@1djueshnkes
+if digits may repeat
+@jadsq7o4xb
+if no digit may be used twice
+@22ey7x4a0ix  ; 0=L | 1=L | 2=M(10 ** L)
+Each of the ⟦0⟧ positions has 10 choices: $10^{⟦1⟧} = ⟦2⟧$.
+@g50ag8cs5t  ; 0=L | 1=M(nPr(10, L))
+$10 \times 9 \times \cdots$ (⟦0⟧ factors) $= ⟦1⟧$.
+
+##### probability-sh
+@1uh8iajnkq0  ; 0=Tbl([T`Rule`, T`Formula`], [[T`Complemen | 1=Ex(T`<p>A bag has 5 red and 3 blue balls | 2=Key(T`$$P(A \mid B) = \frac{P(B \mid A)\ | 3=Tip(T`<p>$P(A \mid B)$ and $P(B \mid A)$
+
+⟦0⟧
+<h3>With and without replacement</h3>
+⟦1⟧
+<p>Tree diagrams organise these: multiply along branches, add across branches.</p>
+<h3>"At least one"</h3>
+<p>Use the complement: $P(\text{at least one six in 3 rolls}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Bayes' theorem</h3>
+⟦2⟧
+⟦3⟧
+@2e5fwx8zs1w
+Formula
+@29i7n2pf82k
+Complement
+@1q1cgu220ce
+Mutually exclusive
+@xux9y4rrwd
+$P(A \cap B) = 0$, so $P(A \cup B) = P(A) + P(B)$
+@rl5n9i6yyd
+Independent
+@1oou6k826kr
+Conditional
+@1qgmh66fhna
+<p>A bag has 5 red and 3 blue balls. Two are drawn <b>without</b> replacement. $P(\text{both red}) = \frac{5}{8} \times \frac{4}{7} = \frac{5}{14}$. With replacement it would be $\frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$.</p>
+@6418q9b2s4
+$$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B \mid A)P(A) + P(B \mid A')P(A')}$$<p>It "reverses" a conditional probability — for example, from $P(\text{positive test} \mid \text{disease})$ to $P(\text{disease} \mid \text{positive test})$.</p>
+@1zp2m1asa8t
+<p>$P(A \mid B)$ and $P(B \mid A)$ are usually different. A test can be 99% accurate and a positive result can still be more likely to be a false alarm when the condition is rare.</p>
+@5fmcyqy5g8  ; 0=r | 1=b | 2=col ? T`red` : T`blue`
+A bag contains ⟦0⟧ red and ⟦1⟧ blue balls. Two balls are drawn without replacement. What is the probability that both are ⟦2⟧?
+@16uk5urbde9  ; 0=M(A / 100) | 1=M(B / 100) | 2=M(AB / 100)
+$P(A) = ⟦0⟧$, $P(B) = ⟦1⟧$ and $P(A \cap B) = ⟦2⟧$. Find $P(A \cup B)$.
+@2az4z9znymk  ; 0=M(p) | 1=M(q)
+Events $A$ and $B$ are independent with $P(A) = ⟦0⟧$ and $P(B) = ⟦1⟧$. Find $P(A \cap B)$.
+@1ohoi8ye65  ; 0=M(p) | 1=M(q) | 2=M(rnd(p * q, 2))
+Independent: $P(A \cap B) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.
+@ymjaeaaedm  ; 0=M(p) | 1=M(q)
+Events $A$ and $B$ are independent with $P(A) = ⟦0⟧$ and $P(B) = ⟦1⟧$. Find the probability that at least one of them happens.
+@y6o9k7peax  ; 0=M(rnd(1 - p, 1)) | 1=M(rnd(1 - q, 1)) | 2=M(rnd(1 - (1 - p) * (1 - q), 2))
+$1 - P(\text{neither}) = 1 - (⟦0⟧)(⟦1⟧) = ⟦2⟧$.
+@2ct3qu61tjb
+Boys
+@2402etzr9nx
+Girls
+@18ehauvt7sj
+Plays sport
+@1wnwpnaqcse
+No sport
+@hlkdm5jkod
+Year 10
+@25bc5gb05vn
+Year 11
+@1i4vzjjdcmk
+Walks to school
+@26ih1igl5gl
+Takes the bus
+@2bybvgum1tw
+Adults
+@1lglnmdikqt
+Children
+@xfv76cldjt
+Likes coffee
+@yxuw13xcv3
+Does not
+@1mojcap1eui  ; 0=t | 1=r2 | 2=c1
+A survey gave these results.⟦0⟧A person is chosen at random. Given that they are in the group "⟦1⟧", what is the probability that they are in "⟦2⟧"?
+@1461hv2wfqt  ; 0=c + d | 1=r2 | 2=c | 3=c + d | 4=frT(c, c + d)
+Restrict to the ⟦0⟧ people in "⟦1⟧": $P = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.
+@12180tm9why  ; 0=t | 1=c1 | 2=r1
+A survey gave these results.⟦0⟧A person is chosen at random. Given that they are in "⟦1⟧", what is the probability that they are in the group "⟦2⟧"?
+@eppqyrg22a  ; 0=n
+A fair die is rolled ⟦0⟧ times. What is the probability of getting at least one six?
+@wzrge9rclz  ; 0=n | 1=5 ** n | 2=6 ** n | 3=frT(6 ** n - 5 ** n, 6 ** n)
+$1 - P(\text{no sixes}) = 1 - \left(\frac{5}{6}\right)^{⟦0⟧} = 1 - \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$.
+@1sg12en11ty  ; 0=M(prev * 100) | 1=M(sens * 100) | 2=M(fp * 100)
+A disease affects ⟦0⟧% of people. A test detects it in ⟦1⟧% of people who have it, but also gives a positive result for ⟦2⟧% of people who don't. If someone tests positive, what is the probability that they have the disease? Round to 3 decimal places.
+@1n6kg7z10yy  ; 0=r | 1=b
+A bag has ⟦0⟧ red and ⟦1⟧ blue counters. A counter is drawn, replaced, and a second counter is drawn. What is the probability of red then blue?
+@29cd8gay3w4  ; 0=r | 1=n | 2=b | 3=n | 4=frT(r * b, n * n)
+With replacement the draws are independent: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.
+
+##### statistics-sh
+@1xab92vueba  ; 0=Key(T`<p>A common outlier rule: values b | 1=Fm(T`\sigma^2 = \frac{\sum (x - \mu)^2}{ | 2=Ex(T`<p>Data 2, 4, 4, 4, 5, 5, 7, 9: mea | 3=Tbl([T`If every value becomes`, T`Mean b | 4=Tip(T`<p>Adding a constant shifts the da
+
+<h3>Quartiles and box plots</h3>
+<p>Sort the data. The median $Q_2$ splits it in half; $Q_1$ is the median of the lower half and $Q_3$ the median of the upper half (here we leave the median out of both halves when $n$ is odd). The <b>interquartile range</b> $\text{IQR} = Q_3 - Q_1$ measures the spread of the middle 50%.</p>
+⟦0⟧
+<h3>Variance and standard deviation</h3>
+⟦1⟧
+⟦2⟧
+<h3>Grouped data</h3>
+<p>Estimate the mean with class midpoints: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+<h3>Transforming data</h3>
+⟦3⟧
+⟦4⟧
+@l167vch4m7
+<p>A common outlier rule: values below $Q_1 - 1.5\,\text{IQR}$ or above $Q_3 + 1.5\,\text{IQR}$.</p>
+@1i22g7xb1dd
+\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sample)}
+@1c6crwakkdh
+<p>Data 2, 4, 4, 4, 5, 5, 7, 9: mean 5, squared deviations 9, 1, 1, 1, 0, 0, 4, 16 (sum 32). Population variance $= \frac{32}{8} = 4$ and $\sigma = 2$.</p>
+@etseh8nv9i
+If every value becomes
+@tocb6e1sav
+Mean becomes
+@1ng2ylp8qsd
+Standard deviation becomes
+@s70utdhfyg
+$\sigma$ (unchanged)
+@1ixl32zcrbx
+<p>Adding a constant shifts the data but does not spread it out, so the standard deviation stays the same.</p>
+@1os4b58x5gr  ; 0=data.join(LS())
+Find the <b>sample</b> variance of: ⟦0⟧.
+@5koevyyrqx  ; 0=data.join(LS())
+Find the <b>population</b> variance of: ⟦0⟧.
+@2gl7bcglff0  ; 0=m | 1=dev.map(d => d * d).join(LS()) | 2=sum(dev.map(d => d * d)) | 3=isS ?'n − 1 = 4' : 'n = 5' | 4=M(v2)
+Mean $= ⟦0⟧$. Squared deviations: ⟦1⟧ (sum ⟦2⟧). Divide by ⟦3⟧: $⟦4⟧$.
+@zh9si0i2s  ; 0=data.join(LS())
+Find the population standard deviation of: ⟦0⟧. Round to 2 decimal places.
+@iohahpasm4  ; 0=m | 1=sum(dev.map(d => d * d)) | 2=M(sum(dev.map(d => d * d)) / 5) | 3=M(sum(dev.map(d => d * d)) / 5) | 4=M(sd)
+Mean $= ⟦0⟧$; $\sigma^2 = \frac{⟦1⟧}{5} = ⟦2⟧$, so $\sigma = \sqrt{⟦3⟧} \approx ⟦4⟧$.
+@box0w6rodc  ; 0=data.join(LS())
+Find the interquartile range of: ⟦0⟧. (Exclude the median when splitting the data into halves.)
+@dvfyzp44sk  ; 0=s.join(LS()) | 1=lower.join(LS()) | 2=Q1 | 3=upper.join(LS()) | 4=Q3 | 5=Q3 | 6=Q1 | 7=Q3 - Q1
+Sorted: ⟦0⟧. Lower half ⟦1⟧ gives $Q_1 = ⟦2⟧$; upper half ⟦3⟧ gives $Q_3 = ⟦4⟧$. $\text{IQR} = ⟦5⟧ - ⟦6⟧ = ⟦7⟧$.
+@25jr4jzamls  ; 0=mu | 1=sd | 2=M(a) | 3=sg(b)
+A data set has mean ⟦0⟧ and standard deviation ⟦1⟧. Every value is transformed by $y = ⟦2⟧x ⟦3⟧$. What is the new standard deviation?
+@1h7x4xfpmhw  ; 0=b | 1=M(a) | 2=M(a) | 3=M(Math.abs(a)) | 4=sd | 5=M(Math.abs(a) * sd)
+Adding ⟦0⟧ doesn't change the spread; multiplying by ⟦1⟧ scales it by $|⟦2⟧|$: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$.
+@158l5v4dkra  ; 0=mu | 1=sd | 2=M(a) | 3=sg(b)
+A data set has mean ⟦0⟧ and standard deviation ⟦1⟧. Every value is transformed by $y = ⟦2⟧x ⟦3⟧$. What is the new mean?
+@21c6bmoi3b4  ; 0=M(a) | 1=mu | 2=sg(b) | 3=M(a * mu + b)
+The mean follows the transformation: $⟦0⟧(⟦1⟧) ⟦2⟧ = ⟦3⟧$.
+@th9c52kib0  ; 0=qTable([[T`Class`, ...classes], [T`Frequ
+Estimate the mean from this grouped frequency table (use class midpoints). Round to 2 decimal places.⟦0⟧
+@1h8qh0j4anc
+Class
+@1yeuaowmmsc  ; 0=mids.join(LS()) | 1=N | 2=S | 3=S | 4=N | 5=Number.isInteger((S / N) * 100) ? '=' :  | 6=M(m)
+Midpoints ⟦0⟧; $\sum f = ⟦1⟧$, $\sum fm = ⟦2⟧$. Mean $\approx \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.
+@1kja7bg5lcu  ; 0=Q1 | 1=Q3 | 2=up ? T`upper` : T`lower`
+A data set has $Q_1 = ⟦0⟧$ and $Q_3 = ⟦1⟧$. Using the $1.5 \times \text{IQR}$ rule, what is the ⟦2⟧ fence for outliers?
+@3zu0ol0nfw
+upper
+@9nl2sip6fg
+lower
+@1u7a09okm0e  ; 0=I | 1=I | 2=M(1.5 * I) | 3=up ? T`Upper fence $= ${Q3} + ${M(1.5 * 
+$\text{IQR} = ⟦0⟧$ and $1.5 \times ⟦1⟧ = ⟦2⟧$. ⟦3⟧
+@191ugb8bucx  ; 0=Q3 | 1=M(1.5 * I) | 2=M(Q3 + 1.5 * I)
+Upper fence $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$.
+@111p9ug7ykx  ; 0=Q1 | 1=M(1.5 * I) | 2=M(Q1 - 1.5 * I)
+Lower fence $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.
+
+##### conics
+@12p1gvv8rrs  ; 0=Fm(T`\text{Midpoint } \left(\frac{x_1 +  | 1=Key(T`$$(x - a)^2 + (y - b)^2 = r^2 \qqu | 2=Ex(T`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$:  | 3=Tip(T`<p>In $(x + 3)^2 + (y - 1)^2 = 16$
+
+⟦0⟧
+<h3>Equation of a circle</h3>
+⟦1⟧
+<p>Expanding gives the <b>general form</b> $x^2 + y^2 + Dx + Ey + F = 0$, with centre $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+<h3>Position of a point</h3>
+<p>Substitute the point into $(x - a)^2 + (y - b)^2$ and compare with $r^2$: smaller → inside, equal → on, larger → outside.</p>
+<h3>Tangents</h3>
+<p>A tangent is perpendicular to the radius at the point of contact. For the circle $x^2 + y^2 = r^2$ at $(x_1, y_1)$, the radius has slope $\frac{y_1}{x_1}$, so the tangent has slope $-\frac{x_1}{y_1}$.</p>
+<h3>Parabolas</h3>
+<p>$y^2 = 4px$ has focus $(p, 0)$ and directrix $x = -p$; $x^2 = 4py$ has focus $(0, p)$ and directrix $y = -p$. Every point on a parabola is the same distance from the focus as from the directrix.</p>
+⟦3⟧
+@d8g3n0gso0
+\text{Midpoint } \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right) \qquad \text{Distance } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
+@yeziymovo4
+$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centre } (a, b), \text{ radius } r$$
+@16n3xjnynm7
+<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: complete the squares, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centre $(3, -2)$, radius 5.</p>
+@11ib4pk61jv
+<p>In $(x + 3)^2 + (y - 1)^2 = 16$ the centre is $(-3, 1)$ — the signs flip — and the radius is 4, not 16.</p>
+@a19ymany96  ; 0=pt(x1, y1) | 1=pt(x2, y2)
+Find the midpoint of $⟦0⟧$ and $⟦1⟧$.
+@l7s72risy9  ; 0=x1 | 1=pn(x2) | 2=y1 | 3=pn(y2) | 4=pt(mx, my)
+Average the coordinates: $\left(\frac{⟦0⟧ + ⟦1⟧}{2}, \frac{⟦2⟧ + ⟦3⟧}{2}\right) = ⟦4⟧$.
+@1mu3r9x32jw  ; 0=terms([[1, 'x^2'], [1, 'y^2'], [D, 'x'],
+Find the radius of the circle $⟦0⟧ = 0$.
+@1bhxlcedykj  ; 0=sg(-a) | 1=sg(-b) | 2=a * a | 3=b * b | 4=sg(-Fv) | 5=r * r | 6=r
+Complete the squares: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧ + ⟦3⟧ ⟦4⟧ = ⟦5⟧$, so $r = ⟦6⟧$.
+@d11etx15kp  ; 0=terms([[1, 'x^2'], [1, 'y^2'], [D, 'x'],
+Find the centre of the circle $⟦0⟧ = 0$.
+@15nydo8wzsx  ; 0=D | 1=E | 2=pt(a, b)
+The centre is $\left(-\frac{D}{2}, -\frac{E}{2}\right) = \left(-\frac{⟦0⟧}{2}, -\frac{⟦1⟧}{2}\right) = ⟦2⟧$.
+@10fdmgbsvjs  ; 0=pt(a, b) | 1=r
+Which is the equation of the circle with centre $⟦0⟧$ and radius ⟦1⟧?
+@j31butbqt0  ; 0=sg(-a) | 1=sg(-b) | 2=r * r
+Substitute into $(x - a)^2 + (y - b)^2 = r^2$: $(x ⟦0⟧)^2 + (y ⟦1⟧)^2 = ⟦2⟧$.
+@qntj72wic0
+Inside the circle
+@1z2fjcjol1w
+inside
+@1h4trl2qo1h
+On the circle
+@1sg9ogxwlev
+on
+@8uau8fsxbq
+Outside the circle
+@6gv2pbcp7q
+outside
+@24luyo2ftju  ; 0=pt(x, y) | 1=sg(-a) | 2=sg(-b) | 3=R2
+Is the point $⟦0⟧$ inside, on, or outside the circle $(x ⟦1⟧)^2 + (y ⟦2⟧)^2 = ⟦3⟧$?
+@28keqi93flp  ; 0=lhs | 1=R2
+$⟦0⟧$, which equals $r^2 = ⟦1⟧$: the point is <b>on</b> the circle.
+@1hj2pbrwkr7  ; 0=lhs | 1=R2
+$⟦0⟧$, which is less than $r^2 = ⟦1⟧$: the point is <b>inside</b> the circle.
+@kv7senj1fr  ; 0=lhs | 1=R2
+$⟦0⟧$, which is greater than $r^2 = ⟦1⟧$: the point is <b>outside</b> the circle.
+@1hxz2qew8oz  ; 0=eq
+Find the focus of the parabola $⟦0⟧$.
+@22fls2lezk5  ; 0=xForm ? T`$y^2 = 4px$` : T`$x^2 = 4py$` | 1=4 * p | 2=p | 3=pt(...f)
+Compare with ⟦0⟧: $4p = ⟦1⟧$, so $p = ⟦2⟧$ and the focus is $⟦3⟧$.
+@ez3m02hgj1  ; 0=c * c | 1=pt(x, y)
+Find the slope of the tangent to $x^2 + y^2 = ⟦0⟧$ at the point $⟦1⟧$.
+@1huwumypuyf  ; 0=pt(x, y) | 1=y | 2=x | 3=x | 4=y | 5=frT(-x, y)
+The radius to $⟦0⟧$ has slope $\frac{⟦1⟧}{⟦2⟧}$. The tangent is perpendicular: slope $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.
+
+##### linear-programming
+@23l7ef2fdyh  ; 0=Key(T`<p><b>Corner-point theorem:</b> if | 1=Ex(T`<p>Maximise $z = 3x + 2y$ subject t | 2=Tip(T`<p>Check each corner satisfies <b>
+
+<p><b>Linear programming</b> finds the best (largest or smallest) value of a linear <b>objective function</b>, such as profit $z = 30x + 20y$, subject to linear <b>constraints</b> such as $x + y \le 40$.</p>
+<ol><li>Write the constraints as inequalities (include $x \ge 0$, $y \ge 0$).</li><li>Draw each boundary line and shade the region satisfying all constraints — the <b>feasible region</b>.</li><li>Find the corner points (vertices) by solving pairs of boundary equations.</li><li>Evaluate the objective at each corner.</li></ol>
+⟦0⟧
+⟦1⟧
+<p>For minimisation problems with "≥" constraints, the region is often unbounded; with positive costs, the minimum still occurs at a corner.</p>
+⟦2⟧
+@hs1573xprv
+<p><b>Corner-point theorem:</b> if an optimum exists, it occurs at a vertex of the feasible region.</p>
+@1g8qhbmqb9w
+<p>Maximise $z = 3x + 2y$ subject to $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vertices: $(0, 0)$, $(6, 0)$, $(4, 4)$ [where $x + y = 8$ meets $2x + y = 12$], $(0, 8)$.</p><p>$z$ values: 0, 18, 20, 16. Maximum $z = 20$ at $(4, 4)$.</p>
+@11p3z90h4pd
+<p>Check each corner satisfies <b>every</b> constraint — an intersection of two boundary lines may lie outside the region.</p>
+@22hgo1z3v51  ; 0=xt(c) | 1=xt(d, 'y') | 2=consT(cons)
+Maximise $z = ⟦0⟧ + ⟦1⟧$ subject to ⟦2⟧, $x \ge 0$, $y \ge 0$. What is the maximum value of $z$?
+@thttp4dv20  ; 0=verts.map((v, i) => `$${pt(...v)} \\to $ | 1=best
+Corner points and values of $z$: ⟦0⟧. The maximum is <b>⟦1⟧</b>.
+@2g9b1szo820  ; 0=xt(c) | 1=xt(d, 'y') | 2=s | 3=t
+Minimise $z = ⟦0⟧ + ⟦1⟧$ subject to $x + y \ge ⟦2⟧$, $x + 2y \ge ⟦3⟧$, $x \ge 0$, $y \ge 0$. What is the minimum value of $z$?
+@72m6dlh1yr  ; 0=verts.map((v, i) => `$${pt(...v)} \\to $ | 1=best
+The feasible region is unbounded, with corners ⟦0⟧. Since the costs are positive, the minimum is <b>⟦1⟧</b>.
+@4eos6o7rio  ; 0=consT(cons)
+Which point lies in the feasible region defined by ⟦0⟧, $x \ge 0$, $y \ge 0$?
+@1jqzy1kt3ra  ; 0=pt(...good)
+Test each point in every constraint. $⟦0⟧$ satisfies all of them; each of the others breaks at least one.
+@15d4uuzw5eq  ; 0=cons[0][2] | 1=`$${terms([[a2, 'x'], [b2, 'y']])} \\le  | 2=c | 3=d
+A bakery makes cakes ($x$) and pies ($y$) each day. It can bake at most ⟦0⟧ items, and baking time gives the constraint ⟦1⟧. Profit is ⟦2⟧ dollars per cake and ⟦3⟧ dollars per pie. What is the maximum daily profit?
+@296rrmt4h4q  ; 0=cons[0][2] | 1=terms([[a2, 'x'], [b2, 'y']]) | 2=c2 | 3=verts.map((v, i) => `$${pt(...v)} \\to $ | 4=best
+Constraints: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Corners: ⟦3⟧. Maximum profit: <b>⟦4⟧</b> dollars.
+
+##### logic
+@22xng4phovn  ; 0=truthTbl() | 1=Key(T`<p>An implication $p \Rightarrow q | 2=Tbl([T`Name`, T`Form`, T`Equivalent to t | 3=Tip(T`<p>From $p \Rightarrow q$ and $q$ 
+
+<p>A <b>statement</b> (proposition) is a sentence that is either true or false. Compound statements are built with <b>connectives</b>:</p>
+⟦0⟧
+⟦1⟧
+<h3>Related conditionals</h3>
+⟦2⟧
+<h3>Quantifiers</h3>
+<p>$\forall$ "for all" and $\exists$ "there exists". Negation swaps them: the negation of "All students passed" is "<b>Some</b> students did <b>not</b> pass"; the negation of "Some birds can't fly" is "All birds can fly".</p>
+<h3>Valid arguments</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; therefore $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; therefore $\neg p$.</li><li><b>Syllogism:</b> $p \Rightarrow q$, $q \Rightarrow r$; therefore $p \Rightarrow r$.</li></ul>
+⟦3⟧
+@1h0id2d836q
+<p>An implication $p \Rightarrow q$ is false <b>only</b> when $p$ is true and $q$ is false.</p>
+@2aojok6ubm7
+Form
+@1bpxgxn3wdt
+Equivalent to the original?
+@clyih3qga0
+Statement
+@13tp70kq9iu
+Converse
+@5lqm3x6p6i
+no
+@1vsuatfpf7o
+Inverse
+@1zjwynaslfy
+Contrapositive
+@2377erd9rpv
+yes
+@1vdptccpewy
+<p>From $p \Rightarrow q$ and $q$ you <b>cannot</b> conclude $p$ ("affirming the consequent"). Wet ground doesn't prove it rained.</p>
+@e62y0oj6y7  ; 0=TF(p).toLowerCase() | 1=TF(q).toLowerCase() | 2=TF(r).toLowerCase() | 3=e
+$p$ is ⟦0⟧, $q$ is ⟦1⟧ and $r$ is ⟦2⟧. What is the truth value of $⟦3⟧$?
+@x0xbdvafwl  ; 0=tfL()[p ? 0 : 1] | 1=tfL()[q ? 0 : 1] | 2=tfL()[r ? 0 : 1] | 3=e | 4=TF(v).toLowerCase()
+Substitute $p = \text{⟦0⟧}$, $q = \text{⟦1⟧}$, $r = \text{⟦2⟧}$ and evaluate inside-out: $⟦3⟧$ is <b>⟦4⟧</b>. (Remember: $\Rightarrow$ is false only for T ⇒ F.)
+@1kkjzumhca1
+it rains
+@ia7w0co89o
+it does not rain
+@1ihx0acpu6a
+the ground is wet
+@1v63alfxz6x
+the ground is not wet
+@1l79oqrjsck
+$n$ is divisible by 4
+@1yshjhf0kon
+$n$ is not divisible by 4
+@qa8yzaajhn
+$n$ is even
+@cbcna6lfv
+$n$ is not even
+@31grcmmyn9
+$ABCD$ is a square
+@pqxtvsjzqa
+$ABCD$ is not a square
+@2gdyvqap69i
+$ABCD$ is a rectangle
+@lxgoo3xc2q
+$ABCD$ is not a rectangle
+@s4qelj4pfa
+you study hard
+@1ri3py7kjks
+you do not study hard
+@1wmmmy5ybwg
+you pass the exam
+@uo17m9mxei
+you do not pass the exam
+@14thczs4bru
+the lamp is switched on
+@1mg8dlhg5lp
+the lamp is switched off
+@496x9r1bce
+the room is bright
+@383gdutznm
+the room is not bright
+@12lqix1f1k9  ; 0=q | 1=p
+If ⟦0⟧, then ⟦1⟧.
+@z7jgfl3knp
+converse
+@aqxfua2az0
+inverse
+@1qj3c13iq5c
+contrapositive
+@14dtm0889wo  ; 0=kn | 1=T`If ${p}, then ${q}.`
+What is the <b>⟦0⟧</b> of the statement "⟦1⟧"?
+@1izj6udg2zz  ; 0=kn | 1=forms[kind] | 2=kind === 'contrapositive' ? T` — it is l
+Converse: swap ($q \Rightarrow p$). Inverse: negate both ($\neg p \Rightarrow \neg q$). Contrapositive: swap and negate ($\neg q \Rightarrow \neg p$). So the ⟦0⟧ is "⟦1⟧"⟦2⟧
+@15513xdtwsn
+ — it is logically equivalent to the original.
+@6brkkcy85o
+All students passed the exam.
+@2rjnejqvqb
+Some students did not pass the exam.
+@vjzsxd6qou
+No students passed the exam.
+@oolor24qct
+All students did not pass the exam.
+@aesopm7ka0
+Some students passed the exam.
+@1c9ng778gwv
+Not all students passed the exam.
+@f39jhzzlxm
+All cats like milk.
+@1rgve8hw4eg
+Some cats do not like milk.
+@19hhf94uign
+No cats like milk.
+@1qzto8uhyzs
+All cats do not like milk.
+@xi1gnm2hxv
+Some cats like milk.
+@aijf9tywlh
+Not all cats like milk.
+@2c7t0e33rd1
+All employees arrived on time.
+@avwdd5b0gg
+Some employees did not arrive on time.
+@28adrxoh914
+No employees arrived on time.
+@1000i19kpx7
+All employees did not arrive on time.
+@1tupibwtosw
+Some employees arrived on time.
+@syr088g2qb
+Not all employees arrived on time.
+@1rwcznrx3zt
+All numbers in the list are even.
+@g4py4lm4nz
+Some numbers in the list are not even.
+@z8en25csvv
+No numbers in the list are even.
+@1m3jao43f24
+All numbers in the list are not even.
+@2nfvm4et1c
+Some numbers in the list are even.
+@xfe0p0mnov
+Not all numbers in the list are even.
+@1w0eku5479x
+All players scored a goal.
+@2xjzgvosy4
+Some players did not score a goal.
+@1eb39gddsae
+No players scored a goal.
+@1xbzgu8l71r
+All players did not score a goal.
+@t7ja96nwk4
+Some players scored a goal.
+@8j4qjj5ufj
+Not all players scored a goal.
+@b5r03m1c02  ; 0=all
+What is the negation of "⟦0⟧"?
+@1a591wdfgbv  ; 0=someNot
+$\neg(\forall x\, P(x)) \equiv \exists x\, \neg P(x)$: it is enough for <i>some</i> of them to fail. Negation: "⟦0⟧"
+@do28na3fol  ; 0=none
+$\neg(\exists x\, P(x)) \equiv \forall x\, \neg P(x)$: none of them do. Negation: "⟦0⟧"
+@ndnufyumww  ; 0=n
+How many rows does a truth table with ⟦0⟧ different statement variables have?
+@u75a1of7f2  ; 0=n | 1=2 ** n
+Each variable is T or F, so there are $2^{⟦0⟧} = ⟦1⟧$ combinations.
+@1w39q86nfhw  ; 0=e
+In the truth table of $⟦0⟧$, in how many rows is the statement true?
+@ny2shau597  ; 0=rows.length | 1=cnt | 2=rows.length - cnt
+The table has ⟦0⟧ rows; evaluating each shows the statement is true in <b>⟦1⟧</b> of them and false in ⟦2⟧.
+@1zkv6notm6x
+the match is cancelled
+@28hyo4t2whc
+the match is not cancelled
+@amilvofe40
+a number ends in 0
+@osyuok2ad2
+a number does not end in 0
+@fabia2grh6
+it is divisible by 5
+@18q6q6gwd11
+it is not divisible by 5
+@m30q1lwox2
+you water the plant
+@1ku1ogs6cx8
+you do not water the plant
+@1zfcrbg8kca
+the plant grows
+@ax498dx365
+the plant does not grow
+@10pj6yxl1t7
+the alarm rings
+@4ju91rp1va
+the alarm does not ring
+@smmfh9u0rs
+Sam wakes up
+@1al6yo6prnr
+Sam does not wake up
+@1wbxqjf54ui
+No valid conclusion can be drawn.
+@1h3hboouplr  ; 0=p | 1=q | 2=cap(second)
+Premise 1: "If ⟦0⟧, then ⟦1⟧." Premise 2: "⟦2⟧." What can be validly concluded?
+@19xzw2kl48j  ; 0=cap(q)
+This is modus ponens ($p \Rightarrow q$, $p$ ⊢ $q$): "⟦0⟧."
+@4fjcpvhawf  ; 0=cap(np)
+This is modus tollens ($p \Rightarrow q$, $\neg q$ ⊢ $\neg p$): "⟦0⟧."
+@enorfzjcll
+Knowing $q$ is true doesn't tell us about $p$ (affirming the consequent is a fallacy). No valid conclusion.
+@1w6l8obljn3
+Knowing $\neg p$ doesn't tell us about $q$ (denying the antecedent is a fallacy). No valid conclusion.

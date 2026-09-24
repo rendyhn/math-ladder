@@ -1,0 +1,1029 @@
+##### diff-techniques
+@i2e9stiapi  ; 0=Tbl([T`Rule`, T`Formula`], [[T`Product`, | 1=Tbl([T`Function`, T`Derivative`, T`Funct | 2=Ex(T`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5 | 3=Ex(T`<p>$x^2 + y^2 = 25 \Rightarrow 2x + | 4=Key(T`<p><b>Logarithmic differentiation< | 5=Tip(T`<p>Chain rule: always multiply by 
+
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Implicit differentiation</h3>
+<p>When $y$ is defined implicitly, differentiate both sides with respect to $x$, treating $y$ as a function of $x$ (so $\frac{d}{dx}y^2 = 2y\,y'$), then solve for $y'$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+@1kr8zytc8j5
+Product
+@1fd6nxjb0xt
+Quotient
+@21u0n9yxqot
+Chain
+@10xmtmesa6t
+Function
+@n72fq2kxcg
+Derivative
+@1qtv7snffoy
+<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4$ &nbsp;(chain rule)</p><p>$\dfrac{d}{dx}\,x^2 e^{3x} = 2x e^{3x} + 3x^2 e^{3x} = xe^{3x}(2 + 3x)$ &nbsp;(product rule)</p>
+@1nhip08xeg5
+<p>$x^2 + y^2 = 25 \Rightarrow 2x + 2y\,y' = 0 \Rightarrow y' = -\dfrac{x}{y}$. At $(3, 4)$ the slope is $-\frac{3}{4}$.</p>
+@wvkdxn7frj
+<p><b>Logarithmic differentiation</b> handles products, quotients and variable powers: for $y = x^x$, $\ln y = x\ln x$, so $\frac{y'}{y} = \ln x + 1$ and $y' = x^x(\ln x + 1)$.</p>
+@re4vli1oc9
+<p>Chain rule: always multiply by the derivative of the <b>inside</b>. $\frac{d}{dx}\sin(x^2) = 2x\cos(x^2)$, not $\cos(x^2)$.</p>
+@1iajxt140g2  ; 0=lin(a, b) | 1=n | 2=k
+Let $f(x) = (⟦0⟧)^{⟦1⟧}$. Find $f'(⟦2⟧)$.
+@2108swf0nc1  ; 0=n | 1=lin(a, b) | 2=n - 1 | 3=a | 4=k | 5=u | 6=k | 7=n | 8=pn(u) | 9=n - 1 | 10=a | 11=M(v)
+Chain rule: $f'(x) = ⟦0⟧(⟦1⟧)^{⟦2⟧} \cdot ⟦3⟧$. At $x = ⟦4⟧$ the inside is ⟦5⟧, so $f'(⟦6⟧) = ⟦7⟧ \cdot ⟦8⟧^{⟦9⟧} \cdot ⟦10⟧ = ⟦11⟧$.
+@13u8g7mcany  ; 0=xP(n) | 1=E
+Differentiate $y = ⟦0⟧⟦1⟧$.
+@ltfmske2sq  ; 0=xP(n) | 1=E | 2=co(n, xP(n - 1)) | 3=E | 4=xP(n) | 5=terms([[k, E]]) | 6=pre | 7=E | 8=inner
+Product rule with $u = ⟦0⟧$, $v = ⟦1⟧$: $y' = ⟦2⟧⟦3⟧ + ⟦4⟧ \cdot ⟦5⟧ =⟦6⟧⟦7⟧(⟦8⟧)$.
+@24tbapqaxkt  ; 0=poly([a, 0, b]) | 1=k
+Let $f(x) = \ln(⟦0⟧)$. Find $f'(⟦1⟧)$.
+@vr5ui5jnj1  ; 0=2 * a === 1 ? '' : 2 * a | 1=poly([a, 0, b]) | 2=k | 3=2 * a * k | 4=a * k * k + b | 5=frT(2 * a * k, a * k * k + b)
+$f'(x) = \frac{⟦0⟧x}{⟦1⟧}$, so $f'(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.
+@21f80wac08v  ; 0=c * c | 1=pt(x, y)
+Find $\frac{dy}{dx}$ for $x^2 + y^2 = ⟦0⟧$ at the point $⟦1⟧$.
+@xl17ytois8  ; 0=p * q | 1=pt(p, q)
+Find $\frac{dy}{dx}$ for $xy = ⟦0⟧$ at the point $⟦1⟧$.
+@cc1dbada60  ; 0=frT(-q, p)
+Product rule: $y + x\,y' = 0 \Rightarrow y' = -\frac{y}{x} = ⟦0⟧$.
+@g5b3ql04b4  ; 0=inner
+Differentiate $y = \sin(⟦0⟧)$.
+@1u57cjycyb3  ; 0=inner | 1=xt(2 * a) | 2=xt(2 * a) | 3=inner
+Chain rule: the outer derivative is $\cos(⟦0⟧)$ and the inner derivative is $⟦1⟧$, giving $⟦2⟧\cos(⟦3⟧)$.
+@1zcx1qjywp8  ; 0=poly([a, b, c, 0, 0]) | 1=k
+For $f(x) = ⟦0⟧$, find $f''(⟦1⟧)$.
+@22jprctwicn  ; 0=poly([4 * a, 3 * b, 2 * c, 0]) | 1=poly([12 * a, 6 * b, 2 * c]) | 2=k | 3=v
+$f'(x) = ⟦0⟧$ and $f''(x) = ⟦1⟧$. So $f''(⟦2⟧) = ⟦3⟧$.
+@1pkqexq4tgg  ; 0=k
+Let $f(x) = x\ln x$. Find $f'(e^{⟦0⟧})$.
+@20aqqhk2mtp  ; 0=k | 1=k | 2=k + 1
+Product rule: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. So $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.
+
+##### diff-applications
+@g0oq20zzs  ; 0=Key(T`<p>If $\lim \frac{f(x)}{g(x)}$ has | 1=Ex(T`<p>Squares of side $x$ are cut from | 2=Fm(T`f(a + h) \approx f(a) + f'(a)\,h \q | 3=Tip(T`<p>L'Hôpital differentiates top an
+
+<h3>L'Hôpital's rule</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (applied twice).</p>
+<h3>Optimisation</h3>
+<ol><li>Write the quantity to optimise as a function of one variable (use the constraint).</li><li>Differentiate and solve $f'(x) = 0$.</li><li>Check it is a max/min (second derivative or endpoints).</li></ol>
+⟦1⟧
+<h3>Related rates</h3>
+<p>Differentiate a relationship with respect to time. For a growing circle, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Linear approximation</h3>
+⟦2⟧
+<h3>Concavity and the Mean Value Theorem</h3>
+<p>$f'' \gt 0$: concave up; $f'' \lt 0$: concave down; an <b>inflection point</b> is where concavity changes. <b>MVT:</b> if $f$ is continuous on $[a, b]$ and differentiable inside, some $c$ in $(a, b)$ has $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦3⟧
+@11hmiu9w9s4
+<p>If $\lim \frac{f(x)}{g(x)}$ has the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (when the right side exists).</p>
+@189x52ko5mw
+<p>Squares of side $x$ are cut from the corners of an 18 cm square sheet, and the sides folded up. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ gives $x = 3$, so $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>
+@e22qux2ozs
+f(a + h) \approx f(a) + f'(a)\,h \qquad \text{e.g. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1
+@15384lzo6ba
+<p>L'Hôpital differentiates top and bottom <b>separately</b> — it is not the quotient rule.</p>
+@s2219vpl96  ; 0=a === 1 ? '' : a
+Evaluate $\displaystyle\lim_{x \to 0}\frac{1 - \cos ⟦0⟧x}{x^2}$.
+@1tq22svmx8r  ; 0=a | 1=a | 2=a * a | 3=a | 4=a * a
+L'Hôpital twice: $\frac{⟦0⟧\sin ⟦1⟧x}{2x} \to \frac{⟦2⟧\cos ⟦3⟧x}{2} \to \frac{⟦4⟧}{2}$.
+@v9t0b7xos3  ; 0=num | 1=b
+Evaluate $\displaystyle\lim_{x \to 0}\frac{⟦0⟧}{⟦1⟧x}$.
+@wudu9stdyh  ; 0=f === 'exp' ? T`${a}e^{${a}x}` : T`\frac | 1=b | 2=a | 3=b
+It is $\frac{0}{0}$; differentiate top and bottom: $\frac{⟦0⟧}{⟦1⟧} \to \frac{⟦2⟧}{⟦3⟧}$.
+@b8a0ml45bv  ; 0=L | 1=L | 2=askX ? T`What value of x maximises the v
+Equal squares of side $x$ cm are cut from the corners of a ⟦0⟧ cm by ⟦1⟧ cm sheet, and the sides are folded up to make an open box. ⟦2⟧
+@6fzl8050w8
+What value of x maximises the volume?
+@1nbs4g9250e
+What is the maximum possible volume?
+@1xaya4958aj  ; 0=L | 1=L | 2=L | 3=k | 4=k | 5=L - 2 * k | 6=16 * k ** 3
+$V = x(⟦0⟧ - 2x)^2$, $V' = (⟦1⟧ - 2x)(⟦2⟧ - 6x) = 0$ gives $x = ⟦3⟧$ (the other root gives zero volume). $V = ⟦4⟧(⟦5⟧)^2 = ⟦6⟧$ cm³.
+@g44lawx7yb  ; 0=c | 1=R
+The radius of a circle increases at ⟦0⟧ cm/s. How fast is the area increasing when the radius is ⟦1⟧ cm? Answer in terms of $\pi$.
+@pvrsmdtr3x  ; 0=R | 1=c | 2=piT(2 * R * c)
+$\frac{dA}{dt} = 2\pi r\frac{dr}{dt} = 2\pi(⟦0⟧)(⟦1⟧) = ⟦2⟧$ cm²/s.
+@w8wuhpzsgd  ; 0=c | 1=R
+A spherical balloon's radius grows at ⟦0⟧ cm/s. How fast is its volume increasing when the radius is ⟦1⟧ cm? Answer in terms of $\pi$.
+@1ca85zwkg9p  ; 0=R | 1=c | 2=piT(4 * R * R * c)
+$\frac{dV}{dt} = 4\pi r^2\frac{dr}{dt} = 4\pi(⟦0⟧)^2(⟦1⟧) = ⟦2⟧$ cm³/s.
+@2c66yuykiw5  ; 0=n * n | 1=N
+Use a linear approximation of $\sqrt{x}$ at $x = ⟦0⟧$ to estimate $\sqrt{⟦1⟧}$.
+@rjw48nwhxr
+Type a fraction or a decimal.
+@16wswpodtbc  ; 0=poly([1, b, c, d])
+Find the $x$-coordinate of the inflection point of $f(x) = ⟦0⟧$.
+@16igzoef2co  ; 0=sg(2 * b) | 1=-b / 3
+$f''(x) = 6x ⟦0⟧ = 0$ gives $x = ⟦1⟧$; $f''$ changes sign there.
+@2dw0fqk2lyr  ; 0=poly([1, p, 0]) | 1=a | 2=bb
+$f(x) = ⟦0⟧$ on $[⟦1⟧, ⟦2⟧]$. Find the value $c$ guaranteed by the Mean Value Theorem.
+@1c5ltuvzsrq  ; 0=bb | 1=a | 2=bb | 3=pn(a) | 4=bb + a + p | 5=sg(p) | 6=bb + a + p | 7=M((a + bb) / 2)
+Average slope $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ gives $c = ⟦7⟧$ — the midpoint, as always for a quadratic.
+
+##### integration-techniques
+@vrvi3bfbr  ; 0=Fm(T`\int 2x(x^2 + 1)^3\,dx = \int u^3\, | 1=Key(T`$$\int u\,dv = uv - \int v\,du$$<p | 2=Ex(T`<p>$\int x e^{2x}\,dx$: $u = x$, $d | 3=Fm(T`\int_1^\infty \frac{dx}{x^p} = \fra | 4=Tip(T`<p>$\int \frac{g'(x)}{g(x)}\,dx = 
+
+<h3>Substitution</h3>
+<p>Look for a function and its derivative. With $u = g(x)$, $du = g'(x)\,dx$:</p>
+⟦0⟧
+<p>For definite integrals, change the limits too (or substitute back before evaluating).</p>
+<h3>Integration by parts</h3>
+⟦1⟧
+⟦2⟧
+<h3>Partial fractions</h3>
+<p>Split a rational function into simpler pieces: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Multiply out and substitute $x = 1$ and $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Each piece integrates to a logarithm.</p>
+<h3>Improper integrals</h3>
+⟦3⟧
+⟦4⟧
+@26zznowz8be
+\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C
+@5ecfawuidh
+$$\int u\,dv = uv - \int v\,du$$<p>Choose $u$ by <b>LIATE</b>: Logarithmic, Inverse trig, Algebraic, Trig, Exponential — whichever comes first.</p>
+@c0nz9m0n3d
+<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, so $du = dx$, $v = \frac{1}{2}e^{2x}$. Result: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>
+@2clmb8muggz
+\int_1^\infty \frac{dx}{x^p} = \frac{1}{p - 1} \text{ for } p \gt 1 \text{ (diverges for } p \le 1) \qquad \int_0^\infty e^{-kx}\,dx = \frac{1}{k}
+@l8twy4h3ug
+<p>$\int \frac{g'(x)}{g(x)}\,dx = \ln|g(x)| + C$ — spot this pattern before reaching for anything heavier.</p>
+@fesx7djw83
+xe^{x} - e^{x}
+@yia5dxx3ds
+xe^{x} + e^{x}
+@1afuqmxgeq5  ; 0=set[0]
+Find $\displaystyle\int ⟦0⟧\,dx$.
+@1235n0zk19z  ; 0=set[3] | 1=set[1]
+Integrate by parts with ⟦0⟧: the result is ⟦1⟧. Differentiate to check.
+@pklgf5s2ey  ; 0=a | 1=n
+Evaluate $\displaystyle\int_0^{⟦0⟧} 2x(x^2 + 1)^{⟦1⟧}\,dx$.
+@51fkmlo4j8  ; 0=a * a + 1 | 1=a * a + 1 | 2=n | 3=n + 1 | 4=n + 1 | 5=a * a + 1 | 6=M((a * a + 1) ** (n + 1)) | 7=n + 1 | 8=frT(top, n + 1)
+Let $u = x^2 + 1$, $du = 2x\,dx$; limits $u = 1$ to $u = ⟦0⟧$: $\int_1^{⟦1⟧} u^{⟦2⟧}\,du = \left[\frac{u^{⟦3⟧}}{⟦4⟧}\right]_1^{⟦5⟧} = \frac{⟦6⟧ - 1}{⟦7⟧} = ⟦8⟧$.
+@1tmpbvg6cku  ; 0=poly([A + B, -(A * b + B * a)]) | 1=den(a) | 2=den(b)
+Decompose into partial fractions: $\dfrac{⟦0⟧}{⟦1⟧⟦2⟧}$
+@1iitr1pnozn  ; 0=den(a) | 1=den(b) | 2=a | 3=A | 4=b | 5=B
+Write $\frac{P}{⟦0⟧} + \frac{Q}{⟦1⟧}$ and clear denominators. Setting $x = ⟦2⟧$ gives $P = ⟦3⟧$; setting $x = ⟦4⟧$ gives $Q = ⟦5⟧$.
+@r1rswlk024  ; 0=k | 1=k === 1 ? '' : k
+Evaluate $\displaystyle\int_0^{\pi/⟦0⟧} \sin(⟦1⟧x)\,dx$.
+@1l97oofm3p4  ; 0=2 * k | 1=k === 1 ? '' : k
+Evaluate $\displaystyle\int_0^{\pi/⟦0⟧} \cos(⟦1⟧x)\,dx$.
+@pqalznrxip  ; 0=p
+Evaluate $\displaystyle\int_1^{\infty} \frac{dx}{x^{⟦0⟧}}$.
+@4t49nbtc5g  ; 0=1 - p | 1=1 - p | 2=1 - p | 3=frT(1, p - 1) | 4=p
+$\left[\frac{x^{⟦0⟧}}{⟦1⟧}\right]_1^{\infty} = 0 - \frac{1}{⟦2⟧} = ⟦3⟧$. It converges because $p = ⟦4⟧ \gt 1$.
+@w9i8vvwvmq  ; 0=k === 1 ? '' : k
+Evaluate $\displaystyle\int_0^{\infty} e^{-⟦0⟧x}\,dx$.
+@1wnox68sxsf  ; 0=c
+Evaluate $\displaystyle\int_0^{⟦0⟧} \frac{2x}{x^2 + 1}\,dx$.
+@2ctr5v6it67
+Answers like ln(10) are accepted.
+@8ud8r2yql4  ; 0=c | 1=L | 2=L
+The numerator is the derivative of the denominator: $\left[\ln(x^2 + 1)\right]_0^{⟦0⟧} = \ln ⟦1⟧ - \ln 1 = \ln ⟦2⟧$.
+
+##### integral-applications
+@1iuoee1mxv2
+Integral
+@u2fo7phj7e
+Area between curves
+@26rkw1zgbbl
+Volume (disc), about the x-axis
+@1gdvfh77kjd
+Volume (washer)
+@2e8c5l4l65u
+Volume (shell), about the y-axis
+@hf97eg5buy
+Average value
+@1wrr2ozjzke
+Arc length
+@1aamatrm1qc
+Work (variable force)
+@25psf0wh4wl
+<p>Rotating $y = \sqrt{x}$, $0 \le x \le 4$, about the $x$-axis: $V = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$.</p>
+@84txgrqh8f
+<p>A spring with $k = 200$ N/m (Hooke's law $F = kx$) stretched 0.3 m: $W = \int_0^{0.3} 200x\,dx = 100(0.3)^2 = 9$ J.</p>
+@4sufc6qh8k
+<p>Sketch first. Find where the curves meet (these are the limits) and which one is on top — the integrand is always <b>top minus bottom</b> (or outer radius squared minus inner radius squared).</p>
+@2dts82e214f
+<p>In the disc method, square the <b>function</b>, not the integral: $\pi\int f^2$, not $\pi\left(\int f\right)^2$.</p>
+@254d1knheuj  ; 0=m * m === 1 ? '' : m * m
+Find the area enclosed between $y = x^3$ and $y = ⟦0⟧x$ in the first quadrant.
+@6v6svg4kwp  ; 0=m | 1=m | 2=m * m | 3=m * m | 4=m | 5=m | 6=frT(m ** 4, 4)
+They meet at $x = 0$ and $x = ⟦0⟧$. $\int_0^{⟦1⟧} (⟦2⟧x - x^3)\,dx = \frac{⟦3⟧(⟦4⟧)^2}{2} - \frac{⟦5⟧^4}{4} = ⟦6⟧$.
+@137eefen200  ; 0=h | 1=h
+\pi\int_0^{⟦0⟧} x\,dx = \frac{\pi (⟦1⟧)^2}{2}
+@1minpuvvl2n  ; 0=h | 1=h
+\pi\int_0^{⟦0⟧} x^2\,dx = \frac{\pi (⟦1⟧)^3}{3}
+@s7flm3xrdz  ; 0=h | 1=h
+\pi\int_0^{⟦0⟧} x^4\,dx = \frac{\pi (⟦1⟧)^5}{5}
+@217wjez6n7  ; 0=V[0] | 1=h
+The region under $⟦0⟧$ for $0 \le x \le ⟦1⟧$ is rotated about the $x$-axis. Find the volume in terms of $\pi$.
+@1icurdoc4sc  ; 0=V[2] | 1=piT(...V[1])
+Disc method: $V = ⟦0⟧ = ⟦1⟧$.
+@2gj0lncwv9v  ; 0=k === 1 ? '' : k
+The region between $y = ⟦0⟧x$ and $y = x^2$ is rotated about the $x$-axis. Find the volume in terms of $\pi$.
+@79trxd9ylt  ; 0=k === 1 ? '' : k | 1=k | 2=k | 3=k * k === 1 ? '' : k * k | 4=k ** 5 | 5=k ** 5 | 6=piT(2 * k ** 5, 15)
+Washers with outer radius $⟦0⟧x$ and inner radius $x^2$ on $[0, ⟦1⟧]$: $V = \pi\int_0^{⟦2⟧} (⟦3⟧x^2 - x^4)\,dx = \pi\left(\frac{⟦4⟧}{3} - \frac{⟦5⟧}{5}\right) = ⟦6⟧$.
+@7u6xsm6kr0  ; 0=b
+Find the average value of $f(x) = x^2$ on $[0, ⟦0⟧]$.
+@14439tvneep  ; 0=lin(a, c) | 1=p | 2=q
+Find the average value of $f(x) = ⟦0⟧$ on $[⟦1⟧, ⟦2⟧]$.
+@ooxywxrn7m  ; 0=M((p + q) / 2) | 1=M(a) | 2=M((p + q) / 2) | 3=sg(c) | 4=M(v)
+A linear function's average is its value at the midpoint $x = ⟦0⟧$: $⟦1⟧(⟦2⟧) ⟦3⟧ = ⟦4⟧$.
+@mptjdpftfn  ; 0=b
+Find the arc length of $y = \frac{2}{3}x^{3/2}$ from $x = 0$ to $x = ⟦0⟧$.
+@z00id81ez  ; 0=b | 1=b | 2=m ** 3 | 3=frT(2 * (m ** 3 - 1), 3)
+$y' = x^{1/2}$, so $L = \int_0^{⟦0⟧} \sqrt{1 + x}\,dx = \left[\frac{2}{3}(1 + x)^{3/2}\right]_0^{⟦1⟧} = \frac{2}{3}(⟦2⟧ - 1) = ⟦3⟧$.
+@lpjavqv13n  ; 0=k | 1=M(d)
+A spring has constant $k = ⟦0⟧$ N/m. How much work is needed to stretch it ⟦1⟧ m from its natural length?
+
+##### series
+@1efhn95iov3  ; 0=Tbl([T`Test`, T`Conclusion`], [[T`Diverg | 1=Ex(T`<p><b>Telescoping:</b> $\displaysty | 2=Tbl([T`Function`, T`Maclaurin series`, T | 3=Tip(T`<p>$a_n \to 0$ is necessary but no
+
+<p>An infinite series $\sum a_n$ <b>converges</b> if its partial sums $S_N = a_1 + \cdots + a_N$ approach a finite limit.</p>
+⟦0⟧
+⟦1⟧
+<h3>Power series and Taylor series</h3>
+<p>A power series $\sum c_n (x - a)^n$ converges for $|x - a| \lt R$, the <b>radius of convergence</b> (find it with the ratio test). The Taylor series of $f$ about $a$ is $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; about 0 it is called a Maclaurin series.</p>
+⟦2⟧
+⟦3⟧
+@1fv7uha3bb4
+Test
+@1boy0ga8tbt
+Conclusion
+@7ih7yeq8ue
+Divergence test
+@1muum9p7rzf
+if $a_n \not\to 0$, the series diverges
+@1ky8r0l0qv8
+$\sum ar^n$ converges iff $|r| \lt 1$; sum $\frac{a}{1 - r}$
+@rijv0gvehd
+p-series
+@7fut7e3zun
+$\sum \frac{1}{n^p}$ converges iff $p \gt 1$
+@28h8cjdskg3
+Comparison
+@23c91vpuxqn
+compare with a known series
+@1684r7a6bgw
+Ratio test
+@oc6lw933sm
+$L = \lim\left|\frac{a_{n+1}}{a_n}\right|$: $L \lt 1$ converges, $L \gt 1$ diverges
+@131362k70as
+Alternating series
+@1ew5e8sa4g7
+$\sum (-1)^n b_n$ converges if $b_n \downarrow 0$
+@12cxen3heke
+<p><b>Telescoping:</b> $\displaystyle\sum_{n=1}^{N}\frac{1}{n(n+1)} = \sum\left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$, which tends to 1.</p>
+@1ql1d0zgkve
+Maclaurin series
+@1arf5rbq565
+Valid for
+@oui4ssl2gv
+all x
+@kvkz0oqeo6
+<p>$a_n \to 0$ is necessary but not sufficient: the harmonic series $\sum \frac{1}{n}$ diverges even though $\frac{1}{n} \to 0$.</p>
+@16u2ienbhtn  ; 0=from1 ? 1 : 0 | 1=a === 1 ? '' : a | 2=frT(p, q)
+Find $\displaystyle\sum_{n=⟦0⟧}^{\infty} ⟦1⟧\left(⟦2⟧\right)^n$.
+@1kgeq4tf48a  ; 0=frT(p, q) | 1=from1 ? frT(a * p, q) : a | 2=from1 ? frT(a * p, q) : a | 3=p < 0 ? `(${frT(p, q)})` : frT(p, q) | 4=from1 ? frT(a * p, q - p) : frT(a * q, q
+Geometric with $r = ⟦0⟧$, $|r| \lt 1$, first term $⟦1⟧$: sum $= \frac{⟦2⟧}{1 - ⟦3⟧} = ⟦4⟧$.
+@1eiae773y4x
+a p-series with $p = \frac{1}{2} \le 1$
+@1wok8okhtk9
+the harmonic series ($p = 1$)
+@22u9pb285sv
+a p-series with $p = \frac{3}{2} \gt 1$
+@204d6a8dcww
+a p-series with $p = 2 \gt 1$
+@243y5j9lor6
+the divergence test: $\frac{n}{n+1} \to 1 \ne 0$
+@ajpp0zqaap
+the alternating series test
+@wlawq7ztg6
+the ratio test: $\frac{3}{n+1} \to 0 \lt 1$
+@265645ebmpe
+the ratio test: $\frac{n+1}{2} \to \infty$
+@1lt7pp2ijz
+a geometric series with $|r| = \frac{2}{3} \lt 1$
+@6goqsof3sp
+a geometric series with $|r| = \frac{3}{2} \ge 1$
+@1d4bvtuk3gt
+comparison with $\sum\frac{1}{n^2}$
+@2846ssfmjxq
+limit comparison with the harmonic series
+@s3fpv9edn1  ; 0=t
+Does $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$ converge or diverge?
+@1szqlme8ixw
+Converges
+@1mr32mwk08w
+Diverges
+@25wy0z8lea1  ; 0=why
+It converges by ⟦0⟧.
+@zibgubfq  ; 0=why
+It diverges by ⟦0⟧.
+@d893gqg85h  ; 0=n | 1=eX(k)
+Find the coefficient of $x^{⟦0⟧}$ in the Maclaurin series of $⟦1⟧$.
+@2gib9c2xh5i  ; 0=xt(k) | 1=k | 2=n | 3=n | 4=frT(k ** n, fact(n))
+$e^u = \sum \frac{u^n}{n!}$ with $u = ⟦0⟧$: the coefficient is $\frac{(⟦1⟧)^{⟦2⟧}}{⟦3⟧!} = ⟦4⟧$.
+@1i7l7fodjgy  ; 0=n | 1=kk === 1 ? '' : kk
+Find the coefficient of $x^{⟦0⟧}$ in the Maclaurin series of $\cos(⟦1⟧x)$.
+@27l5wjsmcqy  ; 0=kk | 1=frT((-1) ** (n / 2) * kk ** n, fact(n))
+$\cos u = 1 - \frac{u^2}{2!} + \frac{u^4}{4!} - \cdots$ with $u = ⟦0⟧x$: coefficient $= ⟦1⟧$.
+@13hswzoz6ds  ; 0=n | 1=sg(-k)
+Find the coefficient of $x^{⟦0⟧}$ in the Maclaurin series of $\dfrac{1}{1 ⟦1⟧x}$.
+@950amaqi7k  ; 0=xt(k) | 1=n | 2=k | 3=n | 4=k ** n
+$\frac{1}{1 - u} = \sum u^n$ with $u = ⟦0⟧$: the coefficient of $x^{⟦1⟧}$ is $(⟦2⟧)^{⟦3⟧} = ⟦4⟧$.
+@12ohsobdns  ; 0=term
+Find the radius of convergence of $\displaystyle\sum_{n=1}^{\infty} ⟦0⟧$.
+@y2p3mhwix3  ; 0=form === 2 ? 'x - 1' : 'x' | 1=k | 2=form === 2 ? 'x - 1' : 'x' | 3=k | 4=k
+Ratio test: $\left|\frac{a_{n+1}}{a_n}\right| \to \frac{|⟦0⟧|}{⟦1⟧}$. This is less than 1 when $|⟦2⟧| \lt ⟦3⟧$, so $R = ⟦4⟧$.
+@1hfprth485h
+Find $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n(n+1)}$.
+@24anbau0yh
+Telescoping: $S_N = 1 - \frac{1}{N+1} \to 1$.
+@kcknro2xmq  ; 0=N
+Find $\displaystyle\sum_{n=1}^{⟦0⟧} \frac{1}{n(n+1)}$.
+@d2ku2hqqe6  ; 0=N + 1 | 1=N | 2=N + 1
+$\frac{1}{n(n+1)} = \frac{1}{n} - \frac{1}{n+1}$, so the sum telescopes to $1 - \frac{1}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$.
+@2d09rr0z1dx  ; 0=ser
+Which function has the Maclaurin series $\displaystyle ⟦0⟧$?
+@262p4pwoflz  ; 0=fn
+This is the standard series for $⟦0⟧$.
+
+##### multivariable
+@elrzs4craq  ; 0=Key(T`$$\nabla f = \left(f_x, f_y\right) | 1=Ex(T`<p>Maximise $f = xy$ subject to $x  | 2=Tip(T`<p>In polar coordinates, don't for
+
+<p>For $f(x, y)$, the <b>partial derivative</b> $f_x = \frac{\partial f}{\partial x}$ differentiates with respect to $x$ while treating $y$ as a constant (and vice versa for $f_y$). For $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradient and directional derivatives</h3>
+⟦0⟧
+<h3>Critical points: second derivative test</h3>
+<p>At a point where $f_x = f_y = 0$, let $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$: local minimum. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: local maximum.</li><li>$D \lt 0$: saddle point. &nbsp; $D = 0$: the test is inconclusive.</li></ul>
+<h3>Double integrals</h3>
+<p>Over a rectangle, integrate one variable at a time (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. In polar coordinates, $dA = r\,dr\,d\theta$.</p>
+<h3>Lagrange multipliers</h3>
+<p>To optimise $f$ subject to $g = c$, solve $\nabla f = \lambda\nabla g$ together with the constraint.</p>
+⟦1⟧
+⟦2⟧
+@1lpi0dcmqpt
+$$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ points in the direction of steepest increase; its length is that maximum rate.</p>
+@opu0v1dwpl
+<p>Maximise $f = xy$ subject to $x + y = 10$: $(y, x) = \lambda(1, 1)$ gives $x = y = 5$, so the maximum is 25.</p>
+@83uqphqp8x
+<p>In polar coordinates, don't forget the extra factor $r$ in $dA = r\,dr\,d\theta$.</p>
+@oxpugv5o3o  ; 0=f | 1=fX ? 'x' : 'y' | 2=p | 3=q
+For $f(x, y) = ⟦0⟧$, find $f_⟦1⟧(⟦2⟧, ⟦3⟧)$.
+@131ofsfpabh  ; 0=terms([[2 * a, 'xy'], [b, 'y^2']]) | 1=p | 2=q | 3=v
+$f_x = ⟦0⟧$, so $f_x(⟦1⟧, ⟦2⟧) = ⟦3⟧$.
+@tma98sxgbh  ; 0=terms([[a, 'x^2'], [2 * b, 'xy'], [3 * c | 1=p | 2=q | 3=v
+$f_y = ⟦0⟧$, so $f_y(⟦1⟧, ⟦2⟧) = ⟦3⟧$.
+@1894fvoucsb  ; 0=p | 1=q | 2=terms([[a, 'x^2'], [b, 'xy'], [c, 'y^2']
+Find $\nabla f(⟦0⟧, ⟦1⟧)$ for $f(x, y) = ⟦2⟧$.
+@1mtqnuj8e72
+Type the two components separated by a comma.
+@1wlrv45vn5z  ; 0=terms([[2 * a, 'x'], [b, 'y']]) | 1=terms([[b, 'x'], [2 * c, 'y']]) | 2=pt(p, q) | 3=pt(...g)
+$f_x = ⟦0⟧$, $f_y = ⟦1⟧$. At $⟦2⟧$: $\nabla f = ⟦3⟧$.
+@280l4hqbl71  ; 0=terms([[a, 'x^2'], [b, 'y^2']]) | 1=pt(p, q) | 2=colv(u)
+Find the directional derivative of $f(x, y) = ⟦0⟧$ at $⟦1⟧$ in the direction of $⟦2⟧$.
+@23ij1mnh3qx  ; 0=2 * a * p | 1=2 * b * q | 2=h | 3=colv(u) | 4=2 * a * p | 5=u[0] | 6=pn(2 * b * q) | 7=u[1] | 8=h | 9=frT(num, h)
+$\nabla f = (⟦0⟧, ⟦1⟧)$ and the unit vector is $\frac{1}{⟦2⟧}⟦3⟧$. $D_{\mathbf{u}}f = \frac{⟦4⟧(⟦5⟧) + ⟦6⟧(⟦7⟧)}{⟦8⟧} = ⟦9⟧$.
+@1gbu12sd7yr
+Local minimum
+@tfsmpd4xkw
+Local maximum
+@29jq1piqelp
+Saddle point
+@1knzmyv1q46
+Test is inconclusive
+@uai27zrool  ; 0=terms([[a, 'x^2'], [b, 'xy'], [c, 'y^2']
+Classify the critical point at $(0, 0)$ of $f(x, y) = ⟦0⟧$.
+@k6dc7gm5pm  ; 0=a > 0 ? '\\gt' : '\\lt'
+$D \gt 0$ and $f_{xx} ⟦0⟧ 0$
+@scf747plq6  ; 0=a | 1=b
+Evaluate $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} xy\,dy\,dx$.
+@scioeo7pw6  ; 0=b | 1=b * b | 2=a | 3=b * b | 4=b * b | 5=a * a | 6=frT(a * a * b * b, 4)
+$\int_0^{⟦0⟧} xy\,dy = \frac{⟦1⟧x}{2}$, then $\int_0^{⟦2⟧} \frac{⟦3⟧x}{2}\,dx = \frac{⟦4⟧ \cdot ⟦5⟧}{4} = ⟦6⟧$.
+@ktiyfy2vps  ; 0=a | 1=b
+Evaluate $\displaystyle\int_0^{⟦0⟧}\!\!\int_0^{⟦1⟧} (x + y)\,dy\,dx$.
+@lgh3731wbd  ; 0=b | 1=b | 2=b * b | 3=a | 4=b | 5=b * b | 6=b | 7=a | 8=b * b | 9=a | 10=frT(a * a * b + a * b * b, 2)
+$\int_0^{⟦0⟧} (x + y)\,dy = ⟦1⟧x + \frac{⟦2⟧}{2}$, then $\int_0^{⟦3⟧} \left(⟦4⟧x + \frac{⟦5⟧}{2}\right)dx = \frac{⟦6⟧(⟦7⟧)^2}{2} + \frac{⟦8⟧(⟦9⟧)}{2} = ⟦10⟧$.
+@1oi548attkh  ; 0=k === 1 ? '+' : `+ ${k}` | 1=s
+Using Lagrange multipliers (or otherwise), find the maximum of $f = xy$ subject to $x ⟦0⟧y = ⟦1⟧$ with $x, y \gt 0$.
+@helueus42k  ; 0=k | 1=k | 2=2 * k | 3=s | 4=frT(s, 2 * k) | 5=frT(s, 2) | 6=frT(s * s, 4 * k)
+$\nabla f = \lambda\nabla g$: $y = \lambda$, $x = ⟦0⟧\lambda$. So $x = ⟦1⟧y$ and $⟦2⟧y = ⟦3⟧$, giving $y = ⟦4⟧$, $x = ⟦5⟧$, and $xy = ⟦6⟧$.
+@1c5ngt35a15  ; 0=R * R
+Evaluate $\displaystyle\iint_D (x^2 + y^2)\,dA$, where $D$ is the disc $x^2 + y^2 \le ⟦0⟧$.
+@hl1el1t8oy  ; 0=R | 1=R | 2=piT(R ** 4, 2)
+Polar coordinates: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.
+
+##### ode
+@29y4y4v6xas  ; 0=Ex(T`<p>$\frac{dy}{dx} = 2xy$: separate, | 1=Key(T`<p>For $y' + P(x)y = Q(x)$, multip | 2=Tbl([T`Roots`, T`General solution`], [[T | 3=Ex(T`<p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $ | 4=Tip(T`<p>For a repeated root, $C_1e^{rx}
+
+<p>A <b>differential equation</b> relates a function to its derivatives. Its <b>order</b> is the highest derivative that appears. A <b>general solution</b> contains arbitrary constants; initial conditions pick out a particular solution.</p>
+<h3>Separable equations</h3>
+⟦0⟧
+<p>Special case: $\frac{dy}{dt} = ky$ gives $y = y_0e^{kt}$ — exponential growth ($k \gt 0$) or decay ($k \lt 0$). With half-life $T$, the amount left is $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>First-order linear equations</h3>
+⟦1⟧
+<h3>Second-order linear, constant coefficients</h3>
+<p>For $ay'' + by' + cy = 0$, try $y = e^{rx}$ to get the <b>characteristic equation</b> $ar^2 + br + c = 0$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@cqow3q58nr
+<p>$\frac{dy}{dx} = 2xy$: separate, $\int\frac{dy}{y} = \int 2x\,dx$, so $\ln|y| = x^2 + C$ and $y = Ae^{x^2}$.</p>
+@24caer7vpv9
+<p>For $y' + P(x)y = Q(x)$, multiply by the <b>integrating factor</b> $\mu(x) = e^{\int P(x)\,dx}$. Then $(\mu y)' = \mu Q$, so $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>
+@2fhw42v6h9r
+Roots
+@mdry0kk339
+General solution
+@1l55nwfgsi9
+real, distinct $r_1, r_2$
+@fkai3ftnyj
+repeated $r$
+@3w3x9xlope
+complex $\alpha \pm \beta i$
+@68uvb89pvs
+<p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $r = \pm 2i$, so $y = C_1\cos 2x + C_2\sin 2x$ — simple harmonic motion.</p>
+@vgovr9zohx
+<p>For a repeated root, $C_1e^{rx} + C_2e^{rx}$ is really only one solution; the extra factor $x$ gives the second.</p>
+@234p7duj3ts  ; 0=sg(-(r1 + r2)) | 1=sg(r1 * r2) | 2=r1 | 3=r2
+$r^2 ⟦0⟧r ⟦1⟧ = 0$ has roots $r = ⟦2⟧$ and $r = ⟦3⟧$
+@1hssho6k9w6  ; 0=sg(-2 * r) | 1=r * r | 2=sg(-r) | 3=r
+$r^2 ⟦0⟧r + ⟦1⟧ = (r ⟦2⟧)^2 = 0$ has the repeated root $r = ⟦3⟧$
+@2chd8d4gjpq  ; 0=sg(-2 * al) | 1=al * al + be * be | 2=al | 3=be === 1 ? '' : be
+$r^2 ⟦0⟧r + ⟦1⟧ = 0$ has complex roots $r = ⟦2⟧ \pm ⟦3⟧i$
+@1ngxukqkkvf  ; 0=eq
+Find the general solution of $⟦0⟧$.
+@irmvhn9wve  ; 0=why | 1=ans
+The characteristic equation ⟦0⟧, so ⟦1⟧.
+@5e0s1xl4f9  ; 0=N0 | 1=h | 2=t
+A radioactive sample of ⟦0⟧ g has a half-life of ⟦1⟧ years. How much remains after ⟦2⟧ years?
+@2eo258s1sy7  ; 0=t | 1=k | 2=N0 | 3=k | 4=M(N0 / 2 ** k)
+$⟦0⟧$ years is ⟦1⟧ half-lives: $⟦2⟧\left(\frac{1}{2}\right)^{⟦3⟧} = ⟦4⟧$ g.
+@1btlmc6ms72  ; 0=terms([[a, xP(n)]])
+Solve the separable equation $\dfrac{dy}{dx} = ⟦0⟧\,y$.
+@lgqvn6fqu1  ; 0=terms([[a, xP(n)]]) | 1=expo | 2=expo
+$\int\frac{dy}{y} = \int ⟦0⟧\,dx$ gives $\ln|y| = ⟦1⟧ + C_0$, so $y = Ce^{⟦2⟧}$.
+@1wp1r4xsb5y  ; 0=P
+What is the integrating factor for $y' + ⟦0⟧\,y = x^2$?
+@1d5o356dbul  ; 0=Ts | 1=T0 - Ts | 2=M(k) | 3=t
+Newton's law of cooling gives $T(t) = ⟦0⟧ + ⟦1⟧e^{-⟦2⟧t}$ (°C, $t$ in minutes). Find the temperature after ⟦3⟧ minutes, to 1 decimal place.
+@uzon2x7fe4
+\frac{dy}{dx} = x^2y
+@8swe0ei2mu
+\frac{d^2y}{dx^2} + y = 0
+@28kd92q06yf
+\frac{d^3y}{dx^3} - 2\frac{dy}{dx} = 0
+@1jgz4mikafn  ; 0=pick(eqs[n])
+What is the order of the differential equation $⟦0⟧$?
+@rxb07imi4n  ; 0=n
+The order is the highest derivative that appears: here it is ⟦0⟧.
+
+##### linear-algebra
+@aoku0sfspm  ; 0=Key(T`<p><b>Rank–nullity:</b> for an $m  | 1=Fm(T`\det\begin{pmatrix} a & b & c \\ d  | 2=Key(T`$$A\mathbf{v} = \lambda\mathbf{v}, | 3=Ex(T`<p>$A = \begin{pmatrix} 4 & 1 \\ 2  | 4=Tip(T`<p>$\det(2A) = 2^n\det A$, not $2\
+
+<h3>Linear systems and rank</h3>
+<p>A system $A\mathbf{x} = \mathbf{b}$ is solved by row-reducing the augmented matrix $[A \mid \mathbf{b}]$ to echelon form. The <b>rank</b> of $A$ is the number of pivots (non-zero rows in echelon form).</p>
+⟦0⟧
+<h3>Determinants</h3>
+⟦1⟧
+<p>Useful properties for $n \times n$ matrices: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Cramer's rule: $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Eigenvalues and eigenvectors</h3>
+⟦2⟧
+⟦3⟧
+<p>If $A$ has $n$ independent eigenvectors, it is <b>diagonalisable</b>: $A = PDP^{-1}$, with eigenvectors as the columns of $P$ and eigenvalues on the diagonal of $D$.</p>
+⟦4⟧
+@q9p1mxjp5t
+<p><b>Rank–nullity:</b> for an $m \times n$ matrix, $\text{rank}(A) + \text{nullity}(A) = n$. A square $A$ is invertible $\iff \det A \ne 0 \iff$ its columns are linearly independent $\iff \text{rank} = n$.</p>
+@12oak6poq42
+\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)
+@zx600ry55i
+$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>For a $2 \times 2$ matrix: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. The eigenvalues sum to the trace and multiply to the determinant.</p>
+@1khrdp55fj
+<p>$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$: $\lambda^2 - 7\lambda + 10 = 0$, so $\lambda = 2, 5$. For $\lambda = 5$: $(A - 5I)\mathbf{v} = 0$ gives $\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.</p>
+@21awxvuldiu
+<p>$\det(2A) = 2^n\det A$, not $2\det A$ — every one of the $n$ rows is scaled.</p>
+@19a9vb1rr2m  ; 0=m[0][0] | 1=m[1][1] * m[2][2] - m[1][2] * m[2][1] | 2=pn(m[0][1]) | 3=m[1][0] * m[2][2] - m[1][2] * m[2][0] | 4=pn(m[0][2]) | 5=m[1][0] * m[2][1] - m[1][1] * m[2][0] | 6=d
+Expand along the first row: $⟦0⟧(⟦1⟧) - ⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$.
+@1j2onaty0gh  ; 0=mat([[a, b], [c, d]])
+Find the eigenvalues of $⟦0⟧$.
+@ynzibmbl86
+Type both eigenvalues separated by a comma.
+@23zxsoa3fr0  ; 0=sg(-s) | 1=sg(p) | 2=lo | 3=hi | 4=s | 5=p
+$\lambda^2 - (\text{tr})\lambda + \det = \lambda^2 ⟦0⟧\lambda ⟦1⟧ = 0$, so $\lambda = ⟦2⟧$ or $\lambda = ⟦3⟧$. (Check: they sum to the trace ⟦4⟧ and multiply to the determinant ⟦5⟧.)
+@2etvam6ts6i  ; 0=mat(m)
+Find the nullity of $⟦0⟧$.
+@21ne48l6zig  ; 0=mat(m)
+Find the rank of $⟦0⟧$.
+@guqg5s6tj7
+$\det \ne 0$, so all three rows are independent: rank 3.
+@1q1ko1sbkfa
+One row is a combination of the other two, and those two are independent: rank 2.
+@2bdvxka58sc
+Every row is a multiple of the same row: rank 1.
+@1pbgto6ecv4  ; 0=r | 1=3 - r
+ By rank–nullity, nullity $= 3 - ⟦0⟧ = ⟦1⟧$.
+@167s06hkdpt  ; 0=n | 1=n | 2=k
+$A$ is a $⟦0⟧ \times ⟦1⟧$ matrix with $\det A = ⟦2⟧$. Find $\det(A^{-1})$.
+@124zlt4oeit  ; 0=n | 1=n | 2=k | 3=Q[0]
+$A$ is a $⟦0⟧ \times ⟦1⟧$ matrix with $\det A = ⟦2⟧$. Find $⟦3⟧$.
+@vtdcjwqxja  ; 0=n | 1=c | 2=c | 3=n | 4=pn(k) | 5=Q[1]
+Each of the ⟦0⟧ rows is multiplied by ⟦1⟧: $⟦2⟧^{⟦3⟧} \times ⟦4⟧ = ⟦5⟧$.
+@d4v2fg20q4  ; 0=k
+Transposing doesn't change the determinant: ⟦0⟧.
+@26v5gcnmls7  ; 0=v[ask] | 1=A.map((r, i) => `${terms(r.map((c, j) =>
+Solve the system and give $⟦0⟧$: $$\begin{cases} ⟦1⟧ \end{cases}$$
+@36y25q4ph4  ; 0=det3(A) | 1=pt(...sol) | 2=v[ask] | 3=sol[ask]
+By elimination (or Cramer's rule, since $\det A = ⟦0⟧ \ne 0$), $(x, y, z) = ⟦1⟧$, so $⟦2⟧ = ⟦3⟧$.
+@1w651quute8  ; 0=cols.map(c => colv(c)).join(',\\;')
+Are the vectors $⟦0⟧$ linearly independent?
+@1nhr23w337j
+Linearly independent
+@1ykattdq3py
+Linearly dependent
+@71c2j2dn5w  ; 0=det3(m) | 1=indep ? T`It is non-zero, so they are in
+Put them as the columns of a matrix: its determinant is ⟦0⟧. ⟦1⟧
+@d8cecy9nad
+It is non-zero, so they are independent.
+@nwja1imq1g
+It is zero, so they are dependent (one is a combination of the others).
+@109v3qsafjj  ; 0=colv(v) | 1=mat([[a, b], [c, d]])
+$\mathbf{v} = ⟦0⟧$ is an eigenvector of $A = ⟦1⟧$. What is its eigenvalue?
+@spg1kefpa7  ; 0=colv([a * v[0] + b * v[1], c * v[0] + d  | 1=l1 | 2=colv(v) | 3=l1
+$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, so $\lambda = ⟦3⟧$.
+
+##### complex
+@n87wkmbfmz  ; 0=Tbl([T`Operation`, T`Rule`], [[T`Multipl | 1=Ex(T`<p>$\dfrac{5 + 5i}{2 - i} = \dfrac{ | 2=Key(T`$$z = r(\cos\theta + i\sin\theta)  | 3=Ex(T`<p>$1 + i = \sqrt{2}e^{i\pi/4}$, so | 4=Tip(T`<p>The argument of $-1 - i$ is $-\
+
+<p>The imaginary unit satisfies $i^2 = -1$. A complex number is $z = a + bi$ with real part $\text{Re}(z) = a$ and imaginary part $\text{Im}(z) = b$. Powers of $i$ repeat every four: $i, -1, -i, 1, \ldots$</p>
+⟦0⟧
+⟦1⟧
+<h3>Polar form and Euler's formula</h3>
+⟦2⟧
+⟦3⟧
+<p>The $n$th roots of unity are $e^{2\pi ik/n}$ for $k = 0, 1, \ldots, n - 1$: equally spaced points on the unit circle.</p>
+⟦4⟧
+@rz9c61mn5
+Multiply
+@1lvuh3a6n9s
+Conjugate
+@73hhnvn9cf
+$\bar{z} = a - bi$, and $z\bar{z} = a^2 + b^2$
+@8ju8zqboy3
+Divide
+@23m7410nhvb
+multiply top and bottom by the conjugate of the bottom
+@2at5jue99d3
+Modulus
+@26m66idec7i
+Argument
+@18sul084cs9
+$\arg z = \theta$ with $\tan\theta = \frac{b}{a}$ (mind the quadrant)
+@cavhj9pbbb
+$$z = r(\cos\theta + i\sin\theta) = re^{i\theta} \qquad\qquad z^n = r^n e^{in\theta} \;\;\text{(De Moivre)}$$
+@16lvmowwhri
+<p>$1 + i = \sqrt{2}e^{i\pi/4}$, so $(1 + i)^8 = (\sqrt{2})^8 e^{2\pi i} = 16$.</p>
+@256fv20o5wc
+<p>The argument of $-1 - i$ is $-\frac{3\pi}{4}$, not $\frac{\pi}{4}$: $\arctan\frac{b}{a}$ alone can't tell the third quadrant from the first.</p>
+@10omtzlugr6  ; 0=cxT(a, b) | 1=cxT(c, d)
+Simplify $(⟦0⟧)(⟦1⟧)$.
+@hty9ty1x7v
+Type the answer in the form a+bi.
+@1zsla5l2vrq  ; 0=M(a) | 1=M(c) | 2=M(a) | 3=M(d) | 4=M(b) | 5=M(c) | 6=M(b) | 7=M(d) | 8=cxT(a * c - b * d, a * d + b * c)
+$(⟦0⟧)(⟦1⟧) + (⟦2⟧)(⟦3⟧)i + (⟦4⟧)(⟦5⟧)i + (⟦6⟧)(⟦7⟧)i^2 = ⟦8⟧$, using $i^2 = -1$.
+@1z0a8n17xaw  ; 0=cxT(a, b)
+Find $|⟦0⟧|$.
+@7g8mi40aa1  ; 0=cxT(n1, n2) | 1=cxT(c, d)
+Simplify $\dfrac{⟦0⟧}{⟦1⟧}$.
+@1lmk9l2nr3e  ; 0=cxT(c, -d) | 1=c * c + d * d | 2=cxT(p * (c * c + d * d), q * (c * c + d  | 3=cxT(p, q)
+Multiply top and bottom by $⟦0⟧$. The denominator becomes $⟦1⟧$ and the numerator $⟦2⟧$, so the result is $⟦3⟧$.
+@28axbqdj3sw  ; 0=n
+Simplify $i^{⟦0⟧}$.
+@q7margvq3g  ; 0=n | 1=Math.floor(n / 4) | 2=r | 3=n | 4=r | 5=vals[r]
+Powers of $i$ repeat every 4. $⟦0⟧ = 4 \times ⟦1⟧ + ⟦2⟧$, so $i^{⟦3⟧} = i^{⟦4⟧} = ⟦5⟧$.
+@1pjjj2x31s7  ; 0=z
+Find the principal argument $\arg z \in (-\pi, \pi]$ of $z = ⟦0⟧$.
+@2fusqwp7x7b  ; 0=z | 1=piT(n, d) | 2=piT(n, d)
+$z = ⟦0⟧$ lies at angle $⟦1⟧$ from the positive real axis (check its quadrant), so $\arg z = ⟦2⟧$.
+@75mna4515k  ; 0=z
+Write $z = ⟦0⟧$ in exponential form $re^{i\theta}$.
+@bg7vixv5uf  ; 0=r | 1=piT(n, d) | 2=r | 3=piT(n, d)
+$r = |z| = ⟦0⟧$ and $\theta = \arg z = ⟦1⟧$, so $z = ⟦2⟧e^{i ⟦3⟧}$.
+@15suw4uuv8i  ; 0=cxT(...base) | 1=n
+Use De Moivre's theorem to compute $(⟦0⟧)^{⟦1⟧}$.
+@2e4kqt1xydt  ; 0=cxT(...base) | 1=piT(base[0] > 0 ? (base[1] > 0 ? 1 : -1) | 2=n | 3=n | 4=2 ** (n / 2) | 5=n | 6=cxT(...z)
+$⟦0⟧ = \sqrt{2}\,e^{i\theta}$ with $\theta = ⟦1⟧$. Then $(\sqrt{2})^{⟦2⟧}e^{i⟦3⟧\theta} = ⟦4⟧e^{i⟦5⟧\theta} = ⟦6⟧$.
+@1xd7417ut46  ; 0=cxT(a, b) | 1=re ? 'Re' : 'Im'
+Let $z = ⟦0⟧$. Find $\text{⟦1⟧}(z^2)$.
+
+##### distributions
+@28d8604hmp9  ; 0=Fm(T`E[X] = \sum x\,p(x) \qquad \text{Va | 1=Tbl([T`Distribution`, T`P(X = k) or dens | 2=Key(T`<p>Standardise with $Z = \dfrac{X  | 3=Ex(T`<p>Heights $X \sim N(170, 8^2)$. A  | 4=Tip(T`<p>Binomial needs a fixed number o
+
+<p>A <b>random variable</b> $X$ assigns numbers to outcomes. For a discrete $X$ with probabilities $p(x)$:</p>
+⟦0⟧
+⟦1⟧
+<h3>The normal distribution</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@gk52muplh1
+E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)
+@115owsb7jcv
+Distribution
+@z5bw2hz29r
+P(X = k) or density
+@1runl3m75u8
+Variance
+@1xs6so1xns8
+Binomial $B(n, p)$
+@1rwt3dxzew1
+Poisson$(\lambda)$
+@n8vzzqt60t
+Uniform on $[a, b]$
+@2cdr2b2t24p
+Exponential$(\lambda)$
+@l349ss11hc
+Normal $N(\mu, \sigma^2)$
+@26wsuf9ho5r
+bell curve
+@1bw0zjk7wg1
+<p>Standardise with $Z = \dfrac{X - \mu}{\sigma}$, then use standard normal tables. The <b>68–95–99.7 rule</b>: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations of the mean.</p>
+@1mn62kz3dqi
+<p>Heights $X \sim N(170, 8^2)$. A height of 186 cm has $z = \frac{186 - 170}{8} = 2$, so only about 2.5% of people are taller.</p>
+@20odz9yh9el
+<p>Binomial needs a fixed number of independent trials with the same success probability. Poisson counts events in an interval at a constant average rate.</p>
+@hehw668sc4  ; 0=qTable([['$x$', ...xs], ['$P(X = x)$', .
+Find $E[X]$ for this distribution.⟦0⟧
+@ggtradb99r  ; 0=n | 1=k
+A fair coin is tossed ⟦0⟧ times. What is the probability of exactly ⟦1⟧ heads?
+@1gonhfsfe0e  ; 0=n | 1=k
+$X \sim B\!\left(⟦0⟧, \frac{1}{3}\right)$. Find $P(X = ⟦1⟧)$.
+@2e8zcm46v5k  ; 0=n | 1=M(p)
+$X \sim B(⟦0⟧, ⟦1⟧)$. Find $\text{Var}(X)$.
+@1sv4co448ex  ; 0=n | 1=M(p) | 2=M(rnd(1 - p, 2)) | 3=M(rnd(n * p * (1 - p), 4))
+$\text{Var}(X) = np(1 - p) = ⟦0⟧(⟦1⟧)(⟦2⟧) = ⟦3⟧$.
+@qmg93npnbt  ; 0=n | 1=M(p)
+$X \sim B(⟦0⟧, ⟦1⟧)$. Find $E[X]$.
+@283j9ftzcid  ; 0=mu | 1=sd | 2=M(x)
+$X \sim N(⟦0⟧, ⟦1⟧^2)$. Find the $z$-score of $x = ⟦2⟧$.
+@1kbz6k640p5  ; 0=lam | 1=k
+$X \sim \text{Poisson}(⟦0⟧)$. Find $P(X = ⟦1⟧)$ to 4 decimal places.
+@2el5p15nmmp  ; 0=mu - sd | 1=mu + sd
+between ⟦0⟧ and ⟦1⟧
+@lwhiv9yady  ; 0=mu + sd
+above ⟦0⟧
+@x696ofvj9v  ; 0=mu - sd
+below ⟦0⟧
+@1cdk3p0w1a9  ; 0=mu | 1=sd | 2=D[0]
+Test scores are normally distributed with mean ⟦0⟧ and standard deviation ⟦1⟧. Using the 68–95–99.7 rule, approximately what percentage of scores are ⟦2⟧?
+@2ciqs8smgdj  ; 0=D[1]
+Convert to standard deviations from the mean and use 68% within 1σ, 95% within 2σ, 99.7% within 3σ (the tails split what is left equally): <b>⟦0⟧%</b>.
+@1b8kg565owb  ; 0=E | 1=V | 2=lin(a, b, 'X')
+$E[X] = ⟦0⟧$ and $\text{Var}(X) = ⟦1⟧$. Find $\text{Var}(⟦2⟧)$.
+@21eg07xqby  ; 0=a * a | 1=V | 2=a * a * V | 3=b
+$\text{Var}(aX + b) = a^2\,\text{Var}(X) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ — the constant ⟦3⟧ has no effect.
+@ha18xspr5t  ; 0=E | 1=V | 2=lin(a, b, 'X')
+$E[X] = ⟦0⟧$ and $\text{Var}(X) = ⟦1⟧$. Find $E[⟦2⟧]$.
+
+##### inference
+@oph0fjnqfd  ; 0=Fm(T`\bar{x} \pm z^*\frac{\sigma}{\sqrt{ | 1=Tbl(['', T`H₀ true`, T`H₀ false`], [[T`R | 2=Tip(T`<p>"Fail to reject $H_0$" is not t
+
+<p>We use a <b>sample</b> statistic (like $\bar{x}$) to estimate a <b>population</b> parameter (like $\mu$). By the <b>Central Limit Theorem</b>, for large $n$ the sample mean is approximately normal with mean $\mu$ and <b>standard error</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Confidence intervals</h3>
+⟦0⟧
+<p>To achieve a margin of error $E$, you need $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (round up). When $\sigma$ is unknown, use $s$ and the $t$-distribution.</p>
+<h3>Hypothesis tests</h3>
+<ol><li>State $H_0$ (e.g. $\mu = \mu_0$) and $H_1$.</li><li>Compute a test statistic, e.g. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Find the <b>p-value</b>: the probability, assuming $H_0$, of a result at least this extreme.</li><li>If $p \le \alpha$, reject $H_0$; otherwise fail to reject it.</li></ol>
+⟦1⟧
+<h3>Linear regression</h3>
+<p>The least-squares line $\hat{y} = a + bx$ has slope $b = r\frac{s_y}{s_x}$ and passes through $(\bar{x}, \bar{y})$, so $a = \bar{y} - b\bar{x}$.</p>
+⟦2⟧
+@cozbu7bifr
+\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1.645 \;(90\%),\; 1.96 \;(95\%),\; 2.576 \;(99\%)
+@7nca7j57l5
+H₀ true
+@2e0zey7f13x
+H₀ false
+@1nokpmpua28
+Reject H₀
+@qa9cxjojd2
+Type I error (probability α)
+@z1afbgzons
+Correct (power)
+@tc6mfczzyi
+Fail to reject H₀
+@w131ulu49o
+Correct
+@e51gkfcb06
+Type II error (probability β)
+@6idiejz1ba
+<p>"Fail to reject $H_0$" is not the same as "accept $H_0$" — the data just aren't strong enough evidence against it.</p>
+@awqxfz9vdv  ; 0=s | 1=n
+A population has $\sigma = ⟦0⟧$. Find the standard error of the mean for samples of size ⟦1⟧.
+@ugvd79s2wi  ; 0=n | 1=xb | 2=sd | 3=up ? T`upper` : T`lower` | 4=lvl
+A sample of ⟦0⟧ has mean ⟦1⟧; the population standard deviation is ⟦2⟧. Find the ⟦3⟧ limit of the ⟦4⟧% confidence interval for $\mu$, to 2 decimal places.
+@1n36a0strty  ; 0=z | 1=sd | 2=n | 3=M(rnd(E, 4)) | 4=up ? T`Upper limit $= ${xb} + ${M(rnd(E,
+Margin $= ⟦0⟧ \times \frac{⟦1⟧}{\sqrt{⟦2⟧}} = ⟦3⟧$. ⟦4⟧
+@2ekc2g43ffk  ; 0=xb | 1=M(rnd(E, 4)) | 2=M(v)
+Upper limit $= ⟦0⟧ + ⟦1⟧ \approx ⟦2⟧$.
+@u2fj3njiv8  ; 0=xb | 1=M(rnd(E, 4)) | 2=M(v)
+Lower limit $= ⟦0⟧ - ⟦1⟧ \approx ⟦2⟧$.
+@1i53ibdizmj  ; 0=mu0 | 1=sd | 2=n | 3=xb
+Test $H_0: \mu = ⟦0⟧$ with $\sigma = ⟦1⟧$. A sample of ⟦2⟧ has $\bar{x} = ⟦3⟧$. Compute the $z$ test statistic to 2 decimal places.
+@b7sayy3tzp  ; 0=M(pv) | 1=M(alpha * 100)
+A test gives a p-value of ⟦0⟧. At the ⟦1⟧% significance level, what is the decision?
+@1adfzwf3gei
+fail to reject
+@2fh7exkwsd7
+do not reject
+@1ui411puarn  ; 0=M(alpha) | 1=M(pv) | 2=rej ? '\\le' : '\\gt' | 3=M(alpha) | 4=rej ? T`so we <b>reject</b> $H_0$.` : T`
+Compare the p-value with $\alpha = ⟦0⟧$: $⟦1⟧ ⟦2⟧ ⟦3⟧$, ⟦4⟧
+@19asmns888x
+so we <b>reject</b> $H_0$.
+@28e9takeetw
+so we <b>fail to reject</b> $H_0$.
+@3boqwtx8y6  ; 0=M(b) | 1=xb | 2=yb | 3=x0
+The regression line of $y$ on $x$ has slope ⟦0⟧ and passes through $(\bar{x}, \bar{y}) = (⟦1⟧, ⟦2⟧)$. Predict $y$ when $x = ⟦3⟧$.
+@1xlncasuj2t  ; 0=yb | 1=pn(b) | 2=xb | 3=M(a) | 4=M(a) | 5=sg(b) | 6=x0 | 7=M(rnd(a + b * x0, 2))
+Intercept $a = \bar{y} - b\bar{x} = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$. Then $\hat{y} = ⟦4⟧ ⟦5⟧(⟦6⟧) = ⟦7⟧$.
+@1juzrcbx7yp  ; 0=M(b) | 1=xb | 2=yb
+The regression line of $y$ on $x$ has slope ⟦0⟧, with $\bar{x} = ⟦1⟧$ and $\bar{y} = ⟦2⟧$. Find the intercept.
+@ygsgt4zx8s  ; 0=yb | 1=pn(b) | 2=xb | 3=M(a)
+The line passes through $(\bar{x}, \bar{y})$: $a = ⟦0⟧ - ⟦1⟧(⟦2⟧) = ⟦3⟧$.
+@1fjn7fhcpwy
+Rejecting H₀ when H₀ is actually true
+@2czv0lmmxbv
+Type I error
+@1rsaomc3xxj
+Failing to reject H₀ when H₀ is actually false
+@1knmx3avsv8
+Type II error
+@7bbk61slol
+Rejecting H₀ when H₀ is actually false
+@6vojkrxnxd
+Correct decision
+@27k0u0dgkx8
+Failing to reject H₀ when H₀ is actually true
+@j30d9a2wnu
+Convicting an innocent defendant (H₀: innocent)
+@1r9j0p9otdz
+Letting a guilty defendant go free (H₀: innocent)
+@yce1tww5je  ; 0=d
+What kind of outcome is this? <i>⟦0⟧</i>.
+@f5q8ah45y5  ; 0=ans.toLowerCase()
+Type I = rejecting a true $H_0$ (a false alarm); Type II = missing a false $H_0$. So this is: <b>⟦0⟧</b>.
+@17su48d7rp0  ; 0=lvl | 1=E | 2=sd
+What is the smallest sample size giving a ⟦0⟧% confidence interval with margin of error at most ⟦1⟧, if $\sigma = ⟦2⟧$?
+@cysiojo18k  ; 0=z | 1=sd | 2=E | 3=M(rnd(((z * sd) / E) ** 2, 2)) | 4=n
+$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, so round up: $n = ⟦4⟧$.
+
+##### discrete
+@a1ovpdx0vp  ; 0=Key(T`<p><b>Euclidean algorithm:</b> $\g | 1=Ex(T`<p>$\gcd(252, 198)$: $252 = 1 \cdot | 2=Tip(T`<p>In inclusion–exclusion problems
+
+<h3>Number theory</h3>
+<p>$a \equiv b \pmod n$ means $n$ divides $a - b$; $a \bmod n$ is the remainder in $\{0, 1, \ldots, n - 1\}$. Congruences can be added and multiplied, and powers reduced step by step.</p>
+⟦0⟧
+⟦1⟧
+<p>The <b>modular inverse</b> of $a$ mod $n$ is $x$ with $ax \equiv 1 \pmod n$; it exists exactly when $\gcd(a, n) = 1$.</p>
+<h3>Counting</h3>
+<ul><li>Functions from a set of size $m$ to one of size $n$: $n^m$; injective ones: $n(n-1)\cdots(n-m+1)$.</li><li>Inclusion–exclusion: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Pigeonhole:</b> if more than $kn$ objects go into $n$ boxes, some box gets at least $k + 1$.</li></ul>
+<h3>Recurrences and graphs</h3>
+<p>A recurrence defines each term from earlier ones, like $a_n = 2a_{n-1} + 1$, $a_0 = 1$. In a graph, the <b>handshake lemma</b> says $\sum \deg(v) = 2|E|$; $K_n$ has $\binom{n}{2}$ edges; a tree on $n$ vertices has $n - 1$ edges; a connected graph has an Euler circuit iff every degree is even.</p>
+⟦2⟧
+@1vllnifl24g
+<p><b>Euclidean algorithm:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, repeated until the remainder is 0.</p><p><b>Fermat's little theorem:</b> if $p$ is prime and $p \nmid a$, then $a^{p-1} \equiv 1 \pmod p$.</p>
+@28pp2kgl31t
+<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. So the gcd is 18.</p><p>$2^{100} \bmod 7$: since $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>
+@23tw4c5wfxh
+<p>In inclusion–exclusion problems ("divisible by 3 or 5"), the overlap is divisibility by the <b>lcm</b>, 15.</p>
+@8fw6na2xe1  ; 0=M(a) | 1=n
+Find $⟦0⟧ \bmod ⟦1⟧$.
+@uplm3u8bhu  ; 0=M(a) | 1=n | 2=Math.floor(a / n) | 3=a % n | 4=a % n
+$⟦0⟧ = ⟦1⟧ \times ⟦2⟧ + ⟦3⟧$, so the remainder is ⟦4⟧.
+@xlpbyjzaqw  ; 0=b | 1=e | 2=m
+Find $⟦0⟧^{⟦1⟧} \bmod ⟦2⟧$.
+@1kd2o5jees6  ; 0=b | 1=m - 1 | 2=m | 3=e | 4=m - 1 | 5=Math.floor(e / (m - 1)) | 6=e % (m - 1) | 7=b | 8=e | 9=b | 10=e % (m - 1) | 11=r | 12=m
+By Fermat, $⟦0⟧^{⟦1⟧} \equiv 1 \pmod{⟦2⟧}$. $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ + ⟦6⟧$, so $⟦7⟧^{⟦8⟧} \equiv ⟦9⟧^{⟦10⟧} \equiv ⟦11⟧ \pmod{⟦12⟧}$.
+@127b4pzxtz  ; 0=a | 1=b
+Use the Euclidean algorithm to find $\gcd(⟦0⟧, ⟦1⟧)$.
+@1aqkhdrg8qc  ; 0=steps.join(T`,\; `) | 1=g
+$⟦0⟧$. The last non-zero remainder is <b>⟦1⟧</b>.
+@1s721amox67  ; 0=a | 1=p | 2=a | 3=p | 4=p
+Find the inverse of ⟦0⟧ modulo ⟦1⟧, i.e. $x$ with $⟦2⟧x \equiv 1 \pmod{⟦3⟧}$ and $0 \lt x \lt ⟦4⟧$.
+@1w7xn0v2je4  ; 0=a | 1=inv | 2=a * inv | 3=Math.floor((a * inv) / p) | 4=p | 5=inv
+Check: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧ = ⟦3⟧ \times ⟦4⟧ + 1$, so $x = ⟦5⟧$.
+@x5llfo779v  ; 0=n
+How many edges does the complete graph $K_{⟦0⟧}$ have?
+@1k9fldmleaq  ; 0=n | 1=n | 2=n - 1 | 3=(n * (n - 1)) / 2
+Every pair of vertices is joined: $\binom{⟦0⟧}{2} = \frac{⟦1⟧ \times ⟦2⟧}{2} = ⟦3⟧$.
+@1gbx4896k6y  ; 0=n
+A tree has ⟦0⟧ vertices. How many edges does it have?
+@g3rd0a2w3f  ; 0=n - 1
+Every tree on $n$ vertices has $n - 1 = ⟦0⟧$ edges.
+@1b7sza9kgx9  ; 0=deg.join(LS())
+A graph has vertices with degrees ⟦0⟧. How many edges does it have?
+@2eddhu7y6e4  ; 0=sum(deg) | 1=sum(deg) / 2
+Handshake lemma: $\sum\deg = ⟦0⟧ = 2|E|$, so $|E| = ⟦1⟧$.
+@6xjrxhddis  ; 0=deg.join(LS())
+A connected graph has vertices with degrees ⟦0⟧. How many vertices have odd degree?
+@5vsb2c69v5  ; 0=deg.filter(d => d % 2).join(LS()) || T`n | 1=odd | 2=odd === 0 ? T`The graph therefore has an
+The odd degrees are ⟦0⟧, so there are ⟦1⟧. ⟦2⟧ (The number of odd-degree vertices is always even.)
+@2gbggujxcvs
+none
+@105xal8etax
+The graph therefore has an Euler circuit.
+@1z20e1aao3p
+The graph therefore has an Euler path but no Euler circuit.
+@1vy383kqrz8
+With more than 2 odd vertices, there is no Euler path.
+@by57uvpuwf  ; 0=s0 | 1=r === -1 ? '-' : r | 2=sg(c) | 3=n
+$a_0 = ⟦0⟧$ and $a_n = ⟦1⟧a_{n-1} ⟦2⟧$ for $n \ge 1$. Find $a_{⟦3⟧}$.
+@75ssmud3lg  ; 0=seq.map((v, i) => `$a_{${i}} = ${v}$`).j
+Compute term by term: ⟦0⟧.
+@go6ohggc8l  ; 0=L | 1=k
+How many bit strings of length ⟦0⟧ contain exactly ⟦1⟧ ones?
+@27u4ks23cz9  ; 0=k | 1=L | 2=L | 3=k | 4=nCr(L, k)
+Choose which ⟦0⟧ of the ⟦1⟧ positions hold ones: $\binom{⟦2⟧}{⟦3⟧} = ⟦4⟧$.
+@yx3fxah4u8  ; 0=m | 1=n
+How many functions are there from a set with ⟦0⟧ elements to a set with ⟦1⟧ elements?
+@12owpaqzt1c  ; 0=m | 1=n | 2=n | 3=m | 4=n ** m
+Each of the ⟦0⟧ inputs can go to any of ⟦1⟧ outputs: $⟦2⟧^{⟦3⟧} = ⟦4⟧$.
+@4o2cs42p15  ; 0=m | 1=n
+How many one-to-one (injective) functions are there from a set with ⟦0⟧ elements to a set with ⟦1⟧ elements?
+@jpinfh5krc  ; 0=range(0, m - 1).map(i => n - i).join(T`  | 1=nPr(n, m)
+The outputs must be distinct: $⟦0⟧ = ⟦1⟧$.
+@10skxcum4lz  ; 0=N | 1=a | 2=b
+How many integers from 1 to ⟦0⟧ are divisible by ⟦1⟧ or ⟦2⟧?
+@nhrb9jig2q  ; 0=N | 1=a | 2=N | 3=b | 4=N | 5=lcm(a, b) | 6=Math.floor(N / a) | 7=Math.floor(N / b) | 8=Math.floor(N / lcm(a, b)) | 9=v | 10=lcm(a, b)
+$\lfloor ⟦0⟧/⟦1⟧ \rfloor + \lfloor ⟦2⟧/⟦3⟧ \rfloor - \lfloor ⟦4⟧/⟦5⟧ \rfloor = ⟦6⟧ + ⟦7⟧ - ⟦8⟧ = ⟦9⟧$ (⟦10⟧ is the lcm).
+@cgzqt4g6kc
+birth month
+@10ye3jsw3n2
+day of the week
+@1eah1ab17mo
+suit (in a card deck)
+@1fddlc7zc0d  ; 0=k | 1=box
+What is the smallest number of people needed to guarantee that at least ⟦0⟧ of them share the same ⟦1⟧?
+@27kjdpfw0sg  ; 0=nb | 1=nb | 2=k - 1 | 3=nb * (k - 1) | 4=k | 5=nb * (k - 1) + 1
+With ⟦0⟧ categories, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ people could avoid it; one more forces a group of ⟦4⟧: $⟦5⟧$.
+
+##### numerical
+@106u35np5bp  ; 0=Fm(T`\text{absolute error} = |x_{\text{t | 1=Ex(T`<p>$\sqrt{10}$ via $f(x) = x^2 - 10 | 2=Fm(T`\text{Trapezoidal: } \frac{h}{2}\bi | 3=Key(T`<p>For $y' = f(x, y)$ with $y(x_0) | 4=Tip(T`<p>In the trapezoidal rule only th
+
+<p>Numerical methods approximate answers that have no convenient closed form. Two kinds of error matter: <b>truncation</b> error (from the method) and <b>round-off</b> error (from finite precision).</p>
+⟦0⟧
+<h3>Root finding</h3>
+<ul><li><b>Bisection:</b> if $f(a)$ and $f(b)$ have opposite signs, test the midpoint $m$ and keep the half where the sign changes. Slow but guaranteed: the error halves each step.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Very fast near a simple root (quadratic convergence), but it can fail with a bad start or $f' \approx 0$.</li></ul>
+⟦1⟧
+<h3>Numerical integration</h3>
+⟦2⟧
+<p>Here $h = \frac{b - a}{n}$. Simpson's rule is exact for polynomials up to degree 3.</p>
+<h3>Euler's method</h3>
+⟦3⟧
+⟦4⟧
+@2fbw9jej1dm
+\text{absolute error} = |x_{\text{true}} - x_{\text{approx}}| \qquad \text{relative error} = \frac{|x_{\text{true}} - x_{\text{approx}}|}{|x_{\text{true}}|}
+@1a9noj3sp27
+<p>$\sqrt{10}$ via $f(x) = x^2 - 10$ from $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3.1667$, $x_2 = 3.1623$ — already correct to 4 decimal places.</p>
+@vx6qz5zup7
+\text{Trapezoidal: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ even}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]
+@2fmxu9hfzwl
+<p>For $y' = f(x, y)$ with $y(x_0) = y_0$: $\; y_{n+1} = y_n + h\,f(x_n, y_n)$, $x_{n+1} = x_n + h$. Halving $h$ roughly halves the error.</p>
+@fn0bl5sobc
+<p>In the trapezoidal rule only the <b>interior</b> ordinates are doubled; the two end values appear once.</p>
+@1n5pqkgqwu1  ; 0=a | 1=x0
+Apply one step of Newton's method to $f(x) = x^2 - ⟦0⟧$ starting from $x_0 = ⟦1⟧$. Give $x_1$ to 4 decimal places.
+@1jvkeb9n3o6
+Apply one step of bisection to $f(x) = x^2 - 3$ on $[1, 2]$. Which interval contains the root after that step?
+@vksl6we3dc
+$f(1.5) = -0.75 \lt 0$ and $f(2) = 1 \gt 0$, so the sign change is in $[1.5, 2]$.
+@23lzoh0yq9e  ; 0=cube ? 3 : 2 | 1=a | 2=Math.floor(rt) | 3=Math.floor(rt) + 1
+Apply bisection to $f(x) = x^⟦0⟧ - ⟦1⟧$ on $[⟦2⟧, ⟦3⟧]$. What is the midpoint computed in the <b>second</b> iteration?
+@114tbd27u3w  ; 0=M(m1) | 1=M(m1) | 2=M(rnd(f(m1), 4)) | 3=M(lo) | 4=M(hi) | 5=M(m2)
+First midpoint $⟦0⟧$: $f(⟦1⟧) = ⟦2⟧$, so the root is in $[⟦3⟧, ⟦4⟧]$. Second midpoint: $⟦5⟧$.
+@1gaoigxt1uo  ; 0=n | 1=b
+Use the trapezoidal rule with $n = ⟦0⟧$ to approximate $\displaystyle\int_0^{⟦1⟧} x^2\,dx$.
+@1pc9rab646n  ; 0=M(h) | 1=ys.map(x => M(x)).join(LS()) | 2=M(h) | 3=ys[0] | 4=ys[n] | 5=ys.slice(1, n).map(x => M(x)).join(' + ' | 6=M(v) | 7=M(rnd(b ** 3 / 3, 4))
+$h = ⟦0⟧$; ordinates ⟦1⟧. $T = \frac{⟦2⟧}{2}\left[⟦3⟧ + ⟦4⟧ + 2(⟦5⟧)\right] = ⟦6⟧$ (exact value ⟦7⟧).
+@1rsvekr7t2o  ; 0=b
+Use Simpson's rule with $n = 2$ to approximate $\displaystyle\int_0^{⟦0⟧} x^4\,dx$.
+@8vqt4i28qj  ; 0=b | 1=b | 2=b | 3=b | 4=b ** 4 | 5=frT(5 * b ** 5, 24) | 6=frT(b ** 5, 5)
+$h = \frac{⟦0⟧}{2}$: $\frac{h}{3}\left[0 + 4\left(\frac{⟦1⟧}{2}\right)^4 + ⟦2⟧^4\right] = \frac{⟦3⟧}{6} \cdot \frac{5 \cdot ⟦4⟧}{4} = ⟦5⟧$ (exact value $⟦6⟧$).
+@1jdhmav4ljk  ; 0=M(h) | 1=M(rnd(n * h, 4)) | 2=plus ? 'x + y' : 'y'
+Use Euler's method with $h = ⟦0⟧$ to approximate $y(⟦1⟧)$ for $y' = ⟦2⟧$, $y(0) = 1$. Round to 4 decimal places.
+@6utp8finkn  ; 0=nm | 1=M(ap)
+$⟦0⟧$ is approximated by ⟦1⟧. Find the relative error as a percentage, to 3 decimal places.
+
+##### vector-calculus
+@bh1w03a054  ; 0=Fm(T`\text{div}\,\mathbf{F} = \nabla\cdo | 1=Key(T`<p>$\mathbf{F}$ is <b>conservative | 2=Ex(T`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $ | 3=Tbl([T`Theorem`, T`Statement`], [[T`Gree | 4=Tip(T`<p>Green's theorem needs $C$ trave
+
+<p>A <b>vector field</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ attaches a vector to every point — like wind velocity or a force. With $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
+⟦0⟧
+<p>Divergence measures outflow from a point; curl measures rotation.</p>
+<h3>Line integrals and conservative fields</h3>
+⟦1⟧
+⟦2⟧
+<h3>The big theorems</h3>
+⟦3⟧
+<p>A neat consequence of Green's theorem: the area of $D$ is $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦4⟧
+@1oemuo3mhjj
+\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)
+@dx5b9h7rwd
+<p>$\mathbf{F}$ is <b>conservative</b> if $\mathbf{F} = \nabla\varphi$ for a potential $\varphi$. Then $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ for any path from $A$ to $B$. In the plane (simply connected domain), $(P, Q)$ is conservative iff $P_y = Q_x$.</p>
+@11uavg1kohe
+<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, so it is conservative with $\varphi = x^2y + 3y$. From $(0, 0)$ to $(2, 1)$: $\varphi(2, 1) - \varphi(0, 0) = 4 + 3 = 7$.</p>
+@1yct8dx5k46
+Theorem
+@3albyqcn6s
+Green's
+@1osdvqguwrh
+Stokes'
+@11x91oqdbb7
+Divergence (Gauss)
+@28jc8ed48q8
+<p>Green's theorem needs $C$ traversed <b>anticlockwise</b> (region on the left); clockwise flips the sign.</p>
+@fg37vtw1nz  ; 0=pt(x, y, z) | 1=xt(a, 'x^2y') | 2=xt(b, 'yz') | 3=xt(c, 'xz^2')
+Find $\nabla\cdot\mathbf{F}$ at $⟦0⟧$ for $\mathbf{F} = \left(⟦1⟧,\; ⟦2⟧,\; ⟦3⟧\right)$.
+@i6u559ylzz  ; 0=xt(2 * a, 'xy') | 1=xt(b, 'z') | 2=xt(2 * c, 'xz') | 3=pt(x, y, z) | 4=2 * a * x * y | 5=sg(b * z) | 6=sg(2 * c * x * z) | 7=v
+$P_x = ⟦0⟧$, $Q_y = ⟦1⟧$, $R_z = ⟦2⟧$. At $⟦3⟧$: $⟦4⟧ ⟦5⟧ ⟦6⟧ = ⟦7⟧$.
+@dvzsgd4pt9  ; 0=xt(a, 'xy^2') | 1=xt(b, 'x^2y') | 2=pt(x, y)
+For $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$, find $Q_x - P_y$ (the scalar curl) at $⟦2⟧$.
+@1f7xg7qakjk  ; 0=xt(2 * b, 'xy') | 1=xt(2 * a, 'xy') | 2=xt(2 * (b - a), 'xy') | 3=v | 4=pt(x, y)
+$Q_x = ⟦0⟧$ and $P_y = ⟦1⟧$, so $Q_x - P_y = ⟦2⟧$, which is ⟦3⟧ at $⟦4⟧$.
+@6gosl713kw  ; 0=xt(2 * a, 'xy') | 1=terms([[a, 'x^2'], [b, '']]) | 2=pt(...A) | 3=pt(...B)
+Evaluate $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r}$ where $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ and $C$ is any path from $⟦2⟧$ to $⟦3⟧$.
+@1ch21kaf5wm  ; 0=terms([[a, 'x^2y'], [b, 'y']]) | 1=phi(...B) | 2=pn(phi(...A)) | 3=v
+$\mathbf{F} = \nabla\varphi$ with $\varphi = ⟦0⟧$, so the integral is path-independent: $\varphi(B) - \varphi(A) = ⟦1⟧ - ⟦2⟧ = ⟦3⟧$.
+@1czrg3saejj  ; 0=b === 1 ? '' : b | 1=a === 1 ? '' : a | 2=w | 3=h
+Use Green's theorem to evaluate $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, where $C$ is the boundary of the rectangle $[0, ⟦2⟧] \times [0, ⟦3⟧]$, traversed anticlockwise.
+@otc4kapbek  ; 0=a | 1=b | 2=a + b | 3=a + b | 4=a + b | 5=w * h | 6=(a + b) * w * h
+$Q_x - P_y = ⟦0⟧ - (-⟦1⟧) = ⟦2⟧$, so the integral is $⟦3⟧ \times \text{area} = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.
+@1mzbbq34ezd  ; 0=b === 1 ? '' : b | 1=a === 1 ? '' : a | 2=R * R
+Use Green's theorem to evaluate $\displaystyle\oint_C (-⟦0⟧y\,dx + ⟦1⟧x\,dy)$, where $C$ is the circle $x^2 + y^2 = ⟦2⟧$, anticlockwise.
+@2fijtuqaqq1  ; 0=a + b | 1=a + b | 2=R | 3=piT((a + b) * R * R)
+$Q_x - P_y = ⟦0⟧$, so the integral is $⟦1⟧ \times \pi(⟦2⟧)^2 = ⟦3⟧$.
+@2csh30v58t4  ; 0=P | 1=Q
+Is $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$ conservative?
+@1ma95r0zub6
+Conservative
+@bn62hz6wu8
+Not conservative
+@1s854ovcwco
+not conservative
+@15asqrx4hnu  ; 0=b | 1=bq | 2=cons ? T`They are equal, so F is conserv
+$P_y = ⟦0⟧$ and $Q_x = ⟦1⟧$. ⟦2⟧
+@r7areoyr0a
+They are equal, so F is conservative (on the whole plane).
+@6dlb2jbxf0
+They differ, so F is not conservative.
+@1ueomkx63n5  ; 0=terms([[2 * a, 'x'], [b, 'y']]) | 1=terms([[b, 'x'], [2 * c, 'y']])
+Find a potential function for $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$.
+@4awle3me9d  ; 0=terms([[a, 'x^2'], [b, 'xy']]) | 1=xt(b) | 2=terms([[b, 'x'], [2 * c, 'y']]) | 3=xt(c, 'y^2')
+Integrate $P$ in $x$: $\varphi = ⟦0⟧ + g(y)$. Then $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ gives $g = ⟦3⟧$.
+
+##### laplace
+@f6f4kfx30i  ; 0=Fm(T`\mathcal{L}\{f(t)\} = F(s) = \int_0 | 1=Tbl(['f(t)', 'F(s)', 'f(t)', 'F(s)'], [[ | 2=Key(T`<p><b>Linearity:</b> $\mathcal{L}\ | 3=Ex(T`<p>Solve $y'' + 4y = 0$, $y(0) = 3$ | 4=Tip(T`<p>$\mathcal{L}\{\sin bt\}$ has $b
+
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<p>Inverse transforms usually need partial fractions first, then matching against the table.</p>
+⟦4⟧
+@1kbz0ay16v9
+\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt
+@1id74v8hrdj
+<p><b>Linearity:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Derivatives:</b> $\mathcal{L}\{y'\} = sY - y(0)$ and $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — this turns differential equations into algebra.</p>
+@ie964pskzz
+<p>Solve $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, so $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Inverting: $y = 3\cos 2t + \sin 2t$.</p>
+@cgwsp3i8af
+<p>$\mathcal{L}\{\sin bt\}$ has $b$ on top; $\mathcal{L}\{\cos bt\}$ has $s$ on top. Mixing them up is the most common slip.</p>
+@t6bpsx84ob  ; 0=terms([[a, `t^{${n}}`], [b, eX(c, 't')]]
+Find $\mathcal{L}\{⟦0⟧\}$.
+@2sqpcztdp7  ; 0=M(a) | 1=n | 2=n + 1 | 3=M(b) | 4=sM(c)
+Linearity with $\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}$ and $\mathcal{L}\{e^{ct}\} = \frac{1}{s - c}$: $\frac{⟦0⟧ \cdot ⟦1⟧!}{s^{⟦2⟧}} + \frac{⟦3⟧}{⟦4⟧}$.
+@1erb7erw9za  ; 0=a === 1 ? '' : a | 1=sinF ? T`\sin` : T`\cos` | 2=b === 1 ? '' : b
+Find $\mathcal{L}\{⟦0⟧⟦1⟧ ⟦2⟧t\}$.
+@ujzn9ioggu  ; 0=a | 1=b | 2=b * b | 3=a * b | 4=b * b
+$\mathcal{L}\{\sin bt\} = \frac{b}{s^2 + b^2}$, so the answer is $\frac{⟦0⟧ \cdot ⟦1⟧}{s^2 + ⟦2⟧} = \frac{⟦3⟧}{s^2 + ⟦4⟧}$.
+@2dljwnla25z  ; 0=a | 1=b * b
+$\mathcal{L}\{\cos bt\} = \frac{s}{s^2 + b^2}$, so the answer is $\frac{⟦0⟧s}{s^2 + ⟦1⟧}$.
+@napbzc1h43  ; 0=a | 1=sM(c) | 2=b === 1 ? '' : b === -1 ? '-' : b | 3=d * d
+Find $\mathcal{L}^{-1}\left\{\dfrac{⟦0⟧}{⟦1⟧} + \dfrac{⟦2⟧s}{s^2 + ⟦3⟧}\right\}$.
+@6d49fl6z14  ; 0=f(a, c, b, 'cos', d)
+$\frac{1}{s - c} \leftrightarrow e^{ct}$ and $\frac{s}{s^2 + d^2} \leftrightarrow \cos dt$: the result is ⟦0⟧.
+@hw06puz2z5  ; 0=eX(a, 't') | 1=sinF ? T`\sin` : T`\cos` | 2=b === 1 ? '' : b
+Find $\mathcal{L}\{⟦0⟧\,⟦1⟧ ⟦2⟧t\}$.
+@zs0uacvdu8  ; 0=sinF ? T`\frac{${b}}{s^2 + ${b * b}}` :  | 1=sM(a)
+First shifting theorem: $\mathcal{L}\{e^{at}f(t)\} = F(s - a)$. With $F(s) = ⟦0⟧$, replace $s$ by $⟦1⟧$.
+@1i1mf4ew2a  ; 0=n | 1=s0
+Let $F(s) = \mathcal{L}\{t^{⟦0⟧}\}$. Find $F(⟦1⟧)$.
+@180y0883p6z  ; 0=n | 1=n + 1 | 2=s0 | 3=fact(n) | 4=s0 ** (n + 1) | 5=frT(fact(n), s0 ** (n + 1))
+$F(s) = \frac{⟦0⟧!}{s^{⟦1⟧}}$, so $F(⟦2⟧) = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.
+@11s9xvqwvw4  ; 0=eX(c, 't') | 1=s0
+Let $F(s) = \mathcal{L}\{⟦0⟧\}$. Find $F(⟦1⟧)$.
+@18wjdkl7beq  ; 0=c | 1=s0 | 2=s0 - c
+$F(s) = \frac{1}{s - (⟦0⟧)}$, so $F(⟦1⟧) = \frac{1}{⟦2⟧}$.
+@9v69wy5cnz  ; 0=k * k | 1=p | 2=q
+Solve $y'' + ⟦0⟧y = 0$ with $y(0) = ⟦1⟧$, $y'(0) = ⟦2⟧$ using Laplace transforms.
+@24mrp3u7eep  ; 0=pn(p) | 1=pn(q) | 2=k * k | 3=Y | 4=p | 5=k * k | 6=q | 7=k | 8=k | 9=k * k | 10=S(p, bq)
+$s^2Y - ⟦0⟧s - ⟦1⟧ + ⟦2⟧Y = 0$, so $Y = ⟦3⟧$. Split as $⟦4⟧\cdot\frac{s}{s^2 + ⟦5⟧} + \frac{⟦6⟧}{⟦7⟧}\cdot\frac{⟦8⟧}{s^2 + ⟦9⟧}$ and invert: ⟦10⟧.

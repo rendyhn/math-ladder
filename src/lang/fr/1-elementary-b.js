@@ -1,0 +1,159 @@
+/* Français — primaire (fractions → mesures) */
+addT('fr', {
+  // fractions
+  '1j59vvw5wlm': R`
+<p>Une <b>fraction</b> $\frac{a}{b}$ désigne $a$ parts sur $b$ parts égales. Le nombre du haut est le <b>numérateur</b> ; celui du bas est le <b>dénominateur</b>.</p>
+<h3>Fractions égales et fraction irréductible</h3>
+<p>Multiplier ou diviser le numérateur et le dénominateur par un même nombre donne une fraction égale : $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Pour <b>simplifier</b>, on divise les deux par leur PGCD :</p>
+⟦0⟧
+<h3>Nombres mixtes</h3>
+<p>$2\frac{1}{3}$ signifie $2 + \frac{1}{3}$. Sous forme de fraction : $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
+<h3>Addition et soustraction</h3>
+⟦1⟧
+⟦2⟧
+<h3>Multiplication et division</h3>
+⟦3⟧
+<p>Pour diviser, on <b>garde</b> la première fraction, on <b>change</b> ÷ en × et on <b>inverse</b> la seconde fraction.</p>
+⟦4⟧
+<h3>Fraction d’une quantité</h3>
+<p>On divise par le dénominateur, puis on multiplie par le numérateur : $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
+⟦5⟧`,
+  'twupiargma': R`<p>On ne peut additionner ou soustraire que des fractions de <b>même dénominateur</b>. On les réécrit avec un dénominateur commun (le PPCM des dénominateurs), puis on additionne ou soustrait les numérateurs.</p>`,
+  'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
+  'bcas553r7s': R`<p>N’additionnez jamais les dénominateurs : $\frac{1}{2} + \frac{1}{3}$ vaut $\frac{5}{6}$, et non $\frac{2}{5}$.</p>`,
+  'ixkiz8sse6': R`Écrivez $\frac{⟦0⟧}{⟦1⟧}$ sous forme irréductible.`,
+  '10gte9lmsdd': R`Écrivez une fraction comme 3/4.`,
+  '1pjukmxebsh': R`Le PGCD de ⟦0⟧ et ⟦1⟧ est ⟦2⟧. On divise les deux par ⟦3⟧ : $\frac{⟦4⟧ \div ⟦5⟧}{⟦6⟧ \div ⟦7⟧} = \frac{⟦8⟧}{⟦9⟧}$.`,
+  'nvda2ntfzh': R`Calculez $\frac{⟦0⟧}{⟦1⟧} + \frac{⟦2⟧}{⟦3⟧}$. Donnez le résultat sous forme irréductible.`,
+  '227nw1m409d': R`Dénominateur commun ⟦0⟧ : $\frac{⟦1⟧}{⟦2⟧} + \frac{⟦3⟧}{⟦4⟧} = \frac{⟦5⟧}{⟦6⟧}⟦7⟧$.`,
+  '1mtmp0absry': R`Calculez $\frac{⟦0⟧}{⟦1⟧} - \frac{⟦2⟧}{⟦3⟧}$. Donnez le résultat sous forme irréductible.`,
+  'gyruuxmt48': R`Dénominateur commun ⟦0⟧ : $\frac{⟦1⟧}{⟦2⟧} - \frac{⟦3⟧}{⟦4⟧} = \frac{⟦5⟧}{⟦6⟧}⟦7⟧$.`,
+  '2amnbki6syc': R`Calculez $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧}$. Donnez le résultat sous forme irréductible.`,
+  '1oq98j0zwy6': R`On multiplie les numérateurs entre eux et les dénominateurs entre eux : $\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧ \times ⟦3⟧} = \frac{⟦4⟧}{⟦5⟧}⟦6⟧$.`,
+  '4ip7z0hj87': R`Calculez $\frac{⟦0⟧}{⟦1⟧} \div \frac{⟦2⟧}{⟦3⟧}$. Donnez le résultat sous forme irréductible.`,
+  '1unu6p3t9n0': R`On garde, on change, on inverse : $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = \frac{⟦4⟧}{⟦5⟧}⟦6⟧$.`,
+  '2ebc0tw6di0': R`Combien valent les $\frac{⟦0⟧}{⟦1⟧}$ de ⟦2⟧ ?`,
+  'vi27l05tmq': R`On divise par le dénominateur, puis on multiplie par le numérateur : $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ et $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$.`,
+  '17rm8piimg0': R`Écrivez $⟦0⟧\frac{⟦1⟧}{⟦2⟧}$ sous la forme d’une seule fraction.`,
+  '1vkdspzdrbu': R`Écrivez une fraction comme 11/4.`,
+  '1o401nhusn': R`Partie entière × dénominateur + numérateur : $⟦0⟧ \times ⟦1⟧ + ⟦2⟧ = ⟦3⟧$. On garde le dénominateur : $\frac{⟦4⟧}{⟦5⟧}$.`,
+  'kune7g17fg': R`Quelle fraction est la <b>plus grande</b> ?`,
+  '1lvlk3jpc2g': R`Quelle fraction est la <b>plus petite</b> ?`,
+  '1or6yhfdw2': R`On les compare sous forme décimale (ou avec un dénominateur commun) : ⟦0⟧. La plus grande est $⟦1⟧$.`,
+  '2er4a94vvmc': R`On les compare sous forme décimale (ou avec un dénominateur commun) : ⟦0⟧. La plus petite est $⟦1⟧$.`,
+
+  // decimals
+  '2663pva71c8': R`
+<p>Les nombres décimaux prolongent la numération à droite des unités. Chaque rang vaut un dixième du rang situé à sa gauche.</p>
+⟦0⟧
+<p>Ainsi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
+<h3>Comparer des décimaux</h3>
+<p>Donnez aux nombres le même nombre de chiffres après la virgule en ajoutant des zéros, puis comparez : $0{,}5 = 0{,}50 \gt 0{,}45$. Un décimal plus long n’est pas forcément plus grand !</p>
+<h3>Addition et soustraction</h3>
+⟦1⟧
+⟦2⟧
+<h3>Multiplication</h3>
+<p>On multiplie comme s’il n’y avait pas de virgule, puis on compte le nombre total de chiffres après la virgule dans les facteurs : le résultat en a autant.</p>
+⟦3⟧
+<h3>Division et conversions</h3>
+<p>Multiplier par 10, 100 ou 1000 décale les chiffres de 1, 2 ou 3 rangs vers la gauche (le nombre grandit) ; diviser les décale vers la droite. Une fraction devient un décimal en divisant le numérateur par le dénominateur : $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
+<h3>Arrondir des décimaux</h3>
+<p>Même règle que pour les entiers : on regarde le chiffre suivant. $6{,}847$ arrondi au dixième près donne $6{,}8$ ; au centième près, $6{,}85$.</p>
+⟦4⟧`,
+  'yhxj3mz2az': R`Dixièmes`,
+  '1usmp59h50n': R`Centièmes`,
+  'biszmhnvcw': R`Millièmes`,
+  '29ru7wnae4a': R`<p>Alignez les <b>virgules</b>, complétez les rangs vides par des zéros, puis additionnez ou soustrayez comme avec des entiers.</p>`,
+  '1refy6cjloa': R`<p>$12{,}7 + 3{,}45$ : on écrit $12{,}70 + 3{,}45 = 16{,}15$.</p>`,
+  '1lqqzrepgzp': R`1{,}3 \times 0{,}24 : \quad 13 \times 24 = 312 \;\Rightarrow\; 0{,}312 \quad (1 + 2 = 3 \text{ chiffres après la virgule})`,
+  'juf948b8yc': R`<p>$\frac{3}{4}$ vaut 0,75, et non 3,4. Le trait de fraction signifie « divisé par ».</p>`,
+  '11m0f3xnsds': R`Alignez les virgules (écrivez ⟦0⟧ sous la forme ⟦1⟧) et additionnez : $⟦2⟧ + ⟦3⟧ = ⟦4⟧$.`,
+  'qfevgwaqck': R`Alignez les virgules et soustrayez : $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '1p6qy0zwa3u': R`On ignore les virgules : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Les facteurs ont en tout ⟦3⟧, donc le résultat est <b>⟦4⟧</b>.`,
+  'uqon6l82ny': R`1 chiffre après la virgule`,
+  'tx8fdinl8c': R`2 chiffres après la virgule`,
+  'b7wqcpujtu': R`Écrivez $\frac{⟦0⟧}{⟦1⟧}$ sous forme décimale.`,
+  '1ufy8j9fr2y': R`On divise le numérateur par le dénominateur : $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$.`,
+  'vje0snups3': R`au dixième près`,
+  '1liz42210hc': R`des dixièmes`,
+  '104jyqiqg9x': R`au centième près`,
+  '10lk6io95d0': R`des centièmes`,
+  '65m0asa80m': R`à l’unité près`,
+  'elqb7vv91e': R`Arrondissez ⟦0⟧ ⟦1⟧.`,
+  '10rdjn6n7af': R`Regardez le chiffre qui suit celui ⟦0⟧ et arrondissez ⟦1⟧ à <b>⟦2⟧</b>.`,
+  'srl9a8gbof': R`Quel décimal est le <b>plus grand</b> ? &nbsp;⟦0⟧`,
+  'gs5zz0z26m': R`Quel décimal est le <b>plus petit</b> ? &nbsp;⟦0⟧`,
+  '1ddc7akhylh': R`Écrivez-les tous avec trois chiffres après la virgule : ⟦0⟧. Le plus grand est <b>⟦1⟧</b>.`,
+  'clxur1r60o': R`Écrivez-les tous avec trois chiffres après la virgule : ⟦0⟧. Le plus petit est <b>⟦1⟧</b>.`,
+
+  // percent
+  'r0jl598zxh': R`
+<p><b>Pour cent</b> signifie « sur 100 » : $35\% = \frac{35}{100} = 0{,}35$.</p>
+⟦0⟧
+<h3>Les trois questions de base</h3>
+⟦1⟧
+⟦2⟧
+<h3>Hausses, baisses et réductions</h3>
+<p>Une réduction de $20\%$ sur 80 euros fait économiser $0{,}2 \times 80 = 16$ euros ; le prix soldé est donc $80 - 16 = 64$ euros. Plus rapide : on paie $80\%$ du prix, soit $0{,}8 \times 80 = 64$.</p>
+<p>Une hausse de $p\%$ revient à multiplier par $1 + \frac{p}{100}$ ; une baisse, à multiplier par $1 - \frac{p}{100}$.</p>
+⟦3⟧`,
+  '2e1ivkcc9wi': R`Fraction`,
+  '21lfn42y4af': R`Décimal`,
+  '1vaz29jk1go': R`Pourcentage`,
+  '1lj32zs95qv': R`<ul><li><b>Pourcentage d’une quantité :</b> $p\% \text{ de } N = \frac{p}{100} \times N$.</li><li><b>Quel pourcentage de $b$ représente $a$ ?</b> $\frac{a}{b} \times 100\%$.</li><li><b>Taux d’évolution :</b> $\frac{\text{variation}}{\text{valeur initiale}} \times 100\%$.</li></ul>`,
+  '14zii6dfm6x': R`<p>$15\%$ de $240 = 0{,}15 \times 240 = 36$. &nbsp; Astuce de calcul mental : $10\% = 24$, $5\% = 12$, total $36$.</p>`,
+  '1xvrzy7qz2k': R`<p>Pour un taux d’évolution, on divise toujours par la valeur <b>initiale</b>. Un prix qui passe de 50 à 60 augmente de $\frac{10}{50} = 20\%$, et non de $\frac{10}{60}$.</p>`,
+  '1gobo82ltgo': R`Combien font ⟦0⟧ % de ⟦1⟧ ?`,
+  '17t3n1yumuv': R`$⟦0⟧\% \text{ de } ⟦1⟧ = \frac{⟦2⟧}{100} \times ⟦3⟧ = ⟦4⟧$.`,
+  'x6d2i6pjon': R`Quel pourcentage de ⟦0⟧ représente ⟦1⟧ ?`,
+  '166o0aldzl7': R`Écrivez $\frac{⟦0⟧}{⟦1⟧}$ sous forme de pourcentage.`,
+  '1zxz5pk8y96': R`Une veste coûte ⟦0⟧ euros. Elle est soldée à −⟦1⟧ %. Quel est son prix soldé ?`,
+  '1fg7th2fl2k': R`euros`,
+  '2d5e1injpmi': R`Réduction $= ⟦0⟧\% \times ⟦1⟧ = ⟦2⟧$. Prix soldé $= ⟦3⟧ - ⟦4⟧ = ⟦5⟧$ euros.`,
+  '188c7uiuhvg': R`Une ville compte ⟦0⟧ habitants. Sa population augmente de ⟦1⟧ %. Quelle est la nouvelle population ?`,
+  '1z4269yh9sc': R`Augmentation $= ⟦0⟧\% \times ⟦1⟧ = ⟦2⟧$. Nouvelle population $= ⟦3⟧ + ⟦4⟧ = ⟦5⟧$.`,
+  '24ppsoc883t': R`Le prix d’un livre passe de ⟦0⟧ euros à ⟦1⟧ euros. Quel est le pourcentage d’augmentation ?`,
+  '18zivp6w2kh': R`Le prix d’un livre passe de ⟦0⟧ euros à ⟦1⟧ euros. Quel est le pourcentage de baisse ?`,
+  '275khxq1hou': R`Variation : ⟦0⟧ euros. Pourcentage d’augmentation : ⟦1⟧ — on divise toujours par le prix <b>initial</b>.`,
+  '260avkxsjev': R`Variation : ⟦0⟧ euros. Pourcentage de baisse : ⟦1⟧ — on divise toujours par le prix <b>initial</b>.`,
+
+  // measurement
+  'ymwylkippx': R`
+<p>Le système métrique repose sur les puissances de dix, avec des préfixes qui indiquent la taille d’une unité.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Les durées</h3>
+<p>Le temps n’est <i>pas</i> décimal : une heure compte 60 minutes, pas 100. Pour calculer une durée, avancez par étapes : de 09:35 à 13:10, il y a 25 min (jusqu’à 10:00) + 3 h (jusqu’à 13:00) + 10 min = 3 h 35 min = 215 minutes.</p>
+⟦4⟧`,
+  '1vt4z8db5g': R`Préfixe`,
+  '18vrcwaxvwu': R`Signification`,
+  '1j1ms4p35q': R`Exemples`,
+  '1837d2yv17g': R`kilo- (k)`,
+  '6v2px6djsv': R`centi- (c)`,
+  'cwnj8q0jlm': R`milli- (m)`,
+  '4ynf6btmh8': R`Grandeur`,
+  '1bcl39yblb4': R`Conversions`,
+  '1yt0gqcalpk': R`Longueur`,
+  '1pzczs2mse4': R`Masse`,
+  '3r7jg1gvau': R`1 t (tonne) = 1 000 kg · 1 kg = 1 000 g`,
+  '25cg9l2x1fi': R`Contenance`,
+  '1ellrod4539': R`Durée`,
+  '149iz1sgt': R`1 min = 60 s · 1 h = 60 min · 1 jour = 24 h · 1 semaine = 7 jours`,
+  '2g0x2qx5tup': R`<p>Pour passer d’une unité <b>plus grande</b> à une unité <b>plus petite</b>, il en faut davantage : on <b>multiplie</b>. De la plus petite à la plus grande : on <b>divise</b>.</p>`,
+  'x1upmnco35': R`<p>$3{,}5 \text{ km} = 3{,}5 \times 1000 = 3\,500 \text{ m}$. &nbsp; $2\,750 \text{ g} = 2\,750 \div 1000 = 2{,}75 \text{ kg}$.</p>`,
+  't9d9f384y5': R`<p>Ne soustrayez pas des horaires comme des nombres ordinaires : $13{:}10 - 9{:}35$ ne vaut pas $1310 - 935 = 375$ minutes.</p>`,
+  'q3mks7cmvp': R`Convertissez ⟦0⟧ ⟦1⟧ en ⟦2⟧.`,
+  '695i1r66ec': R`D’une unité plus grande vers une plus petite, on multiplie : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$`,
+  '1y3viru9jwt': R`D’une unité plus petite vers une plus grande, on divise : $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$`,
+  '10b6a48v5cr': R`Combien de minutes y a-t-il dans ⟦0⟧ h ⟦1⟧ min ?`,
+  '1jj8c6wfcmv': R`minutes`,
+  '26onbfrmj2m': R`1 heure = 60 minutes : $⟦0⟧ \times 60 + ⟦1⟧ = ⟦2⟧$ minutes.`,
+  '2fcfktfjfb2': R`Combien de secondes y a-t-il dans ⟦0⟧ min ⟦1⟧ s ?`,
+  '1qje99e2i79': R`1 minute = 60 secondes : $⟦0⟧ \times 60 + ⟦1⟧ = ⟦2⟧$ secondes.`,
+  '1640fwpwscw': R`Un train part à ⟦0⟧ et arrive à ⟦1⟧ le même jour. Combien de minutes dure le trajet ?`,
+  '1bvdcgo9oas': R`De ⟦0⟧ à ⟦1⟧, il s’écoule ⟦2⟧ h ⟦3⟧ min, soit $⟦4⟧ \times 60 + ⟦5⟧ = ⟦6⟧$ minutes.`,
+  'jz7sp6v78m': R`Additionnez ⟦0⟧ m ⟦1⟧ cm et ⟦2⟧ m ⟦3⟧ cm. Donnez le résultat en centimètres.`,
+  '1v59jh3egmq': R`⟦0⟧ m ⟦1⟧ cm = ⟦2⟧ cm et ⟦3⟧ m ⟦4⟧ cm = ⟦5⟧ cm. Total : $⟦6⟧ + ⟦7⟧ = ⟦8⟧$ cm.`,
+});

@@ -1,0 +1,147 @@
+/* Bahasa Indonesia — SMP (sistem persamaan → bangun ruang) */
+addT('id', {
+  // systems
+  '1obgwi6un65': R`
+<p><b>Sistem</b> dua persamaan linear dalam $x$ dan $y$ meminta nilai yang membuat <i>kedua</i> persamaan benar sekaligus. Secara grafik, penyelesaiannya adalah titik potong kedua garis.</p>
+<h3>Metode substitusi</h3>
+⟦0⟧
+<h3>Metode eliminasi</h3>
+⟦1⟧
+⟦2⟧
+<h3>Kasus khusus</h3>
+<p>Garis sejajar (gradien sama, titik potong sumbu-y berbeda) tidak pernah berpotongan: <b>tidak ada penyelesaian</b>. Garis yang berimpit punya <b>tak hingga banyak</b> penyelesaian.</p>
+<h3>Soal cerita</h3>
+<p>Dua bilangan yang tidak diketahui memerlukan dua informasi. "Ayam dan sapi di sebuah peternakan punya 30 kepala dan 84 kaki": misalkan $c$ = banyak sapi dan $h$ = banyak ayam, maka $c + h = 30$ dan $4c + 2h = 84$.</p>
+⟦3⟧`,
+  '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitusikan persamaan pertama ke persamaan kedua: $3x + (2x - 1) = 14$, jadi $5x = 15$, $x = 3$, dan $y = 2(3) - 1 = 5$. Penyelesaian: $(3; 5)$.</p>`,
+  '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Jumlahkan kedua persamaan untuk mengeliminasi $y$: $7x = 21$, jadi $x = 3$. Lalu dari $2(3) + 3y = 12$ diperoleh $y = 2$.</p>`,
+  '2hm0wzsgn4': R`<p>Kalikan salah satu atau kedua persamaan agar koefisien salah satu variabel sama (atau berlawanan), lalu kurangkan (atau jumlahkan) untuk mengeliminasinya. Selalu periksa jawaban pada <b>kedua</b> persamaan asal.</p>`,
+  '1mqyjg4cjt3': R`<p>Saat mengurangkan persamaan, kurangkan <i>setiap</i> suku, termasuk ruas kanan — kesalahan tanda adalah kesalahan paling umum.</p>`,
+  '2bus2hrtc7a': R`Selesaikan sistem berikut dan tuliskan nilai $⟦0⟧$: $$\begin{cases} ⟦1⟧ = ⟦2⟧ \\ ⟦3⟧ = ⟦4⟧ \end{cases}$$`,
+  'cj3nlbnytd': R`Eliminasi $x$: kalikan persamaan pertama dengan ⟦0⟧ dan persamaan kedua dengan ⟦1⟧, lalu kurangkan: $⟦2⟧y = ⟦3⟧$, jadi $y = ⟦4⟧$. Substitusi balik menghasilkan $x = ⟦5⟧$⟦6⟧.`,
+  '1v4b2kwdt1t': R`, jadi $x + y = ⟦0⟧$`,
+  '12wz870lrmo': R`Selesaikan sistem berikut: $$\begin{cases} ⟦0⟧ = ⟦1⟧ \\ ⟦2⟧ = ⟦3⟧ \end{cases}$$`,
+  '2h37f00sms': R`Tuliskan jawaban sebagai x; y, misalnya 3; -2.`,
+  'ji19p5e9vc': R`Eliminasi salah satu variabel menghasilkan $x = ⟦0⟧$ dan $y = ⟦1⟧$. Periksa: $⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$ ✓ dan $⟦7⟧(⟦8⟧) + ⟦9⟧(⟦10⟧) = ⟦11⟧$ ✓`,
+  '1uhjqjwpqgq': R`Sebuah bioskop menjual ⟦0⟧ tiket dengan total pendapatan ⟦1⟧ ribu rupiah. Tiket dewasa seharga ⟦2⟧ ribu rupiah dan tiket anak ⟦3⟧ ribu rupiah. Berapa tiket anak yang terjual?`,
+  '1w5sbgqln74': R`Misalkan $a$ = banyak tiket dewasa dan $c$ = banyak tiket anak: $a + c = ⟦0⟧$ dan $⟦1⟧a + ⟦2⟧c = ⟦3⟧$. Substitusi $a = ⟦4⟧ - c$: $⟦5⟧ - ⟦6⟧c = ⟦7⟧$, jadi $c = ⟦8⟧$.`,
+  '5gcbu3n7lh': R`Di sebuah peternakan ada ayam dan sapi. Seluruhnya ada ⟦0⟧ kepala dan ⟦1⟧ kaki. Berapa banyak sapi di peternakan itu?`,
+  '1q9pdlsduw3': R`Di sebuah peternakan ada ayam dan sapi. Seluruhnya ada ⟦0⟧ kepala dan ⟦1⟧ kaki. Berapa banyak ayam di peternakan itu?`,
+  '20g4l7cyliz': R`Misalkan $c$ = banyak sapi dan $h$ = banyak ayam: $c + h = ⟦0⟧$ dan $4c + 2h = ⟦1⟧$. Kurangkan dua kali persamaan pertama: $2c = ⟦2⟧$, jadi $c = ⟦3⟧$ dan $h = ⟦4⟧$.`,
+  '18lm53yd624': R`Jumlah dua bilangan adalah ⟦0⟧ dan selisihnya ⟦1⟧. Berapakah bilangan yang lebih besar?`,
+  '1juzg4bgiuw': R`Jumlah dua bilangan adalah ⟦0⟧ dan selisihnya ⟦1⟧. Berapakah bilangan yang lebih kecil?`,
+  '15xzu54of35': R`$a + b = ⟦0⟧$ dan $a - b = ⟦1⟧$. Jumlahkan: $2a = ⟦2⟧$, jadi $a = ⟦3⟧$ dan $b = ⟦4⟧$.`,
+
+  // pythagoras
+  '18dtbjhvgbb': R`
+<p>Pada segitiga siku-siku, sisi terpanjang yang berhadapan dengan sudut siku-siku disebut <b>hipotenusa</b> (sisi miring) $c$. Dua sisi lainnya, $a$ dan $b$, adalah <b>sisi siku-siku</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Tripel Pythagoras</h3>
+<p>Penyelesaian bilangan bulat beserta kelipatannya layak dihafal: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, serta $(6; 8; 10)$, $(9; 12; 15)$, …</p>
+<h3>Jarak antara dua titik</h3>
+⟦3⟧
+<h3>Kebalikan teorema</h3>
+<p>Jika $c$ sisi terpanjang: $a^2 + b^2 = c^2$ berarti segitiga <b>siku-siku</b>; $a^2 + b^2 \gt c^2$ berarti segitiga <b>lancip</b>; $a^2 + b^2 \lt c^2$ berarti segitiga <b>tumpul</b>.</p>
+⟦4⟧`,
+  '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Untuk mencari hipotenusa, jumlahkan kuadratnya; untuk mencari sisi siku-siku, kurangkan: $b = \sqrt{c^2 - a^2}$.</p>`,
+  '266inyds4fo': R`<p>Tangga sepanjang 10 m disandarkan ke dinding dengan kaki tangga 6 m dari dinding. Tinggi yang dicapai: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
+  '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Untuk sisi siku-siku 3 dan 4, hipotenusanya 5, bukan 7.</p>`,
+  'tzct4b0jzc': R`Sisi siku-siku sebuah segitiga siku-siku adalah ⟦0⟧ cm dan ⟦1⟧ cm. Berapa panjang hipotenusanya?`,
+  'w85jfl9xou': R`$c^2 = ⟦0⟧^2 + ⟦1⟧^2 = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$, jadi $c = \sqrt{⟦5⟧} = ⟦6⟧$ cm.`,
+  '14oj6g8m8ly': R`Hipotenusa sebuah segitiga siku-siku adalah ⟦0⟧ m dan salah satu sisi siku-sikunya ⟦1⟧ m. Berapa panjang sisi siku-siku yang lain?`,
+  'ucdvtq6bkq': R`Tentukan jarak antara titik $⟦0⟧$ dan $⟦1⟧$.`,
+  '174wwwvihed': R`Sebuah tangga sepanjang ⟦0⟧ m disandarkan ke dinding tegak. Kaki tangga berada ⟦1⟧ m dari dinding. Seberapa tinggi tangga mencapai dinding?`,
+  'fb02yp437s': R`Tangga adalah hipotenusa: $h = \sqrt{⟦0⟧^2 - ⟦1⟧^2} = \sqrt{⟦2⟧} = ⟦3⟧$ m.`,
+  '1gtgjvulgbd': R`Sisi siku-siku sebuah segitiga siku-siku adalah ⟦0⟧ cm dan ⟦1⟧ cm. Tentukan panjang hipotenusanya sampai 2 angka di belakang koma.`,
+  '1cost2rf2x0': R`$c = \sqrt{⟦0⟧^2 + ⟦1⟧^2} = \sqrt{⟦2⟧} \approx ⟦3⟧$ cm.`,
+  '14ejxhzoxmd': R`Segitiga siku-siku`,
+  '1s09bctuu2d': R`siku-siku`,
+  '1fk5t91if9w': R`Segitiga lancip`,
+  '7ds33wq0ok': R`lancip`,
+  '1kp4g4kchcj': R`Segitiga tumpul`,
+  'imjds8cff1': R`tumpul`,
+  'fvjprzss2k': R`Sisi-sisi sebuah segitiga adalah ⟦0⟧. Termasuk jenis apakah segitiga itu?`,
+  '5pal2wak00': R`Bandingkan dengan sisi terpanjang, ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ dan $⟦4⟧^2 = ⟦5⟧$. Karena $⟦6⟧ ⟦7⟧ ⟦8⟧$, segitiga itu <b>⟦9⟧</b>.`,
+
+  // circles
+  '162uvssoo3s': R`
+⟦0⟧
+<p>Perbandingan keliling dengan diameter selalu sama untuk setiap lingkaran: $\pi \approx 3{,}14159\ldots$ (sering didekati dengan $3{,}14$ atau $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+<h3>Busur dan juring</h3>
+<p>Juring dengan sudut pusat $\theta$ adalah bagian $\frac{\theta}{360^\circ}$ dari seluruh lingkaran:</p>
+⟦3⟧
+<h3>Sudut pada lingkaran</h3>
+<ul><li>Sudut pusat besarnya <b>dua kali</b> sudut keliling yang menghadap busur yang sama.</li><li>Sudut keliling yang menghadap diameter besarnya $90^\circ$.</li><li>Garis singgung tegak lurus jari-jari di titik singgungnya.</li></ul>
+⟦4⟧`,
+  '20wibo4oznt': R`Bagian-bagian lingkaran. Diameter adalah dua kali jari-jari: d = 2r.`,
+  '1y041ovnv67': R`<p>Jari-jari 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm dan $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Menuliskan jawaban "dalam $\pi$" membuatnya tetap eksak.</p>`,
+  '1ljhd2tb7ca': R`\text{Panjang busur} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{Luas juring} = \frac{\theta}{360^\circ} \times \pi r^2`,
+  '1aglezoi0gp': R`<p>Perhatikan apakah yang diberikan jari-jari atau diameter. Memasukkan $d$ ke $\pi r^2$ membuat luasnya empat kali lipat.</p>`,
+  '1iocjvynzqe': R`Dengan $\pi \approx 3{,}14$, tentukan keliling lingkaran berdiameter ⟦0⟧ cm.`,
+  '18sb05q1pm7': R`Dengan $\pi \approx 3{,}14$, tentukan keliling lingkaran berjari-jari ⟦0⟧ cm.`,
+  '143d0xflci4': R`\pi d = 3{,}14 \times ⟦0⟧`,
+  '25yf5bhyvhn': R`2\pi r = 2 \times 3{,}14 \times ⟦0⟧`,
+  'upb5nulrwg': R`$C = ⟦0⟧ = ⟦1⟧$ cm.`,
+  '1stzke7qj3q': R`Dengan $\pi \approx \frac{22}{7}$, tentukan keliling lingkaran berjari-jari ⟦0⟧ cm.`,
+  'vghbcaja6w': R`$C = 2\pi r = 2 \times \frac{22}{7} \times ⟦0⟧ = ⟦1⟧$ cm.`,
+  '91md2imk84': R`Tentukan luas lingkaran berdiameter ⟦0⟧ cm, nyatakan dalam $\pi$.`,
+  '6f1a511ku9': R`Tentukan luas lingkaran berjari-jari ⟦0⟧ cm, nyatakan dalam $\pi$.`,
+  'ctkfkfiuaj': R`⟦0⟧$A = \pi r^2 = \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².`,
+  '1uvm4lzorf9': R`Jari-jari adalah setengah diameter: ⟦0⟧ cm. `,
+  '2et0owexep4': R`Sebuah juring memiliki jari-jari ⟦0⟧ cm dan sudut pusat $⟦1⟧^\circ$. Tentukan panjang busurnya dalam $\pi$.`,
+  '1fpgoxe9d0': R`Busur $= \frac{⟦0⟧}{360} \times 2\pi \times ⟦1⟧ = ⟦2⟧$ cm.`,
+  '72i5kpinty': R`Sebuah juring memiliki jari-jari ⟦0⟧ cm dan sudut pusat $⟦1⟧^\circ$. Tentukan luasnya dalam $\pi$.`,
+  '1ayxkyrhaid': R`Luas $= \frac{⟦0⟧}{360} \times \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².`,
+  '1fzoa3xapl2': R`Keliling sebuah lingkaran adalah $⟦0⟧$ cm. Tentukan luasnya dalam $\pi$.`,
+  '22u3ive551m': R`Dari $2\pi r = ⟦0⟧$ diperoleh $r = ⟦1⟧$. Jadi $A = \pi r^2 = ⟦2⟧$ cm².`,
+  '1rcge82c97m': R`Sebuah sudut keliling besarnya $⟦0⟧^\circ$. Berapa besar sudut pusat yang menghadap busur yang sama?`,
+  '10ccm4ku9vc': R`Sudut pusat = dua kali sudut keliling: $2 \times ⟦0⟧^\circ = ⟦1⟧^\circ$.`,
+  '1ak5mj5jm7n': R`Sebuah sudut pusat besarnya $⟦0⟧^\circ$. Berapa besar sudut keliling yang menghadap busur yang sama?`,
+  'kfe0atvapi': R`Sudut keliling = setengah sudut pusat: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
+
+  // solids
+  '57zv1tsefg': R`
+<p><b>Prisma</b> memiliki penampang yang sama sepanjang tubuhnya, jadi volumenya cukup luas penampang dikali panjangnya. Limas atau kerucut yang pas masuk ke dalamnya memiliki tepat sepertiga volume itu.</p>
+⟦0⟧
+<p>Pada kerucut, $s$ adalah <b>garis pelukis</b>; menurut Pythagoras, $s = \sqrt{r^2 + h^2}$.</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '1uywbz6o84t': R`Bangun`,
+  'alc1a0j1b0': R`Volume`,
+  'bt7ak3o2ct': R`Luas permukaan`,
+  'm6y2tibz7j': R`Prisma`,
+  '3d3lt4gyiq': R`$A_{\text{alas}} \times h$`,
+  '2e5o3mkaw4p': R`jumlah luas semua sisi`,
+  '17avl8a1nf0': R`Tabung`,
+  'w68av9so54': R`Limas`,
+  '1xyfnhsvdp5': R`$\frac{1}{3} A_{\text{alas}} \times h$`,
+  '1u5rq973ap9': R`alas + segitiga-segitiga`,
+  '40atij69zq': R`Kerucut`,
+  '1cebx8i383a': R`Bola`,
+  'u0gc3phvmz': R`<p>Tabung dengan $r = 3$ cm dan $h = 10$ cm:</p><p>$V = \pi (3)^2 (10) = 90\pi$ cm³ $\approx 282{,}7$ cm³. &nbsp; $S = 2\pi(9) + 2\pi(3)(10) = 18\pi + 60\pi = 78\pi$ cm².</p>`,
+  '706fqlfv6n': R`<p>Selimut tabung jika dibuka menjadi persegi panjang: satu sisinya tinggi $h$, sisi lainnya keliling alas $2\pi r$. Dari sinilah $2\pi r h$ berasal.</p>`,
+  '20ndnd7mfh9': R`<p>Setengah bola: volumenya setengah volume bola, tetapi luas permukaannya $2\pi r^2$ (bagian lengkung) $+ \pi r^2$ (lingkaran datar) $= 3\pi r^2$.</p>`,
+  '6nduvxh56u': R`Tentukan volume tabung berjari-jari ⟦0⟧ cm dan bertinggi ⟦1⟧ cm, nyatakan dalam $\pi$.`,
+  '1u7xsdtlko1': R`$V = \pi r^2 h = \pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  '1ao9a1zkfz0': R`Tentukan volume kerucut berjari-jari ⟦0⟧ cm dan bertinggi ⟦1⟧ cm, nyatakan dalam $\pi$.`,
+  '11qtlcks0z2': R`$V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  'qcz5afk27t': R`Tentukan volume bola berjari-jari ⟦0⟧ cm, nyatakan dalam $\pi$.`,
+  '1a5wzmqqnbb': R`$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi \times ⟦0⟧ = ⟦1⟧$ cm³.`,
+  '2boy4rshpla': R`Tentukan luas permukaan bola berjari-jari ⟦0⟧ cm, nyatakan dalam $\pi$.`,
+  'myifdpmpki': R`$S = 4\pi r^2 = 4\pi \times ⟦0⟧ = ⟦1⟧$ cm².`,
+  '225sd035ctc': R`Tentukan luas permukaan tabung tertutup berjari-jari ⟦0⟧ cm dan bertinggi ⟦1⟧ cm, nyatakan dalam $\pi$.`,
+  'e5stvcnm4w': R`$S = 2\pi r^2 + 2\pi r h = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².`,
+  'ud0ddpzcpo': R`Sebuah kerucut memiliki jari-jari ⟦0⟧ cm dan tinggi ⟦1⟧ cm. Berapa panjang garis pelukisnya?`,
+  '1ds61tt8krc': R`$s = \sqrt{r^2 + h^2} = \sqrt{⟦0⟧ + ⟦1⟧} = ⟦2⟧$ cm.`,
+  '1xg851dcel': R`Sebuah kerucut memiliki jari-jari ⟦0⟧ cm dan garis pelukis ⟦1⟧ cm. Tentukan luas permukaannya dalam $\pi$.`,
+  '1l881dmx8vq': R`$S = \pi r^2 + \pi r s = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².`,
+  'fb33rdkq1e': R`Sebuah limas persegi memiliki rusuk alas ⟦0⟧ cm dan tinggi ⟦1⟧ cm. Berapa volumenya?`,
+  '113p07j0igk': R`$V = \frac{1}{3} \times \text{luas alas} \times h = \frac{1}{3} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  '15qifiaqosu': R`Penampang sebuah prisma segitiga berbentuk segitiga dengan alas ⟦0⟧ cm dan tinggi ⟦1⟧ cm. Panjang prisma ⟦2⟧ cm. Berapa volumenya?`,
+  '2b2ytzrzz4n': R`Luas penampang $= \frac{1}{2} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm². Volume $= ⟦3⟧ \times ⟦4⟧ = ⟦5⟧$ cm³.`,
+});

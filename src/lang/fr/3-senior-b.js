@@ -1,0 +1,139 @@
+/* Français — Lycée (suites → résolution de triangles) */
+addT('fr', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>Ici $a$ est le premier terme et $l$ le dernier.</p>
+⟦1⟧
+⟦2⟧
+<h3>Séries géométriques infinies</h3>
+⟦3⟧
+<p>Exemple : $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Notation sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ signifie $f(1) + f(2) + \cdots + f(n)$. À retenir : $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ et $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`Arithmétique`,
+  '1atqzl7ltey': R`Géométrique`,
+  'zs186mkwh5': R`on ajoute $d$ à chaque fois`,
+  '160nuilyero': R`on multiplie par $r$ à chaque fois`,
+  '99dr6iy4ys': R`Somme de n termes`,
+  '1yzmu3p7b4v': R`<p>La somme des 20 premiers termes de $3 ; 7 ; 11 ; \ldots$ vaut $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>`,
+  '8pkxhjbkfd': R`<p>Dans une suite arithmétique, $u_4 = 17$ et $u_9 = 42$. Cinq pas de $d$ les séparent, donc $5d = 25$, $d = 5$ et $a = 17 - 3 \times 5 = 2$.</p>`,
+  '3zsr22exdg': R`<p>Si $|r| \lt 1$, les termes diminuent assez vite pour que la somme se stabilise sur une valeur finie :</p>$$S_\infty = \frac{a}{1 - r}$$<p>Si $|r| \ge 1$, la série n’a pas de somme finie.</p>`,
+  '22swm7le3e': R`<p>Entre $u_p$ et $u_q$ il y a $q - p$ pas, et non $q - p + 1$.</p>`,
+  'v83xyier66': R`Dans une suite arithmétique, $u_{⟦0⟧} = ⟦1⟧$ et $u_{⟦2⟧} = ⟦3⟧$. Calculez $u_{⟦4⟧}$.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, donc $d = ⟦3⟧$. Puis $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ et $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`Calculez la somme des ⟦0⟧ premiers termes de la suite arithmétique ⟦1⟧ ; …`,
+  'vsiejpaurw': R`Calculez le terme $u_{⟦0⟧}$ de la suite géométrique ⟦1⟧ ; …`,
+  '2fg2ivyt6zs': R`Calculez la somme des ⟦0⟧ premiers termes de la série géométrique $⟦1⟧ + \cdots$`,
+  '6by3ukfsg3': R`Calculez la somme infinie de la série géométrique de premier terme ⟦0⟧ et de raison $⟦1⟧$.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$, donc $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`Calculez $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.`,
+  'zk5lcxjf3d': R`La première année, Chloé gagne ⟦0⟧ euros, et son salaire augmente de ⟦1⟧ euros chaque année. Combien gagne-t-elle au total pendant ses ⟦2⟧ premières années ?`,
+  '222tg0c1ffy': R`C’est une série arithmétique : $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ euros.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>Dans un triangle rectangle, pour un angle aigu $\theta$ :</p>
+⟦0⟧
+<p>Moyen mnémotechnique : <b>SOH-CAH-TOA</b> (Sinus = Opposé/Hypoténuse, Cosinus = Adjacent/Hypoténuse, Tangente = Opposé/Adjacent). De plus, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, et les inverses sont $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Valeurs remarquables</h3>
+⟦1⟧
+<h3>Radians</h3>
+<p>$180^\circ = \pi$ radians. Pour passer des degrés aux radians, on multiplie par $\frac{\pi}{180}$ ; des radians aux degrés, par $\frac{180}{\pi}$. Ainsi $60^\circ = \frac{\pi}{3}$ et $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Le cercle trigonométrique</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{opposé}}{\text{hypoténuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypoténuse}} \qquad \tan\theta = \frac{\text{opposé}}{\text{adjacent}}`,
+  'ig8vf2x1y6': R`sin θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`non définie`,
+  'uyvhui04wr': R`<p>Pour tout angle $\theta$, le point du cercle trigonométrique est $(\cos\theta ; \sin\theta)$. Signes par quadrant — « <b>T</b>ous, <b>S</b>inus, <b>T</b>angente, <b>C</b>osinus » : tous positifs dans I, le sinus dans II, la tangente dans III, le cosinus dans IV.</p><p>Utilisez l’<b>angle de référence</b> (l’angle aigu avec l’axe des $x$) avec le bon signe : $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>À 30 m de distance, l’angle d’élévation vers le sommet d’une tour est de $60^\circ$. Hauteur $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52{,}0$ m.</p>`,
+  'neyxpix7b9': R`<p>Vérifiez le mode de votre calculatrice (DEG ou RAD) avant de calculer des fonctions trigonométriques.</p>`,
+  '67i6rxexro': R`Donnez la valeur exacte de $⟦0⟧ ⟦1⟧$.`,
+  'pdy7ypcls7': R`Les valeurs exactes comme sqrt(3)/2 sont acceptées.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ est dans le quadrant ⟦2⟧, où $⟦3⟧$ est ⟦4⟧. L’angle de référence est $⟦5⟧^\circ$ et $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, donc $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧À $⟦1⟧^\circ$, le point du cercle trigonométrique est $⟦2⟧$ $= (\cos\theta ; \sin\theta)$, donc $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`Convertissez $⟦0⟧^\circ$ en radians.`,
+  'gs4x19407v': R`On multiplie par $\frac{\pi}{180}$ : $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`Convertissez $⟦0⟧$ radians en degrés.`,
+  'zfi973h2bw': R`On multiplie par $\frac{180}{\pi}$ : $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`Dans un triangle rectangle, le côté adjacent à un angle de $⟦0⟧^\circ$ mesure ⟦1⟧ cm. Calculez le côté opposé, à 0,01 près.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{opp}}{⟦1⟧}$, donc opp $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`Un triangle rectangle a une hypoténuse de ⟦0⟧ cm et un angle de $⟦1⟧^\circ$. Calculez le côté opposé à cet angle, à 0,01 près.`,
+  '22kukzeyh6': R`Un triangle rectangle a une hypoténuse de ⟦0⟧ cm et un angle de $⟦1⟧^\circ$. Calculez le côté adjacent à cet angle, à 0,01 près.`,
+  'w56ix8w8yr': R`opp`,
+  '5ydwv3it97': R`adj`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, donc le côté $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  '2abmsiuwu52': R`$\theta$ est aigu et $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Calculez $⟦2⟧\theta$.`,
+  '1qudt03n4v8': R`Dessinez un triangle rectangle de côté opposé ⟦0⟧ et d’hypoténuse ⟦1⟧ ; le côté adjacent vaut $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. Donc $⟦5⟧$.`,
+  '28dk1p4hmng': R`D’un point situé à ⟦0⟧ m du pied d’un immeuble, l’angle d’élévation vers le sommet est de $⟦1⟧^\circ$. Quelle est la hauteur de l’immeuble ? Donnez une valeur exacte.`,
+  '1fxpcv94bft': R`Les valeurs exactes comme 12sqrt(3) sont acceptées.`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ et $\tan ⟦2⟧^\circ = ⟦3⟧$, donc $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`Quadrant I`,
+  '4o87w2367v': R`Quadrant II`,
+  '11djzpzc46w': R`Quadrant III`,
+  '26d39yjlrkj': R`Quadrant IV`,
+  '1t5qxibr3fa': R`Dans quel quadrant se trouve $\theta$ si $⟦0⟧\theta ⟦1⟧ 0$ et $⟦2⟧\theta ⟦3⟧ 0$ ?`,
+  '1856p6n9vrk': R`Le sinus est positif dans I et II ; le cosinus dans I et IV ; la tangente dans I et III. Seul le <b>⟦0⟧</b> vérifie les deux conditions.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p>Une <b>identité</b> est vraie pour tout angle. Les plus importantes :</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Résoudre des équations trigonométriques</h3>
+<p>Trouvez l’angle de référence, puis tous les angles de l’intervalle demandé ayant le bon signe.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`Identités de Pythagore`,
+  '28msif6x03y': R`Formules d’addition`,
+  '1qlqqnnfd2i': R`Formules de duplication`,
+  '14xjp53gt4x': R`<p>Résolvez $\sin x = -\frac{1}{2}$ pour $0^\circ \le x \lt 360^\circ$. L’angle de référence est $30^\circ$ ; le sinus est négatif dans les quadrants III et IV, donc $x = 180^\circ + 30^\circ = 210^\circ$ ou $x = 360^\circ - 30^\circ = 330^\circ$.</p>`,
+  '1hkvix57r6q': R`<p>Si $\sin\theta = \frac{3}{5}$ et que $\theta$ est dans le quadrant II, alors $\cos\theta = -\frac{4}{5}$ — l’identité de Pythagore donne la valeur absolue, le quadrant donne le signe.</p>`,
+  '64164qr2jw': R`$\theta$ est aigu et $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Calculez $\sin 2\theta$.`,
+  '27wxa35nxaa': R`Sachant que $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$, calculez $\cos 2\theta$.`,
+  'szbqx0thv8': R`Résolvez $⟦0⟧ x = ⟦1⟧$ pour $0^\circ \le x \lt 360^\circ$.`,
+  '22m72qx0p66': R`Écrivez les angles en degrés, séparés par un point-virgule, par exemple 30 ; 150.`,
+  'ygon4mdoxw': R`L’angle de référence est $⟦0⟧^\circ$. $⟦1⟧$ est ⟦2⟧ dans les quadrants de $⟦3⟧^\circ$ et $⟦4⟧^\circ$, donc $x = ⟦5⟧^\circ$ ou $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`la différence de deux carrés, puis $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`la formule de duplication`,
+  'sj6onjglro': R`le développement, qui donne $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$`,
+  '7gzo83e030': R`On utilise ⟦0⟧ : $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`Donnez la valeur exacte de $⟦0⟧$.`,
+  '2ayoc6nyniw': R`Les valeurs exactes comme (sqrt(6)+sqrt(2))/4 sont acceptées.`,
+  '1mewvixpsgq': R`Écrivez-le sous la forme $⟦0⟧$ et utilisez la formule d’addition avec les valeurs exactes pour $30^\circ$, $45^\circ$ et $60^\circ$ : on obtient $⟦1⟧$.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ et $\theta$ est dans le quadrant ⟦1⟧. Calculez $⟦2⟧$.`,
+  '19cq8bi37ib': R`Le triangle a pour côtés ⟦0⟧, ⟦1⟧ et ⟦2⟧. Dans le quadrant ⟦3⟧, le sinus est ⟦4⟧ et le cosinus est ⟦5⟧, donc $\sin\theta = ⟦6⟧$ et $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>Nommez un triangle de sorte que le côté $a$ soit opposé à l’angle $A$, $b$ opposé à $B$ et $c$ opposé à $C$. Ces règles valent pour <b>tout</b> triangle, pas seulement pour les triangles rectangles.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>À utiliser quand on connaît un côté et l’angle opposé, plus un autre côté ou un autre angle.</p>`,
+  'mp16igkhf3': R`Loi des sinus`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>À utiliser avec deux côtés et l’angle compris entre eux, ou avec les trois côtés.</p>`,
+  'kgaid4s1rf': R`Loi des cosinus (Al-Kashi)`,
+  '1w8yehsbjfu': R`$$\text{Aire} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Héron : } \text{Aire} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>Côtés 5 et 8 avec un angle compris de $60^\circ$ : le troisième côté vaut $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, et l’aire vaut $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>`,
+  '11plyaa7o04': R`<p>La loi des sinus peut donner deux triangles possibles quand on cherche un angle (le « cas ambigu ») : $\sin B = 0{,}8$ permet $B \approx 53{,}1^\circ$ <i>ou</i> $B \approx 126{,}9^\circ$. Vérifiez si chacun convient.</p>`,
+  'l2pu7cls8u': R`Dans le triangle $ABC$, $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm et $A = ⟦2⟧^\circ$. Calculez $a$ à 0,01 près.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, donc $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`Un triangle a pour côtés ⟦0⟧, ⟦1⟧ et ⟦2⟧. Calculez l’angle opposé au côté de longueur ⟦3⟧.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, donc $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`Dans le triangle $ABC$, $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$ et $a = ⟦2⟧$ cm. Calculez $b$ à 0,01 près.`,
+  'i5vdhhm6yu': R`Loi des sinus : $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, donc $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`Calculez l’aire exacte d’un triangle de côtés ⟦0⟧ cm et ⟦1⟧ cm formant un angle de $⟦2⟧^\circ$.`,
+  '25opm4iwiww': R`Les valeurs exactes comme 6sqrt(3) sont acceptées.`,
+  'cb99xoymur': R`Aire $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$, avec $\sin ⟦3⟧^\circ = ⟦4⟧$, soit $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`Utilisez la formule de Héron pour calculer l’aire d’un triangle de côtés ⟦0⟧, ⟦1⟧ et ⟦2⟧.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Aire $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});

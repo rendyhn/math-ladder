@@ -1,0 +1,165 @@
+/* Español — Secundaria (núcleo, enteros → razones) */
+addT('es', {
+  // core
+  '1x23luhdn24': R`Escribe un número entero o una fracción como -3/4.`,
+  'oe48n1yjho': R`Escribe una respuesta como 49pi.`,
+  '1pwkxeh9gz6': R`Diagrama de Venn: dos círculos A y B que se cortan dentro de un rectángulo U. La zona común es A intersección B.`,
+  '20fnrxy868c': R`solo A`,
+  '270f53k5ok8': R`solo B`,
+  '1je4zqnj4vo': R`fuera de ambos: (A ∪ B)′`,
+  '1mdy4rrlpik': R`Triángulo rectángulo con catetos a y b e hipotenusa c opuesta al ángulo recto`,
+  '1x3numfhp6n': R`Círculo de centro O con un radio r, un diámetro, una cuerda y un sector sombreado`,
+  '19a9nt12ww1': R`diámetro`,
+  '2dw7tpqx5ho': R`sector`,
+  '187npo1zduj': R`cuerda`,
+
+  // integers
+  '1d3b0kga2d8': R`
+<p>Los <b>números enteros</b> son los números naturales, sus opuestos y el cero: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ En la recta numérica los números aumentan hacia la derecha, así que $-7 \lt -2$ aunque 7 sea mayor que 2.</p>
+<p>El <b>valor absoluto</b> $|a|$ es la distancia al 0: $|-6| = 6$ y $|6| = 6$.</p>
+<h3>Sumar y restar</h3>
+⟦0⟧
+<h3>Multiplicar y dividir</h3>
+⟦1⟧
+⟦2⟧
+<p>Usos reales: temperaturas bajo cero, alturas bajo el nivel del mar, deudas y plantas bajo tierra.</p>
+⟦3⟧`,
+  'y08mdvxdvx': R`<ul><li><b>Mismo signo:</b> suma los valores absolutos y conserva el signo. $-4 + (-9) = -13$.</li><li><b>Signos distintos:</b> resta los valores absolutos y pon el signo del de mayor valor absoluto. $-11 + 5 = -6$.</li><li><b>Restar</b> es sumar el opuesto: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
+  '265jmr0pgn6': R`Signos`,
+  '18hy4wrreq9': R`Resultado`,
+  'smeasc7k44': R`+ y +`,
+  'pch2ir8ey8': R`positivo`,
+  '1etdbat34sz': R`− y −`,
+  'ziyl69hweo': R`+ y −`,
+  '2ffct8v299o': R`negativo`,
+  '238sv1i1dpv': R`− y +`,
+  'woqo0gjqdb': R`<p>$-3^2 = -9$, pero $(-3)^2 = 9$. Sin paréntesis, la potencia afecta solo al 3.</p>`,
+  '1vaqzb7dhrg': R`Mismo signo: suma los valores absolutos y conserva el signo.`,
+  '1gzm31e47qm': R`Signos distintos: resta los valores absolutos y conserva el signo del de mayor valor absoluto.`,
+  '27t807op1rz': R`Restar es sumar el opuesto: $⟦0⟧ - ⟦1⟧ = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$.`,
+  'dkidis5a97': R`Signos iguales dan resultado positivo`,
+  '1htjniy3zg4': R`Signos distintos dan resultado negativo`,
+  'iepdkqxdg4': R`Calcula $⟦0⟧ \times ⟦1⟧ - ⟦2⟧$.`,
+  'pxi31oj3ys': R`Primero multiplica: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Después $⟦3⟧ - ⟦4⟧ = ⟦5⟧ + ⟦6⟧ = ⟦7⟧$.`,
+  '26rnszv74s7': R`A las 6 de la mañana la temperatura era de $⟦0⟧^\circ\text{C}$. A mediodía había subido $⟦1⟧^\circ\text{C}$ y a medianoche había bajado $⟦2⟧^\circ\text{C}$ respecto a la de mediodía. ¿Qué temperatura hacía a medianoche?`,
+  'fyyovqsih2': R`$⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$, así que hacía $⟦4⟧^\circ\text{C}$.`,
+  '1ag4iuv7vpa': R`Calcula $|⟦0⟧| - |⟦1⟧|$.`,
+  '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ y $|⟦2⟧| = ⟦3⟧$, así que el valor es $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
+
+  // exponents
+  '2d43wqplznz': R`
+<p>Una <b>potencia</b> abrevia una multiplicación repetida: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ factores}}$. En $2^5 = 32$, 2 es la <b>base</b> y 5 es el <b>exponente</b>.</p>
+<h3>Propiedades de las potencias</h3>
+⟦0⟧
+⟦1⟧
+<h3>Raíces</h3>
+<p>La raíz cuadrada deshace el cuadrado: $\sqrt{81} = 9$ porque $9^2 = 81$. La raíz cúbica deshace el cubo: $\sqrt[3]{64} = 4$ porque $4^3 = 64$.</p>
+⟦2⟧
+⟦3⟧`,
+  '21iigvito9y': R`Propiedad`,
+  '2du0zx6ztd9': R`<p>Simplifica $(2x^3)(5x^4)$: multiplica los números y suma los exponentes, $10x^{7}$.</p>`,
+  '2b2ar8gx2t7': R`<p>Para simplificar una raíz cuadrada, extrae el mayor factor que sea un cuadrado perfecto: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
+  '28pcl4skbrd': R`<p>$x^3 \cdot x^4$ es $x^7$, no $x^{12}$: se multiplican potencias de la misma base <i>sumando</i> los exponentes. Y $\sqrt{9 + 16} = 5$, no $3 + 4$.</p>`,
+  's9xs5b9gme': R`Calcula $⟦0⟧^{⟦1⟧}$.`,
+  'y0efpdptbg': R`$⟦0⟧^{⟦1⟧}$ significa ⟦2⟧ factores iguales a ⟦3⟧: $⟦4⟧ = ⟦5⟧$.⟦6⟧`,
+  'f0v39gimat': R` Un número impar de factores negativos da un resultado negativo.`,
+  '1a0fe39cn50': R` Un número par de factores negativos da un resultado positivo.`,
+  'gmyxohq5hl': R`Simplifica $(⟦0⟧⟦1⟧^{⟦2⟧})(⟦3⟧⟦4⟧^{⟦5⟧})$.`,
+  '19i5sbwj9gf': R`Multiplica los números y <b>suma</b> los exponentes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ y $⟦3⟧^{⟦4⟧} \cdot ⟦5⟧^{⟦6⟧} = ⟦7⟧^{⟦8⟧}$. Resultado: $⟦9⟧⟦10⟧^{⟦11⟧}$.`,
+  'd17nxbyour': R`Simplifica $\dfrac{⟦0⟧⟦1⟧^{⟦2⟧}}{⟦3⟧⟦4⟧^{⟦5⟧}}$.`,
+  'zvet0x3ty3': R`Divide los números y <b>resta</b> los exponentes: $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ y $⟦3⟧^{⟦4⟧ - ⟦5⟧} = ⟦6⟧^{⟦7⟧}$.`,
+  'owsivnzbiv': R`Simplifica $(⟦0⟧⟦1⟧^{⟦2⟧})^{⟦3⟧}$.`,
+  '16p8bz51ffa': R`Eleva cada factor a ⟦0⟧: $⟦1⟧^{⟦2⟧} = ⟦3⟧$ y $(⟦4⟧^{⟦5⟧})^{⟦6⟧} = ⟦7⟧^{⟦8⟧}$.`,
+  '1xezjl2w04x': R`Calcula $⟦0⟧^0 + ⟦1⟧^{-⟦2⟧}$.`,
+  '188gl5tkaea': R`Escribe una fracción como 9/8.`,
+  'ko9qy4d1ca': R`$⟦0⟧^0 = 1$ y $⟦1⟧^{-⟦2⟧} = \frac{1}{⟦3⟧}$, así que la suma es $1 + \frac{1}{⟦4⟧} = \frac{⟦5⟧}{⟦6⟧}$.`,
+  '1n967l6wl5g': R`Calcula $⟦0⟧^{-⟦1⟧}$.`,
+  'zx2y9sarlt': R`Escribe una fracción como 1/8.`,
+  'yfk682by4y': R`Un exponente negativo significa «uno entre»: $⟦0⟧^{-⟦1⟧} = \frac{1}{⟦2⟧^{⟦3⟧}} = \frac{1}{⟦4⟧}$.`,
+  '29kkp8bp96o': R`Calcula $\sqrt{⟦0⟧}$.`,
+  '130msfu0zcr': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, así que $\sqrt{⟦3⟧} = ⟦4⟧$.`,
+  '2gon6mkcmhb': R`Calcula $\sqrt[3]{⟦0⟧}$.`,
+  '214ubtovi6i': R`$⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$, así que $\sqrt[3]{⟦4⟧} = ⟦5⟧$.`,
+  '30ljqjiajh': R`Simplifica $\sqrt{⟦0⟧}$.`,
+  '1dnbn17q9fj': R`Escribe una respuesta como 3sqrt(2).`,
+  'r5mpjrvznb': R`Busca el mayor factor que sea un cuadrado perfecto: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Así, $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
+
+  // sci-notation
+  '2855qmmjjc': R`
+<p>Los científicos escriben los números muy grandes o muy pequeños de forma compacta como</p>
+⟦0⟧
+<ul><li>La distancia al Sol, unos $150\,000\,000$ km, es $1{,}5 \times 10^{8}$ km.</li><li>Un glóbulo rojo, de unos $0{,}000\,008$ m de ancho, mide $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+<h3>Calcular</h3>
+<p>Multiplica (o divide) los números de delante y suma (o resta) los exponentes. Después ajusta el número de delante si no está entre 1 y 10:</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ entero}`,
+  '1phwx4rhhb0': R`<p>Cuenta cuántos lugares se mueve la coma para que quede exactamente una cifra distinta de cero delante de ella. Los números grandes (la coma va a la izquierda) dan un exponente <b>positivo</b>; los menores que 1 (la coma va a la derecha), un exponente <b>negativo</b>.</p>`,
+  '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
+  'uws8i7cmm7': R`\frac{6 \times 10^{9}}{8 \times 10^{3}} = 0{,}75 \times 10^{6} = 7{,}5 \times 10^{5}`,
+  '1bgde7du4ux': R`<p>$23 \times 10^{4}$ tiene el valor correcto, pero no está en notación científica: el número de delante debe ser menor que 10.</p>`,
+  '1jl1f7quddk': R`Escribe ⟦0⟧ en notación científica.`,
+  '1xhcd6rnqeh': R`Mueve la coma ⟦0⟧ lugares a la izquierda para que quede una sola cifra delante: $⟦1⟧ = ⟦2⟧ \times 10^{⟦3⟧}$.`,
+  'sb71mbidjv': R`Mueve la coma ⟦0⟧ lugares a la derecha para que quede una cifra distinta de cero delante: $⟦1⟧ = ⟦2⟧ \times 10^{-⟦3⟧}$.`,
+  '1fxdkt6b40w': R`Escribe $⟦0⟧ \times 10^{⟦1⟧}$ como número ordinario.`,
+  '1lry42zhbux': R`Mueve la coma ⟦0⟧ lugares a la derecha: <b>⟦1⟧</b>.`,
+  '1x5u9exutdv': R`Mueve la coma 1 lugar a la izquierda: <b>⟦0⟧</b>.`,
+  '550xmeglh4': R`Mueve la coma ⟦0⟧ lugares a la izquierda: <b>⟦1⟧</b>.`,
+  '1gs42dv9cjp': R`Calcula $(⟦0⟧ \times 10^{⟦1⟧}) \times (⟦2⟧ \times 10^{⟦3⟧})$. Da el resultado en notación científica.`,
+  'fs4t6k5mks': R`Multiplica los números de delante y suma los exponentes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ y $10^{⟦3⟧} \times 10^{⟦4⟧} = 10^{⟦5⟧}$. ⟦6⟧`,
+  '1zt4osszqy5': R`Como ⟦0⟧ no es menor que 10, reescribe $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
+  '1hosaw5g8gs': R`Resultado: $⟦0⟧ \times 10^{⟦1⟧}$.`,
+  '1rhqt7i7pkj': R`Calcula $\dfrac{⟦0⟧ \times 10^{⟦1⟧}}{⟦2⟧ \times 10^{⟦3⟧}}$. Da el resultado en notación científica.`,
+  '3gwofajvgq': R`Divide los números de delante y resta los exponentes: $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ y $10^{⟦3⟧ - ⟦4⟧} = 10^{⟦5⟧}$.⟦6⟧`,
+  '1ujla3379au': R` Como ⟦0⟧ es menor que 1, reescribe $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
+
+  // ratio
+  'j1hx7015fs': R`
+<p>Una <b>razón</b> $a : b$ compara dos cantidades. Como las fracciones, las razones se simplifican dividiendo ambos términos entre su MCD: $18 : 24 = 3 : 4$.</p>
+<h3>Repartos proporcionales</h3>
+⟦0⟧
+<h3>Tasas y valor unitario</h3>
+<p>Una <b>tasa</b> compara cantidades con unidades distintas: km por hora, dólares por kg. Hallar el valor de <b>una</b> unidad (el valor unitario) resuelve la mayoría de los problemas.</p>
+⟦1⟧
+<h3>Proporcionalidad directa e inversa</h3>
+⟦2⟧
+⟦3⟧
+<h3>Escalas de mapas</h3>
+<p>Una escala de $1 : 50\,000$ significa que 1 cm en el mapa equivale a $50\,000$ cm $= 500$ m $= 0{,}5$ km en la realidad.</p>
+⟦4⟧`,
+  '1ldxptmm0q1': R`<p>Reparte 60 caramelos en la razón $2 : 3$.</p><ol><li>Partes totales: $2 + 3 = 5$.</li><li>Una parte: $60 \div 5 = 12$.</li><li>Repartos: $2 \times 12 = 24$ y $3 \times 12 = 36$.</li></ol>`,
+  'mtzadc2zz9': R`\text{velocidad} = \frac{\text{distancia}}{\text{tiempo}} \qquad \text{distancia} = \text{velocidad} \times \text{tiempo}`,
+  '1lx74znbkzq': R`<ul><li><b>Directa:</b> las dos cantidades crecen juntas, $y = kx$. El doble de cuadernos cuesta el doble.</li><li><b>Inversa:</b> una crece cuando la otra disminuye, $xy = k$. El doble de trabajadores termina en la mitad de tiempo.</li></ul>`,
+  'a6l90vp81i': R`<p>6 trabajadores construyen un muro en 10 días. El trabajo equivale a $6 \times 10 = 60$ jornadas, así que 4 trabajadores necesitan $60 \div 4 = 15$ días.</p>`,
+  '2arjky763hz': R`<p>Antes de comparar, usa las mismas unidades. Y comprueba si la situación es directa o inversa: «más trabajadores, menos días» es inversa.</p>`,
+  '1acmfldad41': R`Simplifica la razón ⟦0⟧ : ⟦1⟧.`,
+  '1y50fzcs3bf': R`Escribe la razón como 3:4.`,
+  '5iztjnzgue': R`El MCD de ambos términos es ⟦0⟧; al dividirlos entre ⟦0⟧ queda ⟦1⟧ : ⟦2⟧ = ⟦3⟧ : ⟦4⟧.`,
+  '2crne058qbs': R`Alí`,
+  '18poqam78za': R`Siti`,
+  '4lzqcmqqd4': R`Rina`,
+  'izwfd6xg8i': R`Sam`,
+  'bs57t3iign': R`Kim`,
+  'h7jorlb8al': R`Se reparten ⟦0⟧ canicas entre ⟦1⟧ y ⟦2⟧ en la razón ⟦3⟧ : ⟦4⟧. ¿Cuántas canicas recibe ⟦5⟧?`,
+  '2ffhbqedp3i': R`Hay $⟦0⟧ + ⟦1⟧ = ⟦2⟧$ partes, y cada una vale $⟦3⟧ \div ⟦4⟧ = ⟦5⟧$. ⟦6⟧ recibe $⟦7⟧ \times ⟦8⟧ = ⟦9⟧$.`,
+  'oh7i0xfb4t': R`cuadernos`,
+  'ia267mackq': R`bolígrafos`,
+  'ojwqqxz8z0': R`mangos`,
+  '2c5x6tu8q2m': R`entradas`,
+  't42rjalvd2': R`⟦0⟧ ⟦1⟧ cuestan ⟦2⟧ dólares. Con el mismo precio por unidad, ¿cuánto cuestan ⟦3⟧ ⟦4⟧?`,
+  '1j6drw8o3jp': R`Una unidad cuesta $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ dólares, así que ⟦3⟧ cuestan $⟦4⟧ \times ⟦5⟧ = ⟦6⟧$ dólares.`,
+  '2cnfx0hut7n': R`⟦0⟧ trabajadores construyen un muro en ⟦1⟧ días. Trabajando al mismo ritmo, ¿cuántos días tardarían ⟦2⟧ trabajadores?`,
+  '1qn5tzfsu4y': R`días`,
+  '1prw35yduvi': R`Es proporcionalidad inversa. El trabajo requiere $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ jornadas, así que ⟦3⟧ trabajadores necesitan $⟦4⟧ \div ⟦5⟧ = ⟦6⟧$ días.`,
+  '294kafpc434': R`Un mapa tiene una escala de 1 : ⟦0⟧. Dos pueblos están a ⟦1⟧ cm en el mapa. ¿A qué distancia están en la realidad, en kilómetros?`,
+  'yvvr6sez8h': R`Distancia real $= ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm. Como $1 \text{ km} = 100\,000 \text{ cm}$, son $⟦3⟧$ km.`,
+  '1q0gzbqlk2i': R`Un coche recorre ⟦0⟧ km en ⟦1⟧ horas. ¿Cuál es su velocidad media?`,
+  '1350ox6hh5s': R`$\text{velocidad} = \frac{\text{distancia}}{\text{tiempo}} = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$ km/h.`,
+  '1eoj4cx14t6': R`Un autobús circula a ⟦0⟧ km/h durante ⟦1⟧ horas. ¿Qué distancia recorre?`,
+  '1dged1n5jn6': R`$\text{distancia} = \text{velocidad} \times \text{tiempo} = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ km.`,
+  'aw6tzi78c6': R`¿Cuántas horas se tarda en recorrer ⟦0⟧ km a ⟦1⟧ km/h?`,
+  '2eruzlr62qp': R`horas`,
+  '278tsci6f7d': R`$\text{tiempo} = \frac{\text{distancia}}{\text{velocidad}} = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$ horas.`,
+});

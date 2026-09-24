@@ -1,0 +1,1185 @@
+##### core
+@1x23luhdn24
+Type a whole number or a fraction such as -3/4.
+@oe48n1yjho
+Type an answer such as 49pi.
+@1pwkxeh9gz6
+Venn diagram: two overlapping circles A and B inside a rectangle U. The overlap is A intersect B.
+@20fnrxy868c
+A only
+@270f53k5ok8
+B only
+@1je4zqnj4vo
+outside both: (A ∪ B)′
+@1mdy4rrlpik
+Right triangle with legs a and b and hypotenuse c opposite the right angle
+@1x3numfhp6n
+Circle with centre O, a radius r, a diameter, a chord and a shaded sector
+@19a9nt12ww1
+diameter
+@2dw7tpqx5ho
+sector
+@187npo1zduj
+chord
+
+##### integers
+@1d3b0kga2d8  ; 0=Key(T`<ul><li><b>Same signs:</b> add the | 1=Tbl([T`Signs`, T`Result`, T`Example`], [ | 2=Ex(T`<p>$-5 \times (-4) - (-7) = 20 + 7  | 3=Tip(T`<p>$-3^2 = -9$ but $(-3)^2 = 9$. W
+
+<p>The <b>integers</b> are the whole numbers and their opposites: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ On a number line, numbers increase to the right, so $-7 \lt -2$ even though 7 is bigger than 2.</p>
+<p>The <b>absolute value</b> $|a|$ is the distance from 0: $|-6| = 6$ and $|6| = 6$.</p>
+<h3>Adding and subtracting</h3>
+⟦0⟧
+<h3>Multiplying and dividing</h3>
+⟦1⟧
+⟦2⟧
+<p>Real-world uses: temperatures below zero, heights below sea level, debts, and floors below ground.</p>
+⟦3⟧
+@y08mdvxdvx
+<ul><li><b>Same signs:</b> add the sizes, keep the sign. $-4 + (-9) = -13$.</li><li><b>Different signs:</b> subtract the sizes, take the sign of the larger size. $-11 + 5 = -6$.</li><li><b>Subtracting</b> means adding the opposite: $3 - (-8) = 3 + 8 = 11$.</li></ul>
+@265jmr0pgn6
+Signs
+@18hy4wrreq9
+Result
+@smeasc7k44
++ and +
+@pch2ir8ey8
+positive
+@1etdbat34sz
+− and −
+@ziyl69hweo
++ and −
+@2ffct8v299o
+negative
+@238sv1i1dpv
+− and +
+@woqo0gjqdb
+<p>$-3^2 = -9$ but $(-3)^2 = 9$. Without brackets, the power applies only to the 3.</p>
+@1vaqzb7dhrg
+Same signs: add the sizes and keep the sign.
+@1gzm31e47qm
+Different signs: subtract the sizes and keep the sign of the larger one.
+@27t807op1rz  ; 0=a | 1=pn(b) | 2=a | 3=pn(-b) | 4=a - b
+Subtracting means adding the opposite: $⟦0⟧ - ⟦1⟧ = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$.
+@dkidis5a97
+Same signs give a positive result
+@1htjniy3zg4
+Different signs give a negative result
+@iepdkqxdg4  ; 0=a | 1=pn(b) | 2=pn(c)
+Evaluate $⟦0⟧ \times ⟦1⟧ - ⟦2⟧$.
+@pxi31oj3ys  ; 0=a | 1=pn(b) | 2=a * b | 3=a * b | 4=pn(c) | 5=a * b | 6=pn(-c) | 7=v
+Multiply first: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Then $⟦3⟧ - ⟦4⟧ = ⟦5⟧ + ⟦6⟧ = ⟦7⟧$.
+@26rnszv74s7  ; 0=t0 | 1=up | 2=dn
+At 6 a.m. the temperature was $⟦0⟧^\circ\text{C}$. By noon it had risen by $⟦1⟧^\circ\text{C}$, and by midnight it had fallen $⟦2⟧^\circ\text{C}$ from the noon temperature. What was the temperature at midnight?
+@fyyovqsih2  ; 0=t0 | 1=up | 2=dn | 3=t | 4=t
+$⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$, so it was $⟦4⟧^\circ\text{C}$.
+@1ag4iuv7vpa  ; 0=a | 1=b
+Evaluate $|⟦0⟧| - |⟦1⟧|$.
+@1hal8q9tj2u  ; 0=a | 1=Math.abs(a) | 2=b | 3=Math.abs(b) | 4=Math.abs(a) | 5=Math.abs(b) | 6=v
+$|⟦0⟧| = ⟦1⟧$ and $|⟦2⟧| = ⟦3⟧$, so the value is $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.
+
+##### exponents
+@2d43wqplznz  ; 0=Tbl([T`Law`, T`Example`], [[T`$a^m \cdot | 1=Ex(T`<p>Simplify $(2x^3)(5x^4)$: multipl | 2=Key(T`<p>To simplify a square root, pull | 3=Tip(T`<p>$x^3 \cdot x^4$ is $x^7$, not $
+
+<p>An <b>exponent</b> (power) counts repeated multiplication: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ factors}}$. In $2^5 = 32$, 2 is the <b>base</b> and 5 is the <b>exponent</b>.</p>
+<h3>Laws of exponents</h3>
+⟦0⟧
+⟦1⟧
+<h3>Roots</h3>
+<p>The square root undoes squaring: $\sqrt{81} = 9$ because $9^2 = 81$. The cube root undoes cubing: $\sqrt[3]{64} = 4$ because $4^3 = 64$.</p>
+⟦2⟧
+⟦3⟧
+@21iigvito9y
+Law
+@2du0zx6ztd9
+<p>Simplify $(2x^3)(5x^4)$: multiply the numbers and add the exponents, $10x^{7}$.</p>
+@2b2ar8gx2t7
+<p>To simplify a square root, pull out the largest square factor: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$
+@28pcl4skbrd
+<p>$x^3 \cdot x^4$ is $x^7$, not $x^{12}$ — multiply the bases, <i>add</i> the exponents. And $\sqrt{9 + 16} = 5$, not $3 + 4$.</p>
+@s9xs5b9gme  ; 0=B | 1=n
+Evaluate $⟦0⟧^{⟦1⟧}$.
+@y0efpdptbg  ; 0=B | 1=n | 2=n | 3=pn(base) | 4=Array(n).fill(pn(base)).join(T` \times ` | 5=M(v) | 6=isN ? (n % 2 ? T` An odd number of negat
+$⟦0⟧^{⟦1⟧}$ means ⟦2⟧ factors of ⟦3⟧: $⟦4⟧ = ⟦5⟧$.⟦6⟧
+@f0v39gimat
+ An odd number of negative factors gives a negative answer.
+@1a0fe39cn50
+ An even number of negative factors gives a positive answer.
+@gmyxohq5hl  ; 0=p | 1=v | 2=a | 3=q | 4=v | 5=b
+Simplify $(⟦0⟧⟦1⟧^{⟦2⟧})(⟦3⟧⟦4⟧^{⟦5⟧})$.
+@19i5sbwj9gf  ; 0=p | 1=q | 2=p * q | 3=v | 4=a | 5=v | 6=b | 7=v | 8=a + b | 9=p * q | 10=v | 11=a + b
+Multiply the numbers and <b>add</b> the exponents: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ and $⟦3⟧^{⟦4⟧} \cdot ⟦5⟧^{⟦6⟧} = ⟦7⟧^{⟦8⟧}$. Answer: $⟦9⟧⟦10⟧^{⟦11⟧}$.
+@d17nxbyour  ; 0=p * q | 1=v | 2=a + b | 3=q | 4=v | 5=b
+Simplify $\dfrac{⟦0⟧⟦1⟧^{⟦2⟧}}{⟦3⟧⟦4⟧^{⟦5⟧}}$.
+@zvet0x3ty3  ; 0=p * q | 1=q | 2=p | 3=v | 4=a + b | 5=b | 6=v | 7=a
+Divide the numbers and <b>subtract</b> the exponents: $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ and $⟦3⟧^{⟦4⟧ - ⟦5⟧} = ⟦6⟧^{⟦7⟧}$.
+@owsivnzbiv  ; 0=c | 1=v | 2=a | 3=b
+Simplify $(⟦0⟧⟦1⟧^{⟦2⟧})^{⟦3⟧}$.
+@16p8bz51ffa  ; 0=b | 1=c | 2=b | 3=M(c ** b) | 4=v | 5=a | 6=b | 7=v | 8=a * b
+Raise each factor to the power ⟦0⟧: $⟦1⟧^{⟦2⟧} = ⟦3⟧$ and $(⟦4⟧^{⟦5⟧})^{⟦6⟧} = ⟦7⟧^{⟦8⟧}$.
+@1xezjl2w04x  ; 0=a | 1=b | 2=n
+Evaluate $⟦0⟧^0 + ⟦1⟧^{-⟦2⟧}$.
+@188gl5tkaea
+Type a fraction such as 9/8.
+@ko9qy4d1ca  ; 0=a | 1=b | 2=n | 3=M(d) | 4=M(d) | 5=M(d + 1) | 6=M(d)
+$⟦0⟧^0 = 1$ and $⟦1⟧^{-⟦2⟧} = \frac{1}{⟦3⟧}$, so the sum is $1 + \frac{1}{⟦4⟧} = \frac{⟦5⟧}{⟦6⟧}$.
+@1n967l6wl5g  ; 0=b | 1=n
+Evaluate $⟦0⟧^{-⟦1⟧}$.
+@zx2y9sarlt
+Type a fraction such as 1/8.
+@yfk682by4y  ; 0=b | 1=n | 2=b | 3=n | 4=M(d)
+A negative exponent means "one over": $⟦0⟧^{-⟦1⟧} = \frac{1}{⟦2⟧^{⟦3⟧}} = \frac{1}{⟦4⟧}$.
+@29kkp8bp96o  ; 0=n * n
+Evaluate $\sqrt{⟦0⟧}$.
+@130msfu0zcr  ; 0=n | 1=n | 2=n * n | 3=n * n | 4=n
+$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, so $\sqrt{⟦3⟧} = ⟦4⟧$.
+@2gon6mkcmhb  ; 0=M(n ** 3)
+Evaluate $\sqrt[3]{⟦0⟧}$.
+@214ubtovi6i  ; 0=n | 1=n | 2=n | 3=M(n ** 3) | 4=M(n ** 3) | 5=n
+$⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$, so $\sqrt[3]{⟦4⟧} = ⟦5⟧$.
+@30ljqjiajh  ; 0=k * k * m
+Simplify $\sqrt{⟦0⟧}$.
+@1dnbn17q9fj
+Type an answer such as 3sqrt(2).
+@r5mpjrvznb  ; 0=k * k * m | 1=k * k | 2=m | 3=k * k * m | 4=k * k | 5=m | 6=surdT(k, m)
+Find the largest square factor: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. So $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.
+
+##### sci-notation
+@2855qmmjjc  ; 0=Fm(T`a \times 10^{n}, \qquad 1 \le a \lt | 1=Key(T`<p>Count how many places the decim | 2=Fm(T`(4 \times 10^{5}) \times (3 \times  | 3=Fm(T`\frac{6 \times 10^{9}}{8 \times 10^ | 4=Tip(T`<p>$23 \times 10^{4}$ has the righ
+
+<p>Scientists write very large or very small numbers compactly as</p>
+⟦0⟧
+<ul><li>The distance to the Sun, about $150{,}000{,}000$ km, is $1.5 \times 10^{8}$ km.</li><li>A red blood cell, about $0.000\,008$ m wide, is $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+<h3>Calculating</h3>
+<p>Multiply (or divide) the front numbers, and add (or subtract) the exponents. Then fix the front number if it is not between 1 and 10:</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@244so12quwj
+a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ an integer}
+@1phwx4rhhb0
+<p>Count how many places the decimal point moves to leave exactly one non-zero digit in front of it. Big numbers (moving left) give a <b>positive</b> exponent; numbers less than 1 (moving right) give a <b>negative</b> exponent.</p>
+@17xqz1i19gu
+(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1.2 \times 10^{13}
+@uws8i7cmm7
+\frac{6 \times 10^{9}}{8 \times 10^{3}} = 0.75 \times 10^{6} = 7.5 \times 10^{5}
+@1bgde7du4ux
+<p>$23 \times 10^{4}$ has the right value but is not in scientific notation — the front number must be less than 10.</p>
+@1jl1f7quddk  ; 0=F(std)
+Write ⟦0⟧ in scientific notation.
+@1xhcd6rnqeh  ; 0=n | 1=M(std) | 2=A | 3=n
+Move the decimal point ⟦0⟧ places to the left so one digit is in front: $⟦1⟧ = ⟦2⟧ \times 10^{⟦3⟧}$.
+@sb71mbidjv  ; 0=n | 1=M(std) | 2=A | 3=n
+Move the decimal point ⟦0⟧ places to the right so one non-zero digit is in front: $⟦1⟧ = ⟦2⟧ \times 10^{-⟦3⟧}$.
+@1fxdkt6b40w  ; 0=M(parseFloat(A)) | 1=n
+Write $⟦0⟧ \times 10^{⟦1⟧}$ as an ordinary number.
+@1lry42zhbux  ; 0=n | 1=F(v)
+Move the decimal point ⟦0⟧ places to the right: <b>⟦1⟧</b>.
+@1x5u9exutdv  ; 0=F(v)
+Move the decimal point 1 place to the left: <b>⟦0⟧</b>.
+@550xmeglh4  ; 0=-n | 1=F(v)
+Move the decimal point ⟦0⟧ places to the left: <b>⟦1⟧</b>.
+@1gs42dv9cjp  ; 0=a | 1=m | 2=b | 3=n
+Calculate $(⟦0⟧ \times 10^{⟦1⟧}) \times (⟦2⟧ \times 10^{⟦3⟧})$. Give the answer in scientific notation.
+@fs4t6k5mks  ; 0=a | 1=b | 2=P | 3=m | 4=n | 5=m + n | 6=big ? T`Since ${P} is not less than 10, 
+Multiply the front numbers and add the exponents: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ and $10^{⟦3⟧} \times 10^{⟦4⟧} = 10^{⟦5⟧}$. ⟦6⟧
+@1zt4osszqy5  ; 0=P | 1=P | 2=m + n | 3=M(mant) | 4=e
+Since ⟦0⟧ is not less than 10, rewrite $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.
+@1hosaw5g8gs  ; 0=P | 1=e
+Answer: $⟦0⟧ \times 10^{⟦1⟧}$.
+@1rhqt7i7pkj  ; 0=a | 1=m | 2=b | 3=n
+Calculate $\dfrac{⟦0⟧ \times 10^{⟦1⟧}}{⟦2⟧ \times 10^{⟦3⟧}}$. Give the answer in scientific notation.
+@3gwofajvgq  ; 0=a | 1=b | 2=M(r) | 3=m | 4=n | 5=m - n | 6=small ? T` Since ${M(r)} is less than 1,
+Divide the front numbers and subtract the exponents: $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ and $10^{⟦3⟧ - ⟦4⟧} = 10^{⟦5⟧}$.⟦6⟧
+@1ujla3379au  ; 0=M(r) | 1=M(r) | 2=m - n | 3=M(mant) | 4=e
+ Since ⟦0⟧ is less than 1, rewrite $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.
+
+##### ratio
+@j1hx7015fs  ; 0=Ex(T`<p>Share 60 sweets in the ratio $2  | 1=Fm(T`\text{speed} = \frac{\text{distance | 2=Key(T`<ul><li><b>Direct:</b> both quanti | 3=Ex(T`<p>6 workers build a wall in 10 day | 4=Tip(T`<p>Before comparing, make the unit
+
+<p>A <b>ratio</b> $a : b$ compares two quantities. Like fractions, ratios can be simplified by dividing both parts by their GCF: $18 : 24 = 3 : 4$.</p>
+<h3>Sharing in a ratio</h3>
+⟦0⟧
+<h3>Rates and unit rates</h3>
+<p>A <b>rate</b> compares quantities with different units: km per hour, dollars per kg. Finding the value of <b>one</b> unit (the unit rate) solves most problems.</p>
+⟦1⟧
+<h3>Direct and inverse proportion</h3>
+⟦2⟧
+⟦3⟧
+<h3>Map scales</h3>
+<p>A scale of $1 : 50{,}000$ means 1 cm on the map is $50{,}000$ cm $= 500$ m $= 0.5$ km in reality.</p>
+⟦4⟧
+@1ldxptmm0q1
+<p>Share 60 sweets in the ratio $2 : 3$.</p><ol><li>Total parts: $2 + 3 = 5$.</li><li>One part: $60 \div 5 = 12$.</li><li>Shares: $2 \times 12 = 24$ and $3 \times 12 = 36$.</li></ol>
+@mtzadc2zz9
+\text{speed} = \frac{\text{distance}}{\text{time}} \qquad \text{distance} = \text{speed} \times \text{time}
+@1lx74znbkzq
+<ul><li><b>Direct:</b> both quantities grow together, $y = kx$. Twice as many notebooks cost twice as much.</li><li><b>Inverse:</b> one grows as the other shrinks, $xy = k$. Twice as many workers finish in half the time.</li></ul>
+@a6l90vp81i
+<p>6 workers build a wall in 10 days. The job is $6 \times 10 = 60$ worker-days, so 4 workers need $60 \div 4 = 15$ days.</p>
+@2arjky763hz
+<p>Before comparing, make the units the same. And check whether a situation is direct or inverse — "more workers, fewer days" is inverse.</p>
+@1acmfldad41  ; 0=a * g | 1=b * g
+Simplify the ratio ⟦0⟧ : ⟦1⟧.
+@1y50fzcs3bf
+Type the ratio like 3:4.
+@5iztjnzgue  ; 0=g | 1=a * g | 2=b * g | 3=a | 4=b
+Divide both parts by their GCF, ⟦0⟧: ⟦1⟧ : ⟦2⟧ = ⟦3⟧ : ⟦4⟧.
+@2crne058qbs
+Ali
+@18poqam78za
+Siti
+@4lzqcmqqd4
+Rina
+@izwfd6xg8i
+Sam
+@bs57t3iign
+Kim
+@h7jorlb8al  ; 0=F(tot) | 1=p1 | 2=p2 | 3=a | 4=b | 5=first ? p1 : p2
+⟦0⟧ marbles are shared between ⟦1⟧ and ⟦2⟧ in the ratio ⟦3⟧ : ⟦4⟧. How many marbles does ⟦5⟧ get?
+@2ffhbqedp3i  ; 0=a | 1=b | 2=a + b | 3=tot | 4=a + b | 5=k | 6=first ? p1 : p2 | 7=x | 8=k | 9=x * k
+There are $⟦0⟧ + ⟦1⟧ = ⟦2⟧$ parts, each worth $⟦3⟧ \div ⟦4⟧ = ⟦5⟧$. ⟦6⟧ gets $⟦7⟧ \times ⟦8⟧ = ⟦9⟧$.
+@oh7i0xfb4t
+notebooks
+@ia267mackq
+pens
+@ojwqqxz8z0
+mangoes
+@2c5x6tu8q2m
+tickets
+@t42rjalvd2  ; 0=n1 | 1=item | 2=unit * n1 | 3=n2 | 4=item
+⟦0⟧ ⟦1⟧ cost ⟦2⟧ dollars. At the same price each, how much do ⟦3⟧ ⟦4⟧ cost?
+@1j6drw8o3jp  ; 0=unit * n1 | 1=n1 | 2=unit | 3=n2 | 4=n2 | 5=unit | 6=unit * n2
+One costs $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ dollars, so ⟦3⟧ cost $⟦4⟧ \times ⟦5⟧ = ⟦6⟧$ dollars.
+@2cnfx0hut7n  ; 0=w1 | 1=d1 | 2=w2
+⟦0⟧ workers can build a wall in ⟦1⟧ days. Working at the same rate, how many days would ⟦2⟧ workers take?
+@1qn5tzfsu4y
+days
+@1prw35yduvi  ; 0=w1 | 1=d1 | 2=w1 * d1 | 3=w2 | 4=w1 * d1 | 5=w2 | 6=d2
+This is inverse proportion. The job takes $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ worker-days, so ⟦3⟧ workers need $⟦4⟧ \div ⟦5⟧ = ⟦6⟧$ days.
+@294kafpc434  ; 0=F(sc) | 1=cm
+A map has a scale of 1 : ⟦0⟧. Two towns are ⟦1⟧ cm apart on the map. How far apart are they in reality, in kilometres?
+@yvvr6sez8h  ; 0=cm | 1=M(sc) | 2=M(cm * sc) | 3=M(km)
+Real distance $= ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm. Since $1 \text{ km} = 100{,}000 \text{ cm}$, that is $⟦3⟧$ km.
+@1q0gzbqlk2i  ; 0=F(d) | 1=F(t)
+A car travels ⟦0⟧ km in ⟦1⟧ hours. What is its average speed?
+@1350ox6hh5s  ; 0=M(d) | 1=M(t) | 2=v
+$\text{speed} = \frac{\text{distance}}{\text{time}} = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$ km/h.
+@1eoj4cx14t6  ; 0=v | 1=F(t)
+A bus travels at ⟦0⟧ km/h for ⟦1⟧ hours. How far does it travel?
+@1dged1n5jn6  ; 0=v | 1=M(t) | 2=M(d)
+$\text{distance} = \text{speed} \times \text{time} = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ km.
+@aw6tzi78c6  ; 0=F(d) | 1=v
+How many hours does it take to travel ⟦0⟧ km at ⟦1⟧ km/h?
+@2eruzlr62qp
+hours
+@278tsci6f7d  ; 0=M(d) | 1=v | 2=M(t)
+$\text{time} = \frac{\text{distance}}{\text{speed}} = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$ hours.
+
+##### algebra-expr
+@2ngxvisbtd  ; 0=Key(T`<p><b>Distributive law:</b> $a(b + | 1=Ex(T`<p>$(x + 3)(x - 5) = x^2 - 5x + 3x  | 2=Fm(T`(a + b)^2 = a^2 + 2ab + b^2 \qquad  | 3=Tip(T`<p>$(x + 4)^2 \ne x^2 + 16$. The m
+
+<p>In the expression $5x^2 - 3xy + 7$: the <b>terms</b> are $5x^2$, $-3xy$ and $7$; the <b>coefficients</b> are 5 and $-3$; 7 is the <b>constant</b>. <b>Like terms</b> have exactly the same variables and powers ($4ab$ and $-ab$ are like; $x^2$ and $x$ are not).</p>
+<h3>Simplifying</h3>
+<p>Combine like terms by adding their coefficients: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Expanding brackets</h3>
+⟦0⟧
+⟦1⟧
+<h3>Special products</h3>
+⟦2⟧
+<h3>Factorising</h3>
+<p>Factorising is expanding in reverse. Take out the greatest common factor: $12x - 18 = 6(2x - 3)$.</p>
+<h3>Substitution</h3>
+<p>Replace each letter with its value, using brackets for negatives: if $x = -2$, then $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦3⟧
+@107qibv29t1
+<p><b>Distributive law:</b> $a(b + c) = ab + ac$. Multiply <i>every</i> term inside by the term outside.</p><p><b>Two brackets (FOIL):</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>
+@evwoax8bsy
+(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2
+@qw20z3i54y
+<p>$(x + 4)^2 \ne x^2 + 16$. The middle term $2 \cdot 4 \cdot x = 8x$ is easy to forget.</p>
+@1lzyurkx6yg  ; 0=terms([[a, v1], [b, v2], [c, v1], [d, v2
+Simplify $⟦0⟧$.
+@c34hz2en6w  ; 0=M(a) | 1=sg(c) | 2=v1 | 3=M(b) | 4=sg(d) | 5=v2 | 6=terms([[a + c, v1], [b + d, v2]])
+Collect like terms: $(⟦0⟧ ⟦1⟧)⟦2⟧ + (⟦3⟧ ⟦4⟧)⟦5⟧ = ⟦6⟧$.
+@1u1kf05ab7b  ; 0=a | 1=lin(b, c)
+Expand $⟦0⟧(⟦1⟧)$.
+@1eys0d9g1vl  ; 0=pn(a) | 1=pn(a) | 2=xt(b) | 3=xt(a * b) | 4=pn(a) | 5=pn(c) | 6=M(a * c) | 7=lin(a * b, a * c)
+Multiply every term inside the bracket by ⟦0⟧: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ and $⟦4⟧ \times ⟦5⟧ = ⟦6⟧$. Result: $⟦7⟧$.
+@1xv73exk1ey  ; 0=poly([a, b, c]) | 1=k
+Evaluate $⟦0⟧$ when $x = ⟦1⟧$.
+@lz4v2y9o7u  ; 0=M(a) | 1=M(k) | 2=sg(b) | 3=M(k) | 4=sg(c) | 5=M(a * k * k) | 6=sg(b * k) | 7=sg(c) | 8=M(v)
+Substitute, using brackets: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧ ⟦6⟧ ⟦7⟧ = ⟦8⟧$.
+@26qvjy7rwjy  ; 0=lin(g * p, g * q, v)
+Factorise completely: $⟦0⟧$.
+@19u3t9utdnl  ; 0=g * p | 1=Math.abs(g * q) | 2=g | 3=lin(g * p, g * q, v) | 4=g | 5=lin(p, q, v)
+The GCF of ⟦0⟧ and ⟦1⟧ is ⟦2⟧: $⟦3⟧ = ⟦4⟧(⟦5⟧)$. Check by expanding.
+@1im4ugi7thh  ; 0=sg(a) | 1=sg(b)
+Expand and simplify $(x ⟦0⟧)(x ⟦1⟧)$.
+@1bafsr7t5do  ; 0=terms([[1, 'x^2'], [b, 'x'], [a, 'x'], [ | 1=poly([1, a + b, a * b])
+FOIL: $⟦0⟧ = ⟦1⟧$.
+@2e60a5izj9m  ; 0=sg(a)
+Expand $(x ⟦0⟧)^2$.
+
+##### linear-eq
+@2e108zyv3t2  ; 0=Key(T`<p>Undo operations in reverse orde | 1=Ex(T`<p>Solve $5x - 7 = 2x + 11$.</p><ol | 2=Fm(T`\frac{x}{3} + 4 = 10 \;\Rightarrow\ | 3=Ex(T`<p>The sum of three consecutive int | 4=Tip(T`<p>When you move a term across the
+
+<p>An equation says two expressions are equal. Think of a balance: whatever you do to one side, do to the other, and it stays balanced. The aim is to get the unknown alone.</p>
+⟦0⟧
+⟦1⟧
+<h3>Brackets and fractions</h3>
+<p>Expand brackets first (or divide both sides by the number outside). Clear fractions by multiplying every term by the common denominator:</p>
+⟦2⟧
+<h3>Word problems</h3>
+<ol><li>Choose a letter for the unknown and say what it stands for.</li><li>Translate the sentences into an equation.</li><li>Solve, then check the answer makes sense in the story.</li></ol>
+⟦3⟧
+⟦4⟧
+@23dcqvv32cf
+<p>Undo operations in reverse order using <b>inverse operations</b>: addition ↔ subtraction, multiplication ↔ division.</p>
+@11eu1q8a3p
+<p>Solve $5x - 7 = 2x + 11$.</p><ol><li>Subtract $2x$ from both sides: $3x - 7 = 11$.</li><li>Add 7: $3x = 18$.</li><li>Divide by 3: $x = 6$.</li></ol><p>Check: $5(6) - 7 = 23$ and $2(6) + 11 = 23$ ✓</p>
+@1wy5h98gkn6
+<p>The sum of three consecutive integers is 72. Let them be $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, so $n = 23$. The integers are 23, 24, 25.</p>
+@2cslj9svu1g
+<p>When you move a term across the equals sign, its sign changes — because you are really subtracting (or adding) it on both sides.</p>
+@1655nrncx2v  ; 0=lin(a, b) | 1=c
+Solve $⟦0⟧ = ⟦1⟧$.
+@x5jse5nhwr
+Type the value of x.
+@2b0gu3x69ls  ; 0=moveTxt(b) | 1=xt(a) | 2=c - b | 3=M(a) | 4=x
+⟦0⟧: $⟦1⟧ = ⟦2⟧$. Divide by ⟦3⟧: $x = ⟦4⟧$.
+@7pot73w6ik  ; 0=xt(a - c) | 1=M(d - b) | 2=x
+Collect $x$ terms on the left and numbers on the right: $⟦0⟧ = ⟦1⟧$, so $x = ⟦2⟧$.
+@xzdgg8oaxi  ; 0=a | 1=sg(b) | 2=c
+Solve $⟦0⟧(x ⟦1⟧) = ⟦2⟧$.
+@9hdqgjqpdz  ; 0=a | 1=sg(b) | 2=c / a | 3=c / a | 4=sg(-b) | 5=x
+Divide both sides by ⟦0⟧: $x ⟦1⟧ = ⟦2⟧$. Then $x = ⟦3⟧ ⟦4⟧ = ⟦5⟧$.
+@2fru7tuxryf  ; 0=a | 1=sg(b) | 2=c
+Solve $\frac{x}{⟦0⟧} ⟦1⟧ = ⟦2⟧$.
+@1f73j076fzb  ; 0=moveTxt(b) | 1=a | 2=k | 3=a | 4=x
+⟦0⟧: $\frac{x}{⟦1⟧} = ⟦2⟧$. Multiply both sides by ⟦3⟧: $x = ⟦4⟧$.
+@211mafg3dgs  ; 0=S
+The sum of three consecutive integers is ⟦0⟧. What is the largest of them?
+@8v51kosf3f  ; 0=S
+The sum of three consecutive integers is ⟦0⟧. What is the smallest of them?
+@28zr6x8xv6r  ; 0=S | 1=S - 3 | 2=n | 3=n | 4=n + 1 | 5=n + 2
+Call them $n$, $n + 1$, $n + 2$. Then $3n + 3 = ⟦0⟧$, so $3n = ⟦1⟧$ and $n = ⟦2⟧$. The integers are ⟦3⟧, ⟦4⟧, ⟦5⟧.
+@6tcx6zie13
+Andi
+@bdnp7aucau
+Maya
+@111efujhij3
+Nina
+@2ffyzeo9a9u
+Omar
+@1o7plzvqsb1
+Pablo
+@xm9ndonr7a  ; 0=p1 | 1=k | 2=p2 | 3=S | 4=p2
+⟦0⟧ is ⟦1⟧ years older than ⟦2⟧. The sum of their ages is ⟦3⟧. How old is ⟦4⟧?
+@1dg7mtcy0c9
+years
+@1i0et4blzn8  ; 0=p2 | 1=k | 2=S | 3=S - k | 4=b
+Let ⟦0⟧'s age be $x$. Then $x + (x + ⟦1⟧) = ⟦2⟧$, so $2x = ⟦3⟧$ and $x = ⟦4⟧$.
+@24q7bzlhbax  ; 0=a | 1=b | 2=c
+I think of a number, multiply it by ⟦0⟧, then subtract ⟦1⟧. The result is ⟦2⟧. What was my number?
+@h4vi0amulx  ; 0=a | 1=b | 2=c | 3=a | 4=c + b | 5=x
+$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, so $⟦3⟧x = ⟦4⟧$ and $x = ⟦5⟧$.
+
+##### inequalities
+@x75whe4hrd  ; 0=Key(T`<p>When you <b>multiply or divide  | 1=Ex(T`<p>Solve $7 - 2x \ge 1$.</p><ol><li | 2=Tip(T`<p>"Smallest integer with $x \gt 4
+
+<p>An <b>inequality</b> compares two expressions: $\lt$ (less than), $\gt$ (greater than), $\le$ (less than or equal), $\ge$ (greater than or equal). Its solution is usually a whole range of numbers.</p>
+<p>On a number line, $x \gt 2$ is drawn with an <b>open</b> circle at 2 (2 is not included) and an arrow to the right; $x \le 2$ uses a <b>filled</b> circle and an arrow to the left.</p>
+<h3>Solving</h3>
+<p>Solve exactly like an equation — add, subtract, multiply or divide both sides — with one extra rule:</p>
+⟦0⟧
+<p>Why? $2 \lt 5$, but multiplying both sides by $-1$ gives $-2$ and $-5$, and $-2 \gt -5$.</p>
+⟦1⟧
+<h3>Double inequalities</h3>
+<p>Do the same operation to all three parts: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. The integer solutions are $-1, 0, 1, 2, 3$.</p>
+⟦2⟧
+@4uypmmfwnv
+<p>When you <b>multiply or divide by a negative number</b>, reverse the inequality sign.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$
+@2g9ptainv5b
+<p>Solve $7 - 2x \ge 1$.</p><ol><li>Subtract 7: $-2x \ge -6$.</li><li>Divide by $-2$ and flip: $x \le 3$.</li></ol>
+@q5ww8c7swj
+<p>"Smallest integer with $x \gt 4$" is 5, not 4 — a strict inequality excludes its endpoint.</p>
+@1mxokpl5kuf  ; 0=lin(a, b) | 1=SYM[s] | 2=c
+Solve $⟦0⟧ ⟦1⟧ ⟦2⟧$.
+@1iwjn3pne9  ; 0=moveTxt(b) | 1=xt(a) | 2=SYM[s] | 3=c - b | 4=a | 5=SYM[s] | 6=k
+⟦0⟧: $⟦1⟧ ⟦2⟧ ⟦3⟧$. Divide by ⟦4⟧ (positive, so the sign stays): $x ⟦5⟧ ⟦6⟧$.
+@1s1hpevc8ap  ; 0=moveTxt(b) | 1=xt(a) | 2=SYM[s] | 3=c - b | 4=a | 5=SYM[FLIP[s]] | 6=k
+⟦0⟧: $⟦1⟧ ⟦2⟧ ⟦3⟧$. Divide by ⟦4⟧. It is <b>negative</b>, so reverse the sign: $x ⟦5⟧ ⟦6⟧$.
+@io0ae9g8yj  ; 0=k | 1=ans
+The smallest integer greater than ⟦0⟧ is <b>⟦1⟧</b>.
+@civ81fo6ci  ; 0=k | 1=ans
+The smallest integer greater than or equal to ⟦0⟧ is <b>⟦1⟧</b>.
+@62e1f42m8l  ; 0=k | 1=ans
+The largest integer less than ⟦0⟧ is <b>⟦1⟧</b>.
+@1ime7hqq5cd  ; 0=k | 1=ans
+The largest integer less than or equal to ⟦0⟧ is <b>⟦1⟧</b>.
+@2cy3ba2hfyd  ; 0=ineq
+What is the smallest integer $x$ that satisfies $⟦0⟧$?
+@uffp85dcny  ; 0=ineq
+What is the largest integer $x$ that satisfies $⟦0⟧$?
+@33ggbvntvo  ; 0=SYM[s] | 1=k | 2=why
+Solving gives $x ⟦0⟧ ⟦1⟧$. ⟦2⟧
+@116sbg7r1dd  ; 0=lo | 1=SYM[s1] | 2=lin(a, b) | 3=SYM[s2] | 4=hi
+How many integers $x$ satisfy $⟦0⟧ ⟦1⟧ ⟦2⟧ ⟦3⟧ ⟦4⟧$?
+@17y5i2hhz2j  ; 0=moveTxt(b, T`every part`) | 1=a | 2=x1 | 3=SYM[s1] | 4=SYM[s2] | 5=x2 | 6=ints.join(LS()) | 7=ints.length
+⟦0⟧, then divide by ⟦1⟧: $⟦2⟧ ⟦3⟧ x ⟦4⟧ ⟦5⟧$. The integers are ⟦6⟧, so there are <b>⟦7⟧</b>.
+@abjkjjicc6
+every part
+
+##### sets
+@1upw9az6tpj  ; 0=Fig(vennSvg(), T`A Venn diagram: each re | 1=Tbl([T`Notation`, T`Meaning`, T`Example  | 2=Key(T`$$n(A \cup B) = n(A) + n(B) - n(A  | 3=Ex(T`<p>In a class of 35, 20 play footba | 4=Tip(T`<p>"How many play only football?" 
+
+<p>A <b>set</b> is a well-defined collection of objects, its <b>elements</b>. We write $A = \{2, 4, 6, 8\}$ and $4 \in A$ ("4 is an element of A"), $5 \notin A$. $n(A)$ is the number of elements; here $n(A) = 4$. The <b>empty set</b> $\varnothing$ has no elements; the <b>universal set</b> $U$ contains everything under discussion.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@zdmpl6ts1e
+A Venn diagram: each region is a different combination of "in A" and "in B".
+@142ifrt0jkt
+Notation
+@14czndj1h0b
+Example with A = {1,2,3,4}, B = {3,4,5}
+@17jfg6qecmz
+intersection: in both
+@93vbzoy4wv
+union: in either (or both)
+@j83k8kg7rg
+in A but not in B
+@ul55bfe733
+complement: in U but not in A
+@1m3czehh1lg
+everything else in U
+@9y4djdoyyu
+every element of A is in B
+@w227m2d70o
+$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$<p>We subtract the overlap because it was counted twice. A set with $n$ elements has $2^n$ subsets (including $\varnothing$ and the set itself).</p>
+@4thfgx5jwf
+<p>In a class of 35, 20 play football, 18 play basketball and 8 play both. Then $n(F \cup B) = 20 + 18 - 8 = 30$ play at least one sport, and $35 - 30 = 5$ play neither.</p>
+@27eu4624ja8
+<p>"How many play only football?" is $20 - 8 = 12$, not 20. Fill in the overlap of a Venn diagram first, then work outwards.</p>
+@27zhedv4gc  ; 0=N | 1=a | 2=b | 3=both
+In a class of ⟦0⟧ students, ⟦1⟧ like football, ⟦2⟧ like basketball and ⟦3⟧ like both. How many students like neither sport?
+@26xw5lahqxo  ; 0=a | 1=b | 2=both | 3=a + b - both | 4=N | 5=a + b - both | 6=neither
+$n(F \cup B) = ⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$. Neither: $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.
+@1619zngy4yv  ; 0=a | 1=b | 2=both
+In a group, ⟦0⟧ people speak English, ⟦1⟧ speak French and ⟦2⟧ speak both. How many speak at least one of the two languages?
+@18t2zte9r05  ; 0=setA
+How many <b>proper</b> subsets does $⟦0⟧$ have?
+@2dvh10c76ll  ; 0=setA
+How many subsets does $⟦0⟧$ have?
+@o8q41j2x4h  ; 0=n | 1=n | 2=2 ** n | 3=2 ** n - 1
+A set with ⟦0⟧ elements has $2^{⟦1⟧} = ⟦2⟧$ subsets; leaving out $A$ itself gives ⟦3⟧ proper subsets.
+@1levxnz2zxu  ; 0=n | 1=n | 2=2 ** n
+A set with ⟦0⟧ elements has $2^{⟦1⟧} = ⟦2⟧$ subsets.
+@ngdtyzf3i3
+elements in both sets
+@ygni6ry4dh
+elements in either set
+@v15s4csij3
+elements of A that are not in B
+@1j1pykn2kdj  ; 0=setT(A) | 1=setT(B) | 2=opT
+Let $A = ⟦0⟧$ and $B = ⟦1⟧$. Find $A ⟦2⟧ B$.
+@256hp0emm8w  ; 0=opT | 1=mean | 2=setT(ans)
+$A ⟦0⟧ B$ contains the ⟦1⟧: $⟦2⟧$.
+@1vmjbk89h3x  ; 0=N | 1=setT(A)
+$U = \{1, 2, 3, \ldots, ⟦0⟧\}$ and $A = ⟦1⟧$. How many elements are in $A'$, the complement of $A$?
+@fzclz65o4l  ; 0=N | 1=A.length | 2=N - A.length
+$A'$ contains the elements of $U$ not in $A$: $n(A') = n(U) - n(A) = ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.
+@27rc7060yur
+prime numbers
+@1qm9u9pg5gt
+even numbers
+@19ysprsc13w
+multiples of 3
+@2bluzo1qazo
+perfect squares
+@1ncphoa2uf2  ; 0=k | 1=kind
+$A$ is the set of positive integers less than ⟦0⟧ that are ⟦1⟧. Find $n(A)$.
+@9yersm2gye  ; 0=setT(els) | 1=els.length
+$A = ⟦0⟧$, so $n(A) = ⟦1⟧$.
+
+##### linear-functions
+@1dcyn9qstbs  ; 0=Fm(T`y = mx + c`) | 1=Fm(T`m = \frac{\text{rise}}{\text{run}}  | 2=Ex(T`<p>Through $(1, 2)$ and $(4, 11)$:  | 3=Key(T`<ul><li><b>Parallel</b> lines have | 4=Tip(T`<p>Keep the order consistent: if y
+
+<p>A <b>linear function</b> has a straight-line graph. In <b>gradient–intercept form</b></p>
+⟦0⟧
+<p>$m$ is the <b>gradient</b> (slope): how much $y$ changes when $x$ increases by 1. $c$ is the <b>$y$-intercept</b>, where the line crosses the $y$-axis. In function notation we write $f(x) = mx + c$, so $f(3)$ means "the value when $x = 3$".</p>
+<h3>Gradient from two points</h3>
+⟦1⟧
+⟦2⟧
+<h3>Intercepts and other forms</h3>
+<p>Set $x = 0$ to find the $y$-intercept and $y = 0$ to find the $x$-intercept. A line may be written $ax + by = c$; rearrange to $y = -\frac{a}{b}x + \frac{c}{b}$ to read off the gradient. Through a point $(x_1, y_1)$ with gradient $m$: $y - y_1 = m(x - x_1)$.</p>
+⟦3⟧
+⟦4⟧
+@b6i5f4mrw8
+y = mx + c
+@2debyr8clym
+m = \frac{\text{rise}}{\text{run}} = \frac{y_2 - y_1}{x_2 - x_1}
+@2487xq0zh4o
+<p>Through $(1, 2)$ and $(4, 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitute $(1, 2)$ into $y = 3x + c$: $2 = 3 + c$, so $c = -1$ and the line is $y = 3x - 1$.</p>
+@1jy9kk0ffnl
+<ul><li><b>Parallel</b> lines have equal gradients: $m_1 = m_2$.</li><li><b>Perpendicular</b> lines have gradients that multiply to $-1$: $m_1 m_2 = -1$, so $m_2 = -\frac{1}{m_1}$.</li></ul>
+@mf12am34lg
+<p>Keep the order consistent: if you use $y_2 - y_1$ on top, use $x_2 - x_1$ underneath. A positive gradient rises to the right; a negative one falls.</p>
+@cmysd7luf4  ; 0=pt(x1, y1) | 1=pt(x2, y2)
+Find the gradient of the line through $⟦0⟧$ and $⟦1⟧$.
+@bn7cydwexg  ; 0=lin(m, c) | 1=k
+Given $f(x) = ⟦0⟧$, find $f(⟦1⟧)$.
+@aaz26bx5zl  ; 0=eq
+What is the $y$-intercept of the line $⟦0⟧$?
+@286d6a0jwny  ; 0=xt(b, 'y') | 1=c | 2=y0
+Put $x = 0$: $⟦0⟧ = ⟦1⟧$, so $y = ⟦2⟧$.
+@2aba0g68aq0  ; 0=eq
+What is the gradient of the line $⟦0⟧$?
+@2cp0qhukifo  ; 0=M(-a) | 1=sg(c) | 2=M(b) | 3=frT(-a, b)
+Make $y$ the subject: $y = \frac{⟦0⟧x ⟦1⟧}{⟦2⟧}$. The gradient is the coefficient of $x$: $⟦3⟧$.
+@9s9um0dbpj  ; 0=pt(x1, Y(x1)) | 1=pt(x2, Y(x2))
+Which equation describes the line through $⟦0⟧$ and $⟦1⟧$?
+@2ewjcigtyej  ; 0=Y(x2) | 1=pn(Y(x1)) | 2=x2 | 3=pn(x1) | 4=m | 5=pt(x1, Y(x1)) | 6=xt(m) | 7=Y(x1) | 8=pn(m * x1) | 9=c
+Gradient: $m = \frac{⟦0⟧ - ⟦1⟧}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. Substitute $⟦5⟧$ into $y = ⟦6⟧ + c$: $c = ⟦7⟧ - ⟦8⟧ = ⟦9⟧$.
+@dog47xwchb  ; 0=frT(n, d)
+A line has gradient $⟦0⟧$. What is the gradient of a line perpendicular to it?
+@22x7dksxq1f  ; 0=frT(-d, n)
+Perpendicular gradients multiply to $-1$: $m_2 = -\frac{1}{m_1} = ⟦0⟧$.
+@1p3mlag1dqo  ; 0=lin(m, c)
+At what value of $x$ does the line $y = ⟦0⟧$ cross the $x$-axis?
+@v36n3a0on1  ; 0=xt(m) | 1=sg(c) | 2=M(-c) | 3=M(m) | 4=r
+On the $x$-axis, $y = 0$: $⟦0⟧ ⟦1⟧ = 0$, so $x = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.
+
+##### systems
+@1obgwi6un65  ; 0=Ex(T`$$\begin{cases} y = 2x - 1 \\ 3x +  | 1=Ex(T`$$\begin{cases} 2x + 3y = 12 \\ 5x  | 2=Key(T`<p>Multiply one or both equations  | 3=Tip(T`<p>When subtracting equations, sub
+
+<p>A <b>system</b> of two linear equations in $x$ and $y$ asks for values that make <i>both</i> equations true. Graphically, the solution is the point where the two lines cross.</p>
+<h3>Substitution</h3>
+⟦0⟧
+<h3>Elimination</h3>
+⟦1⟧
+⟦2⟧
+<h3>Special cases</h3>
+<p>Parallel lines (same gradient, different intercepts) never meet: <b>no solution</b>. Identical lines give <b>infinitely many</b> solutions.</p>
+<h3>Word problems</h3>
+<p>Two unknowns need two facts. "A farm has 30 heads and 84 legs among chickens and cows": $c + h = 30$ and $4c + 2h = 84$.</p>
+⟦3⟧
+@1jftngyboyy
+$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitute the first into the second: $3x + (2x - 1) = 14$, so $5x = 15$, $x = 3$, and $y = 2(3) - 1 = 5$. Solution: $(3, 5)$.</p>
+@2g9mhat3jml
+$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Add the equations to eliminate $y$: $7x = 21$, so $x = 3$. Then $2(3) + 3y = 12$ gives $y = 2$.</p>
+@2hm0wzsgn4
+<p>Multiply one or both equations first so a variable has equal (or opposite) coefficients, then subtract (or add) to eliminate it. Always check the answer in <b>both</b> original equations.</p>
+@1mqyjg4cjt3
+<p>When subtracting equations, subtract <i>every</i> term, including the right-hand sides — sign slips here cause most errors.</p>
+@2bus2hrtc7a  ; 0=ask | 1=terms([[a1, 'x'], [b1, 'y']]) | 2=c1 | 3=terms([[a2, 'x'], [b2, 'y']]) | 4=c2
+Solve the system and give the value of $⟦0⟧$: $$\begin{cases} ⟦1⟧ = ⟦2⟧ \\ ⟦3⟧ = ⟦4⟧ \end{cases}$$
+@cj3nlbnytd  ; 0=pn(a2) | 1=pn(a1) | 2=M(a2 * b1 - a1 * b2) | 3=M(a2 * c1 - a1 * c2) | 4=y | 5=x | 6=ask === 'x + y' ? T`, so $x + y = ${x + 
+Eliminate $x$: multiply the first equation by ⟦0⟧ and the second by ⟦1⟧, then subtract: $⟦2⟧y = ⟦3⟧$, so $y = ⟦4⟧$. Substituting back gives $x = ⟦5⟧$⟦6⟧.
+@1v4b2kwdt1t  ; 0=x + y
+, so $x + y = ⟦0⟧$
+@12wz870lrmo  ; 0=terms([[a1, 'x'], [b1, 'y']]) | 1=c1 | 2=terms([[a2, 'x'], [b2, 'y']]) | 3=c2
+Solve: $$\begin{cases} ⟦0⟧ = ⟦1⟧ \\ ⟦2⟧ = ⟦3⟧ \end{cases}$$
+@2h37f00sms
+Type the solution as x, y — for example 3, -2.
+@ji19p5e9vc  ; 0=x | 1=y | 2=M(a1) | 3=x | 4=pn(b1) | 5=y | 6=c1 | 7=M(a2) | 8=x | 9=pn(b2) | 10=y | 11=c2
+Eliminating one variable gives $x = ⟦0⟧$ and $y = ⟦1⟧$. Check: $⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$ ✓ and $⟦7⟧(⟦8⟧) + ⟦9⟧(⟦10⟧) = ⟦11⟧$ ✓
+@1uhjqjwpqgq  ; 0=n | 1=F(R) | 2=pa | 3=pc
+A cinema sold ⟦0⟧ tickets for a total of ⟦1⟧ dollars. Adult tickets cost ⟦2⟧ dollars and child tickets cost ⟦3⟧ dollars. How many child tickets were sold?
+@1w5sbgqln74  ; 0=n | 1=pa | 2=pc | 3=M(R) | 4=n | 5=M(pa * n) | 6=pa - pc | 7=M(R) | 8=C
+Let $a$ = adult and $c$ = child tickets: $a + c = ⟦0⟧$ and $⟦1⟧a + ⟦2⟧c = ⟦3⟧$. Substitute $a = ⟦4⟧ - c$: $⟦5⟧ - ⟦6⟧c = ⟦7⟧$, so $c = ⟦8⟧$.
+@5gcbu3n7lh  ; 0=H | 1=L
+A farm has chickens and cows. Together they have ⟦0⟧ heads and ⟦1⟧ legs. How many cows are there?
+@1q9pdlsduw3  ; 0=H | 1=L
+A farm has chickens and cows. Together they have ⟦0⟧ heads and ⟦1⟧ legs. How many chickens are there?
+@20g4l7cyliz  ; 0=H | 1=L | 2=L - 2 * H | 3=cows | 4=hens
+Let $c$ = cows and $h$ = chickens: $c + h = ⟦0⟧$ and $4c + 2h = ⟦1⟧$. Subtract twice the first equation: $2c = ⟦2⟧$, so $c = ⟦3⟧$ and $h = ⟦4⟧$.
+@18lm53yd624  ; 0=x + y | 1=x - y
+Two numbers add up to ⟦0⟧ and differ by ⟦1⟧. What is the larger number?
+@1juzg4bgiuw  ; 0=x + y | 1=x - y
+Two numbers add up to ⟦0⟧ and differ by ⟦1⟧. What is the smaller number?
+@15xzu54of35  ; 0=x + y | 1=x - y | 2=2 * x | 3=x | 4=y
+$a + b = ⟦0⟧$ and $a - b = ⟦1⟧$. Adding: $2a = ⟦2⟧$, so $a = ⟦3⟧$ and $b = ⟦4⟧$.
+
+##### pythagoras
+@18dtbjhvgbb  ; 0=Fig(rightTriSvg()) | 1=Key(T`$$a^2 + b^2 = c^2$$<p>To find the  | 2=Ex(T`<p>A 10 m ladder leans against a wa | 3=Fm(T`d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_ | 4=Tip(T`<p>$\sqrt{a^2 + b^2} \ne a + b$. F
+
+<p>In a right triangle the longest side, opposite the right angle, is the <b>hypotenuse</b> $c$. The other two sides are the <b>legs</b> $a$ and $b$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Pythagorean triples</h3>
+<p>Whole-number solutions are worth remembering, together with their multiples: $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$, $(7, 24, 25)$, and $(6, 8, 10)$, $(9, 12, 15)$, …</p>
+<h3>Distance between two points</h3>
+⟦3⟧
+<h3>The converse</h3>
+<p>With $c$ the longest side: if $a^2 + b^2 = c^2$ the triangle is <b>right</b>; if $a^2 + b^2 \gt c^2$ it is <b>acute</b>; if $a^2 + b^2 \lt c^2$ it is <b>obtuse</b>.</p>
+⟦4⟧
+@29quz32s0mq
+$$a^2 + b^2 = c^2$$<p>To find the hypotenuse, add the squares; to find a leg, subtract: $b = \sqrt{c^2 - a^2}$.</p>
+@266inyds4fo
+<p>A 10 m ladder leans against a wall with its foot 6 m from the wall. Height reached: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>
+@2f1i3z4fpqs
+<p>$\sqrt{a^2 + b^2} \ne a + b$. For legs 3 and 4 the hypotenuse is 5, not 7.</p>
+@tzct4b0jzc  ; 0=p | 1=q
+A right triangle has legs of ⟦0⟧ cm and ⟦1⟧ cm. How long is the hypotenuse?
+@w85jfl9xou  ; 0=p | 1=q | 2=p * p | 3=q * q | 4=(k * c) ** 2 | 5=(k * c) ** 2 | 6=k * c
+$c^2 = ⟦0⟧^2 + ⟦1⟧^2 = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$, so $c = \sqrt{⟦5⟧} = ⟦6⟧$ cm.
+@14oj6g8m8ly  ; 0=k * c | 1=L
+The hypotenuse of a right triangle is ⟦0⟧ m and one leg is ⟦1⟧ m. How long is the other leg?
+@ucdvtq6bkq  ; 0=pt(x1, y1) | 1=pt(x2, y2)
+Find the distance between $⟦0⟧$ and $⟦1⟧$.
+@174wwwvihed  ; 0=c | 1=foot
+A ⟦0⟧ m ladder leans against a vertical wall. Its foot is ⟦1⟧ m from the base of the wall. How high up the wall does the ladder reach?
+@fb02yp437s  ; 0=c | 1=foot | 2=c * c - foot * foot | 3=up
+The ladder is the hypotenuse: $h = \sqrt{⟦0⟧^2 - ⟦1⟧^2} = \sqrt{⟦2⟧} = ⟦3⟧$ m.
+@1gtgjvulgbd  ; 0=a | 1=b
+A right triangle has legs ⟦0⟧ cm and ⟦1⟧ cm. Find the hypotenuse, rounded to 2 decimal places.
+@1cost2rf2x0  ; 0=a | 1=b | 2=c2 | 3=c
+$c = \sqrt{⟦0⟧^2 + ⟦1⟧^2} = \sqrt{⟦2⟧} \approx ⟦3⟧$ cm.
+@14ejxhzoxmd
+Right triangle
+@1s09bctuu2d
+right
+@1fk5t91if9w
+Acute triangle
+@7ds33wq0ok
+acute
+@1kp4g4kchcj
+Obtuse triangle
+@imjds8cff1
+obtuse
+@fvjprzss2k  ; 0=shuffle(s).join(LS())
+A triangle has sides ⟦0⟧. What kind of triangle is it?
+@5pal2wak00  ; 0=c | 1=a | 2=b | 3=lhs | 4=c | 5=c * c | 6=lhs | 7=lhs === c * c ? '=' : lhs > c * c ? '\\g | 8=c * c | 9=L[type][1]
+Compare with the longest side ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ and $⟦4⟧^2 = ⟦5⟧$. Since $⟦6⟧ ⟦7⟧ ⟦8⟧$, the triangle is <b>⟦9⟧</b>.
+
+##### circles
+@162uvssoo3s  ; 0=Fig(circleSvg(), T`Parts of a circle. Th | 1=Key(T`$$C = 2\pi r = \pi d \qquad\qquad  | 2=Ex(T`<p>Radius 5 cm: $C = 2\pi(5) = 10\p | 3=Fm(T`\text{arc length} = \frac{\theta}{3 | 4=Tip(T`<p>Check whether you are given the
+
+⟦0⟧
+<p>The ratio of any circle's circumference to its diameter is the same number, $\pi \approx 3.14159\ldots$ (often approximated as $3.14$ or $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+<h3>Arcs and sectors</h3>
+<p>A sector with central angle $\theta$ is the fraction $\frac{\theta}{360^\circ}$ of the whole circle:</p>
+⟦3⟧
+<h3>Angles in circles</h3>
+<ul><li>The angle at the centre is <b>twice</b> the angle at the circumference standing on the same arc.</li><li>An angle in a semicircle is $90^\circ$.</li><li>A tangent is perpendicular to the radius at the point of contact.</li></ul>
+⟦4⟧
+@20wibo4oznt
+Parts of a circle. The diameter is twice the radius: d = 2r.
+@1y041ovnv67
+<p>Radius 5 cm: $C = 2\pi(5) = 10\pi \approx 31.4$ cm, and $A = \pi(5)^2 = 25\pi \approx 78.5$ cm². Leaving answers "in terms of $\pi$" keeps them exact.</p>
+@1ljhd2tb7ca
+\text{arc length} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{sector area} = \frac{\theta}{360^\circ} \times \pi r^2
+@1aglezoi0gp
+<p>Check whether you are given the radius or the diameter. Using $d$ in $\pi r^2$ makes the area four times too big.</p>
+@1iocjvynzqe  ; 0=2 * r
+Using $\pi \approx 3.14$, find the circumference of a circle with diameter ⟦0⟧ cm.
+@18sb05q1pm7  ; 0=r
+Using $\pi \approx 3.14$, find the circumference of a circle with radius ⟦0⟧ cm.
+@upb5nulrwg  ; 0=useD ? T`\pi d = 3.14 \times ${2 * r}` : | 1=M(C)
+$C = ⟦0⟧ = ⟦1⟧$ cm.
+@143d0xflci4  ; 0=2 * r
+\pi d = 3.14 \times ⟦0⟧
+@25yf5bhyvhn  ; 0=r
+2\pi r = 2 \times 3.14 \times ⟦0⟧
+@1stzke7qj3q  ; 0=r
+Using $\pi \approx \frac{22}{7}$, find the circumference of a circle with radius ⟦0⟧ cm.
+@vghbcaja6w  ; 0=r | 1=(44 * r) / 7
+$C = 2\pi r = 2 \times \frac{22}{7} \times ⟦0⟧ = ⟦1⟧$ cm.
+@91md2imk84  ; 0=2 * r
+Find the area of a circle with diameter ⟦0⟧ cm. Leave your answer in terms of $\pi$.
+@6f1a511ku9  ; 0=r
+Find the area of a circle with radius ⟦0⟧ cm. Leave your answer in terms of $\pi$.
+@ctkfkfiuaj  ; 0=useD ? T`The radius is half the diameter | 1=r | 2=piT(r * r)
+⟦0⟧$A = \pi r^2 = \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².
+@1uvm4lzorf9  ; 0=r
+The radius is half the diameter: ⟦0⟧ cm. 
+@2et0owexep4  ; 0=r | 1=th
+A sector has radius ⟦0⟧ cm and central angle $⟦1⟧^\circ$. Find its arc length in terms of $\pi$.
+@1fpgoxe9d0  ; 0=th | 1=r | 2=piT(th * r, 180)
+Arc $= \frac{⟦0⟧}{360} \times 2\pi \times ⟦1⟧ = ⟦2⟧$ cm.
+@72i5kpinty  ; 0=r | 1=th
+A sector has radius ⟦0⟧ cm and central angle $⟦1⟧^\circ$. Find its area in terms of $\pi$.
+@1ayxkyrhaid  ; 0=th | 1=r | 2=piT(th * r * r, 360)
+Area $= \frac{⟦0⟧}{360} \times \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².
+@1fzoa3xapl2  ; 0=piT(2 * r)
+A circle has circumference $⟦0⟧$ cm. Find its area in terms of $\pi$.
+@22u3ive551m  ; 0=piT(2 * r) | 1=r | 2=piT(r * r)
+$2\pi r = ⟦0⟧$ gives $r = ⟦1⟧$. Then $A = \pi r^2 = ⟦2⟧$ cm².
+@1rcge82c97m  ; 0=x
+An inscribed angle in a circle measures $⟦0⟧^\circ$. What is the central angle standing on the same arc?
+@10ccm4ku9vc  ; 0=x | 1=2 * x
+The angle at the centre is twice the angle at the circumference: $2 \times ⟦0⟧^\circ = ⟦1⟧^\circ$.
+@1ak5mj5jm7n  ; 0=2 * x
+A central angle of a circle measures $⟦0⟧^\circ$. What is an inscribed angle standing on the same arc?
+@kfe0atvapi  ; 0=2 * x | 1=x
+The angle at the circumference is half the central angle: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.
+
+##### solids
+@57zv1tsefg  ; 0=Tbl([T`Solid`, T`Volume`, T`Surface area | 1=Ex(T`<p>A cylinder with $r = 3$ cm and $ | 2=Key(T`<p>A cylinder's curved surface unr | 3=Tip(T`<p>Hemispheres: half the sphere's 
+
+<p>A <b>prism</b> has the same cross-section all the way through, so its volume is simply the area of that cross-section times its length. A pyramid or cone that fits inside it has exactly one third of that volume.</p>
+⟦0⟧
+<p>For a cone, $s$ is the <b>slant height</b>; by Pythagoras, $s = \sqrt{r^2 + h^2}$.</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+@1uywbz6o84t
+Solid
+@alc1a0j1b0
+Volume
+@bt7ak3o2ct
+Surface area
+@m6y2tibz7j
+Prism
+@3d3lt4gyiq
+$A_{\text{base}} \times h$
+@2e5o3mkaw4p
+sum of all faces
+@17avl8a1nf0
+Cylinder
+@w68av9so54
+Pyramid
+@1xyfnhsvdp5
+$\frac{1}{3} A_{\text{base}} \times h$
+@1u5rq973ap9
+base + triangles
+@40atij69zq
+Cone
+@1cebx8i383a
+Sphere
+@u0gc3phvmz
+<p>A cylinder with $r = 3$ cm and $h = 10$ cm:</p><p>$V = \pi (3)^2 (10) = 90\pi$ cm³ $\approx 282.7$ cm³. &nbsp; $SA = 2\pi(9) + 2\pi(3)(10) = 18\pi + 60\pi = 78\pi$ cm².</p>
+@706fqlfv6n
+<p>A cylinder's curved surface unrolls into a rectangle: one side is the height $h$, the other is the circumference $2\pi r$. That is where $2\pi r h$ comes from.</p>
+@20ndnd7mfh9
+<p>Hemispheres: half the sphere's volume, but the surface area is $2\pi r^2$ (curved part) $+ \pi r^2$ (flat circle) $= 3\pi r^2$.</p>
+@6nduvxh56u  ; 0=r | 1=h
+Find the volume of a cylinder with radius ⟦0⟧ cm and height ⟦1⟧ cm, in terms of $\pi$.
+@1u7xsdtlko1  ; 0=r * r | 1=h | 2=piT(r * r * h)
+$V = \pi r^2 h = \pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.
+@1ao9a1zkfz0  ; 0=r | 1=h
+Find the volume of a cone with radius ⟦0⟧ cm and height ⟦1⟧ cm, in terms of $\pi$.
+@11qtlcks0z2  ; 0=r * r | 1=h | 2=piT(r * r * h, 3)
+$V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.
+@qcz5afk27t  ; 0=r
+Find the volume of a sphere with radius ⟦0⟧ cm, in terms of $\pi$.
+@1a5wzmqqnbb  ; 0=r ** 3 | 1=piT(4 * r ** 3, 3)
+$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi \times ⟦0⟧ = ⟦1⟧$ cm³.
+@2boy4rshpla  ; 0=r
+Find the surface area of a sphere with radius ⟦0⟧ cm, in terms of $\pi$.
+@myifdpmpki  ; 0=r * r | 1=piT(4 * r * r)
+$SA = 4\pi r^2 = 4\pi \times ⟦0⟧ = ⟦1⟧$ cm².
+@225sd035ctc  ; 0=r | 1=h
+Find the total surface area of a closed cylinder with radius ⟦0⟧ cm and height ⟦1⟧ cm, in terms of $\pi$.
+@e5stvcnm4w  ; 0=piT(2 * r * r) | 1=piT(2 * r * h) | 2=piT(2 * r * r + 2 * r * h)
+$SA = 2\pi r^2 + 2\pi r h = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².
+@ud0ddpzcpo  ; 0=r | 1=h
+A cone has radius ⟦0⟧ cm and height ⟦1⟧ cm. What is its slant height?
+@1ds61tt8krc  ; 0=r * r | 1=h * h | 2=c
+$s = \sqrt{r^2 + h^2} = \sqrt{⟦0⟧ + ⟦1⟧} = ⟦2⟧$ cm.
+@1xg851dcel  ; 0=r | 1=c
+A cone has radius ⟦0⟧ cm and slant height ⟦1⟧ cm. Find its total surface area in terms of $\pi$.
+@1l881dmx8vq  ; 0=piT(r * r) | 1=piT(r * c) | 2=piT(r * r + r * c)
+$SA = \pi r^2 + \pi r s = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².
+@fb33rdkq1e  ; 0=a | 1=h
+A pyramid has a square base of side ⟦0⟧ cm and a height of ⟦1⟧ cm. What is its volume?
+@113p07j0igk  ; 0=a * a | 1=h | 2=(a * a * h) / 3
+$V = \frac{1}{3} \times \text{base} \times h = \frac{1}{3} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.
+@15qifiaqosu  ; 0=b | 1=t | 2=L
+A triangular prism has a triangular cross-section with base ⟦0⟧ cm and height ⟦1⟧ cm. The prism is ⟦2⟧ cm long. What is its volume?
+@2b2ytzrzz4n  ; 0=b | 1=t | 2=(b * t) / 2 | 3=(b * t) / 2 | 4=L | 5=(b * t * L) / 2
+Cross-section area $= \frac{1}{2} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm². Volume $= ⟦3⟧ \times ⟦4⟧ = ⟦5⟧$ cm³.
+
+##### statistics-jh
+@1gkv2j833s3  ; 0=Tbl([T`Measure`, T`Best when…`], [[T`Mea | 1=Fm(T`\bar{x} = \frac{\sum f x}{\sum f}`) | 2=Ex(T`${qTable([[T`Score $x$`, '1', '2',  | 3=Key(T`<p>$\text{total} = \text{mean} \ti | 4=Tip(T`<p>In a frequency table, divide $\
+
+<p>A <b>measure of centre</b> summarises a data set with one typical value; a <b>measure of spread</b> says how scattered the values are.</p>
+⟦0⟧
+<h3>Mean from a frequency table</h3>
+⟦1⟧
+⟦2⟧
+<h3>Working backwards</h3>
+⟦3⟧
+<p>With an even number of values, the median is the mean of the two middle values.</p>
+⟦4⟧
+@zy4hmws2f9
+Best when…
+@j0p0vvrwxf
+data has no extreme values (outliers)
+@2ajydntyvld
+data is skewed or has outliers — e.g. house prices
+@1d4nmjapkp8
+data is categorical — e.g. favourite colour
+@12wlbpcje5l
+a quick sense of spread (but sensitive to outliers)
+@21qgjzyanwp  ; 0=qTable([[T`Score $x$`, '1', '2', '3', '4
+⟦0⟧<p>$\sum f = 20$ and $\sum fx = 3 + 10 + 24 + 16 = 53$, so the mean is $\frac{53}{20} = 2.65$. The mode is 3 (highest frequency). The median is the mean of the 10th and 11th values — both 3 — so the median is 3.</p>
+@1j97et5mff
+Score $x$
+@gm8elt7xjs
+Frequency $f$
+@1rnz21lc9g1
+<p>$\text{total} = \text{mean} \times \text{count}$. If 5 numbers have mean 12, their total is 60 — so if four of them sum to 47, the fifth is 13.</p>
+@1ksrbyf4x6z
+<p>In a frequency table, divide $\sum fx$ by the total frequency $\sum f$, not by the number of rows.</p>
+@15d8a2aae5e  ; 0=s.join(LS()) | 1=n | 2=m1 | 3=m2 | 4=M(med)
+Sorted: ⟦0⟧. There are ⟦1⟧ values, so the median is the mean of the two middle ones: $\frac{⟦2⟧ + ⟦3⟧}{2} = ⟦4⟧$.
+@3npude2io3  ; 0=qTable([[T`Score`, ...xs], [T`Frequency`
+Find the mean score from the frequency table. Round to 2 decimal places if needed.⟦0⟧
+@1kkkmzzlb29
+Score
+@nph0ner2hr
+Frequency
+@c68abpawgf  ; 0=N | 1=xs.map((x, i) => `${x} \\times ${fs[i]}` | 2=S | 3=S | 4=N | 5=Number.isInteger(S / N * 100) ? '=' : '\ | 6=M(m)
+$\sum f = ⟦0⟧$ and $\sum fx = ⟦1⟧ = ⟦2⟧$. Mean $= \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.
+@aevfr1f0xw  ; 0=m | 1=known.join(LS())
+The mean of five numbers is ⟦0⟧. Four of them are ⟦1⟧. What is the fifth number?
+@2ddgia0tp1j  ; 0=m | 1=5 * m | 2=sum(known) | 3=5 * m | 4=sum(known) | 5=vals[4]
+The five numbers total $5 \times ⟦0⟧ = ⟦1⟧$. The four known ones sum to ⟦2⟧, so the fifth is $⟦3⟧ - ⟦4⟧ = ⟦5⟧$.
+@5e5w5tzrl1  ; 0=n | 1=m1 | 2=m2
+After ⟦0⟧ tests, Rudi's mean score is ⟦1⟧. After one more test, his mean score is ⟦2⟧. What did he score on the last test?
+@23zlk0k5oq4  ; 0=n | 1=m1 | 2=n * m1 | 3=n + 1 | 4=m2 | 5=(n + 1) * m2 | 6=(n + 1) * m2 | 7=n * m1 | 8=v
+Total before: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Total after: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Last score $= ⟦6⟧ - ⟦7⟧ = ⟦8⟧$.
+@1tdgm1yju18  ; 0=qTable([[T`Number of books read`, ...xs]
+What is the mode of the data in this table?⟦0⟧
+@2cqua50kina
+Number of books read
+@ypw9p4zjlu
+Number of students
+@22iugjzjcbh  ; 0=mode | 1=Math.max(...fs)
+The mode is the value with the highest frequency. ⟦0⟧ has frequency ⟦1⟧, the largest.
+
+##### probability-jh
+@1s529z7x9mx  ; 0=Fm(T`P(E) = \frac{n(E)}{n(S)}`) | 1=Key(T`<ul><li>$0 \le P(E) \le 1$: 0 mean | 2=Ex(T`<p>A bag has 3 red, 5 blue and 2 gr | 3=Tip(T`<p>Experimental probability (from 
+
+<p>An <b>experiment</b> (rolling a die, drawing a card) has possible <b>outcomes</b>. The set of all outcomes is the <b>sample space</b> $S$; an <b>event</b> $E$ is a set of outcomes. When all outcomes are equally likely:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Two dice</h3>
+<p>Rolling two dice gives $6 \times 6 = 36$ equally likely outcomes. A sum of 7 happens in 6 ways — (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — so $P(\text{sum} = 7) = \frac{6}{36} = \frac{1}{6}$. In general, the number of ways to get a sum $s$ is $6 - |s - 7|$.</p>
+<h3>A deck of cards</h3>
+<p>52 cards: 4 suits (♠ ♣ black, ♥ ♦ red) of 13 ranks (A, 2–10, J, Q, K). There are 12 face cards (J, Q, K).</p>
+⟦3⟧
+@2zwk9a7b7o
+<ul><li>$0 \le P(E) \le 1$: 0 means impossible, 1 means certain.</li><li><b>Complement:</b> $P(\text{not } E) = 1 - P(E)$.</li><li><b>Expected frequency</b> in $n$ trials $= P(E) \times n$.</li></ul>
+@sp7ttiactv
+<p>A bag has 3 red, 5 blue and 2 green marbles. $P(\text{blue}) = \frac{5}{10} = \frac{1}{2}$, and $P(\text{not green}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>
+@1quguehv908
+<p>Experimental probability (from real trials) gets closer to theoretical probability as the number of trials grows — but it rarely matches exactly.</p>
+@2jkb08f2dg
+red
+@1a43z74k2oy
+blue
+@1719de5b71t
+green
+@7kkile34lr  ; 0=c.red | 1=c.blue | 2=c.green | 3=nm
+A bag contains ⟦0⟧ red, ⟦1⟧ blue and ⟦2⟧ green balls. One ball is picked at random. What is the probability that it is ⟦3⟧?
+@26hhfp8us6o
+Type a fraction such as 2/7.
+@34i4syx68n  ; 0=nm | 1=nm | 2=k | 3=n | 4=gcd(k, n) > 1 ? ` = ${frT(k, n)}` : ''
+$P(\text{⟦0⟧}) = \frac{\text{⟦1⟧ balls}}{\text{all balls}} = \frac{⟦2⟧}{⟦3⟧}⟦4⟧$.
+@17fighwohx4  ; 0=s
+Two fair dice are rolled. What is the probability that the sum is ⟦0⟧?
+@1zfipt2db8x
+Type a fraction such as 5/36.
+@1xyubi5yqtq  ; 0=s | 1=ways | 2=ways | 3=gcd(ways, 36) > 1 ? T` = ${frT(ways, 36)
+There are 36 equally likely outcomes, and a sum of ⟦0⟧ happens in ⟦1⟧ of them. $P = \frac{⟦2⟧}{36}⟦3⟧$.
+@2cy3xut293b
+it rains tomorrow
+@lo67u7j66d
+a bus is late
+@2dk6yd5lp5u
+a seed germinates
+@1cur3c8r655
+a team wins its next match
+@9jb4uxp8mo  ; 0=ev | 1=F(p)
+The probability that ⟦0⟧ is ⟦1⟧. What is the probability that this does <b>not</b> happen?
+@1459jtc2vnw  ; 0=M(p) | 1=M(rnd(1 - p, 2))
+$P(\text{not } E) = 1 - P(E) = 1 - ⟦0⟧ = ⟦1⟧$.
+@1m5z09mwtae
+a six
+@2goj7cvo26g
+an even number
+@16jy1hpm8uh
+a number greater than 4
+@9psh7q2zqv
+a prime number
+@d1r3jk3fi5
+a multiple of 3
+@pkpby3rsiu  ; 0=n | 1=desc
+A fair die is rolled ⟦0⟧ times. How many times would you expect to roll ⟦1⟧?
+@1m2zbe7u1ww  ; 0=k | 1=k | 2=n | 3=(n * k) / 6
+$P = \frac{⟦0⟧}{6}$, so the expected number is $\frac{⟦1⟧}{6} \times ⟦2⟧ = ⟦3⟧$.
+@1eipzgu94sk
+a number less than 3
+@1i6lu5hyvob
+a factor of 6
+@uzgsjc3e5d
+a number greater than 1
+@1u2i7hb5c5n
+a square number
+@rjfh61539i  ; 0=desc
+A fair six-sided die is rolled. What is the probability of rolling ⟦0⟧?
+@2a86ul8z5e6
+Type a fraction such as 1/3.
+@wfhq8l2euu  ; 0=set.join(LS()) | 1=set.length | 2=set.length | 3=gcd(set.length, 6) > 1 ? T` = ${frT(set.
+Favourable outcomes: ⟦0⟧ — that is ⟦1⟧ of 6. $P = \frac{⟦2⟧}{6}⟦3⟧$.
+@1s7i7y0snm7
+a heart
+@1tvznlpjqb2
+13 hearts
+@19nwtn8arbx
+a king
+@gy4518kzl1
+4 kings
+@207cuaz509r
+a red card
+@1qvhvp7e8k8
+26 red cards
+@1sakrbqn5x6
+a red king
+@c3s60n5sor
+2 red kings
+@1671qt85c28
+a face card (J, Q or K)
+@29hha1vs7b6
+12 face cards
+@pavjeefc8d
+an ace or a king
+@2cy5fpo3esg
+4 aces and 4 kings
+@1rpplt11syb
+a black 7
+@13zshtnr8nq
+the 7 of spades and 7 of clubs
+@71sptgg3ka  ; 0=desc
+A card is drawn at random from a standard 52-card deck. What is the probability that it is ⟦0⟧?
+@1wkkibr9nk7
+Type a fraction such as 1/13.
+@23r35ol6pkt  ; 0=why | 1=k | 2=frT(k, 52)
+There are ⟦0⟧ out of 52 cards: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.
+
+##### social-arith
+@28qmmxd3nnk  ; 0=Tbl([T`Term`, T`Meaning`], [[T`Cost pric | 1=Key(T`$$\text{profit \%} = \frac{\text{p | 2=Ex(T`<p>A phone bought for 400 dollars i | 3=Fm(T`I = P \times r \times t \qquad \tex | 4=Tip(T`<p>Profit percentage is always bas
+
+<p>Everyday money questions are percentage questions in disguise.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Discount and tax</h3>
+<p>Apply percentages one after another: a 20% discount then 10% tax on 150 dollars gives $150 \times 0.8 \times 1.1 = 132$ dollars.</p>
+<h3>Simple interest</h3>
+⟦3⟧
+<p>1,500 dollars saved at 6% per year for 3 years earns $1{,}500 \times 0.06 \times 3 = 270$ dollars; the total becomes 1,770 dollars. For months, use $t = \frac{\text{months}}{12}$.</p>
+<h3>Gross, tare and net</h3>
+<p><b>Gross</b> = total weight; <b>tare</b> = weight of the packaging; <b>net</b> = gross − tare. A 50 kg sack with 2% tare has net weight $50 \times 0.98 = 49$ kg.</p>
+⟦4⟧
+@104nn3vx4at
+Term
+@1mb9fntmked
+Cost price (CP)
+@12bh5c74j0l
+what the seller paid
+@p4v89gjsks
+Selling price (SP)
+@ixzwuufb5k
+what the buyer pays
+@2dj314tvgil
+Profit
+@1b41ckd5mix
+SP − CP (when SP > CP)
+@8exalr20f0
+Loss
+@2acjs1v6cv9
+CP − SP (when SP < CP)
+@8cl7h0h70q
+$$\text{profit \%} = \frac{\text{profit}}{\text{cost price}} \times 100\% \qquad\qquad \text{SP} = \text{CP} \times \left(1 + \frac{p}{100}\right)$$
+@2251p3nt91s
+<p>A phone bought for 400 dollars is sold for 460 dollars. Profit $= 60$, so profit % $= \frac{60}{400} \times 100\% = 15\%$.</p>
+@16966flk4n0
+I = P \times r \times t \qquad \text{(principal} \times \text{yearly rate} \times \text{years)}
+@8dx80n4t33
+<p>Profit percentage is always based on the <b>cost</b> price, not the selling price.</p>
+@zmoygr0th3  ; 0=F(C) | 1=F(S)
+A trader buys a bicycle for ⟦0⟧ dollars and sells it for ⟦1⟧ dollars. What is the percentage profit?
+@hr5vewyo1d  ; 0=F(C) | 1=F(S)
+A trader buys a bicycle for ⟦0⟧ dollars and sells it for ⟦1⟧ dollars. What is the percentage loss?
+@w2dibc5j0k  ; 0=profit ? T`Profit` : T`Loss` | 1=M(Math.abs(S - C)) | 2=M(Math.abs(S - C)) | 3=M(C) | 4=p
+⟦0⟧ $= ⟦1⟧$. Percentage $= \frac{⟦2⟧}{⟦3⟧} \times 100\% = ⟦4⟧\%$.
+@1mg15vgrrsq  ; 0=F(C) | 1=p
+A shop buys a lamp for ⟦0⟧ dollars and wants to make a ⟦1⟧% profit. What should the selling price be?
+@1znpgx1zz3k  ; 0=M(C) | 1=M((100 + p) / 100) | 2=M((C * (100 + p)) / 100)
+$\text{SP} = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ dollars.
+@1qynlkevtzf
+for 1 year
+@265o2h9psz8  ; 0=t
+for ⟦0⟧ years
+@z7uavwhcj6  ; 0=F(P) | 1=r | 2=period
+⟦0⟧ dollars is invested at ⟦1⟧% simple interest per year ⟦2⟧. What is the total amount at the end?
+@158pfsp5k1j  ; 0=F(P) | 1=r | 2=period
+⟦0⟧ dollars is invested at ⟦1⟧% simple interest per year ⟦2⟧. How much interest is earned?
+@35ywrebltu  ; 0=M(P) | 1=M(r / 100) | 2=t | 3=M(I) | 4=total ? T` Total $= ${M(P)} + ${M(I)} = 
+$I = P r t = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ dollars.⟦4⟧
+@26yfs6y8h5o  ; 0=M(P) | 1=M(I) | 2=M(P + I)
+ Total $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ dollars.
+@11eyk8p87p8  ; 0=price | 1=d | 2=tx
+A pair of shoes costs ⟦0⟧ dollars. There is a ⟦1⟧% discount, and then ⟦2⟧% sales tax is added to the discounted price. What is the final price?
+@1ebjr2t3r5v  ; 0=price | 1=M(1 - d / 100) | 2=M(price * (1 - d / 100)) | 3=M(1 + tx / 100) | 4=M(res)
+$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, then $\times ⟦3⟧ = ⟦4⟧$ dollars.
+@j3cdki7hbr  ; 0=G | 1=F(t)
+A sack of rice has a gross weight of ⟦0⟧ kg. The tare is ⟦1⟧% of the gross weight. What is the net weight?
+@91s53sp2z  ; 0=M(t) | 1=G | 2=M(rnd((G * t) / 100, 2)) | 3=G | 4=M(rnd((G * t) / 100, 2)) | 5=M(net)
+Tare $= ⟦0⟧\% \times ⟦1⟧ = ⟦2⟧$ kg. Net $= ⟦3⟧ - ⟦4⟧ = ⟦5⟧$ kg.
+@1kvwyquko78  ; 0=F(S) | 1=p
+A watch is sold for ⟦0⟧ dollars at a profit of ⟦1⟧%. What was the cost price?
+@g36e4lpvm4  ; 0=M(1 + p / 100) | 1=M(S) | 2=M(1 + p / 100) | 3=M(C) | 4=p
+$\text{SP} = \text{CP} \times ⟦0⟧$, so $\text{CP} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ dollars. (Taking ⟦4⟧% off the selling price would be wrong.)
+
+##### patterns
+@2bajjwmyt59  ; 0=Key(T`$$u_n = a + (n - 1)d$$<p>where $a$ | 1=Tbl([T`Name`, T`Terms`, T`nth term`], [[ | 2=Ex(T`<p>Which term of 7, 11, 15, … equal | 3=Tip(T`<p>The coefficient of $n$ in the n
+
+<p>A <b>sequence</b> is an ordered list of numbers called <b>terms</b>. Spotting the rule lets you continue the pattern or jump straight to any term.</p>
+<h3>Arithmetic sequences</h3>
+<p>The same number $d$ (the <b>common difference</b>) is added each time: 5, 8, 11, 14, … has $d = 3$.</p>
+⟦0⟧
+<h3>Geometric sequences</h3>
+<p>Each term is multiplied by the same <b>ratio</b> $r$: 3, 6, 12, 24, … ($r = 2$); 80, 40, 20, … ($r = \frac{1}{2}$).</p>
+<h3>Special sequences</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+@11v4eu8405a
+$$u_n = a + (n - 1)d$$<p>where $a$ is the first term. For 5, 8, 11, …: $u_n = 5 + 3(n - 1) = 3n + 2$, so $u_{50} = 152$.</p>
+@7gqysfvinh
+Name
+@mwgm16sn11
+Terms
+@24evmkf6e6r
+nth term
+@xt4guw3yrj
+Square numbers
+@l2hgs4w3i2
+Cube numbers
+@lutv3xfjp0
+Triangular numbers
+@2g9qzgo3ylf
+Fibonacci
+@vjhbyyj0jc
+each term = sum of the previous two
+@k4xtnyrrtm
+<p>Which term of 7, 11, 15, … equals 95? $u_n = 4n + 3 = 95$, so $n = 23$: it is the 23rd term.</p>
+@sceh7pz7y9
+<p>The coefficient of $n$ in the nth-term formula is the common difference — not the first term.</p>
+@73l5vk6u1l  ; 0=t.join(LS())
+What is the next term in the sequence ⟦0⟧, …?
+@273m8h7rqm0  ; 0=d | 1=t[4] | 2=sg(d) | 3=a + 5 * d
+The common difference is ⟦0⟧, so the next term is $⟦1⟧ ⟦2⟧ = ⟦3⟧$.
+@e7rskm3cuq  ; 0=n | 1=listF(t)
+Find the term $u_{⟦0⟧}$ of the sequence ⟦1⟧, …
+@1zj05x9ucbg  ; 0=t.join(LS())
+Which formula gives the nth term of ⟦0⟧, …?
+@10p4kmsov0h  ; 0=d | 1=d | 2=d | 3=t[0] | 4=c | 5=lin(d, c, 'n')
+The terms increase by ⟦0⟧, so the formula starts $⟦1⟧n$. For $n = 1$, $⟦2⟧(1) + c = ⟦3⟧$ gives $c = ⟦4⟧$: $u_n = ⟦5⟧$.
+@kmsujsbacm  ; 0=r | 1=pn(t[3]) | 2=pn(r) | 3=a * r ** 4
+Each term is multiplied by ⟦0⟧, so the next term is $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.
+@1tqcntwvtfu  ; 0=t.join(LS()) | 1=v
+Which term of the sequence ⟦0⟧, … is equal to ⟦1⟧?
+@1i1kg83c5xj  ; 0=a | 1=d | 2=v | 3=d | 4=v - a | 5=n - 1 | 6=n
+$u_n = ⟦0⟧ + (n - 1) \times ⟦1⟧ = ⟦2⟧$, so $(n - 1) \times ⟦3⟧ = ⟦4⟧$, $n - 1 = ⟦5⟧$ and $n = ⟦6⟧$.
+@1ru4k9e3ubn  ; 0=n
+The triangular numbers are 1, 3, 6, 10, 15, … Find the triangular number $T_{⟦0⟧}$.
+@1kom1e2tuqt  ; 0=n
+The sequence 1, 4, 9, 16, 25, … continues. Find its term $u_{⟦0⟧}$.
+@29es9j5bth6  ; 0=n | 1=n * n
+These are square numbers, $u_n = n^2$, so $u_{⟦0⟧} = ⟦1⟧$.
+@1jl1l3ooto1  ; 0=t[0] | 1=t[1]
+In a sequence, each term after the second is the sum of the two terms before it. The first two terms are ⟦0⟧ and ⟦1⟧. What is the 7th term?
+@o3oiu9pprw  ; 0=t.join(LS()) | 1=t[6]
+The terms are ⟦0⟧. The 7th term is ⟦1⟧.
+
+##### similarity
+@165d9zkx0zx  ; 0=Tbl([T`Transformation`, T`Rule for a poi | 1=Key(T`<p>In similar figures, correspondi | 2=Ex(T`<p>Triangles $ABC$ and $PQR$ are si | 3=Ex(T`<p>A 1.5 m pole casts a 2 m shadow  | 4=Tip(T`<p>Similar sides differ by a <b>mu
+
+<p>A <b>transformation</b> moves or resizes a shape. Under translations, reflections and rotations the image is <b>congruent</b> (same shape and size); under a dilation it is <b>similar</b> (same shape, different size).</p>
+⟦0⟧
+<h3>Similar figures</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+@8do2aamvnn
+Transformation
+@jmpbrf5c1s
+Rule for a point (x, y)
+@2b0j70wot2h
+Translation by $\binom{a}{b}$
+@53ydgkbdv
+Reflection in the $x$-axis
+@1y0gzwc8g5l
+Reflection in the $y$-axis
+@2c65j86o1iv
+Reflection in $y = x$
+@2az2vuuewqg
+Rotation $90^\circ$ anticlockwise about O
+@1bwu4k8y4fc
+Rotation $180^\circ$ about O
+@24she08dmbo
+Rotation $90^\circ$ clockwise about O
+@1kfzbnkpyo2
+Dilation, scale factor $k$, centre O
+@1u5zflf6nl6
+<p>In similar figures, corresponding angles are equal and corresponding sides are in the same ratio, the <b>scale factor</b> $k$. Areas scale by $k^2$ and volumes by $k^3$.</p>
+@f54rct691f
+<p>Triangles $ABC$ and $PQR$ are similar with $AB = 6$, $BC = 8$ and $PQ = 9$. Scale factor $k = \frac{9}{6} = 1.5$, so $QR = 8 \times 1.5 = 12$. If triangle $ABC$ has area 24, triangle $PQR$ has area $24 \times 1.5^2 = 54$.</p>
+@111he4idz8g
+<p>A 1.5 m pole casts a 2 m shadow at the same moment a tree casts a 12 m shadow. The triangles are similar: $\frac{h}{12} = \frac{1.5}{2}$, so $h = 9$ m.</p>
+@1ag7324gyvl
+<p>Similar sides differ by a <b>multiple</b>, not by a fixed amount. If one side grows from 6 to 9, a side of 8 grows to 12, not 11.</p>
+@grtkq2tz50
+a reflection in the $x$-axis
+@2b146agxtl5
+a reflection in the $y$-axis
+@12ufv3upbre
+a reflection in the line $y = x$
+@1efbacf7mos
+a rotation of $90^\circ$ anticlockwise about the origin
+@2ettdugdvou
+a rotation of $180^\circ$ about the origin
+@y4ewc1f7tf
+a rotation of $90^\circ$ clockwise about the origin
+@147bj1yruac  ; 0=colv([tx, ty])
+a translation by $⟦0⟧$
+@q8g4eu6egm  ; 0=pt(x, y) | 1=name
+The point $P⟦0⟧$ is mapped by ⟦1⟧. What are the coordinates of its image?
+@px6a8rprin
+Type the coordinates as x, y.
+@199eqilp9e9  ; 0=rule.replace(/, /g, LS()) | 1=pt(ax, ay)
+The rule is ⟦0⟧, so the image is $⟦1⟧$.
+@141nr4eramb  ; 0=S[0] | 1=S[1] | 2=S[2] | 3=nm[i] | 4=L[i] | 5=nm[j]
+Triangles $ABC$ and $PQR$ are similar, with $AB \leftrightarrow PQ$, $BC \leftrightarrow QR$ and $CA \leftrightarrow RP$. Given $AB = ⟦0⟧$, $BC = ⟦1⟧$, $CA = ⟦2⟧$ and $⟦3⟧ = ⟦4⟧$, find $⟦5⟧$.
+@1kimjtrunz7  ; 0=L[i] | 1=S[i] | 2=frT(p, q) | 3=nm[j] | 4=S[j] | 5=frT(p, q) | 6=M(L[j])
+Scale factor $k = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$. So $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.
+@bj1shpkj9u  ; 0=k | 1=A
+Two similar solids have a scale factor of ⟦0⟧. The smaller one has a volume of ⟦1⟧ cm³. What is the volume of the larger one?
+@ld6jtpizu2  ; 0=k ** 3 | 1=A | 2=k ** 3 | 3=A * k ** 3
+Volumes scale by $k^3 = ⟦0⟧$: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³.
+@11duhh78e55  ; 0=k | 1=A
+Two similar shapes have a scale factor of ⟦0⟧. The smaller one has an area of ⟦1⟧ cm². What is the area of the larger one?
+@hfezjn5dnm  ; 0=k * k | 1=A | 2=k * k | 3=A * k * k
+Areas scale by $k^2 = ⟦0⟧$: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm².
+@2eojcpktunl  ; 0=F(h1) | 1=F(s1) | 2=F(s2)
+A ⟦0⟧ m stick casts a shadow ⟦1⟧ m long. At the same time, a tree casts a shadow ⟦2⟧ m long. How tall is the tree?
+@196fpe0msid  ; 0=M(s2) | 1=M(h1) | 2=M(s1) | 3=M(s2) | 4=M(h1) | 5=M(s1) | 6=M(h2)
+The triangles are similar: $\frac{h}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$, so $h = ⟦3⟧ \times \frac{⟦4⟧}{⟦5⟧} = ⟦6⟧$ m.
+@1iy8baeb4jd  ; 0=pt(x, y) | 1=F(k)
+The point $⟦0⟧$ is dilated with centre at the origin and scale factor ⟦1⟧. Where is its image?
+@1fyw56nqicr  ; 0=F(k) | 1=F(k) | 2=pn(x) | 3=F(k) | 4=pn(y) | 5=pt(k * x, k * y)
+Multiply both coordinates by ⟦0⟧: $(⟦1⟧ \times ⟦2⟧,\; ⟦3⟧ \times ⟦4⟧) = ⟦5⟧$.

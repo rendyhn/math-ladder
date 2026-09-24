@@ -1,0 +1,170 @@
+/* Français — collège (calcul littéral → fonctions affines) */
+addT('fr', {
+  // algebra-expr
+  '2ngxvisbtd': R`
+<p>Dans l’expression $5x^2 - 3xy + 7$, les <b>termes</b> sont $5x^2$, $-3xy$ et $7$ ; les <b>coefficients</b> sont 5 et $-3$ ; 7 est le <b>terme constant</b>. Des <b>termes semblables</b> ont exactement les mêmes lettres avec les mêmes exposants ($4ab$ et $-ab$ sont semblables ; $x^2$ et $x$ ne le sont pas).</p>
+<h3>Réduire</h3>
+<p>On regroupe les termes semblables en additionnant leurs coefficients : $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Développer</h3>
+⟦0⟧
+⟦1⟧
+<h3>Identités remarquables</h3>
+⟦2⟧
+<h3>Factoriser</h3>
+<p>Factoriser, c’est développer à l’envers. On met en facteur le plus grand facteur commun : $12x - 18 = 6(2x - 3)$.</p>
+<h3>Substituer</h3>
+<p>On remplace chaque lettre par sa valeur, avec des parenthèses pour les nombres négatifs : si $x = -2$, alors $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦3⟧`,
+  '107qibv29t1': R`<p><b>Distributivité :</b> $a(b + c) = ab + ac$. On multiplie <i>chaque</i> terme de la parenthèse par le facteur extérieur.</p><p><b>Double distributivité :</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
+  'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
+  'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. On oublie facilement le terme du milieu, $2 \cdot 4 \cdot x = 8x$.</p>`,
+  '1lzyurkx6yg': R`Réduisez $⟦0⟧$.`,
+  'c34hz2en6w': R`On regroupe les termes semblables : $(⟦0⟧ ⟦1⟧)⟦2⟧ + (⟦3⟧ ⟦4⟧)⟦5⟧ = ⟦6⟧$.`,
+  '1u1kf05ab7b': R`Développez $⟦0⟧(⟦1⟧)$.`,
+  '1eys0d9g1vl': R`On multiplie chaque terme de la parenthèse par ⟦0⟧ : $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ et $⟦4⟧ \times ⟦5⟧ = ⟦6⟧$. Résultat : $⟦7⟧$.`,
+  '1xv73exk1ey': R`Calculez $⟦0⟧$ pour $x = ⟦1⟧$.`,
+  'lz4v2y9o7u': R`On substitue avec des parenthèses : $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧ ⟦6⟧ ⟦7⟧ = ⟦8⟧$.`,
+  '26qvjy7rwjy': R`Factorisez complètement : $⟦0⟧$.`,
+  '19u3t9utdnl': R`Le PGCD de ⟦0⟧ et ⟦1⟧ est ⟦2⟧ : $⟦3⟧ = ⟦4⟧(⟦5⟧)$. On vérifie en développant.`,
+  '1im4ugi7thh': R`Développez et réduisez $(x ⟦0⟧)(x ⟦1⟧)$.`,
+  '1bafsr7t5do': R`Double distributivité : $⟦0⟧ = ⟦1⟧$.`,
+  '2e60a5izj9m': R`Développez $(x ⟦0⟧)^2$.`,
+
+  // linear-eq
+  '2e108zyv3t2': R`
+<p>Une équation affirme que deux expressions sont égales. Pensez à une balance : ce que l’on fait d’un côté, on le fait de l’autre, et l’équilibre est conservé. Le but est d’isoler l’inconnue.</p>
+⟦0⟧
+⟦1⟧
+<h3>Parenthèses et fractions</h3>
+<p>Développez d’abord (ou divisez les deux membres par le nombre devant la parenthèse). Supprimez les fractions en multipliant chaque terme par le dénominateur commun :</p>
+⟦2⟧
+<h3>Problèmes</h3>
+<ol><li>Choisissez une lettre pour l’inconnue et dites ce qu’elle représente.</li><li>Traduisez l’énoncé en équation.</li><li>Résolvez, puis vérifiez que la réponse a du sens dans le problème.</li></ol>
+⟦3⟧
+⟦4⟧`,
+  '23dcqvv32cf': R`<p>On défait les opérations dans l’ordre inverse grâce aux <b>opérations réciproques</b> : addition ↔ soustraction, multiplication ↔ division.</p>`,
+  '11eu1q8a3p': R`<p>Résoudre $5x - 7 = 2x + 11$.</p><ol><li>Soustraire $2x$ aux deux membres : $3x - 7 = 11$.</li><li>Ajouter 7 : $3x = 18$.</li><li>Diviser par 3 : $x = 6$.</li></ol><p>Vérification : $5(6) - 7 = 23$ et $2(6) + 11 = 23$ ✓</p>`,
+  '1wy5h98gkn6': R`<p>La somme de trois entiers consécutifs vaut 72. Notons-les $n$, $n + 1$, $n + 2$ : $3n + 3 = 72$, donc $n = 23$. Les entiers sont 23, 24 et 25.</p>`,
+  '2cslj9svu1g': R`<p>Quand on fait passer un terme de l’autre côté du signe égal, il change de signe — car en réalité on le soustrait (ou l’ajoute) aux deux membres.</p>`,
+  '1655nrncx2v': R`Résolvez $⟦0⟧ = ⟦1⟧$.`,
+  'x5jse5nhwr': R`Écrivez la valeur de x.`,
+  '2b0gu3x69ls': R`⟦0⟧ : $⟦1⟧ = ⟦2⟧$. On divise par ⟦3⟧ : $x = ⟦4⟧$.`,
+  '7pot73w6ik': R`On regroupe les termes en $x$ à gauche et les nombres à droite : $⟦0⟧ = ⟦1⟧$, donc $x = ⟦2⟧$.`,
+  'xzdgg8oaxi': R`Résolvez $⟦0⟧(x ⟦1⟧) = ⟦2⟧$.`,
+  '9hdqgjqpdz': R`On divise les deux membres par ⟦0⟧ : $x ⟦1⟧ = ⟦2⟧$. Donc $x = ⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  '2fru7tuxryf': R`Résolvez $\frac{x}{⟦0⟧} ⟦1⟧ = ⟦2⟧$.`,
+  '1f73j076fzb': R`⟦0⟧ : $\frac{x}{⟦1⟧} = ⟦2⟧$. On multiplie les deux membres par ⟦3⟧ : $x = ⟦4⟧$.`,
+  '211mafg3dgs': R`La somme de trois entiers consécutifs vaut ⟦0⟧. Quel est le plus grand ?`,
+  '8v51kosf3f': R`La somme de trois entiers consécutifs vaut ⟦0⟧. Quel est le plus petit ?`,
+  '28zr6x8xv6r': R`Notons-les $n$, $n + 1$, $n + 2$. Alors $3n + 3 = ⟦0⟧$, donc $3n = ⟦1⟧$ et $n = ⟦2⟧$. Les entiers sont ⟦3⟧, ⟦4⟧ et ⟦5⟧.`,
+  '6tcx6zie13': R`Andi`,
+  'bdnp7aucau': R`Maya`,
+  '111efujhij3': R`Nina`,
+  '2ffyzeo9a9u': R`Omar`,
+  '1o7plzvqsb1': R`Pablo`,
+  'xm9ndonr7a': R`⟦0⟧ a ⟦1⟧ ans de plus que ⟦2⟧. La somme de leurs âges est ⟦3⟧. Quel âge a ⟦4⟧ ?`,
+  '1dg7mtcy0c9': R`ans`,
+  '1i0et4blzn8': R`Notons $x$ l’âge de ⟦0⟧. Alors $x + (x + ⟦1⟧) = ⟦2⟧$, donc $2x = ⟦3⟧$ et $x = ⟦4⟧$.`,
+  '24q7bzlhbax': R`Je pense à un nombre, je le multiplie par ⟦0⟧, puis je retire ⟦1⟧. J’obtiens ⟦2⟧. Quel était mon nombre ?`,
+  'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, donc $⟦3⟧x = ⟦4⟧$ et $x = ⟦5⟧$.`,
+
+  // inequalities
+  'x75whe4hrd': R`
+<p>Une <b>inéquation</b> compare deux expressions : $\lt$ (strictement inférieur), $\gt$ (strictement supérieur), $\le$ (inférieur ou égal), $\ge$ (supérieur ou égal). Ses solutions forment en général tout un intervalle de nombres.</p>
+<p>Sur une droite graduée, $x \gt 2$ se représente par un point <b>ouvert</b> en 2 (2 n’est pas inclus) et une flèche vers la droite ; $x \le 2$ par un point <b>plein</b> et une flèche vers la gauche.</p>
+<h3>Résoudre</h3>
+<p>On résout comme une équation — ajouter, soustraire, multiplier ou diviser les deux membres — avec une règle supplémentaire :</p>
+⟦0⟧
+<p>Pourquoi ? $2 \lt 5$, mais en multipliant par $-1$ on obtient $-2$ et $-5$, et $-2 \gt -5$.</p>
+⟦1⟧
+<h3>Doubles inégalités</h3>
+<p>On applique la même opération aux trois parties : $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Les solutions entières sont $-1 ; 0 ; 1 ; 2 ; 3$.</p>
+⟦2⟧`,
+  '4uypmmfwnv': R`<p>Quand on <b>multiplie ou divise par un nombre négatif</b>, on change le sens de l’inégalité.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
+  '2g9ptainv5b': R`<p>Résoudre $7 - 2x \ge 1$.</p><ol><li>Soustraire 7 : $-2x \ge -6$.</li><li>Diviser par $-2$ et changer le sens : $x \le 3$.</li></ol>`,
+  'q5ww8c7swj': R`<p>« Le plus petit entier tel que $x \gt 4$ » est 5, pas 4 — une inégalité stricte exclut sa borne.</p>`,
+  '1mxokpl5kuf': R`Résolvez $⟦0⟧ ⟦1⟧ ⟦2⟧$.`,
+  '1iwjn3pne9': R`⟦0⟧ : $⟦1⟧ ⟦2⟧ ⟦3⟧$. On divise par ⟦4⟧ (positif, le sens ne change pas) : $x ⟦5⟧ ⟦6⟧$.`,
+  '1s1hpevc8ap': R`⟦0⟧ : $⟦1⟧ ⟦2⟧ ⟦3⟧$. On divise par ⟦4⟧. Il est <b>négatif</b>, donc on change le sens : $x ⟦5⟧ ⟦6⟧$.`,
+  'io0ae9g8yj': R`Le plus petit entier strictement supérieur à ⟦0⟧ est <b>⟦1⟧</b>.`,
+  'civ81fo6ci': R`Le plus petit entier supérieur ou égal à ⟦0⟧ est <b>⟦1⟧</b>.`,
+  '62e1f42m8l': R`Le plus grand entier strictement inférieur à ⟦0⟧ est <b>⟦1⟧</b>.`,
+  '1ime7hqq5cd': R`Le plus grand entier inférieur ou égal à ⟦0⟧ est <b>⟦1⟧</b>.`,
+  '2cy3ba2hfyd': R`Quel est le plus petit entier $x$ qui vérifie $⟦0⟧$ ?`,
+  'uffp85dcny': R`Quel est le plus grand entier $x$ qui vérifie $⟦0⟧$ ?`,
+  '33ggbvntvo': R`La résolution donne $x ⟦0⟧ ⟦1⟧$. ⟦2⟧`,
+  '116sbg7r1dd': R`Combien d’entiers $x$ vérifient $⟦0⟧ ⟦1⟧ ⟦2⟧ ⟦3⟧ ⟦4⟧$ ?`,
+  '17y5i2hhz2j': R`⟦0⟧, puis on divise par ⟦1⟧ : $⟦2⟧ ⟦3⟧ x ⟦4⟧ ⟦5⟧$. Les entiers sont ⟦6⟧ ; il y en a donc <b>⟦7⟧</b>.`,
+  'abjkjjicc6': R`chaque membre`,
+
+  // sets
+  '1upw9az6tpj': R`
+<p>Un <b>ensemble</b> est une collection bien définie d’objets, ses <b>éléments</b>. On écrit $A = \{2 ; 4 ; 6 ; 8\}$ et $4 \in A$ (« 4 appartient à A »), $5 \notin A$. $n(A)$ est le nombre d’éléments ; ici $n(A) = 4$. L’<b>ensemble vide</b> $\varnothing$ n’a aucun élément ; l’<b>ensemble universel</b> $U$ contient tout ce dont on parle.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'zdmpl6ts1e': R`Un diagramme de Venn : chaque zone correspond à une combinaison différente de « dans A » et « dans B ».`,
+  '142ifrt0jkt': R`Notation`,
+  '14czndj1h0b': R`Exemple avec A = {1 ; 2 ; 3 ; 4}, B = {3 ; 4 ; 5}`,
+  '17jfg6qecmz': R`intersection : dans les deux`,
+  '93vbzoy4wv': R`réunion : dans l’un ou l’autre (ou les deux)`,
+  'j83k8kg7rg': R`dans A mais pas dans B`,
+  'ul55bfe733': R`complémentaire : dans U mais pas dans A`,
+  '1m3czehh1lg': R`tout le reste de U`,
+  '9y4djdoyyu': R`chaque élément de A est dans B`,
+  'w227m2d70o': R`$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$<p>On soustrait l’intersection car elle a été comptée deux fois. Un ensemble à $n$ éléments possède $2^n$ sous-ensembles (y compris $\varnothing$ et l’ensemble lui-même).</p>`,
+  '4thfgx5jwf': R`<p>Dans une classe de 35 élèves, 20 jouent au football, 18 au basket et 8 aux deux. Alors $n(F \cup B) = 20 + 18 - 8 = 30$ pratiquent au moins un sport et $35 - 30 = 5$ n’en pratiquent aucun.</p>`,
+  '27eu4624ja8': R`<p>« Combien jouent seulement au football ? » : $20 - 8 = 12$, pas 20. Remplissez d’abord l’intersection du diagramme de Venn, puis allez vers l’extérieur.</p>`,
+  '27zhedv4gc': R`Dans une classe de ⟦0⟧ élèves, ⟦1⟧ aiment le football, ⟦2⟧ aiment le basket et ⟦3⟧ aiment les deux. Combien d’élèves n’aiment aucun des deux sports ?`,
+  '26xw5lahqxo': R`$n(F \cup B) = ⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$. Aucun des deux : $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
+  '1619zngy4yv': R`Dans un groupe, ⟦0⟧ personnes parlent anglais, ⟦1⟧ parlent espagnol et ⟦2⟧ parlent les deux langues. Combien parlent au moins l’une des deux ?`,
+  '18t2zte9r05': R`Combien de sous-ensembles <b>propres</b> $⟦0⟧$ possède-t-il ?`,
+  '2dvh10c76ll': R`Combien de sous-ensembles $⟦0⟧$ possède-t-il ?`,
+  'o8q41j2x4h': R`Un ensemble à ⟦0⟧ éléments a $2^{⟦1⟧} = ⟦2⟧$ sous-ensembles ; sans compter $A$ lui-même, il reste ⟦3⟧ sous-ensembles propres.`,
+  '1levxnz2zxu': R`Un ensemble à ⟦0⟧ éléments a $2^{⟦1⟧} = ⟦2⟧$ sous-ensembles.`,
+  'ngdtyzf3i3': R`éléments communs aux deux ensembles`,
+  'ygni6ry4dh': R`éléments de l’un ou l’autre des ensembles`,
+  'v15s4csij3': R`éléments de A qui ne sont pas dans B`,
+  '1j1pykn2kdj': R`Soit $A = ⟦0⟧$ et $B = ⟦1⟧$. Déterminez $A ⟦2⟧ B$.`,
+  '256hp0emm8w': R`$A ⟦0⟧ B$ contient les ⟦1⟧ : $⟦2⟧$.`,
+  '1vmjbk89h3x': R`$U = \{1 ; 2 ; 3 ; \ldots ; ⟦0⟧\}$ et $A = ⟦1⟧$. Combien d’éléments contient $A'$, le complémentaire de $A$ ?`,
+  'fzclz65o4l': R`$A'$ contient les éléments de $U$ qui ne sont pas dans $A$ : $n(A') = n(U) - n(A) = ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '27rc7060yur': R`des nombres premiers`,
+  '1qm9u9pg5gt': R`des nombres pairs`,
+  '19ysprsc13w': R`des multiples de 3`,
+  '2bluzo1qazo': R`des carrés parfaits`,
+  '1ncphoa2uf2': R`$A$ est l’ensemble des entiers strictement positifs inférieurs à ⟦0⟧ qui sont ⟦1⟧. Déterminez $n(A)$.`,
+  '9yersm2gye': R`$A = ⟦0⟧$, donc $n(A) = ⟦1⟧$.`,
+
+  // linear-functions
+  '1dcyn9qstbs': R`
+<p>Une <b>fonction affine</b> a pour représentation graphique une droite. Sous la <b>forme réduite</b></p>
+⟦0⟧
+<p>$m$ est le <b>coefficient directeur</b> (la pente) : de combien $y$ varie quand $x$ augmente de 1. $c$ est l’<b>ordonnée à l’origine</b>, là où la droite coupe l’axe des $y$. En notation fonctionnelle on écrit $f(x) = mx + c$ ; $f(3)$ désigne « la valeur pour $x = 3$ ».</p>
+<h3>Coefficient directeur à partir de deux points</h3>
+⟦1⟧
+⟦2⟧
+<h3>Intersections avec les axes et autres formes</h3>
+<p>Posez $x = 0$ pour trouver l’ordonnée à l’origine et $y = 0$ pour l’intersection avec l’axe des $x$. Une droite peut s’écrire $ax + by = c$ ; on la réécrit $y = -\frac{a}{b}x + \frac{c}{b}$ pour lire le coefficient directeur. Par un point $(x_1 ; y_1)$ avec le coefficient directeur $m$ : $y - y_1 = m(x - x_1)$.</p>
+⟦3⟧
+⟦4⟧`,
+  'b6i5f4mrw8': R`y = mx + c`,
+  '2debyr8clym': R`m = \frac{\text{variation verticale}}{\text{variation horizontale}} = \frac{y_2 - y_1}{x_2 - x_1}`,
+  '2487xq0zh4o': R`<p>Par $(1 ; 2)$ et $(4 ; 11)$ : $m = \frac{11 - 2}{4 - 1} = 3$. On remplace $(1 ; 2)$ dans $y = 3x + c$ : $2 = 3 + c$, donc $c = -1$ et la droite est $y = 3x - 1$.</p>`,
+  '1jy9kk0ffnl': R`<ul><li>Des droites <b>parallèles</b> ont le même coefficient directeur : $m_1 = m_2$.</li><li>Des droites <b>perpendiculaires</b> ont des coefficients directeurs dont le produit vaut $-1$ : $m_1 m_2 = -1$, donc $m_2 = -\frac{1}{m_1}$.</li></ul>`,
+  'mf12am34lg': R`<p>Gardez le même ordre : si vous mettez $y_2 - y_1$ en haut, mettez $x_2 - x_1$ en bas. Un coefficient directeur positif monte vers la droite ; un négatif descend.</p>`,
+  'cmysd7luf4': R`Déterminez le coefficient directeur de la droite passant par $⟦0⟧$ et $⟦1⟧$.`,
+  'bn7cydwexg': R`Sachant que $f(x) = ⟦0⟧$, calculez $f(⟦1⟧)$.`,
+  'aaz26bx5zl': R`Quelle est l’ordonnée à l’origine de la droite $⟦0⟧$ ?`,
+  '286d6a0jwny': R`On pose $x = 0$ : $⟦0⟧ = ⟦1⟧$, donc $y = ⟦2⟧$.`,
+  '2aba0g68aq0': R`Quel est le coefficient directeur de la droite $⟦0⟧$ ?`,
+  '2cp0qhukifo': R`On isole $y$ : $y = \frac{⟦0⟧x ⟦1⟧}{⟦2⟧}$. Le coefficient directeur est le coefficient de $x$ : $⟦3⟧$.`,
+  '9s9um0dbpj': R`Quelle équation décrit la droite passant par $⟦0⟧$ et $⟦1⟧$ ?`,
+  '2ewjcigtyej': R`Coefficient directeur : $m = \frac{⟦0⟧ - ⟦1⟧}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. On remplace $⟦5⟧$ dans $y = ⟦6⟧ + c$ : $c = ⟦7⟧ - ⟦8⟧ = ⟦9⟧$.`,
+  'dog47xwchb': R`Une droite a pour coefficient directeur $⟦0⟧$. Quel est le coefficient directeur d’une droite qui lui est perpendiculaire ?`,
+  '22x7dksxq1f': R`Les coefficients directeurs de droites perpendiculaires ont pour produit $-1$ : $m_2 = -\frac{1}{m_1} = ⟦0⟧$.`,
+  '1p3mlag1dqo': R`Pour quelle valeur de $x$ la droite $y = ⟦0⟧$ coupe-t-elle l’axe des $x$ ?`,
+  'v36n3a0on1': R`Sur l’axe des $x$, $y = 0$ : $⟦0⟧ ⟦1⟧ = 0$, donc $x = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+});

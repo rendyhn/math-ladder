@@ -1,0 +1,211 @@
+/* Deutsch — Kern + Grundschule (Stellenwert → Teiler) */
+addT('de', {
+  // core
+  '1hnygwzeeez': R`Wahr`,
+  '12u8s6vu2gj': R`Falsch`,
+  '1mc3pmcca9i': R`In allen Teilen ⟦0⟧ subtrahieren`,
+  '1flhu7k9ohj': R`In allen Teilen ⟦0⟧ addieren`,
+  '1g9usaftmli': R`Auf beiden Seiten ⟦0⟧ subtrahieren`,
+  'rcyxvbe5bx': R`Auf beiden Seiten ⟦0⟧ addieren`,
+  'fc0sowzn7c': R`Merke`,
+  '1oy7dzvank8': R`Beispiel`,
+  '1q1jscvjv55': R`Vorsicht`,
+  '1a2zghfpw7a': R`Gib einen Bruch wie 7/12 ein (unechte Brüche sind erlaubt).`,
+  '2wu7e9ekt1': R`Ein Rechteck mit Länge l und Breite w, ein Dreieck mit Grundseite b und Höhe h sowie ein Trapez mit den parallelen Seiten a und b und der Höhe h`,
+
+  // place-value
+  'i1ejiqva2l': R`
+<p>Unser Zahlensystem verwendet zehn Ziffern, 0 bis 9. Die <b>Stelle</b> einer Ziffer bestimmt ihren <b>Wert</b>: Jede Stelle ist zehnmal so viel wert wie die Stelle rechts daneben.</p>
+⟦0⟧
+<p>In <b>5 382 417</b> steht die Ziffer 8 an der Zehntausenderstelle, sie ist also $8 \times 10\,000 = 80\,000$ wert. Die Ziffer 3 ist $300\,000$ wert.</p>
+<h3>Zerlegung nach Stellenwerten</h3>
+<p>Schreibt man eine Zahl als Summe ihrer Stellenwerte, sieht man, was jede Ziffer wert ist:</p>
+⟦1⟧
+<p>Die 0 an der Zehnerstelle ist ein <b>Platzhalter</b>. Ohne sie würde aus 4 307 die Zahl 437.</p>
+<h3>Zahlen vergleichen</h3>
+<p>Eine natürliche Zahl mit mehr Stellen ist größer. Haben zwei Zahlen gleich viele Stellen, vergleicht man sie Ziffer für Ziffer von links; die erste Stelle, an der sie sich unterscheiden, entscheidet. Also ist $52\,814 \gt 52\,781$, weil an der Hunderterstelle $8 \gt 7$ gilt.</p>
+<h3>Runden</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
+  'k8yn6x5f0c': R`Millionen`,
+  '1y40p90zlus': R`Hunderttausender`,
+  '8rp03918ge': R`Zehntausender`,
+  'y6ohcicccm': R`Tausender`,
+  '2bpfsjyefrh': R`Hunderter`,
+  '12cshgy5to0': R`Zehner`,
+  '48l24kh7s0': R`Einer`,
+  '1h333nq85ni': R`<p>Um auf eine Stelle zu runden, schau dir die Ziffer <b>direkt rechts daneben</b> an.</p><ul><li>5 oder mehr: <b>aufrunden</b> (die Rundungsstelle um eins erhöhen).</li><li>4 oder weniger: <b>abrunden</b> (die Rundungsstelle bleibt gleich).</li></ul><p>Alle Ziffern nach der Rundungsstelle werden 0.</p>`,
+  '264ckm0rxdd': R`<p>Runde 3 462 auf Hunderter.</p><ol><li>Die Hunderterziffer ist 4. Die Ziffer rechts daneben (Zehner) ist 6.</li><li>6 ist 5 oder mehr, also aufrunden: Aus der 4 wird eine 5.</li><li>Ergebnis: <b>3 500</b>.</li></ol><p>Auf Zehner gerundet ist 3 462 gleich 3 460; auf Tausender gerundet 3 000.</p>`,
+  '1b014azrv9g': R`<p>Schau nur auf die nächste Ziffer. 3 449 wird auf Hunderter zu 3 400, nicht zu 3 500 – runde nie schrittweise.</p>`,
+  'rwpycs3uy5': R`Einer`,
+  '48iq3xbr78': R`Zehner`,
+  'evjeoal0o3': R`Hunderter`,
+  '1wg89nrnvw3': R`Tausender`,
+  'humdf3fhgn': R`Zehntausender`,
+  '7vj2b9yekp': R`Hunderttausender`,
+  '1vvnln22yvc': R`Millionen`,
+  '1k42apyhj2s': R`Welchen Wert hat in der Zahl <b>⟦0⟧</b> die Ziffer an der Stelle der <b>⟦1⟧</b>?`,
+  '1wls65y7jfe': R`Die Ziffer an der Stelle der ⟦0⟧ ist ⟦1⟧, ihr Wert ist also $⟦2⟧ \times ⟦3⟧ = ⟦4⟧$.`,
+  '2ds03ywxgdr': R`Zehner`,
+  'ct0emjf1zx': R`Hunderter`,
+  '2bm9zrq1v5b': R`Tausender`,
+  '1p8grh6ppw3': R`Runde <b>⟦0⟧</b> auf ⟦1⟧.`,
+  'ucpruditlj': R`Die Ziffer rechts neben der Stelle der ⟦0⟧ ist ⟦1⟧. ⟦2⟧: ⟦3⟧ ≈ <b>⟦4⟧</b>.`,
+  '10zj9kfgz44': R`Sie ist 5 oder größer, also wird aufgerundet`,
+  '2bd3oxw8hoc': R`Sie ist kleiner als 5, also wird abgerundet`,
+  '2eobe5h8vjz': R`Welche Zahl ist gleich $⟦0⟧$?`,
+  '12ct2r4vi1w': R`Addiere die Stellenwerte: $⟦0⟧ = ⟦1⟧$. Die Nullen halten die leeren Stellen frei.`,
+  '1thskfj0azj': R`Welche dieser Zahlen ist die <b>größte</b>?<br>⟦0⟧`,
+  '1qw72id1e2m': R`Welche dieser Zahlen ist die <b>kleinste</b>?<br>⟦0⟧`,
+  'cdwrnsn0bw': R`Alle haben fünf Stellen, also vergleiche von links. Geordnet ⟦0⟧: ⟦1⟧.`,
+  '1hf4gas3oen': R`von der größten zur kleinsten`,
+  '1uhrj1iztnj': R`von der kleinsten zur größten`,
+
+  // add-sub
+  '2crp1hgq6k1': R`
+<p>Addieren fasst Mengen zusammen; Subtrahieren bestimmt, was übrig bleibt, oder den <b>Unterschied</b> zwischen zwei Mengen. Bei großen Zahlen rechnet man <b>schriftlich</b>: Die Ziffern werden nach Stellenwerten untereinander geschrieben, und man rechnet von der Einerspalte nach links.</p>
+<h3>Addieren mit Übertrag</h3>
+<p>Ergibt eine Spalte 10 oder mehr, schreibt man die Einerziffer hin und nimmt den Zehner als <b>Übertrag</b> in die nächste Spalte mit.</p>
+⟦0⟧
+<h3>Subtrahieren mit Entbündeln</h3>
+<p>Ist die obere Ziffer einer Spalte kleiner als die untere, <b>entbündelt</b> man (man borgt) eins aus der nächsten Spalte: Das ergibt 10 mehr in der aktuellen Spalte.</p>
+⟦1⟧
+⟦2⟧
+<h3>Textaufgaben</h3>
+<p>Wörter wie <i>insgesamt, zusammen, mehr, erhöht</i> bedeuten meist Addition. Wörter wie <i>übrig, bleiben, Unterschied, wie viel mehr, weniger</i> bedeuten meist Subtraktion. Frag dich immer, was die Aufgabe wirklich wissen will.</p>
+⟦3⟧`,
+  '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Einer: $7 + 6 = 13$ → 3 hinschreiben, 1 übertragen.</li><li>Zehner: $8 + 4 + 1 = 13$ → 3 hinschreiben, 1 übertragen.</li><li>Hunderter: $5 + 8 + 1 = 14$ → 4 hinschreiben, 1 übertragen.</li><li>Tausender: $4 + 2 + 1 = 7$.</li></ol><p>Ergebnis: <b>7 433</b>.</p>`,
+  'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Einer: 4 ist kleiner als 8. Die Zehnerziffer ist 0, also entbündelt man einen Hunderter: Aus 204 werden 1 Hunderter, 9 Zehner und 14 Einer. $14 - 8 = 6$.</li><li>Zehner: $9 - 5 = 4$.</li><li>Hunderter: 1 ist kleiner als 7, also einen Tausender entbündeln: $11 - 7 = 4$.</li><li>Tausender: $5 - 1 = 4$.</li></ol><p>Ergebnis: <b>4 446</b>.</p>`,
+  '1myl5xbp4pm': R`<p>Addition und Subtraktion machen sich gegenseitig rückgängig. Eine Subtraktion prüft man durch Addieren: $4\,446 + 1\,758 = 6\,204$ ✓. So findet man auch fehlende Zahlen: Wenn $\square + 348 = 1\,000$, dann ist $\square = 1\,000 - 348 = 652$.</p>`,
+  '23w41b37di3': R`<p>Ein häufiger Fehler ist, in jeder Spalte die kleinere von der größeren Ziffer abzuziehen (z. B. $52 - 38 = 26$). Richtig ist Entbündeln: $52 - 38 = 14$.</p>`,
+  'jzpsrz7qv': R`Berechne $⟦0⟧ + ⟦1⟧$.`,
+  '11vnennk127': R`Schreibe die Ziffern stellengerecht untereinander und addiere ab den Einern; sobald eine Spalte 10 oder mehr ergibt, gibt es einen Übertrag: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '2cqlmyuanc4': R`Berechne $⟦0⟧ - ⟦1⟧$.`,
+  '217um699krb': R`Subtrahiere Spalte für Spalte ab den Einern und entbündle, wenn die obere Ziffer kleiner ist: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$. Probe: $⟦3⟧ + ⟦4⟧ = ⟦5⟧$.`,
+  '20q2iwal3wx': R`Welche Zahl gehört in das Kästchen? $\square + ⟦0⟧ = ⟦1⟧$`,
+  '2vzsixgbwq': R`Subtraktion macht Addition rückgängig: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '19k8gxx8enm': R`Eine Bücherei hatte ⟦0⟧ Bücher. Sie bekam ⟦1⟧ neue Bücher und verlieh dann ⟦2⟧ Bücher. Wie viele Bücher sind noch in der Bücherei?`,
+  '22c2nbk22nn': R`Addiere die neuen Bücher und subtrahiere dann die verliehenen: $⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$.`,
+  'tjgizs9fjl': R`Mia`,
+  '1if8m7vmopf': R`Leo`,
+  '12t8l5omzh1': R`Sari`,
+  '26mi5um5hxm': R`Budi`,
+  '5ladyusi9v': R`Ana`,
+  '1e0eos7e481': R`Tom`,
+  '28xor3epndt': R`Dewi`,
+  'fl1dlgr4st': R`Raka`,
+  'b83c8sskmz': R`In einem Spiel hat ⟦0⟧ ⟦1⟧ Punkte erzielt und ⟦2⟧ ⟦3⟧ Punkte. Wie viele Punkte mehr hat ⟦4⟧ erzielt?`,
+  'h14zpmlfj7': R`„Wie viele mehr“ fragt nach dem Unterschied: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+
+  // mul-div
+  '12j6s3mfail': R`
+<p><b>Multiplizieren</b> ist wiederholtes Addieren gleich großer Gruppen: $4 \times 6$ bedeutet 4 Gruppen zu je 6, also $6 + 6 + 6 + 6 = 24$. <b>Dividieren</b> teilt eine Menge in gleich große Gruppen auf: $24 \div 6 = 4$.</p>
+⟦0⟧
+<h3>Größere Zahlen multiplizieren</h3>
+<p>Zerlege eine Zahl nach Stellenwerten, multipliziere jeden Teil und addiere (das ist das Distributivgesetz):</p>
+⟦1⟧
+<h3>Division mit Rest</h3>
+<p>Geht eine Division nicht auf, heißt das, was übrig bleibt, <b>Rest</b>. Er ist immer kleiner als der Divisor.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '1rjytzik9fa': R`<p>Multiplikation und Division machen sich gegenseitig rückgängig: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Beim Multiplizieren ist die Reihenfolge egal: $a \times b = b \times a$.</li><li>Multiplikation verteilt sich auf eine Summe: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
+  '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
+  '11dzvmewikb': R`47 \div 5 = 9 \text{ Rest } 2 \qquad \text{denn } 5 \times 9 + 2 = 47`,
+  '1z8tho01ahp': R`<p>150 Schülerinnen und Schüler machen einen Ausflug. In jeden Bus passen 40. Wie viele Busse werden gebraucht?</p><p>$150 \div 40 = 3$ Rest 30. Drei Busse fahren 120 Kinder; die übrigen 30 brauchen auch einen Bus, also werden <b>4 Busse</b> gebraucht.</p>`,
+  '1g33a99esai': R`<p>Überlege bei Textaufgaben, was der Rest bedeutet. „Wie viele Busse werden <i>gebraucht</i>?“ heißt aufrunden; „Wie viele Kartons können <i>vollständig</i> gefüllt werden?“ heißt abrunden.</p>`,
+  '10v4h321li3': R`Berechne $⟦0⟧ \times ⟦1⟧$.`,
+  'h89yrotk3q': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ – das sind ⟦3⟧ Gruppen zu je ⟦4⟧.`,
+  '2gi38wc5lfl': R`Zerlege ⟦0⟧ in ⟦1⟧ + ⟦2⟧: $⟦3⟧ \times ⟦4⟧ + ⟦5⟧ \times ⟦6⟧ = ⟦7⟧ + ⟦8⟧ = ⟦9⟧$.`,
+  '2g99zk4sonb': R`Berechne $⟦0⟧ \div ⟦1⟧$.`,
+  'cggzswltjw': R`Division macht Multiplikation rückgängig: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, also $⟦3⟧ \div ⟦4⟧ = ⟦5⟧$.`,
+  '7njwte8n8l': R`Welcher Rest bleibt, wenn man ⟦0⟧ durch ⟦1⟧ teilt?`,
+  '1c2kbih8aei': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ und $⟦3⟧ - ⟦4⟧ = ⟦5⟧$, also $⟦6⟧ \div ⟦7⟧ = ⟦8⟧$ Rest <b>⟦9⟧</b>.`,
+  '23lffvpxlg2': R`Eier`,
+  'isjmxkkk5m': R`Cupcakes`,
+  'qd054tvbk9': R`Bleistifte`,
+  '22kysml68r1': R`Flaschen`,
+  '29eftju2pbv': R`⟦0⟧ ⟦1⟧ werden in Kartons verpackt, in die jeweils ⟦2⟧ passen. Wie viele Kartons braucht man, um alle zu verpacken?`,
+  '1pnydk75epc': R`Ein Laden verpackt ⟦0⟧ ⟦1⟧ in Kartons zu je ⟦2⟧. Wie viele Kartons können <b>vollständig</b> gefüllt werden?`,
+  '9w986eh8jp': R`$⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ Rest ⟦3⟧. ⟦4⟧`,
+  'dnbly4c6lj': R`Die übrigen ⟦0⟧ ⟦1⟧ brauchen auch einen Karton, also braucht man <b>⟦2⟧</b> Kartons.`,
+  'doig2i1un2': R`Nur <b>⟦0⟧</b> Kartons sind voll; ⟦1⟧ ⟦2⟧ bleiben übrig.`,
+  '5ki7426a69': R`In einem Saal stehen ⟦0⟧ Stuhlreihen mit je ⟦1⟧ Stühlen. Wie viele Stühle sind es insgesamt?`,
+  '13ytah9dyhs': R`Gleich lange Reihen bedeuten Multiplikation: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ Stühle.`,
+
+  // order-ops
+  'jeo8qdfjh8': R`
+<p>Enthält eine Rechnung mehrere Rechenarten, müssen alle sie in derselben Reihenfolge ausführen – sonst ergäbe derselbe Term verschiedene Ergebnisse. Man merkt sich die Reihenfolge mit <b>Klammer vor Potenz vor Punkt vor Strich</b>; im Englischen heißt die Merkregel <b>PEMDAS</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '100vdkuw7cv': R`Schritt`,
+  '1ata9ppdhpl': R`Rechenart`,
+  '1i56r47suu5': R`Beispiel`,
+  'bct94f2duc': R`Klammern`,
+  '152taipeiq': R`Potenzen (und Wurzeln)`,
+  '1dq9oio2vod': R`Punktrechnung (mal und geteilt) – von links nach rechts`,
+  'ety1fhjk85': R`Strichrechnung (plus und minus) – von links nach rechts`,
+  '20c9xxbu7nh': R`<p>Multiplikation und Division sind <b>gleichrangig</b>, ebenso Addition und Subtraktion. Innerhalb derselben Stufe rechnet man von <b>links nach rechts</b>.</p>`,
+  'vpi6gbf1j5': R`<p>Berechne $20 - 8 \div 2 \times 3 + 1$.</p><ol><li>Zuerst Punktrechnung von links nach rechts: $8 \div 2 = 4$, dann $4 \times 3 = 12$.</li><li>Jetzt $20 - 12 + 1$ von links nach rechts: $8 + 1 = 9$.</li></ol><p>Ergebnis: <b>9</b>.</p>`,
+  'cx7umbw06o': R`<p>Berechne $(8 + 4) \times 3 - 2^3$.</p><ol><li>Klammer: $8 + 4 = 12$.</li><li>Potenz: $2^3 = 8$.</li><li>Multiplizieren: $12 \times 3 = 36$.</li><li>Subtrahieren: $36 - 8 = 28$.</li></ol>`,
+  '9qyvtl39mt': R`<p>„Punkt vor Strich“ heißt nicht „mal vor geteilt“. $12 \div 3 \times 2 = 8$, nicht $12 \div 6 = 2$.</p>`,
+  '2boesugt2g3': R`Berechne $⟦0⟧ + ⟦1⟧ \times ⟦2⟧$.`,
+  '18k6kdrqfh9': R`Zuerst multiplizieren: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Dann addieren: $⟦3⟧ + ⟦4⟧ = ⟦5⟧$.`,
+  '13w7u6yvf66': R`Berechne $(⟦0⟧ + ⟦1⟧) \times ⟦2⟧ - ⟦3⟧$.`,
+  '1kgg8vz8ven': R`Klammer: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$. Multiplizieren: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Subtrahieren: $⟦6⟧ - ⟦7⟧ = ⟦8⟧$.`,
+  'fpzk0whg2k': R`Berechne $⟦0⟧ - ⟦1⟧ \div ⟦2⟧ \times ⟦3⟧$.`,
+  '6i0q5bykj1': R`Zuerst Punktrechnung von links nach rechts: $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$, dann $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Zum Schluss $⟦6⟧ - ⟦7⟧ = ⟦8⟧$.`,
+  '1f77fy0xem': R`Berechne $⟦0⟧ + ⟦1⟧^2 - ⟦2⟧$.`,
+  'isber9l7mx': R`Zuerst die Potenz: $⟦0⟧^2 = ⟦1⟧$. Dann von links nach rechts: $⟦2⟧ + ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '12cd51d72z4': R`Berechne $⟦0⟧ \times (⟦1⟧ + ⟦2⟧) \div ⟦3⟧$.`,
+  '1rwp21i838c': R`Klammer: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$. Dann von links nach rechts: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$ und $⟦6⟧ \div ⟦7⟧ = ⟦8⟧$.`,
+  '16yj15t3yvl': R`Berechne $⟦0⟧ - ⟦1⟧ + ⟦2⟧$.`,
+  '2g7vu4g2g7r': R`Addition und Subtraktion sind gleichrangig, also von links nach rechts: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, dann $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Würde man zuerst $⟦6⟧ + ⟦7⟧$ rechnen, käme fälschlich ⟦8⟧ heraus.`,
+
+  // factors
+  'obrpwbkvog': R`
+<p>Ein <b>Teiler</b> einer Zahl teilt sie ohne Rest. Ein <b>Vielfaches</b> einer Zahl ist diese Zahl mal eine natürliche Zahl.</p>
+<ul><li>Teiler von 12: 1, 2, 3, 4, 6, 12 (sie treten paarweise auf: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Vielfache von 12: 12, 24, 36, 48, …</li></ul>
+<h3>Primzahlen und zusammengesetzte Zahlen</h3>
+<p>Eine <b>Primzahl</b> hat genau zwei Teiler: 1 und sich selbst (2, 3, 5, 7, 11, 13, …). Eine <b>zusammengesetzte</b> Zahl hat mehr als zwei Teiler. Die 1 ist weder Primzahl noch zusammengesetzt, und 2 ist die einzige gerade Primzahl.</p>
+⟦0⟧
+<h3>Primfaktorzerlegung</h3>
+<p>Jede natürliche Zahl größer als 1 lässt sich auf genau eine Weise als Produkt von Primzahlen schreiben. Nutze einen Faktorbaum: Zerlege weiter, bis jeder Ast mit einer Primzahl endet.</p>
+⟦1⟧
+<h3>ggT und kgV</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '10ydoy6638h': R`Teilbar durch`,
+  '1u2j0a6t91o': R`Regel`,
+  '1fsfip1h2ap': R`letzte Ziffer ist gerade`,
+  '26v1i9jjmmd': R`Quersumme ist durch 3 teilbar`,
+  'irydz9sqkz': R`die letzten beiden Ziffern bilden ein Vielfaches von 4`,
+  'mwe5nagqkl': R`letzte Ziffer ist 0 oder 5`,
+  'uitu5og8wz': R`durch 2 und durch 3 teilbar`,
+  'h955yik0fz': R`Quersumme ist durch 9 teilbar`,
+  '185jxbw7gii': R`letzte Ziffer ist 0`,
+  'sxhmc0c8k9': R`<p>Der <b>größte gemeinsame Teiler</b> (ggT) ist die größte Zahl, die beide Zahlen teilt. Das <b>kleinste gemeinsame Vielfache</b> (kgV) ist die kleinste Zahl, die von beiden geteilt wird.</p><p>Mit der Primfaktorzerlegung: Der ggT nimmt jeden gemeinsamen Primfaktor mit der <b>kleinsten</b> Potenz; das kgV nimmt jeden Primfaktor mit der <b>größten</b> Potenz.</p>`,
+  '2dcgjf0y6e9': R`<p>$24 = 2^3 \times 3$ und $36 = 2^2 \times 3^2$.</p><p>ggT $= 2^2 \times 3 = 12$. &nbsp; kgV $= 2^3 \times 3^2 = 72$.</p><p>Probe: $\text{ggT} \times \text{kgV} = 12 \times 72 = 864 = 24 \times 36$ ✓ (das gilt für zwei Zahlen immer).</p>`,
+  '13dl2xstaq0': R`<p>Bei ggT-Aufgaben geht es ums <i>Aufteilen in gleiche Gruppen</i> (die größtmögliche Gruppengröße). Bei kgV-Aufgaben geht es darum, <i>wann etwas wieder gleichzeitig passiert</i> (wann die Zyklen zum ersten Mal zusammenfallen).</p>`,
+  '1v4c3frqq3d': R`Was ist der größte gemeinsame Teiler (ggT) von ⟦0⟧ und ⟦1⟧?`,
+  '8l33q80f9g': R`Teiler von ⟦0⟧: ⟦1⟧.<br>Teiler von ⟦2⟧: ⟦3⟧.<br>Der größte gemeinsame Teiler ist <b>⟦4⟧</b>.`,
+  'slhedaglcs': R`Was ist das kleinste gemeinsame Vielfache (kgV) von ⟦0⟧ und ⟦1⟧?`,
+  '1gi8rsfc6pi': R`Vielfache von ⟦0⟧: ⟦1⟧, …<br>Vielfache von ⟦2⟧: ⟦3⟧, …<br>Das erste gemeinsame ist <b>⟦4⟧</b>.`,
+  '15d9oj1fzj1': R`Welche dieser Zahlen ist eine <b>Primzahl</b>?`,
+  'xvmwee4nwk': R`⟦0⟧ hat genau zwei Teiler, 1 und ⟦1⟧. Die anderen sind zusammengesetzt: ⟦2⟧.`,
+  '151txls1vlc': R`Wie viele Teiler hat ⟦0⟧?`,
+  '1tllv5888z': R`Schreibe die Teilerpaare auf: ⟦0⟧. Die Teiler sind ⟦1⟧ – das sind <b>⟦2⟧</b> Teiler.`,
+  'rjpmb07v6a': R`Wie lautet die Primfaktorzerlegung von ⟦0⟧?`,
+  '162lv91sf8i': R`Teile immer weiter durch Primzahlen: ⟦0⟧ = ⟦1⟧. Jeder Faktor ist eine Primzahl, und das Produkt ergibt wieder ⟦2⟧.`,
+  '1dcblj5tqu6': R`Hana hat ⟦0⟧ rote und ⟦1⟧ blaue Perlen. Sie fertigt gleiche Armbänder und verbraucht dabei alle Perlen; jedes Armband hat gleich viele rote und gleich viele blaue Perlen. Wie viele Armbänder kann sie höchstens herstellen?`,
+  '16f0mrep69j': R`Die Anzahl der Armbänder muss sowohl ⟦0⟧ als auch ⟦1⟧ teilen, also suchst du den ggT: $\text{ggT}(⟦2⟧; ⟦3⟧) = ⟦4⟧$. Sie kann <b>⟦5⟧</b> Armbänder herstellen, jedes mit ⟦6⟧ roten und ⟦7⟧ blauen Perlen.`,
+  '76jyl5vip0': R`Zwei Lampen haben gerade gleichzeitig geblinkt. Die eine blinkt alle ⟦0⟧ Sekunden, die andere alle ⟦1⟧ Sekunden. Nach wie vielen Sekunden blinken sie das nächste Mal gleichzeitig?`,
+  '2ddehafzm6d': R`Sekunden`,
+  '1mfkmnfob4d': R`Sie blinken zu den gemeinsamen Vielfachen von ⟦0⟧ und ⟦1⟧ gleichzeitig. Das erste ist das kgV: <b>⟦2⟧</b> Sekunden.`,
+});

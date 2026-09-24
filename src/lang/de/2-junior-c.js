@@ -1,0 +1,147 @@
+/* Deutsch — Sekundarstufe I (Gleichungssysteme → Körper) */
+addT('de', {
+  // systems
+  '1obgwi6un65': R`
+<p>Ein <b>lineares Gleichungssystem</b> aus zwei Gleichungen mit $x$ und $y$ fragt nach den Werten, die <i>beide</i> Gleichungen erfüllen. Grafisch ist die Lösung der Schnittpunkt der beiden Geraden.</p>
+<h3>Einsetzungsverfahren</h3>
+⟦0⟧
+<h3>Additionsverfahren</h3>
+⟦1⟧
+⟦2⟧
+<h3>Sonderfälle</h3>
+<p>Parallele Geraden (gleiche Steigung, verschiedene $y$-Achsenabschnitte) schneiden sich nie: <b>keine Lösung</b>. Identische Geraden ergeben <b>unendlich viele</b> Lösungen.</p>
+<h3>Textaufgaben</h3>
+<p>Zwei Unbekannte brauchen zwei Angaben. „Auf einem Hof haben Hühner und Kühe zusammen 30 Köpfe und 84 Beine“, mit $c$ Kühen und $h$ Hühnern: $c + h = 30$ und $4c + 2h = 84$.</p>
+⟦3⟧`,
+  '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Setze die erste in die zweite Gleichung ein: $3x + (2x - 1) = 14$, also $5x = 15$, $x = 3$ und $y = 2(3) - 1 = 5$. Lösung: $(3; 5)$.</p>`,
+  '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Addiere die Gleichungen, um $y$ zu eliminieren: $7x = 21$, also $x = 3$. Dann ergibt $2(3) + 3y = 12$, dass $y = 2$.</p>`,
+  '2hm0wzsgn4': R`<p>Multipliziere zuerst eine oder beide Gleichungen so, dass eine Variable gleiche (oder entgegengesetzte) Koeffizienten hat, und subtrahiere (oder addiere) dann, um sie zu eliminieren. Prüfe die Lösung immer in <b>beiden</b> Ausgangsgleichungen.</p>`,
+  '1mqyjg4cjt3': R`<p>Beim Subtrahieren von Gleichungen subtrahierst du <i>jeden</i> Term, auch auf der rechten Seite – Vorzeichenfehler sind hier die häufigste Fehlerquelle.</p>`,
+  '2bus2hrtc7a': R`Löse das Gleichungssystem und gib den Wert von $⟦0⟧$ an: $$\begin{cases} ⟦1⟧ = ⟦2⟧ \\ ⟦3⟧ = ⟦4⟧ \end{cases}$$`,
+  'cj3nlbnytd': R`Eliminiere $x$: Multipliziere die erste Gleichung mit ⟦0⟧ und die zweite mit ⟦1⟧, dann subtrahiere: $⟦2⟧y = ⟦3⟧$, also $y = ⟦4⟧$. Einsetzen ergibt $x = ⟦5⟧$⟦6⟧.`,
+  '1v4b2kwdt1t': R`, also $x + y = ⟦0⟧$`,
+  '12wz870lrmo': R`Löse: $$\begin{cases} ⟦0⟧ = ⟦1⟧ \\ ⟦2⟧ = ⟦3⟧ \end{cases}$$`,
+  '2h37f00sms': R`Gib die Lösung als x; y ein, zum Beispiel 3; -2.`,
+  'ji19p5e9vc': R`Eliminieren einer Variablen ergibt $x = ⟦0⟧$ und $y = ⟦1⟧$. Probe: $⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$ ✓ und $⟦7⟧(⟦8⟧) + ⟦9⟧(⟦10⟧) = ⟦11⟧$ ✓`,
+  '1uhjqjwpqgq': R`Ein Kino hat ⟦0⟧ Eintrittskarten für insgesamt ⟦1⟧ Euro verkauft. Eine Karte für Erwachsene kostet ⟦2⟧ Euro, eine Kinderkarte ⟦3⟧ Euro. Wie viele Kinderkarten wurden verkauft?`,
+  '1w5sbgqln74': R`Sei $a$ die Zahl der Erwachsenenkarten und $c$ die der Kinderkarten: $a + c = ⟦0⟧$ und $⟦1⟧a + ⟦2⟧c = ⟦3⟧$. Setze $a = ⟦4⟧ - c$ ein: $⟦5⟧ - ⟦6⟧c = ⟦7⟧$, also $c = ⟦8⟧$.`,
+  '5gcbu3n7lh': R`Auf einem Bauernhof gibt es Hühner und Kühe. Zusammen haben sie ⟦0⟧ Köpfe und ⟦1⟧ Beine. Wie viele Kühe sind es?`,
+  '1q9pdlsduw3': R`Auf einem Bauernhof gibt es Hühner und Kühe. Zusammen haben sie ⟦0⟧ Köpfe und ⟦1⟧ Beine. Wie viele Hühner sind es?`,
+  '20g4l7cyliz': R`Sei $c$ die Zahl der Kühe und $h$ die der Hühner: $c + h = ⟦0⟧$ und $4c + 2h = ⟦1⟧$. Ziehe das Doppelte der ersten Gleichung ab: $2c = ⟦2⟧$, also $c = ⟦3⟧$ und $h = ⟦4⟧$.`,
+  '18lm53yd624': R`Zwei Zahlen ergeben zusammen ⟦0⟧ und unterscheiden sich um ⟦1⟧. Wie heißt die größere Zahl?`,
+  '1juzg4bgiuw': R`Zwei Zahlen ergeben zusammen ⟦0⟧ und unterscheiden sich um ⟦1⟧. Wie heißt die kleinere Zahl?`,
+  '15xzu54of35': R`$a + b = ⟦0⟧$ und $a - b = ⟦1⟧$. Addieren: $2a = ⟦2⟧$, also $a = ⟦3⟧$ und $b = ⟦4⟧$.`,
+
+  // pythagoras
+  '18dtbjhvgbb': R`
+<p>Im rechtwinkligen Dreieck heißt die längste Seite, die dem rechten Winkel gegenüberliegt, <b>Hypotenuse</b> $c$. Die beiden anderen Seiten sind die <b>Katheten</b> $a$ und $b$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Pythagoreische Tripel</h3>
+<p>Ganzzahlige Lösungen und ihre Vielfachen merkt man sich gern: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$ sowie $(6; 8; 10)$, $(9; 12; 15)$, …</p>
+<h3>Abstand zweier Punkte</h3>
+⟦3⟧
+<h3>Die Umkehrung</h3>
+<p>Ist $c$ die längste Seite, dann gilt: Aus $a^2 + b^2 = c^2$ folgt, das Dreieck ist <b>rechtwinklig</b>; bei $a^2 + b^2 \gt c^2$ ist es <b>spitzwinklig</b>; bei $a^2 + b^2 \lt c^2$ ist es <b>stumpfwinklig</b>.</p>
+⟦4⟧`,
+  '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Für die Hypotenuse addiert man die Quadrate, für eine Kathete subtrahiert man: $b = \sqrt{c^2 - a^2}$.</p>`,
+  '266inyds4fo': R`<p>Eine 10 m lange Leiter lehnt an einer Wand, ihr Fuß steht 6 m von der Wand entfernt. Erreichte Höhe: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
+  '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Bei den Katheten 3 und 4 ist die Hypotenuse 5, nicht 7.</p>`,
+  'tzct4b0jzc': R`Ein rechtwinkliges Dreieck hat die Katheten ⟦0⟧ cm und ⟦1⟧ cm. Wie lang ist die Hypotenuse?`,
+  'w85jfl9xou': R`$c^2 = ⟦0⟧^2 + ⟦1⟧^2 = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$, also $c = \sqrt{⟦5⟧} = ⟦6⟧$ cm.`,
+  '14oj6g8m8ly': R`Die Hypotenuse eines rechtwinkligen Dreiecks ist ⟦0⟧ m lang, eine Kathete ⟦1⟧ m. Wie lang ist die andere Kathete?`,
+  'ucdvtq6bkq': R`Bestimme den Abstand zwischen $⟦0⟧$ und $⟦1⟧$.`,
+  '174wwwvihed': R`Eine ⟦0⟧ m lange Leiter lehnt an einer senkrechten Wand. Ihr Fuß steht ⟦1⟧ m vom Fuß der Wand entfernt. Wie hoch reicht die Leiter an der Wand?`,
+  'fb02yp437s': R`Die Leiter ist die Hypotenuse: $h = \sqrt{⟦0⟧^2 - ⟦1⟧^2} = \sqrt{⟦2⟧} = ⟦3⟧$ m.`,
+  '1gtgjvulgbd': R`Ein rechtwinkliges Dreieck hat die Katheten ⟦0⟧ cm und ⟦1⟧ cm. Berechne die Hypotenuse, gerundet auf 2 Nachkommastellen.`,
+  '1cost2rf2x0': R`$c = \sqrt{⟦0⟧^2 + ⟦1⟧^2} = \sqrt{⟦2⟧} \approx ⟦3⟧$ cm.`,
+  '14ejxhzoxmd': R`Rechtwinkliges Dreieck`,
+  '1s09bctuu2d': R`rechtwinklig`,
+  '1fk5t91if9w': R`Spitzwinkliges Dreieck`,
+  '7ds33wq0ok': R`spitzwinklig`,
+  '1kp4g4kchcj': R`Stumpfwinkliges Dreieck`,
+  'imjds8cff1': R`stumpfwinklig`,
+  'fvjprzss2k': R`Ein Dreieck hat die Seiten ⟦0⟧. Was für ein Dreieck ist es?`,
+  '5pal2wak00': R`Vergleiche mit der längsten Seite ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ und $⟦4⟧^2 = ⟦5⟧$. Da $⟦6⟧ ⟦7⟧ ⟦8⟧$, ist das Dreieck <b>⟦9⟧</b>.`,
+
+  // circles
+  '162uvssoo3s': R`
+⟦0⟧
+<p>Das Verhältnis von Umfang zu Durchmesser ist bei jedem Kreis dieselbe Zahl, $\pi \approx 3{,}14159\ldots$ (oft genähert durch $3{,}14$ oder $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+<h3>Kreisbögen und Kreisausschnitte</h3>
+<p>Ein Kreisausschnitt mit Mittelpunktswinkel $\theta$ ist der Anteil $\frac{\theta}{360^\circ}$ des ganzen Kreises:</p>
+⟦3⟧
+<h3>Winkel am Kreis</h3>
+<ul><li>Der Mittelpunktswinkel ist <b>doppelt</b> so groß wie ein Umfangswinkel über demselben Bogen.</li><li>Ein Winkel im Halbkreis beträgt $90^\circ$ (Satz des Thales).</li><li>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius.</li></ul>
+⟦4⟧`,
+  '20wibo4oznt': R`Teile eines Kreises. Der Durchmesser ist doppelt so lang wie der Radius: d = 2r.`,
+  '1y041ovnv67': R`<p>Radius 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm und $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Ergebnisse „mit $\pi$“ anzugeben, hält sie exakt.</p>`,
+  '1ljhd2tb7ca': R`\text{Bogenlänge} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{Ausschnittsfläche} = \frac{\theta}{360^\circ} \times \pi r^2`,
+  '1aglezoi0gp': R`<p>Achte darauf, ob der Radius oder der Durchmesser gegeben ist. Setzt man $d$ in $\pi r^2$ ein, wird die Fläche viermal zu groß.</p>`,
+  '1iocjvynzqe': R`Berechne mit $\pi \approx 3{,}14$ den Umfang eines Kreises mit dem Durchmesser ⟦0⟧ cm.`,
+  '18sb05q1pm7': R`Berechne mit $\pi \approx 3{,}14$ den Umfang eines Kreises mit dem Radius ⟦0⟧ cm.`,
+  'upb5nulrwg': R`$C = ⟦0⟧ = ⟦1⟧$ cm.`,
+  '143d0xflci4': R`\pi d = 3{,}14 \times ⟦0⟧`,
+  '25yf5bhyvhn': R`2\pi r = 2 \times 3{,}14 \times ⟦0⟧`,
+  '1stzke7qj3q': R`Berechne mit $\pi \approx \frac{22}{7}$ den Umfang eines Kreises mit dem Radius ⟦0⟧ cm.`,
+  'vghbcaja6w': R`$C = 2\pi r = 2 \times \frac{22}{7} \times ⟦0⟧ = ⟦1⟧$ cm.`,
+  '91md2imk84': R`Berechne den Flächeninhalt eines Kreises mit dem Durchmesser ⟦0⟧ cm. Gib das Ergebnis mit $\pi$ an.`,
+  '6f1a511ku9': R`Berechne den Flächeninhalt eines Kreises mit dem Radius ⟦0⟧ cm. Gib das Ergebnis mit $\pi$ an.`,
+  'ctkfkfiuaj': R`⟦0⟧$A = \pi r^2 = \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².`,
+  '1uvm4lzorf9': R`Der Radius ist der halbe Durchmesser: ⟦0⟧ cm. `,
+  '2et0owexep4': R`Ein Kreisausschnitt hat den Radius ⟦0⟧ cm und den Mittelpunktswinkel $⟦1⟧^\circ$. Berechne die Bogenlänge mit $\pi$.`,
+  '1fpgoxe9d0': R`Bogen $= \frac{⟦0⟧}{360} \times 2\pi \times ⟦1⟧ = ⟦2⟧$ cm.`,
+  '72i5kpinty': R`Ein Kreisausschnitt hat den Radius ⟦0⟧ cm und den Mittelpunktswinkel $⟦1⟧^\circ$. Berechne seinen Flächeninhalt mit $\pi$.`,
+  '1ayxkyrhaid': R`Fläche $= \frac{⟦0⟧}{360} \times \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².`,
+  '1fzoa3xapl2': R`Ein Kreis hat den Umfang $⟦0⟧$ cm. Berechne seinen Flächeninhalt mit $\pi$.`,
+  '22u3ive551m': R`Aus $2\pi r = ⟦0⟧$ folgt $r = ⟦1⟧$. Dann ist $A = \pi r^2 = ⟦2⟧$ cm².`,
+  '1rcge82c97m': R`Ein Umfangswinkel in einem Kreis beträgt $⟦0⟧^\circ$. Wie groß ist der Mittelpunktswinkel über demselben Bogen?`,
+  '10ccm4ku9vc': R`Der Mittelpunktswinkel ist doppelt so groß wie der Umfangswinkel: $2 \times ⟦0⟧^\circ = ⟦1⟧^\circ$.`,
+  '1ak5mj5jm7n': R`Ein Mittelpunktswinkel in einem Kreis beträgt $⟦0⟧^\circ$. Wie groß ist ein Umfangswinkel über demselben Bogen?`,
+  'kfe0atvapi': R`Der Umfangswinkel ist halb so groß wie der Mittelpunktswinkel: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
+
+  // solids
+  '57zv1tsefg': R`
+<p>Ein <b>Prisma</b> hat überall denselben Querschnitt; sein Volumen ist daher einfach die Querschnittsfläche mal die Länge. Eine Pyramide oder ein Kegel, der genau hineinpasst, hat genau ein Drittel dieses Volumens.</p>
+⟦0⟧
+<p>Beim Kegel ist $s$ die <b>Mantellinie</b>; nach Pythagoras gilt $s = \sqrt{r^2 + h^2}$.</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '1uywbz6o84t': R`Körper`,
+  'alc1a0j1b0': R`Volumen`,
+  'bt7ak3o2ct': R`Oberfläche`,
+  'm6y2tibz7j': R`Prisma`,
+  '3d3lt4gyiq': R`$A_{\text{Grund}} \times h$`,
+  '2e5o3mkaw4p': R`Summe aller Flächen`,
+  '17avl8a1nf0': R`Zylinder`,
+  'w68av9so54': R`Pyramide`,
+  '1xyfnhsvdp5': R`$\frac{1}{3} A_{\text{Grund}} \times h$`,
+  '1u5rq973ap9': R`Grundfläche + Dreiecke`,
+  '40atij69zq': R`Kegel`,
+  '1cebx8i383a': R`Kugel`,
+  'u0gc3phvmz': R`<p>Ein Zylinder mit $r = 3$ cm und $h = 10$ cm:</p><p>$V = \pi (3)^2 (10) = 90\pi$ cm³ $\approx 282{,}7$ cm³. &nbsp; $O = 2\pi(9) + 2\pi(3)(10) = 18\pi + 60\pi = 78\pi$ cm².</p>`,
+  '706fqlfv6n': R`<p>Der Mantel eines Zylinders lässt sich zu einem Rechteck abrollen: Eine Seite ist die Höhe $h$, die andere der Umfang $2\pi r$. Daher kommt $2\pi r h$.</p>`,
+  '20ndnd7mfh9': R`<p>Halbkugeln: halbes Kugelvolumen, aber die Oberfläche ist $2\pi r^2$ (gewölbter Teil) $+ \pi r^2$ (ebene Kreisfläche) $= 3\pi r^2$.</p>`,
+  '6nduvxh56u': R`Berechne das Volumen eines Zylinders mit Radius ⟦0⟧ cm und Höhe ⟦1⟧ cm, mit $\pi$.`,
+  '1u7xsdtlko1': R`$V = \pi r^2 h = \pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  '1ao9a1zkfz0': R`Berechne das Volumen eines Kegels mit Radius ⟦0⟧ cm und Höhe ⟦1⟧ cm, mit $\pi$.`,
+  '11qtlcks0z2': R`$V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  'qcz5afk27t': R`Berechne das Volumen einer Kugel mit Radius ⟦0⟧ cm, mit $\pi$.`,
+  '1a5wzmqqnbb': R`$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi \times ⟦0⟧ = ⟦1⟧$ cm³.`,
+  '2boy4rshpla': R`Berechne die Oberfläche einer Kugel mit Radius ⟦0⟧ cm, mit $\pi$.`,
+  'myifdpmpki': R`$O = 4\pi r^2 = 4\pi \times ⟦0⟧ = ⟦1⟧$ cm².`,
+  '225sd035ctc': R`Berechne die Oberfläche eines geschlossenen Zylinders mit Radius ⟦0⟧ cm und Höhe ⟦1⟧ cm, mit $\pi$.`,
+  'e5stvcnm4w': R`$O = 2\pi r^2 + 2\pi r h = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².`,
+  'ud0ddpzcpo': R`Ein Kegel hat den Radius ⟦0⟧ cm und die Höhe ⟦1⟧ cm. Wie lang ist seine Mantellinie?`,
+  '1ds61tt8krc': R`$s = \sqrt{r^2 + h^2} = \sqrt{⟦0⟧ + ⟦1⟧} = ⟦2⟧$ cm.`,
+  '1xg851dcel': R`Ein Kegel hat den Radius ⟦0⟧ cm und die Mantellinie ⟦1⟧ cm. Berechne seine Oberfläche mit $\pi$.`,
+  '1l881dmx8vq': R`$O = \pi r^2 + \pi r s = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².`,
+  'fb33rdkq1e': R`Eine Pyramide hat eine quadratische Grundfläche mit der Seitenlänge ⟦0⟧ cm und die Höhe ⟦1⟧ cm. Wie groß ist ihr Volumen?`,
+  '113p07j0igk': R`$V = \frac{1}{3} \times \text{Grundfläche} \times h = \frac{1}{3} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  '15qifiaqosu': R`Ein Dreiecksprisma hat als Querschnitt ein Dreieck mit der Grundseite ⟦0⟧ cm und der Höhe ⟦1⟧ cm. Das Prisma ist ⟦2⟧ cm lang. Wie groß ist sein Volumen?`,
+  '2b2ytzrzz4n': R`Querschnittsfläche $= \frac{1}{2} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm². Volumen $= ⟦3⟧ \times ⟦4⟧ = ⟦5⟧$ cm³.`,
+});

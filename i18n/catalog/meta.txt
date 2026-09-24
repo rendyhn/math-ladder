@@ -1,0 +1,68 @@
+LEVEL elementary | Elementary School | Elementary | Grades 1–6 | Number sense, the four operations, fractions, decimals, percentages, measurement and first geometry.
+place-value | Place Value & Rounding | What each digit is worth, expanded form, comparing whole numbers and rounding.
+add-sub | Addition & Subtraction | Column addition with carrying, subtraction with borrowing, missing numbers and word problems.
+mul-div | Multiplication & Division | Times tables, multi-digit multiplication, division with and without remainders.
+order-ops | Order of Operations | Brackets, powers, then multiplication and division, then addition and subtraction.
+factors | Factors, Multiples & Primes | Factors and multiples, prime numbers, prime factorization, GCF and LCM.
+fractions | Fractions | Equivalent fractions, simplifying, comparing, mixed numbers and all four operations.
+decimals | Decimals | Tenths, hundredths and thousandths; comparing, rounding and calculating with decimals.
+percent | Percentages | Percent of an amount, converting between forms, discounts and percentage change.
+measurement | Measurement & Units | Metric units of length, mass and capacity, and working with time.
+perimeter-area | Perimeter & Area | Perimeter and area of rectangles, squares, triangles, parallelograms, trapezoids and composite shapes.
+volume-basic | Volume & Surface Area | Volume of cubes and cuboids, capacity in litres, and surface area of boxes.
+angles-shapes | Angles & Shapes | Types of angles, angle facts on lines and in polygons, and triangle properties.
+data-basic | Data & Averages | Reading tables and charts; mean, median, mode and range.
+LEVEL junior | Junior High School | Junior High | Grades 7–9 | Integers, powers, algebra and linear equations, sets, geometry of circles and solids, and first statistics and probability.
+integers | Integers | Negative numbers on the number line and the sign rules for all four operations.
+exponents | Exponents & Roots | Powers, the laws of exponents, zero and negative exponents, square and cube roots, simplifying surds.
+sci-notation | Scientific Notation | Writing very large and very small numbers as a × 10ⁿ, and calculating with them.
+ratio | Ratio, Rates & Proportion | Simplifying ratios, sharing in a ratio, direct and inverse proportion, map scales and speed.
+algebra-expr | Algebraic Expressions | Like terms, expanding brackets, factorising, substitution and special products.
+linear-eq | Linear Equations | Solving one-variable equations with brackets, fractions and unknowns on both sides; word problems.
+inequalities | Linear Inequalities | Inequality symbols, number lines, solving inequalities and the sign-flip rule.
+sets | Sets & Venn Diagrams | Set notation, subsets, union, intersection, complement and counting with Venn diagrams.
+linear-functions | Linear Functions & Graphs | Coordinates, gradient, intercepts, equations of lines, and parallel and perpendicular lines.
+systems | Systems of Linear Equations | Solving two equations in two unknowns by substitution and elimination; word problems.
+pythagoras | Pythagorean Theorem | Finding sides of right triangles, Pythagorean triples, distances and testing for right angles.
+circles | Circles | Circumference, area, arcs and sectors, and angles in circles.
+solids | Surface Area & Volume of Solids | Prisms, cylinders, pyramids, cones and spheres.
+statistics-jh | Statistics: Centre & Spread | Mean, median and mode from lists and frequency tables, and how new data changes them.
+probability-jh | Probability | Sample spaces, the probability of an event, complements and expected frequency.
+social-arith | Money Maths: Profit, Discount & Interest | Profit and loss, percentage profit, discount and tax, simple interest, gross and net weight.
+patterns | Number Patterns & Sequences | Arithmetic and geometric patterns, the nth term, and special number sequences.
+similarity | Transformations & Similarity | Translations, reflections, rotations and dilations; similar figures and scale factors.
+LEVEL senior | Senior High School | Senior High | Grades 10–12 | Quadratics, functions, logarithms, sequences, trigonometry, matrices, vectors, calculus, probability, statistics and logic.
+quadratics | Quadratic Equations | Factorising, completing the square, the quadratic formula, the discriminant and sums and products of roots.
+quad-functions | Quadratic Functions & Parabolas | Vertex, axis of symmetry, vertex form, maximum and minimum values, and applications.
+functions | Functions, Composition & Inverses | Domain and range, composite functions, inverse functions and piecewise definitions.
+exp-log | Exponents & Logarithms | Rational exponents, logarithm laws, exponential and logarithmic equations, growth.
+sequences | Sequences & Series | Arithmetic and geometric sequences and series, infinite geometric series and sigma notation.
+trig-basics | Trigonometry: Ratios & the Unit Circle | SOH-CAH-TOA, exact values, radians, the unit circle and angles of elevation.
+trig-identities | Trigonometric Identities & Equations | Pythagorean, compound-angle and double-angle identities; solving trig equations.
+triangle-rules | Sine Rule, Cosine Rule & Triangle Area | Solving any triangle with the sine and cosine rules, and finding its area.
+polynomials | Polynomials & the Remainder Theorem | Degree and operations, polynomial division, the remainder and factor theorems, Vieta for cubics.
+matrices | Matrices | Matrix operations, multiplication, determinants and inverses of 2×2 matrices.
+vectors | Vectors | Components, magnitude, vector arithmetic, dot product and angles between vectors.
+limits | Limits | Direct substitution, indeterminate forms, limits at infinity, trig limits and continuity.
+derivatives | Derivatives | The derivative as a slope, the power rule, tangent lines, stationary points and optimisation.
+integrals | Integrals | Antiderivatives, the power rule for integration, definite integrals and areas.
+combinatorics | Counting, Permutations & Combinations | The multiplication principle, factorials, permutations, combinations and the binomial theorem.
+probability-sh | Probability: Rules & Conditional | Addition and multiplication rules, independence, conditional probability and Bayes’ theorem.
+statistics-sh | Statistics: Spread & Distributions | Quartiles and IQR, outliers, variance and standard deviation, grouped data and transformations.
+conics | Coordinate Geometry & Circles | Midpoints and distances, equations of circles, general form, tangents and parabolas.
+linear-programming | Linear Programming | Constraints, feasible regions, objective functions and the corner-point method.
+logic | Mathematical Logic | Statements, connectives, truth tables, converse and contrapositive, quantifiers and valid arguments.
+LEVEL university | University | University | Undergraduate | Calculus I–III, series, differential equations, linear algebra, complex numbers, probability and statistics, discrete maths, numerical methods and transforms.
+diff-techniques | Differentiation Techniques | Product, quotient and chain rules, exponential and logarithmic derivatives, implicit differentiation.
+integration-techniques | Techniques of Integration | Substitution, integration by parts, partial fractions, trigonometric and improper integrals.
+integral-applications | Applications of Integration | Areas between curves, volumes of revolution, average value, arc length and work.
+series | Sequences & Infinite Series | Convergence tests, geometric and telescoping series, power series, Taylor and Maclaurin series.
+multivariable | Multivariable Calculus | Partial derivatives, gradients, directional derivatives, critical points, double integrals and Lagrange multipliers.
+ode | Differential Equations | Separable and linear first-order ODEs, growth and decay, and second-order linear equations.
+linear-algebra | Linear Algebra | Determinants, rank, linear systems, independence, eigenvalues and eigenvectors.
+complex | Complex Numbers | Arithmetic with i, conjugates, modulus and argument, polar form, De Moivre’s theorem.
+distributions | Probability Distributions | Random variables, expectation and variance, binomial, Poisson and normal distributions.
+inference | Statistical Inference | Sampling distributions, confidence intervals, hypothesis tests, errors and regression.
+discrete | Discrete Mathematics | Modular arithmetic, the Euclidean algorithm, counting principles, recurrences and graph theory.
+numerical | Numerical Methods | Bisection and Newton–Raphson, the trapezoidal and Simpson’s rules, Euler’s method, errors.
+laplace | Laplace Transforms | The transform table, linearity, shifting, inverse transforms and solving initial value problems.

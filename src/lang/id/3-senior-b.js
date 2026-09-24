@@ -1,0 +1,139 @@
+/* Bahasa Indonesia — SMA (barisan dan deret → aturan sinus dan kosinus) */
+addT('id', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>Di sini $a$ adalah suku pertama dan $l$ suku terakhir.</p>
+⟦1⟧
+⟦2⟧
+<h3>Deret geometri tak hingga</h3>
+⟦3⟧
+<p>Contoh: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Notasi sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`Aritmetika`,
+  '1atqzl7ltey': R`Geometri`,
+  'zs186mkwh5': R`ditambah $d$ setiap kali`,
+  '160nuilyero': R`dikali $r$ setiap kali`,
+  '99dr6iy4ys': R`Jumlah n suku`,
+  '1yzmu3p7b4v': R`<p>Jumlah 20 suku pertama dari $3; 7; 11; \ldots$ adalah $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>`,
+  '8pkxhjbkfd': R`<p>Pada barisan aritmetika, $u_4 = 17$ dan $u_9 = 42$. Keduanya terpisah lima langkah $d$, jadi $5d = 25$, $d = 5$, dan $a = 17 - 3 \times 5 = 2$.</p>`,
+  '3zsr22exdg': R`<p>Jika $|r| \lt 1$, suku-sukunya mengecil cukup cepat sehingga jumlahnya menuju suatu nilai berhingga:</p>$$S_\infty = \frac{a}{1 - r}$$<p>Jika $|r| \ge 1$, deret tidak memiliki jumlah berhingga.</p>`,
+  '22swm7le3e': R`<p>Antara $u_p$ dan $u_q$ ada $q - p$ langkah, bukan $q - p + 1$.</p>`,
+  'v83xyier66': R`Pada barisan aritmetika, $u_{⟦0⟧} = ⟦1⟧$ dan $u_{⟦2⟧} = ⟦3⟧$. Tentukan $u_{⟦4⟧}$.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, jadi $d = ⟦3⟧$. Lalu $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ dan $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`Tentukan jumlah ⟦0⟧ suku pertama barisan aritmetika ⟦1⟧; …`,
+  'vsiejpaurw': R`Tentukan suku $u_{⟦0⟧}$ dari barisan geometri ⟦1⟧; …`,
+  '2fg2ivyt6zs': R`Tentukan jumlah ⟦0⟧ suku pertama deret geometri $⟦1⟧ + \cdots$`,
+  '6by3ukfsg3': R`Tentukan jumlah tak hingga deret geometri dengan suku pertama ⟦0⟧ dan rasio $⟦1⟧$.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$, jadi $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`Hitunglah $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.`,
+  'zk5lcxjf3d': R`Gaji Dina pada tahun pertama adalah ⟦0⟧ ribu rupiah dan naik ⟦1⟧ ribu rupiah setiap tahun. Berapa total penghasilannya selama ⟦2⟧ tahun pertama?`,
+  '222tg0c1ffy': R`Ini deret aritmetika: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ ribu rupiah.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
+⟦0⟧
+<p>Jembatan keledai: <b>SOH-CAH-TOA</b> (sin = depan/miring, cos = samping/miring, tan = depan/samping). Selain itu, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, dan kebalikannya adalah $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Nilai eksak</h3>
+⟦1⟧
+<h3>Radian</h3>
+<p>$180^\circ = \pi$ radian. Untuk mengubah derajat ke radian, kalikan dengan $\frac{\pi}{180}$; radian ke derajat, kalikan dengan $\frac{180}{\pi}$. Jadi $60^\circ = \frac{\pi}{3}$ dan $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Lingkaran satuan</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{sisi depan}}{\text{sisi miring}} \qquad \cos\theta = \frac{\text{sisi samping}}{\text{sisi miring}} \qquad \tan\theta = \frac{\text{sisi depan}}{\text{sisi samping}}`,
+  'ig8vf2x1y6': R`sin θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`tidak terdefinisi`,
+  'uyvhui04wr': R`<p>Untuk setiap sudut $\theta$, titik pada lingkaran satuan adalah $(\cos\theta; \sin\theta)$. Tanda di tiap kuadran — "<b>Se</b>mua <b>Sin</b>dikat <b>Tan</b>gannya <b>Kos</b>ong": semua positif di kuadran I, sin di II, tan di III, cos di IV.</p><p>Gunakan <b>sudut acuan</b> (sudut lancip terhadap sumbu-$x$) dengan tanda yang tepat: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>Dari jarak 30 m, sudut elevasi ke puncak menara adalah $60^\circ$. Tinggi $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52{,}0$ m.</p>`,
+  'neyxpix7b9': R`<p>Periksa mode kalkulator (DEG atau RAD) sebelum menghitung fungsi trigonometri.</p>`,
+  '67i6rxexro': R`Tentukan nilai eksak $⟦0⟧ ⟦1⟧$.`,
+  'pdy7ypcls7': R`Nilai eksak seperti sqrt(3)/2 diterima.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ berada di kuadran ⟦2⟧, tempat $⟦3⟧$ bernilai ⟦4⟧. Sudut acuannya $⟦5⟧^\circ$ dan $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, jadi $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧Pada $⟦1⟧^\circ$, titik pada lingkaran satuan adalah $⟦2⟧$ $= (\cos\theta; \sin\theta)$, jadi $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`Ubah $⟦0⟧^\circ$ ke radian.`,
+  'gs4x19407v': R`Kalikan dengan $\frac{\pi}{180}$: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`Ubah $⟦0⟧$ radian ke derajat.`,
+  'zfi973h2bw': R`Kalikan dengan $\frac{180}{\pi}$: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`Pada segitiga siku-siku, sisi samping sudut $⟦0⟧^\circ$ panjangnya ⟦1⟧ cm. Tentukan sisi depannya sampai 2 angka di belakang koma.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{de}}{⟦1⟧}$, jadi de $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`Sebuah segitiga siku-siku memiliki sisi miring ⟦0⟧ cm dan sebuah sudut $⟦1⟧^\circ$. Tentukan sisi depan sudut itu sampai 2 angka di belakang koma.`,
+  '22kukzeyh6': R`Sebuah segitiga siku-siku memiliki sisi miring ⟦0⟧ cm dan sebuah sudut $⟦1⟧^\circ$. Tentukan sisi samping sudut itu sampai 2 angka di belakang koma.`,
+  'w56ix8w8yr': R`de`,
+  '5ydwv3it97': R`sa`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, jadi sisinya $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  '2abmsiuwu52': R`$\theta$ lancip dan $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Tentukan $⟦2⟧\theta$.`,
+  '1qudt03n4v8': R`Gambar segitiga siku-siku dengan sisi depan ⟦0⟧ dan sisi miring ⟦1⟧; sisi sampingnya $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. Jadi $⟦5⟧$.`,
+  '28dk1p4hmng': R`Dari sebuah titik yang berjarak ⟦0⟧ m dari kaki gedung, sudut elevasi ke puncaknya $⟦1⟧^\circ$. Berapa tinggi gedung itu? Berikan jawaban eksak.`,
+  '1fxpcv94bft': R`Jawaban eksak seperti 12sqrt(3) diterima.`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ dan $\tan ⟦2⟧^\circ = ⟦3⟧$, jadi $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`Kuadran I`,
+  '4o87w2367v': R`Kuadran II`,
+  '11djzpzc46w': R`Kuadran III`,
+  '26d39yjlrkj': R`Kuadran IV`,
+  '1t5qxibr3fa': R`Di kuadran manakah $\theta$ jika $⟦0⟧\theta ⟦1⟧ 0$ dan $⟦2⟧\theta ⟦3⟧ 0$?`,
+  '1856p6n9vrk': R`sin positif di kuadran I dan II; cos di I dan IV; tan di I dan III. Hanya <b>⟦0⟧</b> yang memenuhi kedua syarat.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Menyelesaikan persamaan trigonometri</h3>
+<p>Tentukan sudut acuannya, lalu semua sudut pada interval yang diminta dengan tanda yang benar.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`Identitas Pythagoras`,
+  '28msif6x03y': R`Jumlah dan selisih sudut`,
+  '1qlqqnnfd2i': R`Sudut rangkap`,
+  '14xjp53gt4x': R`<p>Selesaikan $\sin x = -\frac{1}{2}$ untuk $0^\circ \le x \lt 360^\circ$. Sudut acuannya $30^\circ$; sinus negatif di kuadran III dan IV, jadi $x = 180^\circ + 30^\circ = 210^\circ$ atau $x = 360^\circ - 30^\circ = 330^\circ$.</p>`,
+  '1hkvix57r6q': R`<p>Jika $\sin\theta = \frac{3}{5}$ dan $\theta$ di kuadran II, maka $\cos\theta = -\frac{4}{5}$ — identitas Pythagoras memberi besarnya, kuadran memberi tandanya.</p>`,
+  '64164qr2jw': R`$\theta$ lancip dan $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Tentukan $\sin 2\theta$.`,
+  '27wxa35nxaa': R`Diketahui $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Tentukan $\cos 2\theta$.`,
+  'szbqx0thv8': R`Selesaikan $⟦0⟧ x = ⟦1⟧$ untuk $0^\circ \le x \lt 360^\circ$.`,
+  '22m72qx0p66': R`Tuliskan sudut-sudutnya dalam derajat, dipisahkan titik koma, misalnya 30; 150.`,
+  'ygon4mdoxw': R`Sudut acuannya $⟦0⟧^\circ$. $⟦1⟧$ bernilai ⟦2⟧ di kuadran tempat $⟦3⟧^\circ$ dan $⟦4⟧^\circ$ berada, jadi $x = ⟦5⟧^\circ$ atau $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`selisih dua kuadrat, lalu $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`rumus sudut rangkap`,
+  'sj6onjglro': R`penjabaran, yang menghasilkan $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$`,
+  '7gzo83e030': R`Gunakan ⟦0⟧: $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`Tentukan nilai eksak $⟦0⟧$.`,
+  '2ayoc6nyniw': R`Jawaban eksak seperti (sqrt(6)+sqrt(2))/4 diterima.`,
+  '1mewvixpsgq': R`Tuliskan sebagai $⟦0⟧$ dan gunakan rumus jumlah sudut dengan nilai eksak untuk $30^\circ$, $45^\circ$, dan $60^\circ$: hasilnya $⟦1⟧$.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ dan $\theta$ di kuadran ⟦1⟧. Tentukan $⟦2⟧$.`,
+  '19cq8bi37ib': R`Sisi-sisi segitiganya ⟦0⟧, ⟦1⟧, dan ⟦2⟧. Di kuadran ⟦3⟧, sinus bernilai ⟦4⟧ dan kosinus bernilai ⟦5⟧, jadi $\sin\theta = ⟦6⟧$ dan $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>Beri nama segitiga sehingga sisi $a$ berhadapan dengan sudut $A$, $b$ dengan $B$, dan $c$ dengan $C$. Aturan ini berlaku untuk <b>setiap</b> segitiga, bukan hanya segitiga siku-siku.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Gunakan jika diketahui satu sisi dan sudut di hadapannya, ditambah satu sisi atau sudut lain.</p>`,
+  'mp16igkhf3': R`Aturan sinus`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Gunakan jika diketahui dua sisi dan sudut apitnya (sisi-sudut-sisi), atau ketiga sisinya.</p>`,
+  'kgaid4s1rf': R`Aturan kosinus`,
+  '1w8yehsbjfu': R`$$\text{Luas} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Heron: } \text{Luas} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>Sisi 5 dan 8 dengan sudut apit $60^\circ$: sisi ketiga $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, dan luasnya $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>`,
+  '11plyaa7o04': R`<p>Aturan sinus bisa menghasilkan dua segitiga yang mungkin saat mencari sudut ("kasus ambigu"): $\sin B = 0{,}8$ memungkinkan $B \approx 53{,}1^\circ$ <i>atau</i> $B \approx 126{,}9^\circ$. Periksa apakah keduanya memenuhi.</p>`,
+  'l2pu7cls8u': R`Pada segitiga $ABC$, $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm, dan $A = ⟦2⟧^\circ$. Tentukan $a$ sampai 2 angka di belakang koma.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, jadi $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`Sebuah segitiga memiliki sisi ⟦0⟧, ⟦1⟧, dan ⟦2⟧. Tentukan sudut di hadapan sisi yang panjangnya ⟦3⟧.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, jadi $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`Pada segitiga $ABC$, $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$, dan $a = ⟦2⟧$ cm. Tentukan $b$ sampai 2 angka di belakang koma.`,
+  'i5vdhhm6yu': R`Aturan sinus: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, jadi $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`Tentukan luas eksak segitiga dengan sisi ⟦0⟧ cm dan ⟦1⟧ cm serta sudut apit $⟦2⟧^\circ$.`,
+  '25opm4iwiww': R`Jawaban eksak seperti 6sqrt(3) diterima.`,
+  'cb99xoymur': R`Luas $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$, dengan $\sin ⟦3⟧^\circ = ⟦4⟧$, sehingga $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`Gunakan rumus Heron untuk menentukan luas segitiga dengan sisi ⟦0⟧, ⟦1⟧, dan ⟦2⟧.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Luas $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});

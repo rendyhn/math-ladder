@@ -1,0 +1,224 @@
+/* Español — Secundaria (estadística → semejanza) */
+addT('es', {
+  // statistics-jh
+  '1gkv2j833s3': R`
+<p>Una <b>medida de tendencia central</b> resume un conjunto de datos con un valor típico; una <b>medida de dispersión</b> indica cuán separados están los valores.</p>
+⟦0⟧
+<h3>Media a partir de una tabla de frecuencias</h3>
+⟦1⟧
+⟦2⟧
+<h3>Razonar hacia atrás</h3>
+⟦3⟧
+<p>Con un número par de valores, la mediana es la media de los dos valores centrales.</p>
+⟦4⟧`,
+  'zy4hmws2f9': R`Conviene cuando…`,
+  'j0p0vvrwxf': R`los datos no tienen valores extremos (atípicos)`,
+  '2ajydntyvld': R`los datos son asimétricos o tienen atípicos — p. ej., precios de viviendas`,
+  '1d4nmjapkp8': R`los datos son categóricos — p. ej., color favorito`,
+  '12wlbpcje5l': R`una idea rápida de la dispersión (pero sensible a los atípicos)`,
+  '21qgjzyanwp': R`⟦0⟧<p>$\sum f = 20$ y $\sum fx = 3 + 10 + 24 + 16 = 53$, así que la media es $\frac{53}{20} = 2{,}65$. La moda es 3 (la mayor frecuencia). La mediana es la media de los valores 10.º y 11.º —ambos 3—, así que la mediana es 3.</p>`,
+  '1j97et5mff': R`Puntuación $x$`,
+  'gm8elt7xjs': R`Frecuencia $f$`,
+  '1rnz21lc9g1': R`<p>$\text{total} = \text{media} \times \text{cantidad}$. Si 5 números tienen media 12, su total es 60; así que si cuatro de ellos suman 47, el quinto es 13.</p>`,
+  '1ksrbyf4x6z': R`<p>En una tabla de frecuencias, divide $\sum fx$ entre la frecuencia total $\sum f$, no entre el número de filas.</p>`,
+  '15d8a2aae5e': R`Ordenados: ⟦0⟧. Hay ⟦1⟧ valores, así que la mediana es la media de los dos centrales: $\frac{⟦2⟧ + ⟦3⟧}{2} = ⟦4⟧$.`,
+  '3npude2io3': R`Halla la puntuación media a partir de la tabla de frecuencias. Redondea a 2 decimales si hace falta.⟦0⟧`,
+  '1kkkmzzlb29': R`Puntuación`,
+  'nph0ner2hr': R`Frecuencia`,
+  'c68abpawgf': R`$\sum f = ⟦0⟧$ y $\sum fx = ⟦1⟧ = ⟦2⟧$. Media $= \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.`,
+  'aevfr1f0xw': R`La media de cinco números es ⟦0⟧. Cuatro de ellos son ⟦1⟧. ¿Cuál es el quinto número?`,
+  '2ddgia0tp1j': R`Los cinco números suman $5 \times ⟦0⟧ = ⟦1⟧$. Los cuatro conocidos suman ⟦2⟧, así que el quinto es $⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '5e5w5tzrl1': R`Después de ⟦0⟧ exámenes, la nota media de Diego es ⟦1⟧. Tras un examen más, su nota media es ⟦2⟧. ¿Qué nota sacó en el último examen?`,
+  '23zlk0k5oq4': R`Total antes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Total después: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Última nota $= ⟦6⟧ - ⟦7⟧ = ⟦8⟧$.`,
+  '1tdgm1yju18': R`¿Cuál es la moda de los datos de esta tabla?⟦0⟧`,
+  '2cqua50kina': R`Número de libros leídos`,
+  'ypw9p4zjlu': R`Número de estudiantes`,
+  '22iugjzjcbh': R`La moda es el valor con mayor frecuencia. ⟦0⟧ tiene frecuencia ⟦1⟧, la mayor.`,
+
+  // probability-jh
+  '1s529z7x9mx': R`
+<p>Un <b>experimento</b> (lanzar un dado, sacar una carta) tiene posibles <b>resultados</b>. El conjunto de todos los resultados es el <b>espacio muestral</b> $S$; un <b>suceso</b> $E$ es un conjunto de resultados. Cuando todos los resultados son igualmente probables:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Dos dados</h3>
+<p>Lanzar dos dados da $6 \times 6 = 36$ resultados igualmente probables. Una suma de 7 se obtiene de 6 maneras —(1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1)—, así que $P(\text{suma} = 7) = \frac{6}{36} = \frac{1}{6}$. En general, el número de maneras de obtener una suma $s$ es $6 - |s - 7|$.</p>
+<h3>Una baraja de cartas</h3>
+<p>52 cartas: 4 palos (♠ ♣ negros, ♥ ♦ rojos) de 13 valores (A, 2–10, J, Q, K). Hay 12 figuras (J, Q, K).</p>
+⟦3⟧`,
+  '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 significa imposible y 1, seguro.</li><li><b>Complementario:</b> $P(\text{no } E) = 1 - P(E)$.</li><li><b>Frecuencia esperada</b> en $n$ ensayos $= P(E) \times n$.</li></ul>`,
+  'sp7ttiactv': R`<p>Una bolsa tiene 3 canicas rojas, 5 azules y 2 verdes. $P(\text{azul}) = \frac{5}{10} = \frac{1}{2}$, y $P(\text{no verde}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
+  '1quguehv908': R`<p>La probabilidad experimental (de ensayos reales) se acerca a la probabilidad teórica a medida que aumenta el número de ensayos, pero rara vez coincide exactamente.</p>`,
+  '2jkb08f2dg': R`rojo`,
+  '1a43z74k2oy': R`azul`,
+  '1719de5b71t': R`verde`,
+  '7kkile34lr': R`Una bolsa contiene ⟦0⟧ bolas rojas, ⟦1⟧ azules y ⟦2⟧ verdes. Se saca una bola al azar. ¿Cuál es la probabilidad de que sea de color ⟦3⟧?`,
+  '26hhfp8us6o': R`Escribe una fracción como 2/7.`,
+  '34i4syx68n': R`$P(\text{⟦0⟧}) = \frac{\text{bolas de color ⟦1⟧}}{\text{total de bolas}} = \frac{⟦2⟧}{⟦3⟧}⟦4⟧$.`,
+  '17fighwohx4': R`Se lanzan dos dados equilibrados. ¿Cuál es la probabilidad de que la suma sea ⟦0⟧?`,
+  '1zfipt2db8x': R`Escribe una fracción como 5/36.`,
+  '1xyubi5yqtq': R`Hay 36 resultados igualmente probables, y una suma de ⟦0⟧ ocurre en ⟦1⟧ de ellos. $P = \frac{⟦2⟧}{36}⟦3⟧$.`,
+  '2cy3xut293b': R`mañana llueva`,
+  'lo67u7j66d': R`un autobús llegue tarde`,
+  '2dk6yd5lp5u': R`una semilla germine`,
+  '1cur3c8r655': R`un equipo gane su próximo partido`,
+  '9jb4uxp8mo': R`La probabilidad de que ⟦0⟧ es ⟦1⟧. ¿Cuál es la probabilidad de que esto <b>no</b> ocurra?`,
+  '1459jtc2vnw': R`$P(\text{no } E) = 1 - P(E) = 1 - ⟦0⟧ = ⟦1⟧$.`,
+  '1m5z09mwtae': R`un seis`,
+  '2goj7cvo26g': R`un número par`,
+  '16jy1hpm8uh': R`un número mayor que 4`,
+  '9psh7q2zqv': R`un número primo`,
+  'd1r3jk3fi5': R`un múltiplo de 3`,
+  'pkpby3rsiu': R`Se lanza un dado equilibrado ⟦0⟧ veces. ¿Cuántas veces esperarías sacar ⟦1⟧?`,
+  '1m2zbe7u1ww': R`$P = \frac{⟦0⟧}{6}$, así que el número esperado es $\frac{⟦1⟧}{6} \times ⟦2⟧ = ⟦3⟧$.`,
+  '1eipzgu94sk': R`un número menor que 3`,
+  '1i6lu5hyvob': R`un divisor de 6`,
+  'uzgsjc3e5d': R`un número mayor que 1`,
+  '1u2i7hb5c5n': R`un cuadrado perfecto`,
+  'rjfh61539i': R`Se lanza un dado equilibrado de seis caras. ¿Cuál es la probabilidad de sacar ⟦0⟧?`,
+  '2a86ul8z5e6': R`Escribe una fracción como 1/3.`,
+  'wfhq8l2euu': R`Resultados favorables: ⟦0⟧, es decir, ⟦1⟧ de 6. $P = \frac{⟦2⟧}{6}⟦3⟧$.`,
+  '1s7i7y0snm7': R`una carta de corazones`,
+  '1tvznlpjqb2': R`13 corazones`,
+  '19nwtn8arbx': R`un rey`,
+  'gy4518kzl1': R`4 reyes`,
+  '207cuaz509r': R`una carta roja`,
+  '1qvhvp7e8k8': R`26 cartas rojas`,
+  '1sakrbqn5x6': R`un rey rojo`,
+  'c3s60n5sor': R`2 reyes rojos`,
+  '1671qt85c28': R`una figura (J, Q o K)`,
+  '29hha1vs7b6': R`12 figuras`,
+  'pavjeefc8d': R`un as o un rey`,
+  '2cy5fpo3esg': R`4 ases y 4 reyes`,
+  '1rpplt11syb': R`un 7 negro`,
+  '13zshtnr8nq': R`el 7 de picas y el 7 de tréboles`,
+  '71sptgg3ka': R`Se saca al azar una carta de una baraja estándar de 52 cartas. ¿Cuál es la probabilidad de que sea ⟦0⟧?`,
+  '1wkkibr9nk7': R`Escribe una fracción como 1/13.`,
+  '23r35ol6pkt': R`Son ⟦0⟧ de las 52 cartas: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
+
+  // social-arith
+  '28qmmxd3nnk': R`
+<p>Las preguntas cotidianas sobre dinero son, en el fondo, preguntas de porcentajes.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Descuento e impuesto</h3>
+<p>Aplica los porcentajes uno tras otro: un descuento del 20% y luego un impuesto del 10% sobre 150 dólares dan $150 \times 0{,}8 \times 1{,}1 = 132$ dólares.</p>
+<h3>Interés simple</h3>
+⟦3⟧
+<p>1 500 dólares ahorrados al 6% anual durante 3 años generan $1\,500 \times 0{,}06 \times 3 = 270$ dólares; el total llega a 1 770 dólares. Si el plazo está en meses, usa $t = \frac{\text{meses}}{12}$.</p>
+<h3>Peso bruto, tara y peso neto</h3>
+<p><b>Bruto</b> = peso total; <b>tara</b> = peso del envase; <b>neto</b> = bruto − tara. Un saco de 50 kg con una tara del 2% tiene un peso neto de $50 \times 0{,}98 = 49$ kg.</p>
+⟦4⟧`,
+  '104nn3vx4at': R`Término`,
+  '1mb9fntmked': R`Precio de costo (PC)`,
+  '12bh5c74j0l': R`lo que pagó el vendedor`,
+  'p4v89gjsks': R`Precio de venta (PV)`,
+  'ixzwuufb5k': R`lo que paga el comprador`,
+  '2dj314tvgil': R`Ganancia`,
+  '1b41ckd5mix': R`PV − PC (cuando PV > PC)`,
+  '8exalr20f0': R`Pérdida`,
+  '2acjs1v6cv9': R`PC − PV (cuando PV < PC)`,
+  '8cl7h0h70q': R`$$\text{ganancia \%} = \frac{\text{ganancia}}{\text{precio de costo}} \times 100\% \qquad\qquad \text{PV} = \text{PC} \times \left(1 + \frac{p}{100}\right)$$`,
+  '2251p3nt91s': R`<p>Un teléfono comprado por 400 dólares se vende por 460 dólares. Ganancia $= 60$, así que el porcentaje de ganancia es $\frac{60}{400} \times 100\% = 15\%$.</p>`,
+  '16966flk4n0': R`I = C \times r \times t \qquad \text{(capital} \times \text{tasa anual} \times \text{años)}`,
+  '8dx80n4t33': R`<p>El porcentaje de ganancia siempre se calcula sobre el precio de <b>costo</b>, no sobre el precio de venta.</p>`,
+  'zmoygr0th3': R`Un comerciante compra una bicicleta por ⟦0⟧ dólares y la vende por ⟦1⟧ dólares. ¿Cuál es el porcentaje de ganancia?`,
+  'hr5vewyo1d': R`Un comerciante compra una bicicleta por ⟦0⟧ dólares y la vende por ⟦1⟧ dólares. ¿Cuál es el porcentaje de pérdida?`,
+  'w2dibc5j0k': R`⟦0⟧ $= ⟦1⟧$. Porcentaje $= \frac{⟦2⟧}{⟦3⟧} \times 100\% = ⟦4⟧\%$.`,
+  '1mg15vgrrsq': R`Una tienda compra una lámpara por ⟦0⟧ dólares y quiere ganar un ⟦1⟧%. ¿A qué precio debe venderla?`,
+  '1znpgx1zz3k': R`$\text{PV} = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ dólares.`,
+  '1qynlkevtzf': R`durante 1 año`,
+  '265o2h9psz8': R`durante ⟦0⟧ años`,
+  'z7uavwhcj6': R`Se invierten ⟦0⟧ dólares al ⟦1⟧% de interés simple anual ⟦2⟧. ¿Cuál es el monto total al final?`,
+  '158pfsp5k1j': R`Se invierten ⟦0⟧ dólares al ⟦1⟧% de interés simple anual ⟦2⟧. ¿Cuánto interés se obtiene?`,
+  '35ywrebltu': R`$I = C r t = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ dólares.⟦4⟧`,
+  '26yfs6y8h5o': R` Total $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ dólares.`,
+  '11eyk8p87p8': R`Un par de zapatos cuesta ⟦0⟧ dólares. Tiene un descuento del ⟦1⟧% y luego se añade un impuesto del ⟦2⟧% sobre el precio rebajado. ¿Cuál es el precio final?`,
+  '1ebjr2t3r5v': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ y luego $\times ⟦3⟧ = ⟦4⟧$ dólares.`,
+  'j3cdki7hbr': R`Un saco de arroz tiene un peso bruto de ⟦0⟧ kg. La tara es el ⟦1⟧% del peso bruto. ¿Cuál es el peso neto?`,
+  '91s53sp2z': R`Tara $= ⟦0⟧\% \times ⟦1⟧ = ⟦2⟧$ kg. Neto $= ⟦3⟧ - ⟦4⟧ = ⟦5⟧$ kg.`,
+  '1kvwyquko78': R`Un reloj se vende por ⟦0⟧ dólares con una ganancia del ⟦1⟧%. ¿Cuál era el precio de costo?`,
+  'g36e4lpvm4': R`$\text{PV} = \text{PC} \times ⟦0⟧$, así que $\text{PC} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ dólares. (Restar el ⟦4⟧% al precio de venta sería un error).`,
+
+  // patterns
+  '2bajjwmyt59': R`
+<p>Una <b>sucesión</b> es una lista ordenada de números llamados <b>términos</b>. Descubrir la regla permite continuar el patrón o saltar directamente a cualquier término.</p>
+<h3>Sucesiones aritméticas</h3>
+<p>Cada vez se suma el mismo número $d$ (la <b>diferencia común</b>): 5; 8; 11; 14; … tiene $d = 3$.</p>
+⟦0⟧
+<h3>Sucesiones geométricas</h3>
+<p>Cada término se multiplica por la misma <b>razón</b> $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
+<h3>Sucesiones especiales</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>donde $a$ es el primer término. Para 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, así que $u_{50} = 152$.</p>`,
+  '7gqysfvinh': R`Nombre`,
+  'mwgm16sn11': R`Términos`,
+  '24evmkf6e6r': R`Término n-ésimo`,
+  'xt4guw3yrj': R`Números cuadrados`,
+  'l2hgs4w3i2': R`Números cúbicos`,
+  'lutv3xfjp0': R`Números triangulares`,
+  '2g9qzgo3ylf': R`Fibonacci`,
+  'vjhbyyj0jc': R`cada término = suma de los dos anteriores`,
+  'k4xtnyrrtm': R`<p>¿Qué término de 7; 11; 15; … es igual a 95? $u_n = 4n + 3 = 95$, así que $n = 23$: es el término 23.º.</p>`,
+  'sceh7pz7y9': R`<p>El coeficiente de $n$ en la fórmula del término n-ésimo es la diferencia común, no el primer término.</p>`,
+  '73l5vk6u1l': R`¿Cuál es el siguiente término de la sucesión ⟦0⟧; …?`,
+  '273m8h7rqm0': R`La diferencia común es ⟦0⟧, así que el siguiente término es $⟦1⟧ ⟦2⟧ = ⟦3⟧$.`,
+  'e7rskm3cuq': R`Halla el término $u_{⟦0⟧}$ de la sucesión ⟦1⟧; …`,
+  '1zj05x9ucbg': R`¿Qué fórmula da el término n-ésimo de ⟦0⟧; …?`,
+  '10p4kmsov0h': R`Los términos aumentan de ⟦0⟧ en ⟦1⟧, así que la fórmula empieza por $⟦2⟧n$. Para $n = 1$, $⟦2⟧(1) + c = ⟦3⟧$ da $c = ⟦4⟧$: $u_n = ⟦5⟧$.`,
+  'kmsujsbacm': R`Cada término se multiplica por ⟦0⟧, así que el siguiente término es $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.`,
+  '1tqcntwvtfu': R`¿Qué término de la sucesión ⟦0⟧; … es igual a ⟦1⟧?`,
+  '1i1kg83c5xj': R`$u_n = ⟦0⟧ + (n - 1) \times ⟦1⟧ = ⟦2⟧$, así que $(n - 1) \times ⟦3⟧ = ⟦4⟧$, $n - 1 = ⟦5⟧$ y $n = ⟦6⟧$.`,
+  '1ru4k9e3ubn': R`Los números triangulares son 1; 3; 6; 10; 15; … Halla el número triangular $T_{⟦0⟧}$.`,
+  '1kom1e2tuqt': R`La sucesión 1; 4; 9; 16; 25; … continúa. Halla su término $u_{⟦0⟧}$.`,
+  '29es9j5bth6': R`Son los números cuadrados, $u_n = n^2$, así que $u_{⟦0⟧} = ⟦1⟧$.`,
+  '1jl1l3ooto1': R`En una sucesión, cada término a partir del tercero es la suma de los dos anteriores. Los dos primeros términos son ⟦0⟧ y ⟦1⟧. ¿Cuál es el 7.º término?`,
+  'o3oiu9pprw': R`Los términos son ⟦0⟧. El 7.º término es ⟦1⟧.`,
+
+  // similarity
+  '165d9zkx0zx': R`
+<p>Una <b>transformación</b> mueve una figura o cambia su tamaño. Con traslaciones, simetrías y giros la imagen es <b>congruente</b> (misma forma y tamaño); con una homotecia es <b>semejante</b> (misma forma, distinto tamaño).</p>
+⟦0⟧
+<h3>Figuras semejantes</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '8do2aamvnn': R`Transformación`,
+  'jmpbrf5c1s': R`Regla para un punto (x; y)`,
+  '2b0j70wot2h': R`Traslación por $\binom{a}{b}$`,
+  '53ydgkbdv': R`Simetría respecto al eje $x$`,
+  '1y0gzwc8g5l': R`Simetría respecto al eje $y$`,
+  '2c65j86o1iv': R`Simetría respecto a $y = x$`,
+  '2az2vuuewqg': R`Giro de $90^\circ$ en sentido antihorario con centro O`,
+  '1bwu4k8y4fc': R`Giro de $180^\circ$ con centro O`,
+  '24she08dmbo': R`Giro de $90^\circ$ en sentido horario con centro O`,
+  '1kfzbnkpyo2': R`Homotecia de razón $k$ y centro O`,
+  '1u5zflf6nl6': R`<p>En figuras semejantes, los ángulos correspondientes son iguales y los lados correspondientes están en la misma razón, la <b>razón de semejanza</b> $k$. Las áreas se multiplican por $k^2$ y los volúmenes por $k^3$.</p>`,
+  'f54rct691f': R`<p>Los triángulos $ABC$ y $PQR$ son semejantes con $AB = 6$, $BC = 8$ y $PQ = 9$. Razón $k = \frac{9}{6} = 1{,}5$, así que $QR = 8 \times 1{,}5 = 12$. Si el triángulo $ABC$ tiene área 24, el triángulo $PQR$ tiene área $24 \times 1{,}5^2 = 54$.</p>`,
+  '111he4idz8g': R`<p>Un poste de 1,5 m proyecta una sombra de 2 m en el mismo momento en que un árbol proyecta una sombra de 12 m. Los triángulos son semejantes: $\frac{h}{12} = \frac{1{,}5}{2}$, así que $h = 9$ m.</p>`,
+  '1ag7324gyvl': R`<p>Los lados semejantes difieren en un <b>múltiplo</b>, no en una cantidad fija. Si un lado pasa de 6 a 9, un lado de 8 pasa a 12, no a 11.</p>`,
+  'grtkq2tz50': R`una simetría respecto al eje $x$`,
+  '2b146agxtl5': R`una simetría respecto al eje $y$`,
+  '12ufv3upbre': R`una simetría respecto a la recta $y = x$`,
+  '1efbacf7mos': R`un giro de $90^\circ$ en sentido antihorario con centro en el origen`,
+  '2ettdugdvou': R`un giro de $180^\circ$ con centro en el origen`,
+  'y4ewc1f7tf': R`un giro de $90^\circ$ en sentido horario con centro en el origen`,
+  '147bj1yruac': R`una traslación por $⟦0⟧$`,
+  'q8g4eu6egm': R`Al punto $P⟦0⟧$ se le aplica ⟦1⟧. ¿Cuáles son las coordenadas de su imagen?`,
+  'px6a8rprin': R`Escribe las coordenadas como x; y.`,
+  '199eqilp9e9': R`La regla es ⟦0⟧, así que la imagen es $⟦1⟧$.`,
+  '141nr4eramb': R`Los triángulos $ABC$ y $PQR$ son semejantes, con $AB \leftrightarrow PQ$, $BC \leftrightarrow QR$ y $CA \leftrightarrow RP$. Si $AB = ⟦0⟧$, $BC = ⟦1⟧$, $CA = ⟦2⟧$ y $⟦3⟧ = ⟦4⟧$, halla $⟦5⟧$.`,
+  '1kimjtrunz7': R`Razón de semejanza $k = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$. Así que $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.`,
+  'bj1shpkj9u': R`Dos cuerpos semejantes tienen razón de semejanza ⟦0⟧. El menor tiene un volumen de ⟦1⟧ cm³. ¿Cuál es el volumen del mayor?`,
+  'ld6jtpizu2': R`Los volúmenes se multiplican por $k^3 = ⟦0⟧$: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³.`,
+  '11duhh78e55': R`Dos figuras semejantes tienen razón de semejanza ⟦0⟧. La menor tiene un área de ⟦1⟧ cm². ¿Cuál es el área de la mayor?`,
+  'hfezjn5dnm': R`Las áreas se multiplican por $k^2 = ⟦0⟧$: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm².`,
+  '2eojcpktunl': R`Un palo de ⟦0⟧ m proyecta una sombra de ⟦1⟧ m. En ese mismo momento, un árbol proyecta una sombra de ⟦2⟧ m. ¿Cuánto mide el árbol?`,
+  '196fpe0msid': R`Los triángulos son semejantes: $\frac{h}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$, así que $h = ⟦3⟧ \times \frac{⟦4⟧}{⟦5⟧} = ⟦6⟧$ m.`,
+  '1iy8baeb4jd': R`Al punto $⟦0⟧$ se le aplica una homotecia con centro en el origen y razón ⟦1⟧. ¿Dónde está su imagen?`,
+  '1fyw56nqicr': R`Multiplica ambas coordenadas por ⟦0⟧: $(⟦1⟧ \times ⟦2⟧;\; ⟦3⟧ \times ⟦4⟧) = ⟦5⟧$.`,
+});

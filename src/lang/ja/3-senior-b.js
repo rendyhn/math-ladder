@@ -1,0 +1,139 @@
+/* 日本語 — 高校（数列 → 三角形の解法） */
+addT('ja', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>ここで $a$ は初項、$l$ は末項です。</p>
+⟦1⟧
+⟦2⟧
+<h3>無限等比級数</h3>
+⟦3⟧
+<p>例：$8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$。</p>
+<h3>シグマ記号</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ は $f(1) + f(2) + \cdots + f(n)$ を表します。便利な公式：$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$、$\sum_{k=1}^{n} c = cn$。</p>
+⟦4⟧`,
+  'lwukzez7ke': R`等差数列`,
+  '1atqzl7ltey': R`等比数列`,
+  'zs186mkwh5': R`毎回 $d$ をたす`,
+  '160nuilyero': R`毎回 $r$ をかける`,
+  '99dr6iy4ys': R`初項から第 n 項までの和`,
+  '1yzmu3p7b4v': R`<p>$3, 7, 11, \ldots$ の初項から第 20 項までの和は $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$。</p>`,
+  '8pkxhjbkfd': R`<p>等差数列で $u_4 = 17$、$u_9 = 42$ のとき、その間は公差 5 つ分なので $5d = 25$、$d = 5$、$a = 17 - 3 \times 5 = 2$。</p>`,
+  '3zsr22exdg': R`<p>$|r| \lt 1$ なら項は十分速く小さくなり、和は有限の値に収束します：</p>$$S_\infty = \frac{a}{1 - r}$$<p>$|r| \ge 1$ なら有限の和はありません。</p>`,
+  '22swm7le3e': R`<p>$u_p$ から $u_q$ までは $q - p + 1$ 歩ではなく、$q - p$ 歩です。</p>`,
+  'v83xyier66': R`等差数列で $u_{⟦0⟧} = ⟦1⟧$、$u_{⟦2⟧} = ⟦3⟧$ です。$u_{⟦4⟧}$ を求めなさい。`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$ より $d = ⟦3⟧$。よって $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$、$u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$。`,
+  'ltcwrvbh9s': R`等差数列 ⟦1⟧, … の初項から第 ⟦0⟧ 項までの和を求めなさい。`,
+  'vsiejpaurw': R`等比数列 ⟦1⟧, … の第 ⟦0⟧ 項 $u_{⟦0⟧}$ を求めなさい。`,
+  '2fg2ivyt6zs': R`等比級数 $⟦1⟧ + \cdots$ の初項から第 ⟦0⟧ 項までの和を求めなさい。`,
+  '6by3ukfsg3': R`初項 ⟦0⟧、公比 $⟦1⟧$ の無限等比級数の和を求めなさい。`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$ なので $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$。`,
+  'm56xkk6hj0': R`$\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$ を計算しなさい。`,
+  'zk5lcxjf3d': R`ユイさんの 1 年目の給料は ⟦0⟧ ドルで、毎年 ⟦1⟧ ドルずつ上がります。最初の ⟦2⟧ 年間で合計いくら稼ぎますか。`,
+  '222tg0c1ffy': R`等差数列の和です：$S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ ドル。`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>直角三角形で、鋭角 $\theta$ について：</p>
+⟦0⟧
+<p>英語圏の覚え方：<b>SOH-CAH-TOA</b>（sin = 対辺/斜辺、cos = 隣辺/斜辺、tan = 対辺/隣辺）。また $\tan\theta = \frac{\sin\theta}{\cos\theta}$ で、逆数は $\csc\theta = \frac{1}{\sin\theta}$、$\sec\theta = \frac{1}{\cos\theta}$、$\cot\theta = \frac{1}{\tan\theta}$ です。</p>
+<h3>有名角の値</h3>
+⟦1⟧
+<h3>弧度法</h3>
+<p>$180^\circ = \pi$ ラジアン。度をラジアンにするには $\frac{\pi}{180}$ を、ラジアンを度にするには $\frac{180}{\pi}$ をかけます。よって $60^\circ = \frac{\pi}{3}$、$\frac{3\pi}{4} = 135^\circ$。</p>
+<h3>単位円</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{対辺}}{\text{斜辺}} \qquad \cos\theta = \frac{\text{隣辺}}{\text{斜辺}} \qquad \tan\theta = \frac{\text{対辺}}{\text{隣辺}}`,
+  'ig8vf2x1y6': R`sin θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`定義されない`,
+  'uyvhui04wr': R`<p>どんな角 $\theta$ でも、単位円上の点は $(\cos\theta, \sin\theta)$ です。象限ごとの符号 —「<b>オール</b>・<b>シン</b>・<b>タン</b>・<b>コス</b>」：第 1 象限はすべて正、第 2 象限は sin、第 3 象限は tan、第 4 象限は cos が正です。</p><p><b>基準角</b>（$x$ 軸となす鋭角）を使い、正しい符号をつけます：$\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$、$\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$。</p>`,
+  'hizqd1rl8k': R`<p>30 m 離れた地点から塔の頂上を見上げる角（仰角）は $60^\circ$ です。高さ $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52.0$ m。</p>`,
+  'neyxpix7b9': R`<p>三角関数を計算する前に、電卓のモード（DEG か RAD か）を確認しましょう。</p>`,
+  '67i6rxexro': R`$⟦0⟧ ⟦1⟧$ の正確な値を求めなさい。`,
+  'pdy7ypcls7': R`sqrt(3)/2 のような正確な値で答えられます。`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ は第 ⟦2⟧ 象限にあり、そこでは $⟦3⟧$ は⟦4⟧です。基準角は $⟦5⟧^\circ$ で $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$、よって $⟦9⟧ ⟦10⟧ = ⟦11⟧$。`,
+  '1fngyjdzj11': R`⟦0⟧$⟦1⟧^\circ$ のとき単位円上の点は $⟦2⟧$ $= (\cos\theta, \sin\theta)$、よって $⟦3⟧ ⟦4⟧ = ⟦5⟧$。`,
+  'd9ifn6iock': R`$⟦0⟧^\circ$ をラジアンで表しなさい。`,
+  'gs4x19407v': R`$\frac{\pi}{180}$ をかけます：$⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$。`,
+  'hgjh318aic': R`$⟦0⟧$ ラジアンを度で表しなさい。`,
+  'zfi973h2bw': R`$\frac{180}{\pi}$ をかけます：$⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$。`,
+  '1lrzh5jmv15': R`直角三角形で、$⟦0⟧^\circ$ の角に隣り合う辺（隣辺）が ⟦1⟧ cm です。対辺の長さを小数第 2 位まで求めなさい。`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{対辺}}{⟦1⟧}$ より、対辺 $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm。`,
+  '8jiaz8zixv': R`斜辺が ⟦0⟧ cm で、1 つの角が $⟦1⟧^\circ$ の直角三角形があります。その角の対辺の長さを小数第 2 位まで求めなさい。`,
+  '22kukzeyh6': R`斜辺が ⟦0⟧ cm で、1 つの角が $⟦1⟧^\circ$ の直角三角形があります。その角の隣辺の長さを小数第 2 位まで求めなさい。`,
+  'w56ix8w8yr': R`対辺`,
+  '5ydwv3it97': R`隣辺`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$ より、その辺 $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm。`,
+  '2abmsiuwu52': R`$\theta$ は鋭角で $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$ です。$⟦2⟧\theta$ を求めなさい。`,
+  '1qudt03n4v8': R`対辺 ⟦0⟧、斜辺 ⟦1⟧ の直角三角形をかくと、隣辺は $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$。よって $⟦5⟧$。`,
+  '28dk1p4hmng': R`建物のふもとから ⟦0⟧ m 離れた地点で、屋上を見上げる仰角は $⟦1⟧^\circ$ でした。建物の高さを正確な値で求めなさい。`,
+  '1fxpcv94bft': R`12sqrt(3) のような正確な値で答えられます。`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ で、$\tan ⟦2⟧^\circ = ⟦3⟧$ なので $h = ⟦4⟧$ m。`,
+  '1ttcab6tj5m': R`第 1 象限`,
+  '4o87w2367v': R`第 2 象限`,
+  '11djzpzc46w': R`第 3 象限`,
+  '26d39yjlrkj': R`第 4 象限`,
+  '1t5qxibr3fa': R`$⟦0⟧\theta ⟦1⟧ 0$ かつ $⟦2⟧\theta ⟦3⟧ 0$ のとき、$\theta$ は第何象限の角ですか。`,
+  '1856p6n9vrk': R`sin が正なのは第 1・2 象限、cos は第 1・4 象限、tan は第 1・3 象限です。両方の条件を満たすのは<b>⟦0⟧</b>だけです。`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p><b>恒等式</b>はすべての角で成り立ちます。特に重要なもの：</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>三角方程式を解く</h3>
+<p>基準角を求め、指定された範囲で符号が正しい角をすべて求めます。</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`相互関係`,
+  '28msif6x03y': R`加法定理`,
+  '1qlqqnnfd2i': R`2 倍角の公式`,
+  '14xjp53gt4x': R`<p>$0^\circ \le x \lt 360^\circ$ で $\sin x = -\frac{1}{2}$ を解きます。基準角は $30^\circ$、sin が負なのは第 3・4 象限なので、$x = 180^\circ + 30^\circ = 210^\circ$ または $x = 360^\circ - 30^\circ = 330^\circ$。</p>`,
+  '1hkvix57r6q': R`<p>$\sin\theta = \frac{3}{5}$ で $\theta$ が第 2 象限の角なら、$\cos\theta = -\frac{4}{5}$ です。相互関係で大きさが、象限で符号が決まります。</p>`,
+  '64164qr2jw': R`$\theta$ は鋭角で $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$ です。$\sin 2\theta$ を求めなさい。`,
+  '27wxa35nxaa': R`$\sin\theta = \frac{⟦0⟧}{⟦1⟧}$ のとき、$\cos 2\theta$ を求めなさい。`,
+  'szbqx0thv8': R`$0^\circ \le x \lt 360^\circ$ で $⟦0⟧ x = ⟦1⟧$ を解きなさい。`,
+  '22m72qx0p66': R`角度（度）をコンマで区切って入力しなさい。例：30, 150`,
+  'ygon4mdoxw': R`基準角は $⟦0⟧^\circ$。$⟦1⟧$ が⟦2⟧になるのは $⟦3⟧^\circ$ と $⟦4⟧^\circ$ の象限なので、$x = ⟦5⟧^\circ$ または $x = ⟦6⟧^\circ$。`,
+  '15odwmxybxs': R`和と差の積（因数分解）、次に $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`2 倍角の公式`,
+  'sj6onjglro': R`展開（$\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$ になる）`,
+  '7gzo83e030': R`⟦0⟧を使うと：$⟦1⟧ = ⟦2⟧$。`,
+  '1ico65e8qdc': R`$⟦0⟧$ の正確な値を求めなさい。`,
+  '2ayoc6nyniw': R`(sqrt(6)+sqrt(2))/4 のような正確な値で答えられます。`,
+  '1mewvixpsgq': R`$⟦0⟧$ と表し、$30^\circ$、$45^\circ$、$60^\circ$ の正確な値と加法定理を使うと、結果は $⟦1⟧$ です。`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ で、$\theta$ は第 ⟦1⟧ 象限の角です。$⟦2⟧$ を求めなさい。`,
+  '19cq8bi37ib': R`三角形の 3 辺は ⟦0⟧、⟦1⟧、⟦2⟧ です。第 ⟦3⟧ 象限では sin は⟦4⟧、cos は⟦5⟧なので、$\sin\theta = ⟦6⟧$、$\cos\theta = ⟦7⟧$。`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>辺 $a$ が角 $A$ の対辺、$b$ が $B$ の対辺、$c$ が $C$ の対辺になるように名前をつけます。これらの定理は直角三角形に限らず、<b>どんな</b>三角形でも成り立ちます。</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>1 辺とその対角、さらにもう 1 辺か 1 角がわかっているときに使います。</p>`,
+  'mp16igkhf3': R`正弦定理`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>2 辺とその間の角、または 3 辺がわかっているときに使います。</p>`,
+  'kgaid4s1rf': R`余弦定理`,
+  '1w8yehsbjfu': R`$$\text{面積} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{ヘロン：} \text{面積} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>2 辺が 5 と 8 でその間の角が $60^\circ$ のとき、残りの辺は $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$、面積は $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$。</p>`,
+  '11plyaa7o04': R`<p>正弦定理で角を求めると、三角形が 2 通りできることがあります：$\sin B = 0.8$ なら $B \approx 53.1^\circ$ <i>または</i> $B \approx 126.9^\circ$。それぞれ条件に合うか確かめましょう。</p>`,
+  'l2pu7cls8u': R`$\triangle ABC$ で $b = ⟦0⟧$ cm、$c = ⟦1⟧$ cm、$A = ⟦2⟧^\circ$ です。$a$ を小数第 2 位まで求めなさい。`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$ より $a \approx ⟦6⟧$ cm。`,
+  '1s6102ghcou': R`3 辺が ⟦0⟧、⟦1⟧、⟦2⟧ の三角形があります。長さ ⟦3⟧ の辺の対角を求めなさい。`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$ より $\theta = ⟦8⟧^\circ$。`,
+  '3e8310hzv': R`$\triangle ABC$ で $A = ⟦0⟧^\circ$、$B = ⟦1⟧^\circ$、$a = ⟦2⟧$ cm です。$b$ を小数第 2 位まで求めなさい。`,
+  'i5vdhhm6yu': R`正弦定理より $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$、よって $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm。`,
+  '1uuy2y52gu0': R`2 辺が ⟦0⟧ cm と ⟦1⟧ cm で、その間の角が $⟦2⟧^\circ$ の三角形の面積を正確な値で求めなさい。`,
+  '25opm4iwiww': R`6sqrt(3) のような正確な値で答えられます。`,
+  'cb99xoymur': R`面積 $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$、$\sin ⟦3⟧^\circ = ⟦4⟧$ なので $⟦5⟧$ cm²。`,
+  '1dwe3yjuxqj': R`ヘロンの公式を使って、3 辺が ⟦0⟧、⟦1⟧、⟦2⟧ の三角形の面積を求めなさい。`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$。面積 $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$。`,
+});

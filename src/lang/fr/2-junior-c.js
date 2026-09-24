@@ -1,0 +1,147 @@
+/* Français — collège (systèmes → solides) */
+addT('fr', {
+  // systems
+  '1obgwi6un65': R`
+<p>Un <b>système</b> de deux équations du premier degré en $x$ et $y$ demande les valeurs qui rendent vraies <i>les deux</i> équations. Graphiquement, la solution est le point d’intersection des deux droites.</p>
+<h3>Substitution</h3>
+⟦0⟧
+<h3>Combinaison</h3>
+⟦1⟧
+⟦2⟧
+<h3>Cas particuliers</h3>
+<p>Des droites parallèles (même coefficient directeur, ordonnées à l’origine différentes) ne se coupent jamais : <b>pas de solution</b>. Des droites confondues donnent une <b>infinité</b> de solutions.</p>
+<h3>Problèmes</h3>
+<p>Deux inconnues demandent deux informations. « Une ferme compte 30 têtes et 84 pattes, entre poules et vaches », avec $c$ vaches et $h$ poules : $c + h = 30$ et $4c + 2h = 84$.</p>
+⟦3⟧`,
+  '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>On remplace la première dans la seconde : $3x + (2x - 1) = 14$, donc $5x = 15$, $x = 3$ et $y = 2(3) - 1 = 5$. Solution : $(3 ; 5)$.</p>`,
+  '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>On additionne les équations pour éliminer $y$ : $7x = 21$, donc $x = 3$. Puis $2(3) + 3y = 12$ donne $y = 2$.</p>`,
+  '2hm0wzsgn4': R`<p>Multipliez d’abord une équation (ou les deux) pour qu’une inconnue ait des coefficients égaux (ou opposés), puis soustrayez (ou additionnez) pour l’éliminer. Vérifiez toujours la réponse dans les <b>deux</b> équations de départ.</p>`,
+  '1mqyjg4cjt3': R`<p>Quand on soustrait deux équations, on soustrait <i>tous</i> les termes, y compris ceux des seconds membres : les erreurs de signe sont les plus fréquentes.</p>`,
+  '2bus2hrtc7a': R`Résolvez le système et donnez la valeur de $⟦0⟧$ : $$\begin{cases} ⟦1⟧ = ⟦2⟧ \\ ⟦3⟧ = ⟦4⟧ \end{cases}$$`,
+  'cj3nlbnytd': R`On élimine $x$ : on multiplie la première équation par ⟦0⟧ et la seconde par ⟦1⟧, puis on soustrait : $⟦2⟧y = ⟦3⟧$, donc $y = ⟦4⟧$. En remplaçant, on obtient $x = ⟦5⟧$⟦6⟧.`,
+  '1v4b2kwdt1t': R`, donc $x + y = ⟦0⟧$`,
+  '12wz870lrmo': R`Résolvez : $$\begin{cases} ⟦0⟧ = ⟦1⟧ \\ ⟦2⟧ = ⟦3⟧ \end{cases}$$`,
+  '2h37f00sms': R`Écrivez la solution sous la forme x ; y, par exemple 3 ; -2.`,
+  'ji19p5e9vc': R`En éliminant une inconnue, on obtient $x = ⟦0⟧$ et $y = ⟦1⟧$. Vérification : $⟦2⟧(⟦3⟧) + ⟦4⟧(⟦5⟧) = ⟦6⟧$ ✓ et $⟦7⟧(⟦8⟧) + ⟦9⟧(⟦10⟧) = ⟦11⟧$ ✓`,
+  '1uhjqjwpqgq': R`Un cinéma a vendu ⟦0⟧ billets pour un total de ⟦1⟧ euros. Le billet adulte coûte ⟦2⟧ euros et le billet enfant ⟦3⟧ euros. Combien de billets enfant ont été vendus ?`,
+  '1w5sbgqln74': R`Notons $a$ le nombre de billets adulte et $c$ celui des billets enfant : $a + c = ⟦0⟧$ et $⟦1⟧a + ⟦2⟧c = ⟦3⟧$. On remplace $a = ⟦4⟧ - c$ : $⟦5⟧ - ⟦6⟧c = ⟦7⟧$, donc $c = ⟦8⟧$.`,
+  '5gcbu3n7lh': R`Une ferme compte des poules et des vaches. Ensemble, elles ont ⟦0⟧ têtes et ⟦1⟧ pattes. Combien y a-t-il de vaches ?`,
+  '1q9pdlsduw3': R`Une ferme compte des poules et des vaches. Ensemble, elles ont ⟦0⟧ têtes et ⟦1⟧ pattes. Combien y a-t-il de poules ?`,
+  '20g4l7cyliz': R`Notons $c$ le nombre de vaches et $h$ celui des poules : $c + h = ⟦0⟧$ et $4c + 2h = ⟦1⟧$. On soustrait deux fois la première équation : $2c = ⟦2⟧$, donc $c = ⟦3⟧$ et $h = ⟦4⟧$.`,
+  '18lm53yd624': R`La somme de deux nombres est ⟦0⟧ et leur différence est ⟦1⟧. Quel est le plus grand ?`,
+  '1juzg4bgiuw': R`La somme de deux nombres est ⟦0⟧ et leur différence est ⟦1⟧. Quel est le plus petit ?`,
+  '15xzu54of35': R`$a + b = ⟦0⟧$ et $a - b = ⟦1⟧$. En additionnant : $2a = ⟦2⟧$, donc $a = ⟦3⟧$ et $b = ⟦4⟧$.`,
+
+  // pythagoras
+  '18dtbjhvgbb': R`
+<p>Dans un triangle rectangle, le plus long côté, opposé à l’angle droit, est l’<b>hypoténuse</b> $c$. Les deux autres sont les <b>côtés de l’angle droit</b> $a$ et $b$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Triplets pythagoriciens</h3>
+<p>Il est utile de retenir les solutions entières et leurs multiples : $(3 ; 4 ; 5)$, $(5 ; 12 ; 13)$, $(8 ; 15 ; 17)$, $(7 ; 24 ; 25)$, ainsi que $(6 ; 8 ; 10)$, $(9 ; 12 ; 15)$, …</p>
+<h3>Distance entre deux points</h3>
+⟦3⟧
+<h3>La réciproque</h3>
+<p>Avec $c$ le plus grand côté : si $a^2 + b^2 = c^2$, le triangle est <b>rectangle</b> ; si $a^2 + b^2 \gt c^2$, il est <b>acutangle</b> ; si $a^2 + b^2 \lt c^2$, il est <b>obtusangle</b>.</p>
+⟦4⟧`,
+  '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Pour trouver l’hypoténuse, on additionne les carrés ; pour un côté de l’angle droit, on soustrait : $b = \sqrt{c^2 - a^2}$.</p>`,
+  '266inyds4fo': R`<p>Une échelle de 10 m est appuyée contre un mur, son pied à 6 m du mur. Hauteur atteinte : $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
+  '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Avec des côtés 3 et 4, l’hypoténuse mesure 5, pas 7.</p>`,
+  'tzct4b0jzc': R`Un triangle rectangle a des côtés de l’angle droit de ⟦0⟧ cm et ⟦1⟧ cm. Quelle est la longueur de l’hypoténuse ?`,
+  'w85jfl9xou': R`$c^2 = ⟦0⟧^2 + ⟦1⟧^2 = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$, donc $c = \sqrt{⟦5⟧} = ⟦6⟧$ cm.`,
+  '14oj6g8m8ly': R`L’hypoténuse d’un triangle rectangle mesure ⟦0⟧ m et un côté de l’angle droit ⟦1⟧ m. Combien mesure l’autre ?`,
+  'ucdvtq6bkq': R`Calculez la distance entre $⟦0⟧$ et $⟦1⟧$.`,
+  '174wwwvihed': R`Une échelle de ⟦0⟧ m est appuyée contre un mur vertical. Son pied est à ⟦1⟧ m du pied du mur. À quelle hauteur l’échelle arrive-t-elle ?`,
+  'fb02yp437s': R`L’échelle est l’hypoténuse : $h = \sqrt{⟦0⟧^2 - ⟦1⟧^2} = \sqrt{⟦2⟧} = ⟦3⟧$ m.`,
+  '1gtgjvulgbd': R`Un triangle rectangle a des côtés de l’angle droit de ⟦0⟧ cm et ⟦1⟧ cm. Calculez l’hypoténuse, arrondie au centième.`,
+  '1cost2rf2x0': R`$c = \sqrt{⟦0⟧^2 + ⟦1⟧^2} = \sqrt{⟦2⟧} \approx ⟦3⟧$ cm.`,
+  '14ejxhzoxmd': R`Triangle rectangle`,
+  '1s09bctuu2d': R`rectangle`,
+  '1fk5t91if9w': R`Triangle acutangle`,
+  '7ds33wq0ok': R`acutangle`,
+  '1kp4g4kchcj': R`Triangle obtusangle`,
+  'imjds8cff1': R`obtusangle`,
+  'fvjprzss2k': R`Un triangle a pour côtés ⟦0⟧. De quel type de triangle s’agit-il ?`,
+  '5pal2wak00': R`On compare avec le plus grand côté, ⟦0⟧ : $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ et $⟦4⟧^2 = ⟦5⟧$. Comme $⟦6⟧ ⟦7⟧ ⟦8⟧$, le triangle est <b>⟦9⟧</b>.`,
+
+  // circles
+  '162uvssoo3s': R`
+⟦0⟧
+<p>Le rapport entre le périmètre d’un cercle et son diamètre est toujours le même nombre, $\pi \approx 3{,}14159\ldots$ (souvent arrondi à $3{,}14$ ou $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+<h3>Arcs et secteurs</h3>
+<p>Un secteur d’angle au centre $\theta$ représente la fraction $\frac{\theta}{360^\circ}$ du disque entier :</p>
+⟦3⟧
+<h3>Angles dans un cercle</h3>
+<ul><li>L’angle au centre est le <b>double</b> de l’angle inscrit qui intercepte le même arc.</li><li>Un angle inscrit dans un demi-cercle mesure $90^\circ$.</li><li>La tangente est perpendiculaire au rayon au point de contact.</li></ul>
+⟦4⟧`,
+  '20wibo4oznt': R`Les éléments d’un cercle. Le diamètre est le double du rayon : d = 2r.`,
+  '1y041ovnv67': R`<p>Rayon 5 cm : $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm et $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Laisser la réponse « en fonction de $\pi$ » la garde exacte.</p>`,
+  '1ljhd2tb7ca': R`\text{longueur de l’arc} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{aire du secteur} = \frac{\theta}{360^\circ} \times \pi r^2`,
+  '1aglezoi0gp': R`<p>Vérifiez si l’on vous donne le rayon ou le diamètre. Utiliser $d$ dans $\pi r^2$ rend l’aire quatre fois trop grande.</p>`,
+  '1iocjvynzqe': R`En prenant $\pi \approx 3{,}14$, calculez le périmètre d’un cercle de diamètre ⟦0⟧ cm.`,
+  '18sb05q1pm7': R`En prenant $\pi \approx 3{,}14$, calculez le périmètre d’un cercle de rayon ⟦0⟧ cm.`,
+  'upb5nulrwg': R`$C = ⟦0⟧ = ⟦1⟧$ cm.`,
+  '143d0xflci4': R`\pi d = 3{,}14 \times ⟦0⟧`,
+  '25yf5bhyvhn': R`2\pi r = 2 \times 3{,}14 \times ⟦0⟧`,
+  '1stzke7qj3q': R`En prenant $\pi \approx \frac{22}{7}$, calculez le périmètre d’un cercle de rayon ⟦0⟧ cm.`,
+  'vghbcaja6w': R`$C = 2\pi r = 2 \times \frac{22}{7} \times ⟦0⟧ = ⟦1⟧$ cm.`,
+  '91md2imk84': R`Calculez l’aire d’un disque de diamètre ⟦0⟧ cm. Donnez la réponse en fonction de $\pi$.`,
+  '6f1a511ku9': R`Calculez l’aire d’un disque de rayon ⟦0⟧ cm. Donnez la réponse en fonction de $\pi$.`,
+  'ctkfkfiuaj': R`⟦0⟧$A = \pi r^2 = \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².`,
+  '1uvm4lzorf9': R`Le rayon est la moitié du diamètre : ⟦0⟧ cm. `,
+  '2et0owexep4': R`Un secteur a un rayon de ⟦0⟧ cm et un angle au centre de $⟦1⟧^\circ$. Calculez la longueur de son arc en fonction de $\pi$.`,
+  '1fpgoxe9d0': R`Arc $= \frac{⟦0⟧}{360} \times 2\pi \times ⟦1⟧ = ⟦2⟧$ cm.`,
+  '72i5kpinty': R`Un secteur a un rayon de ⟦0⟧ cm et un angle au centre de $⟦1⟧^\circ$. Calculez son aire en fonction de $\pi$.`,
+  '1ayxkyrhaid': R`Aire $= \frac{⟦0⟧}{360} \times \pi \times ⟦1⟧^2 = ⟦2⟧$ cm².`,
+  '1fzoa3xapl2': R`Un cercle a un périmètre de $⟦0⟧$ cm. Calculez l’aire du disque en fonction de $\pi$.`,
+  '22u3ive551m': R`$2\pi r = ⟦0⟧$ donne $r = ⟦1⟧$. Donc $A = \pi r^2 = ⟦2⟧$ cm².`,
+  '1rcge82c97m': R`Un angle inscrit dans un cercle mesure $⟦0⟧^\circ$. Combien mesure l’angle au centre qui intercepte le même arc ?`,
+  '10ccm4ku9vc': R`L’angle au centre est le double de l’angle inscrit : $2 \times ⟦0⟧^\circ = ⟦1⟧^\circ$.`,
+  '1ak5mj5jm7n': R`Un angle au centre d’un cercle mesure $⟦0⟧^\circ$. Combien mesure un angle inscrit qui intercepte le même arc ?`,
+  'kfe0atvapi': R`L’angle inscrit est la moitié de l’angle au centre : $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
+
+  // solids
+  '57zv1tsefg': R`
+<p>Un <b>prisme</b> a la même section sur toute sa longueur : son volume est simplement l’aire de cette section multipliée par sa longueur. Une pyramide ou un cône qui s’y inscrit a exactement le tiers de ce volume.</p>
+⟦0⟧
+<p>Pour un cône, $s$ est la <b>génératrice</b> ; d’après Pythagore, $s = \sqrt{r^2 + h^2}$.</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '1uywbz6o84t': R`Solide`,
+  'alc1a0j1b0': R`Volume`,
+  'bt7ak3o2ct': R`Aire totale`,
+  'm6y2tibz7j': R`Prisme`,
+  '3d3lt4gyiq': R`$A_{\text{base}} \times h$`,
+  '2e5o3mkaw4p': R`somme des aires de toutes les faces`,
+  '17avl8a1nf0': R`Cylindre`,
+  'w68av9so54': R`Pyramide`,
+  '1xyfnhsvdp5': R`$\frac{1}{3} A_{\text{base}} \times h$`,
+  '1u5rq973ap9': R`base + triangles`,
+  '40atij69zq': R`Cône`,
+  '1cebx8i383a': R`Boule`,
+  'u0gc3phvmz': R`<p>Un cylindre avec $r = 3$ cm et $h = 10$ cm :</p><p>$V = \pi (3)^2 (10) = 90\pi$ cm³ $\approx 282{,}7$ cm³. &nbsp; $A = 2\pi(9) + 2\pi(3)(10) = 18\pi + 60\pi = 78\pi$ cm².</p>`,
+  '706fqlfv6n': R`<p>La surface latérale d’un cylindre se déroule en un rectangle : un côté est la hauteur $h$, l’autre le périmètre $2\pi r$. D’où $2\pi r h$.</p>`,
+  '20ndnd7mfh9': R`<p>Demi-boules : la moitié du volume de la boule, mais l’aire totale vaut $2\pi r^2$ (partie courbe) $+ \pi r^2$ (disque plat) $= 3\pi r^2$.</p>`,
+  '6nduvxh56u': R`Calculez le volume d’un cylindre de rayon ⟦0⟧ cm et de hauteur ⟦1⟧ cm, en fonction de $\pi$.`,
+  '1u7xsdtlko1': R`$V = \pi r^2 h = \pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  '1ao9a1zkfz0': R`Calculez le volume d’un cône de rayon ⟦0⟧ cm et de hauteur ⟦1⟧ cm, en fonction de $\pi$.`,
+  '11qtlcks0z2': R`$V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  'qcz5afk27t': R`Calculez le volume d’une boule de rayon ⟦0⟧ cm, en fonction de $\pi$.`,
+  '1a5wzmqqnbb': R`$V = \frac{4}{3}\pi r^3 = \frac{4}{3}\pi \times ⟦0⟧ = ⟦1⟧$ cm³.`,
+  '2boy4rshpla': R`Calculez l’aire d’une sphère de rayon ⟦0⟧ cm, en fonction de $\pi$.`,
+  'myifdpmpki': R`$A = 4\pi r^2 = 4\pi \times ⟦0⟧ = ⟦1⟧$ cm².`,
+  '225sd035ctc': R`Calculez l’aire totale d’un cylindre fermé de rayon ⟦0⟧ cm et de hauteur ⟦1⟧ cm, en fonction de $\pi$.`,
+  'e5stvcnm4w': R`$A = 2\pi r^2 + 2\pi r h = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².`,
+  'ud0ddpzcpo': R`Un cône a un rayon de ⟦0⟧ cm et une hauteur de ⟦1⟧ cm. Quelle est la longueur de sa génératrice ?`,
+  '1ds61tt8krc': R`$s = \sqrt{r^2 + h^2} = \sqrt{⟦0⟧ + ⟦1⟧} = ⟦2⟧$ cm.`,
+  '1xg851dcel': R`Un cône a un rayon de ⟦0⟧ cm et une génératrice de ⟦1⟧ cm. Calculez son aire totale en fonction de $\pi$.`,
+  '1l881dmx8vq': R`$A = \pi r^2 + \pi r s = ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ cm².`,
+  'fb33rdkq1e': R`Une pyramide a pour base un carré de ⟦0⟧ cm de côté et une hauteur de ⟦1⟧ cm. Quel est son volume ?`,
+  '113p07j0igk': R`$V = \frac{1}{3} \times \text{base} \times h = \frac{1}{3} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm³.`,
+  '15qifiaqosu': R`Un prisme droit a pour section un triangle de base ⟦0⟧ cm et de hauteur ⟦1⟧ cm. Le prisme mesure ⟦2⟧ cm de long. Quel est son volume ?`,
+  '2b2ytzrzz4n': R`Aire de la section $= \frac{1}{2} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm². Volume $= ⟦3⟧ \times ⟦4⟧ = ⟦5⟧$ cm³.`,
+});

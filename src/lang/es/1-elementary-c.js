@@ -1,0 +1,165 @@
+/* Español — Primaria (perímetro y área → datos) */
+addT('es', {
+  // perimeter-area
+  '1xtxvjsrb9v': R`
+<p>El <b>perímetro</b> es la longitud total del contorno de una figura (se mide en cm, m, …). El <b>área</b> es la cantidad de superficie que ocupa (se mide en unidades cuadradas: cm², m², …).</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Figuras compuestas</h3>
+<p>Divide una figura en forma de L u otra figura compuesta en rectángulos y triángulos y suma sus áreas, o bien toma un rectángulo grande y resta la parte que falta.</p>
+⟦4⟧`,
+  '1be5xudsubm': R`Rectángulo, triángulo y trapecio: la altura siempre se mide perpendicular a la base.`,
+  '1vbb9fjurso': R`Figura`,
+  '1bkcetbdzwi': R`Perímetro`,
+  '9g9qb013dx': R`Área`,
+  '1klcvelpbpq': R`Rectángulo`,
+  '1bkqo8aj6lu': R`Cuadrado (lado $s$)`,
+  'aioobs5p8o': R`Triángulo`,
+  'jpaxz6sbbc': R`suma de los tres lados`,
+  '2ch6blse094': R`Paralelogramo`,
+  '19b7alat8ps': R`suma de los lados`,
+  'tfgy8ywg4m': R`Trapecio`,
+  '2glmrmlwat4': R`<p>Un triángulo es la mitad de un rectángulo (o paralelogramo) con la misma base y la misma altura: de ahí viene el $\frac{1}{2}$.</p>`,
+  'ro993i6hdb': R`<p>Un rectángulo mide 12 m por 5 m. Perímetro $= 2(12 + 5) = 34$ m. Área $= 12 \times 5 = 60$ m².</p>`,
+  '23w7bd7ygef': R`<p>El perímetro usa unidades de longitud (m); el área, unidades cuadradas (m²). Además, la altura de un triángulo es perpendicular a la base, no el lado inclinado.</p>`,
+  '3o5vcpwyc2': R`Un rectángulo mide ⟦0⟧ cm de largo y ⟦1⟧ cm de ancho. ¿Cuál es su perímetro?`,
+  '1mlwgvw7rha': R`$P = 2(l + w) = 2(⟦0⟧ + ⟦1⟧) = ⟦2⟧$ cm.`,
+  '29o3zagcnfc': R`Un jardín rectangular mide ⟦0⟧ m de largo y ⟦1⟧ m de ancho. ¿Cuál es su área?`,
+  '1icmdazlj61': R`Un cuadrado tiene un área de ⟦0⟧ cm². ¿Cuál es su perímetro?`,
+  '102zowaciba': R`Lado $= \sqrt{⟦0⟧} = ⟦1⟧$ cm, así que el perímetro es $4 \times ⟦2⟧ = ⟦3⟧$ cm.`,
+  'b1fe5m9ffr': R`Un cuadrado tiene un perímetro de ⟦0⟧ cm. ¿Cuál es su área?`,
+  '13amxb9l6l6': R`Lado $= ⟦0⟧ \div 4 = ⟦1⟧$ cm, así que el área es $⟦2⟧ \times ⟦3⟧ = ⟦4⟧$ cm².`,
+  'ahhkpun21u': R`Un triángulo tiene una base de ⟦0⟧ cm y una altura de ⟦1⟧ cm. ¿Cuál es su área?`,
+  'vcwpcnyvdg': R`$A = \frac{1}{2} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm².`,
+  'lassz20hi3': R`Un paralelogramo tiene una base de ⟦0⟧ m y una altura de ⟦1⟧ m. ¿Cuál es su área?`,
+  '15yoihpm5qi': R`Un trapecio tiene lados paralelos de ⟦0⟧ cm y ⟦1⟧ cm y una altura de ⟦2⟧ cm. ¿Cuál es su área?`,
+  '7f4u2yt2ji': R`$A = \frac{1}{2}(a + b)h = \frac{1}{2}(⟦0⟧ + ⟦1⟧) \times ⟦2⟧ = ⟦3⟧$ cm².`,
+  '20cf1i7tqd7': R`Un rectángulo tiene un perímetro de ⟦0⟧ m y un largo de ⟦1⟧ m. ¿Cuánto mide de ancho?`,
+  '146lgv8gvtr': R`$2(l + w) = ⟦0⟧$, así que $l + w = ⟦1⟧$ y $w = ⟦2⟧ - ⟦3⟧ = ⟦4⟧$ m.`,
+  '1cisitk2yw7': R`Un suelo en forma de L se obtiene recortando un rectángulo de ⟦0⟧ m × ⟦1⟧ m de una esquina de un rectángulo de ⟦2⟧ m × ⟦3⟧ m. ¿Cuál es el área del suelo?`,
+  '4fca853um1': R`Rectángulo grande menos el recorte: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
+
+  // volume-basic
+  '27t1x8ik6r5': R`
+<p>El <b>volumen</b> es el espacio que ocupa un cuerpo y se cuenta en <b>unidades cúbicas</b> (cm³, m³). Un cubo de 1 cm de arista tiene un volumen de 1 cm³.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Área total</h3>
+<p>El área total es la suma de las áreas de todas las caras. Un ortoedro tiene tres pares de rectángulos iguales:</p>
+⟦3⟧
+⟦4⟧`,
+  'eqp3lgj8pe': R`\text{Ortoedro: } V = l \times w \times h \qquad\qquad \text{Cubo: } V = s^3`,
+  '1v18xwhq9wo': R`<p>La capacidad está ligada al volumen: $1 \text{ cm}^3 = 1 \text{ mL}$ y $1000 \text{ cm}^3 = 1 \text{ L}$. Además, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
+  '1y5vqy9gj8b': R`<p>Una pecera mide 50 cm de largo, 30 cm de ancho y 40 cm de alto.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
+  'n4vhcjq4z5': R`A = 2(lw + lh + wh) \qquad\qquad \text{Cubo: } A = 6s^2`,
+  '1rmk9dk27r1': R`<p>El volumen usa unidades cúbicas (cm³); el área total, unidades cuadradas (cm²). Si conoces el volumen y dos aristas, divide para hallar la tercera: $h = \frac{V}{l \times w}$.</p>`,
+  '28sikx14trk': R`Un cubo tiene aristas de ⟦0⟧ cm. ¿Cuál es su volumen?`,
+  'n0rlue63yl': R`$V = s^3 = ⟦0⟧^3 = ⟦1⟧$ cm³.`,
+  '279nv9sb40d': R`Una caja mide ⟦0⟧ cm de largo, ⟦1⟧ cm de ancho y ⟦2⟧ cm de alto. ¿Cuál es su volumen?`,
+  '18f8h5wvjps': R`$V = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³.`,
+  '2g4aunze98e': R`Un ortoedro tiene un volumen de ⟦0⟧ cm³. Mide ⟦1⟧ cm de largo y ⟦2⟧ cm de ancho. ¿Cuánto mide de alto?`,
+  '12q7gqhxt7v': R`$h = \frac{V}{l \times w} = \frac{⟦0⟧}{⟦1⟧ \times ⟦2⟧} = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$ cm.`,
+  '107zxyhfk8j': R`Un depósito mide ⟦0⟧ cm de largo, ⟦1⟧ cm de ancho y ⟦2⟧ cm de alto. ¿Cuántos litros de agua caben?`,
+  '1xdyfr0a4jd': R`$V = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³, y $1000 \text{ cm}^3 = 1 \text{ L}$, así que caben $⟦4⟧ \div 1000 = ⟦5⟧$ L.`,
+  'j16awwfbde': R`Halla el área total de un ortoedro de ⟦0⟧ cm × ⟦1⟧ cm × ⟦2⟧ cm.`,
+  '15zob952c7': R`$A = 2(lw + lh + wh) = 2(⟦0⟧ + ⟦1⟧ + ⟦2⟧) = ⟦3⟧$ cm².`,
+  'b7w1jgcvao': R`Un cubo tiene un volumen de ⟦0⟧ cm³. ¿Cuánto mide cada arista?`,
+  '29p9f2w08h': R`Buscamos $s^3 = ⟦0⟧$. Como $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, cada arista mide ⟦5⟧ cm.`,
+
+  // angles-shapes
+  '1zhvjckeb0g': R`
+<p>Los ángulos miden giros, en <b>grados</b> (°). Una vuelta completa mide $360^\circ$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Triángulos</h3>
+<p><b>Equilátero</b>: tres lados iguales y todos sus ángulos de $60^\circ$. <b>Isósceles</b>: dos lados iguales y dos ángulos de la base iguales. <b>Escaleno</b>: ningún lado igual. Un triángulo <b>rectángulo</b> tiene un ángulo de $90^\circ$.</p>
+<h3>Polígonos</h3>
+<p>Un polígono de $n$ lados se puede dividir en $n - 2$ triángulos desde un vértice, así que</p>
+⟦2⟧
+<p>En un polígono <b>regular</b> todos los ángulos son iguales, así que cada uno mide $\frac{(n-2) \times 180^\circ}{n}$. Un hexágono regular tiene ángulos de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
+⟦3⟧`,
+  'k7wfdtk1dy': R`Tipo`,
+  '1czpi6e2j2z': R`Medida`,
+  '2eamokno2qd': R`Agudo`,
+  '14yb8vum3mx': R`menos de $90^\circ$`,
+  '10qgoh7fpcr': R`Recto`,
+  '96isxim10t': R`exactamente $90^\circ$`,
+  '29pmtotpc3r': R`Obtuso`,
+  '18bc6xajfgk': R`entre $90^\circ$ y $180^\circ$`,
+  'zb7exyin0e': R`Llano`,
+  '1stepofrhwb': R`exactamente $180^\circ$`,
+  '7pnkzl3606': R`Cóncavo`,
+  '24bbunbptvm': R`entre $180^\circ$ y $360^\circ$`,
+  '2douwrf277u': R`<ul><li>Los ángulos sobre una recta suman $180^\circ$.</li><li>Los ángulos alrededor de un punto suman $360^\circ$.</li><li>Los ángulos opuestos por el vértice son iguales.</li><li>Los ángulos de un triángulo suman $180^\circ$; los de un cuadrilátero, $360^\circ$.</li></ul>`,
+  '1g2z1i7tlna': R`\text{suma de los ángulos interiores} = (n - 2) \times 180^\circ`,
+  '9r6qtn8gpk': R`<p>Un triángulo tiene ángulos de $48^\circ$ y $75^\circ$. El tercero mide $180^\circ - 48^\circ - 75^\circ = 57^\circ$.</p>`,
+  'fbd3n0ai0s': R`Dos ángulos de un triángulo miden $⟦0⟧^\circ$ y $⟦1⟧^\circ$. ¿Cuánto mide el tercero?`,
+  '1mgnf9acc40': R`Los ángulos de un triángulo suman $180^\circ$: $180^\circ - ⟦0⟧^\circ - ⟦1⟧^\circ = ⟦2⟧^\circ$.`,
+  '17ra9ybal44': R`Dos ángulos están juntos sobre una recta. Uno mide $⟦0⟧^\circ$. ¿Cuánto mide el otro?`,
+  '1uo9pac72dr': R`Los ángulos sobre una recta suman $180^\circ$: $180^\circ - ⟦0⟧^\circ = ⟦1⟧^\circ$.`,
+  'lbqlw4yngj': R`Cuatro ángulos coinciden en un punto. Tres de ellos miden $⟦0⟧^\circ$, $⟦1⟧^\circ$ y $⟦2⟧^\circ$. ¿Cuánto mide el cuarto?`,
+  '1q0g9lewnyf': R`Los ángulos alrededor de un punto suman $360^\circ$: $360^\circ - ⟦0⟧^\circ - ⟦1⟧^\circ - ⟦2⟧^\circ = ⟦3⟧^\circ$.`,
+  '1o7rxocgbe4': R`¿Qué tipo de ángulo mide $⟦0⟧^\circ$?`,
+  '2087xqcuhit': R`Agudo $\lt 90^\circ$; recto $= 90^\circ$; obtuso entre $90^\circ$ y $180^\circ$; llano $= 180^\circ$; cóncavo entre $180^\circ$ y $360^\circ$. Así que un ángulo de $⟦0⟧^\circ$ es <b>⟦1⟧</b>.`,
+  '1em7emit9v': R`Un cuadrilátero tiene ángulos de $⟦0⟧^\circ$, $⟦1⟧^\circ$ y $⟦2⟧^\circ$. ¿Cuánto mide el cuarto ángulo?`,
+  '24pznbwnbef': R`Los ángulos de un cuadrilátero suman $360^\circ$: $360^\circ - ⟦0⟧^\circ - ⟦1⟧^\circ - ⟦2⟧^\circ = ⟦3⟧^\circ$.`,
+  '2egzcjm3tpx': R`pentágono`,
+  'v80sqcfxpp': R`hexágono`,
+  '81gchefl78': R`octógono`,
+  'ua45cwp3of': R`eneágono`,
+  'luci9k7vz2': R`decágono`,
+  '1udhvg5ma2x': R`dodecágono`,
+  '27xxu0kf8rx': R`¿Cuánto suman los ángulos interiores de un polígono de ⟦0⟧ lados (⟦1⟧)?`,
+  'gm8iaj6tll': R`Se divide en $⟦0⟧ - 2 = ⟦1⟧$ triángulos: $⟦2⟧ \times 180^\circ = ⟦3⟧^\circ$.`,
+  'qinptcb6uu': R`¿Cuánto mide cada ángulo interior de un polígono regular de ⟦0⟧ lados (⟦1⟧)?`,
+  '1do1n0lapzc': R`Suma $= (⟦0⟧ - 2) \times 180^\circ = ⟦1⟧^\circ$, repartida entre ⟦2⟧ ángulos iguales: $⟦3⟧^\circ \div ⟦4⟧ = ⟦5⟧^\circ$.`,
+  '2b3ubiiwfr4': R`En un triángulo isósceles, el ángulo entre los dos lados iguales mide $⟦0⟧^\circ$. ¿Cuánto mide cada uno de los otros dos ángulos?`,
+  '1m260esohws': R`Los dos ángulos de la base son iguales: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
+
+  // data-basic
+  '1rkikmzq9kv': R`
+<p>Los datos son información que recogemos, como notas de exámenes o frutas favoritas. Una <b>tabla de frecuencias</b> registra cuántas veces aparece cada valor; los <b>diagramas de barras</b> y los <b>pictogramas</b> muestran la misma información de forma visual.</p>
+<h3>Cuatro medidas resumen</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '2fsgim21nih': R`Medida`,
+  '1fy4t37t415': R`Cómo se calcula`,
+  '18v4e4ulshl': R`Para 3; 7; 7; 8; 10`,
+  'ppforkar60': R`Media`,
+  'w9uhnv1ylu': R`suma todos los valores y divide entre cuántos hay`,
+  '15fhdhxeit5': R`Mediana`,
+  '1bp3iszr2ho': R`valor central tras ordenar`,
+  '2d8lw4ky362': R`Moda`,
+  'n6vk2dz4y0': R`valor más frecuente`,
+  '8wgrdlq9w9': R`Rango`,
+  'u26xwlcm82': R`mayor − menor`,
+  '1ddos0ddk6b': R`<p>Si hay un número <b>par</b> de valores, la mediana es la media de los dos valores centrales: la mediana de 2; 4; 9; 11 es $\frac{4 + 9}{2} = 6{,}5$.</p>`,
+  '1b84zb92lm7': R`<p>Notas: 12; 5; 9; 12; 7.</p><ul><li>Media $= \frac{12 + 5 + 9 + 12 + 7}{5} = \frac{45}{5} = 9$</li><li>Ordenadas: 5; 7; 9; 12; 12 → mediana 9</li><li>Moda 12 · Rango $12 - 5 = 7$</li></ul>`,
+  '1dcnrak0yuf': R`<p><b>Ordena</b> siempre los datos antes de buscar la mediana. El centro de la lista sin ordenar suele ser incorrecto.</p>`,
+  'x21ub369ei': R`Halla la media de: ⟦0⟧.`,
+  '1p52jtmc0cq': R`Suma los valores y divide entre cuántos hay: $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.`,
+  'jf7mas4uc8': R`Halla la mediana de: ⟦0⟧.`,
+  '1yw7i4urov1': R`Primero ordena: ⟦0⟧. El valor central, el número ⟦1⟧ de la lista ordenada, es <b>⟦2⟧</b>.`,
+  '2g8sczm66bg': R`Halla la moda de: ⟦0⟧.`,
+  'tbuacyae4n': R`⟦0⟧ aparece 3 veces, más que cualquier otro valor, así que la moda es <b>⟦1⟧</b>.`,
+  '1xtq8j2lty3': R`Halla el rango de: ⟦0⟧.`,
+  '15se826ipls': R`Rango = mayor − menor $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '2epb7vd8j91': R`Manzanas`,
+  '17dpyen9bnr': R`Plátanos`,
+  '7i14wwudqx': R`Mangos`,
+  '2401q57c6t': R`Uvas`,
+  '1e2lbgl4i2m': R`Naranjas`,
+  '1n92q5m8dcn': R`Duriones`,
+  '29y8laytfov': R`Papayas`,
+  '1y1q3z5e86a': R`Fruta`,
+  '282dadyo0i9': R`Estudiantes`,
+  'gcofhmi74h': R`Una clase votó su fruta favorita.⟦0⟧¿Cuántos estudiantes votaron en total?`,
+  '1x3hnjtfgqx': R`Suma las frecuencias: $⟦0⟧ = ⟦1⟧$.`,
+  '13d46zcnc3z': R`Una clase votó su fruta favorita.⟦0⟧¿Cuántos estudiantes más eligieron «⟦1⟧» que «⟦2⟧»?`,
+  '1t8yn7xcnqm': R`$⟦0⟧ - ⟦1⟧ = ⟦2⟧$ estudiantes más.`,
+});

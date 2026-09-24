@@ -1,0 +1,191 @@
+/* Português (Brasil) — Ensino Médio (polinômios → integrais) */
+addT('pt', {
+  // polynomials
+  '1dv82xempy': R`
+<p>Um <b>polinômio</b> é uma soma de termos $a_n x^n + \cdots + a_1 x + a_0$ com expoentes naturais. Seu <b>grau</b> é o maior expoente; $a_n$ é o <b>coeficiente dominante</b>. Ao multiplicar polinômios, os graus se somam e os coeficientes dominantes se multiplicam.</p>
+<h3>Divisão</h3>
+<p>Dividir $P(x)$ por $(x - a)$ dá um quociente $Q(x)$ e um resto $R$: $P(x) = (x - a)Q(x) + R$. O <b>dispositivo de Briot-Ruffini</b> faz isso rapidamente usando só os coeficientes.</p>
+⟦0⟧
+⟦1⟧
+<h3>Raízes de um polinômio do 3º grau</h3>
+<p>Para $ax^3 + bx^2 + cx + d = 0$ com raízes $r_1, r_2, r_3$:</p>
+⟦2⟧
+⟦3⟧`,
+  '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ pelo dispositivo de Briot-Ruffini:</p>⟦0⟧<p>Quociente $x^2 - 2x - 3$, resto 0.</p>`,
+  'agfsjitvd': R`<p><b>Teorema do resto:</b> o resto da divisão de $P(x)$ por $(x - a)$ é $P(a)$.</p><p><b>Teorema de D'Alembert:</b> $(x - a)$ é fator de $P(x)$ exatamente quando $P(a) = 0$.</p>`,
+  'sqyu8zjvtn': R`<p>Dividir por $(x + 3)$ significa $a = -3$: calcule $P(-3)$, não $P(3)$.</p>`,
+  'u4dg9by4un': R`Encontre o resto da divisão de $P(x) = ⟦0⟧$ por $(x ⟦1⟧)$.`,
+  '212dl6gy5gu': R`Pelo teorema do resto, o resto é $P(⟦0⟧) = ⟦1⟧(⟦2⟧)^3 ⟦3⟧(⟦4⟧)^2 ⟦5⟧(⟦6⟧) ⟦7⟧ = ⟦8⟧$.`,
+  '20swcfjanfa': R`$(x ⟦0⟧)$ é fator de $P(x) = ⟦1⟧$. Encontre $k$.`,
+  '2cscisbqmyg': R`Pelo teorema de D'Alembert, $P(⟦0⟧) = 0$: $⟦1⟧ ⟦2⟧ ⟦3⟧k ⟦4⟧ = 0$, então $⟦5⟧k = ⟦6⟧$ e $k = ⟦7⟧$.`,
+  '28czzdou58n': R`Para $ax^3 + bx^2 + cx + d = 0$, ⟦0⟧.`,
+  '1uakfcji416': R`a soma das raízes é $-\frac{b}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1cl4qeneyhq': R`o produto das raízes é $-\frac{d}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1h1il3vuozs': R`Divida $⟦0⟧$ por $(x ⟦1⟧)$. Qual é o quociente?`,
+  '1432prhuyml': R`Briot-Ruffini com ⟦0⟧ nos coeficientes ⟦1⟧ dá ⟦2⟧ e resto 0, então o quociente é $⟦3⟧$.`,
+  '1v0pp8s5fwz': R`Considere $⟦0⟧$. Qual é o grau do produto?`,
+  '79jcaurtjl': R`Considere $⟦0⟧$. Qual é o coeficiente dominante do produto?`,
+  'lgw9ke18qe': R`Considere $⟦0⟧$. Qual é o termo independente do produto?`,
+  '18bitz7l1ry': R`Ao multiplicar, os graus se somam: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '1x77krhanqb': R`Multiplique os termos dominantes: $⟦0⟧ \cdot ⟦1⟧ = ⟦2⟧$, então o coeficiente dominante é ⟦3⟧.`,
+  '1uusi8yg5sk': R`O termo independente é o produto dos termos independentes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+
+  // matrices
+  '104wb071wss': R`
+<p>Uma <b>matriz</b> é uma tabela retangular de números. Uma matriz $m \times n$ tem $m$ linhas e $n$ colunas; $a_{ij}$ é o elemento da linha $i$, coluna $j$.</p>
+<h3>Operações</h3>
+<ul><li><b>Somar/subtrair</b> elemento a elemento (só com o mesmo tamanho).</li><li><b>Multiplicação por escalar</b>: multiplique cada elemento.</li><li><b>Produto</b> $AB$: o elemento $(i, j)$ é a linha $i$ de $A$ "vezes" a coluna $j$ de $B$. Exige (colunas de $A$) = (linhas de $B$), e uma $m \times n$ vezes uma $n \times p$ dá uma $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinante e inversa (2 × 2)</h3>
+⟦2⟧
+<p>Se $\det A = 0$, a matriz é <b>singular</b> e não tem inversa. Inversas resolvem sistemas: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧`,
+  '4bk6hc9is8': R`<p>A multiplicação de matrizes <b>não é comutativa</b>: em geral $AB \ne BA$.</p>`,
+  '4ckwr8umw4': R`<p>Para a inversa: <b>troque</b> $a$ e $d$, <b>troque o sinal</b> de $b$ e $c$ e divida pelo determinante.</p>`,
+  '1h6gnxjh2g6': R`Calcule o determinante de $⟦0⟧$.`,
+  '1gfhimaac6g': R`Calcule $AB$, onde $A = ⟦0⟧$ e $B = ⟦1⟧$.`,
+  '1dy8pvpnep7': R`Digite os quatro elementos linha por linha, por exemplo 19; 22; 43; 50.`,
+  'xfxhg5b3o2': R`Linha vezes coluna: $AB = \begin{pmatrix} ⟦0⟧\cdot⟦1⟧ + ⟦2⟧\cdot⟦3⟧ & \cdots \\ \cdots & \cdots \end{pmatrix} = ⟦4⟧$.`,
+  '27lrdslcvs8': R`Encontre a inversa de $⟦0⟧$.`,
+  'ea7d95erhp': R`Digite os quatro elementos linha por linha, separados por ponto e vírgula.`,
+  '2euzxos9ar7': R`$\det = (⟦0⟧)(⟦1⟧) - (⟦2⟧)(⟦3⟧) = ⟦4⟧$. Troque $a$ e $d$, troque o sinal de $b$ e $c$, divida por ⟦5⟧: $⟦6⟧$.`,
+  '2fs8fio5g5w': R`Para que valor de $x$ a matriz $⟦0⟧$ é singular?`,
+  'et7lf19q4x': R`Singular significa $\det = 0$: $⟦0⟧x - (⟦1⟧)(⟦2⟧) = 0$, então $x = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '2280y15nq4f': R`$A = ⟦0⟧$ e $B = ⟦1⟧$. Encontre o elemento da linha ⟦2⟧, coluna ⟦3⟧ de $⟦4⟧A - ⟦5⟧B$.`,
+  'h3p6r4d6o': R`$A = ⟦0⟧$ e $B = ⟦1⟧$. Encontre o elemento da linha ⟦2⟧, coluna ⟦3⟧ de $AB$.`,
+  'xdj657lej': R`Linha ⟦0⟧ de $A$ vezes coluna ⟦1⟧ de $B$: $⟦2⟧ = ⟦3⟧$. (Uma matriz $2 \times 3$ vezes uma $3 \times 2$ dá uma $2 \times 2$.)`,
+
+  // vectors
+  '1gljxtukffx': R`
+<p>Um <b>vetor</b> tem módulo, direção e sentido. Em coordenadas, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. O vetor de $P$ até $Q$ é $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  'i7t2goihqv': R`Módulo`,
+  '1czax49eh4c': R`Adição`,
+  'q2ntocofkn': R`some as coordenadas`,
+  'oswzhgqxwz': R`Multiplicação por escalar`,
+  '1bnyaikchfp': R`$k\mathbf{a}$: multiplique cada coordenada por $k$`,
+  '28hldv2q33s': R`Vetor unitário`,
+  '214ftyeo0vg': R`Produto escalar`,
+  '1xghg9dwzeq': R`$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Dois vetores não nulos são <b>perpendiculares</b> exatamente quando $\mathbf{a}\cdot\mathbf{b} = 0$.</p>`,
+  '1w9baxb120w': R`<p>$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, $\mathbf{b} = \begin{pmatrix} 5 \\ 12 \end{pmatrix}$: $\mathbf{a}\cdot\mathbf{b} = 15 + 48 = 63$, $|\mathbf{a}| = 5$, $|\mathbf{b}| = 13$, então $\cos\theta = \frac{63}{65}$ e $\theta \approx 14{,}3^\circ$.</p>`,
+  '6pzkmdncqf': R`<p>O produto escalar de dois vetores é um <b>número</b>, não um vetor.</p>`,
+  '4u2plhe47g': R`Calcule o módulo de $⟦0⟧$.`,
+  '252q8tpxn2p': R`Calcule $\mathbf{a}\cdot\mathbf{b}$ para $\mathbf{a} = ⟦0⟧$ e $\mathbf{b} = ⟦1⟧$.`,
+  '17ht25mwywu': R`Dados $\mathbf{a} = ⟦0⟧$ e $\mathbf{b} = ⟦1⟧$, calcule $⟦2⟧\mathbf{a} ⟦3⟧ ⟦4⟧\mathbf{b}$.`,
+  '2gdqizkyobq': R`Digite as coordenadas em ordem, separadas por ponto e vírgula.`,
+  '1mpyqj0mwgx': R`Coordenada a coordenada: $⟦0⟧ = ⟦1⟧$.`,
+  '14p7yoy4f3a': R`Encontre $k$ para que $⟦0⟧$ e $⟦1⟧$ sejam perpendiculares.`,
+  '127php4kbc3': R`Perpendiculares significa produto escalar 0: $⟦0⟧k + (⟦1⟧)(⟦2⟧) = 0$, então $k = ⟦3⟧$.`,
+  '1kydmvss2ex': R`Calcule $\cos\theta$, onde $\theta$ é o ângulo entre $⟦0⟧$ e $⟦1⟧$.`,
+  '1b0azawmrlf': R`Encontre o vetor unitário na direção e sentido de $⟦0⟧$.`,
+  '280s3ajjt4e': R`Digite as coordenadas separadas por ponto e vírgula, por exemplo 3/5; -4/5.`,
+  '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Divida cada coordenada por ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
+
+  // limits
+  '239kmg9x5mj': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ significa que $f(x)$ fica tão perto quanto quisermos de $L$ quando $x$ se aproxima de $a$ — não importa o que acontece exatamente em $x = a$.</p>
+<h3>Técnicas</h3>
+<ol><li><b>Substituição direta</b> funciona para polinômios e outras funções contínuas: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Fatorar e simplificar</b> diante de $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Racionalizar</b> expressões com raízes: multiplique pelo conjugado.</li></ol>
+⟦0⟧
+<h3>Limites no infinito</h3>
+⟦1⟧
+<h3>Um limite trigonométrico especial</h3>
+⟦2⟧
+<h3>Continuidade</h3>
+<p>$f$ é contínua em $a$ se $\lim_{x \to a} f(x) = f(a)$: sem buracos, saltos ou assíntotas ali. Numa função definida por partes, faça as duas partes se encontrarem no ponto de junção.</p>
+⟦3⟧`,
+  '25jnb5snm7z': R`<p>Numa função racional, divida numerador e denominador pela maior potência de $x$ do denominador:</p><ul><li>mesmo grau → razão dos coeficientes dominantes;</li><li>numerador de grau menor → 0;</li><li>numerador de grau maior → sem limite finito ($\pm\infty$).</li></ul>`,
+  'extw7corym': R`<p>$\frac{0}{0}$ não é "0" nem "indefinido" — indica que é preciso mais trabalho (fatorar, racionalizar).</p>`,
+  '18znpgymeuk': R`Calcule $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
+  '1tq4b7d4h53': R`A função é um polinômio, então substitua: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧$.`,
+  '1n96bgorw1d': R`Calcule $\displaystyle\lim_{x \to ⟦0⟧} \frac{⟦1⟧}{x ⟦2⟧}$.`,
+  '295o4zt7f3w': R`A substituição dá $\frac{0}{0}$. Fatore: $\frac{(x ⟦0⟧)(x ⟦1⟧)}{x ⟦2⟧} = x ⟦3⟧$, então o limite é $⟦4⟧ ⟦5⟧ = ⟦6⟧$.`,
+  '1rjdd048rzk': R`Calcule $\displaystyle\lim_{x \to \infty} \frac{⟦0⟧}{⟦1⟧}$.`,
+  '229ply6f2l2': R`O numerador tem grau menor que o denominador; dividindo por $x^2$, todo termo do numerador tende a 0, então o limite é $0$.`,
+  '1m8u7pc3qh1': R`Mesmo grau, então o limite é a razão dos coeficientes dominantes: $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.`,
+  '1ynpy6v2s15': R`Calcule $\displaystyle\lim_{x \to 0} \frac{⟦0⟧}{⟦1⟧}$.`,
+  'if95qf815v': R`Use $\frac{\sin u}{u} \to 1$ (e $\frac{\tan u}{u} \to 1$): a expressão se comporta como $\frac{⟦0⟧x}{⟦1⟧x} = ⟦2⟧$.`,
+  'blyu2go12i': R`Calcule $\displaystyle\lim_{x \to 0} \frac{\sqrt{x + ⟦0⟧} - ⟦1⟧}{x}$.`,
+  'fj8u70cngg': R`Multiplique pelo conjugado: $\frac{(x + ⟦0⟧) - ⟦1⟧}{x(\sqrt{x + ⟦2⟧} + ⟦3⟧)} = \frac{1}{\sqrt{x + ⟦4⟧} + ⟦5⟧} \to \frac{1}{⟦6⟧}$.`,
+  '1kmmd6tilgi': R`Encontre $k$ para que $f(x) = \begin{cases} x^2 + k, & x \lt ⟦0⟧ \\ ⟦1⟧, & x \ge ⟦2⟧ \end{cases}$ seja contínua em $x = ⟦3⟧$.`,
+  '1l84k7ifkz6': R`As partes devem se encontrar em $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, então $⟦5⟧ + k = ⟦6⟧$ e $k = ⟦7⟧$.`,
+
+  // derivatives
+  '1pv2wkwyvwg': R`
+<p>A <b>derivada</b> $f'(x)$ é a taxa de variação instantânea de $f$ — a inclinação da reta tangente em $x$. Ela é definida por um limite:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Retas tangentes</h3>
+<p>Em $x = a$, a tangente tem inclinação $m = f'(a)$ e passa por $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Pontos críticos</h3>
+<p>Onde $f'(x) = 0$ o gráfico fica momentaneamente horizontal. Use a segunda derivada: $f''(a) \gt 0$ → mínimo local; $f''(a) \lt 0$ → máximo local. $f$ é crescente onde $f' \gt 0$ e decrescente onde $f' \lt 0$.</p>
+<h3>Otimização</h3>
+⟦3⟧
+⟦4⟧`,
+  '1kddytp99dm': R`Regras`,
+  '21wooetnwi8': R`<p>100 m de cerca fecham um retângulo junto a um rio (sem cerca do lado do rio). Com lados $x, y, x$: $2x + y = 100$, área $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ dá $x = 25$, então $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
+  '14x6kebc9en': R`<p>A derivada de uma constante é 0 — não leve o termo constante para $f'(x)$.</p>`,
+  'sk165jmy0e': R`Encontre $f'(x)$ para $f(x) = ⟦0⟧$.`,
+  '1z8enx6jmxw': R`Aplique a regra da potência a cada termo: $f'(x) = ⟦0⟧$ (a constante desaparece).`,
+  'rdfbrjf6fd': R`Dada $f(x) = ⟦0⟧$, encontre $f'(⟦1⟧)$.`,
+  '12fn6a7y0fo': R`$f'(x) = ⟦0⟧$, então $f'(⟦1⟧) = ⟦2⟧$.`,
+  '13xytl77ctg': R`Encontre a equação da reta tangente a $y = ⟦0⟧$ em $x = ⟦1⟧$.`,
+  'zxpf5t25tk': R`Inclinação: $y' = 2x ⟦0⟧$, então $m = ⟦1⟧$ em $x = ⟦2⟧$. Ponto: $(⟦3⟧; ⟦4⟧)$. Então $y - ⟦5⟧ = ⟦6⟧(x - ⟦7⟧)$, ou seja, $y = ⟦8⟧$.`,
+  '6or380e65b': R`$x = ⟦0⟧ \text{ e } x = ⟦1⟧$`,
+  '1ib3oh8we5r': R`Encontre as abscissas dos pontos críticos de $f(x) = ⟦0⟧$.`,
+  '8cxs5u8eb2': R`$f'(x) = ⟦0⟧ = 3(x ⟦1⟧)(x ⟦2⟧) = 0$, então $x = ⟦3⟧$ ou $x = ⟦4⟧$.`,
+  '2diynqfs1vm': R`Para que valor de $x$ a função $f(x) = ⟦0⟧$ tem um mínimo local?`,
+  'qiab8fav1k': R`$f'(x) = 3(x ⟦0⟧)(x ⟦1⟧)$ se anula em $x = ⟦2⟧$ e $x = ⟦3⟧$. $f''(x) = 6x ⟦4⟧$ é positiva em $x = ⟦5⟧$, então esse é o mínimo local.`,
+  '2bfp82dmoiw': R`Um fazendeiro tem ⟦0⟧ m de cerca para cercar um terreno retangular junto a um rio reto. Não é preciso cerca ao longo do rio. Qual é a maior área possível?`,
+  '1sgjbqwzp29': R`Lados $x, y, x$ com $2x + y = ⟦0⟧$. $A = x(⟦1⟧ - 2x)$, $A' = ⟦2⟧ - 4x = 0$ dá $x = ⟦3⟧$, $y = ⟦4⟧$ e $A = ⟦5⟧$ m².`,
+  '1dz6162q97e': R`Um retângulo tem perímetro de ⟦0⟧ cm. Qual é a maior área que ele pode ter?`,
+  '12er060agfx': R`Com largura $x$, o comprimento é $⟦0⟧ - x$ e $A = x(⟦1⟧ - x)$. $A' = ⟦2⟧ - 2x = 0$ dá $x = ⟦3⟧$ — um quadrado — com área $⟦4⟧$ cm².`,
+  'jksdr4ukrw': R`Derive $y = ⟦0⟧$.`,
+  '1gytk3lwm2l': R`$\frac{d}{dx}\sin x = \cos x$ e $\frac{d}{dx}\cos x = -\sin x$, então $y' = ⟦0⟧$.`,
+  't51ufxvzbf': R`Uma partícula se move com posição $s(t) = ⟦0⟧$ metros. Encontre sua aceleração em $t = ⟦1⟧$ s.`,
+  'bakv4or3q9': R`$v(t) = s'(t) = ⟦0⟧$ e $a(t) = v'(t) = ⟦1⟧$. Em $t = ⟦2⟧$: $a = ⟦3⟧$ m/s².`,
+  'twj64cwqj6': R`Uma partícula se move com posição $s(t) = ⟦0⟧$ metros. Encontre sua velocidade em $t = ⟦1⟧$ s.`,
+  '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, então $v(⟦1⟧) = ⟦2⟧$ m/s.`,
+
+  // integrals
+  '1wdt9h7s66j': R`
+<p>A integração desfaz a derivação. Uma <b>primitiva</b> de $f$ é qualquer $F$ com $F' = f$; a <b>integral indefinida</b> inclui a constante de integração:</p>
+⟦0⟧
+⟦1⟧
+<h3>Integrais definidas</h3>
+⟦2⟧
+<p>Para $f \ge 0$, isso é a área sob a curva entre $x = a$ e $x = b$. Área abaixo do eixo $x$ conta como negativa; então divida a integral nas raízes quando quiser a área total.</p>
+⟦3⟧
+<h3>Encontrando uma função a partir da derivada</h3>
+<p>Se $f'(x) = 6x + 2$ e $f(1) = 10$, então $f(x) = 3x^2 + 2x + C$ e $3 + 2 + C = 10$ dá $C = 5$.</p>
+⟦4⟧`,
+  '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Confira derivando.</p>`,
+  '1jsx5j8bwuv': R`Teorema Fundamental do Cálculo`,
+  'k8jg70602j': R`<p>Área entre $y = x^2$ e $y = 2x$: elas se encontram em $x = 0$ e $x = 2$, e $2x \ge x^2$ entre elas, então $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
+  '2645ntoenmj': R`<p>Não esqueça o $+ C$ nas integrais indefinidas — e não o coloque nas definidas (ele se cancela).</p>`,
+  '1a4h4aolv1n': R`Calcule $\displaystyle\int (⟦0⟧)\,dx$.`,
+  '14w03nftsp9': R`Aumente cada expoente em um e divida pelo novo expoente: $⟦0⟧ + C$.`,
+  'lhk659hv1w': R`Calcule $\displaystyle\int_{⟦0⟧}^{⟦1⟧} (⟦2⟧)\,dx$.`,
+  'wzkchwuid3': R`Uma primitiva é $F(x) = ⟦0⟧$. $F(⟦1⟧) - F(⟦2⟧) = ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '2g5117b4rfq': R`Encontre a área limitada por $y = ⟦0⟧$ e o eixo $x$.`,
+  '1qd8emk0tlu': R`A curva corta o eixo em $x = \pm ⟦0⟧$. Área $= \int_{-⟦1⟧}^{⟦2⟧} (⟦3⟧ - x^2)\,dx = \left[⟦4⟧x - \frac{x^3}{3}\right]_{-⟦5⟧}^{⟦6⟧} = ⟦7⟧$.`,
+  '1wjuv7zitnn': R`Encontre a área da região entre $y = x^2$ e $y = ⟦0⟧x$.`,
+  'ospw7lwugt': R`Elas se encontram em $x = 0$ e $x = ⟦0⟧$. Área $= \int_0^{⟦1⟧} (⟦2⟧x - x^2)\,dx = \frac{⟦3⟧^3}{2} - \frac{⟦4⟧^3}{3} = ⟦5⟧$.`,
+  '2c9m4g6dimy': R`$f'(x) = ⟦0⟧$ e $f(0) = ⟦1⟧$. Encontre $f(⟦2⟧)$.`,
+  '29kyl7mnwt5': R`$f(x) = ⟦0⟧ + C$, e $f(0) = C = ⟦1⟧$. Então $f(⟦2⟧) = ⟦3⟧$.`,
+  '1p83y3ccpb': R`$\int \cos x\,dx = \sin x$ e $\int -\sin x\,dx = \cos x$, então o resultado é $⟦0⟧ + C$.`,
+  '22xlapf2gb7': R`Calcule $\displaystyle\int_0^{\pi/2} ⟦0⟧\cos x\,dx$.`,
+  '1ppkvfv3p1b': R`Calcule $\displaystyle\int_0^{\pi} ⟦0⟧\sin x\,dx$.`,
+  // formula-only entries
+  'itm4o8cny': R`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} = \begin{pmatrix} 1\cdot5 + 2\cdot7 & 1\cdot6 + 2\cdot8 \\ 3\cdot5 + 4\cdot7 & 3\cdot6 + 4\cdot8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}`,
+  '25hetn68fsz': R`A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}`,
+  '1i9j07wofgh': R`\lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}`,
+  '21rfw9yowzp': R`$$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$`,
+  'oq0mo2ln2m': R`$$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$$$\int \cos x\,dx = \sin x + C \qquad \int \sin x\,dx = -\cos x + C$$`,
+  'ktnrryzzqc': R`$$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$`,
+});

@@ -1,0 +1,191 @@
+/* Bahasa Indonesia — SMA (polinomial → integral) */
+addT('id', {
+  // polynomials
+  '1dv82xempy': R`
+<p><b>Polinomial</b> (suku banyak) adalah jumlah suku-suku $a_n x^n + \cdots + a_1 x + a_0$ dengan pangkat bilangan cacah. <b>Derajatnya</b> adalah pangkat tertinggi; $a_n$ adalah <b>koefisien utama</b>. Saat polinomial dikalikan, derajatnya dijumlahkan dan koefisien utamanya dikalikan.</p>
+<h3>Pembagian</h3>
+<p>Membagi $P(x)$ dengan $(x - a)$ menghasilkan hasil bagi $Q(x)$ dan sisa $R$: $P(x) = (x - a)Q(x) + R$. <b>Cara Horner</b> (pembagian sintetis) adalah cara cepat yang hanya memakai koefisien.</p>
+⟦0⟧
+⟦1⟧
+<h3>Akar-akar polinomial berderajat tiga</h3>
+<p>Untuk $ax^3 + bx^2 + cx + d = 0$ dengan akar-akar $r_1, r_2, r_3$:</p>
+⟦2⟧
+⟦3⟧`,
+  '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ dengan cara Horner:</p>⟦0⟧<p>Hasil bagi $x^2 - 2x - 3$, sisa 0.</p>`,
+  'agfsjitvd': R`<p><b>Teorema sisa:</b> sisa pembagian $P(x)$ oleh $(x - a)$ adalah $P(a)$.</p><p><b>Teorema faktor:</b> $(x - a)$ adalah faktor $P(x)$ tepat ketika $P(a) = 0$.</p>`,
+  'sqyu8zjvtn': R`<p>Membagi dengan $(x + 3)$ berarti $a = -3$: hitung $P(-3)$, bukan $P(3)$.</p>`,
+  'u4dg9by4un': R`Tentukan sisa pembagian $P(x) = ⟦0⟧$ oleh $(x ⟦1⟧)$.`,
+  '212dl6gy5gu': R`Menurut teorema sisa, sisanya adalah $P(⟦0⟧) = ⟦1⟧(⟦2⟧)^3 ⟦3⟧(⟦4⟧)^2 ⟦5⟧(⟦6⟧) ⟦7⟧ = ⟦8⟧$.`,
+  '20swcfjanfa': R`$(x ⟦0⟧)$ adalah faktor dari $P(x) = ⟦1⟧$. Tentukan $k$.`,
+  '2cscisbqmyg': R`Menurut teorema faktor $P(⟦0⟧) = 0$: $⟦1⟧ ⟦2⟧ ⟦3⟧k ⟦4⟧ = 0$, jadi $⟦5⟧k = ⟦6⟧$ dan $k = ⟦7⟧$.`,
+  '28czzdou58n': R`Untuk $ax^3 + bx^2 + cx + d = 0$, ⟦0⟧.`,
+  '1uakfcji416': R`jumlah akar-akarnya adalah $-\frac{b}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1cl4qeneyhq': R`hasil kali akar-akarnya adalah $-\frac{d}{a} = -\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$`,
+  '1h1il3vuozs': R`Bagilah $⟦0⟧$ dengan $(x ⟦1⟧)$. Apa hasil baginya?`,
+  '1432prhuyml': R`Cara Horner dengan ⟦0⟧ pada koefisien ⟦1⟧ menghasilkan ⟦2⟧ dan sisa 0, jadi hasil baginya $⟦3⟧$.`,
+  '1v0pp8s5fwz': R`Perhatikan $⟦0⟧$. Berapa derajat hasil kalinya?`,
+  '79jcaurtjl': R`Perhatikan $⟦0⟧$. Berapa koefisien utama hasil kalinya?`,
+  'lgw9ke18qe': R`Perhatikan $⟦0⟧$. Berapa konstanta hasil kalinya?`,
+  '18bitz7l1ry': R`Saat dikalikan, derajatnya dijumlahkan: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '1x77krhanqb': R`Kalikan suku-suku utamanya: $⟦0⟧ \cdot ⟦1⟧ = ⟦2⟧$, jadi koefisien utamanya ⟦3⟧.`,
+  '1uusi8yg5sk': R`Konstanta hasil kali adalah hasil kali konstanta-konstantanya: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
+
+  // matrices
+  '104wb071wss': R`
+<p><b>Matriks</b> adalah susunan bilangan berbentuk persegi panjang. Matriks $m \times n$ memiliki $m$ baris dan $n$ kolom; $a_{ij}$ adalah elemen pada baris $i$, kolom $j$.</p>
+<h3>Operasi</h3>
+<ul><li><b>Penjumlahan/pengurangan</b> elemen demi elemen (hanya untuk ordo yang sama).</li><li><b>Perkalian skalar</b>: kalikan setiap elemen.</li><li><b>Perkalian</b> $AB$: elemen $(i, j)$ adalah baris $i$ dari $A$ "dikali" kolom $j$ dari $B$. Syaratnya (banyak kolom $A$) = (banyak baris $B$), dan matriks $m \times n$ dikali $n \times p$ menghasilkan $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinan dan invers (2 × 2)</h3>
+⟦2⟧
+<p>Jika $\det A = 0$, matriksnya <b>singular</b> dan tidak memiliki invers. Invers dapat menyelesaikan sistem persamaan: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧`,
+  '4bk6hc9is8': R`<p>Perkalian matriks <b>tidak komutatif</b>: umumnya $AB \ne BA$.</p>`,
+  '4ckwr8umw4': R`<p>Untuk invers: <b>tukar</b> $a$ dan $d$, <b>ubah tanda</b> $b$ dan $c$, lalu bagi dengan determinan.</p>`,
+  '1h6gnxjh2g6': R`Tentukan determinan dari $⟦0⟧$.`,
+  '1gfhimaac6g': R`Tentukan $AB$ dengan $A = ⟦0⟧$ dan $B = ⟦1⟧$.`,
+  '1dy8pvpnep7': R`Tuliskan keempat elemen baris demi baris, misalnya 19; 22; 43; 50.`,
+  'xfxhg5b3o2': R`Baris dikali kolom: $AB = \begin{pmatrix} ⟦0⟧\cdot⟦1⟧ + ⟦2⟧\cdot⟦3⟧ & \cdots \\ \cdots & \cdots \end{pmatrix} = ⟦4⟧$.`,
+  '27lrdslcvs8': R`Tentukan invers dari $⟦0⟧$.`,
+  'ea7d95erhp': R`Tuliskan keempat elemen baris demi baris, dipisahkan titik koma.`,
+  '2euzxos9ar7': R`$\det = (⟦0⟧)(⟦1⟧) - (⟦2⟧)(⟦3⟧) = ⟦4⟧$. Tukar $a$ dan $d$, ubah tanda $b$ dan $c$, bagi dengan ⟦5⟧: $⟦6⟧$.`,
+  '2fs8fio5g5w': R`Untuk nilai $x$ berapa $⟦0⟧$ merupakan matriks singular?`,
+  'et7lf19q4x': R`Singular berarti $\det = 0$: $⟦0⟧x - (⟦1⟧)(⟦2⟧) = 0$, jadi $x = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
+  '2280y15nq4f': R`$A = ⟦0⟧$ dan $B = ⟦1⟧$. Tentukan elemen baris ⟦2⟧, kolom ⟦3⟧ dari $⟦4⟧A - ⟦5⟧B$.`,
+  'h3p6r4d6o': R`$A = ⟦0⟧$ dan $B = ⟦1⟧$. Tentukan elemen baris ⟦2⟧, kolom ⟦3⟧ dari $AB$.`,
+  'xdj657lej': R`Baris ⟦0⟧ dari $A$ dikali kolom ⟦1⟧ dari $B$: $⟦2⟧ = ⟦3⟧$. (Matriks $2 \times 3$ dikali $3 \times 2$ menghasilkan $2 \times 2$.)`,
+
+  // vectors
+  '1gljxtukffx': R`
+<p><b>Vektor</b> memiliki besar dan arah. Dalam komponen, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ atau $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Vektor dari $P$ ke $Q$ adalah $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  'i7t2goihqv': R`Panjang (besar)`,
+  '1czax49eh4c': R`Penjumlahan`,
+  'q2ntocofkn': R`jumlahkan komponennya`,
+  'oswzhgqxwz': R`Perkalian skalar`,
+  '1bnyaikchfp': R`$k\mathbf{a}$: kalikan setiap komponen dengan $k$`,
+  '28hldv2q33s': R`Vektor satuan`,
+  '214ftyeo0vg': R`Hasil kali titik (dot product)`,
+  '1xghg9dwzeq': R`$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Dua vektor tak nol saling <b>tegak lurus</b> tepat ketika $\mathbf{a}\cdot\mathbf{b} = 0$.</p>`,
+  '1w9baxb120w': R`<p>$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, $\mathbf{b} = \begin{pmatrix} 5 \\ 12 \end{pmatrix}$: $\mathbf{a}\cdot\mathbf{b} = 15 + 48 = 63$, $|\mathbf{a}| = 5$, $|\mathbf{b}| = 13$, jadi $\cos\theta = \frac{63}{65}$ dan $\theta \approx 14{,}3^\circ$.</p>`,
+  '6pzkmdncqf': R`<p>Hasil kali titik dua vektor adalah sebuah <b>bilangan</b>, bukan vektor.</p>`,
+  '4u2plhe47g': R`Tentukan panjang $⟦0⟧$.`,
+  '252q8tpxn2p': R`Tentukan $\mathbf{a}\cdot\mathbf{b}$ untuk $\mathbf{a} = ⟦0⟧$ dan $\mathbf{b} = ⟦1⟧$.`,
+  '17ht25mwywu': R`Diketahui $\mathbf{a} = ⟦0⟧$ dan $\mathbf{b} = ⟦1⟧$. Tentukan $⟦2⟧\mathbf{a} ⟦3⟧ ⟦4⟧\mathbf{b}$.`,
+  '2gdqizkyobq': R`Tuliskan komponennya berurutan, dipisahkan titik koma.`,
+  '1mpyqj0mwgx': R`Hitung per komponen: $⟦0⟧ = ⟦1⟧$.`,
+  '14p7yoy4f3a': R`Tentukan $k$ agar $⟦0⟧$ dan $⟦1⟧$ saling tegak lurus.`,
+  '127php4kbc3': R`Tegak lurus berarti hasil kali titiknya 0: $⟦0⟧k + (⟦1⟧)(⟦2⟧) = 0$, jadi $k = ⟦3⟧$.`,
+  '1kydmvss2ex': R`Tentukan $\cos\theta$, dengan $\theta$ sudut antara $⟦0⟧$ dan $⟦1⟧$.`,
+  '1b0azawmrlf': R`Tentukan vektor satuan yang searah dengan $⟦0⟧$.`,
+  '280s3ajjt4e': R`Tuliskan komponennya dipisahkan titik koma, misalnya 3/5; -4/5.`,
+  '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Bagi setiap komponen dengan ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
+
+  // limits
+  '239kmg9x5mj': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ berarti $f(x)$ dapat sedekat mungkin dengan $L$ ketika $x$ mendekati $a$ — apa pun yang terjadi tepat di $x = a$.</p>
+<h3>Teknik</h3>
+<ol><li><b>Substitusi langsung</b> berlaku untuk polinomial dan fungsi kontinu lainnya: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorkan lalu sederhanakan</b> untuk bentuk $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rasionalkan</b> bentuk akar: kalikan dengan sekawannya.</li></ol>
+⟦0⟧
+<h3>Limit di tak hingga</h3>
+⟦1⟧
+<h3>Limit trigonometri istimewa</h3>
+⟦2⟧
+<h3>Kekontinuan</h3>
+<p>$f$ kontinu di $a$ jika $\lim_{x \to a} f(x) = f(a)$: tidak ada lubang, lompatan, atau asimtot di sana. Untuk fungsi sepotong-sepotong, kedua potongan harus bertemu di titik sambungnya.</p>
+⟦3⟧`,
+  '25jnb5snm7z': R`<p>Untuk fungsi rasional, bagi pembilang dan penyebut dengan pangkat tertinggi $x$ pada penyebut:</p><ul><li>derajat sama → perbandingan koefisien utama;</li><li>derajat pembilang lebih kecil → 0;</li><li>derajat pembilang lebih besar → tidak ada limit berhingga ($\pm\infty$).</li></ul>`,
+  'extw7corym': R`<p>$\frac{0}{0}$ bukan "0" dan bukan "tidak terdefinisi" — itu bentuk tak tentu yang menandakan perlu langkah lanjut (memfaktorkan, merasionalkan).</p>`,
+  '18znpgymeuk': R`Hitunglah $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
+  '1tq4b7d4h53': R`Fungsinya polinomial, jadi substitusikan: $⟦0⟧(⟦1⟧)^2 ⟦2⟧(⟦3⟧) ⟦4⟧ = ⟦5⟧$.`,
+  '1n96bgorw1d': R`Hitunglah $\displaystyle\lim_{x \to ⟦0⟧} \frac{⟦1⟧}{x ⟦2⟧}$.`,
+  '295o4zt7f3w': R`Substitusi menghasilkan $\frac{0}{0}$. Faktorkan: $\frac{(x ⟦0⟧)(x ⟦1⟧)}{x ⟦2⟧} = x ⟦3⟧$, jadi limitnya $⟦4⟧ ⟦5⟧ = ⟦6⟧$.`,
+  '1rjdd048rzk': R`Hitunglah $\displaystyle\lim_{x \to \infty} \frac{⟦0⟧}{⟦1⟧}$.`,
+  '229ply6f2l2': R`Derajat pembilang lebih kecil daripada penyebut; setelah dibagi $x^2$, setiap suku pembilang menuju 0, jadi limitnya $0$.`,
+  '1m8u7pc3qh1': R`Derajatnya sama, jadi limitnya adalah perbandingan koefisien utama: $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.`,
+  '1ynpy6v2s15': R`Hitunglah $\displaystyle\lim_{x \to 0} \frac{⟦0⟧}{⟦1⟧}$.`,
+  'if95qf815v': R`Gunakan $\frac{\sin u}{u} \to 1$ (dan $\frac{\tan u}{u} \to 1$): bentuknya berperilaku seperti $\frac{⟦0⟧x}{⟦1⟧x} = ⟦2⟧$.`,
+  'blyu2go12i': R`Hitunglah $\displaystyle\lim_{x \to 0} \frac{\sqrt{x + ⟦0⟧} - ⟦1⟧}{x}$.`,
+  'fj8u70cngg': R`Kalikan dengan sekawannya: $\frac{(x + ⟦0⟧) - ⟦1⟧}{x(\sqrt{x + ⟦2⟧} + ⟦3⟧)} = \frac{1}{\sqrt{x + ⟦4⟧} + ⟦5⟧} \to \frac{1}{⟦6⟧}$.`,
+  '1kmmd6tilgi': R`Tentukan $k$ agar $f(x) = \begin{cases} x^2 + k, & x \lt ⟦0⟧ \\ ⟦1⟧, & x \ge ⟦2⟧ \end{cases}$ kontinu di $x = ⟦3⟧$.`,
+  '1l84k7ifkz6': R`Kedua potongan harus bertemu di $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, jadi $⟦5⟧ + k = ⟦6⟧$ dan $k = ⟦7⟧$.`,
+
+  // derivatives
+  '1pv2wkwyvwg': R`
+<p><b>Turunan</b> $f'(x)$ adalah laju perubahan sesaat $f$ — gradien garis singgung di $x$. Turunan didefinisikan dengan limit:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Garis singgung</h3>
+<p>Di $x = a$, garis singgung bergradien $m = f'(a)$ dan melalui $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Titik stasioner</h3>
+<p>Di tempat $f'(x) = 0$, grafik sesaat mendatar. Gunakan turunan kedua: $f''(a) \gt 0$ → minimum lokal; $f''(a) \lt 0$ → maksimum lokal. $f$ naik di tempat $f' \gt 0$ dan turun di tempat $f' \lt 0$.</p>
+<h3>Optimasi</h3>
+⟦3⟧
+⟦4⟧`,
+  '1kddytp99dm': R`Aturan`,
+  '21wooetnwi8': R`<p>Pagar sepanjang 100 m dipakai untuk memagari persegi panjang di tepi sungai (sisi sungai tidak perlu dipagari). Dengan sisi $x, y, x$: $2x + y = 100$, luas $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ memberikan $x = 25$, jadi $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
+  '14x6kebc9en': R`<p>Turunan konstanta adalah 0 — jangan membawa suku konstanta ke $f'(x)$.</p>`,
+  'sk165jmy0e': R`Tentukan $f'(x)$ untuk $f(x) = ⟦0⟧$.`,
+  '1z8enx6jmxw': R`Gunakan aturan pangkat pada setiap suku: $f'(x) = ⟦0⟧$ (konstantanya hilang).`,
+  'rdfbrjf6fd': R`Diketahui $f(x) = ⟦0⟧$. Tentukan $f'(⟦1⟧)$.`,
+  '12fn6a7y0fo': R`$f'(x) = ⟦0⟧$, jadi $f'(⟦1⟧) = ⟦2⟧$.`,
+  '13xytl77ctg': R`Tentukan persamaan garis singgung $y = ⟦0⟧$ di $x = ⟦1⟧$.`,
+  'zxpf5t25tk': R`Gradien: $y' = 2x ⟦0⟧$, jadi $m = ⟦1⟧$ di $x = ⟦2⟧$. Titik: $(⟦3⟧; ⟦4⟧)$. Maka $y - ⟦5⟧ = ⟦6⟧(x - ⟦7⟧)$, yaitu $y = ⟦8⟧$.`,
+  '6or380e65b': R`$x = ⟦0⟧ \text{ dan } x = ⟦1⟧$`,
+  '1ib3oh8we5r': R`Tentukan koordinat $x$ titik-titik stasioner $f(x) = ⟦0⟧$.`,
+  '8cxs5u8eb2': R`$f'(x) = ⟦0⟧ = 3(x ⟦1⟧)(x ⟦2⟧) = 0$, jadi $x = ⟦3⟧$ atau $x = ⟦4⟧$.`,
+  '2diynqfs1vm': R`Pada nilai $x$ berapa $f(x) = ⟦0⟧$ mencapai minimum lokal?`,
+  'qiab8fav1k': R`$f'(x) = 3(x ⟦0⟧)(x ⟦1⟧)$ bernilai nol di $x = ⟦2⟧$ dan $x = ⟦3⟧$. $f''(x) = 6x ⟦4⟧$ positif di $x = ⟦5⟧$, jadi di situlah minimum lokalnya.`,
+  '2bfp82dmoiw': R`Seorang petani memiliki pagar sepanjang ⟦0⟧ m untuk memagari ladang persegi panjang di tepi sungai yang lurus. Sisi sepanjang sungai tidak perlu dipagari. Berapa luas terbesar yang mungkin?`,
+  '1sgjbqwzp29': R`Sisi $x, y, x$ dengan $2x + y = ⟦0⟧$. $A = x(⟦1⟧ - 2x)$, $A' = ⟦2⟧ - 4x = 0$ memberikan $x = ⟦3⟧$, $y = ⟦4⟧$, dan $A = ⟦5⟧$ m².`,
+  '1dz6162q97e': R`Sebuah persegi panjang memiliki keliling ⟦0⟧ cm. Berapa luas terbesar yang mungkin?`,
+  '12er060agfx': R`Dengan lebar $x$, panjangnya $⟦0⟧ - x$ dan $A = x(⟦1⟧ - x)$. $A' = ⟦2⟧ - 2x = 0$ memberikan $x = ⟦3⟧$ — sebuah persegi — dengan luas $⟦4⟧$ cm².`,
+  'jksdr4ukrw': R`Turunkan $y = ⟦0⟧$.`,
+  '1gytk3lwm2l': R`$\frac{d}{dx}\sin x = \cos x$ dan $\frac{d}{dx}\cos x = -\sin x$, jadi $y' = ⟦0⟧$.`,
+  't51ufxvzbf': R`Sebuah partikel bergerak dengan posisi $s(t) = ⟦0⟧$ meter. Tentukan percepatannya saat $t = ⟦1⟧$ s.`,
+  'bakv4or3q9': R`$v(t) = s'(t) = ⟦0⟧$ dan $a(t) = v'(t) = ⟦1⟧$. Saat $t = ⟦2⟧$: $a = ⟦3⟧$ m/s².`,
+  'twj64cwqj6': R`Sebuah partikel bergerak dengan posisi $s(t) = ⟦0⟧$ meter. Tentukan kecepatannya saat $t = ⟦1⟧$ s.`,
+  '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, jadi $v(⟦1⟧) = ⟦2⟧$ m/s.`,
+
+  // integrals
+  '1wdt9h7s66j': R`
+<p>Integral adalah kebalikan dari turunan. <b>Antiturunan</b> dari $f$ adalah sembarang $F$ dengan $F' = f$; <b>integral tak tentu</b> memuat konstanta integrasi:</p>
+⟦0⟧
+⟦1⟧
+<h3>Integral tentu</h3>
+⟦2⟧
+<p>Untuk $f \ge 0$, ini adalah luas di bawah kurva antara $x = a$ dan $x = b$. Luas di bawah sumbu-$x$ dihitung negatif, jadi pisahkan integral di akar-akarnya jika ingin luas total.</p>
+⟦3⟧
+<h3>Menentukan fungsi dari turunannya</h3>
+<p>Jika $f'(x) = 6x + 2$ dan $f(1) = 10$, maka $f(x) = 3x^2 + 2x + C$ dan $3 + 2 + C = 10$ memberikan $C = 5$.</p>
+⟦4⟧`,
+  '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Periksa dengan menurunkannya.</p>`,
+  '1jsx5j8bwuv': R`Teorema Dasar Kalkulus`,
+  'k8jg70602j': R`<p>Luas antara $y = x^2$ dan $y = 2x$: keduanya berpotongan di $x = 0$ dan $x = 2$, dan $2x \ge x^2$ di antaranya, jadi $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
+  '2645ntoenmj': R`<p>Jangan lupa $+ C$ pada integral tak tentu — dan jangan menuliskannya pada integral tentu (saling menghilangkan).</p>`,
+  '1a4h4aolv1n': R`Tentukan $\displaystyle\int (⟦0⟧)\,dx$.`,
+  '14w03nftsp9': R`Naikkan setiap pangkat satu lalu bagi dengan pangkat barunya: $⟦0⟧ + C$.`,
+  'lhk659hv1w': R`Hitunglah $\displaystyle\int_{⟦0⟧}^{⟦1⟧} (⟦2⟧)\,dx$.`,
+  'wzkchwuid3': R`Sebuah antiturunannya $F(x) = ⟦0⟧$. $F(⟦1⟧) - F(⟦2⟧) = ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '2g5117b4rfq': R`Tentukan luas daerah yang dibatasi $y = ⟦0⟧$ dan sumbu-$x$.`,
+  '1qd8emk0tlu': R`Kurva memotong sumbu di $x = \pm ⟦0⟧$. Luas $= \int_{-⟦1⟧}^{⟦2⟧} (⟦3⟧ - x^2)\,dx = \left[⟦4⟧x - \frac{x^3}{3}\right]_{-⟦5⟧}^{⟦6⟧} = ⟦7⟧$.`,
+  '1wjuv7zitnn': R`Tentukan luas daerah antara $y = x^2$ dan $y = ⟦0⟧x$.`,
+  'ospw7lwugt': R`Keduanya berpotongan di $x = 0$ dan $x = ⟦0⟧$. Luas $= \int_0^{⟦1⟧} (⟦2⟧x - x^2)\,dx = \frac{⟦3⟧^3}{2} - \frac{⟦4⟧^3}{3} = ⟦5⟧$.`,
+  '2c9m4g6dimy': R`$f'(x) = ⟦0⟧$ dan $f(0) = ⟦1⟧$. Tentukan $f(⟦2⟧)$.`,
+  '29kyl7mnwt5': R`$f(x) = ⟦0⟧ + C$, dan $f(0) = C = ⟦1⟧$. Jadi $f(⟦2⟧) = ⟦3⟧$.`,
+  '1p83y3ccpb': R`$\int \cos x\,dx = \sin x$ dan $\int -\sin x\,dx = \cos x$, jadi hasilnya $⟦0⟧ + C$.`,
+  '22xlapf2gb7': R`Hitunglah $\displaystyle\int_0^{\pi/2} ⟦0⟧\cos x\,dx$.`,
+  '1ppkvfv3p1b': R`Hitunglah $\displaystyle\int_0^{\pi} ⟦0⟧\sin x\,dx$.`,
+  // formula-only entries
+  'itm4o8cny': R`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} = \begin{pmatrix} 1\cdot5 + 2\cdot7 & 1\cdot6 + 2\cdot8 \\ 3\cdot5 + 4\cdot7 & 3\cdot6 + 4\cdot8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}`,
+  '25hetn68fsz': R`A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}`,
+  '1i9j07wofgh': R`\lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}`,
+  '21rfw9yowzp': R`$$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$`,
+  'oq0mo2ln2m': R`$$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$$$\int \cos x\,dx = \sin x + C \qquad \int \sin x\,dx = -\cos x + C$$`,
+  'ktnrryzzqc': R`$$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$`,
+});

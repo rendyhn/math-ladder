@@ -1,0 +1,165 @@
+/* Français — collège (noyau, relatifs → proportions) */
+addT('fr', {
+  // core
+  '1x23luhdn24': R`Écrivez un entier ou une fraction comme -3/4.`,
+  'oe48n1yjho': R`Écrivez une réponse comme 49pi.`,
+  '1pwkxeh9gz6': R`Diagramme de Venn : deux cercles A et B qui se chevauchent dans un rectangle U. La partie commune est A inter B.`,
+  '20fnrxy868c': R`A seulement`,
+  '270f53k5ok8': R`B seulement`,
+  '1je4zqnj4vo': R`hors des deux : (A ∪ B)′`,
+  '1mdy4rrlpik': R`Triangle rectangle de côtés de l’angle droit a et b et d’hypoténuse c opposée à l’angle droit`,
+  '1x3numfhp6n': R`Cercle de centre O avec un rayon r, un diamètre, une corde et un secteur ombré`,
+  '19a9nt12ww1': R`diamètre`,
+  '2dw7tpqx5ho': R`secteur`,
+  '187npo1zduj': R`corde`,
+
+  // integers
+  '1d3b0kga2d8': R`
+<p>Les <b>entiers relatifs</b> sont les nombres entiers et leurs opposés : $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Sur une droite graduée, les nombres augmentent vers la droite, donc $-7 \lt -2$ même si 7 est plus grand que 2.</p>
+<p>La <b>valeur absolue</b> $|a|$ est la distance à 0 : $|-6| = 6$ et $|6| = 6$.</p>
+<h3>Addition et soustraction</h3>
+⟦0⟧
+<h3>Multiplication et division</h3>
+⟦1⟧
+⟦2⟧
+<p>Dans la vie courante : températures négatives, altitudes sous le niveau de la mer, dettes, étages en sous-sol.</p>
+⟦3⟧`,
+  'y08mdvxdvx': R`<ul><li><b>Même signe :</b> on additionne les distances à zéro et on garde le signe. $-4 + (-9) = -13$.</li><li><b>Signes contraires :</b> on soustrait les distances à zéro et on prend le signe du nombre le plus éloigné de zéro. $-11 + 5 = -6$.</li><li><b>Soustraire</b>, c’est ajouter l’opposé : $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
+  '265jmr0pgn6': R`Signes`,
+  '18hy4wrreq9': R`Résultat`,
+  'smeasc7k44': R`+ et +`,
+  'pch2ir8ey8': R`positif`,
+  '1etdbat34sz': R`− et −`,
+  'ziyl69hweo': R`+ et −`,
+  '2ffct8v299o': R`négatif`,
+  '238sv1i1dpv': R`− et +`,
+  'woqo0gjqdb': R`<p>$-3^2 = -9$ mais $(-3)^2 = 9$. Sans parenthèses, la puissance ne porte que sur le 3.</p>`,
+  '1vaqzb7dhrg': R`Même signe : on additionne les distances à zéro et on garde le signe.`,
+  '1gzm31e47qm': R`Signes contraires : on soustrait les distances à zéro et on garde le signe du nombre le plus éloigné de zéro.`,
+  '27t807op1rz': R`Soustraire, c’est ajouter l’opposé : $⟦0⟧ - ⟦1⟧ = ⟦2⟧ + ⟦3⟧ = ⟦4⟧$.`,
+  'dkidis5a97': R`Deux signes identiques donnent un résultat positif`,
+  '1htjniy3zg4': R`Deux signes contraires donnent un résultat négatif`,
+  'iepdkqxdg4': R`Calculez $⟦0⟧ \times ⟦1⟧ - ⟦2⟧$.`,
+  'pxi31oj3ys': R`D’abord la multiplication : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Puis $⟦3⟧ - ⟦4⟧ = ⟦5⟧ + ⟦6⟧ = ⟦7⟧$.`,
+  '26rnszv74s7': R`À 6 h du matin, la température était de $⟦0⟧^\circ\text{C}$. À midi, elle avait augmenté de $⟦1⟧^\circ\text{C}$, puis à minuit elle avait baissé de $⟦2⟧^\circ\text{C}$ par rapport à midi. Quelle était la température à minuit ?`,
+  'fyyovqsih2': R`$⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$, donc il faisait $⟦4⟧^\circ\text{C}$.`,
+  '1ag4iuv7vpa': R`Calculez $|⟦0⟧| - |⟦1⟧|$.`,
+  '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ et $|⟦2⟧| = ⟦3⟧$, donc la valeur est $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
+
+  // exponents
+  '2d43wqplznz': R`
+<p>Une <b>puissance</b> note une multiplication répétée : $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ facteurs}}$. Dans $2^5 = 32$, 2 est la <b>base</b> et 5 est l’<b>exposant</b>.</p>
+<h3>Règles de calcul sur les puissances</h3>
+⟦0⟧
+⟦1⟧
+<h3>Racines</h3>
+<p>La racine carrée annule le carré : $\sqrt{81} = 9$ car $9^2 = 81$. La racine cubique annule le cube : $\sqrt[3]{64} = 4$ car $4^3 = 64$.</p>
+⟦2⟧
+⟦3⟧`,
+  '21iigvito9y': R`Règle`,
+  '2du0zx6ztd9': R`<p>Simplifier $(2x^3)(5x^4)$ : on multiplie les nombres et on additionne les exposants, $10x^{7}$.</p>`,
+  '2b2ar8gx2t7': R`<p>Pour simplifier une racine carrée, on fait sortir le plus grand facteur carré : $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
+  '28pcl4skbrd': R`<p>$x^3 \cdot x^4$ vaut $x^7$, et non $x^{12}$ : pour multiplier des puissances d’une même base, on <i>additionne</i> les exposants. Et $\sqrt{9 + 16} = 5$, et non $3 + 4$.</p>`,
+  's9xs5b9gme': R`Calculez $⟦0⟧^{⟦1⟧}$.`,
+  'y0efpdptbg': R`$⟦0⟧^{⟦1⟧}$ est le produit de ⟦2⟧ facteurs égaux à ⟦3⟧ : $⟦4⟧ = ⟦5⟧$.⟦6⟧`,
+  'f0v39gimat': R` Un nombre impair de facteurs négatifs donne un résultat négatif.`,
+  '1a0fe39cn50': R` Un nombre pair de facteurs négatifs donne un résultat positif.`,
+  'gmyxohq5hl': R`Simplifiez $(⟦0⟧⟦1⟧^{⟦2⟧})(⟦3⟧⟦4⟧^{⟦5⟧})$.`,
+  '19i5sbwj9gf': R`On multiplie les nombres et on <b>additionne</b> les exposants : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ et $⟦3⟧^{⟦4⟧} \cdot ⟦5⟧^{⟦6⟧} = ⟦7⟧^{⟦8⟧}$. Réponse : $⟦9⟧⟦10⟧^{⟦11⟧}$.`,
+  'd17nxbyour': R`Simplifiez $\dfrac{⟦0⟧⟦1⟧^{⟦2⟧}}{⟦3⟧⟦4⟧^{⟦5⟧}}$.`,
+  'zvet0x3ty3': R`On divise les nombres et on <b>soustrait</b> les exposants : $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ et $⟦3⟧^{⟦4⟧ - ⟦5⟧} = ⟦6⟧^{⟦7⟧}$.`,
+  'owsivnzbiv': R`Simplifiez $(⟦0⟧⟦1⟧^{⟦2⟧})^{⟦3⟧}$.`,
+  '16p8bz51ffa': R`On élève chaque facteur à la puissance ⟦0⟧ : $⟦1⟧^{⟦2⟧} = ⟦3⟧$ et $(⟦4⟧^{⟦5⟧})^{⟦6⟧} = ⟦7⟧^{⟦8⟧}$.`,
+  '1xezjl2w04x': R`Calculez $⟦0⟧^0 + ⟦1⟧^{-⟦2⟧}$.`,
+  '188gl5tkaea': R`Écrivez une fraction comme 9/8.`,
+  'ko9qy4d1ca': R`$⟦0⟧^0 = 1$ et $⟦1⟧^{-⟦2⟧} = \frac{1}{⟦3⟧}$, donc la somme vaut $1 + \frac{1}{⟦4⟧} = \frac{⟦5⟧}{⟦6⟧}$.`,
+  '1n967l6wl5g': R`Calculez $⟦0⟧^{-⟦1⟧}$.`,
+  'zx2y9sarlt': R`Écrivez une fraction comme 1/8.`,
+  'yfk682by4y': R`Un exposant négatif signifie « un sur » : $⟦0⟧^{-⟦1⟧} = \frac{1}{⟦2⟧^{⟦3⟧}} = \frac{1}{⟦4⟧}$.`,
+  '29kkp8bp96o': R`Calculez $\sqrt{⟦0⟧}$.`,
+  '130msfu0zcr': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, donc $\sqrt{⟦3⟧} = ⟦4⟧$.`,
+  '2gon6mkcmhb': R`Calculez $\sqrt[3]{⟦0⟧}$.`,
+  '214ubtovi6i': R`$⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$, donc $\sqrt[3]{⟦4⟧} = ⟦5⟧$.`,
+  '30ljqjiajh': R`Simplifiez $\sqrt{⟦0⟧}$.`,
+  '1dnbn17q9fj': R`Écrivez une réponse comme 3sqrt(2).`,
+  'r5mpjrvznb': R`On cherche le plus grand facteur carré : $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Donc $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
+
+  // sci-notation
+  '2855qmmjjc': R`
+<p>Les scientifiques écrivent les nombres très grands ou très petits de façon compacte sous la forme</p>
+⟦0⟧
+<ul><li>La distance Terre–Soleil, environ $150\,000\,000$ km, vaut $1{,}5 \times 10^{8}$ km.</li><li>Un globule rouge, large d’environ $0{,}000\,008$ m, mesure $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+<h3>Calculer</h3>
+<p>On multiplie (ou divise) les nombres de devant et on additionne (ou soustrait) les exposants. Puis on corrige le nombre de devant s’il n’est pas compris entre 1 et 10 :</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ entier relatif}`,
+  '1phwx4rhhb0': R`<p>Comptez de combien de rangs la virgule se déplace pour qu’il reste exactement un chiffre non nul devant elle. Les grands nombres (virgule vers la gauche) donnent un exposant <b>positif</b> ; les nombres inférieurs à 1 (virgule vers la droite), un exposant <b>négatif</b>.</p>`,
+  '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
+  'uws8i7cmm7': R`\frac{6 \times 10^{9}}{8 \times 10^{3}} = 0{,}75 \times 10^{6} = 7{,}5 \times 10^{5}`,
+  '1bgde7du4ux': R`<p>$23 \times 10^{4}$ a la bonne valeur mais n’est pas une écriture scientifique : le nombre de devant doit être inférieur à 10.</p>`,
+  '1jl1f7quddk': R`Donnez l’écriture scientifique de ⟦0⟧.`,
+  '1xhcd6rnqeh': R`On déplace la virgule de ⟦0⟧ rangs vers la gauche pour ne garder qu’un chiffre devant : $⟦1⟧ = ⟦2⟧ \times 10^{⟦3⟧}$.`,
+  'sb71mbidjv': R`On déplace la virgule de ⟦0⟧ rangs vers la droite pour avoir un chiffre non nul devant : $⟦1⟧ = ⟦2⟧ \times 10^{-⟦3⟧}$.`,
+  '1fxdkt6b40w': R`Donnez l’écriture décimale de $⟦0⟧ \times 10^{⟦1⟧}$.`,
+  '1lry42zhbux': R`On déplace la virgule de ⟦0⟧ rangs vers la droite : <b>⟦1⟧</b>.`,
+  '1x5u9exutdv': R`On déplace la virgule d’un rang vers la gauche : <b>⟦0⟧</b>.`,
+  '550xmeglh4': R`On déplace la virgule de ⟦0⟧ rangs vers la gauche : <b>⟦1⟧</b>.`,
+  '1gs42dv9cjp': R`Calculez $(⟦0⟧ \times 10^{⟦1⟧}) \times (⟦2⟧ \times 10^{⟦3⟧})$. Donnez le résultat en écriture scientifique.`,
+  'fs4t6k5mks': R`On multiplie les nombres de devant et on additionne les exposants : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ et $10^{⟦3⟧} \times 10^{⟦4⟧} = 10^{⟦5⟧}$. ⟦6⟧`,
+  '1zt4osszqy5': R`Comme ⟦0⟧ n’est pas inférieur à 10, on réécrit $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
+  '1hosaw5g8gs': R`Réponse : $⟦0⟧ \times 10^{⟦1⟧}$.`,
+  '1rhqt7i7pkj': R`Calculez $\dfrac{⟦0⟧ \times 10^{⟦1⟧}}{⟦2⟧ \times 10^{⟦3⟧}}$. Donnez le résultat en écriture scientifique.`,
+  '3gwofajvgq': R`On divise les nombres de devant et on soustrait les exposants : $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ et $10^{⟦3⟧ - ⟦4⟧} = 10^{⟦5⟧}$.⟦6⟧`,
+  '1ujla3379au': R` Comme ⟦0⟧ est inférieur à 1, on réécrit $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
+
+  // ratio
+  'j1hx7015fs': R`
+<p>Un <b>ratio</b> $a : b$ compare deux quantités. Comme les fractions, un ratio se simplifie en divisant ses deux termes par leur PGCD : $18 : 24 = 3 : 4$.</p>
+<h3>Partage proportionnel</h3>
+⟦0⟧
+<h3>Taux et valeur unitaire</h3>
+<p>Un <b>taux</b> compare des quantités d’unités différentes : km par heure, euros par kg. Trouver la valeur d’<b>une</b> unité (la valeur unitaire) résout la plupart des problèmes.</p>
+⟦1⟧
+<h3>Proportionnalité directe et inverse</h3>
+⟦2⟧
+⟦3⟧
+<h3>Échelles</h3>
+<p>Une échelle de $1 : 50\,000$ signifie que 1 cm sur la carte représente $50\,000$ cm $= 500$ m $= 0{,}5$ km en réalité.</p>
+⟦4⟧`,
+  '1ldxptmm0q1': R`<p>Partager 60 bonbons dans le ratio $2 : 3$.</p><ol><li>Nombre de parts : $2 + 3 = 5$.</li><li>Une part : $60 \div 5 = 12$.</li><li>Parts : $2 \times 12 = 24$ et $3 \times 12 = 36$.</li></ol>`,
+  'mtzadc2zz9': R`\text{vitesse} = \frac{\text{distance}}{\text{durée}} \qquad \text{distance} = \text{vitesse} \times \text{durée}`,
+  '1lx74znbkzq': R`<ul><li><b>Directe :</b> les deux quantités augmentent ensemble, $y = kx$. Deux fois plus de cahiers coûtent deux fois plus cher.</li><li><b>Inverse :</b> l’une augmente quand l’autre diminue, $xy = k$. Deux fois plus d’ouvriers finissent en deux fois moins de temps.</li></ul>`,
+  'a6l90vp81i': R`<p>6 ouvriers construisent un mur en 10 jours. Le travail représente $6 \times 10 = 60$ jours-ouvrier, donc 4 ouvriers ont besoin de $60 \div 4 = 15$ jours.</p>`,
+  '2arjky763hz': R`<p>Avant de comparer, mettez les mêmes unités. Et vérifiez si la situation est directe ou inverse : « plus d’ouvriers, moins de jours » est inverse.</p>`,
+  '1acmfldad41': R`Simplifiez le ratio ⟦0⟧ : ⟦1⟧.`,
+  '1y50fzcs3bf': R`Écrivez le ratio sous la forme 3:4.`,
+  '5iztjnzgue': R`Le PGCD des deux termes vaut ⟦0⟧ ; en les divisant par ⟦0⟧, on obtient ⟦1⟧ : ⟦2⟧ = ⟦3⟧ : ⟦4⟧.`,
+  '2crne058qbs': R`Ali`,
+  '18poqam78za': R`Siti`,
+  '4lzqcmqqd4': R`Rina`,
+  'izwfd6xg8i': R`Sam`,
+  'bs57t3iign': R`Kim`,
+  'h7jorlb8al': R`On partage ⟦0⟧ billes entre ⟦1⟧ et ⟦2⟧ dans le ratio ⟦3⟧ : ⟦4⟧. Combien de billes reçoit ⟦5⟧ ?`,
+  '2ffhbqedp3i': R`Il y a $⟦0⟧ + ⟦1⟧ = ⟦2⟧$ parts, chacune vaut $⟦3⟧ \div ⟦4⟧ = ⟦5⟧$. ⟦6⟧ reçoit $⟦7⟧ \times ⟦8⟧ = ⟦9⟧$.`,
+  'oh7i0xfb4t': R`cahiers`,
+  'ia267mackq': R`stylos`,
+  'ojwqqxz8z0': R`mangues`,
+  '2c5x6tu8q2m': R`billets`,
+  't42rjalvd2': R`⟦0⟧ ⟦1⟧ coûtent ⟦2⟧ euros. Au même prix unitaire, combien coûtent ⟦3⟧ ⟦4⟧ ?`,
+  '1j6drw8o3jp': R`Un article coûte $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ euros, donc ⟦3⟧ coûtent $⟦4⟧ \times ⟦5⟧ = ⟦6⟧$ euros.`,
+  '2cnfx0hut7n': R`⟦0⟧ ouvriers construisent un mur en ⟦1⟧ jours. Au même rythme, combien de jours faudrait-il à ⟦2⟧ ouvriers ?`,
+  '1qn5tzfsu4y': R`jours`,
+  '1prw35yduvi': R`C’est une proportionnalité inverse. Le travail représente $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ jours-ouvrier, donc ⟦3⟧ ouvriers ont besoin de $⟦4⟧ \div ⟦5⟧ = ⟦6⟧$ jours.`,
+  '294kafpc434': R`Une carte est à l’échelle 1 : ⟦0⟧. Deux villes sont à ⟦1⟧ cm l’une de l’autre sur la carte. Quelle est la distance réelle, en kilomètres ?`,
+  'yvvr6sez8h': R`Distance réelle $= ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm. Comme $1 \text{ km} = 100\,000 \text{ cm}$, cela fait $⟦3⟧$ km.`,
+  '1q0gzbqlk2i': R`Une voiture parcourt ⟦0⟧ km en ⟦1⟧ heures. Quelle est sa vitesse moyenne ?`,
+  '1350ox6hh5s': R`$\text{vitesse} = \frac{\text{distance}}{\text{durée}} = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$ km/h.`,
+  '1eoj4cx14t6': R`Un bus roule à ⟦0⟧ km/h pendant ⟦1⟧ heures. Quelle distance parcourt-il ?`,
+  '1dged1n5jn6': R`$\text{distance} = \text{vitesse} \times \text{durée} = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ km.`,
+  'aw6tzi78c6': R`Combien d’heures faut-il pour parcourir ⟦0⟧ km à ⟦1⟧ km/h ?`,
+  '2eruzlr62qp': R`heures`,
+  '278tsci6f7d': R`$\text{durée} = \frac{\text{distance}}{\text{vitesse}} = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$ heures.`,
+});

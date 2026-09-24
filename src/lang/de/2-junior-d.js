@@ -1,0 +1,224 @@
+/* Deutsch — Sekundarstufe I (Statistik → Ähnlichkeit) */
+addT('de', {
+  // statistics-jh
+  '1gkv2j833s3': R`
+<p>Ein <b>Lagemaß</b> fasst einen Datensatz durch einen typischen Wert zusammen; ein <b>Streuungsmaß</b> gibt an, wie weit die Werte auseinanderliegen.</p>
+⟦0⟧
+<h3>Mittelwert aus einer Häufigkeitstabelle</h3>
+⟦1⟧
+⟦2⟧
+<h3>Rückwärts rechnen</h3>
+⟦3⟧
+<p>Bei einer geraden Anzahl von Werten ist der Median der Mittelwert der beiden mittleren Werte.</p>
+⟦4⟧`,
+  'zy4hmws2f9': R`Geeignet, wenn…`,
+  'j0p0vvrwxf': R`die Daten keine extremen Werte (Ausreißer) haben`,
+  '2ajydntyvld': R`die Daten schief verteilt sind oder Ausreißer haben — z. B. Hauspreise`,
+  '1d4nmjapkp8': R`die Daten kategorial sind — z. B. Lieblingsfarbe`,
+  '12wlbpcje5l': R`man schnell die Streuung einschätzen will (aber empfindlich gegenüber Ausreißern)`,
+  '21qgjzyanwp': R`⟦0⟧<p>$\sum f = 20$ und $\sum fx = 3 + 10 + 24 + 16 = 53$, also ist der Mittelwert $\frac{53}{20} = 2{,}65$. Der Modalwert ist 3 (größte Häufigkeit). Der Median ist der Mittelwert des 10. und 11. Wertes — beide sind 3 —, also ist der Median 3.</p>`,
+  '1j97et5mff': R`Punktzahl $x$`,
+  'gm8elt7xjs': R`Häufigkeit $f$`,
+  '1rnz21lc9g1': R`<p>$\text{Summe} = \text{Mittelwert} \times \text{Anzahl}$. Haben 5 Zahlen den Mittelwert 12, ist ihre Summe 60 — ergeben vier davon zusammen 47, ist die fünfte also 13.</p>`,
+  '1ksrbyf4x6z': R`<p>Teile in einer Häufigkeitstabelle $\sum fx$ durch die Gesamthäufigkeit $\sum f$, nicht durch die Anzahl der Spalten.</p>`,
+  '15d8a2aae5e': R`Sortiert: ⟦0⟧. Es sind ⟦1⟧ Werte, also ist der Median der Mittelwert der beiden mittleren: $\frac{⟦2⟧ + ⟦3⟧}{2} = ⟦4⟧$.`,
+  '3npude2io3': R`Berechne die mittlere Punktzahl aus der Häufigkeitstabelle. Runde falls nötig auf 2 Nachkommastellen.⟦0⟧`,
+  '1kkkmzzlb29': R`Punktzahl`,
+  'nph0ner2hr': R`Häufigkeit`,
+  'c68abpawgf': R`$\sum f = ⟦0⟧$ und $\sum fx = ⟦1⟧ = ⟦2⟧$. Mittelwert $= \frac{⟦3⟧}{⟦4⟧} ⟦5⟧ ⟦6⟧$.`,
+  'aevfr1f0xw': R`Der Mittelwert von fünf Zahlen ist ⟦0⟧. Vier davon sind ⟦1⟧. Wie lautet die fünfte Zahl?`,
+  '2ddgia0tp1j': R`Die fünf Zahlen ergeben zusammen $5 \times ⟦0⟧ = ⟦1⟧$. Die vier bekannten ergeben ⟦2⟧, also ist die fünfte $⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '5e5w5tzrl1': R`Nach ⟦0⟧ Tests hat Jonas eine durchschnittliche Punktzahl von ⟦1⟧. Nach einem weiteren Test beträgt sein Durchschnitt ⟦2⟧. Wie viele Punkte hat er im letzten Test erreicht?`,
+  '23zlk0k5oq4': R`Summe vorher: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Summe nachher: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Letzte Punktzahl $= ⟦6⟧ - ⟦7⟧ = ⟦8⟧$.`,
+  '1tdgm1yju18': R`Was ist der Modalwert der Daten in dieser Tabelle?⟦0⟧`,
+  '2cqua50kina': R`Anzahl gelesener Bücher`,
+  'ypw9p4zjlu': R`Anzahl der Schüler`,
+  '22iugjzjcbh': R`Der Modalwert ist der Wert mit der größten Häufigkeit. ⟦0⟧ hat die Häufigkeit ⟦1⟧, die größte.`,
+
+  // probability-jh
+  '1s529z7x9mx': R`
+<p>Ein <b>Zufallsexperiment</b> (einen Würfel werfen, eine Karte ziehen) hat mögliche <b>Ergebnisse</b>. Die Menge aller Ergebnisse ist die <b>Ergebnismenge</b> $S$; ein <b>Ereignis</b> $E$ ist eine Menge von Ergebnissen. Sind alle Ergebnisse gleich wahrscheinlich, gilt:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Zwei Würfel</h3>
+<p>Zwei Würfel ergeben $6 \times 6 = 36$ gleich wahrscheinliche Ergebnisse. Die Augensumme 7 entsteht auf 6 Arten — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, also ist $P(\text{Summe} = 7) = \frac{6}{36} = \frac{1}{6}$. Allgemein gibt es $6 - |s - 7|$ Arten, die Summe $s$ zu erhalten.</p>
+<h3>Ein Kartenspiel</h3>
+<p>52 Karten: 4 Farben (♠ ♣ schwarz, ♥ ♦ rot) mit je 13 Werten (A, 2–10, B, D, K). Es gibt 12 Bildkarten (B, D, K).</p>
+⟦3⟧`,
+  '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 bedeutet unmöglich, 1 bedeutet sicher.</li><li><b>Gegenereignis:</b> $P(\text{nicht } E) = 1 - P(E)$.</li><li><b>Erwartete Häufigkeit</b> bei $n$ Versuchen $= P(E) \times n$.</li></ul>`,
+  'sp7ttiactv': R`<p>In einem Beutel sind 3 rote, 5 blaue und 2 grüne Murmeln. $P(\text{blau}) = \frac{5}{10} = \frac{1}{2}$ und $P(\text{nicht grün}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
+  '1quguehv908': R`<p>Die relative Häufigkeit (aus echten Versuchen) nähert sich mit wachsender Versuchszahl der theoretischen Wahrscheinlichkeit — stimmt aber selten genau überein.</p>`,
+  '2jkb08f2dg': R`rot`,
+  '1a43z74k2oy': R`blau`,
+  '1719de5b71t': R`grün`,
+  '7kkile34lr': R`In einem Beutel sind ⟦0⟧ rote, ⟦1⟧ blaue und ⟦2⟧ grüne Kugeln. Eine Kugel wird zufällig gezogen. Wie groß ist die Wahrscheinlichkeit, dass sie ⟦3⟧ ist?`,
+  '26hhfp8us6o': R`Gib einen Bruch ein, zum Beispiel 2/7.`,
+  '34i4syx68n': R`$P(\text{⟦0⟧}) = \frac{\text{Anzahl ⟦1⟧er Kugeln}}{\text{Anzahl aller Kugeln}} = \frac{⟦2⟧}{⟦3⟧}⟦4⟧$.`,
+  '17fighwohx4': R`Zwei faire Würfel werden geworfen. Wie groß ist die Wahrscheinlichkeit, dass die Augensumme ⟦0⟧ ist?`,
+  '1zfipt2db8x': R`Gib einen Bruch ein, zum Beispiel 5/36.`,
+  '1xyubi5yqtq': R`Es gibt 36 gleich wahrscheinliche Ergebnisse, und die Summe ⟦0⟧ tritt bei ⟦1⟧ davon auf. $P = \frac{⟦2⟧}{36}⟦3⟧$.`,
+  '2cy3xut293b': R`es morgen regnet`,
+  'lo67u7j66d': R`ein Bus Verspätung hat`,
+  '2dk6yd5lp5u': R`ein Samenkorn keimt`,
+  '1cur3c8r655': R`eine Mannschaft ihr nächstes Spiel gewinnt`,
+  '9jb4uxp8mo': R`Die Wahrscheinlichkeit, dass ⟦0⟧, beträgt ⟦1⟧. Wie groß ist die Wahrscheinlichkeit, dass dies <b>nicht</b> eintritt?`,
+  '1459jtc2vnw': R`$P(\text{nicht } E) = 1 - P(E) = 1 - ⟦0⟧ = ⟦1⟧$.`,
+  '1m5z09mwtae': R`eine Sechs`,
+  '2goj7cvo26g': R`eine gerade Zahl`,
+  '16jy1hpm8uh': R`eine Zahl größer als 4`,
+  '9psh7q2zqv': R`eine Primzahl`,
+  'd1r3jk3fi5': R`ein Vielfaches von 3`,
+  'pkpby3rsiu': R`Ein fairer Würfel wird ⟦0⟧-mal geworfen. Wie oft erwartest du ⟦1⟧ zu würfeln?`,
+  '1m2zbe7u1ww': R`$P = \frac{⟦0⟧}{6}$, also ist die erwartete Anzahl $\frac{⟦1⟧}{6} \times ⟦2⟧ = ⟦3⟧$.`,
+  '1eipzgu94sk': R`eine Zahl kleiner als 3`,
+  '1i6lu5hyvob': R`einen Teiler von 6`,
+  'uzgsjc3e5d': R`eine Zahl größer als 1`,
+  '1u2i7hb5c5n': R`eine Quadratzahl`,
+  'rjfh61539i': R`Ein fairer sechsseitiger Würfel wird geworfen. Wie groß ist die Wahrscheinlichkeit, ⟦0⟧ zu würfeln?`,
+  '2a86ul8z5e6': R`Gib einen Bruch ein, zum Beispiel 1/3.`,
+  'wfhq8l2euu': R`Günstige Ergebnisse: ⟦0⟧ — also ⟦1⟧ von 6. $P = \frac{⟦2⟧}{6}⟦3⟧$.`,
+  '1s7i7y0snm7': R`ein Herz`,
+  '1tvznlpjqb2': R`13 Herzkarten`,
+  '19nwtn8arbx': R`ein König`,
+  'gy4518kzl1': R`4 Könige`,
+  '207cuaz509r': R`eine rote Karte`,
+  '1qvhvp7e8k8': R`26 rote Karten`,
+  '1sakrbqn5x6': R`ein roter König`,
+  'c3s60n5sor': R`2 rote Könige`,
+  '1671qt85c28': R`eine Bildkarte (B, D oder K)`,
+  '29hha1vs7b6': R`12 Bildkarten`,
+  'pavjeefc8d': R`ein Ass oder ein König`,
+  '2cy5fpo3esg': R`4 Asse und 4 Könige`,
+  '1rpplt11syb': R`eine schwarze 7`,
+  '13zshtnr8nq': R`die Pik-7 und die Kreuz-7`,
+  '71sptgg3ka': R`Aus einem Standardkartenspiel mit 52 Karten wird zufällig eine Karte gezogen. Wie groß ist die Wahrscheinlichkeit, dass es ⟦0⟧ ist?`,
+  '1wkkibr9nk7': R`Gib einen Bruch ein, zum Beispiel 1/13.`,
+  '23r35ol6pkt': R`Von den 52 Karten sind es ⟦0⟧: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
+
+  // social-arith
+  '28qmmxd3nnk': R`
+<p>Alltägliche Geldfragen sind meist verkleidete Prozentaufgaben.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Rabatt und Steuer</h3>
+<p>Wende Prozentsätze nacheinander an: 20 % Rabatt und danach 10 % Steuer auf 150 Euro ergeben $150 \times 0{,}8 \times 1{,}1 = 132$ Euro.</p>
+<h3>Einfache Zinsen</h3>
+⟦3⟧
+<p>1 500 Euro, 3 Jahre lang zu 6 % pro Jahr angelegt, bringen $1\,500 \times 0{,}06 \times 3 = 270$ Euro; das Guthaben wächst auf 1 770 Euro. Bei Monaten nimm $t = \frac{\text{Monate}}{12}$.</p>
+<h3>Brutto, Tara und Netto</h3>
+<p><b>Brutto</b> = Gesamtgewicht; <b>Tara</b> = Gewicht der Verpackung; <b>Netto</b> = Brutto − Tara. Ein 50-kg-Sack mit 2 % Tara hat ein Nettogewicht von $50 \times 0{,}98 = 49$ kg.</p>
+⟦4⟧`,
+  '104nn3vx4at': R`Begriff`,
+  '1mb9fntmked': R`Einkaufspreis (EP)`,
+  '12bh5c74j0l': R`was der Verkäufer bezahlt hat`,
+  'p4v89gjsks': R`Verkaufspreis (VP)`,
+  'ixzwuufb5k': R`was der Käufer bezahlt`,
+  '2dj314tvgil': R`Gewinn`,
+  '1b41ckd5mix': R`VP − EP (wenn VP > EP)`,
+  '8exalr20f0': R`Verlust`,
+  '2acjs1v6cv9': R`EP − VP (wenn VP < EP)`,
+  '8cl7h0h70q': R`$$\text{Gewinn in \%} = \frac{\text{Gewinn}}{\text{Einkaufspreis}} \times 100\% \qquad\qquad \text{VP} = \text{EP} \times \left(1 + \frac{p}{100}\right)$$`,
+  '2251p3nt91s': R`<p>Ein Handy wird für 400 Euro gekauft und für 460 Euro verkauft. Gewinn $= 60$, also Gewinn in % $= \frac{60}{400} \times 100\% = 15\%$.</p>`,
+  '16966flk4n0': R`Z = K \times p \times t \qquad \text{(Kapital} \times \text{Jahreszinssatz} \times \text{Jahre)}`,
+  '8dx80n4t33': R`<p>Der prozentuale Gewinn bezieht sich immer auf den <b>Einkaufspreis</b>, nicht auf den Verkaufspreis.</p>`,
+  'zmoygr0th3': R`Ein Händler kauft ein Fahrrad für ⟦0⟧ Euro und verkauft es für ⟦1⟧ Euro. Wie viel Prozent Gewinn macht er?`,
+  'hr5vewyo1d': R`Ein Händler kauft ein Fahrrad für ⟦0⟧ Euro und verkauft es für ⟦1⟧ Euro. Wie viel Prozent Verlust macht er?`,
+  'w2dibc5j0k': R`⟦0⟧ $= ⟦1⟧$. Prozentsatz $= \frac{⟦2⟧}{⟦3⟧} \times 100\% = ⟦4⟧\%$.`,
+  '1mg15vgrrsq': R`Ein Geschäft kauft eine Lampe für ⟦0⟧ Euro und möchte ⟦1⟧ % Gewinn machen. Wie hoch muss der Verkaufspreis sein?`,
+  '1znpgx1zz3k': R`$\text{VP} = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ Euro.`,
+  '1qynlkevtzf': R`für 1 Jahr`,
+  '265o2h9psz8': R`für ⟦0⟧ Jahre`,
+  'z7uavwhcj6': R`⟦0⟧ Euro werden ⟦2⟧ zu ⟦1⟧ % einfachen Zinsen pro Jahr angelegt. Wie hoch ist der Gesamtbetrag am Ende?`,
+  '158pfsp5k1j': R`⟦0⟧ Euro werden ⟦2⟧ zu ⟦1⟧ % einfachen Zinsen pro Jahr angelegt. Wie viel Zinsen bringt das?`,
+  '35ywrebltu': R`$Z = K p t = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ Euro.⟦4⟧`,
+  '26yfs6y8h5o': R` Gesamt $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$ Euro.`,
+  '11eyk8p87p8': R`Ein Paar Schuhe kostet ⟦0⟧ Euro. Es gibt ⟦1⟧ % Rabatt, danach kommen auf den reduzierten Preis ⟦2⟧ % Umsatzsteuer hinzu. Wie hoch ist der Endpreis?`,
+  '1ebjr2t3r5v': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, dann $\times ⟦3⟧ = ⟦4⟧$ Euro.`,
+  'j3cdki7hbr': R`Ein Sack Reis hat ein Bruttogewicht von ⟦0⟧ kg. Die Tara beträgt ⟦1⟧ % des Bruttogewichts. Wie groß ist das Nettogewicht?`,
+  '91s53sp2z': R`Tara $= ⟦0⟧\% \times ⟦1⟧ = ⟦2⟧$ kg. Netto $= ⟦3⟧ - ⟦4⟧ = ⟦5⟧$ kg.`,
+  '1kvwyquko78': R`Eine Uhr wird für ⟦0⟧ Euro mit ⟦1⟧ % Gewinn verkauft. Wie hoch war der Einkaufspreis?`,
+  'g36e4lpvm4': R`$\text{VP} = \text{EP} \times ⟦0⟧$, also $\text{EP} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ Euro. (⟦4⟧ % vom Verkaufspreis abzuziehen wäre falsch.)`,
+
+  // patterns
+  '2bajjwmyt59': R`
+<p>Eine <b>Folge</b> ist eine geordnete Liste von Zahlen, den <b>Gliedern</b>. Wer die Regel erkennt, kann die Folge fortsetzen oder direkt zu jedem beliebigen Glied springen.</p>
+<h3>Arithmetische Folgen</h3>
+<p>Es wird jedes Mal dieselbe Zahl $d$ (die <b>Differenz</b>) addiert: 5; 8; 11; 14; … hat $d = 3$.</p>
+⟦0⟧
+<h3>Geometrische Folgen</h3>
+<p>Jedes Glied wird mit demselben <b>Quotienten</b> $r$ multipliziert: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
+<h3>Besondere Folgen</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>wobei $a$ das erste Glied ist. Für 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, also $u_{50} = 152$.</p>`,
+  '7gqysfvinh': R`Name`,
+  'mwgm16sn11': R`Glieder`,
+  '24evmkf6e6r': R`n-tes Glied`,
+  'xt4guw3yrj': R`Quadratzahlen`,
+  'l2hgs4w3i2': R`Kubikzahlen`,
+  'lutv3xfjp0': R`Dreieckszahlen`,
+  '2g9qzgo3ylf': R`Fibonacci`,
+  'vjhbyyj0jc': R`jedes Glied = Summe der beiden vorherigen`,
+  'k4xtnyrrtm': R`<p>Welches Glied von 7; 11; 15; … ist gleich 95? $u_n = 4n + 3 = 95$, also $n = 23$: Es ist das 23. Glied.</p>`,
+  'sceh7pz7y9': R`<p>Der Koeffizient von $n$ in der Formel für das n-te Glied ist die Differenz — nicht das erste Glied.</p>`,
+  '73l5vk6u1l': R`Wie lautet das nächste Glied der Folge ⟦0⟧; …?`,
+  '273m8h7rqm0': R`Die Differenz ist ⟦0⟧, also ist das nächste Glied $⟦1⟧ ⟦2⟧ = ⟦3⟧$.`,
+  'e7rskm3cuq': R`Bestimme das Glied $u_{⟦0⟧}$ der Folge ⟦1⟧; …`,
+  '1zj05x9ucbg': R`Welche Formel liefert das n-te Glied von ⟦0⟧; …?`,
+  '10p4kmsov0h': R`Die Glieder wachsen um ⟦0⟧, also beginnt die Formel mit $⟦1⟧n$. Für $n = 1$ ergibt $⟦2⟧(1) + c = ⟦3⟧$ den Wert $c = ⟦4⟧$: $u_n = ⟦5⟧$.`,
+  'kmsujsbacm': R`Jedes Glied wird mit ⟦0⟧ multipliziert, also ist das nächste Glied $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$.`,
+  '1tqcntwvtfu': R`Welches Glied der Folge ⟦0⟧; … ist gleich ⟦1⟧?`,
+  '1i1kg83c5xj': R`$u_n = ⟦0⟧ + (n - 1) \times ⟦1⟧ = ⟦2⟧$, also $(n - 1) \times ⟦3⟧ = ⟦4⟧$, $n - 1 = ⟦5⟧$ und $n = ⟦6⟧$.`,
+  '1ru4k9e3ubn': R`Die Dreieckszahlen sind 1; 3; 6; 10; 15; … Bestimme die Dreieckszahl $T_{⟦0⟧}$.`,
+  '1kom1e2tuqt': R`Die Folge 1; 4; 9; 16; 25; … wird fortgesetzt. Bestimme ihr Glied $u_{⟦0⟧}$.`,
+  '29es9j5bth6': R`Das sind die Quadratzahlen, $u_n = n^2$, also $u_{⟦0⟧} = ⟦1⟧$.`,
+  '1jl1l3ooto1': R`In einer Folge ist jedes Glied ab dem dritten die Summe der beiden vorherigen. Die ersten beiden Glieder sind ⟦0⟧ und ⟦1⟧. Wie lautet das 7. Glied?`,
+  'o3oiu9pprw': R`Die Glieder sind ⟦0⟧. Das 7. Glied ist ⟦1⟧.`,
+
+  // similarity
+  '165d9zkx0zx': R`
+<p>Eine <b>Abbildung</b> verschiebt eine Figur oder ändert ihre Größe. Bei Verschiebungen, Spiegelungen und Drehungen ist das Bild <b>kongruent</b> (gleiche Form und Größe); bei einer zentrischen Streckung ist es <b>ähnlich</b> (gleiche Form, andere Größe).</p>
+⟦0⟧
+<h3>Ähnliche Figuren</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '8do2aamvnn': R`Abbildung`,
+  'jmpbrf5c1s': R`Regel für einen Punkt (x; y)`,
+  '2b0j70wot2h': R`Verschiebung um $\binom{a}{b}$`,
+  '53ydgkbdv': R`Spiegelung an der $x$-Achse`,
+  '1y0gzwc8g5l': R`Spiegelung an der $y$-Achse`,
+  '2c65j86o1iv': R`Spiegelung an $y = x$`,
+  '2az2vuuewqg': R`Drehung um $90^\circ$ gegen den Uhrzeigersinn um O`,
+  '1bwu4k8y4fc': R`Drehung um $180^\circ$ um O`,
+  '24she08dmbo': R`Drehung um $90^\circ$ im Uhrzeigersinn um O`,
+  '1kfzbnkpyo2': R`Zentrische Streckung mit Faktor $k$ und Zentrum O`,
+  '1u5zflf6nl6': R`<p>In ähnlichen Figuren sind entsprechende Winkel gleich groß und entsprechende Seiten stehen im selben Verhältnis, dem <b>Streckfaktor</b> $k$. Flächen ändern sich mit $k^2$, Volumen mit $k^3$.</p>`,
+  'f54rct691f': R`<p>Die Dreiecke $ABC$ und $PQR$ sind ähnlich mit $AB = 6$, $BC = 8$ und $PQ = 9$. Streckfaktor $k = \frac{9}{6} = 1{,}5$, also $QR = 8 \times 1{,}5 = 12$. Hat Dreieck $ABC$ den Flächeninhalt 24, so hat Dreieck $PQR$ den Flächeninhalt $24 \times 1{,}5^2 = 54$.</p>`,
+  '111he4idz8g': R`<p>Ein 1,5 m hoher Pfahl wirft einen 2 m langen Schatten, während ein Baum zur selben Zeit einen 12 m langen Schatten wirft. Die Dreiecke sind ähnlich: $\frac{h}{12} = \frac{1{,}5}{2}$, also $h = 9$ m.</p>`,
+  '1ag7324gyvl': R`<p>Ähnliche Seiten unterscheiden sich um einen <b>Faktor</b>, nicht um einen festen Betrag. Wächst eine Seite von 6 auf 9, so wächst eine Seite von 8 auf 12, nicht auf 11.</p>`,
+  'grtkq2tz50': R`eine Spiegelung an der $x$-Achse`,
+  '2b146agxtl5': R`eine Spiegelung an der $y$-Achse`,
+  '12ufv3upbre': R`eine Spiegelung an der Geraden $y = x$`,
+  '1efbacf7mos': R`eine Drehung um $90^\circ$ gegen den Uhrzeigersinn um den Ursprung`,
+  '2ettdugdvou': R`eine Drehung um $180^\circ$ um den Ursprung`,
+  'y4ewc1f7tf': R`eine Drehung um $90^\circ$ im Uhrzeigersinn um den Ursprung`,
+  '147bj1yruac': R`eine Verschiebung um $⟦0⟧$`,
+  'q8g4eu6egm': R`Der Punkt $P⟦0⟧$ wird durch ⟦1⟧ abgebildet. Welche Koordinaten hat sein Bildpunkt?`,
+  'px6a8rprin': R`Gib die Koordinaten als x; y ein.`,
+  '199eqilp9e9': R`Die Regel lautet ⟦0⟧, also ist der Bildpunkt $⟦1⟧$.`,
+  '141nr4eramb': R`Die Dreiecke $ABC$ und $PQR$ sind ähnlich mit $AB \leftrightarrow PQ$, $BC \leftrightarrow QR$ und $CA \leftrightarrow RP$. Gegeben sind $AB = ⟦0⟧$, $BC = ⟦1⟧$, $CA = ⟦2⟧$ und $⟦3⟧ = ⟦4⟧$. Bestimme $⟦5⟧$.`,
+  '1kimjtrunz7': R`Streckfaktor $k = \frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$. Also $⟦3⟧ = ⟦4⟧ \times ⟦5⟧ = ⟦6⟧$.`,
+  'bj1shpkj9u': R`Zwei ähnliche Körper haben den Streckfaktor ⟦0⟧. Der kleinere hat ein Volumen von ⟦1⟧ cm³. Welches Volumen hat der größere?`,
+  'ld6jtpizu2': R`Volumen ändern sich mit $k^3 = ⟦0⟧$: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³.`,
+  '11duhh78e55': R`Zwei ähnliche Figuren haben den Streckfaktor ⟦0⟧. Die kleinere hat einen Flächeninhalt von ⟦1⟧ cm². Welchen Flächeninhalt hat die größere?`,
+  'hfezjn5dnm': R`Flächen ändern sich mit $k^2 = ⟦0⟧$: $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm².`,
+  '2eojcpktunl': R`Ein ⟦0⟧ m langer Stab wirft einen ⟦1⟧ m langen Schatten. Zur selben Zeit wirft ein Baum einen ⟦2⟧ m langen Schatten. Wie hoch ist der Baum?`,
+  '196fpe0msid': R`Die Dreiecke sind ähnlich: $\frac{h}{⟦0⟧} = \frac{⟦1⟧}{⟦2⟧}$, also $h = ⟦3⟧ \times \frac{⟦4⟧}{⟦5⟧} = ⟦6⟧$ m.`,
+  '1iy8baeb4jd': R`Der Punkt $⟦0⟧$ wird zentrisch gestreckt mit Zentrum im Ursprung und Faktor ⟦1⟧. Wo liegt sein Bildpunkt?`,
+  '1fyw56nqicr': R`Multipliziere beide Koordinaten mit ⟦0⟧: $(⟦1⟧ \times ⟦2⟧;\; ⟦3⟧ \times ⟦4⟧) = ⟦5⟧$.`,
+});

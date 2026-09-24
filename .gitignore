@@ -1,0 +1,6 @@
+.claude/
+dist/
+_tmp/
+__pycache__/
+_backup_src/
+_audit.txt

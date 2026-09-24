@@ -1,0 +1,165 @@
+/* Français — primaire (périmètre et aire → données) */
+addT('fr', {
+  // perimeter-area
+  '1xtxvjsrb9v': R`
+<p>Le <b>périmètre</b> est la longueur totale du contour d’une figure (en cm, m, …). L’<b>aire</b> est la mesure de la surface qu’elle occupe (en unités carrées : cm², m², …).</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Figures composées</h3>
+<p>Découpez une figure en L ou une autre figure composée en rectangles et en triangles, puis additionnez les aires — ou partez d’un grand rectangle et soustrayez le morceau manquant.</p>
+⟦4⟧`,
+  '1be5xudsubm': R`Rectangle, triangle et trapèze — la hauteur se mesure toujours perpendiculairement à la base.`,
+  '1vbb9fjurso': R`Figure`,
+  '1bkcetbdzwi': R`Périmètre`,
+  '9g9qb013dx': R`Aire`,
+  '1klcvelpbpq': R`Rectangle`,
+  '1bkqo8aj6lu': R`Carré (côté $s$)`,
+  'aioobs5p8o': R`Triangle`,
+  'jpaxz6sbbc': R`somme des trois côtés`,
+  '2ch6blse094': R`Parallélogramme`,
+  '19b7alat8ps': R`somme des côtés`,
+  'tfgy8ywg4m': R`Trapèze`,
+  '2glmrmlwat4': R`<p>Un triangle est la moitié d’un rectangle (ou d’un parallélogramme) de même base et de même hauteur — d’où le $\frac{1}{2}$.</p>`,
+  'ro993i6hdb': R`<p>Un rectangle mesure 12 m sur 5 m. Périmètre $= 2(12 + 5) = 34$ m. Aire $= 12 \times 5 = 60$ m².</p>`,
+  '23w7bd7ygef': R`<p>Le périmètre s’exprime en unités de longueur (m) ; l’aire en unités carrées (m²). De plus, la hauteur d’un triangle est perpendiculaire à la base — ce n’est pas le côté oblique.</p>`,
+  '3o5vcpwyc2': R`Un rectangle mesure ⟦0⟧ cm de long et ⟦1⟧ cm de large. Quel est son périmètre ?`,
+  '1mlwgvw7rha': R`$P = 2(l + w) = 2(⟦0⟧ + ⟦1⟧) = ⟦2⟧$ cm.`,
+  '29o3zagcnfc': R`Un jardin rectangulaire mesure ⟦0⟧ m de long et ⟦1⟧ m de large. Quelle est son aire ?`,
+  '1icmdazlj61': R`Un carré a une aire de ⟦0⟧ cm². Quel est son périmètre ?`,
+  '102zowaciba': R`Côté $= \sqrt{⟦0⟧} = ⟦1⟧$ cm, donc le périmètre vaut $4 \times ⟦2⟧ = ⟦3⟧$ cm.`,
+  'b1fe5m9ffr': R`Un carré a un périmètre de ⟦0⟧ cm. Quelle est son aire ?`,
+  '13amxb9l6l6': R`Côté $= ⟦0⟧ \div 4 = ⟦1⟧$ cm, donc l’aire vaut $⟦2⟧ \times ⟦3⟧ = ⟦4⟧$ cm².`,
+  'ahhkpun21u': R`Un triangle a une base de ⟦0⟧ cm et une hauteur de ⟦1⟧ cm. Quelle est son aire ?`,
+  'vcwpcnyvdg': R`$A = \frac{1}{2} \times ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cm².`,
+  'lassz20hi3': R`Un parallélogramme a une base de ⟦0⟧ m et une hauteur de ⟦1⟧ m. Quelle est son aire ?`,
+  '15yoihpm5qi': R`Un trapèze a des bases parallèles de ⟦0⟧ cm et ⟦1⟧ cm et une hauteur de ⟦2⟧ cm. Quelle est son aire ?`,
+  '7f4u2yt2ji': R`$A = \frac{1}{2}(a + b)h = \frac{1}{2}(⟦0⟧ + ⟦1⟧) \times ⟦2⟧ = ⟦3⟧$ cm².`,
+  '20cf1i7tqd7': R`Un rectangle a un périmètre de ⟦0⟧ m et une longueur de ⟦1⟧ m. Quelle est sa largeur ?`,
+  '146lgv8gvtr': R`$2(l + w) = ⟦0⟧$, donc $l + w = ⟦1⟧$ et $w = ⟦2⟧ - ⟦3⟧ = ⟦4⟧$ m.`,
+  '1cisitk2yw7': R`Un sol en forme de L est obtenu en retirant un rectangle de ⟦0⟧ m × ⟦1⟧ m dans un coin d’un rectangle de ⟦2⟧ m × ⟦3⟧ m. Quelle est l’aire du sol ?`,
+  '4fca853um1': R`Grand rectangle moins la partie retirée : $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
+
+  // volume-basic
+  '27t1x8ik6r5': R`
+<p>Le <b>volume</b> est l’espace occupé par un solide ; il se compte en <b>unités cubes</b> (cm³, m³). Un cube de 1 cm d’arête a un volume de 1 cm³.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Aire totale</h3>
+<p>L’aire totale est la somme des aires de toutes les faces. Un pavé droit a trois paires de rectangles identiques :</p>
+⟦3⟧
+⟦4⟧`,
+  'eqp3lgj8pe': R`\text{Pavé droit : } V = l \times w \times h \qquad\qquad \text{Cube : } V = s^3`,
+  '1v18xwhq9wo': R`<p>La contenance est liée au volume : $1 \text{ cm}^3 = 1 \text{ mL}$ et $1000 \text{ cm}^3 = 1 \text{ L}$. De plus, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
+  '1y5vqy9gj8b': R`<p>Un aquarium mesure 50 cm de long, 30 cm de large et 40 cm de haut.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
+  'n4vhcjq4z5': R`A = 2(lw + lh + wh) \qquad\qquad \text{Cube : } A = 6s^2`,
+  '1rmk9dk27r1': R`<p>Le volume s’exprime en unités cubes (cm³) ; l’aire totale en unités carrées (cm²). Si l’on connaît le volume et deux arêtes, on divise pour trouver la troisième : $h = \frac{V}{l \times w}$.</p>`,
+  '28sikx14trk': R`Un cube a des arêtes de ⟦0⟧ cm. Quel est son volume ?`,
+  'n0rlue63yl': R`$V = s^3 = ⟦0⟧^3 = ⟦1⟧$ cm³.`,
+  '279nv9sb40d': R`Une boîte mesure ⟦0⟧ cm de long, ⟦1⟧ cm de large et ⟦2⟧ cm de haut. Quel est son volume ?`,
+  '18f8h5wvjps': R`$V = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³.`,
+  '2g4aunze98e': R`Un pavé droit a un volume de ⟦0⟧ cm³. Sa longueur est ⟦1⟧ cm et sa largeur ⟦2⟧ cm. Quelle est sa hauteur ?`,
+  '12q7gqhxt7v': R`$h = \frac{V}{l \times w} = \frac{⟦0⟧}{⟦1⟧ \times ⟦2⟧} = \frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$ cm.`,
+  '107zxyhfk8j': R`Un réservoir mesure ⟦0⟧ cm de long, ⟦1⟧ cm de large et ⟦2⟧ cm de haut. Combien de litres d’eau peut-il contenir ?`,
+  '1xdyfr0a4jd': R`$V = ⟦0⟧ \times ⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ cm³, et $1000 \text{ cm}^3 = 1 \text{ L}$, donc il contient $⟦4⟧ \div 1000 = ⟦5⟧$ L.`,
+  'j16awwfbde': R`Calculez l’aire totale d’un pavé droit de ⟦0⟧ cm × ⟦1⟧ cm × ⟦2⟧ cm.`,
+  '15zob952c7': R`$A = 2(lw + lh + wh) = 2(⟦0⟧ + ⟦1⟧ + ⟦2⟧) = ⟦3⟧$ cm².`,
+  'b7w1jgcvao': R`Un cube a un volume de ⟦0⟧ cm³. Quelle est la longueur de chaque arête ?`,
+  '29p9f2w08h': R`On cherche $s^3 = ⟦0⟧$. Comme $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, chaque arête mesure ⟦5⟧ cm.`,
+
+  // angles-shapes
+  '1zhvjckeb0g': R`
+<p>Les angles mesurent une rotation, en <b>degrés</b> (°). Un tour complet vaut $360^\circ$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Triangles</h3>
+<p><b>Équilatéral</b> : trois côtés égaux, chaque angle vaut $60^\circ$. <b>Isocèle</b> : deux côtés égaux et deux angles à la base égaux. <b>Quelconque</b> : aucun côté égal. Un triangle <b>rectangle</b> a un angle de $90^\circ$.</p>
+<h3>Polygones</h3>
+<p>Un polygone à $n$ côtés se découpe en $n - 2$ triangles à partir d’un sommet, donc</p>
+⟦2⟧
+<p>Dans un polygone <b>régulier</b>, tous les angles sont égaux ; chacun vaut donc $\frac{(n-2) \times 180^\circ}{n}$. Un hexagone régulier a des angles de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
+⟦3⟧`,
+  'k7wfdtk1dy': R`Type`,
+  '1czpi6e2j2z': R`Mesure`,
+  '2eamokno2qd': R`Aigu`,
+  '14yb8vum3mx': R`moins de $90^\circ$`,
+  '10qgoh7fpcr': R`Droit`,
+  '96isxim10t': R`exactement $90^\circ$`,
+  '29pmtotpc3r': R`Obtus`,
+  '18bc6xajfgk': R`entre $90^\circ$ et $180^\circ$`,
+  'zb7exyin0e': R`Plat`,
+  '1stepofrhwb': R`exactement $180^\circ$`,
+  '7pnkzl3606': R`Rentrant`,
+  '24bbunbptvm': R`entre $180^\circ$ et $360^\circ$`,
+  '2douwrf277u': R`<ul><li>Les angles sur une droite ont pour somme $180^\circ$.</li><li>Les angles autour d’un point ont pour somme $360^\circ$.</li><li>Les angles opposés par le sommet sont égaux.</li><li>La somme des angles d’un triangle vaut $180^\circ$ ; celle d’un quadrilatère, $360^\circ$.</li></ul>`,
+  '1g2z1i7tlna': R`\text{somme des angles intérieurs} = (n - 2) \times 180^\circ`,
+  '9r6qtn8gpk': R`<p>Un triangle a des angles de $48^\circ$ et $75^\circ$. Le troisième mesure $180^\circ - 48^\circ - 75^\circ = 57^\circ$.</p>`,
+  'fbd3n0ai0s': R`Deux angles d’un triangle mesurent $⟦0⟧^\circ$ et $⟦1⟧^\circ$. Combien mesure le troisième ?`,
+  '1mgnf9acc40': R`La somme des angles d’un triangle vaut $180^\circ$ : $180^\circ - ⟦0⟧^\circ - ⟦1⟧^\circ = ⟦2⟧^\circ$.`,
+  '17ra9ybal44': R`Deux angles sont côte à côte sur une droite. L’un mesure $⟦0⟧^\circ$. Combien mesure l’autre ?`,
+  '1uo9pac72dr': R`Les angles sur une droite ont pour somme $180^\circ$ : $180^\circ - ⟦0⟧^\circ = ⟦1⟧^\circ$.`,
+  'lbqlw4yngj': R`Quatre angles se rejoignent en un point. Trois d’entre eux mesurent $⟦0⟧^\circ$, $⟦1⟧^\circ$ et $⟦2⟧^\circ$. Combien mesure le quatrième ?`,
+  '1q0g9lewnyf': R`Les angles autour d’un point ont pour somme $360^\circ$ : $360^\circ - ⟦0⟧^\circ - ⟦1⟧^\circ - ⟦2⟧^\circ = ⟦3⟧^\circ$.`,
+  '1o7rxocgbe4': R`De quel type est un angle de $⟦0⟧^\circ$ ?`,
+  '2087xqcuhit': R`Aigu $\lt 90^\circ$ ; droit $= 90^\circ$ ; obtus entre $90^\circ$ et $180^\circ$ ; plat $= 180^\circ$ ; rentrant entre $180^\circ$ et $360^\circ$. Donc un angle de $⟦0⟧^\circ$ est <b>⟦1⟧</b>.`,
+  '1em7emit9v': R`Un quadrilatère a des angles de $⟦0⟧^\circ$, $⟦1⟧^\circ$ et $⟦2⟧^\circ$. Combien mesure le quatrième angle ?`,
+  '24pznbwnbef': R`La somme des angles d’un quadrilatère vaut $360^\circ$ : $360^\circ - ⟦0⟧^\circ - ⟦1⟧^\circ - ⟦2⟧^\circ = ⟦3⟧^\circ$.`,
+  '2egzcjm3tpx': R`pentagone`,
+  'v80sqcfxpp': R`hexagone`,
+  '81gchefl78': R`octogone`,
+  'ua45cwp3of': R`ennéagone`,
+  'luci9k7vz2': R`décagone`,
+  '1udhvg5ma2x': R`dodécagone`,
+  '27xxu0kf8rx': R`Quelle est la somme des angles intérieurs d’un polygone à ⟦0⟧ côtés (⟦1⟧) ?`,
+  'gm8iaj6tll': R`Il se découpe en $⟦0⟧ - 2 = ⟦1⟧$ triangles : $⟦2⟧ \times 180^\circ = ⟦3⟧^\circ$.`,
+  'qinptcb6uu': R`Combien mesure chaque angle intérieur d’un polygone régulier à ⟦0⟧ côtés (⟦1⟧) ?`,
+  '1do1n0lapzc': R`Somme $= (⟦0⟧ - 2) \times 180^\circ = ⟦1⟧^\circ$, répartie entre ⟦2⟧ angles égaux : $⟦3⟧^\circ \div ⟦4⟧ = ⟦5⟧^\circ$.`,
+  '2b3ubiiwfr4': R`Dans un triangle isocèle, l’angle entre les deux côtés égaux mesure $⟦0⟧^\circ$. Combien mesure chacun des deux autres angles ?`,
+  '1m260esohws': R`Les deux angles à la base sont égaux : $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
+
+  // data-basic
+  '1rkikmzq9kv': R`
+<p>Les données sont des informations que l’on recueille, comme des notes ou des fruits préférés. Un <b>tableau d’effectifs</b> indique combien de fois apparaît chaque valeur ; les <b>diagrammes en barres</b> et les <b>pictogrammes</b> montrent la même information sous forme visuelle.</p>
+<h3>Quatre indicateurs</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧`,
+  '2fsgim21nih': R`Indicateur`,
+  '1fy4t37t415': R`Comment le trouver`,
+  '18v4e4ulshl': R`Pour 3 ; 7 ; 7 ; 8 ; 10`,
+  'ppforkar60': R`Moyenne`,
+  'w9uhnv1ylu': R`somme des valeurs divisée par leur nombre`,
+  '15fhdhxeit5': R`Médiane`,
+  '1bp3iszr2ho': R`valeur du milieu après rangement`,
+  '2d8lw4ky362': R`Mode`,
+  'n6vk2dz4y0': R`valeur la plus fréquente`,
+  '8wgrdlq9w9': R`Étendue`,
+  'u26xwlcm82': R`plus grande − plus petite`,
+  '1ddos0ddk6b': R`<p>S’il y a un nombre <b>pair</b> de valeurs, la médiane est la moyenne des deux valeurs du milieu : la médiane de 2 ; 4 ; 9 ; 11 est $\frac{4 + 9}{2} = 6{,}5$.</p>`,
+  '1b84zb92lm7': R`<p>Notes : 12 ; 5 ; 9 ; 12 ; 7.</p><ul><li>Moyenne $= \frac{12 + 5 + 9 + 12 + 7}{5} = \frac{45}{5} = 9$</li><li>Rangées : 5 ; 7 ; 9 ; 12 ; 12 → médiane 9</li><li>Mode 12 · Étendue $12 - 5 = 7$</li></ul>`,
+  '1dcnrak0yuf': R`<p><b>Rangez</b> toujours les données avant de chercher la médiane. Le milieu de la liste non rangée est en général faux.</p>`,
+  'x21ub369ei': R`Calculez la moyenne de : ⟦0⟧.`,
+  '1p52jtmc0cq': R`On additionne les valeurs et on divise par leur nombre : $\frac{⟦0⟧}{⟦1⟧} = ⟦2⟧$.`,
+  'jf7mas4uc8': R`Trouvez la médiane de : ⟦0⟧.`,
+  '1yw7i4urov1': R`On range d’abord : ⟦0⟧. La valeur du milieu — la ⟦1⟧ᵉ de la liste rangée — est <b>⟦2⟧</b>.`,
+  '2g8sczm66bg': R`Trouvez le mode de : ⟦0⟧.`,
+  'tbuacyae4n': R`⟦0⟧ apparaît 3 fois — plus que toute autre valeur — donc le mode est <b>⟦1⟧</b>.`,
+  '1xtq8j2lty3': R`Trouvez l’étendue de : ⟦0⟧.`,
+  '15se826ipls': R`Étendue = plus grande − plus petite $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '2epb7vd8j91': R`Pommes`,
+  '17dpyen9bnr': R`Bananes`,
+  '7i14wwudqx': R`Mangues`,
+  '2401q57c6t': R`Raisins`,
+  '1e2lbgl4i2m': R`Oranges`,
+  '1n92q5m8dcn': R`Durians`,
+  '29y8laytfov': R`Papayes`,
+  '1y1q3z5e86a': R`Fruit`,
+  '282dadyo0i9': R`Élèves`,
+  'gcofhmi74h': R`Une classe a voté pour son fruit préféré.⟦0⟧Combien d’élèves ont voté en tout ?`,
+  '1x3hnjtfgqx': R`On additionne les effectifs : $⟦0⟧ = ⟦1⟧$.`,
+  '13d46zcnc3z': R`Une classe a voté pour son fruit préféré.⟦0⟧Combien d’élèves de plus ont choisi « ⟦1⟧ » plutôt que « ⟦2⟧ » ?`,
+  '1t8yn7xcnqm': R`$⟦0⟧ - ⟦1⟧ = ⟦2⟧$ élèves de plus.`,
+});

@@ -1,0 +1,211 @@
+/* Português — núcleo + ensino fundamental (valor posicional → divisores) */
+addT('pt', {
+  // core
+  '1hnygwzeeez': R`Verdadeiro`,
+  '12u8s6vu2gj': R`Falso`,
+  '1mc3pmcca9i': R`Subtraia ⟦0⟧ de todas as partes`,
+  '1flhu7k9ohj': R`Some ⟦0⟧ a todas as partes`,
+  '1g9usaftmli': R`Subtraia ⟦0⟧ dos dois lados`,
+  'rcyxvbe5bx': R`Some ⟦0⟧ aos dois lados`,
+  'fc0sowzn7c': R`Ideia-chave`,
+  '1oy7dzvank8': R`Exemplo resolvido`,
+  '1q1jscvjv55': R`Atenção`,
+  '1a2zghfpw7a': R`Digite uma fração como 7/12 (frações impróprias são aceitas).`,
+  '2wu7e9ekt1': R`Um retângulo de comprimento l e largura w, um triângulo de base b e altura h, e um trapézio de lados paralelos a e b e altura h`,
+
+  // place-value
+  'i1ejiqva2l': R`
+<p>Nosso sistema de numeração usa dez algarismos, de 0 a 9. A <b>posição</b> de um algarismo indica o seu <b>valor</b>: cada posição vale dez vezes a posição à sua direita.</p>
+⟦0⟧
+<p>Em <b>5 382 417</b>, o algarismo 8 está na dezena de milhar, então vale $8 \times 10\,000 = 80\,000$. O algarismo 3 vale $300\,000$.</p>
+<h3>Forma decomposta</h3>
+<p>Escrever um número como a soma dos valores posicionais mostra quanto vale cada algarismo:</p>
+⟦1⟧
+<p>O 0 na casa das dezenas <b>guarda o lugar</b>. Sem ele, 4 307 viraria 437.</p>
+<h3>Comparando números</h3>
+<p>Um número natural com mais algarismos é maior. Se dois números têm a mesma quantidade de algarismos, compare-os algarismo por algarismo a partir da esquerda; a primeira posição em que diferem decide. Assim, $52\,814 \gt 52\,781$, porque nas centenas $8 \gt 7$.</p>
+<h3>Arredondamento</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
+  'k8yn6x5f0c': R`Milhões`,
+  '1y40p90zlus': R`Centenas de milhar`,
+  '8rp03918ge': R`Dezenas de milhar`,
+  'y6ohcicccm': R`Unidades de milhar`,
+  '2bpfsjyefrh': R`Centenas`,
+  '12cshgy5to0': R`Dezenas`,
+  '48l24kh7s0': R`Unidades`,
+  '1h333nq85ni': R`<p>Para arredondar para uma posição, olhe o algarismo <b>imediatamente à direita</b> dela.</p><ul><li>5 ou mais: arredonde <b>para cima</b> (some um ao algarismo da posição).</li><li>4 ou menos: arredonde <b>para baixo</b> (o algarismo da posição não muda).</li></ul><p>Todos os algarismos depois da posição de arredondamento viram 0.</p>`,
+  '264ckm0rxdd': R`<p>Arredonde 3 462 para a centena mais próxima.</p><ol><li>O algarismo das centenas é 4. O algarismo à direita dele (dezenas) é 6.</li><li>6 é 5 ou mais, então arredondamos para cima: o 4 vira 5.</li><li>Resposta: <b>3 500</b>.</li></ol><p>Para a dezena mais próxima, 3 462 é 3 460; para a unidade de milhar mais próxima, é 3 000.</p>`,
+  '1b014azrv9g': R`<p>Olhe só o algarismo seguinte. 3 449 arredondado para a centena é 3 400, e não 3 500 — nunca arredonde em etapas.</p>`,
+  'rwpycs3uy5': R`das unidades`,
+  '48iq3xbr78': R`das dezenas`,
+  'evjeoal0o3': R`das centenas`,
+  '1wg89nrnvw3': R`das unidades de milhar`,
+  'humdf3fhgn': R`das dezenas de milhar`,
+  '7vj2b9yekp': R`das centenas de milhar`,
+  '1vvnln22yvc': R`dos milhões`,
+  '1k42apyhj2s': R`No número <b>⟦0⟧</b>, qual é o valor do algarismo <b>⟦1⟧</b>?`,
+  '1wls65y7jfe': R`O algarismo ⟦0⟧ é ⟦1⟧, então seu valor é $⟦2⟧ \times ⟦3⟧ = ⟦4⟧$.`,
+  '2ds03ywxgdr': R`dezena`,
+  'ct0emjf1zx': R`centena`,
+  '2bm9zrq1v5b': R`unidade de milhar`,
+  '1p8grh6ppw3': R`Arredonde <b>⟦0⟧</b> para a ⟦1⟧ mais próxima.`,
+  'ucpruditlj': R`Depois do algarismo ⟦0⟧ vem o ⟦1⟧. ⟦2⟧: ⟦3⟧ ≈ <b>⟦4⟧</b>.`,
+  '10zj9kfgz44': R`Ele é 5 ou mais, então arredondamos para cima`,
+  '2bd3oxw8hoc': R`Ele é menor que 5, então arredondamos para baixo`,
+  '2eobe5h8vjz': R`Qual número é igual a $⟦0⟧$?`,
+  '12ct2r4vi1w': R`Some os valores posicionais: $⟦0⟧ = ⟦1⟧$. Os zeros ocupam as posições vazias.`,
+  '1thskfj0azj': R`Qual destes números é o <b>maior</b>?<br>⟦0⟧`,
+  '1qw72id1e2m': R`Qual destes números é o <b>menor</b>?<br>⟦0⟧`,
+  'cdwrnsn0bw': R`Todos têm cinco algarismos, então compare a partir da esquerda. Do ⟦0⟧: ⟦1⟧.`,
+  '1hf4gas3oen': R`maior para o menor`,
+  '1uhrj1iztnj': R`menor para o maior`,
+
+  // add-sub
+  '2crp1hgq6k1': R`
+<p>A adição junta quantidades; a subtração descobre o que sobra ou a <b>diferença</b> entre duas quantidades. Para números grandes usamos o <b>algoritmo em colunas</b>: alinhe os algarismos pelo valor posicional e trabalhe da coluna das unidades para a esquerda.</p>
+<h3>Adição com reserva</h3>
+<p>Quando uma coluna soma 10 ou mais, escreva o algarismo das unidades e <b>leve</b> a dezena para a próxima coluna ("vai um").</p>
+⟦0⟧
+<h3>Subtração com empréstimo</h3>
+<p>Se o algarismo de cima de uma coluna for menor que o de baixo, <b>peça emprestado</b> (reagrupe) um da coluna seguinte: isso acrescenta 10 à coluna atual.</p>
+⟦1⟧
+⟦2⟧
+<h3>Problemas</h3>
+<p>Palavras como <i>ao todo, no total, a mais, aumentou</i> geralmente indicam adição. Palavras como <i>sobrou, restam, diferença, quantos a mais, a menos</i> geralmente indicam subtração. Pergunte-se sempre o que o problema realmente pede.</p>
+⟦3⟧`,
+  '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Unidades: $7 + 6 = 13$ → escreva 3 e vai 1.</li><li>Dezenas: $8 + 4 + 1 = 13$ → escreva 3 e vai 1.</li><li>Centenas: $5 + 8 + 1 = 14$ → escreva 4 e vai 1.</li><li>Unidades de milhar: $4 + 2 + 1 = 7$.</li></ol><p>Resposta: <b>7 433</b>.</p>`,
+  'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Unidades: 4 é menor que 8. O algarismo das dezenas é 0, então pegamos emprestado das centenas: 204 vira 1 centena, 9 dezenas e 14 unidades. $14 - 8 = 6$.</li><li>Dezenas: $9 - 5 = 4$.</li><li>Centenas: 1 é menor que 7, então pegamos emprestada uma unidade de milhar: $11 - 7 = 4$.</li><li>Unidades de milhar: $5 - 1 = 4$.</li></ol><p>Resposta: <b>4 446</b>.</p>`,
+  '1myl5xbp4pm': R`<p>Adição e subtração desfazem uma à outra. Confira uma subtração somando: $4\,446 + 1\,758 = 6\,204$ ✓. Isso também encontra números que faltam: se $\square + 348 = 1\,000$, então $\square = 1\,000 - 348 = 652$.</p>`,
+  '23w41b37di3': R`<p>Um erro comum é subtrair, em cada coluna, o algarismo menor do maior (por exemplo, escrever $52 - 38 = 26$). O certo é pedir emprestado: $52 - 38 = 14$.</p>`,
+  'jzpsrz7qv': R`Calcule $⟦0⟧ + ⟦1⟧$.`,
+  '11vnennk127': R`Alinhe os algarismos pelo valor posicional e some a partir das unidades, levando um sempre que uma coluna chegar a 10 ou mais: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$.`,
+  '2cqlmyuanc4': R`Calcule $⟦0⟧ - ⟦1⟧$.`,
+  '217um699krb': R`Subtraia coluna por coluna a partir das unidades, pedindo emprestado quando o algarismo de cima for menor: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$. Verificação: $⟦3⟧ + ⟦4⟧ = ⟦5⟧$.`,
+  '20q2iwal3wx': R`Que número vai no quadrado? $\square + ⟦0⟧ = ⟦1⟧$`,
+  '2vzsixgbwq': R`A subtração desfaz a adição: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+  '19k8gxx8enm': R`Uma biblioteca tinha ⟦0⟧ livros. Recebeu ⟦1⟧ livros novos e depois emprestou ⟦2⟧. Quantos livros restam na biblioteca?`,
+  '22c2nbk22nn': R`Some os livros novos e depois subtraia os emprestados: $⟦0⟧ + ⟦1⟧ - ⟦2⟧ = ⟦3⟧$.`,
+  'tjgizs9fjl': R`Mia`,
+  '1if8m7vmopf': R`Léo`,
+  '12t8l5omzh1': R`Sari`,
+  '26mi5um5hxm': R`Budi`,
+  '5ladyusi9v': R`Ana`,
+  '1e0eos7e481': R`Tomás`,
+  '28xor3epndt': R`Dewi`,
+  'fl1dlgr4st': R`Raka`,
+  'b83c8sskmz': R`Em um jogo, ⟦0⟧ fez ⟦1⟧ pontos e ⟦2⟧ fez ⟦3⟧. Quantos pontos a mais ⟦4⟧ fez?`,
+  'h14zpmlfj7': R`"Quantos a mais" pede a diferença: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
+
+  // mul-div
+  '12j6s3mfail': R`
+<p>A <b>multiplicação</b> é a adição repetida de grupos iguais: $4 \times 6$ significa 4 grupos de 6, ou seja, $6 + 6 + 6 + 6 = 24$. A <b>divisão</b> reparte uma quantidade em grupos iguais: $24 \div 6 = 4$.</p>
+⟦0⟧
+<h3>Multiplicando números maiores</h3>
+<p>Decomponha um dos números pelos valores posicionais, multiplique cada parte e some (é a propriedade distributiva em ação):</p>
+⟦1⟧
+<h3>Divisão e resto</h3>
+<p>Quando a divisão não é exata, o que sobra é o <b>resto</b>. Ele é sempre menor que o divisor.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '1rjytzik9fa': R`<p>Multiplicação e divisão desfazem uma à outra: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Na multiplicação a ordem não importa: $a \times b = b \times a$.</li><li>A multiplicação se distribui sobre a adição: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
+  '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
+  '11dzvmewikb': R`47 \div 5 = 9 \text{ resto } 2 \qquad \text{porque } 5 \times 9 + 2 = 47`,
+  '1z8tho01ahp': R`<p>150 alunos vão fazer um passeio. Cada ônibus leva 40 alunos. Quantos ônibus são necessários?</p><p>$150 \div 40 = 3$, resto 30. Três ônibus levam 120 alunos; os outros 30 também precisam de ônibus, então são necessários <b>4 ônibus</b>.</p>`,
+  '1g33a99esai': R`<p>Nos problemas, decida o que o resto significa. "Quantos ônibus são <i>necessários</i>?" arredonda para cima; "quantas caixas podem ser <i>completamente</i> cheias?" arredonda para baixo.</p>`,
+  '10v4h321li3': R`Calcule $⟦0⟧ \times ⟦1⟧$.`,
+  'h89yrotk3q': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, ou seja, ⟦3⟧ grupos de ⟦4⟧.`,
+  '2gi38wc5lfl': R`Decomponha ⟦0⟧ em ⟦1⟧ + ⟦2⟧: $⟦3⟧ \times ⟦4⟧ + ⟦5⟧ \times ⟦6⟧ = ⟦7⟧ + ⟦8⟧ = ⟦9⟧$.`,
+  '2g99zk4sonb': R`Calcule $⟦0⟧ \div ⟦1⟧$.`,
+  'cggzswltjw': R`A divisão desfaz a multiplicação: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$, então $⟦3⟧ \div ⟦4⟧ = ⟦5⟧$.`,
+  '7njwte8n8l': R`Qual é o resto da divisão de ⟦0⟧ por ⟦1⟧?`,
+  '1c2kbih8aei': R`$⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ e $⟦3⟧ - ⟦4⟧ = ⟦5⟧$, então $⟦6⟧ \div ⟦7⟧ = ⟦8⟧$, resto <b>⟦9⟧</b>.`,
+  '23lffvpxlg2': R`ovos`,
+  'isjmxkkk5m': R`cupcakes`,
+  'qd054tvbk9': R`lápis`,
+  '22kysml68r1': R`garrafas`,
+  '29eftju2pbv': R`É preciso guardar ⟦0⟧ ⟦1⟧ em caixas que comportam ⟦2⟧ cada uma. Quantas caixas são necessárias para guardar tudo?`,
+  '1pnydk75epc': R`Uma loja embala ⟦0⟧ ⟦1⟧ em caixas de ⟦2⟧. Quantas caixas podem ser <b>completamente</b> cheias?`,
+  '9w986eh8jp': R`$⟦0⟧ \div ⟦1⟧ = ⟦2⟧$, resto ⟦3⟧. ⟦4⟧`,
+  'dnbly4c6lj': R`Sobram ⟦0⟧ ⟦1⟧ que também precisam de uma caixa, então são necessárias <b>⟦2⟧</b> caixas.`,
+  'doig2i1un2': R`Só <b>⟦0⟧</b> caixas ficam cheias; sobram ⟦1⟧ ⟦2⟧.`,
+  '5ki7426a69': R`Um salão tem ⟦0⟧ fileiras de cadeiras, com ⟦1⟧ cadeiras em cada fileira. Quantas cadeiras há ao todo?`,
+  '13ytah9dyhs': R`Fileiras iguais significam multiplicação: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cadeiras.`,
+
+  // order-ops
+  'jeo8qdfjh8': R`
+<p>Quando um cálculo tem várias operações, todos precisam fazê-las na mesma ordem; caso contrário, a mesma expressão daria resultados diferentes. Essa ordem combinada se chama <b>ordem das operações</b>; em inglês, ela costuma ser lembrada pela sigla <b>PEMDAS</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '100vdkuw7cv': R`Etapa`,
+  '1ata9ppdhpl': R`Operação`,
+  '1i56r47suu5': R`Exemplo`,
+  'bct94f2duc': R`Parênteses`,
+  '152taipeiq': R`Potências e raízes`,
+  '1dq9oio2vod': R`Multiplicação e divisão — da esquerda para a direita`,
+  'ety1fhjk85': R`Adição e subtração — da esquerda para a direita`,
+  '20c9xxbu7nh': R`<p>Multiplicação e divisão têm a <b>mesma</b> prioridade, assim como adição e subtração. Dentro do mesmo nível, trabalhe da <b>esquerda para a direita</b>.</p>`,
+  'vpi6gbf1j5': R`<p>Calcule $20 - 8 \div 2 \times 3 + 1$.</p><ol><li>Primeiro divisão e multiplicação, da esquerda para a direita: $8 \div 2 = 4$ e depois $4 \times 3 = 12$.</li><li>Agora $20 - 12 + 1$, da esquerda para a direita: $8 + 1 = 9$.</li></ol><p>Resposta: <b>9</b>.</p>`,
+  'cx7umbw06o': R`<p>Calcule $(8 + 4) \times 3 - 2^3$.</p><ol><li>Parênteses: $8 + 4 = 12$.</li><li>Potências: $2^3 = 8$.</li><li>Multiplicação: $12 \times 3 = 36$.</li><li>Subtração: $36 - 8 = 28$.</li></ol>`,
+  '9qyvtl39mt': R`<p>"PEMDAS" não significa multiplicar antes de dividir. $12 \div 3 \times 2 = 8$, e não $12 \div 6 = 2$.</p>`,
+  '2boesugt2g3': R`Calcule $⟦0⟧ + ⟦1⟧ \times ⟦2⟧$.`,
+  '18k6kdrqfh9': R`Primeiro multiplique: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$. Depois some: $⟦3⟧ + ⟦4⟧ = ⟦5⟧$.`,
+  '13w7u6yvf66': R`Calcule $(⟦0⟧ + ⟦1⟧) \times ⟦2⟧ - ⟦3⟧$.`,
+  '1kgg8vz8ven': R`Parênteses: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$. Multiplicação: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Subtração: $⟦6⟧ - ⟦7⟧ = ⟦8⟧$.`,
+  'fpzk0whg2k': R`Calcule $⟦0⟧ - ⟦1⟧ \div ⟦2⟧ \times ⟦3⟧$.`,
+  '6i0q5bykj1': R`Primeiro divisão e multiplicação, da esquerda para a direita: $⟦0⟧ \div ⟦1⟧ = ⟦2⟧$ e depois $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$. Por fim, $⟦6⟧ - ⟦7⟧ = ⟦8⟧$.`,
+  '1f77fy0xem': R`Calcule $⟦0⟧ + ⟦1⟧^2 - ⟦2⟧$.`,
+  'isber9l7mx': R`Primeiro a potência: $⟦0⟧^2 = ⟦1⟧$. Depois, da esquerda para a direita: $⟦2⟧ + ⟦3⟧ - ⟦4⟧ = ⟦5⟧$.`,
+  '12cd51d72z4': R`Calcule $⟦0⟧ \times (⟦1⟧ + ⟦2⟧) \div ⟦3⟧$.`,
+  '1rwp21i838c': R`Parênteses: $⟦0⟧ + ⟦1⟧ = ⟦2⟧$. Depois, da esquerda para a direita: $⟦3⟧ \times ⟦4⟧ = ⟦5⟧$ e $⟦6⟧ \div ⟦7⟧ = ⟦8⟧$.`,
+  '16yj15t3yvl': R`Calcule $⟦0⟧ - ⟦1⟧ + ⟦2⟧$.`,
+  '2g7vu4g2g7r': R`Adição e subtração têm a mesma prioridade, então vá da esquerda para a direita: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$ e depois $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Somar $⟦6⟧ + ⟦7⟧$ primeiro daria, erradamente, ⟦8⟧.`,
+
+  // factors
+  'obrpwbkvog': R`
+<p>Um <b>divisor</b> (ou fator) de um número o divide exatamente. Um <b>múltiplo</b> de um número é esse número multiplicado por um número natural.</p>
+<ul><li>Divisores de 12: 1, 2, 3, 4, 6, 12 (eles vêm em pares: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Múltiplos de 12: 12, 24, 36, 48, …</li></ul>
+<h3>Números primos e compostos</h3>
+<p>Um número <b>primo</b> tem exatamente dois divisores: 1 e ele mesmo (2, 3, 5, 7, 11, 13, …). Um número <b>composto</b> tem mais de dois divisores. O 1 não é primo nem composto, e o 2 é o único primo par.</p>
+⟦0⟧
+<h3>Decomposição em fatores primos</h3>
+<p>Todo número natural maior que 1 pode ser escrito como produto de primos de uma única maneira. Use uma árvore de fatores: continue decompondo até que cada ramo termine em um primo.</p>
+⟦1⟧
+<h3>MDC e MMC</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '10ydoy6638h': R`Divisível por`,
+  '1u2j0a6t91o': R`Regra`,
+  '1fsfip1h2ap': R`o último algarismo é par`,
+  '26v1i9jjmmd': R`a soma dos algarismos é divisível por 3`,
+  'irydz9sqkz': R`os dois últimos algarismos formam um múltiplo de 4`,
+  'mwe5nagqkl': R`o último algarismo é 0 ou 5`,
+  'uitu5og8wz': R`é divisível por 2 e por 3`,
+  'h955yik0fz': R`a soma dos algarismos é divisível por 9`,
+  '185jxbw7gii': R`o último algarismo é 0`,
+  'sxhmc0c8k9': R`<p>O <b>máximo divisor comum</b> (MDC) é o maior número que divide os dois números. O <b>mínimo múltiplo comum</b> (MMC) é o menor número que é múltiplo dos dois.</p><p>Usando a decomposição em primos: o MDC pega cada primo comum com o <b>menor</b> expoente; o MMC pega todos os primos com o <b>maior</b> expoente.</p>`,
+  '2dcgjf0y6e9': R`<p>$24 = 2^3 \times 3$ e $36 = 2^2 \times 3^2$.</p><p>MDC $= 2^2 \times 3 = 12$. &nbsp; MMC $= 2^3 \times 3^2 = 72$.</p><p>Verificação: $\text{MDC} \times \text{MMC} = 12 \times 72 = 864 = 24 \times 36$ ✓ (isso vale sempre para dois números).</p>`,
+  '13dl2xstaq0': R`<p>Problemas de MDC falam de <i>dividir em grupos iguais</i> (o maior tamanho de grupo). Problemas de MMC falam de <i>coisas que voltam a acontecer juntas</i> (a primeira vez que os ciclos coincidem).</p>`,
+  '1v4c3frqq3d': R`Qual é o máximo divisor comum (MDC) de ⟦0⟧ e ⟦1⟧?`,
+  '8l33q80f9g': R`Divisores de ⟦0⟧: ⟦1⟧.<br>Divisores de ⟦2⟧: ⟦3⟧.<br>O maior divisor que eles têm em comum é <b>⟦4⟧</b>.`,
+  'slhedaglcs': R`Qual é o mínimo múltiplo comum (MMC) de ⟦0⟧ e ⟦1⟧?`,
+  '1gi8rsfc6pi': R`Múltiplos de ⟦0⟧: ⟦1⟧, …<br>Múltiplos de ⟦2⟧: ⟦3⟧, …<br>O primeiro em comum é <b>⟦4⟧</b>.`,
+  '15d9oj1fzj1': R`Qual destes números é <b>primo</b>?`,
+  'xvmwee4nwk': R`⟦0⟧ tem exatamente dois divisores, 1 e ⟦1⟧. Os outros são compostos: ⟦2⟧.`,
+  '151txls1vlc': R`Quantos divisores ⟦0⟧ tem?`,
+  '1tllv5888z': R`Liste os pares de divisores: ⟦0⟧. Os divisores são ⟦1⟧, ou seja, <b>⟦2⟧</b> divisores.`,
+  'rjpmb07v6a': R`Qual é a decomposição de ⟦0⟧ em fatores primos?`,
+  '162lv91sf8i': R`Vá dividindo por primos: ⟦0⟧ = ⟦1⟧. Todos os fatores são primos e, multiplicando-os de volta, obtemos ⟦2⟧.`,
+  '1dcblj5tqu6': R`Hana tem ⟦0⟧ contas vermelhas e ⟦1⟧ contas azuis. Ela faz pulseiras iguais usando todas as contas, cada uma com o mesmo número de contas vermelhas e o mesmo número de contas azuis. Qual é o maior número de pulseiras que ela pode fazer?`,
+  '16f0mrep69j': R`O número de pulseiras precisa dividir ⟦0⟧ e ⟦1⟧, então procure o MDC: $\text{MDC}(⟦2⟧, ⟦3⟧) = ⟦4⟧$. Ela pode fazer <b>⟦5⟧</b> pulseiras, cada uma com ⟦6⟧ contas vermelhas e ⟦7⟧ azuis.`,
+  '76jyl5vip0': R`Duas luzes acabaram de piscar juntas. Uma pisca a cada ⟦0⟧ segundos e a outra a cada ⟦1⟧ segundos. Depois de quantos segundos elas vão piscar juntas de novo?`,
+  '2ddehafzm6d': R`segundos`,
+  '1mfkmnfob4d': R`Elas piscam juntas nos múltiplos comuns de ⟦0⟧ e ⟦1⟧. O primeiro é o MMC: <b>⟦2⟧</b> segundos.`,
+});

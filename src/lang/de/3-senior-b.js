@@ -1,0 +1,139 @@
+/* Deutsch — Oberstufe (Folgen → Dreiecksberechnung) */
+addT('de', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>Dabei ist $a$ das erste und $l$ das letzte Glied.</p>
+⟦1⟧
+⟦2⟧
+<h3>Unendliche geometrische Reihen</h3>
+⟦3⟧
+<p>Beispiel: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Summenzeichen</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ bedeutet $f(1) + f(2) + \cdots + f(n)$. Nützlich: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ und $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`Arithmetisch`,
+  '1atqzl7ltey': R`Geometrisch`,
+  'zs186mkwh5': R`jedes Mal $d$ addieren`,
+  '160nuilyero': R`jedes Mal mit $r$ multiplizieren`,
+  '99dr6iy4ys': R`Summe von n Gliedern`,
+  '1yzmu3p7b4v': R`<p>Die Summe der ersten 20 Glieder von $3; 7; 11; \ldots$ ist $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>`,
+  '8pkxhjbkfd': R`<p>In einer arithmetischen Folge ist $u_4 = 17$ und $u_9 = 42$. Dazwischen liegen fünf Schritte $d$, also $5d = 25$, $d = 5$ und $a = 17 - 3 \times 5 = 2$.</p>`,
+  '3zsr22exdg': R`<p>Ist $|r| \lt 1$, werden die Glieder so schnell kleiner, dass die Summe einen endlichen Wert erreicht:</p>$$S_\infty = \frac{a}{1 - r}$$<p>Ist $|r| \ge 1$, hat die Reihe keine endliche Summe.</p>`,
+  '22swm7le3e': R`<p>Zwischen $u_p$ und $u_q$ liegen $q - p$ Schritte, nicht $q - p + 1$.</p>`,
+  'v83xyier66': R`In einer arithmetischen Folge ist $u_{⟦0⟧} = ⟦1⟧$ und $u_{⟦2⟧} = ⟦3⟧$. Bestimme $u_{⟦4⟧}$.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, also $d = ⟦3⟧$. Dann ist $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ und $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`Bestimme die Summe der ersten ⟦0⟧ Glieder der arithmetischen Folge ⟦1⟧; …`,
+  'vsiejpaurw': R`Bestimme das Glied $u_{⟦0⟧}$ der geometrischen Folge ⟦1⟧; …`,
+  '2fg2ivyt6zs': R`Bestimme die Summe der ersten ⟦0⟧ Glieder der geometrischen Reihe $⟦1⟧ + \cdots$`,
+  '6by3ukfsg3': R`Bestimme den Grenzwert der unendlichen geometrischen Reihe mit dem ersten Glied ⟦0⟧ und dem Quotienten $⟦1⟧$.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$, also $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`Berechne $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.`,
+  'zk5lcxjf3d': R`Leonie verdient im ersten Jahr ⟦0⟧ Euro, und ihr Gehalt steigt jedes Jahr um ⟦1⟧ Euro. Wie viel verdient sie insgesamt in ihren ersten ⟦2⟧ Jahren?`,
+  '222tg0c1ffy': R`Das ist eine arithmetische Reihe: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ Euro.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>In einem rechtwinkligen Dreieck gilt für einen spitzen Winkel $\theta$:</p>
+⟦0⟧
+<p>Merkhilfe: <b>GAGA-HHAG</b> (Sinus = Gegenkathete/Hypotenuse, Kosinus = Ankathete/Hypotenuse, Tangens = Gegenkathete/Ankathete). Außerdem ist $\tan\theta = \frac{\sin\theta}{\cos\theta}$, und die Kehrwerte sind $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Exakte Werte</h3>
+⟦1⟧
+<h3>Bogenmaß</h3>
+<p>$180^\circ = \pi$ im Bogenmaß. Von Grad ins Bogenmaß: mit $\frac{\pi}{180}$ multiplizieren; vom Bogenmaß in Grad: mit $\frac{180}{\pi}$ multiplizieren. Also $60^\circ = \frac{\pi}{3}$ und $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Der Einheitskreis</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{Gegenkathete}}{\text{Hypotenuse}} \qquad \cos\theta = \frac{\text{Ankathete}}{\text{Hypotenuse}} \qquad \tan\theta = \frac{\text{Gegenkathete}}{\text{Ankathete}}`,
+  'ig8vf2x1y6': R`sin θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`nicht definiert`,
+  'uyvhui04wr': R`<p>Für jeden Winkel $\theta$ ist der Punkt auf dem Einheitskreis $(\cos\theta; \sin\theta)$. Vorzeichen nach Quadranten — „<b>A</b>lle, <b>S</b>inus, <b>T</b>angens, <b>C</b>osinus“: alle positiv in I, der Sinus in II, der Tangens in III, der Kosinus in IV.</p><p>Nutze den <b>Bezugswinkel</b> (den spitzen Winkel zur $x$-Achse) mit dem richtigen Vorzeichen: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>Aus 30 m Entfernung beträgt der Höhenwinkel zur Spitze eines Turms $60^\circ$. Höhe $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52{,}0$ m.</p>`,
+  'neyxpix7b9': R`<p>Prüfe den Modus deines Taschenrechners (DEG oder RAD), bevor du trigonometrische Funktionen berechnest.</p>`,
+  '67i6rxexro': R`Bestimme den exakten Wert von $⟦0⟧ ⟦1⟧$.`,
+  'pdy7ypcls7': R`Exakte Werte wie sqrt(3)/2 werden akzeptiert.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ liegt im Quadranten ⟦2⟧, in dem $⟦3⟧$ ⟦4⟧ ist. Der Bezugswinkel ist $⟦5⟧^\circ$ und $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, also $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧Bei $⟦1⟧^\circ$ ist der Punkt auf dem Einheitskreis $⟦2⟧$ $= (\cos\theta; \sin\theta)$, also $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`Rechne $⟦0⟧^\circ$ ins Bogenmaß um.`,
+  'gs4x19407v': R`Mit $\frac{\pi}{180}$ multiplizieren: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`Rechne $⟦0⟧$ (Bogenmaß) in Grad um.`,
+  'zfi973h2bw': R`Mit $\frac{180}{\pi}$ multiplizieren: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`In einem rechtwinkligen Dreieck ist die Ankathete eines Winkels von $⟦0⟧^\circ$ ⟦1⟧ cm lang. Bestimme die Gegenkathete auf 2 Nachkommastellen.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{GK}}{⟦1⟧}$, also GK $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`Ein rechtwinkliges Dreieck hat die Hypotenuse ⟦0⟧ cm und einen Winkel von $⟦1⟧^\circ$. Bestimme die Gegenkathete dieses Winkels auf 2 Nachkommastellen.`,
+  '22kukzeyh6': R`Ein rechtwinkliges Dreieck hat die Hypotenuse ⟦0⟧ cm und einen Winkel von $⟦1⟧^\circ$. Bestimme die Ankathete dieses Winkels auf 2 Nachkommastellen.`,
+  'w56ix8w8yr': R`GK`,
+  '5ydwv3it97': R`AK`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, also ist die Seite $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  '2abmsiuwu52': R`$\theta$ ist spitz und $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Bestimme $⟦2⟧\theta$.`,
+  '1qudt03n4v8': R`Zeichne ein rechtwinkliges Dreieck mit Gegenkathete ⟦0⟧ und Hypotenuse ⟦1⟧; die Ankathete ist $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. Also $⟦5⟧$.`,
+  '28dk1p4hmng': R`Von einem Punkt ⟦0⟧ m vom Fuß eines Gebäudes entfernt beträgt der Höhenwinkel zur Spitze $⟦1⟧^\circ$. Wie hoch ist das Gebäude? Gib einen exakten Wert an.`,
+  '1fxpcv94bft': R`Exakte Werte wie 12sqrt(3) werden akzeptiert.`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ und $\tan ⟦2⟧^\circ = ⟦3⟧$, also $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`Quadrant I`,
+  '4o87w2367v': R`Quadrant II`,
+  '11djzpzc46w': R`Quadrant III`,
+  '26d39yjlrkj': R`Quadrant IV`,
+  '1t5qxibr3fa': R`In welchem Quadranten liegt $\theta$, wenn $⟦0⟧\theta ⟦1⟧ 0$ und $⟦2⟧\theta ⟦3⟧ 0$?`,
+  '1856p6n9vrk': R`Der Sinus ist positiv in I und II, der Kosinus in I und IV, der Tangens in I und III. Nur <b>⟦0⟧</b> erfüllt beide Bedingungen.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p>Eine <b>Identität</b> gilt für jeden Winkel. Die wichtigsten:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Trigonometrische Gleichungen lösen</h3>
+<p>Bestimme den Bezugswinkel und dann alle Winkel im geforderten Intervall mit dem richtigen Vorzeichen.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`Trigonometrischer Pythagoras`,
+  '28msif6x03y': R`Additionstheoreme`,
+  '1qlqqnnfd2i': R`Doppelwinkelformeln`,
+  '14xjp53gt4x': R`<p>Löse $\sin x = -\frac{1}{2}$ für $0^\circ \le x \lt 360^\circ$. Der Bezugswinkel ist $30^\circ$; der Sinus ist in den Quadranten III und IV negativ, also $x = 180^\circ + 30^\circ = 210^\circ$ oder $x = 360^\circ - 30^\circ = 330^\circ$.</p>`,
+  '1hkvix57r6q': R`<p>Ist $\sin\theta = \frac{3}{5}$ und liegt $\theta$ im Quadranten II, dann ist $\cos\theta = -\frac{4}{5}$ — der trigonometrische Pythagoras liefert den Betrag, der Quadrant das Vorzeichen.</p>`,
+  '64164qr2jw': R`$\theta$ ist spitz und $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Bestimme $\sin 2\theta$.`,
+  '27wxa35nxaa': R`Gegeben ist $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Bestimme $\cos 2\theta$.`,
+  'szbqx0thv8': R`Löse $⟦0⟧ x = ⟦1⟧$ für $0^\circ \le x \lt 360^\circ$.`,
+  '22m72qx0p66': R`Gib die Winkel in Grad durch ein Semikolon getrennt ein, zum Beispiel 30; 150.`,
+  'ygon4mdoxw': R`Der Bezugswinkel ist $⟦0⟧^\circ$. $⟦1⟧$ ist ⟦2⟧ in den Quadranten von $⟦3⟧^\circ$ und $⟦4⟧^\circ$, also $x = ⟦5⟧^\circ$ oder $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`die dritte binomische Formel, dann $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`die Doppelwinkelformel`,
+  'sj6onjglro': R`das Ausmultiplizieren, das $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$ ergibt`,
+  '7gzo83e030': R`Nutze ⟦0⟧: $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`Bestimme den exakten Wert von $⟦0⟧$.`,
+  '2ayoc6nyniw': R`Exakte Werte wie (sqrt(6)+sqrt(2))/4 werden akzeptiert.`,
+  '1mewvixpsgq': R`Schreibe es als $⟦0⟧$ und nutze das Additionstheorem mit den exakten Werten für $30^\circ$, $45^\circ$ und $60^\circ$: Das Ergebnis ist $⟦1⟧$.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ und $\theta$ liegt im Quadranten ⟦1⟧. Bestimme $⟦2⟧$.`,
+  '19cq8bi37ib': R`Das Dreieck hat die Seiten ⟦0⟧, ⟦1⟧ und ⟦2⟧. Im Quadranten ⟦3⟧ ist der Sinus ⟦4⟧ und der Kosinus ⟦5⟧, also $\sin\theta = ⟦6⟧$ und $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>Beschrifte ein Dreieck so, dass die Seite $a$ dem Winkel $A$ gegenüberliegt, $b$ dem Winkel $B$ und $c$ dem Winkel $C$. Diese Sätze gelten für <b>jedes</b> Dreieck, nicht nur für rechtwinklige.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Verwende ihn, wenn du eine Seite und den gegenüberliegenden Winkel sowie eine weitere Seite oder einen weiteren Winkel kennst.</p>`,
+  'mp16igkhf3': R`Sinussatz`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Verwende ihn bei zwei Seiten und dem eingeschlossenen Winkel (SWS) oder bei drei Seiten (SSS).</p>`,
+  'kgaid4s1rf': R`Kosinussatz`,
+  '1w8yehsbjfu': R`$$\text{Fläche} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Heron: } \text{Fläche} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>Seiten 5 und 8 mit eingeschlossenem Winkel $60^\circ$: Die dritte Seite ist $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, und der Flächeninhalt ist $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>`,
+  '11plyaa7o04': R`<p>Beim Berechnen eines Winkels kann der Sinussatz zwei mögliche Dreiecke liefern (der „mehrdeutige Fall“): $\sin B = 0{,}8$ erlaubt $B \approx 53{,}1^\circ$ <i>oder</i> $B \approx 126{,}9^\circ$. Prüfe, ob beide passen.</p>`,
+  'l2pu7cls8u': R`Im Dreieck $ABC$ ist $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm und $A = ⟦2⟧^\circ$. Bestimme $a$ auf 2 Nachkommastellen.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, also $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`Ein Dreieck hat die Seiten ⟦0⟧, ⟦1⟧ und ⟦2⟧. Bestimme den Winkel, der der Seite der Länge ⟦3⟧ gegenüberliegt.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, also $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`Im Dreieck $ABC$ ist $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$ und $a = ⟦2⟧$ cm. Bestimme $b$ auf 2 Nachkommastellen.`,
+  'i5vdhhm6yu': R`Sinussatz: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, also $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`Bestimme den exakten Flächeninhalt eines Dreiecks mit den Seiten ⟦0⟧ cm und ⟦1⟧ cm und dem eingeschlossenen Winkel $⟦2⟧^\circ$.`,
+  '25opm4iwiww': R`Exakte Werte wie 6sqrt(3) werden akzeptiert.`,
+  'cb99xoymur': R`Fläche $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$ mit $\sin ⟦3⟧^\circ = ⟦4⟧$, also $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`Bestimme mit der Heron-Formel den Flächeninhalt eines Dreiecks mit den Seiten ⟦0⟧, ⟦1⟧ und ⟦2⟧.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Fläche $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});

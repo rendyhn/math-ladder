@@ -1,0 +1,139 @@
+/* Español — Bachillerato (sucesiones → resolución de triángulos) */
+addT('es', {
+  // sequences
+  '214j3dem4vw': R`
+⟦0⟧
+<p>Aquí $a$ es el primer término y $l$ el último.</p>
+⟦1⟧
+⟦2⟧
+<h3>Series geométricas infinitas</h3>
+⟦3⟧
+<p>Ejemplo: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+<h3>Notación sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Datos útiles: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ y $\sum_{k=1}^{n} c = cn$.</p>
+⟦4⟧`,
+  'lwukzez7ke': R`Aritmética`,
+  '1atqzl7ltey': R`Geométrica`,
+  'zs186mkwh5': R`se suma $d$ cada vez`,
+  '160nuilyero': R`se multiplica por $r$ cada vez`,
+  '99dr6iy4ys': R`Suma de n términos`,
+  '1yzmu3p7b4v': R`<p>La suma de los 20 primeros términos de $3; 7; 11; \ldots$ es $S_{20} = \frac{20}{2}(2 \cdot 3 + 19 \cdot 4) = 10 \times 82 = 820$.</p>`,
+  '8pkxhjbkfd': R`<p>En una sucesión aritmética, $u_4 = 17$ y $u_9 = 42$. Los separan cinco pasos de $d$, así que $5d = 25$, $d = 5$ y $a = 17 - 3 \times 5 = 2$.</p>`,
+  '3zsr22exdg': R`<p>Si $|r| \lt 1$, los términos disminuyen lo bastante rápido como para que la suma se estabilice en un valor finito:</p>$$S_\infty = \frac{a}{1 - r}$$<p>Si $|r| \ge 1$, la serie no tiene suma finita.</p>`,
+  '22swm7le3e': R`<p>Entre $u_p$ y $u_q$ hay $q - p$ pasos, no $q - p + 1$.</p>`,
+  'v83xyier66': R`En una sucesión aritmética, $u_{⟦0⟧} = ⟦1⟧$ y $u_{⟦2⟧} = ⟦3⟧$. Halla $u_{⟦4⟧}$.`,
+  '1vrn63sndie': R`$(⟦0⟧ - ⟦1⟧)d = ⟦2⟧$, así que $d = ⟦3⟧$. Entonces $a = u_{⟦4⟧} - ⟦5⟧d = ⟦6⟧$ y $u_{⟦7⟧} = ⟦8⟧ + ⟦9⟧(⟦10⟧) = ⟦11⟧$.`,
+  'ltcwrvbh9s': R`Halla la suma de los ⟦0⟧ primeros términos de la sucesión aritmética ⟦1⟧; …`,
+  'vsiejpaurw': R`Halla el término $u_{⟦0⟧}$ de la sucesión geométrica ⟦1⟧; …`,
+  '2fg2ivyt6zs': R`Halla la suma de los ⟦0⟧ primeros términos de la serie geométrica $⟦1⟧ + \cdots$`,
+  '6by3ukfsg3': R`Halla la suma infinita de la serie geométrica de primer término ⟦0⟧ y razón $⟦1⟧$.`,
+  '1c4uqsdtxyr': R`$|r| \lt 1$, así que $S_\infty = \frac{a}{1 - r} = \frac{⟦0⟧}{1 - ⟦1⟧} = \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
+  'm56xkk6hj0': R`Calcula $\displaystyle\sum_{k=1}^{⟦0⟧} (⟦1⟧)$.`,
+  'zk5lcxjf3d': R`El sueldo de Lucía en su primer año es de ⟦0⟧ dólares y aumenta ⟦1⟧ dólares cada año. ¿Cuánto gana en total en sus ⟦2⟧ primeros años?`,
+  '222tg0c1ffy': R`Es una serie aritmética: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ dólares.`,
+
+  // trig-basics
+  '25ycjlixcfv': R`
+<p>En un triángulo rectángulo, respecto a un ángulo agudo $\theta$:</p>
+⟦0⟧
+<p>Regla mnemotécnica: <b>SOH-CAH-TOA</b> (seno = opuesto/hipotenusa, coseno = adyacente/hipotenusa, tangente = opuesto/adyacente). Además, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, y las razones recíprocas son $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Valores exactos</h3>
+⟦1⟧
+<h3>Radianes</h3>
+<p>$180^\circ = \pi$ radianes. Para pasar de grados a radianes se multiplica por $\frac{\pi}{180}$; de radianes a grados, por $\frac{180}{\pi}$. Así, $60^\circ = \frac{\pi}{3}$ y $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>La circunferencia unitaria</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '27jmws7mgxv': R`\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}} \qquad \cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}} \qquad \tan\theta = \frac{\text{opuesto}}{\text{adyacente}}`,
+  'ig8vf2x1y6': R`sen θ`,
+  '1qsg2x3tak': R`cos θ`,
+  '27gocnzhjrz': R`tan θ`,
+  '5bd73v8u9s': R`no definida`,
+  'uyvhui04wr': R`<p>Para cualquier ángulo $\theta$, el punto de la circunferencia unitaria es $(\cos\theta; \sin\theta)$. Signos por cuadrante: «<b>T</b>odas, <b>S</b>eno, <b>T</b>angente, <b>C</b>oseno»: todas positivas en I, el seno en II, la tangente en III y el coseno en IV.</p><p>Usa el <b>ángulo de referencia</b> (el ángulo agudo con el eje $x$) y el signo correcto: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`,
+  'hizqd1rl8k': R`<p>Desde 30 m de distancia, el ángulo de elevación a lo alto de una torre es de $60^\circ$. Altura $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52{,}0$ m.</p>`,
+  'neyxpix7b9': R`<p>Comprueba el modo de tu calculadora (DEG o RAD) antes de calcular funciones trigonométricas.</p>`,
+  '67i6rxexro': R`Halla el valor exacto de $⟦0⟧ ⟦1⟧$.`,
+  'pdy7ypcls7': R`Se aceptan valores exactos como sqrt(3)/2.`,
+  '2b66gqgt1o8': R`⟦0⟧$⟦1⟧^\circ$ está en el cuadrante ⟦2⟧, donde $⟦3⟧$ es ⟦4⟧. El ángulo de referencia es $⟦5⟧^\circ$ y $⟦6⟧ ⟦7⟧^\circ = ⟦8⟧$, así que $⟦9⟧ ⟦10⟧ = ⟦11⟧$.`,
+  '1fngyjdzj11': R`⟦0⟧En $⟦1⟧^\circ$ el punto de la circunferencia unitaria es $⟦2⟧$ $= (\cos\theta; \sin\theta)$, así que $⟦3⟧ ⟦4⟧ = ⟦5⟧$.`,
+  'd9ifn6iock': R`Convierte $⟦0⟧^\circ$ a radianes.`,
+  'gs4x19407v': R`Multiplica por $\frac{\pi}{180}$: $⟦0⟧ \times \frac{\pi}{180} = ⟦1⟧$.`,
+  'hgjh318aic': R`Convierte $⟦0⟧$ radianes a grados.`,
+  'zfi973h2bw': R`Multiplica por $\frac{180}{\pi}$: $⟦0⟧ \times \frac{180^\circ}{\pi} = ⟦1⟧^\circ$.`,
+  '1lrzh5jmv15': R`En un triángulo rectángulo, el cateto adyacente a un ángulo de $⟦0⟧^\circ$ mide ⟦1⟧ cm. Halla el cateto opuesto, con 2 decimales.`,
+  '1p43u7j4b13': R`$\tan ⟦0⟧^\circ = \frac{\text{op}}{⟦1⟧}$, así que op $= ⟦2⟧\tan ⟦3⟧^\circ \approx ⟦4⟧$ cm.`,
+  '8jiaz8zixv': R`Un triángulo rectángulo tiene hipotenusa ⟦0⟧ cm y un ángulo de $⟦1⟧^\circ$. Halla el cateto opuesto a ese ángulo, con 2 decimales.`,
+  '22kukzeyh6': R`Un triángulo rectángulo tiene hipotenusa ⟦0⟧ cm y un ángulo de $⟦1⟧^\circ$. Halla el cateto adyacente a ese ángulo, con 2 decimales.`,
+  '187jvg9zdbu': R`$⟦0⟧ ⟦1⟧^\circ = \frac{\text{⟦2⟧}}{⟦3⟧}$, así que el cateto $= ⟦4⟧⟦5⟧ ⟦6⟧^\circ \approx ⟦7⟧$ cm.`,
+  'w56ix8w8yr': R`op`,
+  '5ydwv3it97': R`ady`,
+  '2abmsiuwu52': R`$\theta$ es agudo y $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Halla $⟦2⟧\theta$.`,
+  '1qudt03n4v8': R`Dibuja un triángulo rectángulo con cateto opuesto ⟦0⟧ e hipotenusa ⟦1⟧; el cateto adyacente es $\sqrt{⟦2⟧^2 - ⟦3⟧^2} = ⟦4⟧$. Así que $⟦5⟧$.`,
+  '28dk1p4hmng': R`Desde un punto a ⟦0⟧ m del pie de un edificio, el ángulo de elevación a lo alto es de $⟦1⟧^\circ$. ¿Cuánto mide el edificio? Da una respuesta exacta.`,
+  '1fxpcv94bft': R`Se aceptan respuestas exactas como 12sqrt(3).`,
+  'yywe4b70u1': R`$h = ⟦0⟧\tan ⟦1⟧^\circ$ y $\tan ⟦2⟧^\circ = ⟦3⟧$, así que $h = ⟦4⟧$ m.`,
+  '1ttcab6tj5m': R`Cuadrante I`,
+  '4o87w2367v': R`Cuadrante II`,
+  '11djzpzc46w': R`Cuadrante III`,
+  '26d39yjlrkj': R`Cuadrante IV`,
+  '1t5qxibr3fa': R`¿En qué cuadrante está $\theta$ si $⟦0⟧\theta ⟦1⟧ 0$ y $⟦2⟧\theta ⟦3⟧ 0$?`,
+  '1856p6n9vrk': R`El seno es positivo en I y II; el coseno, en I y IV; la tangente, en I y III. Solo el <b>⟦0⟧</b> cumple ambas condiciones.`,
+
+  // trig-identities
+  'v1udjwhzk5': R`
+<p>Una <b>identidad</b> se cumple para todo ángulo. Las más importantes:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Resolver ecuaciones trigonométricas</h3>
+<p>Halla el ángulo de referencia y luego todos los ángulos del intervalo pedido que tengan el signo correcto.</p>
+⟦3⟧
+⟦4⟧`,
+  '23mroepg91v': R`Identidades pitagóricas`,
+  '28msif6x03y': R`Ángulos compuestos`,
+  '1qlqqnnfd2i': R`Ángulo doble`,
+  '14xjp53gt4x': R`<p>Resuelve $\sin x = -\frac{1}{2}$ para $0^\circ \le x \lt 360^\circ$. El ángulo de referencia es $30^\circ$; el seno es negativo en los cuadrantes III y IV, así que $x = 180^\circ + 30^\circ = 210^\circ$ o $x = 360^\circ - 30^\circ = 330^\circ$.</p>`,
+  '1hkvix57r6q': R`<p>Si $\sin\theta = \frac{3}{5}$ y $\theta$ está en el cuadrante II, entonces $\cos\theta = -\frac{4}{5}$: la identidad pitagórica da el valor absoluto y el cuadrante da el signo.</p>`,
+  '64164qr2jw': R`$\theta$ es agudo y $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$. Halla $\sin 2\theta$.`,
+  '27wxa35nxaa': R`Sabiendo que $\sin\theta = \frac{⟦0⟧}{⟦1⟧}$, halla $\cos 2\theta$.`,
+  'szbqx0thv8': R`Resuelve $⟦0⟧ x = ⟦1⟧$ para $0^\circ \le x \lt 360^\circ$.`,
+  '22m72qx0p66': R`Escribe los ángulos en grados separados por punto y coma, p. ej. 30; 150.`,
+  'ygon4mdoxw': R`El ángulo de referencia es $⟦0⟧^\circ$. $⟦1⟧$ es ⟦2⟧ en los cuadrantes de $⟦3⟧^\circ$ y $⟦4⟧^\circ$, así que $x = ⟦5⟧^\circ$ o $x = ⟦6⟧^\circ$.`,
+  '15odwmxybxs': R`la diferencia de cuadrados y luego $1 - \sin^2 x = \cos^2 x$`,
+  'x5u3qd3gs1': R`la fórmula del ángulo doble`,
+  'sj6onjglro': R`el desarrollo, que da $\sin^2 x + \cos^2 x + 2\sin x\cos x - 1$`,
+  '7gzo83e030': R`Usa ⟦0⟧: $⟦1⟧ = ⟦2⟧$.`,
+  '1ico65e8qdc': R`Halla el valor exacto de $⟦0⟧$.`,
+  '2ayoc6nyniw': R`Se aceptan respuestas exactas como (sqrt(6)+sqrt(2))/4.`,
+  '1mewvixpsgq': R`Escríbelo como $⟦0⟧$ y usa la fórmula del ángulo compuesto con los valores exactos de $30^\circ$, $45^\circ$ y $60^\circ$: el resultado es $⟦1⟧$.`,
+  'ahced7ioyb': R`$\tan\theta = ⟦0⟧$ y $\theta$ está en el cuadrante ⟦1⟧. Halla $⟦2⟧$.`,
+  '19cq8bi37ib': R`El triángulo tiene lados ⟦0⟧, ⟦1⟧ y ⟦2⟧. En el cuadrante ⟦3⟧, el seno es ⟦4⟧ y el coseno es ⟦5⟧, así que $\sin\theta = ⟦6⟧$ y $\cos\theta = ⟦7⟧$.`,
+
+  // triangle-rules
+  '2ga1qjtwo42': R`
+<p>Nombra un triángulo de modo que el lado $a$ sea opuesto al ángulo $A$, $b$ opuesto a $B$ y $c$ opuesto a $C$. Estas reglas sirven para <b>cualquier</b> triángulo, no solo para los rectángulos.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Úsalo cuando conozcas un lado y su ángulo opuesto, además de otro lado u otro ángulo.</p>`,
+  'mp16igkhf3': R`Teorema del seno`,
+  'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Úsalo con dos lados y el ángulo comprendido (LAL), o con los tres lados (LLL).</p>`,
+  'kgaid4s1rf': R`Teorema del coseno`,
+  '1w8yehsbjfu': R`$$\text{Área} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Herón: } \text{Área} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`,
+  '26feyop5vyd': R`<p>Lados 5 y 8 con un ángulo comprendido de $60^\circ$: el tercer lado es $\sqrt{25 + 64 - 2(5)(8)\cos 60^\circ} = \sqrt{49} = 7$, y el área es $\frac{1}{2}(5)(8)\sin 60^\circ = 10\sqrt{3}$.</p>`,
+  '11plyaa7o04': R`<p>El teorema del seno puede dar dos triángulos posibles al hallar un ángulo (el «caso ambiguo»): $\sin B = 0{,}8$ permite $B \approx 53{,}1^\circ$ <i>o</i> $B \approx 126{,}9^\circ$. Comprueba si cada uno es válido.</p>`,
+  'l2pu7cls8u': R`En el triángulo $ABC$, $b = ⟦0⟧$ cm, $c = ⟦1⟧$ cm y $A = ⟦2⟧^\circ$. Halla $a$ con 2 decimales.`,
+  '27jp4mdtjl6': R`$a^2 = ⟦0⟧^2 + ⟦1⟧^2 - 2(⟦2⟧)(⟦3⟧)\cos ⟦4⟧^\circ \approx ⟦5⟧$, así que $a \approx ⟦6⟧$ cm.`,
+  '1s6102ghcou': R`Un triángulo tiene lados ⟦0⟧, ⟦1⟧ y ⟦2⟧. Halla el ángulo opuesto al lado de longitud ⟦3⟧.`,
+  'adoadf3ehm': R`$\cos\theta = \frac{⟦0⟧^2 + ⟦1⟧^2 - ⟦2⟧^2}{2(⟦3⟧)(⟦4⟧)} = \frac{⟦5⟧}{⟦6⟧} = ⟦7⟧$, así que $\theta = ⟦8⟧^\circ$.`,
+  '3e8310hzv': R`En el triángulo $ABC$, $A = ⟦0⟧^\circ$, $B = ⟦1⟧^\circ$ y $a = ⟦2⟧$ cm. Halla $b$ con 2 decimales.`,
+  'i5vdhhm6yu': R`Teorema del seno: $\frac{b}{\sin ⟦0⟧^\circ} = \frac{⟦1⟧}{\sin ⟦2⟧^\circ}$, así que $b = \frac{⟦3⟧\sin ⟦4⟧^\circ}{\sin ⟦5⟧^\circ} \approx ⟦6⟧$ cm.`,
+  '1uuy2y52gu0': R`Halla el área exacta de un triángulo con lados de ⟦0⟧ cm y ⟦1⟧ cm y un ángulo comprendido de $⟦2⟧^\circ$.`,
+  '25opm4iwiww': R`Se aceptan respuestas exactas como 6sqrt(3).`,
+  'cb99xoymur': R`Área $= \frac{1}{2}ab\sin C = \frac{1}{2}(⟦0⟧)(⟦1⟧)\sin ⟦2⟧^\circ$, con $\sin ⟦3⟧^\circ = ⟦4⟧$, lo que da $⟦5⟧$ cm².`,
+  '1dwe3yjuxqj': R`Usa la fórmula de Herón para hallar el área de un triángulo con lados ⟦0⟧, ⟦1⟧ y ⟦2⟧.`,
+  '8vmvle7x3': R`$s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Área $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.`,
+});
