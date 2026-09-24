@@ -78,6 +78,11 @@ To add a language: add its code to `LANGS` in `tools/i18n.py` and to `LANGS` and
 | `tools/i18n.py` | Catalogue and translation checker. |
 | `build.py` | Build script. |
 
+## License
+
+- **Code** (the app, question generators, build script and tools): [MIT](LICENSE).
+- **Educational content** (lessons, questions, worked solutions, topic links and all translations): [CC BY-NC 4.0](LICENSE-CONTENT). You may share and adapt it with credit to *Math Ladder by rendyhn*, but not for commercial use. Free use in classrooms, tutoring and self-study is welcome. Ask for permission for commercial use.
+
 ---
 
 © 2026 @rendyhn
