@@ -71,6 +71,8 @@ addUI('pt', {
   pageOf: R`Página ⟦0⟧ de ⟦1⟧`,
   printToast: R`Escolha “Salvar como PDF” na janela de impressão para exportar. Se nenhuma janela abrir, este visualizador bloqueia a impressão: abra o arquivo HTML baixado no Chrome ou no Edge e imprima por lá.`,
   langFail: R`Não foi possível carregar este idioma; a página está em inglês.`,
+  themeDark: R`Mudar para o modo noturno`,
+  themeLight: R`Mudar para o modo diurno`,
 });
 addMeta('pt', {
   levels: {

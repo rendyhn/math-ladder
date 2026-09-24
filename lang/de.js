@@ -71,6 +71,8 @@ addUI('de', {
   pageOf: R`Seite ⟦0⟧ von ⟦1⟧`,
   printToast: R`Wähle im Druckdialog „Als PDF speichern“, um zu exportieren. Wenn kein Dialog erscheint, blockiert diese Ansicht das Drucken – öffne die heruntergeladene HTML-Datei in Chrome oder Edge und drucke dort.`,
   langFail: R`Diese Sprache konnte nicht geladen werden; die Seite wird auf Englisch angezeigt.`,
+  themeDark: R`Zum Nachtmodus wechseln`,
+  themeLight: R`Zum Tagmodus wechseln`,
 });
 addMeta('de', {
   levels: {

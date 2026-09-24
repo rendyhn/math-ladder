@@ -71,6 +71,8 @@ addUI('zh', {
   pageOf: R`第 ⟦0⟧ 页，共 ⟦1⟧ 页`,
   printToast: R`在打印对话框中选择“另存为 PDF”即可导出。如果没有弹出对话框，说明当前查看器禁止打印——请在 Chrome 或 Edge 中打开下载的 HTML 文件后再打印。`,
   langFail: R`无法加载该语言，页面以英文显示。`,
+  themeDark: R`切换到夜间模式`,
+  themeLight: R`切换到日间模式`,
 });
 addMeta('zh', {
   levels: {

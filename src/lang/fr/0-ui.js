@@ -71,6 +71,8 @@ addUI('fr', {
   pageOf: R`Page ⟦0⟧ sur ⟦1⟧`,
   printToast: R`Choisissez « Enregistrer au format PDF » dans la boîte d’impression pour exporter. Si aucune boîte ne s’ouvre, ce lecteur bloque l’impression : ouvrez le fichier HTML téléchargé dans Chrome ou Edge et imprimez depuis celui-ci.`,
   langFail: R`Impossible de charger cette langue ; la page est affichée en anglais.`,
+  themeDark: R`Passer en mode nuit`,
+  themeLight: R`Passer en mode jour`,
 });
 addMeta('fr', {
   levels: {

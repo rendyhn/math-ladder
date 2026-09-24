@@ -71,6 +71,8 @@ addUI('es', {
   pageOf: R`Página ⟦0⟧ de ⟦1⟧`,
   printToast: R`Elige «Guardar como PDF» en el cuadro de impresión para exportar. Si no aparece ningún cuadro, este visor bloquea la impresión: abre el archivo HTML descargado en Chrome o Edge e imprime desde allí.`,
   langFail: R`No se pudo cargar este idioma, así que la página se muestra en inglés.`,
+  themeDark: R`Cambiar al modo noche`,
+  themeLight: R`Cambiar al modo día`,
 });
 addMeta('es', {
   levels: {
