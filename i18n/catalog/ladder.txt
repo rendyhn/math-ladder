@@ -1,0 +1,197 @@
+##### core
+@qeiew1mndp
+Column addition and subtraction line digits up by place value, and carrying moves a ten into the next place.
+@1jpm1intgmb
+Multiplication is repeated addition, and division undoes multiplication.
+@5wxy40oljq
+The order of operations decides which of $+$, $-$, $\times$ and $\div$ comes first in a longer calculation.
+@10sha3zlzp3
+Factors and multiples are the numbers that divide a number exactly, or that you get by multiplying it.
+@4wwa4bmv2r
+Simplifying fractions and finding a common denominator use common factors and the lowest common multiple.
+@sh9lbghpe9
+Decimals extend place value to the right of the ones place: tenths, hundredths, thousandths.
+@irkoozgpjt
+A decimal is a fraction whose denominator is 10, 100, 1000 and so on.
+@p34b5uh54s
+Percent means “out of a hundred”: 25% is the fraction $\frac{25}{100} = \frac{1}{4}$.
+@231i108op1x
+Percentages are converted to decimals to calculate with them: 8% of a price is $0.08 \times$ the price.
+@o2gl9i6l2
+Converting between metric units multiplies or divides by 10, 100 or 1000, which moves the decimal point.
+@25wcbpclu4
+The area of a rectangle is length times width.
+@2634ih96gsm
+Lengths and areas are measured in units such as cm and cm², which must match before you calculate.
+@kwo8mlyup8
+The volume of a prism is the area of its base times its height, and surface area adds up the areas of its faces.
+@1v95ytyiz1t
+Angle facts, such as “angles on a straight line add up to 180°”, are used by adding and subtracting angles.
+@bcjde87onv
+The mean is the total of the values divided by how many values there are.
+@uhivuskhe4
+Integers extend the number line below zero; adding and subtracting them follows the same ideas, with signs.
+@14qn14hzx13
+A power is repeated multiplication: $2^5 = 2 \times 2 \times 2 \times 2 \times 2$.
+@hr39w4wzvv
+Scientific notation writes a number as $a \times 10^n$, using powers of ten.
+@qonxs1x7d1
+The number $a$ in $a \times 10^n$ is a decimal from 1 up to 10.
+@23aa0qkt117
+A ratio compares quantities the way a fraction does, and a proportion says two fractions are equal.
+@r03wloegxg
+Letters stand for numbers that may be negative, so expressions are simplified with the rules for signed numbers.
+@21h80w1us7d
+Expanding brackets and substituting values into an expression follow the order of operations.
+@dsfd6oq44q
+Solving an equation means simplifying the expressions on each side, then undoing operations.
+@chsc7bja9g
+Inequalities are solved like equations, except that the sign flips when you multiply or divide by a negative number.
+@1rnu9h0j44t
+Sets of factors, multiples and primes are typical first examples of sets and Venn diagrams.
+@1mojvmv6g25
+The graph of a linear equation in $x$ and $y$ is a straight line, and every point on it is a solution.
+@ofsdmnc7db
+The gradient of a line is a rate: the change in $y$ for each unit change in $x$.
+@zd8khoatau
+Substitution and elimination turn a system into a single linear equation in one unknown.
+@1euaco9nn3z
+The solution of a system of two linear equations is the point where their two lines cross.
+@296jzhjbpfo
+The theorem $a^2 + b^2 = c^2$ is worked with squares and square roots.
+@27afy2qgea8
+The theorem is a fact about right-angled triangles and which side is the hypotenuse.
+@1c7m4ao6ge7
+Circumference and the area of a circle extend perimeter and area to a curved shape.
+@4ai3wcl267
+Cylinders, cones and spheres are round, so their formulas use $\pi$ and the radius.
+@fxdb4tsyw2
+The volume and surface area of prisms are extended to cylinders, cones, pyramids and spheres.
+@9a6kx1e4yh
+Mean, median and mode are joined by measures of spread such as the range and quartiles.
+@17gd79svwx2
+A probability is a fraction: favourable outcomes out of all equally likely outcomes.
+@6oqshsyd21
+Profit, loss, discount, tax and interest are all percentages of an amount.
+@s18kq836ov
+The $n$th term of a pattern is an algebraic expression in $n$.
+@1673zqtap3t
+Similar shapes have all pairs of corresponding sides in the same ratio.
+@nhm1k0jf87
+Transformations and similarity keep angles the same, so angle facts identify similar shapes.
+@2awcjz6ag0h
+Factorising and completing the square are skills of rearranging algebraic expressions.
+@axjxa88p8j
+Once a quadratic is factorised, each factor set to zero is a linear equation.
+@3ai29ta3bd
+The roots of a quadratic equation are where its parabola crosses the $x$-axis.
+@2fe079f86oc
+Graphs, intercepts and the coordinate plane carry over from straight lines to parabolas.
+@1dyq2iw6ttf
+A linear function is the first example of a rule that gives each input exactly one output.
+@bhyxgzt11y
+A logarithm is an exponent, so the laws of exponents become the laws of logarithms.
+@dhaomm7cmc
+The logarithm $\log_a x$ is the inverse function of the exponential $a^x$.
+@1i0ckjdy4m3
+Arithmetic and geometric sequences make number patterns precise and add formulas for their sums.
+@2dkcig1f7s5
+Trigonometric ratios compare the sides of a right-angled triangle, and on the unit circle $\sin^2\theta + \cos^2\theta = 1$ is Pythagoras' theorem.
+@28o7ie6opej
+A trigonometric ratio depends only on the angle because right-angled triangles with equal angles are similar.
+@11vomgqg97n
+Identities are built from the definitions of sine, cosine and tangent on the unit circle.
+@1aaktv1yqz7
+Many trigonometric equations turn into a quadratic in $\sin x$ or $\cos x$.
+@13me5uymk2c
+The sine rule and cosine rule extend the trigonometric ratios to triangles without a right angle.
+@da1pvgcuq2
+A quadratic is a polynomial of degree 2; polynomial division and the remainder theorem generalise its factorising.
+@e0bc8izwug
+A system of linear equations can be written as one matrix equation $AX = B$ and solved with the inverse matrix.
+@12j5n3poamr
+The magnitude of a vector is found with Pythagoras' theorem.
+@1rc52s5n9t0
+The angle between two vectors, and splitting a vector into components, use trigonometry.
+@15k09f0soai
+A limit describes the value a function's output approaches as its input approaches a point.
+@2cxg9hybda1
+The derivative is defined as a limit: the gradient between two points as they move together.
+@201djzmlsb3
+A derivative is the gradient of the tangent line, extending the gradient of a straight line to curves.
+@ruft2tqdak
+Integration reverses differentiation; this is the Fundamental Theorem of Calculus.
+@sp8kuu3a74
+A definite integral measures the area under a curve by adding up thin rectangles.
+@1i0nrfbe5bb
+Counting rests on the multiplication principle: the numbers of choices at each step multiply.
+@2f23y9h56n3
+Rules for combined, independent and conditional events build on probability as a fraction of outcomes.
+@c88bt9u9sf
+Permutations and combinations count the outcomes when there are too many to list.
+@cnqeudl3aq
+Variance, standard deviation and distributions go further than the range and quartiles.
+@64oncg04w1
+Distance, midpoint and gradient in the coordinate plane lead to the equations of lines and circles.
+@1n2jj8p5uea
+The equation of a circle, $(x - a)^2 + (y - b)^2 = r^2$, is Pythagoras' theorem for the distance to the centre.
+@rsywiledqf
+Constraints are linear inequalities, and together their graphs form the feasible region.
+@1hwyr5azmza
+The boundaries of the feasible region and the level lines of the objective function are straight lines.
+@1v8ndsdqg9i
+“And”, “or” and “not” in logic match intersection, union and complement of sets.
+@2fbt3zsv0xe
+The chain, product and quotient rules and implicit differentiation extend the basic derivative rules.
+@1oh2ya4wsji
+Differentiating $e^x$ and $\ln x$, and logarithmic differentiation, use the laws of exponents and logarithms.
+@284ysrnl7bq
+Optimisation, related rates and curve sketching apply the rules of differentiation to real problems.
+@2gi28jy2yt1
+Substitution and integration by parts extend the basic antiderivatives.
+@7zalhvgsd9
+Substitution reverses the chain rule, and integration by parts reverses the product rule.
+@lf24voao9c
+Areas, volumes of revolution and arc lengths all lead to integrals that must then be evaluated.
+@1hviqnspnff
+Infinite series continue the sums of arithmetic and geometric sequences without end.
+@15f8uacuddq
+A series converges when the limit of its partial sums exists.
+@2g4278341z3
+A partial derivative differentiates with respect to one variable while treating the others as constants.
+@19utg29r90g
+The gradient and directional derivatives are vectors.
+@2ds3dtqg3pn
+A differential equation is an equation linking a function to its derivatives.
+@saspoe9ooe
+Solving a differential equation usually ends with an integration.
+@ot9xqwxvdo
+Linear algebra studies matrices as maps, with determinants, inverses, rank and eigenvalues.
+@1cobeg25pvp
+Vector spaces generalise the vectors of geometry to any number of dimensions.
+@tls844q11g
+Complex numbers first appear as the roots of a quadratic with a negative discriminant.
+@1z3ue7jl9zc
+The polar form describes a complex number by its modulus and an angle, using sine and cosine.
+@19602jed52d
+The binomial, Poisson and normal distributions are built on the rules of probability and counting.
+@1mhdhr61iex
+For a continuous distribution, a probability is an area under the density curve.
+@1lgg9vh00wv
+Inference starts from a sample summarised by its mean and standard deviation.
+@1s8qoieebkn
+Confidence intervals and hypothesis tests rely on the normal and $t$ distributions.
+@pq7m9yqcpf
+Proofs, sets and relations in discrete mathematics are written in the language of logic.
+@ao11coj5na
+Counting principles are a central part of discrete mathematics.
+@175iqzjsa7u
+Newton's method uses the derivative to home in on a root.
+@2cephu1nsk4
+The trapezoidal rule and Simpson's rule approximate definite integrals.
+@23gedxxnvwc
+Gradient, divergence and curl are built from partial derivatives, and line and surface integrals extend multiple integrals.
+@19mvnrfi5rk
+The Laplace transform turns a differential equation into an algebraic equation.
+@da64d9071l
+The Laplace transform is an improper integral, often worked out with integration by parts.

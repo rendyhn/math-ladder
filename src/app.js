@@ -87,6 +87,11 @@ const UI_EN = {
   pageOf: 'Page ⟦0⟧ of ⟦1⟧',
   printToast: 'Choose “Save as PDF” in the print dialog to export. If no dialog opens, this viewer blocks printing — open the downloaded HTML file in Chrome or Edge and print from there.',
   langFail: 'This language could not be loaded, so the page is shown in English.',
+  ladderHead: 'Where this topic sits',
+  buildsOn: 'Builds on',
+  leadsTo: 'Leads to',
+  ladderStart: 'A starting point: no earlier topic is needed.',
+  ladderTop: 'The top of this branch of the ladder.',
 };
 const ui = (k, ...vals) => fillT((I18N.ui && I18N.ui[k]) || UI_EN[k] || k, vals);
 const MODE_KEYS = { mixed: 'modeMixed', mc: 'modeMc', fill: 'modeFill' };
@@ -121,6 +126,11 @@ LEVELS.forEach((lv, li) => {
   TOPICS.set(lv.review.id, lv.review);
 });
 const ALL = LEVELS.flatMap(l => l.topics);
+LADDER.forEach(e => {
+  const a = TOPICS.get(e.from), b = TOPICS.get(e.to);
+  if (!a || !b || a.review || b.review) { console.warn('ladder: unknown topic in', e.from, '->', e.to); return; }
+  (b.needs || (b.needs = [])).push(e); (a.opens || (a.opens = [])).push(e);
+});
 
 /* ---------------- settings (per-viewer convenience only) ---------------- */
 const store = {
@@ -416,6 +426,7 @@ function renderLesson(t) {
   const body = typeof t.lesson === 'function' ? t.lesson() : t.lesson;
   setHTML($('#panel'), `
     <div class="lesson-tools no-print"><button type="button" class="btn btn-small btn-ghost" data-act="print-lesson">${ICON.print}${esc(ui('printLesson'))}</button></div>
+    ${ladderLinks(t)}
     <div class="prose">${body}</div>
     ${sourceLine()}
     <div class="lesson-foot no-print">
@@ -425,6 +436,14 @@ function renderLesson(t) {
         ${next ? `<a href="#${next.id}" class="pager-next"><small>${esc(ui('next'))}</small>${esc(tTitle(next))}</a>` : '<span></span>'}
       </nav>
     </div>`);
+}
+/* prerequisites and next topics, each with the one-sentence reason for the link */
+function ladderLinks(t) {
+  const item = (other, e) => `<li><a href="#${other.id}" style="--lv: var(--${other.level.color})"><span class="rung" aria-hidden="true">${other.level.index + 1}</span><span>${esc(tTitle(other))}</span></a><p>${e.why()}</p></li>`;
+  const col = (key, list, pick, empty) => `<div class="rungs-col"><h2 class="kicker">${esc(ui(key))}</h2>${list && list.length
+    ? `<ul>${list.map(e => item(TOPICS.get(pick(e)), e)).join('')}</ul>` : `<p class="rungs-empty">${esc(ui(empty))}</p>`}</div>`;
+  return `<details class="rungs no-print"${store.get('ladderOpen', true) ? ' open' : ''}><summary>${ICON.chev}${esc(ui('ladderHead'))}</summary>
+    <div class="rungs-cols">${col('buildsOn', t.needs, e => e.from, 'ladderStart')}${col('leadsTo', t.opens, e => e.to, 'ladderTop')}</div></details>`;
 }
 function getSheet(t, fresh) {
   let sh = sheets.get(t.id);
@@ -567,6 +586,7 @@ function initialLang() {
 }
 
 /* ---------------- events ---------------- */
+main.addEventListener('toggle', e => { if (e.target.classList && e.target.classList.contains('rungs')) store.set('ladderOpen', e.target.open); }, true);
 main.addEventListener('click', e => {
   const btn = e.target.closest('[data-act], .seg-btn'); if (!btn) return;
   const t = current.view === 'topic' ? TOPICS.get(current.id) : null;

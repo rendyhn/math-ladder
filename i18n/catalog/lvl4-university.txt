@@ -768,7 +768,7 @@ Convicting an innocent defendant (H₀: innocent)
 Letting a guilty defendant go free (H₀: innocent)
 @yce1tww5je  ; 0=d
 What kind of outcome is this? <i>⟦0⟧</i>.
-@f5q8ah45y5  ; 0=ans.toLowerCase()
+@f5q8ah45y5  ; 0=unc(ans)
 Type I = rejecting a true $H_0$ (a false alarm); Type II = missing a false $H_0$. So this is: <b>⟦0⟧</b>.
 @17su48d7rp0  ; 0=lvl | 1=E | 2=sd
 What is the smallest sample size giving a ⟦0⟧% confidence interval with margin of error at most ⟦1⟧, if $\sigma = ⟦2⟧$?
