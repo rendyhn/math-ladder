@@ -1,5 +1,7 @@
 # Math Ladder
 
+<img src="logo.svg" width="96" alt="">
+
 Lessons and practice worksheets from elementary school to university: 66 topics in 12 languages. Every worksheet is generated fresh when it opens, with an answer key and print-ready pages.
 
 ## Contents
