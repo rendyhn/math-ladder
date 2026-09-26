@@ -1,18 +1,6 @@
 /* Español — Universidad (álgebra lineal → transformada de Laplace) */
 addT('es', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Sistemas lineales y rango</h3>
-<p>Un sistema $A\mathbf{x} = \mathbf{b}$ se resuelve reduciendo por filas la matriz ampliada $[A \mid \mathbf{b}]$ a forma escalonada. El <b>rango</b> de $A$ es el número de pivotes (filas no nulas en la forma escalonada).</p>
-⟦0⟧
-<h3>Determinantes</h3>
-⟦1⟧
-<p>Propiedades útiles para matrices $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Regla de Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Valores propios y vectores propios</h3>
-⟦2⟧
-⟦3⟧
-<p>Si $A$ tiene $n$ vectores propios independientes, es <b>diagonalizable</b>: $A = PDP^{-1}$, con los vectores propios como columnas de $P$ y los valores propios en la diagonal de $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Teorema del rango:</b> para una matriz $m \times n$, $\text{rango}(A) + \text{nulidad}(A) = n$. Una matriz cuadrada $A$ es invertible $\iff \det A \ne 0 \iff$ sus columnas son linealmente independientes $\iff \text{rango} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Para una matriz $2 \times 2$: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. Los valores propios suman la traza y su producto es el determinante.</p>`,
@@ -44,15 +32,6 @@ addT('es', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, así que $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>La unidad imaginaria cumple $i^2 = -1$. Un número complejo es $z = a + bi$, con parte real $\text{Re}(z) = a$ y parte imaginaria $\text{Im}(z) = b$. Las potencias de $i$ se repiten cada cuatro: $i; -1; -i; 1; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Forma polar y fórmula de Euler</h3>
-⟦2⟧
-⟦3⟧
-<p>Las raíces $n$-ésimas de la unidad son $e^{2\pi ik/n}$ para $k = 0; 1; \ldots; n - 1$: puntos igualmente espaciados en la circunferencia unidad.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Multiplicar`,
   '1lvuh3a6n9s': R`Conjugado`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, y $z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('es', {
   '1xd7417ut46': R`Sea $z = ⟦0⟧$. Halla $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p>Una <b>variable aleatoria</b> $X$ asigna números a los resultados. Para una $X$ discreta con probabilidades $p(x)$:</p>
-⟦0⟧
-⟦1⟧
-<h3>La distribución normal</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Distribución`,
   'z5bw2hz29r': R`P(X = k) o densidad`,
@@ -120,17 +91,6 @@ addT('es', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ y $\text{Var}(X) = ⟦1⟧$. Halla $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>Usamos un estadístico de la <b>muestra</b> (como $\bar{x}$) para estimar un parámetro de la <b>población</b> (como $\mu$). Por el <b>teorema central del límite</b>, para $n$ grande la media muestral es aproximadamente normal con media $\mu$ y <b>error típico</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Intervalos de confianza</h3>
-⟦0⟧
-<p>Para lograr un margen de error $E$ se necesita $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (redondeando hacia arriba). Si $\sigma$ es desconocida, usa $s$ y la distribución $t$.</p>
-<h3>Contrastes de hipótesis</h3>
-<ol><li>Plantea $H_0$ (p. ej. $\mu = \mu_0$) y $H_1$.</li><li>Calcula un estadístico de contraste, p. ej. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Halla el <b>p-valor</b>: la probabilidad, suponiendo $H_0$, de un resultado al menos tan extremo.</li><li>Si $p \le \alpha$, rechaza $H_0$; si no, no se rechaza.</li></ol>
-⟦1⟧
-<h3>Regresión lineal</h3>
-<p>La recta de mínimos cuadrados $\hat{y} = a + bx$ tiene pendiente $b = r\frac{s_y}{s_x}$ y pasa por $(\bar{x}; \bar{y})$, así que $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\%);\; 1{,}96 \;(95\%);\; 2{,}576 \;(99\%)`,
   '7nca7j57l5': R`H₀ verdadera`,
   '2e0zey7f13x': R`H₀ falsa`,
@@ -172,17 +132,6 @@ addT('es', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, así que se redondea hacia arriba: $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Teoría de números</h3>
-<p>$a \equiv b \pmod n$ significa que $n$ divide a $a - b$; $a \bmod n$ es el resto en $\{0; 1; \ldots; n - 1\}$. Las congruencias se pueden sumar y multiplicar, y las potencias se reducen paso a paso.</p>
-⟦0⟧
-⟦1⟧
-<p>El <b>inverso modular</b> de $a$ módulo $n$ es el $x$ con $ax \equiv 1 \pmod n$; existe exactamente cuando $\gcd(a, n) = 1$.</p>
-<h3>Conteo</h3>
-<ul><li>Funciones de un conjunto de tamaño $m$ en uno de tamaño $n$: $n^m$; las inyectivas: $n(n-1)\cdots(n-m+1)$.</li><li>Inclusión–exclusión: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Principio del palomar:</b> si más de $kn$ objetos van a $n$ cajas, alguna caja recibe al menos $k + 1$.</li></ul>
-<h3>Recurrencias y grafos</h3>
-<p>Una recurrencia define cada término a partir de los anteriores, como $a_n = 2a_{n-1} + 1$, $a_0 = 1$. En un grafo, el <b>lema del apretón de manos</b> dice que $\sum \deg(v) = 2|E|$; $K_n$ tiene $\binom{n}{2}$ aristas; un árbol con $n$ vértices tiene $n - 1$ aristas; un grafo conexo tiene un circuito euleriano si y solo si todos los grados son pares.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Algoritmo de Euclides:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, repetido hasta que el resto sea 0.</p><p><b>Pequeño teorema de Fermat:</b> si $p$ es primo y $p \nmid a$, entonces $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Así que el mcd es 18.</p><p>$2^{100} \bmod 7$: como $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>En problemas de inclusión–exclusión ("divisible por 3 o por 5"), la intersección es la divisibilidad por el <b>mcm</b>, 15.</p>`,
@@ -223,18 +172,6 @@ addT('es', {
   '27kjdpfw0sg': R`Con ⟦0⟧ categorías, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ personas podrían evitarlo; una más obliga a un grupo de ⟦4⟧: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Los métodos numéricos aproximan respuestas que no tienen una forma cerrada cómoda. Importan dos tipos de error: el de <b>truncamiento</b> (del método) y el de <b>redondeo</b> (de la precisión finita).</p>
-⟦0⟧
-<h3>Cálculo de raíces</h3>
-<ul><li><b>Bisección:</b> si $f(a)$ y $f(b)$ tienen signos opuestos, evalúa el punto medio $m$ y quédate con la mitad donde cambia el signo. Lento pero seguro: el error se reduce a la mitad en cada paso.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Muy rápido cerca de una raíz simple (convergencia cuadrática), pero puede fallar con un mal punto de partida o si $f' \approx 0$.</li></ul>
-⟦1⟧
-<h3>Integración numérica</h3>
-⟦2⟧
-<p>Aquí $h = \frac{b - a}{n}$. La regla de Simpson es exacta para polinomios de grado hasta 3.</p>
-<h3>Método de Euler</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{error absoluto} = |x_{\text{real}} - x_{\text{aprox}}| \qquad \text{error relativo} = \frac{|x_{\text{real}} - x_{\text{aprox}}|}{|x_{\text{real}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ mediante $f(x) = x^2 - 10$ desde $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$: ya es correcto con 4 decimales.</p>`,
   'vx6qz5zup7': R`\text{Trapecios: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ par}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('es', {
   '6utp8finkn': R`$⟦0⟧$ se aproxima por ⟦1⟧. Halla el error relativo en porcentaje, con 3 decimales.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p>Un <b>campo vectorial</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ asigna un vector a cada punto, como la velocidad del viento o una fuerza. Con $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
-⟦0⟧
-<p>La divergencia mide el flujo que sale de un punto; el rotacional mide la rotación.</p>
-<h3>Integrales de línea y campos conservativos</h3>
-⟦1⟧
-⟦2⟧
-<h3>Los grandes teoremas</h3>
-⟦3⟧
-<p>Una consecuencia elegante del teorema de Green: el área de $D$ es $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ es <b>conservativo</b> si $\mathbf{F} = \nabla\varphi$ para un potencial $\varphi$. Entonces $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ para cualquier camino de $A$ a $B$. En el plano (dominio simplemente conexo), $(P, Q)$ es conservativo si y solo si $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, así que es conservativo con $\varphi = x^2y + 3y$. De $(0; 0)$ a $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
@@ -293,13 +219,6 @@ addT('es', {
   '4awle3me9d': R`Integra $P$ respecto de $x$: $\varphi = ⟦0⟧ + g(y)$. Entonces $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ da $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Las transformadas inversas suelen requerir primero fracciones parciales y luego buscar en la tabla.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linealidad:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Derivadas:</b> $\mathcal{L}\{y'\} = sY - y(0)$ y $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$: así las ecuaciones diferenciales se convierten en álgebra.</p>`,
   'ie964pskzz': R`<p>Resuelve $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, así que $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Invirtiendo: $y = 3\cos 2t + \sin 2t$.</p>`,

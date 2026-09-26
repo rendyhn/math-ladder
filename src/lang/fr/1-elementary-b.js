@@ -1,23 +1,6 @@
 /* Français — primaire (fractions → mesures) */
 addT('fr', {
   // fractions
-  '1j59vvw5wlm': R`
-<p>Une <b>fraction</b> $\frac{a}{b}$ désigne $a$ parts sur $b$ parts égales. Le nombre du haut est le <b>numérateur</b> ; celui du bas est le <b>dénominateur</b>.</p>
-<h3>Fractions égales et fraction irréductible</h3>
-<p>Multiplier ou diviser le numérateur et le dénominateur par un même nombre donne une fraction égale : $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Pour <b>simplifier</b>, on divise les deux par leur PGCD :</p>
-⟦0⟧
-<h3>Nombres mixtes</h3>
-<p>$2\frac{1}{3}$ signifie $2 + \frac{1}{3}$. Sous forme de fraction : $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Addition et soustraction</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplication et division</h3>
-⟦3⟧
-<p>Pour diviser, on <b>garde</b> la première fraction, on <b>change</b> ÷ en × et on <b>inverse</b> la seconde fraction.</p>
-⟦4⟧
-<h3>Fraction d’une quantité</h3>
-<p>On divise par le dénominateur, puis on multiplie par le numérateur : $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>On ne peut additionner ou soustraire que des fractions de <b>même dénominateur</b>. On les réécrit avec un dénominateur commun (le PPCM des dénominateurs), puis on additionne ou soustrait les numérateurs.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>N’additionnez jamais les dénominateurs : $\frac{1}{2} + \frac{1}{3}$ vaut $\frac{5}{6}$, et non $\frac{2}{5}$.</p>`,
@@ -43,23 +26,6 @@ addT('fr', {
   '2er4a94vvmc': R`On les compare sous forme décimale (ou avec un dénominateur commun) : ⟦0⟧. La plus petite est $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Les nombres décimaux prolongent la numération à droite des unités. Chaque rang vaut un dixième du rang situé à sa gauche.</p>
-⟦0⟧
-<p>Ainsi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Comparer des décimaux</h3>
-<p>Donnez aux nombres le même nombre de chiffres après la virgule en ajoutant des zéros, puis comparez : $0{,}5 = 0{,}50 \gt 0{,}45$. Un décimal plus long n’est pas forcément plus grand !</p>
-<h3>Addition et soustraction</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplication</h3>
-<p>On multiplie comme s’il n’y avait pas de virgule, puis on compte le nombre total de chiffres après la virgule dans les facteurs : le résultat en a autant.</p>
-⟦3⟧
-<h3>Division et conversions</h3>
-<p>Multiplier par 10, 100 ou 1000 décale les chiffres de 1, 2 ou 3 rangs vers la gauche (le nombre grandit) ; diviser les décale vers la droite. Une fraction devient un décimal en divisant le numérateur par le dénominateur : $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Arrondir des décimaux</h3>
-<p>Même règle que pour les entiers : on regarde le chiffre suivant. $6{,}847$ arrondi au dixième près donne $6{,}8$ ; au centième près, $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Dixièmes`,
   '1usmp59h50n': R`Centièmes`,
   'biszmhnvcw': R`Millièmes`,
@@ -87,16 +53,6 @@ addT('fr', {
   'clxur1r60o': R`Écrivez-les tous avec trois chiffres après la virgule : ⟦0⟧. Le plus petit est <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Pour cent</b> signifie « sur 100 » : $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>Les trois questions de base</h3>
-⟦1⟧
-⟦2⟧
-<h3>Hausses, baisses et réductions</h3>
-<p>Une réduction de $20\%$ sur 80 euros fait économiser $0{,}2 \times 80 = 16$ euros ; le prix soldé est donc $80 - 16 = 64$ euros. Plus rapide : on paie $80\%$ du prix, soit $0{,}8 \times 80 = 64$.</p>
-<p>Une hausse de $p\%$ revient à multiplier par $1 + \frac{p}{100}$ ; une baisse, à multiplier par $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Fraction`,
   '21lfn42y4af': R`Décimal`,
   '1vaz29jk1go': R`Pourcentage`,
@@ -118,15 +74,6 @@ addT('fr', {
   '260avkxsjev': R`Variation : ⟦0⟧ euros. Pourcentage de baisse : ⟦1⟧ — on divise toujours par le prix <b>initial</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>Le système métrique repose sur les puissances de dix, avec des préfixes qui indiquent la taille d’une unité.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Les durées</h3>
-<p>Le temps n’est <i>pas</i> décimal : une heure compte 60 minutes, pas 100. Pour calculer une durée, avancez par étapes : de 09:35 à 13:10, il y a 25 min (jusqu’à 10:00) + 3 h (jusqu’à 13:00) + 10 min = 3 h 35 min = 215 minutes.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Préfixe`,
   '18vrcwaxvwu': R`Signification`,
   '1j1ms4p35q': R`Exemples`,

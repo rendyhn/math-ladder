@@ -14,20 +14,6 @@ addT('pt', {
   '2wu7e9ekt1': R`Um retângulo de comprimento l e largura w, um triângulo de base b e altura h, e um trapézio de lados paralelos a e b e altura h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Nosso sistema de numeração usa dez algarismos, de 0 a 9. A <b>posição</b> de um algarismo indica o seu <b>valor</b>: cada posição vale dez vezes a posição à sua direita.</p>
-⟦0⟧
-<p>Em <b>5 382 417</b>, o algarismo 8 está na dezena de milhar, então vale $8 \times 10\,000 = 80\,000$. O algarismo 3 vale $300\,000$.</p>
-<h3>Forma decomposta</h3>
-<p>Escrever um número como a soma dos valores posicionais mostra quanto vale cada algarismo:</p>
-⟦1⟧
-<p>O 0 na casa das dezenas <b>guarda o lugar</b>. Sem ele, 4 307 viraria 437.</p>
-<h3>Comparando números</h3>
-<p>Um número natural com mais algarismos é maior. Se dois números têm a mesma quantidade de algarismos, compare-os algarismo por algarismo a partir da esquerda; a primeira posição em que diferem decide. Assim, $52\,814 \gt 52\,781$, porque nas centenas $8 \gt 7$.</p>
-<h3>Arredondamento</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Milhões`,
   '1y40p90zlus': R`Centenas de milhar`,
@@ -64,18 +50,6 @@ addT('pt', {
   '1uhrj1iztnj': R`menor para o maior`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>A adição junta quantidades; a subtração descobre o que sobra ou a <b>diferença</b> entre duas quantidades. Para números grandes usamos o <b>algoritmo em colunas</b>: alinhe os algarismos pelo valor posicional e trabalhe da coluna das unidades para a esquerda.</p>
-<h3>Adição com reserva</h3>
-<p>Quando uma coluna soma 10 ou mais, escreva o algarismo das unidades e <b>leve</b> a dezena para a próxima coluna ("vai um").</p>
-⟦0⟧
-<h3>Subtração com empréstimo</h3>
-<p>Se o algarismo de cima de uma coluna for menor que o de baixo, <b>peça emprestado</b> (reagrupe) um da coluna seguinte: isso acrescenta 10 à coluna atual.</p>
-⟦1⟧
-⟦2⟧
-<h3>Problemas</h3>
-<p>Palavras como <i>ao todo, no total, a mais, aumentou</i> geralmente indicam adição. Palavras como <i>sobrou, restam, diferença, quantos a mais, a menos</i> geralmente indicam subtração. Pergunte-se sempre o que o problema realmente pede.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Unidades: $7 + 6 = 13$ → escreva 3 e vai 1.</li><li>Dezenas: $8 + 4 + 1 = 13$ → escreva 3 e vai 1.</li><li>Centenas: $5 + 8 + 1 = 14$ → escreva 4 e vai 1.</li><li>Unidades de milhar: $4 + 2 + 1 = 7$.</li></ol><p>Resposta: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Unidades: 4 é menor que 8. O algarismo das dezenas é 0, então pegamos emprestado das centenas: 204 vira 1 centena, 9 dezenas e 14 unidades. $14 - 8 = 6$.</li><li>Dezenas: $9 - 5 = 4$.</li><li>Centenas: 1 é menor que 7, então pegamos emprestada uma unidade de milhar: $11 - 7 = 4$.</li><li>Unidades de milhar: $5 - 1 = 4$.</li></ol><p>Resposta: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>Adição e subtração desfazem uma à outra. Confira uma subtração somando: $4\,446 + 1\,758 = 6\,204$ ✓. Isso também encontra números que faltam: se $\square + 348 = 1\,000$, então $\square = 1\,000 - 348 = 652$.</p>`,
@@ -100,17 +74,6 @@ addT('pt', {
   'h14zpmlfj7': R`"Quantos a mais" pede a diferença: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p>A <b>multiplicação</b> é a adição repetida de grupos iguais: $4 \times 6$ significa 4 grupos de 6, ou seja, $6 + 6 + 6 + 6 = 24$. A <b>divisão</b> reparte uma quantidade em grupos iguais: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Multiplicando números maiores</h3>
-<p>Decomponha um dos números pelos valores posicionais, multiplique cada parte e some (é a propriedade distributiva em ação):</p>
-⟦1⟧
-<h3>Divisão e resto</h3>
-<p>Quando a divisão não é exata, o que sobra é o <b>resto</b>. Ele é sempre menor que o divisor.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>Multiplicação e divisão desfazem uma à outra: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Na multiplicação a ordem não importa: $a \times b = b \times a$.</li><li>A multiplicação se distribui sobre a adição: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ resto } 2 \qquad \text{porque } 5 \times 9 + 2 = 47`,
@@ -136,13 +99,6 @@ addT('pt', {
   '13ytah9dyhs': R`Fileiras iguais significam multiplicação: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cadeiras.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Quando um cálculo tem várias operações, todos precisam fazê-las na mesma ordem; caso contrário, a mesma expressão daria resultados diferentes. Essa ordem combinada se chama <b>ordem das operações</b>; em inglês, ela costuma ser lembrada pela sigla <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Etapa`,
   '1ata9ppdhpl': R`Operação`,
   '1i56r47suu5': R`Exemplo`,
@@ -168,19 +124,6 @@ addT('pt', {
   '2g7vu4g2g7r': R`Adição e subtração têm a mesma prioridade, então vá da esquerda para a direita: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$ e depois $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Somar $⟦6⟧ + ⟦7⟧$ primeiro daria, erradamente, ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Um <b>divisor</b> (ou fator) de um número o divide exatamente. Um <b>múltiplo</b> de um número é esse número multiplicado por um número natural.</p>
-<ul><li>Divisores de 12: 1, 2, 3, 4, 6, 12 (eles vêm em pares: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Múltiplos de 12: 12, 24, 36, 48, …</li></ul>
-<h3>Números primos e compostos</h3>
-<p>Um número <b>primo</b> tem exatamente dois divisores: 1 e ele mesmo (2, 3, 5, 7, 11, 13, …). Um número <b>composto</b> tem mais de dois divisores. O 1 não é primo nem composto, e o 2 é o único primo par.</p>
-⟦0⟧
-<h3>Decomposição em fatores primos</h3>
-<p>Todo número natural maior que 1 pode ser escrito como produto de primos de uma única maneira. Use uma árvore de fatores: continue decompondo até que cada ramo termine em um primo.</p>
-⟦1⟧
-<h3>MDC e MMC</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Divisível por`,
   '1u2j0a6t91o': R`Regra`,
   '1fsfip1h2ap': R`o último algarismo é par`,

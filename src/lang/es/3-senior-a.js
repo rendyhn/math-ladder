@@ -5,20 +5,6 @@ addT('es', {
   '2gdno2vs4iz': R`Escribe una respuesta como 9pi o 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Una <b>ecuación cuadrática</b> tiene la forma $ax^2 + bx + c = 0$ con $a \ne 0$. Tiene como máximo dos soluciones (raíces).</p>
-<h3>1. Factorización</h3>
-<p>Si un producto es cero, uno de sus factores es cero. Busca dos números cuyo producto sea $c$ y cuya suma sea $b$ (cuando $a = 1$):</p>
-⟦0⟧
-<h3>2. Completar el cuadrado</h3>
-⟦1⟧
-<h3>3. La fórmula general</h3>
-⟦2⟧
-<h3>Suma y producto de las raíces (Vieta)</h3>
-⟦3⟧
-<p>Así, una ecuación con raíces $r$ y $s$ es $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ o } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>El <b>discriminante</b> $D = b^2 - 4ac$ indica cuántas raíces reales hay:</p><ul><li>$D \gt 0$: dos raíces reales distintas</li><li>$D = 0$: una raíz real doble</li><li>$D \lt 0$: ninguna raíz real (dos raíces complejas)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, así que $x = \frac{7 \pm 5}{4}$, lo que da $x = 3$ o $x = \frac{1}{2}$. Comprobación: suma $= \frac{7}{2}$ ✓, producto $= \frac{3}{2}$ ✓.</p>`,
@@ -46,14 +32,6 @@ addT('es', {
   '27ssy7fe6w9': R`Sea $w$ el ancho: $w(w + ⟦0⟧) = ⟦1⟧$, así que $⟦2⟧ = 0$, es decir, $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Un ancho debe ser positivo, así que $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>La gráfica de $f(x) = ax^2 + bx + c$ es una <b>parábola</b>. Abre <b>hacia arriba</b> si $a \gt 0$ (un valle, con un mínimo) y <b>hacia abajo</b> si $a \lt 0$ (una colina, con un máximo).</p>
-⟦0⟧
-<h3>Forma canónica (del vértice)</h3>
-⟦1⟧
-<p>Completar el cuadrado convierte la forma general en la forma canónica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, así que el vértice es $(3; 2)$ y el valor mínimo es 2. El recorrido es $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Eje de simetría y vértice: $x = -\dfrac{b}{2a}$; el vértice es $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Corte con el eje $y$: $(0; c)$.</li><li>Cortes con el eje $x$: las raíces de $ax^2 + bx + c = 0$ (si las hay).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{vértice } (h; k)`,
   '17der0pee5r': R`<p>La altura de una pelota es $h(t) = -5t^2 + 20t + 1$ metros. El vértice está en $t = -\frac{20}{2(-5)} = 2$ s, y la altura máxima es $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -77,18 +55,6 @@ addT('es', {
   'xs3xxut6a6': R`El vértice es $⟦0⟧$ y la parábola abre hacia abajo, así que el recorrido es $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Una <b>función</b> asigna a cada entrada exactamente <b>una</b> salida. El conjunto de entradas permitidas es el <b>dominio</b>; el conjunto de salidas es el <b>recorrido</b>.</p>
-<h3>Dominios naturales</h3>
-<ul><li>No se puede dividir entre cero: para $\frac{1}{x - 2}$, el dominio es $x \ne 2$.</li><li>No hay raíces cuadradas de negativos: para $\sqrt{x + 3}$, el dominio es $x \ge -3$.</li><li>Los logaritmos necesitan argumentos positivos: para $\log(x - 1)$, el dominio es $x \gt 1$.</li></ul>
-<h3>Composición</h3>
-⟦0⟧
-⟦1⟧
-<h3>Funciones inversas</h3>
-<p>$f^{-1}$ deshace lo que hace $f$: si $f(a) = b$, entonces $f^{-1}(b) = a$. Para hallarla, escribe $y = f(x)$, intercambia $x$ e $y$, y despeja $y$.</p>
-⟦2⟧
-<p>La gráfica de $f^{-1}$ es la simétrica de la gráfica de $f$ respecto a la recta $y = x$. Solo las funciones inyectivas tienen inversa.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Aplica primero $g$ y después $f$. En general, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Entonces $f(g(3)) = f(9) = 19$, pero $g(f(3)) = g(7) = 49$. Como expresiones: $f(g(x)) = 2x^2 + 1$ y $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: al intercambiar se obtiene $x = 3y - 5$, así que $y = \frac{x + 5}{3}$ y $f^{-1}(x) = \frac{x + 5}{3}$. Comprobación: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -112,16 +78,6 @@ addT('es', {
   'ranlsqjvf9': R`Como $⟦0⟧ \ge ⟦1⟧$, se usa la segunda regla: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Los exponentes racionales combinan potencias y raíces: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Así, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ y $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logaritmos</h3>
-⟦0⟧
-⟦1⟧
-<h3>Resolver ecuaciones</h3>
-<ul><li>Misma base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Ecuación logarítmica: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases distintas: toma logaritmos en ambos lados, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Crecimiento y decrecimiento exponencial</h3>
-<p>$A = A_0 \cdot r^{t/T}$: una cantidad que se multiplica por $r$ cada $T$ unidades de tiempo. Interés compuesto: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Un logaritmo responde a «¿a qué potencia hay que elevar $b$ para obtener $a$?»; así, $\log_2 32 = 5$. $\log x$ significa $\log_{10} x$; $\ln x$ significa $\log_e x$, con $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`cambio de base`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. La propiedad del producto convierte un <i>producto</i> dentro en una suma fuera.</p>`,

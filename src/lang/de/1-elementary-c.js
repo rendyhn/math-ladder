@@ -1,15 +1,6 @@
 /* Deutsch — Grundschule (Umfang und Flächeninhalt → Daten) */
 addT('de', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>Der <b>Umfang</b> ist die Gesamtlänge des Randes einer Figur (gemessen in cm, m, …). Der <b>Flächeninhalt</b> gibt an, wie viel Fläche sie bedeckt (gemessen in Quadrateinheiten: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Zusammengesetzte Figuren</h3>
-<p>Zerlege eine L-Form oder eine andere zusammengesetzte Figur in Rechtecke und Dreiecke und addiere die Flächen – oder nimm ein großes Rechteck und ziehe das fehlende Stück ab.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Rechteck, Dreieck und Trapez – die Höhe steht immer senkrecht auf der Grundseite.`,
   '1vbb9fjurso': R`Figur`,
   '1bkcetbdzwi': R`Umfang`,
@@ -42,15 +33,6 @@ addT('de', {
   '4fca853um1': R`Großes Rechteck minus Ausschnitt: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>Das <b>Volumen</b> ist der Raum, den ein Körper einnimmt; man zählt es in <b>Kubikeinheiten</b> (cm³, m³). Ein Würfel mit 1 cm Kantenlänge hat das Volumen 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Oberflächeninhalt</h3>
-<p>Der Oberflächeninhalt ist die Summe der Flächen aller Seitenflächen. Ein Quader hat drei Paare gleicher Rechtecke:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Quader: } V = l \times w \times h \qquad\qquad \text{Würfel: } V = s^3`,
   '1v18xwhq9wo': R`<p>Rauminhalt und Volumen hängen zusammen: $1 \text{ cm}^3 = 1 \text{ mL}$ und $1000 \text{ cm}^3 = 1 \text{ L}$. Außerdem ist $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Ein Aquarium ist 50 cm lang, 30 cm breit und 40 cm hoch.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -70,17 +52,6 @@ addT('de', {
   '29p9f2w08h': R`Gesucht ist $s^3 = ⟦0⟧$. Da $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, ist jede Kante ⟦5⟧ cm lang.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Winkel messen Drehungen, und zwar in <b>Grad</b> (°). Eine volle Drehung hat $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Dreiecke</h3>
-<p><b>Gleichseitig</b>: drei gleich lange Seiten, jeder Winkel $60^\circ$. <b>Gleichschenklig</b>: zwei gleich lange Seiten und zwei gleich große Basiswinkel. <b>Unregelmäßig</b>: keine gleich langen Seiten. Ein <b>rechtwinkliges</b> Dreieck hat einen $90^\circ$-Winkel.</p>
-<h3>Vielecke</h3>
-<p>Ein Vieleck mit $n$ Ecken lässt sich von einer Ecke aus in $n - 2$ Dreiecke zerlegen, also gilt</p>
-⟦2⟧
-<p>In einem <b>regelmäßigen</b> Vieleck sind alle Winkel gleich groß, jeder misst also $\frac{(n-2) \times 180^\circ}{n}$. Ein regelmäßiges Sechseck hat Winkel von $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Art`,
   '1czpi6e2j2z': R`Größe`,
   '2eamokno2qd': R`Spitz`,
@@ -120,13 +91,6 @@ addT('de', {
   '1m260esohws': R`Die beiden Basiswinkel sind gleich groß: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Daten sind Informationen, die wir sammeln, zum Beispiel Testergebnisse oder Lieblingsobst. Eine <b>Häufigkeitstabelle</b> zeigt, wie oft jeder Wert vorkommt; <b>Säulendiagramme</b> und <b>Bilddiagramme</b> zeigen dieselbe Information bildlich.</p>
-<h3>Vier Kennwerte</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Kennwert`,
   '1fy4t37t415': R`So findet man ihn`,
   '18v4e4ulshl': R`Für 3; 7; 7; 8; 10`,

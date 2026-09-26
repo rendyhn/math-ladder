@@ -23,6 +23,25 @@ const det2 = m => m[0][0] * m[1][1] - m[0][1] * m[1][0];
 const matS = m => `$${mat(m)}$`;
 const fnT = fn => '\\' + fn;
 
+const mappingSvg = (xs, ys, pairs, label) => {   // arrow diagram between two ovals
+  const W = 240, H = 40 + Math.max(xs.length, ys.length) * 34, yl = i => 36 + i * 34, yr = i => 36 + i * 34 + (xs.length - ys.length) * 17;
+  let s = svgBox(W, H, label) + `<ellipse cx="50" cy="${H / 2 + 2}" rx="34" ry="${H / 2 - 8}" class="mf-s1l" stroke-width="1.5"/><ellipse cx="190" cy="${H / 2 + 2}" rx="34" ry="${H / 2 - 8}" class="mf-s2l" stroke-width="1.5"/>`;
+  pairs.forEach(([i, j]) => { s += sArrow(62, yl(i) - 4, 176, yr(j) - 4, 'mf-line', 7); });
+  return s + xs.map((t, i) => sT(50, yl(i), t, 'mf-lab-b')).join('') + ys.map((t, j) => sT(190, yr(j), t, 'mf-lab-b')).join('') + '</svg>';
+};
+const halvingSquareSvg = () => {   // 1/2 + 1/4 + 1/8 + … fills the unit square
+  const S = 200, x0 = 10, y0 = 10;
+  let s = svgBox(S + 20, S + 20, T`A unit square repeatedly halved: 1/2, 1/4, 1/8, 1/16 … fill the whole square`), x = x0, y = y0, w = S, h = S;
+  const cls = ['mf-s1l', 'mf-s2l', 'mf-s3l', 'mf-s4l'];
+  for (let k = 1; k <= 8; k++) {
+    const t = k <= 5 ? `1/${2 ** k}` : '';
+    if (k % 2) { s += sR(x, y, w / 2, h, cls[(k - 1) % 4], 0, ' stroke-width="1.4"') + sT(x + w / 4, y + h / 2 + 5, t, 'mf-lab-b'); x += w / 2; w /= 2; }
+    else { s += sR(x, y, w, h / 2, cls[(k - 1) % 4], 0, ' stroke-width="1.4"') + sT(x + w / 2, y + h / 4 + 5, t, 'mf-small'); y += h / 2; h /= 2; }
+  }
+  return s + sR(x0, y0, S, S, 'mf-frame') + '</svg>';
+};
+const normPdf = x => Math.exp(-x * x / 2) / Math.sqrt(2 * Math.PI);
+
 level({
   id: 'senior', name: 'Senior High School', short: 'Senior High', band: 'Grades 10–12', color: 'lv3',
   blurb: 'Quadratics, functions, logarithms, sequences, trigonometry, matrices, vectors, calculus, probability, statistics and logic.',
@@ -36,10 +55,12 @@ level({
 <h3>1. Factorising</h3>
 <p>If a product is zero, one of its factors is zero. Find two numbers that multiply to $c$ and add to $b$ (when $a = 1$):</p>
 ${Fm(T`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ or } x = -3`)}
+${Fig(planeSvg({ W: 340, x: [-5, 6], y: [-14, 10], step: [1, 2], tickY: 4, fns: [{ f: x => x * x - x - 12, label: 'y = x² − x − 12', at: 4.6, dx: -8, dy: -6, anchor: 'end' }], pts: [[-3, 0, '−3', 'end', false, 6, -8], [4, 0, '4', 'start', false, 6, -8]], label: T`Parabola y = x² − x − 12 crossing the x-axis at −3 and 4` }), T`The roots are where the graph crosses the $x$-axis: $x = -3$ and $x = 4$.`)}
 <h3>2. Completing the square</h3>
 ${Fm(T`x^2 + 6x + 2 = 0 \;\Rightarrow\; (x + 3)^2 - 9 + 2 = 0 \;\Rightarrow\; (x + 3)^2 = 7 \;\Rightarrow\; x = -3 \pm \sqrt{7}`)}
 <h3>3. The quadratic formula</h3>
 ${Key(T`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>The <b>discriminant</b> $D = b^2 - 4ac$ tells you how many real roots there are:</p><ul><li>$D \gt 0$: two distinct real roots</li><li>$D = 0$: one repeated real root</li><li>$D \lt 0$: no real roots (two complex roots)</li></ul>`)}
+${FigRow([[planeSvg({ W: 220, x: [-2, 4], y: [-4, 5], ticks: false, fns: [{ f: x => x * x - 2 * x - 3 }], pts: [[-1, 0], [3, 0]], label: T`Parabola crossing the x-axis twice` }), T`$D \gt 0$: two roots`], [planeSvg({ W: 220, x: [-2, 4], y: [-4, 5], ticks: false, fns: [{ f: x => x * x - 2 * x + 1, cls: 'mf-c2' }], pts: [[1, 0]], label: T`Parabola touching the x-axis once` }), T`$D = 0$: one root`], [planeSvg({ W: 220, x: [-2, 4], y: [-4, 5], ticks: false, fns: [{ f: x => x * x - 2 * x + 3, cls: 'mf-c3' }], label: T`Parabola above the x-axis` }), T`$D \lt 0$: no real roots`]], T`The discriminant decides whether the parabola crosses, touches or misses the $x$-axis.`)}
 <h3>Sum and product of roots (Vieta)</h3>
 ${Fm(T`x_1 + x_2 = -\frac{b}{a} \qquad\qquad x_1 x_2 = \frac{c}{a}`)}
 <p>So an equation with roots $r$ and $s$ is $x^2 - (r + s)x + rs = 0$.</p>
@@ -64,8 +85,10 @@ ${Tip(T`<p>Never divide both sides by $x$ — you lose the root $x = 0$. Move ev
 ${Key(T`<ul><li>Axis of symmetry and vertex: $x = -\dfrac{b}{2a}$; the vertex is $\left(-\dfrac{b}{2a},\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>$y$-intercept: $(0, c)$.</li><li>$x$-intercepts: the roots of $ax^2 + bx + c = 0$ (if any).</li></ul>`)}
 <h3>Vertex form</h3>
 ${Fm(T`f(x) = a(x - h)^2 + k \qquad \text{vertex } (h, k)`)}
+${Fig(planeSvg({ W: 320, x: [-1, 7], y: [-1, 12], step: [1, 2], fns: [{ f: x => (x - 3) ** 2 + 2 }], segs: [[3, -1, 3, 12, 'mf-c2', true]], pts: [[3, 2, T`vertex (3, 2)`, 'start', false, 10, 16], [0, 11, cP(0, 11), 'start']], texts: [[3.15, 11, T`axis x = 3`, 'start', 'mf-small']], label: T`Parabola with vertex (3, 2) and axis of symmetry x = 3` }), T`$y = (x - 3)^2 + 2$: the vertex $(3, 2)$ sits on the axis of symmetry $x = 3$; the graph is a mirror image on either side.`)}
 <p>Completing the square converts standard form to vertex form: $x^2 - 6x + 11 = (x - 3)^2 + 2$, so the vertex is $(3, 2)$ and the minimum value is 2. The range is $y \ge 2$.</p>
 ${Ex(T`<p>A ball's height is $h(t) = -5t^2 + 20t + 1$ metres. The vertex is at $t = -\frac{20}{2(-5)} = 2$ s, and the maximum height is $h(2) = -20 + 40 + 1 = 21$ m.</p>`)}
+${Fig(planeSvg({ W: 340, x: [0, 4.5], y: [0, 24], step: [0.5, 4], tickX: 1, fns: [{ f: t => -5 * t * t + 20 * t + 1, from: 0, to: 4.05 }], pts: [[2, 21, T`max 21 m at t = 2 s`, 'start', false, 8, -6], [0, 1]], xl: 't', yl: 'h', label: T`Height of a ball h = −5t² + 20t + 1 with maximum 21 m at t = 2 s` }), T`The ball's path: a downward parabola ($a \lt 0$) whose vertex is the highest point.`)}
 ${Tip(T`<p>The axis of symmetry lies exactly halfway between the two $x$-intercepts: if the roots are $p$ and $q$, it is $x = \frac{p + q}{2}$.</p>`)}`,
   gens: [
     () => { const a = rnz(-4, 4), h = rnz(-6, 6), b = -2 * a * h, c = ri(-10, 10); return { q: T`Find the $x$-coordinate of the vertex of $y = ${poly([a, b, c])}$.`, a: h, neg: true, w: [-h, 2 * h, c], s: T`$x = -\frac{b}{2a} = -\frac{${M(b)}}{2(${M(a)})} = ${h}$.` }; },
@@ -82,6 +105,7 @@ ${Tip(T`<p>The axis of symmetry lies exactly halfway between the two $x$-interce
   blurb: 'Domain and range, composite functions, inverse functions and piecewise definitions.',
   lesson: () => T`
 <p>A <b>function</b> assigns to each input exactly <b>one</b> output. The set of allowed inputs is the <b>domain</b>; the set of outputs is the <b>range</b>.</p>
+${FigRow([[mappingSvg(['1', '2', '3'], ['3', '5', '7'], [[0, 0], [1, 1], [2, 2]], T`Mapping diagram of a function`), T`Function: each input has one output`], [mappingSvg(['1', '2', '3'], ['a', 'b', 'c'], [[0, 0], [0, 1], [1, 1], [2, 2]], T`Mapping diagram that is not a function`), T`Not a function: 1 has two outputs`]])}
 <h3>Natural domains</h3>
 <ul><li>No division by zero: for $\frac{1}{x - 2}$, the domain is $x \ne 2$.</li><li>No square roots of negatives: for $\sqrt{x + 3}$, the domain is $x \ge -3$.</li><li>Logarithms need positive arguments: for $\log(x - 1)$, the domain is $x \gt 1$.</li></ul>
 <h3>Composition</h3>
@@ -90,6 +114,7 @@ ${Ex(T`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Then $f(g(3)) = f(9) = 19$, but $g(f(3)
 <h3>Inverse functions</h3>
 <p>$f^{-1}$ undoes $f$: if $f(a) = b$ then $f^{-1}(b) = a$. To find it, write $y = f(x)$, swap $x$ and $y$, and solve for $y$.</p>
 ${Ex(T`<p>$f(x) = 3x - 5$: swap to get $x = 3y - 5$, so $y = \frac{x + 5}{3}$ and $f^{-1}(x) = \frac{x + 5}{3}$. Check: $f(f^{-1}(x)) = x$ ✓</p>`)}
+${Fig(planeSvg({ W: 320, x: [-6, 6], y: [-6, 6], equal: true, step: [2, 2], fns: [{ f: x => x, cls: 'mf-grid', dash: true, label: 'y = x', at: 5.9, dx: -4, dy: 16, anchor: 'end' }, { f: x => 3 * x - 5, label: 'f', at: 3.3, dx: 8, dy: 4 }, { f: x => (x + 5) / 3, cls: 'mf-c2', label: 'f⁻¹', at: 5, dx: -4, dy: -10, anchor: 'end' }], pts: [[2, 1, cP(2, 1), 'start', false, 8, 14], [1, 2, cP(1, 2), 'end', false, 8, -6]], segs: [[2, 1, 1, 2, 'mf-c4', true]], label: T`Graphs of f(x) = 3x − 5 and its inverse, mirror images in the line y = x` }), T`$f$ and $f^{-1}$ are mirror images in $y = x$: the point $(2, 1)$ on $f$ becomes $(1, 2)$ on $f^{-1}$.`)}
 <p>The graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y = x$. Only one-to-one functions have inverses.</p>
 ${Tip(T`<p>$f^{-1}(x)$ means the inverse function, not $\frac{1}{f(x)}$.</p>`)}`,
   gens: [
@@ -110,10 +135,12 @@ ${Tip(T`<p>$f^{-1}(x)$ means the inverse function, not $\frac{1}{f(x)}$.</p>`)}`
 <h3>Logarithms</h3>
 ${Key(T`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0,\; b \ne 1,\; a \gt 0)$$<p>A logarithm answers "what power of $b$ gives $a$?" — so $\log_2 32 = 5$. $\log x$ means $\log_{10} x$; $\ln x$ means $\log_e x$ with $e \approx 2.718$.</p>`)}
 ${Tbl([T`Law`, T`Example`], [[T`$\log_b(xy) = \log_b x + \log_b y$`, T`$\log_6 4 + \log_6 9 = \log_6 36 = 2$`], [T`$\log_b\!\left(\frac{x}{y}\right) = \log_b x - \log_b y$`, T`$\log_3 54 - \log_3 2 = \log_3 27 = 3$`], [T`$\log_b(x^n) = n \log_b x$`, T`$\log 1000 = 3 \log 10 = 3$`], [T`$\log_b x = \dfrac{\log x}{\log b}$`, T`change of base`], [T`$\log_b 1 = 0,\; \log_b b = 1$`, '']])}
+${Fig(planeSvg({ W: 320, x: [-4, 8], y: [-4, 8], equal: true, step: [1, 1], tickX: 2, tickY: 2, fns: [{ f: x => x, cls: 'mf-grid', dash: true }, { f: x => 2 ** x, label: 'y = 2ˣ', at: 2.6, dx: -8, dy: 0, anchor: 'end' }, { f: x => Math.log2(x), cls: 'mf-c2', from: 0.01 }], pts: [[0, 1], [1, 0], [3, 8], [8, 3]], texts: [[5.5, 0.9, 'y = log₂ x']], label: T`Graphs of y = 2 to the x and y = log base 2 of x, reflections in y = x` }), T`$y = \log_2 x$ is the reflection of $y = 2^x$ in $y = x$: it passes through $(1, 0)$ because $2^0 = 1$, and is only defined for $x \gt 0$.`)}
 <h3>Solving equations</h3>
 <ul><li>Same base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Log equation: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Different bases: take logs of both sides, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1.861$.</li></ul>
 <h3>Exponential growth and decay</h3>
 <p>$A = A_0 \cdot r^{t/T}$: a quantity multiplied by $r$ every $T$ time units. Compound interest: $A = P(1 + i)^n$.</p>
+${Fig(planeSvg({ W: 340, x: [0, 22], y: [0, 110], step: [5, 25], fns: [{ f: t => 100 * 0.5 ** (t / 5) }], pts: [[0, 100, '100'], [5, 50, '50'], [10, 25, '25'], [15, 12.5, F(12.5)]], xl: T`years`, yl: 'A', label: T`Exponential decay halving every 5 years: 100, 50, 25, 12.5` }), T`Decay with $r = \frac{1}{2}$ and $T = 5$: $A = 100 \cdot \left(\frac{1}{2}\right)^{t/5}$ halves every 5 years (a half-life).`)}
 ${Tip(T`<p>$\log(x + y) \ne \log x + \log y$. The product law turns a <i>product</i> inside into a sum outside.</p>`)}`,
   gens: [
     () => { const b = pick([2, 3, 4, 5, 10]), n = ri(-3, b === 2 ? 8 : 5), arg = n >= 0 ? M(b ** n) : T`\frac{1}{${M(b ** -n)}}`; return { q: T`Evaluate $\log_{${b}} ${arg}$.`, a: n, neg: true, w: [-n, n + 1, n - 1, b * n], s: T`$${b}^{${n}} = ${arg}$, so $\log_{${b}} ${arg} = ${n}$.` }; },
@@ -137,6 +164,7 @@ ${Ex(T`<p>In an arithmetic sequence $u_4 = 17$ and $u_9 = 42$. Five steps of $d$
 <h3>Infinite geometric series</h3>
 ${Key(T`<p>If $|r| \lt 1$ the terms shrink fast enough for the sum to settle on a finite value:</p>$$S_\infty = \frac{a}{1 - r}$$<p>If $|r| \ge 1$ the series has no finite sum.</p>`)}
 <p>Example: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+${Fig(halvingSquareSvg(), T`$\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$ keeps filling half of what is left, so it never passes 1 — the sum to infinity is exactly $\frac{1/2}{1 - 1/2} = 1$.`)}
 <h3>Sigma notation</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ means $f(1) + f(2) + \cdots + f(n)$. Useful facts: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ and $\sum_{k=1}^{n} c = cn$.</p>
 ${Tip(T`<p>Between $u_p$ and $u_q$ there are $q - p$ steps, not $q - p + 1$.</p>`)}`,
@@ -157,13 +185,16 @@ ${Tip(T`<p>Between $u_p$ and $u_q$ there are $q - p$ steps, not $q - p + 1$.</p>
   lesson: () => T`
 <p>In a right triangle, relative to an acute angle $\theta$:</p>
 ${Fm(T`\sin\theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan\theta = \frac{\text{opposite}}{\text{adjacent}}`)}
+${Fig(triangleSvg([[40, 180], [300, 180], [300, 40]], { right: 1, sides: [T`adjacent`, T`opposite`, T`hypotenuse`], angles: ['θ'], W: 380, H: 216, label: T`Right triangle with angle theta: adjacent side along the bottom, opposite side vertical, hypotenuse slanted` }), T`Names depend on the angle: the opposite side faces $\theta$, the adjacent side touches it, the hypotenuse faces the right angle.`)}
 <p>Memory aid: <b>SOH-CAH-TOA</b>. Also $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and the reciprocals are $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
 <h3>Exact values</h3>
 ${Tbl(['θ', '0°', '30°', '45°', '60°', '90°'], [[T`sin θ`, '0', T`$\frac{1}{2}$`, T`$\frac{\sqrt{2}}{2}$`, T`$\frac{\sqrt{3}}{2}$`, '1'], [T`cos θ`, '1', T`$\frac{\sqrt{3}}{2}$`, T`$\frac{\sqrt{2}}{2}$`, T`$\frac{1}{2}$`, '0'], [T`tan θ`, '0', T`$\frac{\sqrt{3}}{3}$`, '1', T`$\sqrt{3}$`, T`undefined`]])}
+${FigRow([[triangleSvg([[20, 150], [200, 150], [200, 46]], { right: 1, sides: ['√3', '1', '2'], angles: ['30°', '', '60°'], W: 240, H: 180, label: T`30-60-90 triangle with sides 1, root 3 and 2` }), '30°–60°–90°'], [triangleSvg([[30, 160], [160, 160], [160, 30]], { right: 1, sides: ['1', '1', '√2'], angles: ['45°', '', '45°'], W: 220, H: 190, label: T`45-45-90 triangle with sides 1, 1 and root 2` }), '45°–45°–90°']], T`The exact values come from these two triangles (half a square and half an equilateral triangle).`)}
 <h3>Radians</h3>
 <p>$180^\circ = \pi$ radians. To convert degrees to radians multiply by $\frac{\pi}{180}$; radians to degrees multiply by $\frac{180}{\pi}$. So $60^\circ = \frac{\pi}{3}$ and $\frac{3\pi}{4} = 135^\circ$.</p>
 <h3>The unit circle</h3>
 ${Key(T`<p>For any angle $\theta$, the point on the unit circle is $(\cos\theta, \sin\theta)$. Signs by quadrant — "<b>A</b>ll <b>S</b>tudents <b>T</b>ake <b>C</b>alculus": all positive in I, sin in II, tan in III, cos in IV.</p><p>Use the <b>reference angle</b> (the acute angle to the $x$-axis) plus the correct sign: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>`)}
+${Fig(planeSvg({ W: 320, x: [-1.4, 1.4], y: [-1.4, 1.4], equal: true, step: [0.5, 0.5], circles: [[0, 0, 1]], vecs: [[0, 0, Math.cos(Math.PI / 6), 0.5, 'mf-c1']], segs: [[Math.cos(Math.PI / 6), 0, Math.cos(Math.PI / 6), 0.5, 'mf-c2', true]], pts: [[Math.cos(Math.PI / 6), 0.5]], texts: [[0.87, 0.7, '(cos θ, sin θ)'], [0.75, 1.1, T`All +`, 'middle', 'mf-small'], [-0.75, 1.1, T`Sin +`, 'middle', 'mf-small'], [-0.75, -1.15, T`Tan +`, 'middle', 'mf-small'], [0.75, -1.15, T`Cos +`, 'middle', 'mf-small'], [0.32, 0.07, 'θ', 'middle', 'mf-var']], extra: (X, Y) => sAngle(X(0), Y(0), 22, 0, 30, 'mf-c2'), label: T`Unit circle with the point (cos theta, sin theta) and the signs in each quadrant` }), T`On the unit circle the point at angle $\theta$ is $(\cos\theta, \sin\theta)$; the quadrant labels show which ratios are positive.`)}
 ${Ex(T`<p>From 30 m away, the angle of elevation to the top of a tower is $60^\circ$. Height $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52.0$ m.</p>`)}
 ${Tip(T`<p>Check your calculator mode (DEG vs RAD) before evaluating trig functions.</p>`)}`,
   gens: [
@@ -183,11 +214,13 @@ ${Tip(T`<p>Check your calculator mode (DEG vs RAD) before evaluating trig functi
   lesson: () => T`
 <p>An <b>identity</b> is true for every angle. The most important ones:</p>
 ${Key(T`$$\sin^2\theta + \cos^2\theta = 1 \qquad 1 + \tan^2\theta = \sec^2\theta \qquad 1 + \cot^2\theta = \csc^2\theta$$`, T`Pythagorean identities`)}
+${FigW(planeSvg({ W: 560, H: 220, x: [0, 380], y: [-1.3, 1.3], step: [90, 0.5], tickX: 90, fmtX: v => v + '°', fns: [{ f: x => Math.sin(x * Math.PI / 180), label: 'sin x', at: 90, dx: 0, dy: -10, anchor: 'middle' }, { f: x => Math.cos(x * Math.PI / 180), cls: 'mf-c2', label: 'cos x', at: 0, dx: 8, dy: -8 }], label: T`Graphs of sin x and cos x from 0 to 360 degrees` }), T`$\sin x$ and $\cos x$ are the same wave shifted by $90^\circ$; both repeat every $360^\circ$ and stay between $-1$ and 1.`)}
 ${Tbl([T`Compound angles`, T`Double angles`], [[T`$\sin(A \pm B) = \sin A\cos B \pm \cos A\sin B$`, T`$\sin 2A = 2\sin A\cos A$`], [T`$\cos(A \pm B) = \cos A\cos B \mp \sin A\sin B$`, T`$\cos 2A = \cos^2 A - \sin^2 A = 2\cos^2 A - 1 = 1 - 2\sin^2 A$`], [T`$\tan(A \pm B) = \dfrac{\tan A \pm \tan B}{1 \mp \tan A\tan B}$`, T`$\tan 2A = \dfrac{2\tan A}{1 - \tan^2 A}$`]])}
 ${Ex(T`<p>$\sin 75^\circ = \sin(45^\circ + 30^\circ) = \frac{\sqrt{2}}{2}\cdot\frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2}\cdot\frac{1}{2} = \frac{\sqrt{6} + \sqrt{2}}{4}$.</p>`)}
 <h3>Solving trig equations</h3>
 <p>Find the reference angle, then every angle in the required interval with the right sign.</p>
 ${Ex(T`<p>Solve $\sin x = -\frac{1}{2}$ for $0^\circ \le x \lt 360^\circ$. The reference angle is $30^\circ$; sine is negative in quadrants III and IV, so $x = 180^\circ + 30^\circ = 210^\circ$ or $x = 360^\circ - 30^\circ = 330^\circ$.</p>`)}
+${FigW(planeSvg({ W: 560, H: 200, x: [0, 380], y: [-1.3, 1.3], step: [90, 0.5], tickX: 90, fmtX: v => v + '°', fns: [{ f: x => Math.sin(x * Math.PI / 180) }, { f: () => -0.5, cls: 'mf-c2', dash: true, label: 'y = −½', at: 20, dx: 0, dy: 16 }], pts: [[210, -0.5, '210°', 'end', false, 6, 18], [330, -0.5, '330°', 'start', false, 6, 18]], label: T`Sine curve meeting the line y = −1/2 at 210 and 330 degrees` }), T`$\sin x = -\frac{1}{2}$ has two solutions in one turn, where the wave crosses the line: $210^\circ$ and $330^\circ$.`)}
 ${Tip(T`<p>If $\sin\theta = \frac{3}{5}$ and $\theta$ is in quadrant II, then $\cos\theta = -\frac{4}{5}$ — the Pythagorean identity gives the size, the quadrant gives the sign.</p>`)}`,
   gens: [
     () => { const [a, b, c] = pick(TRIPLES.slice(0, 4)); return { q: T`$\theta$ is acute and $\sin\theta = \frac{${a}}{${c}}$. Find $\sin 2\theta$.`, ...FR(2 * a * b, c * c), h: hFrac, w: [fx(2 * a, c), fx(a * b, c * c), fx(b * b - a * a, c * c)], s: T`$\cos\theta = \frac{${b}}{${c}}$. $\sin 2\theta = 2\sin\theta\cos\theta = 2 \cdot \frac{${a}}{${c}} \cdot \frac{${b}}{${c}} = ${frT(2 * a * b, c * c)}$.` }; },
@@ -204,6 +237,7 @@ ${Tip(T`<p>If $\sin\theta = \frac{3}{5}$ and $\theta$ is in quadrant II, then $\
   blurb: 'Solving any triangle with the sine and cosine rules, and finding its area.',
   lesson: () => T`
 <p>Label a triangle so that side $a$ is opposite angle $A$, $b$ opposite $B$, and $c$ opposite $C$. These rules work for <b>any</b> triangle, not just right triangles.</p>
+${Fig(triangleSvg([[40, 170], [320, 170], [230, 40]], { verts: ['A', 'B', 'C'], sides: ['c', 'a', 'b'], angles: ['A', 'B', 'C'], fill: 'mf-s1l', W: 360, H: 205, label: T`Triangle ABC with side a opposite A, b opposite B and c opposite C` }), T`Each side is named after the angle opposite it: $a$ faces $A$, $b$ faces $B$, $c$ faces $C$.`)}
 ${Key(T`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Use it when you know a side and its opposite angle, plus one more side or angle.</p>`, T`Sine rule`)}
 ${Key(T`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Use it with two sides and the angle between them (SAS), or with all three sides (SSS).</p>`, T`Cosine rule`)}
 ${Key(T`$$\text{Area} = \tfrac{1}{2}ab\sin C \qquad\qquad \text{Heron: } \text{Area} = \sqrt{s(s-a)(s-b)(s-c)},\; s = \tfrac{a+b+c}{2}$$`, T`Area`)}
@@ -227,6 +261,7 @@ ${Tip(T`<p>The sine rule can give two possible triangles when you find an angle 
 <p>Dividing $P(x)$ by $(x - a)$ gives a quotient $Q(x)$ and a remainder $R$: $P(x) = (x - a)Q(x) + R$. <b>Synthetic division</b> is a quick way to do it using only the coefficients.</p>
 ${Ex(T`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ with synthetic division:</p>${Tbl(['2', '1', '−4', '1', '6'], [['', '', '2', '−4', '−6'], ['', '1', '−2', '−3', '0']])}<p>Quotient $x^2 - 2x - 3$, remainder 0.</p>`)}
 ${Key(T`<p><b>Remainder theorem:</b> the remainder when $P(x)$ is divided by $(x - a)$ is $P(a)$.</p><p><b>Factor theorem:</b> $(x - a)$ is a factor of $P(x)$ exactly when $P(a) = 0$.</p>`)}
+${Fig(planeSvg({ W: 340, x: [-2, 4], y: [-8, 8], step: [1, 2], fns: [{ f: x => x ** 3 - 4 * x * x + x + 6, label: 'P(x)', at: 3.6, dx: 8, dy: 0 }], pts: [[-1, 0], [2, 0], [3, 0]], label: T`Graph of the cubic x³ − 4x² + x + 6 crossing the x-axis at −1, 2 and 3` }), T`$P(x) = x^3 - 4x^2 + x + 6 = (x + 1)(x - 2)(x - 3)$: each factor $(x - a)$ gives a root where the curve crosses the axis.`)}
 <h3>Roots of a cubic</h3>
 <p>For $ax^3 + bx^2 + cx + d = 0$ with roots $r_1, r_2, r_3$:</p>
 ${Fm(T`r_1 + r_2 + r_3 = -\frac{b}{a} \qquad r_1r_2 + r_1r_3 + r_2r_3 = \frac{c}{a} \qquad r_1r_2r_3 = -\frac{d}{a}`)}
@@ -252,6 +287,7 @@ ${Key(T`<p>Matrix multiplication is <b>not commutative</b>: usually $AB \ne BA$.
 <h3>Determinant and inverse (2 × 2)</h3>
 ${Fm(T`A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}`)}
 <p>If $\det A = 0$ the matrix is <b>singular</b> and has no inverse. Inverses solve systems: $AX = B \Rightarrow X = A^{-1}B$.</p>
+${Fig(planeSvg({ W: 320, x: [-1, 4], y: [-1, 3], equal: true, polys: [{ pts: [[0, 0], [1, 0], [1, 1], [0, 1]], cls: 'mf-f1' }, { pts: [[0, 0], [2, 0], [3, 1], [1, 1]], cls: 'mf-f2' }], vecs: [[0, 0, 2, 0, 'mf-c2'], [0, 0, 1, 1, 'mf-c2']], texts: [[0.5, 0.45, T`area 1`, 'middle', 'mf-small'], [2.1, 0.45, T`area 2`, 'middle', 'mf-small']], label: T`The matrix with rows (2, 1) and (0, 1) maps the unit square to a parallelogram of area 2` }), T`$\begin{pmatrix} 2 & 1 \\ 0 & 1 \end{pmatrix}$ sends the unit square to a parallelogram. Its determinant, 2, is the area scale factor.`)}
 ${Tip(T`<p>For the inverse: <b>swap</b> $a$ and $d$, <b>negate</b> $b$ and $c$, then divide by the determinant.</p>`)}`,
   gens: [
     () => { const m = randMat(2, 2, -9, 9); return { q: T`Find the determinant of $${mat(m)}$.`, a: det2(m), neg: true, w: [m[0][0] * m[1][1] + m[0][1] * m[1][0], -det2(m), m[0][0] * m[0][1] - m[1][0] * m[1][1]], s: T`$\det = ad - bc = (${m[0][0]})(${m[1][1]}) - (${m[0][1]})(${m[1][0]}) = ${det2(m)}$.` }; },
@@ -269,6 +305,7 @@ ${Tip(T`<p>For the inverse: <b>swap</b> $a$ and $d$, <b>negate</b> $b$ and $c$, 
   lesson: () => T`
 <p>A <b>vector</b> has size and direction. In components, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ or $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. The vector from $P$ to $Q$ is $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
 ${Tbl([T`Operation`, T`Rule`], [[T`Magnitude`, T`$|\mathbf{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}$`], [T`Addition`, T`add components`], [T`Scalar multiple`, T`$k\mathbf{a}$: multiply every component by $k$`], [T`Unit vector`, T`$\hat{\mathbf{a}} = \dfrac{\mathbf{a}}{|\mathbf{a}|}$`], [T`Dot product`, T`$\mathbf{a}\cdot\mathbf{b} = a_1b_1 + a_2b_2 + a_3b_3$`]])}
+${Fig(planeSvg({ W: 300, x: [-1, 5], y: [-1, 5], equal: true, vecs: [[0, 0, 3, 1, 'mf-c1'], [3, 1, 4, 4, 'mf-c2'], [0, 0, 4, 4, 'mf-c3']], texts: [[1.6, 0.25, 'a', 'middle', 'mf-var'], [3.8, 2.4, 'b', 'start', 'mf-var'], [1.6, 2.3, 'a + b', 'end', 'mf-var']], label: T`Triangle law: vector a then vector b gives a plus b` }), T`Triangle law: put $\mathbf{b}$ at the tip of $\mathbf{a}$; the sum goes from the start of $\mathbf{a}$ to the tip of $\mathbf{b}$. Here $\binom{3}{1} + \binom{1}{3} = \binom{4}{4}$.`)}
 ${Key(T`$$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Two non-zero vectors are <b>perpendicular</b> exactly when $\mathbf{a}\cdot\mathbf{b} = 0$.</p>`)}
 ${Ex(T`<p>$\mathbf{a} = \begin{pmatrix} 3 \\ 4 \end{pmatrix}$, $\mathbf{b} = \begin{pmatrix} 5 \\ 12 \end{pmatrix}$: $\mathbf{a}\cdot\mathbf{b} = 15 + 48 = 63$, $|\mathbf{a}| = 5$, $|\mathbf{b}| = 13$, so $\cos\theta = \frac{63}{65}$ and $\theta \approx 14.3^\circ$.</p>`)}
 ${Tip(T`<p>The dot product of two vectors is a <b>number</b>, not a vector.</p>`)}`,
@@ -290,8 +327,10 @@ ${Tip(T`<p>The dot product of two vectors is a <b>number</b>, not a vector.</p>`
 <h3>Techniques</h3>
 <ol><li><b>Direct substitution</b> works for polynomials and other continuous functions: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factor and cancel</b> for $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rationalise</b> expressions with roots: multiply by the conjugate.</li></ol>
 ${Ex(T`$$\lim_{x \to 0}\frac{\sqrt{x + 4} - 2}{x} = \lim_{x \to 0}\frac{(x + 4) - 4}{x(\sqrt{x + 4} + 2)} = \lim_{x \to 0}\frac{1}{\sqrt{x + 4} + 2} = \frac{1}{4}$$`)}
+${Fig(planeSvg({ W: 320, x: [-1, 5], y: [-1, 7], equal: true, fns: [{ f: x => x + 2 }], texts: [[2.2, 1.6, 'y = (x² − 4)/(x − 2)', 'start']], pts: [[2, 4, T`hole at (2, 4)`, 'start', true, 10, 14]], label: T`Graph of (x² − 4)/(x − 2): the line y = x + 2 with a hole at (2, 4)` }), T`$\frac{x^2 - 4}{x - 2}$ equals $x + 2$ except at $x = 2$, where there is a hole. The limit is still 4.`)}
 <h3>Limits at infinity</h3>
 ${Key(T`<p>For a rational function, divide top and bottom by the highest power of $x$ in the denominator:</p><ul><li>same degree → ratio of leading coefficients;</li><li>numerator of lower degree → 0;</li><li>numerator of higher degree → no finite limit ($\pm\infty$).</li></ul>`)}
+${Fig(planeSvg({ W: 340, x: [-4, 12], y: [-3, 6], step: [2, 1], tickY: 2, fns: [{ f: x => (2 * x + 1) / (x - 1), cls: 'mf-c1', from: -4, to: 0.97 }, { f: x => (2 * x + 1) / (x - 1), cls: 'mf-c1', from: 1.03, label: 'y = (2x + 1)/(x − 1)', at: 6, dx: 0, dy: -30, anchor: 'middle' }, { f: () => 2, cls: 'mf-c2', dash: true, label: 'y = 2', at: 11, dx: 0, dy: 16, anchor: 'end' }], segs: [[1, -3, 1, 6, 'mf-grid', true]], label: T`Rational function approaching the horizontal asymptote y = 2` }), T`Same degree on top and bottom: as $x \to \pm\infty$, $\frac{2x + 1}{x - 1} \to \frac{2}{1} = 2$, the horizontal asymptote.`)}
 <h3>A special trig limit</h3>
 ${Fm(T`\lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}`)}
 <h3>Continuity</h3>
@@ -313,12 +352,14 @@ ${Tip(T`<p>$\frac{0}{0}$ is not "0" or "undefined" — it signals that more work
   lesson: () => T`
 <p>The <b>derivative</b> $f'(x)$ is the instantaneous rate of change of $f$ — the slope of the tangent line at $x$. It is defined by a limit:</p>
 ${Fm(T`f'(x) = \lim_{h \to 0}\frac{f(x + h) - f(x)}{h}`)}
+${Fig(planeSvg({ W: 340, x: [-1, 3.5], y: [-1, 9], step: [1, 1], tickY: 2, fns: [{ f: x => x * x, label: 'y = x²', at: 2.9, dx: -8, dy: 0, anchor: 'end' }, { f: x => 4 * x - 3, cls: 'mf-c3', dash: true, from: 0.3, to: 3.2 }, { f: x => 3 * x - 2, cls: 'mf-c4', dash: true, from: 0.2, to: 2.8 }, { f: x => 2 * x - 1, cls: 'mf-c2', from: -0.2, to: 3.2 }], texts: [[2.6, 0.6, T`tangent, slope 2`, 'middle', 'mf-small']], pts: [[1, 1, 'P', 'end', false, 8, -6], [3, 9], [2, 4]], label: T`Secant lines from P(1, 1) with h = 2 and h = 1 approaching the tangent of slope 2` }), T`As $h \to 0$ the secant slopes ($4$, then $3$, …) approach the tangent slope $f'(1) = 2$.`)}
 ${Key(T`$$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$`, T`Rules`)}
 ${Ex(T`<p>$f(x) = 2x^3 - 5x^2 + 4x - 7 \;\Rightarrow\; f'(x) = 6x^2 - 10x + 4$.</p>`)}
 <h3>Tangent lines</h3>
 <p>At $x = a$, the tangent has slope $m = f'(a)$ and passes through $(a, f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
 <h3>Stationary points</h3>
 <p>Where $f'(x) = 0$ the graph is momentarily flat. Use the second derivative: $f''(a) \gt 0$ → local minimum; $f''(a) \lt 0$ → local maximum. $f$ is increasing where $f' \gt 0$ and decreasing where $f' \lt 0$.</p>
+${Fig(planeSvg({ W: 320, x: [-2.5, 2.5], y: [-3, 3], step: [1, 1], fns: [{ f: x => x ** 3 - 3 * x }], segs: [[-1.6, 2, -0.4, 2, 'mf-c2'], [0.4, -2, 1.6, -2, 'mf-c2']], pts: [[-1, 2, T`max`, 'middle', false, 0, -10], [1, -2, T`min`, 'middle', false, 0, 20]], label: T`Cubic y = x³ − 3x with a local maximum at (−1, 2) and a local minimum at (1, −2), where the tangents are horizontal` }), T`At stationary points the tangent is horizontal ($f'(x) = 3x^2 - 3 = 0$, $x = \pm 1$). $f'' = 6x$ is negative at $-1$ (max) and positive at $1$ (min).`)}
 <h3>Optimisation</h3>
 ${Ex(T`<p>100 m of fencing encloses a rectangle against a river (no fence needed on the river side). With sides $x, y, x$: $2x + y = 100$, area $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ gives $x = 25$, so $A_{\max} = 25 \times 50 = 1250$ m².</p>`)}
 ${Tip(T`<p>The derivative of a constant is 0 — don't carry the constant term into $f'(x)$.</p>`)}`,
@@ -342,8 +383,10 @@ ${Key(T`$$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int 
 ${Ex(T`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Check by differentiating.</p>`)}
 <h3>Definite integrals</h3>
 ${Key(T`$$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$`, T`Fundamental Theorem of Calculus`)}
+${Fig(planeSvg({ W: 340, x: [-0.5, 4.5], y: [0, 10], step: [1, 2], shade: [{ f: x => x * x / 2 + 1, from: 0, to: 4, cls: 'mf-f1' }], rects: [0, 1, 2, 3, 4, 5, 6, 7].map(i => [i / 2, 0, 0.5, (i / 2) ** 2 / 2 + 1, 'mf-f2']), fns: [{ f: x => x * x / 2 + 1, label: 'y = f(x)', at: 4, dx: -6, dy: -6, anchor: 'end' }], label: T`Area under a curve approximated by eight rectangles` }), T`The definite integral is the limit of rectangle sums: thinner rectangles fit the area under the curve better and better.`)}
 <p>For $f \ge 0$ this is the area under the curve between $x = a$ and $x = b$. Area below the $x$-axis counts as negative, so split the integral at the roots when you want total area.</p>
 ${Ex(T`<p>Area between $y = x^2$ and $y = 2x$: they meet at $x = 0$ and $x = 2$, and $2x \ge x^2$ in between, so $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`)}
+${Fig(planeSvg({ W: 300, x: [-0.5, 2.8], y: [-0.5, 5], equal: true, shade: [{ f: x => 2 * x, g: x => x * x, from: 0, to: 2, cls: 'mf-f1' }], fns: [{ f: x => 2 * x }, { f: x => x * x, cls: 'mf-c2' }], texts: [[1.1, 2.8, 'y = 2x', 'end'], [2.2, 3.2, 'y = x²', 'start']], pts: [[0, 0], [2, 4, cP(2, 4), 'end', false, 8, -4]], label: T`Region between y = 2x and y = x² from 0 to 2` }), T`The shaded area between the curves: $\int_0^2 (\text{top} - \text{bottom})\,dx = \frac{4}{3}$.`)}
 <h3>Finding a function from its derivative</h3>
 <p>If $f'(x) = 6x + 2$ and $f(1) = 10$, then $f(x) = 3x^2 + 2x + C$ and $3 + 2 + C = 10$ gives $C = 5$.</p>
 ${Tip(T`<p>Don't forget $+ C$ on indefinite integrals — and don't include it in definite ones (it cancels).</p>`)}`,
@@ -363,6 +406,7 @@ ${Tip(T`<p>Don't forget $+ C$ on indefinite integrals — and don't include it i
   blurb: 'The multiplication principle, factorials, permutations, combinations and the binomial theorem.',
   lesson: () => T`
 ${Key(T`<p><b>Multiplication principle:</b> if one choice can be made in $m$ ways and a second in $n$ ways, together they can be made in $m \times n$ ways.</p>`)}
+${Fig(treeSvg([[['S', ''], ['M', ''], ['L', '']], [[[T`tea`, ''], [T`coffee`, '']], [[T`tea`, ''], [T`coffee`, '']], [[T`tea`, ''], [T`coffee`, '']]]], { label: T`Tree diagram: 3 cup sizes then 2 drinks gives 6 outcomes` }), T`3 sizes × 2 drinks = 6 branches: the multiplication principle.`)}
 <h3>Permutations: order matters</h3>
 ${Fm(T`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`)}
 <p>First, second and third prizes among 10 people: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
@@ -372,6 +416,7 @@ ${Fm(T`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`)}
 <p>A committee of 3 from 10 people: $\binom{10}{3} = 120$. A committee of 2 men (from 5) and 3 women (from 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
 <h3>Binomial theorem</h3>
 ${Fm(T`(a + b)^n = \sum_{k=0}^{n}\binom{n}{k}a^{n-k}b^k`)}
+${Fig(pascalSvg(7, { hl: [[5, 2], [5, 3]], label: T`Pascal's triangle rows 0 to 6` }), T`Pascal's triangle: each number is the sum of the two above it. Row $n$ holds $\binom{n}{0}, \binom{n}{1}, \ldots$ — row 5 gives $1, 5, 10, 10, 5, 1$.`)}
 <p>The coefficient of $x^2$ in $(x + 3)^5$ is $\binom{5}{2}3^{3} = 270$.</p>
 ${Tip(T`<p>Ask "does swapping two chosen items give something different?" If yes, use permutations; if no, combinations.</p>`)}`,
   gens: [
@@ -390,9 +435,11 @@ ${Tip(T`<p>Ask "does swapping two chosen items give something different?" If yes
   blurb: 'Addition and multiplication rules, independence, conditional probability and Bayes’ theorem.',
   lesson: () => T`
 ${Tbl([T`Rule`, T`Formula`], [[T`Complement`, T`$P(A') = 1 - P(A)$`], [T`Addition`, T`$P(A \cup B) = P(A) + P(B) - P(A \cap B)$`], [T`Mutually exclusive`, T`$P(A \cap B) = 0$, so $P(A \cup B) = P(A) + P(B)$`], [T`Independent`, T`$P(A \cap B) = P(A)\,P(B)$`], [T`Conditional`, T`$P(A \mid B) = \dfrac{P(A \cap B)}{P(B)}$`]])}
+${Fig(venn2Svg({ shade: ['a', 'ab', 'b'], texts: { ab: 'A ∩ B' }, label: T`Venn diagram with A union B shaded` }), T`$P(A \cup B)$: adding $P(A)$ and $P(B)$ counts the overlap twice, so subtract $P(A \cap B)$ once.`)}
 <h3>With and without replacement</h3>
 ${Ex(T`<p>A bag has 5 red and 3 blue balls. Two are drawn <b>without</b> replacement. $P(\text{both red}) = \frac{5}{8} \times \frac{4}{7} = \frac{5}{14}$. With replacement it would be $\frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$.</p>`)}
 <p>Tree diagrams organise these: multiply along branches, add across branches.</p>
+${Fig(treeSvg([[[T`R`, '5/8'], [T`B`, '3/8']], [[[T`R`, '4/7'], [T`B`, '3/7']], [[T`R`, '5/7'], [T`B`, '2/7']]]], { leaf: [['20/56', '15/56'], ['15/56', '6/56']], label: T`Tree diagram for drawing two balls without replacement from 5 red and 3 blue` }), T`Without replacement the second-draw probabilities change. Multiply along each path; the four results add to 1.`)}
 <h3>"At least one"</h3>
 <p>Use the complement: $P(\text{at least one six in 3 rolls}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
 <h3>Bayes' theorem</h3>
@@ -415,12 +462,15 @@ ${Tip(T`<p>$P(A \mid B)$ and $P(B \mid A)$ are usually different. A test can be 
   lesson: () => T`
 <h3>Quartiles and box plots</h3>
 <p>Sort the data. The median $Q_2$ splits it in half; $Q_1$ is the median of the lower half and $Q_3$ the median of the upper half (here we leave the median out of both halves when $n$ is odd). The <b>interquartile range</b> $\text{IQR} = Q_3 - Q_1$ measures the spread of the middle 50%.</p>
+${Fig(boxPlotSvg([2, 4, 4.5, 6, 9], { lo: 0, hi: 10, label: T`Box plot of 2, 4, 4, 4, 5, 5, 7, 9: minimum 2, Q1 4, median 4.5, Q3 6, maximum 9` }), T`Box plot of 2, 4, 4, 4, 5, 5, 7, 9. The box spans the middle half (IQR $= 6 - 4 = 2$); the whiskers reach the extremes.`)}
 ${Key(T`<p>A common outlier rule: values below $Q_1 - 1.5\,\text{IQR}$ or above $Q_3 + 1.5\,\text{IQR}$.</p>`)}
 <h3>Variance and standard deviation</h3>
 ${Fm(T`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sample)}`)}
 ${Ex(T`<p>Data 2, 4, 4, 4, 5, 5, 7, 9: mean 5, squared deviations 9, 1, 1, 1, 0, 0, 4, 16 (sum 32). Population variance $= \frac{32}{8} = 4$ and $\sigma = 2$.</p>`)}
+${FigW(planeSvg({ W: 540, H: 230, x: [-3.6, 3.6], y: [0, 0.45], step: [1, 0.1], grid: false, fmtX: x => x === 0 ? 'μ' : `μ${x > 0 ? '+' : '−'}${Math.abs(x) === 1 ? '' : Math.abs(x)}σ`, fmtY: () => '', xl: ' ', yl: ' ', shade: [{ f: normPdf, from: -2, to: 2, cls: 'mf-f2' }, { f: normPdf, from: -1, to: 1, cls: 'mf-f1' }], fns: [{ f: normPdf }], texts: [[0, 0.15, '68%', 'middle', 'mf-lab-b'], [0, 0.03, '95%', 'middle', 'mf-small'], [2.6, 0.12, F(99.7) + '% ±3σ', 'middle', 'mf-small']], label: T`Normal curve: about 68 percent within one standard deviation and 95 percent within two` }), T`For bell-shaped (normal) data about 68% lies within $1\sigma$ of the mean, 95% within $2\sigma$ and 99.7% within $3\sigma$.`)}
 <h3>Grouped data</h3>
 <p>Estimate the mean with class midpoints: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+${Fig(barsSvg([['0', 3], ['10', 7], ['20', 12], ['30', 8], ['40', 4, undefined, '50']], { hist: true, W: 380, H: 220, yl: T`frequency`, label: T`Histogram of grouped data with classes 0–10 up to 40–50` }), T`A histogram of grouped data: bars touch because the classes are continuous. Midpoints 5, 15, 25, … estimate the mean.`)}
 <h3>Transforming data</h3>
 ${Tbl([T`If every value becomes`, T`Mean becomes`, T`Standard deviation becomes`], [[T`$x + b$`, T`$\mu + b$`, T`$\sigma$ (unchanged)`], [T`$ax$`, T`$a\mu$`, T`$|a|\sigma$`], [T`$ax + b$`, T`$a\mu + b$`, T`$|a|\sigma$`]])}
 ${Tip(T`<p>Adding a constant shifts the data but does not spread it out, so the standard deviation stays the same.</p>`)}`,
@@ -443,12 +493,14 @@ ${Fm(T`\text{Midpoint } \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right) \q
 ${Key(T`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centre } (a, b), \text{ radius } r$$`)}
 <p>Expanding gives the <b>general form</b> $x^2 + y^2 + Dx + Ey + F = 0$, with centre $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
 ${Ex(T`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: complete the squares, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centre $(3, -2)$, radius 5.</p>`)}
+${Fig(planeSvg({ W: 320, x: [-3, 9], y: [-8, 4], equal: true, step: [1, 1], tickX: 2, tickY: 2, circles: [[3, -2, 5]], segs: [[3, -2, 7, 1, 'mf-c2']], pts: [[3, -2, cP(3, -2), 'end', false, 6, 16], [7, 1]], texts: [[5.6, -1.4, 'r = 5', 'start']], label: T`Circle with centre (3, −2) and radius 5` }), T`$(x - 3)^2 + (y + 2)^2 = 25$: centre $(3, -2)$, radius 5 (the radius to $(7, 1)$ is a 3-4-5 triangle).`)}
 <h3>Position of a point</h3>
 <p>Substitute the point into $(x - a)^2 + (y - b)^2$ and compare with $r^2$: smaller → inside, equal → on, larger → outside.</p>
 <h3>Tangents</h3>
 <p>A tangent is perpendicular to the radius at the point of contact. For the circle $x^2 + y^2 = r^2$ at $(x_1, y_1)$, the radius has slope $\frac{y_1}{x_1}$, so the tangent has slope $-\frac{x_1}{y_1}$.</p>
 <h3>Parabolas</h3>
 <p>$y^2 = 4px$ has focus $(p, 0)$ and directrix $x = -p$; $x^2 = 4py$ has focus $(0, p)$ and directrix $y = -p$. Every point on a parabola is the same distance from the focus as from the directrix.</p>
+${Fig(planeSvg({ W: 320, x: [-4, 4], y: [-2, 5], equal: true, fns: [{ f: x => x * x / 4 }, { f: () => -1, cls: 'mf-c2', dash: true, label: T`directrix y = −1`, at: -3.8, dx: 0, dy: 16 }], segs: [[0, 1, 2, 1, 'mf-c4'], [2, 1, 2, -1, 'mf-c4', true]], pts: [[0, 1, 'F' + cP(0, 1), 'end', false, 6, -8], [2, 1, 'P' + cP(2, 1), 'start', false, 8, -6]], texts: [[-2.2, 3.6, 'x² = 4y'], [1, 1.3, '2', 'middle', 'mf-small'], [2.2, 0, '2', 'start', 'mf-small']], label: T`Parabola x² = 4y with focus (0, 1) and directrix y = −1` }), T`Every point of $x^2 = 4y$ is equally far from the focus $(0, 1)$ and the directrix $y = -1$; for $P(2, 1)$ both distances are 2.`)}
 ${Tip(T`<p>In $(x + 3)^2 + (y - 1)^2 = 16$ the centre is $(-3, 1)$ — the signs flip — and the radius is 4, not 16.</p>`)}`,
   gens: [
     () => { let x1, y1, x2, y2; do { x1 = ri(-9, 9); y1 = ri(-9, 9); x2 = ri(-9, 9); y2 = ri(-9, 9); } while ((x1 + x2) % 2 || (y1 + y2) % 2 || (x1 === x2 && y1 === y2)); const mx = (x1 + x2) / 2, my = (y1 + y2) / 2, P = (p, q) => `$${pt(p, q)}$`; return { q: T`Find the midpoint of $${pt(x1, y1)}$ and $${pt(x2, y2)}$.`, a: P(mx, my), v: [mx, my], ord: true, h: T`Type the coordinates as x, y.`, w: [P((x2 - x1) / 2, (y2 - y1) / 2), P(x1 + x2, y1 + y2), P(my, mx), P(mx + 1, my - 1)], s: T`Average the coordinates: $\left(\frac{${x1} + ${pn(x2)}}{2}, \frac{${y1} + ${pn(y2)}}{2}\right) = ${pt(mx, my)}$.` }; },
@@ -469,6 +521,7 @@ ${Tip(T`<p>In $(x + 3)^2 + (y - 1)^2 = 16$ the centre is $(-3, 1)$ — the signs
 <ol><li>Write the constraints as inequalities (include $x \ge 0$, $y \ge 0$).</li><li>Draw each boundary line and shade the region satisfying all constraints — the <b>feasible region</b>.</li><li>Find the corner points (vertices) by solving pairs of boundary equations.</li><li>Evaluate the objective at each corner.</li></ol>
 ${Key(T`<p><b>Corner-point theorem:</b> if an optimum exists, it occurs at a vertex of the feasible region.</p>`)}
 ${Ex(T`<p>Maximise $z = 3x + 2y$ subject to $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vertices: $(0, 0)$, $(6, 0)$, $(4, 4)$ [where $x + y = 8$ meets $2x + y = 12$], $(0, 8)$.</p><p>$z$ values: 0, 18, 20, 16. Maximum $z = 20$ at $(4, 4)$.</p>`)}
+${Fig(planeSvg({ W: 340, x: [-1, 10], y: [-1, 13], equal: true, step: [1, 1], tickX: 2, tickY: 2, polys: [{ pts: [[0, 0], [6, 0], [4, 4], [0, 8]], cls: 'mf-f1' }], fns: [{ f: x => 8 - x, cls: 'mf-c1', label: 'x + y = 8', at: 7.4, dx: 4, dy: -6 }, { f: x => 12 - 2 * x, cls: 'mf-c2', label: '2x + y = 12', at: 1.5, dx: 8, dy: -2 }, { f: x => (20 - 3 * x) / 2, cls: 'mf-c4', dash: true, from: 0, to: 6.7}], pts: [[0, 0], [6, 0, cP(6, 0), 'start', false, 6, 16], [4, 4, cP(4, 4), 'start', false, 8, -4], [0, 8, cP(0, 8), 'start', false, 8, 18]], label: T`Feasible region with corners (0, 0), (6, 0), (4, 4) and (0, 8) and the objective line z = 20 touching (4, 4)` }), T`The shaded feasible region. Sliding the dashed objective line $3x + 2y = z$ outwards, the last corner it touches is $(4, 4)$, so $z_{\max} = 20$.`)}
 <p>For minimisation problems with "≥" constraints, the region is often unbounded; with positive costs, the minimum still occurs at a corner.</p>
 ${Tip(T`<p>Check each corner satisfies <b>every</b> constraint — an intersection of two boundary lines may lie outside the region.</p>`)}`,
   gens: (() => {
@@ -490,6 +543,7 @@ ${Tip(T`<p>Check each corner satisfies <b>every</b> constraint — an intersecti
 <p>A <b>statement</b> (proposition) is a sentence that is either true or false. Compound statements are built with <b>connectives</b>:</p>
 ${truthTbl()}
 ${Key(T`<p>An implication $p \Rightarrow q$ is false <b>only</b> when $p$ is true and $q$ is false.</p>`)}
+${FigRow([[venn2Svg({ a: 'p', b: 'q', shade: ['ab'], label: T`Venn diagram for p and q` }), 'p ∧ q'], [venn2Svg({ a: 'p', b: 'q', shade: ['a', 'ab', 'b'], label: T`Venn diagram for p or q` }), 'p ∨ q'], [venn2Svg({ a: 'p', b: 'q', shade: ['b', 'out'], label: T`Venn diagram for not p` }), '¬p']], T`Connectives as regions: AND is the overlap, OR is everything inside either circle, NOT p is everything outside $p$.`)}
 <h3>Related conditionals</h3>
 ${Tbl([T`Name`, T`Form`, T`Equivalent to the original?`], [[T`Statement`, T`$p \Rightarrow q$`, '—'], [T`Converse`, T`$q \Rightarrow p$`, T`no`], [T`Inverse`, T`$\neg p \Rightarrow \neg q$`, T`no`], [T`Contrapositive`, T`$\neg q \Rightarrow \neg p$`, T`yes`]])}
 <h3>Quantifiers</h3>

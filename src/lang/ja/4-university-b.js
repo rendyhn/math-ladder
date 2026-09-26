@@ -1,18 +1,6 @@
 /* 日本語 — 大学（線形代数 → ラプラス変換） */
 addT('ja', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>連立 1 次方程式と階数</h3>
-<p>連立方程式 $A\mathbf{x} = \mathbf{b}$ は、拡大係数行列 $[A \mid \mathbf{b}]$ を行基本変形で階段行列にして解く。$A$ の<b>階数（ランク）</b>はピボットの個数（階段行列の 0 でない行の数）である。</p>
-⟦0⟧
-<h3>行列式</h3>
-⟦1⟧
-<p>$n \times n$ 行列の便利な性質：$\det(AB) = \det A \det B$、$\det(A^T) = \det A$、$\det(A^{-1}) = \frac{1}{\det A}$、$\det(kA) = k^n\det A$。クラメルの公式：$x_i = \frac{\det A_i}{\det A}$。</p>
-<h3>固有値と固有ベクトル</h3>
-⟦2⟧
-⟦3⟧
-<p>$A$ が 1 次独立な固有ベクトルを $n$ 個もつとき、$A$ は<b>対角化可能</b>：$A = PDP^{-1}$。$P$ の列は固有ベクトル、$D$ の対角成分は固有値。</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>次元定理：</b>$m \times n$ 行列について $\text{rank}(A) + \dim\ker(A) = n$。正方行列 $A$ が正則 $\iff \det A \ne 0 \iff$ 列ベクトルが 1 次独立 $\iff \text{rank} = n$。</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>$2 \times 2$ 行列では $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$。固有値の和はトレース、積は行列式に等しい。</p>`,
@@ -44,15 +32,6 @@ addT('ja', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$ なので $\lambda = ⟦3⟧$。`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>虚数単位は $i^2 = -1$ をみたす。複素数は $z = a + bi$ と表し、実部は $\text{Re}(z) = a$、虚部は $\text{Im}(z) = b$。$i$ の累乗は 4 つごとにくり返す：$i, -1, -i, 1, \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>極形式とオイラーの公式</h3>
-⟦2⟧
-⟦3⟧
-<p>1 の $n$ 乗根は $e^{2\pi ik/n}$（$k = 0, 1, \ldots, n - 1$）：単位円周上に等間隔に並ぶ点である。</p>
-⟦4⟧`,
   'rz9c61mn5': R`乗法`,
   '1lvuh3a6n9s': R`共役`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$、$z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('ja', {
   '1xd7417ut46': R`$z = ⟦0⟧$ とする。$\text{⟦1⟧}(z^2)$ を求めなさい。`,
 
   // distributions
-  '28d8604hmp9': R`
-<p><b>確率変数</b> $X$ は結果に数を対応させる。確率 $p(x)$ をもつ離散型の $X$ について：</p>
-⟦0⟧
-⟦1⟧
-<h3>正規分布</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`分布`,
   'z5bw2hz29r': R`P(X = k) または密度`,
@@ -120,17 +91,6 @@ addT('ja', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$、$\text{Var}(X) = ⟦1⟧$。$E[⟦2⟧]$ を求めなさい。`,
 
   // inference
-  'oph0fjnqfd': R`
-<p><b>標本</b>の統計量（$\bar{x}$ など）を使って<b>母集団</b>の母数（$\mu$ など）を推定する。<b>中心極限定理</b>により、$n$ が大きいとき標本平均は平均 $\mu$、<b>標準誤差</b> $\frac{\sigma}{\sqrt{n}}$ の正規分布で近似できる。</p>
-<h3>信頼区間</h3>
-⟦0⟧
-<p>誤差の幅を $E$ にするには $n \ge \left(\frac{z^*\sigma}{E}\right)^2$（切り上げ）が必要。$\sigma$ が未知なら $s$ と $t$ 分布を使う。</p>
-<h3>仮説検定</h3>
-<ol><li>$H_0$（例：$\mu = \mu_0$）と $H_1$ を立てる。</li><li>検定統計量を計算する。例：$z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$。</li><li><b>p 値</b>を求める：$H_0$ が正しいとしたとき、少なくともこれほど極端な結果が出る確率。</li><li>$p \le \alpha$ なら $H_0$ を棄却し、そうでなければ棄却しない。</li></ol>
-⟦1⟧
-<h3>線形回帰</h3>
-<p>最小二乗法による直線 $\hat{y} = a + bx$ の傾きは $b = r\frac{s_y}{s_x}$ で、$(\bar{x}, \bar{y})$ を通るので $a = \bar{y} - b\bar{x}$。</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1.645 \;(90\%),\; 1.96 \;(95\%),\; 2.576 \;(99\%)`,
   '7nca7j57l5': R`H₀ が正しい`,
   '2e0zey7f13x': R`H₀ が誤り`,
@@ -172,17 +132,6 @@ addT('ja', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$、切り上げて $n = ⟦4⟧$。`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>整数論</h3>
-<p>$a \equiv b \pmod n$ は $n$ が $a - b$ を割り切ることを表す。$a \bmod n$ は $\{0, 1, \ldots, n - 1\}$ の中の余り。合同式はたしたりかけたりでき、累乗は少しずつ小さくできる。</p>
-⟦0⟧
-⟦1⟧
-<p>$n$ を法とする $a$ の<b>逆元</b>は $ax \equiv 1 \pmod n$ となる $x$ で、$\gcd(a, n) = 1$ のときに限り存在する。</p>
-<h3>数え上げ</h3>
-<ul><li>$m$ 個の要素の集合から $n$ 個の要素の集合への写像：$n^m$ 個；単射：$n(n-1)\cdots(n-m+1)$ 個。</li><li>包除原理：$|A \cup B| = |A| + |B| - |A \cap B|$。</li><li><b>鳩の巣原理：</b>$kn$ 個より多くのものを $n$ 個の箱に入れると、少なくとも $k + 1$ 個入る箱がある。</li></ul>
-<h3>漸化式とグラフ</h3>
-<p>漸化式は前の項から各項を定める。例：$a_n = 2a_{n-1} + 1$、$a_0 = 1$。グラフでは<b>握手補題</b> $\sum \deg(v) = 2|E|$ が成り立つ；$K_n$ の辺は $\binom{n}{2}$ 本；頂点 $n$ 個の木の辺は $n - 1$ 本；連結グラフがオイラー閉路をもつのは、すべての次数が偶数のときに限る。</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>ユークリッドの互除法：</b>$\gcd(a, b) = \gcd(b, a \bmod b)$ を余りが 0 になるまでくり返す。</p><p><b>フェルマーの小定理：</b>$p$ が素数で $p \nmid a$ なら $a^{p-1} \equiv 1 \pmod p$。</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$：$252 = 1 \cdot 198 + 54$、$198 = 3 \cdot 54 + 36$、$54 = 1 \cdot 36 + 18$、$36 = 2 \cdot 18$。よって最大公約数は 18。</p><p>$2^{100} \bmod 7$：$2^3 = 8 \equiv 1$ なので $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$。</p>`,
   '23tw4c5wfxh': R`<p>包除原理の問題（「3 または 5 で割り切れる」）では、重なりは<b>最小公倍数</b> 15 で割り切れるものになる。</p>`,
@@ -223,18 +172,6 @@ addT('ja', {
   '27kjdpfw0sg': R`⟦0⟧ 種類あるので、$⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ 人ならまだ避けられるが、もう 1 人増えると ⟦4⟧ 人の組が必ずできる：$⟦5⟧$。`,
 
   // numerical
-  '106u35np5bp': R`
-<p>数値計算法は、使いやすい式で表せない答えを近似する。重要な誤差は 2 種類：<b>打ち切り</b>誤差（方法による）と<b>丸め</b>誤差（有限の精度による）。</p>
-⟦0⟧
-<h3>解を求める</h3>
-<ul><li><b>二分法：</b>$f(a)$ と $f(b)$ の符号が異なれば、中点 $m$ を調べ、符号が変わる側の半分を残す。遅いが確実：誤差は 1 回ごとに半分になる。</li><li><b>ニュートン法：</b>$x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$。単純な解の近くでは非常に速い（2 次収束）が、初期値が悪いときや $f' \approx 0$ のときは失敗することがある。</li></ul>
-⟦1⟧
-<h3>数値積分</h3>
-⟦2⟧
-<p>ここで $h = \frac{b - a}{n}$。シンプソンの公式は 3 次以下の多項式に対して正確である。</p>
-<h3>オイラー法</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{絶対誤差} = |x_{\text{真}} - x_{\text{近似}}| \qquad \text{相対誤差} = \frac{|x_{\text{真}} - x_{\text{近似}}|}{|x_{\text{真}}|}`,
   '1a9noj3sp27': R`<p>$f(x) = x^2 - 10$、$x_0 = 3$ から $\sqrt{10}$ を求める：$x_1 = 3 - \frac{-1}{6} = 3.1667$、$x_2 = 3.1623$——すでに小数第 4 位まで正しい。</p>`,
   'vx6qz5zup7': R`\text{台形公式：} \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{シンプソン（}n \text{ は偶数）：} \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('ja', {
   '6utp8finkn': R`$⟦0⟧$ を ⟦1⟧ で近似します。相対誤差を百分率で小数第 3 位まで求めなさい。`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p><b>ベクトル場</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ は各点にベクトルを対応させる——風の速度や力など。$\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$ として：</p>
-⟦0⟧
-<p>発散は点からのわき出しの量、回転は渦の強さを表す。</p>
-<h3>線積分と保存場</h3>
-⟦1⟧
-⟦2⟧
-<h3>重要な定理</h3>
-⟦3⟧
-<p>グリーンの定理のうまい応用：$D$ の面積は $\frac{1}{2}\oint_C (x\,dy - y\,dx)$。</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>あるポテンシャル $\varphi$ で $\mathbf{F} = \nabla\varphi$ と書けるとき、$\mathbf{F}$ は<b>保存場</b>である。このとき $A$ から $B$ へのどの経路でも $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$。平面（単連結領域）では、$(P, Q)$ が保存場であるのは $P_y = Q_x$ のときに限る。</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$：$P_y = 2x = Q_x$ なので保存場で、$\varphi = x^2y + 3y$。$(0, 0)$ から $(2, 1)$ まで：$\varphi(2, 1) - \varphi(0, 0) = 4 + 3 = 7$。</p>`,
@@ -293,13 +219,6 @@ addT('ja', {
   '4awle3me9d': R`$P$ を $x$ で積分：$\varphi = ⟦0⟧ + g(y)$。すると $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ から $g = ⟦3⟧$。`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>逆変換では、ふつうまず部分分数に分解してから表と照らし合わせる。</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>線形性：</b>$\mathcal{L}\{af + bg\} = aF + bG$。<b>導関数：</b>$\mathcal{L}\{y'\} = sY - y(0)$、$\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$——これで微分方程式が代数の問題になる。</p>`,
   'ie964pskzz': R`<p>$y'' + 4y = 0$、$y(0) = 3$、$y'(0) = 2$ を解く。</p><p>$s^2Y - 3s - 2 + 4Y = 0$ より $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$。逆変換すると $y = 3\cos 2t + \sin 2t$。</p>`,

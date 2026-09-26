@@ -167,20 +167,6 @@ addT('pt', {
   '2wu7e9ekt1': R`Um retângulo de comprimento l e largura w, um triângulo de base b e altura h, e um trapézio de lados paralelos a e b e altura h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Nosso sistema de numeração usa dez algarismos, de 0 a 9. A <b>posição</b> de um algarismo indica o seu <b>valor</b>: cada posição vale dez vezes a posição à sua direita.</p>
-⟦0⟧
-<p>Em <b>5 382 417</b>, o algarismo 8 está na dezena de milhar, então vale $8 \times 10\,000 = 80\,000$. O algarismo 3 vale $300\,000$.</p>
-<h3>Forma decomposta</h3>
-<p>Escrever um número como a soma dos valores posicionais mostra quanto vale cada algarismo:</p>
-⟦1⟧
-<p>O 0 na casa das dezenas <b>guarda o lugar</b>. Sem ele, 4 307 viraria 437.</p>
-<h3>Comparando números</h3>
-<p>Um número natural com mais algarismos é maior. Se dois números têm a mesma quantidade de algarismos, compare-os algarismo por algarismo a partir da esquerda; a primeira posição em que diferem decide. Assim, $52\,814 \gt 52\,781$, porque nas centenas $8 \gt 7$.</p>
-<h3>Arredondamento</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Milhões`,
   '1y40p90zlus': R`Centenas de milhar`,
@@ -217,18 +203,6 @@ addT('pt', {
   '1uhrj1iztnj': R`menor para o maior`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>A adição junta quantidades; a subtração descobre o que sobra ou a <b>diferença</b> entre duas quantidades. Para números grandes usamos o <b>algoritmo em colunas</b>: alinhe os algarismos pelo valor posicional e trabalhe da coluna das unidades para a esquerda.</p>
-<h3>Adição com reserva</h3>
-<p>Quando uma coluna soma 10 ou mais, escreva o algarismo das unidades e <b>leve</b> a dezena para a próxima coluna ("vai um").</p>
-⟦0⟧
-<h3>Subtração com empréstimo</h3>
-<p>Se o algarismo de cima de uma coluna for menor que o de baixo, <b>peça emprestado</b> (reagrupe) um da coluna seguinte: isso acrescenta 10 à coluna atual.</p>
-⟦1⟧
-⟦2⟧
-<h3>Problemas</h3>
-<p>Palavras como <i>ao todo, no total, a mais, aumentou</i> geralmente indicam adição. Palavras como <i>sobrou, restam, diferença, quantos a mais, a menos</i> geralmente indicam subtração. Pergunte-se sempre o que o problema realmente pede.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Unidades: $7 + 6 = 13$ → escreva 3 e vai 1.</li><li>Dezenas: $8 + 4 + 1 = 13$ → escreva 3 e vai 1.</li><li>Centenas: $5 + 8 + 1 = 14$ → escreva 4 e vai 1.</li><li>Unidades de milhar: $4 + 2 + 1 = 7$.</li></ol><p>Resposta: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Unidades: 4 é menor que 8. O algarismo das dezenas é 0, então pegamos emprestado das centenas: 204 vira 1 centena, 9 dezenas e 14 unidades. $14 - 8 = 6$.</li><li>Dezenas: $9 - 5 = 4$.</li><li>Centenas: 1 é menor que 7, então pegamos emprestada uma unidade de milhar: $11 - 7 = 4$.</li><li>Unidades de milhar: $5 - 1 = 4$.</li></ol><p>Resposta: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>Adição e subtração desfazem uma à outra. Confira uma subtração somando: $4\,446 + 1\,758 = 6\,204$ ✓. Isso também encontra números que faltam: se $\square + 348 = 1\,000$, então $\square = 1\,000 - 348 = 652$.</p>`,
@@ -253,17 +227,6 @@ addT('pt', {
   'h14zpmlfj7': R`"Quantos a mais" pede a diferença: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p>A <b>multiplicação</b> é a adição repetida de grupos iguais: $4 \times 6$ significa 4 grupos de 6, ou seja, $6 + 6 + 6 + 6 = 24$. A <b>divisão</b> reparte uma quantidade em grupos iguais: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Multiplicando números maiores</h3>
-<p>Decomponha um dos números pelos valores posicionais, multiplique cada parte e some (é a propriedade distributiva em ação):</p>
-⟦1⟧
-<h3>Divisão e resto</h3>
-<p>Quando a divisão não é exata, o que sobra é o <b>resto</b>. Ele é sempre menor que o divisor.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>Multiplicação e divisão desfazem uma à outra: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Na multiplicação a ordem não importa: $a \times b = b \times a$.</li><li>A multiplicação se distribui sobre a adição: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ resto } 2 \qquad \text{porque } 5 \times 9 + 2 = 47`,
@@ -289,13 +252,6 @@ addT('pt', {
   '13ytah9dyhs': R`Fileiras iguais significam multiplicação: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ cadeiras.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Quando um cálculo tem várias operações, todos precisam fazê-las na mesma ordem; caso contrário, a mesma expressão daria resultados diferentes. Essa ordem combinada se chama <b>ordem das operações</b>; em inglês, ela costuma ser lembrada pela sigla <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Etapa`,
   '1ata9ppdhpl': R`Operação`,
   '1i56r47suu5': R`Exemplo`,
@@ -321,19 +277,6 @@ addT('pt', {
   '2g7vu4g2g7r': R`Adição e subtração têm a mesma prioridade, então vá da esquerda para a direita: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$ e depois $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Somar $⟦6⟧ + ⟦7⟧$ primeiro daria, erradamente, ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Um <b>divisor</b> (ou fator) de um número o divide exatamente. Um <b>múltiplo</b> de um número é esse número multiplicado por um número natural.</p>
-<ul><li>Divisores de 12: 1, 2, 3, 4, 6, 12 (eles vêm em pares: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Múltiplos de 12: 12, 24, 36, 48, …</li></ul>
-<h3>Números primos e compostos</h3>
-<p>Um número <b>primo</b> tem exatamente dois divisores: 1 e ele mesmo (2, 3, 5, 7, 11, 13, …). Um número <b>composto</b> tem mais de dois divisores. O 1 não é primo nem composto, e o 2 é o único primo par.</p>
-⟦0⟧
-<h3>Decomposição em fatores primos</h3>
-<p>Todo número natural maior que 1 pode ser escrito como produto de primos de uma única maneira. Use uma árvore de fatores: continue decompondo até que cada ramo termine em um primo.</p>
-⟦1⟧
-<h3>MDC e MMC</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Divisível por`,
   '1u2j0a6t91o': R`Regra`,
   '1fsfip1h2ap': R`o último algarismo é par`,
@@ -366,23 +309,6 @@ addT('pt', {
 /* Português — ensino fundamental (frações → medidas) */
 addT('pt', {
   // fractions
-  '1j59vvw5wlm': R`
-<p>Uma <b>fração</b> $\frac{a}{b}$ significa $a$ partes de $b$ partes iguais. O número de cima é o <b>numerador</b>; o de baixo é o <b>denominador</b>.</p>
-<h3>Frações equivalentes e fração irredutível</h3>
-<p>Multiplicar ou dividir o numerador e o denominador pelo mesmo número dá uma fração equivalente: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Para <b>simplificar</b>, divida os dois pelo MDC:</p>
-⟦0⟧
-<h3>Números mistos</h3>
-<p>$2\frac{1}{3}$ significa $2 + \frac{1}{3}$. Como fração imprópria: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Adição e subtração</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplicação e divisão</h3>
-⟦3⟧
-<p>Para dividir, <b>mantenha</b> a primeira fração, <b>troque</b> ÷ por × e <b>inverta</b> a segunda fração.</p>
-⟦4⟧
-<h3>Fração de uma quantidade</h3>
-<p>Divida pelo denominador e depois multiplique pelo numerador: $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>Só é possível somar ou subtrair frações com o <b>mesmo denominador</b>. Reescreva-as com um denominador comum (o MMC dos denominadores) e depois some ou subtraia os numeradores.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>Nunca some os denominadores: $\frac{1}{2} + \frac{1}{3}$ é $\frac{5}{6}$, e não $\frac{2}{5}$.</p>`,
@@ -408,23 +334,6 @@ addT('pt', {
   '2er4a94vvmc': R`Compare-as como decimais (ou com um denominador comum): ⟦0⟧. A menor é $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Os números decimais estendem o valor posicional para a direita das unidades. Cada posição vale um décimo da posição à sua esquerda.</p>
-⟦0⟧
-<p>Assim, $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Comparando decimais</h3>
-<p>Deixe os números com a mesma quantidade de casas decimais acrescentando zeros e depois compare: $0{,}5 = 0{,}50 \gt 0{,}45$. Um decimal mais comprido não é necessariamente maior!</p>
-<h3>Adição e subtração</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplicação</h3>
-<p>Multiplique como se não houvesse vírgulas e conte o total de casas decimais dos fatores: o resultado tem essa quantidade de casas.</p>
-⟦3⟧
-<h3>Divisão e conversões</h3>
-<p>Multiplicar por 10, 100 ou 1000 desloca os algarismos 1, 2 ou 3 casas para a esquerda (o número aumenta); dividir os desloca para a direita. Uma fração vira decimal dividindo o numerador pelo denominador: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Arredondando decimais</h3>
-<p>A regra é a mesma dos números naturais: olhe o algarismo seguinte. $6{,}847$ arredondado para o décimo mais próximo é $6{,}8$; para o centésimo mais próximo, $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Décimos`,
   '1usmp59h50n': R`Centésimos`,
   'biszmhnvcw': R`Milésimos`,
@@ -452,16 +361,6 @@ addT('pt', {
   'clxur1r60o': R`Escreva todos com três casas decimais: ⟦0⟧. O menor é <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Por cento</b> significa "em cada 100": $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>As três perguntas básicas</h3>
-⟦1⟧
-⟦2⟧
-<h3>Aumentos, reduções e descontos</h3>
-<p>Um desconto de $20\%$ sobre 80 reais economiza $0{,}2 \times 80 = 16$ reais, então o preço com desconto é $80 - 16 = 64$ reais. Mais rápido: você paga $80\%$ do preço, $0{,}8 \times 80 = 64$.</p>
-<p>Um aumento de $p\%$ multiplica por $1 + \frac{p}{100}$; uma redução multiplica por $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Fração`,
   '21lfn42y4af': R`Decimal`,
   '1vaz29jk1go': R`Porcentagem`,
@@ -483,15 +382,6 @@ addT('pt', {
   '260avkxsjev': R`Variação: ⟦0⟧ reais. Redução percentual: ⟦1⟧ — divida sempre pelo preço <b>original</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>O sistema métrico se baseia em potências de dez, com prefixos que indicam o tamanho de uma unidade.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Tempo</h3>
-<p>O tempo <i>não</i> é decimal: uma hora tem 60 minutos, e não 100. Para calcular o tempo decorrido, avance por etapas: de 09:35 a 13:10 são 25 min (até 10:00) + 3 h (até 13:00) + 10 min = 3 h 35 min = 215 minutos.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Prefixo`,
   '18vrcwaxvwu': R`Significado`,
   '1j1ms4p35q': R`Exemplos`,
@@ -526,15 +416,6 @@ addT('pt', {
 /* Português — ensino fundamental (perímetro e área → dados) */
 addT('pt', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>O <b>perímetro</b> é a medida total do contorno de uma figura (em cm, m, …). A <b>área</b> é a medida da superfície que ela ocupa (em unidades quadradas: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Figuras compostas</h3>
-<p>Divida uma figura em forma de L ou outra figura composta em retângulos e triângulos e some as áreas — ou pegue um retângulo grande e subtraia a parte que falta.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Retângulo, triângulo e trapézio — a altura é sempre medida perpendicularmente à base.`,
   '1vbb9fjurso': R`Figura`,
   '1bkcetbdzwi': R`Perímetro`,
@@ -567,15 +448,6 @@ addT('pt', {
   '4fca853um1': R`Retângulo grande menos o recorte: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>O <b>volume</b> é o espaço que um sólido ocupa, medido em <b>unidades cúbicas</b> (cm³, m³). Um cubo com arestas de 1 cm tem volume de 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Área total</h3>
-<p>A área total é a soma das áreas de todas as faces. Um paralelepípedo tem três pares de retângulos iguais:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Paralelepípedo: } V = l \times w \times h \qquad\qquad \text{Cubo: } V = s^3`,
   '1v18xwhq9wo': R`<p>A capacidade está ligada ao volume: $1 \text{ cm}^3 = 1 \text{ mL}$ e $1000 \text{ cm}^3 = 1 \text{ L}$. Além disso, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Um aquário tem 50 cm de comprimento, 30 cm de largura e 40 cm de altura.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -595,17 +467,6 @@ addT('pt', {
   '29p9f2w08h': R`Queremos $s^3 = ⟦0⟧$. Como $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, cada aresta mede ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Os ângulos medem giros, em <b>graus</b> (°). Uma volta completa tem $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Triângulos</h3>
-<p><b>Equilátero</b>: três lados iguais, cada ângulo com $60^\circ$. <b>Isósceles</b>: dois lados iguais e dois ângulos da base iguais. <b>Escaleno</b>: nenhum lado igual. Um triângulo <b>retângulo</b> tem um ângulo de $90^\circ$.</p>
-<h3>Polígonos</h3>
-<p>Um polígono de $n$ lados pode ser dividido em $n - 2$ triângulos a partir de um vértice, então</p>
-⟦2⟧
-<p>Em um polígono <b>regular</b> todos os ângulos são iguais, então cada um mede $\frac{(n-2) \times 180^\circ}{n}$. Um hexágono regular tem ângulos de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Tipo`,
   '1czpi6e2j2z': R`Medida`,
   '2eamokno2qd': R`Agudo`,
@@ -645,13 +506,6 @@ addT('pt', {
   '1m260esohws': R`Os dois ângulos da base são iguais: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Dados são informações que coletamos, como notas de provas ou frutas favoritas. Uma <b>tabela de frequências</b> registra quantas vezes cada valor aparece; <b>gráficos de barras</b> e <b>pictogramas</b> mostram a mesma informação de forma visual.</p>
-<h3>Quatro medidas-resumo</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Medida`,
   '1fy4t37t415': R`Como calcular`,
   '18v4e4ulshl': R`Para 3; 7; 7; 8; 10`,
@@ -705,16 +559,6 @@ addT('pt', {
   '187npo1zduj': R`corda`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Os <b>números inteiros</b> são os números naturais, seus opostos e o zero: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Na reta numérica, os números aumentam para a direita, então $-7 \lt -2$, embora 7 seja maior que 2.</p>
-<p>O <b>valor absoluto</b> (módulo) $|a|$ é a distância até o 0: $|-6| = 6$ e $|6| = 6$.</p>
-<h3>Adição e subtração</h3>
-⟦0⟧
-<h3>Multiplicação e divisão</h3>
-⟦1⟧
-⟦2⟧
-<p>No dia a dia: temperaturas abaixo de zero, altitudes abaixo do nível do mar, dívidas e andares no subsolo.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Sinais iguais:</b> some os módulos e mantenha o sinal. $-4 + (-9) = -13$.</li><li><b>Sinais diferentes:</b> subtraia os módulos e use o sinal do número de maior módulo. $-11 + 5 = -6$.</li><li><b>Subtrair</b> é somar o oposto: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Sinais`,
   '18hy4wrreq9': R`Resultado`,
@@ -738,15 +582,6 @@ addT('pt', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ e $|⟦2⟧| = ⟦3⟧$, então o valor é $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Uma <b>potência</b> indica uma multiplicação repetida: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ fatores}}$. Em $2^5 = 32$, 2 é a <b>base</b> e 5 é o <b>expoente</b>.</p>
-<h3>Propriedades das potências</h3>
-⟦0⟧
-⟦1⟧
-<h3>Raízes</h3>
-<p>A raiz quadrada desfaz o quadrado: $\sqrt{81} = 9$ porque $9^2 = 81$. A raiz cúbica desfaz o cubo: $\sqrt[3]{64} = 4$ porque $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Propriedade`,
   '2du0zx6ztd9': R`<p>Simplifique $(2x^3)(5x^4)$: multiplique os números e some os expoentes, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Para simplificar uma raiz quadrada, tire o maior fator que seja quadrado perfeito: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -776,16 +611,6 @@ addT('pt', {
   'r5mpjrvznb': R`Encontre o maior fator que seja quadrado perfeito: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Então $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Os cientistas escrevem números muito grandes ou muito pequenos de forma compacta como</p>
-⟦0⟧
-<ul><li>A distância até o Sol, cerca de $150\,000\,000$ km, é $1{,}5 \times 10^{8}$ km.</li><li>Um glóbulo vermelho, com cerca de $0{,}000\,008$ m de largura, mede $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Calculando</h3>
-<p>Multiplique (ou divida) os números da frente e some (ou subtraia) os expoentes. Depois ajuste o número da frente se ele não estiver entre 1 e 10:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ inteiro}`,
   '1phwx4rhhb0': R`<p>Conte quantas casas a vírgula se move para ficar exatamente um algarismo diferente de zero antes dela. Números grandes (vírgula para a esquerda) dão expoente <b>positivo</b>; números menores que 1 (vírgula para a direita) dão expoente <b>negativo</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -807,19 +632,6 @@ addT('pt', {
   '1ujla3379au': R` Como ⟦0⟧ é menor que 1, reescreva $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Uma <b>razão</b> $a : b$ compara duas quantidades. Como as frações, as razões podem ser simplificadas dividindo os dois termos pelo MDC: $18 : 24 = 3 : 4$.</p>
-<h3>Divisão proporcional</h3>
-⟦0⟧
-<h3>Taxas e valor unitário</h3>
-<p>Uma <b>taxa</b> compara quantidades com unidades diferentes: km por hora, reais por kg. Encontrar o valor de <b>uma</b> unidade (o valor unitário) resolve a maioria dos problemas.</p>
-⟦1⟧
-<h3>Proporção direta e inversa</h3>
-⟦2⟧
-⟦3⟧
-<h3>Escalas de mapas</h3>
-<p>Uma escala de $1 : 50\,000$ significa que 1 cm no mapa corresponde a $50\,000$ cm $= 500$ m $= 0{,}5$ km na realidade.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Divida 60 balas na razão $2 : 3$.</p><ol><li>Total de partes: $2 + 3 = 5$.</li><li>Uma parte: $60 \div 5 = 12$.</li><li>Partes: $2 \times 12 = 24$ e $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{velocidade} = \frac{\text{distância}}{\text{tempo}} \qquad \text{distância} = \text{velocidade} \times \text{tempo}`,
   '1lx74znbkzq': R`<ul><li><b>Direta:</b> as duas quantidades crescem juntas, $y = kx$. O dobro de cadernos custa o dobro.</li><li><b>Inversa:</b> uma cresce quando a outra diminui, $xy = k$. O dobro de trabalhadores termina na metade do tempo.</li></ul>`,
@@ -858,20 +670,6 @@ addT('pt', {
 /* Português — anos finais (expressões algébricas → funções afins) */
 addT('pt', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Na expressão $5x^2 - 3xy + 7$, os <b>termos</b> são $5x^2$, $-3xy$ e $7$; os <b>coeficientes</b> são 5 e $-3$; 7 é o <b>termo independente</b>. <b>Termos semelhantes</b> têm exatamente as mesmas letras com os mesmos expoentes ($4ab$ e $-ab$ são semelhantes; $x^2$ e $x$ não são).</p>
-<h3>Simplificar</h3>
-<p>Junte os termos semelhantes somando seus coeficientes: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Eliminar parênteses</h3>
-⟦0⟧
-⟦1⟧
-<h3>Produtos notáveis</h3>
-⟦2⟧
-<h3>Fatorar</h3>
-<p>Fatorar é desenvolver ao contrário. Coloque em evidência o maior fator comum: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Substituir</h3>
-<p>Troque cada letra pelo seu valor, usando parênteses para os negativos: se $x = -2$, então $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Propriedade distributiva:</b> $a(b + c) = ab + ac$. Multiplique <i>cada</i> termo dentro do parêntese pelo termo de fora.</p><p><b>Dois parênteses:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. É fácil esquecer o termo do meio, $2 \cdot 4 \cdot x = 8x$.</p>`,
@@ -888,17 +686,6 @@ addT('pt', {
   '2e60a5izj9m': R`Desenvolva $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Uma equação diz que duas expressões são iguais. Pense numa balança: o que você fizer de um lado, faça também do outro, e ela continua equilibrada. O objetivo é isolar a incógnita.</p>
-⟦0⟧
-⟦1⟧
-<h3>Parênteses e frações</h3>
-<p>Primeiro elimine os parênteses (ou divida os dois lados pelo número de fora). Elimine as frações multiplicando cada termo pelo denominador comum:</p>
-⟦2⟧
-<h3>Problemas</h3>
-<ol><li>Escolha uma letra para a incógnita e diga o que ela representa.</li><li>Traduza o enunciado em uma equação.</li><li>Resolva e confira se a resposta faz sentido no problema.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Desfaça as operações na ordem inversa usando <b>operações inversas</b>: adição ↔ subtração, multiplicação ↔ divisão.</p>`,
   '11eu1q8a3p': R`<p>Resolva $5x - 7 = 2x + 11$.</p><ol><li>Subtraia $2x$ dos dois lados: $3x - 7 = 11$.</li><li>Some 7: $3x = 18$.</li><li>Divida por 3: $x = 6$.</li></ol><p>Verificação: $5(6) - 7 = 23$ e $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>A soma de três inteiros consecutivos é 72. Chame-os de $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, então $n = 23$. Os inteiros são 23, 24 e 25.</p>`,
@@ -926,17 +713,6 @@ addT('pt', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, então $⟦3⟧x = ⟦4⟧$ e $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Uma <b>inequação</b> compara duas expressões: $\lt$ (menor que), $\gt$ (maior que), $\le$ (menor ou igual a), $\ge$ (maior ou igual a). Sua solução costuma ser todo um intervalo de números.</p>
-<p>Na reta numérica, $x \gt 2$ é desenhado com uma bolinha <b>aberta</b> em 2 (o 2 não está incluído) e uma seta para a direita; $x \le 2$ usa uma bolinha <b>fechada</b> e uma seta para a esquerda.</p>
-<h3>Resolvendo</h3>
-<p>Resolva como uma equação — somando, subtraindo, multiplicando ou dividindo os dois lados — com uma regra a mais:</p>
-⟦0⟧
-<p>Por quê? $2 \lt 5$, mas multiplicando os dois lados por $-1$ obtemos $-2$ e $-5$, e $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Inequações duplas</h3>
-<p>Faça a mesma operação nas três partes: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. As soluções inteiras são $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Quando você <b>multiplica ou divide por um número negativo</b>, inverta o sinal da desigualdade.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Resolva $7 - 2x \ge 1$.</p><ol><li>Subtraia 7: $-2x \ge -6$.</li><li>Divida por $-2$ e inverta o sinal: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>"O menor inteiro com $x \gt 4$" é 5, e não 4 — uma desigualdade estrita exclui o extremo.</p>`,
@@ -955,13 +731,6 @@ addT('pt', {
   'abjkjjicc6': R`todas as partes`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Um <b>conjunto</b> é uma coleção bem definida de objetos, os seus <b>elementos</b>. Escrevemos $A = \{2; 4; 6; 8\}$ e $4 \in A$ ("4 pertence a A"), $5 \notin A$. $n(A)$ é o número de elementos; aqui $n(A) = 4$. O <b>conjunto vazio</b> $\varnothing$ não tem elementos; o <b>conjunto universo</b> $U$ contém tudo o que está em discussão.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Um diagrama de Venn: cada região é uma combinação diferente de "está em A" e "está em B".`,
   '142ifrt0jkt': R`Notação`,
   '14czndj1h0b': R`Exemplo com A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -996,17 +765,6 @@ addT('pt', {
   '9yersm2gye': R`$A = ⟦0⟧$, então $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Uma <b>função afim</b> tem como gráfico uma reta. Na <b>forma reduzida</b></p>
-⟦0⟧
-<p>$m$ é o <b>coeficiente angular</b> (a inclinação): quanto $y$ varia quando $x$ aumenta 1. $c$ é o <b>coeficiente linear</b>, onde a reta corta o eixo $y$. Na notação de funções escrevemos $f(x) = mx + c$, então $f(3)$ significa "o valor quando $x = 3$".</p>
-<h3>Coeficiente angular a partir de dois pontos</h3>
-⟦1⟧
-⟦2⟧
-<h3>Interceptos e outras formas</h3>
-<p>Faça $x = 0$ para achar onde a reta corta o eixo $y$ e $y = 0$ para onde corta o eixo $x$. Uma reta pode ser escrita $ax + by = c$; isole $y = -\frac{a}{b}x + \frac{c}{b}$ para ler o coeficiente angular. Passando por um ponto $(x_1; y_1)$ com coeficiente angular $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{variação vertical}}{\text{variação horizontal}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Por $(1; 2)$ e $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitua $(1; 2)$ em $y = 3x + c$: $2 = 3 + c$, então $c = -1$ e a reta é $y = 3x - 1$.</p>`,
@@ -1029,18 +787,6 @@ addT('pt', {
 /* Português — anos finais (sistemas → sólidos) */
 addT('pt', {
   // systems
-  '1obgwi6un65': R`
-<p>Um <b>sistema</b> de duas equações do 1º grau em $x$ e $y$ pede os valores que tornam verdadeiras <i>as duas</i> equações. No gráfico, a solução é o ponto onde as duas retas se cruzam.</p>
-<h3>Substituição</h3>
-⟦0⟧
-<h3>Adição (eliminação)</h3>
-⟦1⟧
-⟦2⟧
-<h3>Casos especiais</h3>
-<p>Retas paralelas (mesmo coeficiente angular, coeficientes lineares diferentes) nunca se encontram: <b>não há solução</b>. Retas coincidentes dão <b>infinitas</b> soluções.</p>
-<h3>Problemas</h3>
-<p>Duas incógnitas precisam de duas informações. "Numa fazenda há galinhas e vacas, com 30 cabeças e 84 patas", com $c$ vacas e $h$ galinhas: $c + h = 30$ e $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitua a primeira na segunda: $3x + (2x - 1) = 14$, então $5x = 15$, $x = 3$ e $y = 2(3) - 1 = 5$. Solução: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Some as equações para eliminar $y$: $7x = 21$, então $x = 3$. Depois, $2(3) + 3y = 12$ dá $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Multiplique primeiro uma ou as duas equações para que uma incógnita tenha coeficientes iguais (ou opostos) e depois subtraia (ou some) para eliminá-la. Confira sempre a resposta nas <b>duas</b> equações originais.</p>`,
@@ -1061,18 +807,6 @@ addT('pt', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ e $a - b = ⟦1⟧$. Somando: $2a = ⟦2⟧$, então $a = ⟦3⟧$ e $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Num triângulo retângulo, o lado mais longo, oposto ao ângulo reto, é a <b>hipotenusa</b> $c$. Os outros dois lados são os <b>catetos</b> $a$ e $b$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Ternos pitagóricos</h3>
-<p>Vale a pena lembrar as soluções inteiras e seus múltiplos: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, e $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Distância entre dois pontos</h3>
-⟦3⟧
-<h3>A recíproca</h3>
-<p>Sendo $c$ o maior lado: se $a^2 + b^2 = c^2$, o triângulo é <b>retângulo</b>; se $a^2 + b^2 \gt c^2$, é <b>acutângulo</b>; se $a^2 + b^2 \lt c^2$, é <b>obtusângulo</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Para achar a hipotenusa, some os quadrados; para achar um cateto, subtraia: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Uma escada de 10 m está apoiada numa parede, com o pé a 6 m dela. Altura alcançada: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Com catetos 3 e 4, a hipotenusa é 5, e não 7.</p>`,
@@ -1094,17 +828,6 @@ addT('pt', {
   '5pal2wak00': R`Compare com o maior lado, ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ e $⟦4⟧^2 = ⟦5⟧$. Como $⟦6⟧ ⟦7⟧ ⟦8⟧$, o triângulo é <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>A razão entre o comprimento de qualquer circunferência e seu diâmetro é sempre o mesmo número, $\pi \approx 3{,}14159\ldots$ (muitas vezes aproximado por $3{,}14$ ou $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Arcos e setores</h3>
-<p>Um setor de ângulo central $\theta$ é a fração $\frac{\theta}{360^\circ}$ do círculo inteiro:</p>
-⟦3⟧
-<h3>Ângulos na circunferência</h3>
-<ul><li>O ângulo central é o <b>dobro</b> do ângulo inscrito que determina o mesmo arco.</li><li>Um ângulo inscrito numa semicircunferência mede $90^\circ$.</li><li>A tangente é perpendicular ao raio no ponto de tangência.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Elementos de uma circunferência. O diâmetro é o dobro do raio: d = 2r.`,
   '1y041ovnv67': R`<p>Raio 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm e $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Deixar a resposta "em função de $\pi$" a mantém exata.</p>`,
   '1ljhd2tb7ca': R`\text{comprimento do arco} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{área do setor} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -1132,13 +855,6 @@ addT('pt', {
   'kfe0atvapi': R`O ângulo inscrito é a metade do central: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p>Um <b>prisma</b> tem a mesma seção transversal em todo o seu comprimento, então seu volume é simplesmente a área dessa seção vezes o comprimento. Uma pirâmide ou um cone que caiba exatamente dentro dele tem exatamente um terço desse volume.</p>
-⟦0⟧
-<p>No cone, $s$ é a <b>geratriz</b>; por Pitágoras, $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Sólido`,
   'alc1a0j1b0': R`Volume`,
   'bt7ak3o2ct': R`Área total`,
@@ -1177,16 +893,6 @@ addT('pt', {
 /* Português (Brasil) — Ensino Fundamental II (estatística → semelhança) */
 addT('pt', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Uma <b>medida de tendência central</b> resume um conjunto de dados com um valor típico; uma <b>medida de dispersão</b> indica o quanto os valores estão espalhados.</p>
-⟦0⟧
-<h3>Média a partir de uma tabela de frequências</h3>
-⟦1⟧
-⟦2⟧
-<h3>Raciocinando de trás para frente</h3>
-⟦3⟧
-<p>Com uma quantidade par de valores, a mediana é a média dos dois valores centrais.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Indicada quando…`,
   'j0p0vvrwxf': R`os dados não têm valores extremos (outliers)`,
   '2ajydntyvld': R`os dados são assimétricos ou têm outliers — ex.: preços de imóveis`,
@@ -1212,16 +918,6 @@ addT('pt', {
   '22iugjzjcbh': R`A moda é o valor com a maior frequência. ⟦0⟧ tem frequência ⟦1⟧, a maior.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Um <b>experimento</b> (lançar um dado, tirar uma carta) tem <b>resultados</b> possíveis. O conjunto de todos os resultados é o <b>espaço amostral</b> $S$; um <b>evento</b> $E$ é um conjunto de resultados. Quando todos os resultados são igualmente prováveis:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dois dados</h3>
-<p>Lançar dois dados dá $6 \times 6 = 36$ resultados igualmente prováveis. A soma 7 ocorre de 6 maneiras — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, então $P(\text{soma} = 7) = \frac{6}{36} = \frac{1}{6}$. Em geral, o número de maneiras de obter a soma $s$ é $6 - |s - 7|$.</p>
-<h3>Um baralho</h3>
-<p>52 cartas: 4 naipes (♠ ♣ pretos, ♥ ♦ vermelhos) de 13 valores (A, 2–10, J, Q, K). Há 12 figuras (J, Q, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 significa impossível e 1 significa certo.</li><li><b>Complementar:</b> $P(\text{não } E) = 1 - P(E)$.</li><li><b>Frequência esperada</b> em $n$ tentativas $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Um saco tem 3 bolinhas de gude vermelhas, 5 azuis e 2 verdes. $P(\text{azul}) = \frac{5}{10} = \frac{1}{2}$ e $P(\text{não verde}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>A probabilidade experimental (de tentativas reais) se aproxima da probabilidade teórica à medida que o número de tentativas aumenta — mas raramente coincide exatamente.</p>`,
@@ -1273,19 +969,6 @@ addT('pt', {
   '23r35ol6pkt': R`São ⟦0⟧ entre as 52 cartas: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Questões de dinheiro do dia a dia são, no fundo, questões de porcentagem.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Desconto e imposto</h3>
-<p>Aplique as porcentagens uma após a outra: um desconto de 20% e depois um imposto de 10% sobre 150 reais dão $150 \times 0{,}8 \times 1{,}1 = 132$ reais.</p>
-<h3>Juros simples</h3>
-⟦3⟧
-<p>1 500 reais aplicados a 6% ao ano durante 3 anos rendem $1\,500 \times 0{,}06 \times 3 = 270$ reais; o total chega a 1 770 reais. Para meses, use $t = \frac{\text{meses}}{12}$.</p>
-<h3>Peso bruto, tara e peso líquido</h3>
-<p><b>Bruto</b> = peso total; <b>tara</b> = peso da embalagem; <b>líquido</b> = bruto − tara. Um saco de 50 kg com tara de 2% tem peso líquido de $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Termo`,
   '1mb9fntmked': R`Preço de custo (PC)`,
   '12bh5c74j0l': R`o que o vendedor pagou`,
@@ -1318,17 +1001,6 @@ addT('pt', {
   'g36e4lpvm4': R`$\text{PV} = \text{PC} \times ⟦0⟧$, então $\text{PC} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ reais. (Tirar ⟦4⟧% do preço de venda estaria errado.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Uma <b>sequência</b> é uma lista ordenada de números chamados <b>termos</b>. Descobrir a regra permite continuar o padrão ou ir direto a qualquer termo.</p>
-<h3>Progressões aritméticas</h3>
-<p>Soma-se sempre o mesmo número $d$ (a <b>razão</b>): 5; 8; 11; 14; … tem $d = 3$.</p>
-⟦0⟧
-<h3>Progressões geométricas</h3>
-<p>Cada termo é multiplicado pela mesma <b>razão</b> $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Sequências especiais</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>em que $a$ é o primeiro termo. Para 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, então $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nome`,
   'mwgm16sn11': R`Termos`,
@@ -1355,14 +1027,6 @@ addT('pt', {
   'o3oiu9pprw': R`Os termos são ⟦0⟧. O 7º termo é ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Uma <b>transformação</b> move uma figura ou muda o seu tamanho. Em translações, reflexões e rotações a imagem é <b>congruente</b> (mesma forma e tamanho); em uma homotetia ela é <b>semelhante</b> (mesma forma, tamanho diferente).</p>
-⟦0⟧
-<h3>Figuras semelhantes</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformação`,
   'jmpbrf5c1s': R`Regra para um ponto (x; y)`,
   '2b0j70wot2h': R`Translação por $\binom{a}{b}$`,
@@ -1406,20 +1070,6 @@ addT('pt', {
   '2gdno2vs4iz': R`Digite uma resposta como 9pi ou 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Uma <b>equação do 2º grau</b> tem a forma $ax^2 + bx + c = 0$ com $a \ne 0$. Ela tem no máximo duas soluções (raízes).</p>
-<h3>1. Fatoração</h3>
-<p>Se um produto é zero, um de seus fatores é zero. Procure dois números cujo produto seja $c$ e cuja soma seja $b$ (quando $a = 1$):</p>
-⟦0⟧
-<h3>2. Completar o quadrado</h3>
-⟦1⟧
-<h3>3. A fórmula de Bhaskara</h3>
-⟦2⟧
-<h3>Soma e produto das raízes (Vieta)</h3>
-⟦3⟧
-<p>Assim, uma equação com raízes $r$ e $s$ é $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ ou } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>O <b>discriminante</b> $D = b^2 - 4ac$ diz quantas raízes reais existem:</p><ul><li>$D \gt 0$: duas raízes reais distintas</li><li>$D = 0$: uma raiz real dupla</li><li>$D \lt 0$: nenhuma raiz real (duas raízes complexas)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, então $x = \frac{7 \pm 5}{4}$, o que dá $x = 3$ ou $x = \frac{1}{2}$. Verificação: soma $= \frac{7}{2}$ ✓, produto $= \frac{3}{2}$ ✓.</p>`,
@@ -1447,14 +1097,6 @@ addT('pt', {
   '27ssy7fe6w9': R`Seja $w$ a largura: $w(w + ⟦0⟧) = ⟦1⟧$, então $⟦2⟧ = 0$, ou seja, $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Uma largura deve ser positiva, então $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>O gráfico de $f(x) = ax^2 + bx + c$ é uma <b>parábola</b>. Ela tem concavidade <b>para cima</b> se $a \gt 0$ (um vale, com mínimo) e <b>para baixo</b> se $a \lt 0$ (um morro, com máximo).</p>
-⟦0⟧
-<h3>Forma canônica</h3>
-⟦1⟧
-<p>Completar o quadrado transforma a forma geral na forma canônica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, então o vértice é $(3; 2)$ e o valor mínimo é 2. A imagem é $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Eixo de simetria e vértice: $x = -\dfrac{b}{2a}$; o vértice é $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Intersecção com o eixo $y$: $(0; c)$.</li><li>Intersecções com o eixo $x$: as raízes de $ax^2 + bx + c = 0$ (se houver).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{vértice } (h; k)`,
   '17der0pee5r': R`<p>A altura de uma bola é $h(t) = -5t^2 + 20t + 1$ metros. O vértice está em $t = -\frac{20}{2(-5)} = 2$ s, e a altura máxima é $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -1478,18 +1120,6 @@ addT('pt', {
   'xs3xxut6a6': R`O vértice é $⟦0⟧$ e a parábola tem concavidade para baixo, então a imagem é $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Uma <b>função</b> associa a cada entrada exatamente <b>uma</b> saída. O conjunto das entradas permitidas é o <b>domínio</b>; o conjunto das saídas é a <b>imagem</b>.</p>
-<h3>Domínios naturais</h3>
-<ul><li>Não há divisão por zero: para $\frac{1}{x - 2}$, o domínio é $x \ne 2$.</li><li>Não há raiz quadrada de negativo: para $\sqrt{x + 3}$, o domínio é $x \ge -3$.</li><li>Logaritmos precisam de argumento positivo: para $\log(x - 1)$, o domínio é $x \gt 1$.</li></ul>
-<h3>Composição</h3>
-⟦0⟧
-⟦1⟧
-<h3>Funções inversas</h3>
-<p>$f^{-1}$ desfaz o que $f$ faz: se $f(a) = b$, então $f^{-1}(b) = a$. Para encontrá-la, escreva $y = f(x)$, troque $x$ e $y$ e isole $y$.</p>
-⟦2⟧
-<p>O gráfico de $f^{-1}$ é o reflexo do gráfico de $f$ em relação à reta $y = x$. Só funções injetoras têm inversa.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Aplique primeiro $g$ e depois $f$. Em geral, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Então $f(g(3)) = f(9) = 19$, mas $g(f(3)) = g(7) = 49$. Como expressões: $f(g(x)) = 2x^2 + 1$ e $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: trocando, obtemos $x = 3y - 5$, então $y = \frac{x + 5}{3}$ e $f^{-1}(x) = \frac{x + 5}{3}$. Verificação: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -1513,16 +1143,6 @@ addT('pt', {
   'ranlsqjvf9': R`Como $⟦0⟧ \ge ⟦1⟧$, usamos a segunda regra: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Expoentes racionais combinam potências e raízes: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Assim, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ e $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logaritmos</h3>
-⟦0⟧
-⟦1⟧
-<h3>Resolvendo equações</h3>
-<ul><li>Mesma base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Equação logarítmica: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases diferentes: aplique logaritmo nos dois lados, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Crescimento e decaimento exponencial</h3>
-<p>$A = A_0 \cdot r^{t/T}$: uma quantidade multiplicada por $r$ a cada $T$ unidades de tempo. Juros compostos: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Um logaritmo responde "a que potência devo elevar $b$ para obter $a$?" — assim, $\log_2 32 = 5$. $\log x$ significa $\log_{10} x$; $\ln x$ significa $\log_e x$, com $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`mudança de base`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. A propriedade do produto transforma um <i>produto</i> dentro em uma soma fora.</p>`,
@@ -1549,17 +1169,6 @@ addT('pt', {
 /* Português (Brasil) — Ensino Médio (sequências → resolução de triângulos) */
 addT('pt', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Aqui $a$ é o primeiro termo e $l$ o último.</p>
-⟦1⟧
-⟦2⟧
-<h3>Séries geométricas infinitas</h3>
-⟦3⟧
-<p>Exemplo: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Notação de somatório</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Fatos úteis: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ e $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Aritmética (PA)`,
   '1atqzl7ltey': R`Geométrica (PG)`,
   'zs186mkwh5': R`soma-se $d$ a cada vez`,
@@ -1581,18 +1190,6 @@ addT('pt', {
   '222tg0c1ffy': R`É uma série aritmética: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ reais.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>Num triângulo retângulo, em relação a um ângulo agudo $\theta$:</p>
-⟦0⟧
-<p>Dica para memorizar: <b>SOH-CAH-TOA</b> (Seno = Oposto/Hipotenusa, Cosseno = Adjacente/Hipotenusa, Tangente = Oposto/Adjacente). Além disso, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, e as razões inversas são $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Valores exatos</h3>
-⟦1⟧
-<h3>Radianos</h3>
-<p>$180^\circ = \pi$ radianos. Para passar de graus a radianos, multiplique por $\frac{\pi}{180}$; de radianos a graus, por $\frac{180}{\pi}$. Assim, $60^\circ = \frac{\pi}{3}$ e $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>O círculo trigonométrico</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{oposto}}{\text{hipotenusa}} \qquad \cos\theta = \frac{\text{adjacente}}{\text{hipotenusa}} \qquad \tan\theta = \frac{\text{oposto}}{\text{adjacente}}`,
   'ig8vf2x1y6': R`sen θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -1629,15 +1226,6 @@ addT('pt', {
   '1856p6n9vrk': R`O seno é positivo no I e no II; o cosseno, no I e no IV; a tangente, no I e no III. Só o <b>⟦0⟧</b> satisfaz as duas condições.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p>Uma <b>identidade</b> vale para todo ângulo. As mais importantes:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Resolvendo equações trigonométricas</h3>
-<p>Encontre o ângulo de referência e depois todos os ângulos do intervalo pedido com o sinal correto.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Identidades pitagóricas`,
   '28msif6x03y': R`Adição de arcos`,
   '1qlqqnnfd2i': R`Arco duplo`,
@@ -1659,13 +1247,6 @@ addT('pt', {
   '19cq8bi37ib': R`O triângulo tem lados ⟦0⟧, ⟦1⟧ e ⟦2⟧. No quadrante ⟦3⟧, o seno é ⟦4⟧ e o cosseno é ⟦5⟧, então $\sin\theta = ⟦6⟧$ e $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Nomeie o triângulo de modo que o lado $a$ seja oposto ao ângulo $A$, $b$ oposto a $B$ e $c$ oposto a $C$. Essas leis valem para <b>qualquer</b> triângulo, não só para triângulos retângulos.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Use quando você conhece um lado e o ângulo oposto, além de outro lado ou outro ângulo.</p>`,
   'mp16igkhf3': R`Lei dos senos`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Use com dois lados e o ângulo entre eles (LAL) ou com os três lados (LLL).</p>`,
@@ -1689,16 +1270,6 @@ addT('pt', {
 /* Português (Brasil) — Ensino Médio (polinômios → integrais) */
 addT('pt', {
   // polynomials
-  '1dv82xempy': R`
-<p>Um <b>polinômio</b> é uma soma de termos $a_n x^n + \cdots + a_1 x + a_0$ com expoentes naturais. Seu <b>grau</b> é o maior expoente; $a_n$ é o <b>coeficiente dominante</b>. Ao multiplicar polinômios, os graus se somam e os coeficientes dominantes se multiplicam.</p>
-<h3>Divisão</h3>
-<p>Dividir $P(x)$ por $(x - a)$ dá um quociente $Q(x)$ e um resto $R$: $P(x) = (x - a)Q(x) + R$. O <b>dispositivo de Briot-Ruffini</b> faz isso rapidamente usando só os coeficientes.</p>
-⟦0⟧
-⟦1⟧
-<h3>Raízes de um polinômio do 3º grau</h3>
-<p>Para $ax^3 + bx^2 + cx + d = 0$ com raízes $r_1, r_2, r_3$:</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ pelo dispositivo de Briot-Ruffini:</p>⟦0⟧<p>Quociente $x^2 - 2x - 3$, resto 0.</p>`,
   'agfsjitvd': R`<p><b>Teorema do resto:</b> o resto da divisão de $P(x)$ por $(x - a)$ é $P(a)$.</p><p><b>Teorema de D'Alembert:</b> $(x - a)$ é fator de $P(x)$ exatamente quando $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Dividir por $(x + 3)$ significa $a = -3$: calcule $P(-3)$, não $P(3)$.</p>`,
@@ -1719,16 +1290,6 @@ addT('pt', {
   '1uusi8yg5sk': R`O termo independente é o produto dos termos independentes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p>Uma <b>matriz</b> é uma tabela retangular de números. Uma matriz $m \times n$ tem $m$ linhas e $n$ colunas; $a_{ij}$ é o elemento da linha $i$, coluna $j$.</p>
-<h3>Operações</h3>
-<ul><li><b>Somar/subtrair</b> elemento a elemento (só com o mesmo tamanho).</li><li><b>Multiplicação por escalar</b>: multiplique cada elemento.</li><li><b>Produto</b> $AB$: o elemento $(i, j)$ é a linha $i$ de $A$ "vezes" a coluna $j$ de $B$. Exige (colunas de $A$) = (linhas de $B$), e uma $m \times n$ vezes uma $n \times p$ dá uma $m \times p$.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Determinante e inversa (2 × 2)</h3>
-⟦2⟧
-<p>Se $\det A = 0$, a matriz é <b>singular</b> e não tem inversa. Inversas resolvem sistemas: $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>A multiplicação de matrizes <b>não é comutativa</b>: em geral $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Para a inversa: <b>troque</b> $a$ e $d$, <b>troque o sinal</b> de $b$ e $c$ e divida pelo determinante.</p>`,
   '1h6gnxjh2g6': R`Calcule o determinante de $⟦0⟧$.`,
@@ -1745,12 +1306,6 @@ addT('pt', {
   'xdj657lej': R`Linha ⟦0⟧ de $A$ vezes coluna ⟦1⟧ de $B$: $⟦2⟧ = ⟦3⟧$. (Uma matriz $2 \times 3$ vezes uma $3 \times 2$ dá uma $2 \times 2$.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p>Um <b>vetor</b> tem módulo, direção e sentido. Em coordenadas, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. O vetor de $P$ até $Q$ é $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Módulo`,
   '1czax49eh4c': R`Adição`,
   'q2ntocofkn': R`some as coordenadas`,
@@ -1774,18 +1329,6 @@ addT('pt', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Divida cada coordenada por ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ significa que $f(x)$ fica tão perto quanto quisermos de $L$ quando $x$ se aproxima de $a$ — não importa o que acontece exatamente em $x = a$.</p>
-<h3>Técnicas</h3>
-<ol><li><b>Substituição direta</b> funciona para polinômios e outras funções contínuas: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Fatorar e simplificar</b> diante de $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Racionalizar</b> expressões com raízes: multiplique pelo conjugado.</li></ol>
-⟦0⟧
-<h3>Limites no infinito</h3>
-⟦1⟧
-<h3>Um limite trigonométrico especial</h3>
-⟦2⟧
-<h3>Continuidade</h3>
-<p>$f$ é contínua em $a$ se $\lim_{x \to a} f(x) = f(a)$: sem buracos, saltos ou assíntotas ali. Numa função definida por partes, faça as duas partes se encontrarem no ponto de junção.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Numa função racional, divida numerador e denominador pela maior potência de $x$ do denominador:</p><ul><li>mesmo grau → razão dos coeficientes dominantes;</li><li>numerador de grau menor → 0;</li><li>numerador de grau maior → sem limite finito ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ não é "0" nem "indefinido" — indica que é preciso mais trabalho (fatorar, racionalizar).</p>`,
   '18znpgymeuk': R`Calcule $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -1803,18 +1346,6 @@ addT('pt', {
   '1l84k7ifkz6': R`As partes devem se encontrar em $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, então $⟦5⟧ + k = ⟦6⟧$ e $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p>A <b>derivada</b> $f'(x)$ é a taxa de variação instantânea de $f$ — a inclinação da reta tangente em $x$. Ela é definida por um limite:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Retas tangentes</h3>
-<p>Em $x = a$, a tangente tem inclinação $m = f'(a)$ e passa por $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Pontos críticos</h3>
-<p>Onde $f'(x) = 0$ o gráfico fica momentaneamente horizontal. Use a segunda derivada: $f''(a) \gt 0$ → mínimo local; $f''(a) \lt 0$ → máximo local. $f$ é crescente onde $f' \gt 0$ e decrescente onde $f' \lt 0$.</p>
-<h3>Otimização</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Regras`,
   '21wooetnwi8': R`<p>100 m de cerca fecham um retângulo junto a um rio (sem cerca do lado do rio). Com lados $x, y, x$: $2x + y = 100$, área $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ dá $x = 25$, então $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>A derivada de uma constante é 0 — não leve o termo constante para $f'(x)$.</p>`,
@@ -1841,17 +1372,6 @@ addT('pt', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, então $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>A integração desfaz a derivação. Uma <b>primitiva</b> de $f$ é qualquer $F$ com $F' = f$; a <b>integral indefinida</b> inclui a constante de integração:</p>
-⟦0⟧
-⟦1⟧
-<h3>Integrais definidas</h3>
-⟦2⟧
-<p>Para $f \ge 0$, isso é a área sob a curva entre $x = a$ e $x = b$. Área abaixo do eixo $x$ conta como negativa; então divida a integral nas raízes quando quiser a área total.</p>
-⟦3⟧
-<h3>Encontrando uma função a partir da derivada</h3>
-<p>Se $f'(x) = 6x + 2$ e $f(1) = 10$, então $f(x) = 3x^2 + 2x + C$ e $3 + 2 + C = 10$ dá $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Confira derivando.</p>`,
   '1jsx5j8bwuv': R`Teorema Fundamental do Cálculo`,
   'k8jg70602j': R`<p>Área entre $y = x^2$ e $y = 2x$: elas se encontram em $x = 0$ e $x = 2$, e $2x \ge x^2$ entre elas, então $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
@@ -1881,19 +1401,6 @@ addT('pt', {
 /* Português (Brasil) — Ensino Médio (análise combinatória → lógica) */
 addT('pt', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Arranjos: a ordem importa</h3>
-⟦1⟧
-<p>Primeiro, segundo e terceiro prêmios entre 10 pessoas: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Permutações com elementos repetidos: $\frac{n!}{p!\,q!\cdots}$. "BANANA" tem $\frac{6!}{3!\,2!} = 60$ anagramas.</li><li>Em volta de uma mesa redonda: $(n - 1)!$ (rotações contam como iguais).</li></ul>
-<h3>Combinações: a ordem não importa</h3>
-⟦2⟧
-<p>Uma comissão de 3 pessoas entre 10: $\binom{10}{3} = 120$. Uma comissão com 2 homens (de 5) e 3 mulheres (de 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Binômio de Newton</h3>
-⟦3⟧
-<p>O coeficiente de $x^2$ em $(x + 3)^5$ é $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Princípio multiplicativo:</b> se uma escolha pode ser feita de $m$ maneiras e outra de $n$ maneiras, juntas podem ser feitas de $m \times n$ maneiras.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -1922,16 +1429,6 @@ addT('pt', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ fatores) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Com e sem reposição</h3>
-⟦1⟧
-<p>Diagramas de árvore organizam isso: multiplique ao longo dos ramos e some entre os ramos.</p>
-<h3>"Pelo menos um"</h3>
-<p>Use o complementar: $P(\text{pelo menos um seis em 3 lançamentos}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Teorema de Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Fórmula`,
   '29i7n2pf82k': R`Complementar`,
   '1q1cgu220ce': R`Mutuamente exclusivos`,
@@ -1969,18 +1466,6 @@ addT('pt', {
   '29cd8gay3w4': R`Com reposição, as retiradas são independentes: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Quartis e diagramas de caixa</h3>
-<p>Ordene os dados. A mediana $Q_2$ os divide ao meio; $Q_1$ é a mediana da metade inferior e $Q_3$ a da metade superior (aqui deixamos a mediana fora das duas metades quando $n$ é ímpar). A <b>amplitude interquartil</b> $\text{AIQ} = Q_3 - Q_1$ mede a dispersão dos 50% centrais.</p>
-⟦0⟧
-<h3>Variância e desvio padrão</h3>
-⟦1⟧
-⟦2⟧
-<h3>Dados agrupados</h3>
-<p>Estime a média com os pontos médios das classes: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformando dados</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Uma regra comum para valores atípicos: valores abaixo de $Q_1 - 1{,}5\,\text{AIQ}$ ou acima de $Q_3 + 1{,}5\,\text{AIQ}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (amostral)}`,
   '1c6crwakkdh': R`<p>Dados 2; 4; 4; 4; 5; 5; 7; 9: média 5, desvios ao quadrado 9; 1; 1; 1; 0; 0; 4; 16 (soma 32). Variância populacional $= \frac{32}{8} = 4$ e $\sigma = 2$.</p>`,
@@ -2011,19 +1496,6 @@ addT('pt', {
   '111p9ug7ykx': R`Limite inferior $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Equação da circunferência</h3>
-⟦1⟧
-<p>Desenvolvendo, obtém-se a <b>equação geral</b> $x^2 + y^2 + Dx + Ey + F = 0$, com centro $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ e raio $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Posição de um ponto</h3>
-<p>Substitua o ponto em $(x - a)^2 + (y - b)^2$ e compare com $r^2$: menor → dentro, igual → sobre, maior → fora.</p>
-<h3>Retas tangentes</h3>
-<p>Uma tangente é perpendicular ao raio no ponto de tangência. Para a circunferência $x^2 + y^2 = r^2$ em $(x_1; y_1)$, o raio tem inclinação $\frac{y_1}{x_1}$, então a tangente tem inclinação $-\frac{x_1}{y_1}$.</p>
-<h3>Parábolas</h3>
-<p>$y^2 = 4px$ tem foco $(p; 0)$ e diretriz $x = -p$; $x^2 = 4py$ tem foco $(0; p)$ e diretriz $y = -p$. Todo ponto de uma parábola está à mesma distância do foco e da diretriz.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Ponto médio } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Distância } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centro } (a; b), \text{ raio } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: completando quadrados, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centro $(3; -2)$, raio 5.</p>`,
@@ -2052,13 +1524,6 @@ addT('pt', {
   '1huwumypuyf': R`O raio até $⟦0⟧$ tem inclinação $\frac{⟦1⟧}{⟦2⟧}$. A tangente é perpendicular: inclinação $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p>A <b>programação linear</b> busca o melhor valor (maior ou menor) de uma <b>função objetivo</b> linear, como o lucro $z = 30x + 20y$, sujeita a <b>restrições</b> lineares como $x + y \le 40$.</p>
-<ol><li>Escreva as restrições como inequações (inclua $x \ge 0$, $y \ge 0$).</li><li>Desenhe cada reta de fronteira e sombreie a região que satisfaz todas as restrições — a <b>região viável</b>.</li><li>Encontre os vértices resolvendo pares de equações de fronteira.</li><li>Calcule a função objetivo em cada vértice.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Em problemas de minimização com restrições "≥", a região costuma ser ilimitada; com custos positivos, o mínimo continua num vértice.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Teorema dos vértices:</b> se existe um ótimo, ele ocorre num vértice da região viável.</p>`,
   '1g8qhbmqb9w': R`<p>Maximize $z = 3x + 2y$ sujeita a $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vértices: $(0; 0)$, $(6; 0)$, $(4; 4)$ [onde $x + y = 8$ encontra $2x + y = 12$], $(0; 8)$.</p><p>Valores de $z$: 0; 18; 20; 16. Máximo $z = 20$ em $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Verifique se cada vértice satisfaz <b>todas</b> as restrições — a interseção de duas retas de fronteira pode ficar fora da região.</p>`,
@@ -2072,17 +1537,6 @@ addT('pt', {
   '296rrmt4h4q': R`Restrições: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Vértices: ⟦3⟧. Lucro máximo: <b>⟦4⟧</b> reais.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Uma <b>proposição</b> é uma frase que é verdadeira ou falsa. Proposições compostas são formadas com <b>conectivos</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Condicionais relacionadas</h3>
-⟦2⟧
-<h3>Quantificadores</h3>
-<p>$\forall$ "para todo" e $\exists$ "existe". A negação troca um pelo outro: a negação de "Todos os alunos passaram" é "<b>Alguns</b> alunos <b>não</b> passaram"; a negação de "Algumas aves não voam" é "Todas as aves voam".</p>
-<h3>Argumentos válidos</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; logo, $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; logo, $\neg p$.</li><li><b>Silogismo:</b> $p \Rightarrow q$, $q \Rightarrow r$; logo, $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`VF`,
   '1h0id2d836q': R`<p>Uma implicação $p \Rightarrow q$ é falsa <b>somente</b> quando $p$ é verdadeira e $q$ é falsa.</p>`,
   '2aojok6ubm7': R`Forma`,
@@ -2185,15 +1639,6 @@ addT('pt', {
 /* Português — Universidade (técnicas de derivação → equações diferenciais) */
 addT('pt', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Derivação implícita</h3>
-<p>Quando $y$ é definido implicitamente, derive os dois lados em relação a $x$, tratando $y$ como função de $x$ (assim $\frac{d}{dx}y^2 = 2y\,y'$), e depois isole $y'$.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Produto`,
   '1fd6nxjb0xt': R`Quociente`,
   '21u0n9yxqot': R`Cadeia`,
@@ -2220,20 +1665,6 @@ addT('pt', {
   '20aqqhk2mtp': R`Regra do produto: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Logo $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Regra de L'Hôpital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (aplicada duas vezes).</p>
-<h3>Otimização</h3>
-<ol><li>Escreva a grandeza a otimizar como função de uma só variável (use a restrição).</li><li>Derive e resolva $f'(x) = 0$.</li><li>Verifique se é máximo/mínimo (segunda derivada ou extremos do intervalo).</li></ol>
-⟦1⟧
-<h3>Taxas relacionadas</h3>
-<p>Derive uma relação em relação ao tempo. Para um círculo que cresce, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Aproximação linear</h3>
-⟦2⟧
-<h3>Concavidade e teorema do valor médio</h3>
-<p>$f'' \gt 0$: concavidade para cima; $f'' \lt 0$: concavidade para baixo; um <b>ponto de inflexão</b> é onde a concavidade muda. <b>TVM:</b> se $f$ é contínua em $[a; b]$ e derivável no interior, existe $c$ em $(a; b)$ com $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Se $\lim \frac{f(x)}{g(x)}$ tem a forma $\frac{0}{0}$ ou $\frac{\infty}{\infty}$, então $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (quando o lado direito existe).</p>`,
   '189x52ko5mw': R`<p>Recortam-se quadrados de lado $x$ nos cantos de uma folha quadrada de 18 cm e dobram-se as abas. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ dá $x = 3$, então $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{p. ex. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -2258,19 +1689,6 @@ addT('pt', {
   '1c5ltuvzsrq': R`Inclinação média $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ dá $c = ⟦7⟧$ — o ponto médio, como sempre para uma quadrática.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Substituição</h3>
-<p>Procure uma função e sua derivada. Com $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
-<p>Em integrais definidas, mude também os limites (ou volte à variável original antes de calcular).</p>
-<h3>Integração por partes</h3>
-⟦1⟧
-⟦2⟧
-<h3>Frações parciais</h3>
-<p>Decomponha uma função racional em partes mais simples: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Elimine os denominadores e substitua $x = 1$ e $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Cada parte integra para um logaritmo.</p>
-<h3>Integrais impróprias</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Escolha $u$ pela regra <b>LIATE</b>: Logarítmica, Inversa trigonométrica, Algébrica, Trigonométrica, Exponencial — a que aparecer primeiro.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, então $du = dx$, $v = \frac{1}{2}e^{2x}$. Resultado: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -2323,14 +1741,6 @@ addT('pt', {
   'lpjavqv13n': R`Uma mola tem constante $k = ⟦0⟧$ N/m. Quanto trabalho é necessário para esticá-la ⟦1⟧ m a partir do comprimento natural?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Uma série infinita $\sum a_n$ <b>converge</b> se suas somas parciais $S_N = a_1 + \cdots + a_N$ tendem a um limite finito.</p>
-⟦0⟧
-⟦1⟧
-<h3>Séries de potências e séries de Taylor</h3>
-<p>Uma série de potências $\sum c_n (x - a)^n$ converge para $|x - a| \lt R$, o <b>raio de convergência</b> (encontrado com o teste da razão). A série de Taylor de $f$ em torno de $a$ é $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; em torno de 0 ela se chama série de Maclaurin.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Teste`,
   '1boy0ga8tbt': R`Conclusão`,
   '7ih7yeq8ue': R`Teste do termo geral`,
@@ -2384,19 +1794,6 @@ addT('pt', {
   '262p4pwoflz': R`É a série conhecida de $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Para $f(x, y)$, a <b>derivada parcial</b> $f_x = \frac{\partial f}{\partial x}$ deriva em relação a $x$ tratando $y$ como constante (e vice-versa para $f_y$). Para $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradiente e derivadas direcionais</h3>
-⟦0⟧
-<h3>Pontos críticos: teste da segunda derivada</h3>
-<p>Num ponto em que $f_x = f_y = 0$, seja $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: mínimo local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: máximo local.</li><li>$D \lt 0$: ponto de sela. &nbsp; $D = 0$: o teste é inconclusivo.</li></ul>
-<h3>Integrais duplas</h3>
-<p>Sobre um retângulo, integre uma variável de cada vez (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Em coordenadas polares, $dA = r\,dr\,d\theta$.</p>
-<h3>Multiplicadores de Lagrange</h3>
-<p>Para otimizar $f$ sujeita a $g = c$, resolva $\nabla f = \lambda\nabla g$ junto com a restrição.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ aponta na direção de maior crescimento; seu comprimento é essa taxa máxima.</p>`,
   'opu0v1dwpl': R`<p>Maximize $f = xy$ sujeita a $x + y = 10$: $(y; x) = \lambda(1; 1)$ dá $x = y = 5$, então o máximo é 25.</p>`,
   '83uqphqp8x': R`<p>Em coordenadas polares, não esqueça o fator extra $r$ em $dA = r\,dr\,d\theta$.</p>`,
@@ -2424,18 +1821,6 @@ addT('pt', {
   'hl1el1t8oy': R`Coordenadas polares: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p>Uma <b>equação diferencial</b> relaciona uma função com suas derivadas. Sua <b>ordem</b> é a da derivada mais alta que aparece. A <b>solução geral</b> contém constantes arbitrárias; condições iniciais determinam uma solução particular.</p>
-<h3>Equações separáveis</h3>
-⟦0⟧
-<p>Caso especial: $\frac{dy}{dt} = ky$ dá $y = y_0e^{kt}$ — crescimento ($k \gt 0$) ou decaimento ($k \lt 0$) exponencial. Com meia-vida $T$, a quantidade restante é $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Equações lineares de primeira ordem</h3>
-⟦1⟧
-<h3>Lineares de segunda ordem com coeficientes constantes</h3>
-<p>Para $ay'' + by' + cy = 0$, tente $y = e^{rx}$ e obtenha a <b>equação característica</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: separe, $\int\frac{dy}{y} = \int 2x\,dx$, então $\ln|y| = x^2 + C$ e $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Para $y' + P(x)y = Q(x)$, multiplique pelo <b>fator integrante</b> $\mu(x) = e^{\int P(x)\,dx}$. Então $(\mu y)' = \mu Q$, logo $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Raízes`,
@@ -2466,18 +1851,6 @@ addT('pt', {
 /* Português — Universidade (álgebra linear → transformada de Laplace) */
 addT('pt', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Sistemas lineares e posto</h3>
-<p>Um sistema $A\mathbf{x} = \mathbf{b}$ é resolvido escalonando a matriz aumentada $[A \mid \mathbf{b}]$. O <b>posto</b> de $A$ é o número de pivôs (linhas não nulas na forma escalonada).</p>
-⟦0⟧
-<h3>Determinantes</h3>
-⟦1⟧
-<p>Propriedades úteis para matrizes $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Regra de Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Autovalores e autovetores</h3>
-⟦2⟧
-⟦3⟧
-<p>Se $A$ tem $n$ autovetores independentes, ela é <b>diagonalizável</b>: $A = PDP^{-1}$, com os autovetores como colunas de $P$ e os autovalores na diagonal de $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Teorema do posto e da nulidade:</b> para uma matriz $m \times n$, $\text{posto}(A) + \text{nulidade}(A) = n$. Uma matriz quadrada $A$ é invertível $\iff \det A \ne 0 \iff$ suas colunas são linearmente independentes $\iff \text{posto} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Para uma matriz $2 \times 2$: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. A soma dos autovalores é o traço e o produto é o determinante.</p>`,
@@ -2509,15 +1882,6 @@ addT('pt', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, então $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>A unidade imaginária satisfaz $i^2 = -1$. Um número complexo é $z = a + bi$, com parte real $\text{Re}(z) = a$ e parte imaginária $\text{Im}(z) = b$. As potências de $i$ se repetem de quatro em quatro: $i; -1; -i; 1; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Forma polar e fórmula de Euler</h3>
-⟦2⟧
-⟦3⟧
-<p>As raízes $n$-ésimas da unidade são $e^{2\pi ik/n}$ para $k = 0; 1; \ldots; n - 1$: pontos igualmente espaçados na circunferência unitária.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Multiplicar`,
   '1lvuh3a6n9s': R`Conjugado`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, e $z\bar{z} = a^2 + b^2$`,
@@ -2546,14 +1910,6 @@ addT('pt', {
   '1xd7417ut46': R`Seja $z = ⟦0⟧$. Encontre $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p>Uma <b>variável aleatória</b> $X$ associa números aos resultados. Para uma $X$ discreta com probabilidades $p(x)$:</p>
-⟦0⟧
-⟦1⟧
-<h3>A distribuição normal</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Distribuição`,
   'z5bw2hz29r': R`P(X = k) ou densidade`,
@@ -2585,17 +1941,6 @@ addT('pt', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ e $\text{Var}(X) = ⟦1⟧$. Encontre $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>Usamos uma estatística da <b>amostra</b> (como $\bar{x}$) para estimar um parâmetro da <b>população</b> (como $\mu$). Pelo <b>teorema central do limite</b>, para $n$ grande a média amostral é aproximadamente normal com média $\mu$ e <b>erro padrão</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Intervalos de confiança</h3>
-⟦0⟧
-<p>Para obter uma margem de erro $E$, é preciso $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (arredondando para cima). Quando $\sigma$ é desconhecido, use $s$ e a distribuição $t$.</p>
-<h3>Testes de hipóteses</h3>
-<ol><li>Enuncie $H_0$ (p. ex. $\mu = \mu_0$) e $H_1$.</li><li>Calcule uma estatística de teste, p. ex. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Encontre o <b>valor-p</b>: a probabilidade, supondo $H_0$, de um resultado pelo menos tão extremo.</li><li>Se $p \le \alpha$, rejeite $H_0$; caso contrário, não rejeite.</li></ol>
-⟦1⟧
-<h3>Regressão linear</h3>
-<p>A reta de mínimos quadrados $\hat{y} = a + bx$ tem inclinação $b = r\frac{s_y}{s_x}$ e passa por $(\bar{x}; \bar{y})$, então $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\%);\; 1{,}96 \;(95\%);\; 2{,}576 \;(99\%)`,
   '7nca7j57l5': R`H₀ verdadeira`,
   '2e0zey7f13x': R`H₀ falsa`,
@@ -2637,17 +1982,6 @@ addT('pt', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, então arredonde para cima: $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Teoria dos números</h3>
-<p>$a \equiv b \pmod n$ significa que $n$ divide $a - b$; $a \bmod n$ é o resto em $\{0; 1; \ldots; n - 1\}$. Congruências podem ser somadas e multiplicadas, e potências reduzidas passo a passo.</p>
-⟦0⟧
-⟦1⟧
-<p>O <b>inverso modular</b> de $a$ módulo $n$ é o $x$ com $ax \equiv 1 \pmod n$; ele existe exatamente quando $\gcd(a, n) = 1$.</p>
-<h3>Contagem</h3>
-<ul><li>Funções de um conjunto de tamanho $m$ em um de tamanho $n$: $n^m$; injetoras: $n(n-1)\cdots(n-m+1)$.</li><li>Inclusão–exclusão: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Princípio da casa dos pombos:</b> se mais de $kn$ objetos vão para $n$ caixas, alguma caixa recebe pelo menos $k + 1$.</li></ul>
-<h3>Recorrências e grafos</h3>
-<p>Uma recorrência define cada termo a partir dos anteriores, como $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Num grafo, o <b>lema do aperto de mãos</b> diz que $\sum \deg(v) = 2|E|$; $K_n$ tem $\binom{n}{2}$ arestas; uma árvore com $n$ vértices tem $n - 1$ arestas; um grafo conexo tem um circuito euleriano se e somente se todos os graus são pares.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Algoritmo de Euclides:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, repetido até o resto ser 0.</p><p><b>Pequeno teorema de Fermat:</b> se $p$ é primo e $p \nmid a$, então $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Então o mdc é 18.</p><p>$2^{100} \bmod 7$: como $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Em problemas de inclusão–exclusão ("divisível por 3 ou 5"), a interseção é a divisibilidade pelo <b>mmc</b>, 15.</p>`,
@@ -2688,18 +2022,6 @@ addT('pt', {
   '27kjdpfw0sg': R`Com ⟦0⟧ categorias, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ pessoas poderiam evitar isso; mais uma força um grupo de ⟦4⟧: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Métodos numéricos aproximam respostas que não têm forma fechada conveniente. Dois tipos de erro importam: o de <b>truncamento</b> (do método) e o de <b>arredondamento</b> (da precisão finita).</p>
-⟦0⟧
-<h3>Busca de raízes</h3>
-<ul><li><b>Bisseção:</b> se $f(a)$ e $f(b)$ têm sinais opostos, teste o ponto médio $m$ e fique com a metade onde o sinal muda. Lento, mas garantido: o erro cai pela metade a cada passo.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Muito rápido perto de uma raiz simples (convergência quadrática), mas pode falhar com um mau ponto de partida ou se $f' \approx 0$.</li></ul>
-⟦1⟧
-<h3>Integração numérica</h3>
-⟦2⟧
-<p>Aqui $h = \frac{b - a}{n}$. A regra de Simpson é exata para polinômios de grau até 3.</p>
-<h3>Método de Euler</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{erro absoluto} = |x_{\text{real}} - x_{\text{aprox}}| \qquad \text{erro relativo} = \frac{|x_{\text{real}} - x_{\text{aprox}}|}{|x_{\text{real}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ via $f(x) = x^2 - 10$ a partir de $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — já correto com 4 casas decimais.</p>`,
   'vx6qz5zup7': R`\text{Trapézios: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ par}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -2718,17 +2040,6 @@ addT('pt', {
   '6utp8finkn': R`$⟦0⟧$ é aproximado por ⟦1⟧. Encontre o erro relativo em porcentagem, com 3 casas decimais.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p>Um <b>campo vetorial</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ associa um vetor a cada ponto — como a velocidade do vento ou uma força. Com $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
-⟦0⟧
-<p>O divergente mede o fluxo que sai de um ponto; o rotacional mede a rotação.</p>
-<h3>Integrais de linha e campos conservativos</h3>
-⟦1⟧
-⟦2⟧
-<h3>Os grandes teoremas</h3>
-⟦3⟧
-<p>Uma consequência elegante do teorema de Green: a área de $D$ é $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ é <b>conservativo</b> se $\mathbf{F} = \nabla\varphi$ para um potencial $\varphi$. Então $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ para qualquer caminho de $A$ a $B$. No plano (domínio simplesmente conexo), $(P, Q)$ é conservativo se e somente se $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, então é conservativo com $\varphi = x^2y + 3y$. De $(0; 0)$ a $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
@@ -2758,13 +2069,6 @@ addT('pt', {
   '4awle3me9d': R`Integre $P$ em relação a $x$: $\varphi = ⟦0⟧ + g(y)$. Então $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ dá $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Transformadas inversas geralmente exigem primeiro frações parciais e depois a comparação com a tabela.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linearidade:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Derivadas:</b> $\mathcal{L}\{y'\} = sY - y(0)$ e $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — isso transforma equações diferenciais em álgebra.</p>`,
   'ie964pskzz': R`<p>Resolva $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, então $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Invertendo: $y = 3\cos 2t + \sin 2t$.</p>`,
@@ -2991,4 +2295,829 @@ addT('pt', {
   '19mvnrfi5rk': R`A transformada de Laplace transforma uma equação diferencial em uma equação algébrica.`,
   // The Laplace transform is an improper integral, often worked 
   'da64d9071l': R`A transformada de Laplace é uma integral imprópria, muitas vezes calculada por partes.`,
+});
+
+/* pt — lessons with figures */
+addT('pt', {
+  'whhnraxlat': R`
+<p>Nosso sistema de numeração usa dez algarismos, de 0 a 9. A <b>posição</b> de um algarismo indica o seu <b>valor</b>: cada posição vale dez vezes a posição à sua direita.</p>
+⟦0⟧
+<p>Em <b>5 382 417</b>, o algarismo 8 está na dezena de milhar, então vale $8 \times 10\,000 = 80\,000$. O algarismo 3 vale $300\,000$.</p>
+<h3>Forma decomposta</h3>
+<p>Escrever um número como a soma dos valores posicionais mostra quanto vale cada algarismo:</p>
+⟦1⟧
+⟦2⟧
+<p>O 0 na casa das dezenas <b>guarda o lugar</b>. Sem ele, 4 307 viraria 437.</p>
+<h3>Comparando números</h3>
+<p>Um número natural com mais algarismos é maior. Se dois números têm a mesma quantidade de algarismos, compare-os algarismo por algarismo a partir da esquerda; a primeira posição em que diferem decide. Assim, $52\,814 \gt 52\,781$, porque nas centenas $8 \gt 7$.</p>
+<h3>Arredondamento</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '963azreidi': R`
+<p>A adição junta quantidades; a subtração descobre o que sobra ou a <b>diferença</b> entre duas quantidades. Para números grandes usamos o <b>algoritmo em colunas</b>: alinhe os algarismos pelo valor posicional e trabalhe da coluna das unidades para a esquerda.</p>
+<h3>Adição com reserva</h3>
+<p>Quando uma coluna soma 10 ou mais, escreva o algarismo das unidades e <b>leve</b> a dezena para a próxima coluna ("vai um").</p>
+⟦0⟧
+⟦1⟧
+<h3>Subtração com empréstimo</h3>
+<p>Se o algarismo de cima de uma coluna for menor que o de baixo, <b>peça emprestado</b> (reagrupe) um da coluna seguinte: isso acrescenta 10 à coluna atual.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Problemas</h3>
+<p>Palavras como <i>ao todo, no total, a mais, aumentou</i> geralmente indicam adição. Palavras como <i>sobrou, restam, diferença, quantos a mais, a menos</i> geralmente indicam subtração. Pergunte-se sempre o que o problema realmente pede.</p>
+⟦5⟧
+⟦6⟧`,
+  '1nuty7g7e3m': R`
+<p>A <b>multiplicação</b> é a adição repetida de grupos iguais: $4 \times 6$ significa 4 grupos de 6, ou seja, $6 + 6 + 6 + 6 = 24$. A <b>divisão</b> reparte uma quantidade em grupos iguais: $24 \div 6 = 4$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Multiplicando números maiores</h3>
+<p>Decomponha um dos números pelos valores posicionais, multiplique cada parte e some (é a propriedade distributiva em ação):</p>
+⟦2⟧
+⟦3⟧
+<h3>Divisão e resto</h3>
+<p>Quando a divisão não é exata, o que sobra é o <b>resto</b>. Ele é sempre menor que o divisor.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '2il80u5f0p': R`
+<p>Quando um cálculo tem várias operações, todos precisam fazê-las na mesma ordem; caso contrário, a mesma expressão daria resultados diferentes. Essa ordem combinada se chama <b>ordem das operações</b>; em inglês, ela costuma ser lembrada pela sigla <b>PEMDAS</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qawwgtxxnt': R`
+<p>Um <b>divisor</b> (ou fator) de um número o divide exatamente. Um <b>múltiplo</b> de um número é esse número multiplicado por um número natural.</p>
+<ul><li>Divisores de 12: 1, 2, 3, 4, 6, 12 (eles vêm em pares: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Múltiplos de 12: 12, 24, 36, 48, …</li></ul>
+⟦0⟧
+<h3>Números primos e compostos</h3>
+<p>Um número <b>primo</b> tem exatamente dois divisores: 1 e ele mesmo (2, 3, 5, 7, 11, 13, …). Um número <b>composto</b> tem mais de dois divisores. O 1 não é primo nem composto, e o 2 é o único primo par.</p>
+⟦1⟧
+<h3>Decomposição em fatores primos</h3>
+<p>Todo número natural maior que 1 pode ser escrito como produto de primos de uma única maneira. Use uma árvore de fatores: continue decompondo até que cada ramo termine em um primo.</p>
+⟦2⟧
+⟦3⟧
+<h3>MDC e MMC</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '1izrzgyjhj9': R`
+<p>Uma <b>fração</b> $\frac{a}{b}$ significa $a$ partes de $b$ partes iguais. O número de cima é o <b>numerador</b>; o de baixo é o <b>denominador</b>.</p>
+⟦0⟧
+<h3>Frações equivalentes e fração irredutível</h3>
+<p>Multiplicar ou dividir o numerador e o denominador pelo mesmo número dá uma fração equivalente: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Para <b>simplificar</b>, divida os dois pelo MDC:</p>
+⟦1⟧
+⟦2⟧
+<h3>Números mistos</h3>
+<p>$2\frac{1}{3}$ significa $2 + \frac{1}{3}$. Como fração imprópria: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
+⟦3⟧
+<h3>Adição e subtração</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+<h3>Multiplicação e divisão</h3>
+⟦7⟧
+<p>Para dividir, <b>mantenha</b> a primeira fração, <b>troque</b> ÷ por × e <b>inverta</b> a segunda fração.</p>
+⟦8⟧
+<h3>Fração de uma quantidade</h3>
+<p>Divida pelo denominador e depois multiplique pelo numerador: $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
+⟦9⟧
+⟦10⟧`,
+  '10kgjsjaxgz': R`
+<p>Os números decimais estendem o valor posicional para a direita das unidades. Cada posição vale um décimo da posição à sua esquerda.</p>
+⟦0⟧
+<p>Assim, $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
+⟦1⟧
+<h3>Comparando decimais</h3>
+<p>Deixe os números com a mesma quantidade de casas decimais acrescentando zeros e depois compare: $0{,}5 = 0{,}50 \gt 0{,}45$. Um decimal mais comprido não é necessariamente maior!</p>
+⟦2⟧
+<h3>Adição e subtração</h3>
+⟦3⟧
+⟦4⟧
+<h3>Multiplicação</h3>
+<p>Multiplique como se não houvesse vírgulas e conte o total de casas decimais dos fatores: o resultado tem essa quantidade de casas.</p>
+⟦5⟧
+<h3>Divisão e conversões</h3>
+<p>Multiplicar por 10, 100 ou 1000 desloca os algarismos 1, 2 ou 3 casas para a esquerda (o número aumenta); dividir os desloca para a direita. Uma fração vira decimal dividindo o numerador pelo denominador: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
+<h3>Arredondando decimais</h3>
+<p>A regra é a mesma dos números naturais: olhe o algarismo seguinte. $6{,}847$ arredondado para o décimo mais próximo é $6{,}8$; para o centésimo mais próximo, $6{,}85$.</p>
+⟦6⟧`,
+  '1rw72cdcsy1': R`
+<p><b>Por cento</b> significa "em cada 100": $35\% = \frac{35}{100} = 0{,}35$.</p>
+⟦0⟧
+⟦1⟧
+<h3>As três perguntas básicas</h3>
+⟦2⟧
+⟦3⟧
+<h3>Aumentos, reduções e descontos</h3>
+<p>Um desconto de $20\%$ sobre 80 reais economiza $0{,}2 \times 80 = 16$ reais, então o preço com desconto é $80 - 16 = 64$ reais. Mais rápido: você paga $80\%$ do preço, $0{,}8 \times 80 = 64$.</p>
+⟦4⟧
+<p>Um aumento de $p\%$ multiplica por $1 + \frac{p}{100}$; uma redução multiplica por $1 - \frac{p}{100}$.</p>
+⟦5⟧`,
+  'qwxct8meof': R`
+<p>O sistema métrico se baseia em potências de dez, com prefixos que indicam o tamanho de uma unidade.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Tempo</h3>
+<p>O tempo <i>não</i> é decimal: uma hora tem 60 minutos, e não 100. Para calcular o tempo decorrido, avance por etapas: de 09:35 a 13:10 são 25 min (até 10:00) + 3 h (até 13:00) + 10 min = 3 h 35 min = 215 minutos.</p>
+⟦5⟧
+⟦6⟧`,
+  '1duo6cowvco': R`
+<p>O <b>perímetro</b> é a medida total do contorno de uma figura (em cm, m, …). A <b>área</b> é a medida da superfície que ela ocupa (em unidades quadradas: cm², m², …).</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Figuras compostas</h3>
+<p>Divida uma figura em forma de L ou outra figura composta em retângulos e triângulos e some as áreas — ou pegue um retângulo grande e subtraia a parte que falta.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2bjnshv99mz': R`
+<p>O <b>volume</b> é o espaço que um sólido ocupa, medido em <b>unidades cúbicas</b> (cm³, m³). Um cubo com arestas de 1 cm tem volume de 1 cm³.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Área total</h3>
+<p>A área total é a soma das áreas de todas as faces. Um paralelepípedo tem três pares de retângulos iguais:</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'hdpir6essq': R`
+<p>Os ângulos medem giros, em <b>graus</b> (°). Uma volta completa tem $360^\circ$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Triângulos</h3>
+<p><b>Equilátero</b>: três lados iguais, cada ângulo com $60^\circ$. <b>Isósceles</b>: dois lados iguais e dois ângulos da base iguais. <b>Escaleno</b>: nenhum lado igual. Um triângulo <b>retângulo</b> tem um ângulo de $90^\circ$.</p>
+<h3>Polígonos</h3>
+<p>Um polígono de $n$ lados pode ser dividido em $n - 2$ triângulos a partir de um vértice, então</p>
+⟦3⟧
+⟦4⟧
+<p>Em um polígono <b>regular</b> todos os ângulos são iguais, então cada um mede $\frac{(n-2) \times 180^\circ}{n}$. Um hexágono regular tem ângulos de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
+⟦5⟧`,
+  '1t5wicpcspm': R`
+<p>Dados são informações que coletamos, como notas de provas ou frutas favoritas. Uma <b>tabela de frequências</b> registra quantas vezes cada valor aparece; <b>gráficos de barras</b> e <b>pictogramas</b> mostram a mesma informação de forma visual.</p>
+⟦0⟧
+<h3>Quatro medidas-resumo</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '2c85eiflpnj': R`
+<p>Os <b>números inteiros</b> são os números naturais, seus opostos e o zero: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Na reta numérica, os números aumentam para a direita, então $-7 \lt -2$, embora 7 seja maior que 2.</p>
+⟦0⟧
+<p>O <b>valor absoluto</b> (módulo) $|a|$ é a distância até o 0: $|-6| = 6$ e $|6| = 6$.</p>
+<h3>Adição e subtração</h3>
+⟦1⟧
+⟦2⟧
+<h3>Multiplicação e divisão</h3>
+⟦3⟧
+⟦4⟧
+<p>No dia a dia: temperaturas abaixo de zero, altitudes abaixo do nível do mar, dívidas e andares no subsolo.</p>
+⟦5⟧`,
+  'tte1va9nbg': R`
+<p>Uma <b>potência</b> indica uma multiplicação repetida: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ fatores}}$. Em $2^5 = 32$, 2 é a <b>base</b> e 5 é o <b>expoente</b>.</p>
+⟦0⟧
+<h3>Propriedades das potências</h3>
+⟦1⟧
+⟦2⟧
+<h3>Raízes</h3>
+<p>A raiz quadrada desfaz o quadrado: $\sqrt{81} = 9$ porque $9^2 = 81$. A raiz cúbica desfaz o cubo: $\sqrt[3]{64} = 4$ porque $4^3 = 64$.</p>
+⟦3⟧
+⟦4⟧`,
+  'akeowmn81l': R`
+<p>Os cientistas escrevem números muito grandes ou muito pequenos de forma compacta como</p>
+⟦0⟧
+<ul><li>A distância até o Sol, cerca de $150\,000\,000$ km, é $1{,}5 \times 10^{8}$ km.</li><li>Um glóbulo vermelho, com cerca de $0{,}000\,008$ m de largura, mede $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Calculando</h3>
+<p>Multiplique (ou divida) os números da frente e some (ou subtraia) os expoentes. Depois ajuste o número da frente se ele não estiver entre 1 e 10:</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'z6teiu3uc7': R`
+<p>Uma <b>razão</b> $a : b$ compara duas quantidades. Como as frações, as razões podem ser simplificadas dividindo os dois termos pelo MDC: $18 : 24 = 3 : 4$.</p>
+<h3>Divisão proporcional</h3>
+⟦0⟧
+⟦1⟧
+<h3>Taxas e valor unitário</h3>
+<p>Uma <b>taxa</b> compara quantidades com unidades diferentes: km por hora, reais por kg. Encontrar o valor de <b>uma</b> unidade (o valor unitário) resolve a maioria dos problemas.</p>
+⟦2⟧
+<h3>Proporção direta e inversa</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+<h3>Escalas de mapas</h3>
+<p>Uma escala de $1 : 50\,000$ significa que 1 cm no mapa corresponde a $50\,000$ cm $= 500$ m $= 0{,}5$ km na realidade.</p>
+⟦6⟧`,
+  '1aox7mamv38': R`
+<p>Na expressão $5x^2 - 3xy + 7$, os <b>termos</b> são $5x^2$, $-3xy$ e $7$; os <b>coeficientes</b> são 5 e $-3$; 7 é o <b>termo independente</b>. <b>Termos semelhantes</b> têm exatamente as mesmas letras com os mesmos expoentes ($4ab$ e $-ab$ são semelhantes; $x^2$ e $x$ não são).</p>
+<h3>Simplificar</h3>
+<p>Junte os termos semelhantes somando seus coeficientes: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Eliminar parênteses</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Produtos notáveis</h3>
+⟦3⟧
+⟦4⟧
+<h3>Fatorar</h3>
+<p>Fatorar é desenvolver ao contrário. Coloque em evidência o maior fator comum: $12x - 18 = 6(2x - 3)$.</p>
+<h3>Substituir</h3>
+<p>Troque cada letra pelo seu valor, usando parênteses para os negativos: se $x = -2$, então $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦5⟧`,
+  '2ez6y5q5jl': R`
+<p>Uma equação diz que duas expressões são iguais. Pense numa balança: o que você fizer de um lado, faça também do outro, e ela continua equilibrada. O objetivo é isolar a incógnita.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Parênteses e frações</h3>
+<p>Primeiro elimine os parênteses (ou divida os dois lados pelo número de fora). Elimine as frações multiplicando cada termo pelo denominador comum:</p>
+⟦3⟧
+<h3>Problemas</h3>
+<ol><li>Escolha uma letra para a incógnita e diga o que ela representa.</li><li>Traduza o enunciado em uma equação.</li><li>Resolva e confira se a resposta faz sentido no problema.</li></ol>
+⟦4⟧
+⟦5⟧`,
+  '1em42pkc1jv': R`
+<p>Uma <b>inequação</b> compara duas expressões: $\lt$ (menor que), $\gt$ (maior que), $\le$ (menor ou igual a), $\ge$ (maior ou igual a). Sua solução costuma ser todo um intervalo de números.</p>
+<p>Na reta numérica, $x \gt 2$ é desenhado com uma bolinha <b>aberta</b> em 2 (o 2 não está incluído) e uma seta para a direita; $x \le 2$ usa uma bolinha <b>fechada</b> e uma seta para a esquerda.</p>
+⟦0⟧
+<h3>Resolvendo</h3>
+<p>Resolva como uma equação — somando, subtraindo, multiplicando ou dividindo os dois lados — com uma regra a mais:</p>
+⟦1⟧
+<p>Por quê? $2 \lt 5$, mas multiplicando os dois lados por $-1$ obtemos $-2$ e $-5$, e $-2 \gt -5$.</p>
+⟦2⟧
+<h3>Inequações duplas</h3>
+<p>Faça a mesma operação nas três partes: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. As soluções inteiras são $-1; 0; 1; 2; 3$.</p>
+⟦3⟧
+⟦4⟧`,
+  '2facwts035v': R`
+<p>Um <b>conjunto</b> é uma coleção bem definida de objetos, os seus <b>elementos</b>. Escrevemos $A = \{2; 4; 6; 8\}$ e $4 \in A$ ("4 pertence a A"), $5 \notin A$. $n(A)$ é o número de elementos; aqui $n(A) = 4$. O <b>conjunto vazio</b> $\varnothing$ não tem elementos; o <b>conjunto universo</b> $U$ contém tudo o que está em discussão.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qkk3uk216j': R`
+<p>Uma <b>função afim</b> tem como gráfico uma reta. Na <b>forma reduzida</b></p>
+⟦0⟧
+<p>$m$ é o <b>coeficiente angular</b> (a inclinação): quanto $y$ varia quando $x$ aumenta 1. $c$ é o <b>coeficiente linear</b>, onde a reta corta o eixo $y$. Na notação de funções escrevemos $f(x) = mx + c$, então $f(3)$ significa "o valor quando $x = 3$".</p>
+<h3>Coeficiente angular a partir de dois pontos</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Interceptos e outras formas</h3>
+<p>Faça $x = 0$ para achar onde a reta corta o eixo $y$ e $y = 0$ para onde corta o eixo $x$. Uma reta pode ser escrita $ax + by = c$; isole $y = -\frac{a}{b}x + \frac{c}{b}$ para ler o coeficiente angular. Passando por um ponto $(x_1; y_1)$ com coeficiente angular $m$: $y - y_1 = m(x - x_1)$.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'k20oq9cujh': R`
+<p>Um <b>sistema</b> de duas equações do 1º grau em $x$ e $y$ pede os valores que tornam verdadeiras <i>as duas</i> equações. No gráfico, a solução é o ponto onde as duas retas se cruzam.</p>
+⟦0⟧
+<h3>Substituição</h3>
+⟦1⟧
+<h3>Adição (eliminação)</h3>
+⟦2⟧
+⟦3⟧
+<h3>Casos especiais</h3>
+⟦4⟧
+<p>Retas paralelas (mesmo coeficiente angular, coeficientes lineares diferentes) nunca se encontram: <b>não há solução</b>. Retas coincidentes dão <b>infinitas</b> soluções.</p>
+<h3>Problemas</h3>
+<p>Duas incógnitas precisam de duas informações. "Numa fazenda há galinhas e vacas, com 30 cabeças e 84 patas", com $c$ vacas e $h$ galinhas: $c + h = 30$ e $4c + 2h = 84$.</p>
+⟦5⟧`,
+  '1bdrzsceuor': R`
+<p>Num triângulo retângulo, o lado mais longo, oposto ao ângulo reto, é a <b>hipotenusa</b> $c$. Os outros dois lados são os <b>catetos</b> $a$ e $b$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Ternos pitagóricos</h3>
+<p>Vale a pena lembrar as soluções inteiras e seus múltiplos: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, e $(6; 8; 10)$, $(9; 12; 15)$, …</p>
+<h3>Distância entre dois pontos</h3>
+⟦4⟧
+⟦5⟧
+<h3>A recíproca</h3>
+<p>Sendo $c$ o maior lado: se $a^2 + b^2 = c^2$, o triângulo é <b>retângulo</b>; se $a^2 + b^2 \gt c^2$, é <b>acutângulo</b>; se $a^2 + b^2 \lt c^2$, é <b>obtusângulo</b>.</p>
+⟦6⟧`,
+  'focn6p44n1': R`
+⟦0⟧
+<p>A razão entre o comprimento de qualquer circunferência e seu diâmetro é sempre o mesmo número, $\pi \approx 3{,}14159\ldots$ (muitas vezes aproximado por $3{,}14$ ou $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Arcos e setores</h3>
+<p>Um setor de ângulo central $\theta$ é a fração $\frac{\theta}{360^\circ}$ do círculo inteiro:</p>
+⟦4⟧
+⟦5⟧
+<h3>Ângulos na circunferência</h3>
+⟦6⟧
+<ul><li>O ângulo central é o <b>dobro</b> do ângulo inscrito que determina o mesmo arco.</li><li>Um ângulo inscrito numa semicircunferência mede $90^\circ$.</li><li>A tangente é perpendicular ao raio no ponto de tangência.</li></ul>
+⟦7⟧`,
+  'g6b5ghp740': R`
+<p>Um <b>prisma</b> tem a mesma seção transversal em todo o seu comprimento, então seu volume é simplesmente a área dessa seção vezes o comprimento. Uma pirâmide ou um cone que caiba exatamente dentro dele tem exatamente um terço desse volume.</p>
+⟦0⟧
+⟦1⟧
+<p>No cone, $s$ é a <b>geratriz</b>; por Pitágoras, $s = \sqrt{r^2 + h^2}$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'f13hxf9kw3': R`
+<p>Uma <b>medida de tendência central</b> resume um conjunto de dados com um valor típico; uma <b>medida de dispersão</b> indica o quanto os valores estão espalhados.</p>
+⟦0⟧
+⟦1⟧
+<h3>Média a partir de uma tabela de frequências</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Raciocinando de trás para frente</h3>
+⟦5⟧
+<p>Com uma quantidade par de valores, a mediana é a média dos dois valores centrais.</p>
+⟦6⟧`,
+  '190fxed0s6m': R`
+<p>Um <b>experimento</b> (lançar um dado, tirar uma carta) tem <b>resultados</b> possíveis. O conjunto de todos os resultados é o <b>espaço amostral</b> $S$; um <b>evento</b> $E$ é um conjunto de resultados. Quando todos os resultados são igualmente prováveis:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Dois dados</h3>
+<p>Lançar dois dados dá $6 \times 6 = 36$ resultados igualmente prováveis. A soma 7 ocorre de 6 maneiras — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, então $P(\text{soma} = 7) = \frac{6}{36} = \frac{1}{6}$. Em geral, o número de maneiras de obter a soma $s$ é $6 - |s - 7|$.</p>
+⟦4⟧
+<h3>Um baralho</h3>
+<p>52 cartas: 4 naipes (♠ ♣ pretos, ♥ ♦ vermelhos) de 13 valores (A, 2–10, J, Q, K). Há 12 figuras (J, Q, K).</p>
+⟦5⟧`,
+  '151qbeg6ykm': R`
+<p>Questões de dinheiro do dia a dia são, no fundo, questões de porcentagem.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Desconto e imposto</h3>
+<p>Aplique as porcentagens uma após a outra: um desconto de 20% e depois um imposto de 10% sobre 150 reais dão $150 \times 0{,}8 \times 1{,}1 = 132$ reais.</p>
+<h3>Juros simples</h3>
+⟦3⟧
+<p>1 500 reais aplicados a 6% ao ano durante 3 anos rendem $1\,500 \times 0{,}06 \times 3 = 270$ reais; o total chega a 1 770 reais. Para meses, use $t = \frac{\text{meses}}{12}$.</p>
+⟦4⟧
+<h3>Peso bruto, tara e peso líquido</h3>
+<p><b>Bruto</b> = peso total; <b>tara</b> = peso da embalagem; <b>líquido</b> = bruto − tara. Um saco de 50 kg com tara de 2% tem peso líquido de $50 \times 0{,}98 = 49$ kg.</p>
+⟦5⟧`,
+  '2goqscgnmgq': R`
+<p>Uma <b>sequência</b> é uma lista ordenada de números chamados <b>termos</b>. Descobrir a regra permite continuar o padrão ou ir direto a qualquer termo.</p>
+<h3>Progressões aritméticas</h3>
+<p>Soma-se sempre o mesmo número $d$ (a <b>razão</b>): 5; 8; 11; 14; … tem $d = 3$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Progressões geométricas</h3>
+<p>Cada termo é multiplicado pela mesma <b>razão</b> $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
+⟦2⟧
+<h3>Sequências especiais</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'dep80mf33u': R`
+<p>Uma <b>transformação</b> move uma figura ou muda o seu tamanho. Em translações, reflexões e rotações a imagem é <b>congruente</b> (mesma forma e tamanho); em uma homotetia ela é <b>semelhante</b> (mesma forma, tamanho diferente).</p>
+⟦0⟧
+⟦1⟧
+<h3>Figuras semelhantes</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ayg6rt51qo': R`
+<p>Uma <b>equação do 2º grau</b> tem a forma $ax^2 + bx + c = 0$ com $a \ne 0$. Ela tem no máximo duas soluções (raízes).</p>
+<h3>1. Fatoração</h3>
+<p>Se um produto é zero, um de seus fatores é zero. Procure dois números cujo produto seja $c$ e cuja soma seja $b$ (quando $a = 1$):</p>
+⟦0⟧
+⟦1⟧
+<h3>2. Completar o quadrado</h3>
+⟦2⟧
+<h3>3. A fórmula de Bhaskara</h3>
+⟦3⟧
+⟦4⟧
+<h3>Soma e produto das raízes (Vieta)</h3>
+⟦5⟧
+<p>Assim, uma equação com raízes $r$ e $s$ é $x^2 - (r + s)x + rs = 0$.</p>
+⟦6⟧
+⟦7⟧`,
+  'r0cxzc7jq8': R`
+<p>O gráfico de $f(x) = ax^2 + bx + c$ é uma <b>parábola</b>. Ela tem concavidade <b>para cima</b> se $a \gt 0$ (um vale, com mínimo) e <b>para baixo</b> se $a \lt 0$ (um morro, com máximo).</p>
+⟦0⟧
+<h3>Forma canônica</h3>
+⟦1⟧
+⟦2⟧
+<p>Completar o quadrado transforma a forma geral na forma canônica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, então o vértice é $(3; 2)$ e o valor mínimo é 2. A imagem é $y \ge 2$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1mi3l1zkm3t': R`
+<p>Uma <b>função</b> associa a cada entrada exatamente <b>uma</b> saída. O conjunto das entradas permitidas é o <b>domínio</b>; o conjunto das saídas é a <b>imagem</b>.</p>
+⟦0⟧
+<h3>Domínios naturais</h3>
+<ul><li>Não há divisão por zero: para $\frac{1}{x - 2}$, o domínio é $x \ne 2$.</li><li>Não há raiz quadrada de negativo: para $\sqrt{x + 3}$, o domínio é $x \ge -3$.</li><li>Logaritmos precisam de argumento positivo: para $\log(x - 1)$, o domínio é $x \gt 1$.</li></ul>
+<h3>Composição</h3>
+⟦1⟧
+⟦2⟧
+<h3>Funções inversas</h3>
+<p>$f^{-1}$ desfaz o que $f$ faz: se $f(a) = b$, então $f^{-1}(b) = a$. Para encontrá-la, escreva $y = f(x)$, troque $x$ e $y$ e isole $y$.</p>
+⟦3⟧
+⟦4⟧
+<p>O gráfico de $f^{-1}$ é o reflexo do gráfico de $f$ em relação à reta $y = x$. Só funções injetoras têm inversa.</p>
+⟦5⟧`,
+  '24wdt7r22ed': R`
+<p>Expoentes racionais combinam potências e raízes: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Assim, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ e $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logaritmos</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Resolvendo equações</h3>
+<ul><li>Mesma base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Equação logarítmica: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases diferentes: aplique logaritmo nos dois lados, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
+<h3>Crescimento e decaimento exponencial</h3>
+<p>$A = A_0 \cdot r^{t/T}$: uma quantidade multiplicada por $r$ a cada $T$ unidades de tempo. Juros compostos: $A = P(1 + i)^n$.</p>
+⟦3⟧
+⟦4⟧`,
+  '3hbd521s2e': R`
+⟦0⟧
+<p>Aqui $a$ é o primeiro termo e $l$ o último.</p>
+⟦1⟧
+⟦2⟧
+<h3>Séries geométricas infinitas</h3>
+⟦3⟧
+<p>Exemplo: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+⟦4⟧
+<h3>Notação de somatório</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Fatos úteis: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ e $\sum_{k=1}^{n} c = cn$.</p>
+⟦5⟧`,
+  '1t70i52x3de': R`
+<p>Num triângulo retângulo, em relação a um ângulo agudo $\theta$:</p>
+⟦0⟧
+⟦1⟧
+<p>Dica para memorizar: <b>SOH-CAH-TOA</b> (Seno = Oposto/Hipotenusa, Cosseno = Adjacente/Hipotenusa, Tangente = Oposto/Adjacente). Além disso, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, e as razões inversas são $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Valores exatos</h3>
+⟦2⟧
+⟦3⟧
+<h3>Radianos</h3>
+<p>$180^\circ = \pi$ radianos. Para passar de graus a radianos, multiplique por $\frac{\pi}{180}$; de radianos a graus, por $\frac{180}{\pi}$. Assim, $60^\circ = \frac{\pi}{3}$ e $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>O círculo trigonométrico</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  'mvrwakwbru': R`
+<p>Uma <b>identidade</b> vale para todo ângulo. As mais importantes:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Resolvendo equações trigonométricas</h3>
+<p>Encontre o ângulo de referência e depois todos os ângulos do intervalo pedido com o sinal correto.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ei45ji3kzc': R`
+<p>Nomeie o triângulo de modo que o lado $a$ seja oposto ao ângulo $A$, $b$ oposto a $B$ e $c$ oposto a $C$. Essas leis valem para <b>qualquer</b> triângulo, não só para triângulos retângulos.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '61mbb87wjy': R`
+<p>Um <b>polinômio</b> é uma soma de termos $a_n x^n + \cdots + a_1 x + a_0$ com expoentes naturais. Seu <b>grau</b> é o maior expoente; $a_n$ é o <b>coeficiente dominante</b>. Ao multiplicar polinômios, os graus se somam e os coeficientes dominantes se multiplicam.</p>
+<h3>Divisão</h3>
+<p>Dividir $P(x)$ por $(x - a)$ dá um quociente $Q(x)$ e um resto $R$: $P(x) = (x - a)Q(x) + R$. O <b>dispositivo de Briot-Ruffini</b> faz isso rapidamente usando só os coeficientes.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Raízes de um polinômio do 3º grau</h3>
+<p>Para $ax^3 + bx^2 + cx + d = 0$ com raízes $r_1, r_2, r_3$:</p>
+⟦3⟧
+⟦4⟧`,
+  '1v5flijcft8': R`
+<p>Uma <b>matriz</b> é uma tabela retangular de números. Uma matriz $m \times n$ tem $m$ linhas e $n$ colunas; $a_{ij}$ é o elemento da linha $i$, coluna $j$.</p>
+<h3>Operações</h3>
+<ul><li><b>Somar/subtrair</b> elemento a elemento (só com o mesmo tamanho).</li><li><b>Multiplicação por escalar</b>: multiplique cada elemento.</li><li><b>Produto</b> $AB$: o elemento $(i, j)$ é a linha $i$ de $A$ "vezes" a coluna $j$ de $B$. Exige (colunas de $A$) = (linhas de $B$), e uma $m \times n$ vezes uma $n \times p$ dá uma $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinante e inversa (2 × 2)</h3>
+⟦2⟧
+<p>Se $\det A = 0$, a matriz é <b>singular</b> e não tem inversa. Inversas resolvem sistemas: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧
+⟦4⟧`,
+  'etxqyliwjj': R`
+<p>Um <b>vetor</b> tem módulo, direção e sentido. Em coordenadas, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. O vetor de $P$ até $Q$ é $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '66h68qke5m': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ significa que $f(x)$ fica tão perto quanto quisermos de $L$ quando $x$ se aproxima de $a$ — não importa o que acontece exatamente em $x = a$.</p>
+<h3>Técnicas</h3>
+<ol><li><b>Substituição direta</b> funciona para polinômios e outras funções contínuas: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Fatorar e simplificar</b> diante de $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Racionalizar</b> expressões com raízes: multiplique pelo conjugado.</li></ol>
+⟦0⟧
+⟦1⟧
+<h3>Limites no infinito</h3>
+⟦2⟧
+⟦3⟧
+<h3>Um limite trigonométrico especial</h3>
+⟦4⟧
+<h3>Continuidade</h3>
+<p>$f$ é contínua em $a$ se $\lim_{x \to a} f(x) = f(a)$: sem buracos, saltos ou assíntotas ali. Numa função definida por partes, faça as duas partes se encontrarem no ponto de junção.</p>
+⟦5⟧`,
+  'a1ga4rrgb4': R`
+<p>A <b>derivada</b> $f'(x)$ é a taxa de variação instantânea de $f$ — a inclinação da reta tangente em $x$. Ela é definida por um limite:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Retas tangentes</h3>
+<p>Em $x = a$, a tangente tem inclinação $m = f'(a)$ e passa por $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Pontos críticos</h3>
+<p>Onde $f'(x) = 0$ o gráfico fica momentaneamente horizontal. Use a segunda derivada: $f''(a) \gt 0$ → mínimo local; $f''(a) \lt 0$ → máximo local. $f$ é crescente onde $f' \gt 0$ e decrescente onde $f' \lt 0$.</p>
+⟦4⟧
+<h3>Otimização</h3>
+⟦5⟧
+⟦6⟧`,
+  'l6pgzhyei6': R`
+<p>A integração desfaz a derivação. Uma <b>primitiva</b> de $f$ é qualquer $F$ com $F' = f$; a <b>integral indefinida</b> inclui a constante de integração:</p>
+⟦0⟧
+⟦1⟧
+<h3>Integrais definidas</h3>
+⟦2⟧
+⟦3⟧
+<p>Para $f \ge 0$, isso é a área sob a curva entre $x = a$ e $x = b$. Área abaixo do eixo $x$ conta como negativa; então divida a integral nas raízes quando quiser a área total.</p>
+⟦4⟧
+⟦5⟧
+<h3>Encontrando uma função a partir da derivada</h3>
+<p>Se $f'(x) = 6x + 2$ e $f(1) = 10$, então $f(x) = 3x^2 + 2x + C$ e $3 + 2 + C = 10$ dá $C = 5$.</p>
+⟦6⟧`,
+  'kgwrue8ydx': R`
+⟦0⟧
+⟦1⟧
+<h3>Arranjos: a ordem importa</h3>
+⟦2⟧
+<p>Primeiro, segundo e terceiro prêmios entre 10 pessoas: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Permutações com elementos repetidos: $\frac{n!}{p!\,q!\cdots}$. "BANANA" tem $\frac{6!}{3!\,2!} = 60$ anagramas.</li><li>Em volta de uma mesa redonda: $(n - 1)!$ (rotações contam como iguais).</li></ul>
+<h3>Combinações: a ordem não importa</h3>
+⟦3⟧
+<p>Uma comissão de 3 pessoas entre 10: $\binom{10}{3} = 120$. Uma comissão com 2 homens (de 5) e 3 mulheres (de 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Binômio de Newton</h3>
+⟦4⟧
+⟦5⟧
+<p>O coeficiente de $x^2$ em $(x + 3)^5$ é $\binom{5}{2}3^{3} = 270$.</p>
+⟦6⟧`,
+  '5087kj3cei': R`
+⟦0⟧
+⟦1⟧
+<h3>Com e sem reposição</h3>
+⟦2⟧
+<p>Diagramas de árvore organizam isso: multiplique ao longo dos ramos e some entre os ramos.</p>
+⟦3⟧
+<h3>"Pelo menos um"</h3>
+<p>Use o complementar: $P(\text{pelo menos um seis em 3 lançamentos}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Teorema de Bayes</h3>
+⟦4⟧
+⟦5⟧`,
+  'tc0j77gt19': R`
+<h3>Quartis e diagramas de caixa</h3>
+<p>Ordene os dados. A mediana $Q_2$ os divide ao meio; $Q_1$ é a mediana da metade inferior e $Q_3$ a da metade superior (aqui deixamos a mediana fora das duas metades quando $n$ é ímpar). A <b>amplitude interquartil</b> $\text{AIQ} = Q_3 - Q_1$ mede a dispersão dos 50% centrais.</p>
+⟦0⟧
+⟦1⟧
+<h3>Variância e desvio padrão</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Dados agrupados</h3>
+<p>Estime a média com os pontos médios das classes: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+⟦5⟧
+<h3>Transformando dados</h3>
+⟦6⟧
+⟦7⟧`,
+  'c7ge7rgpv3': R`
+⟦0⟧
+<h3>Equação da circunferência</h3>
+⟦1⟧
+<p>Desenvolvendo, obtém-se a <b>equação geral</b> $x^2 + y^2 + Dx + Ey + F = 0$, com centro $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ e raio $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+⟦3⟧
+<h3>Posição de um ponto</h3>
+<p>Substitua o ponto em $(x - a)^2 + (y - b)^2$ e compare com $r^2$: menor → dentro, igual → sobre, maior → fora.</p>
+<h3>Retas tangentes</h3>
+<p>Uma tangente é perpendicular ao raio no ponto de tangência. Para a circunferência $x^2 + y^2 = r^2$ em $(x_1; y_1)$, o raio tem inclinação $\frac{y_1}{x_1}$, então a tangente tem inclinação $-\frac{x_1}{y_1}$.</p>
+<h3>Parábolas</h3>
+<p>$y^2 = 4px$ tem foco $(p; 0)$ e diretriz $x = -p$; $x^2 = 4py$ tem foco $(0; p)$ e diretriz $y = -p$. Todo ponto de uma parábola está à mesma distância do foco e da diretriz.</p>
+⟦4⟧
+⟦5⟧`,
+  'kxyg3nvi7f': R`
+<p>A <b>programação linear</b> busca o melhor valor (maior ou menor) de uma <b>função objetivo</b> linear, como o lucro $z = 30x + 20y$, sujeita a <b>restrições</b> lineares como $x + y \le 40$.</p>
+<ol><li>Escreva as restrições como inequações (inclua $x \ge 0$, $y \ge 0$).</li><li>Desenhe cada reta de fronteira e sombreie a região que satisfaz todas as restrições — a <b>região viável</b>.</li><li>Encontre os vértices resolvendo pares de equações de fronteira.</li><li>Calcule a função objetivo em cada vértice.</li></ol>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>Em problemas de minimização com restrições "≥", a região costuma ser ilimitada; com custos positivos, o mínimo continua num vértice.</p>
+⟦3⟧`,
+  '242c6ma5mvc': R`
+<p>Uma <b>proposição</b> é uma frase que é verdadeira ou falsa. Proposições compostas são formadas com <b>conectivos</b>:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Condicionais relacionadas</h3>
+⟦3⟧
+<h3>Quantificadores</h3>
+<p>$\forall$ "para todo" e $\exists$ "existe". A negação troca um pelo outro: a negação de "Todos os alunos passaram" é "<b>Alguns</b> alunos <b>não</b> passaram"; a negação de "Algumas aves não voam" é "Todas as aves voam".</p>
+<h3>Argumentos válidos</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; logo, $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; logo, $\neg p$.</li><li><b>Silogismo:</b> $p \Rightarrow q$, $q \Rightarrow r$; logo, $p \Rightarrow r$.</li></ul>
+⟦4⟧`,
+  '2eractxl2pu': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Derivação implícita</h3>
+<p>Quando $y$ é definido implicitamente, derive os dois lados em relação a $x$, tratando $y$ como função de $x$ (assim $\frac{d}{dx}y^2 = 2y\,y'$), e depois isole $y'$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2pce0rr7ld': R`
+<h3>Regra de L'Hôpital</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (aplicada duas vezes).</p>
+<h3>Otimização</h3>
+<ol><li>Escreva a grandeza a otimizar como função de uma só variável (use a restrição).</li><li>Derive e resolva $f'(x) = 0$.</li><li>Verifique se é máximo/mínimo (segunda derivada ou extremos do intervalo).</li></ol>
+⟦1⟧
+⟦2⟧
+<h3>Taxas relacionadas</h3>
+<p>Derive uma relação em relação ao tempo. Para um círculo que cresce, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Aproximação linear</h3>
+⟦3⟧
+⟦4⟧
+<h3>Concavidade e teorema do valor médio</h3>
+<p>$f'' \gt 0$: concavidade para cima; $f'' \lt 0$: concavidade para baixo; um <b>ponto de inflexão</b> é onde a concavidade muda. <b>TVM:</b> se $f$ é contínua em $[a; b]$ e derivável no interior, existe $c$ em $(a; b)$ com $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦5⟧
+⟦6⟧`,
+  '1i8ljxmt6ne': R`
+⟦0⟧
+<h3>Substituição</h3>
+<p>Procure uma função e sua derivada. Com $u = g(x)$, $du = g'(x)\,dx$:</p>
+⟦1⟧
+<p>Em integrais definidas, mude também os limites (ou volte à variável original antes de calcular).</p>
+<h3>Integração por partes</h3>
+⟦2⟧
+⟦3⟧
+<h3>Frações parciais</h3>
+<p>Decomponha uma função racional em partes mais simples: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Elimine os denominadores e substitua $x = 1$ e $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Cada parte integra para um logaritmo.</p>
+<h3>Integrais impróprias</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '22ywziqc3vc': R`
+<p>Uma série infinita $\sum a_n$ <b>converge</b> se suas somas parciais $S_N = a_1 + \cdots + a_N$ tendem a um limite finito.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Séries de potências e séries de Taylor</h3>
+<p>Uma série de potências $\sum c_n (x - a)^n$ converge para $|x - a| \lt R$, o <b>raio de convergência</b> (encontrado com o teste da razão). A série de Taylor de $f$ em torno de $a$ é $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; em torno de 0 ela se chama série de Maclaurin.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'snltdvly4b': R`
+<p>Para $f(x, y)$, a <b>derivada parcial</b> $f_x = \frac{\partial f}{\partial x}$ deriva em relação a $x$ tratando $y$ como constante (e vice-versa para $f_y$). Para $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradiente e derivadas direcionais</h3>
+⟦0⟧
+⟦1⟧
+<h3>Pontos críticos: teste da segunda derivada</h3>
+<p>Num ponto em que $f_x = f_y = 0$, seja $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$: mínimo local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: máximo local.</li><li>$D \lt 0$: ponto de sela. &nbsp; $D = 0$: o teste é inconclusivo.</li></ul>
+<h3>Integrais duplas</h3>
+<p>Sobre um retângulo, integre uma variável de cada vez (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Em coordenadas polares, $dA = r\,dr\,d\theta$.</p>
+<h3>Multiplicadores de Lagrange</h3>
+<p>Para otimizar $f$ sujeita a $g = c$, resolva $\nabla f = \lambda\nabla g$ junto com a restrição.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'fs23huivh': R`
+<p>Uma <b>equação diferencial</b> relaciona uma função com suas derivadas. Sua <b>ordem</b> é a da derivada mais alta que aparece. A <b>solução geral</b> contém constantes arbitrárias; condições iniciais determinam uma solução particular.</p>
+<h3>Equações separáveis</h3>
+⟦0⟧
+⟦1⟧
+<p>Caso especial: $\frac{dy}{dt} = ky$ dá $y = y_0e^{kt}$ — crescimento ($k \gt 0$) ou decaimento ($k \lt 0$) exponencial. Com meia-vida $T$, a quantidade restante é $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>Equações lineares de primeira ordem</h3>
+⟦2⟧
+<h3>Lineares de segunda ordem com coeficientes constantes</h3>
+<p>Para $ay'' + by' + cy = 0$, tente $y = e^{rx}$ e obtenha a <b>equação característica</b> $ar^2 + br + c = 0$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '24kf7gdq652': R`
+<h3>Sistemas lineares e posto</h3>
+<p>Um sistema $A\mathbf{x} = \mathbf{b}$ é resolvido escalonando a matriz aumentada $[A \mid \mathbf{b}]$. O <b>posto</b> de $A$ é o número de pivôs (linhas não nulas na forma escalonada).</p>
+⟦0⟧
+<h3>Determinantes</h3>
+⟦1⟧
+<p>Propriedades úteis para matrizes $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Regra de Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Autovalores e autovetores</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Se $A$ tem $n$ autovetores independentes, ela é <b>diagonalizável</b>: $A = PDP^{-1}$, com os autovetores como colunas de $P$ e os autovalores na diagonal de $D$.</p>
+⟦5⟧`,
+  'to00bbswkc': R`
+<p>A unidade imaginária satisfaz $i^2 = -1$. Um número complexo é $z = a + bi$, com parte real $\text{Re}(z) = a$ e parte imaginária $\text{Im}(z) = b$. As potências de $i$ se repetem de quatro em quatro: $i; -1; -i; 1; \ldots$</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Forma polar e fórmula de Euler</h3>
+⟦3⟧
+⟦4⟧
+<p>As raízes $n$-ésimas da unidade são $e^{2\pi ik/n}$ para $k = 0; 1; \ldots; n - 1$: pontos igualmente espaçados na circunferência unitária.</p>
+⟦5⟧
+⟦6⟧`,
+  'x4ag408mej': R`
+<p>Uma <b>variável aleatória</b> $X$ associa números aos resultados. Para uma $X$ discreta com probabilidades $p(x)$:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>A distribuição normal</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'c7oei6is1q': R`
+<p>Usamos uma estatística da <b>amostra</b> (como $\bar{x}$) para estimar um parâmetro da <b>população</b> (como $\mu$). Pelo <b>teorema central do limite</b>, para $n$ grande a média amostral é aproximadamente normal com média $\mu$ e <b>erro padrão</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Intervalos de confiança</h3>
+⟦0⟧
+⟦1⟧
+<p>Para obter uma margem de erro $E$, é preciso $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (arredondando para cima). Quando $\sigma$ é desconhecido, use $s$ e a distribuição $t$.</p>
+<h3>Testes de hipóteses</h3>
+<ol><li>Enuncie $H_0$ (p. ex. $\mu = \mu_0$) e $H_1$.</li><li>Calcule uma estatística de teste, p. ex. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Encontre o <b>valor-p</b>: a probabilidade, supondo $H_0$, de um resultado pelo menos tão extremo.</li><li>Se $p \le \alpha$, rejeite $H_0$; caso contrário, não rejeite.</li></ol>
+⟦2⟧
+⟦3⟧
+<h3>Regressão linear</h3>
+<p>A reta de mínimos quadrados $\hat{y} = a + bx$ tem inclinação $b = r\frac{s_y}{s_x}$ e passa por $(\bar{x}; \bar{y})$, então $a = \bar{y} - b\bar{x}$.</p>
+⟦4⟧
+⟦5⟧`,
+  '1sl57vmn5mx': R`
+<h3>Teoria dos números</h3>
+<p>$a \equiv b \pmod n$ significa que $n$ divide $a - b$; $a \bmod n$ é o resto em $\{0; 1; \ldots; n - 1\}$. Congruências podem ser somadas e multiplicadas, e potências reduzidas passo a passo.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>O <b>inverso modular</b> de $a$ módulo $n$ é o $x$ com $ax \equiv 1 \pmod n$; ele existe exatamente quando $\gcd(a, n) = 1$.</p>
+<h3>Contagem</h3>
+<ul><li>Funções de um conjunto de tamanho $m$ em um de tamanho $n$: $n^m$; injetoras: $n(n-1)\cdots(n-m+1)$.</li><li>Inclusão–exclusão: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Princípio da casa dos pombos:</b> se mais de $kn$ objetos vão para $n$ caixas, alguma caixa recebe pelo menos $k + 1$.</li></ul>
+<h3>Recorrências e grafos</h3>
+<p>Uma recorrência define cada termo a partir dos anteriores, como $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Num grafo, o <b>lema do aperto de mãos</b> diz que $\sum \deg(v) = 2|E|$; $K_n$ tem $\binom{n}{2}$ arestas; uma árvore com $n$ vértices tem $n - 1$ arestas; um grafo conexo tem um circuito euleriano se e somente se todos os graus são pares.</p>
+⟦3⟧
+⟦4⟧`,
+  '1mtvwhuo4v8': R`
+<p>Métodos numéricos aproximam respostas que não têm forma fechada conveniente. Dois tipos de erro importam: o de <b>truncamento</b> (do método) e o de <b>arredondamento</b> (da precisão finita).</p>
+⟦0⟧
+<h3>Busca de raízes</h3>
+<ul><li><b>Bisseção:</b> se $f(a)$ e $f(b)$ têm sinais opostos, teste o ponto médio $m$ e fique com a metade onde o sinal muda. Lento, mas garantido: o erro cai pela metade a cada passo.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Muito rápido perto de uma raiz simples (convergência quadrática), mas pode falhar com um mau ponto de partida ou se $f' \approx 0$.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Integração numérica</h3>
+⟦3⟧
+<p>Aqui $h = \frac{b - a}{n}$. A regra de Simpson é exata para polinômios de grau até 3.</p>
+⟦4⟧
+<h3>Método de Euler</h3>
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '12ng1nf8855': R`
+<p>Um <b>campo vetorial</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ associa um vetor a cada ponto — como a velocidade do vento ou uma força. Com $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
+⟦0⟧
+<p>O divergente mede o fluxo que sai de um ponto; o rotacional mede a rotação.</p>
+⟦1⟧
+<h3>Integrais de linha e campos conservativos</h3>
+⟦2⟧
+⟦3⟧
+<h3>Os grandes teoremas</h3>
+⟦4⟧
+<p>Uma consequência elegante do teorema de Green: a área de $D$ é $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦5⟧`,
+  'u5cfzxzcr6': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Transformadas inversas geralmente exigem primeiro frações parciais e depois a comparação com a tabela.</p>
+⟦5⟧`,
 });

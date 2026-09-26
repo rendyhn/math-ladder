@@ -1,18 +1,6 @@
 /* Bahasa Indonesia — Kuliah (aljabar linear → transformasi Laplace) */
 addT('id', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Sistem persamaan linear dan rank</h3>
-<p>Sistem $A\mathbf{x} = \mathbf{b}$ diselesaikan dengan mereduksi baris matriks lengkap $[A \mid \mathbf{b}]$ menjadi bentuk eselon. <b>Rank</b> $A$ adalah banyaknya pivot (baris tak nol dalam bentuk eselon).</p>
-⟦0⟧
-<h3>Determinan</h3>
-⟦1⟧
-<p>Sifat-sifat yang berguna untuk matriks $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Aturan Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Nilai eigen dan vektor eigen</h3>
-⟦2⟧
-⟦3⟧
-<p>Jika $A$ memiliki $n$ vektor eigen yang bebas linear, $A$ <b>dapat didiagonalkan</b>: $A = PDP^{-1}$, dengan vektor eigen sebagai kolom $P$ dan nilai eigen pada diagonal $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Teorema rank–nulitas:</b> untuk matriks $m \times n$, $\text{rank}(A) + \text{nulitas}(A) = n$. Matriks persegi $A$ dapat dibalik $\iff \det A \ne 0 \iff$ kolom-kolomnya bebas linear $\iff \text{rank} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Untuk matriks $2 \times 2$: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. Jumlah nilai eigen sama dengan trace, dan hasil kalinya sama dengan determinan.</p>`,
@@ -44,15 +32,6 @@ addT('id', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, jadi $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>Satuan imajiner memenuhi $i^2 = -1$. Bilangan kompleks ditulis $z = a + bi$ dengan bagian real $\text{Re}(z) = a$ dan bagian imajiner $\text{Im}(z) = b$. Pangkat $i$ berulang setiap empat: $i; -1; -i; 1; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Bentuk polar dan rumus Euler</h3>
-⟦2⟧
-⟦3⟧
-<p>Akar pangkat $n$ dari satu adalah $e^{2\pi ik/n}$ untuk $k = 0; 1; \ldots; n - 1$: titik-titik yang berjarak sama pada lingkaran satuan.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Perkalian`,
   '1lvuh3a6n9s': R`Sekawan`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, dan $z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('id', {
   '1xd7417ut46': R`Misalkan $z = ⟦0⟧$. Tentukan $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p><b>Variabel acak</b> $X$ memberi angka pada setiap hasil. Untuk $X$ diskret dengan peluang $p(x)$:</p>
-⟦0⟧
-⟦1⟧
-<h3>Distribusi normal</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Distribusi`,
   'z5bw2hz29r': R`P(X = k) atau densitas`,
@@ -120,17 +91,6 @@ addT('id', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ dan $\text{Var}(X) = ⟦1⟧$. Tentukan $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>Kita memakai statistik <b>sampel</b> (seperti $\bar{x}$) untuk menaksir parameter <b>populasi</b> (seperti $\mu$). Menurut <b>teorema limit pusat</b>, untuk $n$ besar rata-rata sampel kira-kira berdistribusi normal dengan rata-rata $\mu$ dan <b>galat baku</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Selang kepercayaan</h3>
-⟦0⟧
-<p>Agar batas galatnya $E$, diperlukan $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (dibulatkan ke atas). Jika $\sigma$ tidak diketahui, gunakan $s$ dan distribusi $t$.</p>
-<h3>Uji hipotesis</h3>
-<ol><li>Rumuskan $H_0$ (mis. $\mu = \mu_0$) dan $H_1$.</li><li>Hitung statistik uji, mis. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Tentukan <b>nilai-p</b>: peluang, dengan menganggap $H_0$ benar, memperoleh hasil yang paling sedikit seekstrem ini.</li><li>Jika $p \le \alpha$, tolak $H_0$; jika tidak, $H_0$ tidak ditolak.</li></ol>
-⟦1⟧
-<h3>Regresi linear</h3>
-<p>Garis kuadrat terkecil $\hat{y} = a + bx$ memiliki gradien $b = r\frac{s_y}{s_x}$ dan melalui $(\bar{x}; \bar{y})$, jadi $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\%);\; 1{,}96 \;(95\%);\; 2{,}576 \;(99\%)`,
   '7nca7j57l5': R`H₀ benar`,
   '2e0zey7f13x': R`H₀ salah`,
@@ -172,17 +132,6 @@ addT('id', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, jadi bulatkan ke atas: $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Teori bilangan</h3>
-<p>$a \equiv b \pmod n$ berarti $n$ membagi habis $a - b$; $a \bmod n$ adalah sisa pembagian dalam $\{0; 1; \ldots; n - 1\}$. Kongruensi boleh dijumlahkan dan dikalikan, dan pangkat dapat direduksi langkah demi langkah.</p>
-⟦0⟧
-⟦1⟧
-<p><b>Invers modular</b> $a$ modulo $n$ adalah $x$ dengan $ax \equiv 1 \pmod n$; invers ini ada tepat ketika $\gcd(a, n) = 1$.</p>
-<h3>Pencacahan</h3>
-<ul><li>Fungsi dari himpunan berukuran $m$ ke himpunan berukuran $n$: $n^m$; fungsi injektif: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusi–eksklusi: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Prinsip sarang merpati:</b> jika lebih dari $kn$ benda dimasukkan ke $n$ kotak, ada kotak yang berisi paling sedikit $k + 1$.</li></ul>
-<h3>Relasi rekurensi dan graf</h3>
-<p>Relasi rekurensi mendefinisikan setiap suku dari suku-suku sebelumnya, seperti $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Pada graf, <b>lema jabat tangan</b> menyatakan $\sum \deg(v) = 2|E|$; $K_n$ memiliki $\binom{n}{2}$ sisi; pohon dengan $n$ simpul memiliki $n - 1$ sisi; graf terhubung memiliki sirkuit Euler jika dan hanya jika semua derajatnya genap.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Algoritma Euclid:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, diulang sampai sisanya 0.</p><p><b>Teorema kecil Fermat:</b> jika $p$ prima dan $p \nmid a$, maka $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Jadi FPB-nya 18.</p><p>$2^{100} \bmod 7$: karena $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Dalam soal inklusi–eksklusi ("habis dibagi 3 atau 5"), irisannya adalah habis dibagi <b>KPK</b>-nya, yaitu 15.</p>`,
@@ -223,18 +172,6 @@ addT('id', {
   '27kjdpfw0sg': R`Dengan ⟦0⟧ kategori, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ orang masih bisa menghindarinya; satu orang lagi memaksa terbentuknya kelompok ⟦4⟧ orang: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Metode numerik mengaproksimasi jawaban yang tidak memiliki bentuk tertutup yang praktis. Dua jenis galat penting: galat <b>pemotongan</b> (dari metodenya) dan galat <b>pembulatan</b> (dari presisi yang terbatas).</p>
-⟦0⟧
-<h3>Mencari akar</h3>
-<ul><li><b>Bagi dua (biseksi):</b> jika $f(a)$ dan $f(b)$ berlawanan tanda, uji titik tengah $m$ dan simpan separuh yang mengalami perubahan tanda. Lambat tetapi pasti: galatnya menjadi separuh setiap langkah.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sangat cepat di dekat akar sederhana (konvergensi kuadratik), tetapi bisa gagal dengan tebakan awal yang buruk atau jika $f' \approx 0$.</li></ul>
-⟦1⟧
-<h3>Integrasi numerik</h3>
-⟦2⟧
-<p>Di sini $h = \frac{b - a}{n}$. Aturan Simpson eksak untuk polinomial berderajat paling tinggi 3.</p>
-<h3>Metode Euler</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{galat mutlak} = |x_{\text{sejati}} - x_{\text{aproks}}| \qquad \text{galat relatif} = \frac{|x_{\text{sejati}} - x_{\text{aproks}}|}{|x_{\text{sejati}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ melalui $f(x) = x^2 - 10$ dari $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — sudah tepat sampai 4 tempat desimal.</p>`,
   'vx6qz5zup7': R`\text{Trapesium: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ genap}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('id', {
   '6utp8finkn': R`$⟦0⟧$ diaproksimasi oleh ⟦1⟧. Tentukan galat relatifnya dalam persen, sampai 3 tempat desimal.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p><b>Medan vektor</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ memberikan sebuah vektor pada setiap titik — seperti kecepatan angin atau gaya. Dengan $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
-⟦0⟧
-<p>Divergensi mengukur aliran keluar dari suatu titik; curl mengukur putaran.</p>
-<h3>Integral garis dan medan konservatif</h3>
-⟦1⟧
-⟦2⟧
-<h3>Teorema-teorema besar</h3>
-⟦3⟧
-<p>Akibat menarik dari teorema Green: luas $D$ sama dengan $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ <b>konservatif</b> jika $\mathbf{F} = \nabla\varphi$ untuk suatu potensial $\varphi$. Maka $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ untuk sembarang lintasan dari $A$ ke $B$. Di bidang (daerah terhubung sederhana), $(P, Q)$ konservatif jika dan hanya jika $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, jadi medan ini konservatif dengan $\varphi = x^2y + 3y$. Dari $(0; 0)$ ke $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
@@ -293,13 +219,6 @@ addT('id', {
   '4awle3me9d': R`Integralkan $P$ terhadap $x$: $\varphi = ⟦0⟧ + g(y)$. Lalu $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ memberi $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Transformasi invers biasanya memerlukan pecahan parsial terlebih dahulu, lalu dicocokkan dengan tabel.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linearitas:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Turunan:</b> $\mathcal{L}\{y'\} = sY - y(0)$ dan $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — dengan ini persamaan diferensial berubah menjadi aljabar.</p>`,
   'ie964pskzz': R`<p>Selesaikan $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, jadi $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Dengan invers: $y = 3\cos 2t + \sin 2t$.</p>`,

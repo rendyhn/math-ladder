@@ -167,20 +167,6 @@ addT('fr', {
   '2wu7e9ekt1': R`Un rectangle de longueur l et de largeur w, un triangle de base b et de hauteur h, et un trapèze de bases parallèles a et b et de hauteur h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Notre système de numération utilise dix chiffres, de 0 à 9. Le <b>rang</b> d’un chiffre indique sa <b>valeur</b> : chaque rang vaut dix fois le rang situé à sa droite.</p>
-⟦0⟧
-<p>Dans <b>5 382 417</b>, le chiffre 8 est au rang des dizaines de mille, il vaut donc $8 \times 10\,000 = 80\,000$. Le chiffre 3 vaut $300\,000$.</p>
-<h3>Écriture décomposée</h3>
-<p>Écrire un nombre comme la somme des valeurs de ses chiffres montre ce que vaut chacun d’eux :</p>
-⟦1⟧
-<p>Le 0 au rang des dizaines <b>tient la place</b>. Sans lui, 4 307 deviendrait 437.</p>
-<h3>Comparer des nombres</h3>
-<p>Un nombre entier qui a plus de chiffres est plus grand. Si deux nombres ont autant de chiffres, on les compare chiffre par chiffre en partant de la gauche ; le premier rang où ils diffèrent décide. Ainsi $52\,814 \gt 52\,781$ car au rang des centaines $8 \gt 7$.</p>
-<h3>Arrondir</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Millions`,
   '1y40p90zlus': R`Centaines de mille`,
@@ -217,18 +203,6 @@ addT('fr', {
   '1uhrj1iztnj': R`plus petit au plus grand`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>L’addition réunit des quantités ; la soustraction calcule ce qui reste ou l’<b>écart</b> entre deux quantités. Pour les grands nombres, on pose l’opération <b>en colonnes</b> : on aligne les chiffres selon leur rang et on commence par la colonne des unités, vers la gauche.</p>
-<h3>Addition avec retenue</h3>
-<p>Quand une colonne fait 10 ou plus, on écrit le chiffre des unités et on <b>reporte une retenue</b> dans la colonne suivante.</p>
-⟦0⟧
-<h3>Soustraction avec retenue</h3>
-<p>Si le chiffre du haut est plus petit que celui du bas, on <b>emprunte</b> une dizaine à la colonne suivante : cela ajoute 10 à la colonne en cours.</p>
-⟦1⟧
-⟦2⟧
-<h3>Problèmes</h3>
-<p>Des mots comme <i>en tout, au total, de plus, augmenté</i> indiquent souvent une addition. Des mots comme <i>reste, il reste, écart, combien de plus, de moins</i> indiquent souvent une soustraction. Demandez-vous toujours ce que la question cherche vraiment.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Unités : $7 + 6 = 13$ → on écrit 3 et on retient 1.</li><li>Dizaines : $8 + 4 + 1 = 13$ → on écrit 3 et on retient 1.</li><li>Centaines : $5 + 8 + 1 = 14$ → on écrit 4 et on retient 1.</li><li>Milliers : $4 + 2 + 1 = 7$.</li></ol><p>Réponse : <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Unités : 4 est plus petit que 8. Le chiffre des dizaines est 0, on emprunte donc aux centaines : 204 devient 1 centaine, 9 dizaines et 14 unités. $14 - 8 = 6$.</li><li>Dizaines : $9 - 5 = 4$.</li><li>Centaines : 1 est plus petit que 7, on emprunte un millier : $11 - 7 = 4$.</li><li>Milliers : $5 - 1 = 4$.</li></ol><p>Réponse : <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>L’addition et la soustraction s’annulent l’une l’autre. Pour vérifier une soustraction, on additionne : $4\,446 + 1\,758 = 6\,204$ ✓. Cela permet aussi de trouver un nombre manquant : si $\square + 348 = 1\,000$, alors $\square = 1\,000 - 348 = 652$.</p>`,
@@ -253,17 +227,6 @@ addT('fr', {
   'h14zpmlfj7': R`« Combien de plus » demande l’écart : $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p>La <b>multiplication</b> est une addition répétée de groupes égaux : $4 \times 6$ signifie 4 groupes de 6, soit $6 + 6 + 6 + 6 = 24$. La <b>division</b> partage une quantité en groupes égaux : $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Multiplier de grands nombres</h3>
-<p>On décompose l’un des nombres selon ses rangs, on multiplie chaque partie et on additionne (c’est la distributivité) :</p>
-⟦1⟧
-<h3>Division et reste</h3>
-<p>Quand la division ne tombe pas juste, ce qu’il reste s’appelle le <b>reste</b>. Il est toujours plus petit que le diviseur.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>La multiplication et la division s’annulent l’une l’autre : $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>L’ordre des facteurs ne compte pas : $a \times b = b \times a$.</li><li>La multiplication est distributive sur l’addition : $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ reste } 2 \qquad \text{car } 5 \times 9 + 2 = 47`,
@@ -289,13 +252,6 @@ addT('fr', {
   '13ytah9dyhs': R`Des rangées égales, c’est une multiplication : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ chaises.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Quand un calcul comporte plusieurs opérations, tout le monde doit les effectuer dans le même ordre, sinon une même expression donnerait des résultats différents. Cet ordre s’appelle les <b>priorités opératoires</b> ; en anglais, on le retient avec le mot <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Étape`,
   '1ata9ppdhpl': R`Opération`,
   '1i56r47suu5': R`Exemple`,
@@ -321,19 +277,6 @@ addT('fr', {
   '2g7vu4g2g7r': R`L’addition et la soustraction ont la même priorité, on calcule donc de gauche à droite : $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, puis $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Calculer d’abord $⟦6⟧ + ⟦7⟧$ donnerait à tort ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Un <b>diviseur</b> d’un nombre le divise exactement. Un <b>multiple</b> d’un nombre est ce nombre multiplié par un nombre entier.</p>
-<ul><li>Diviseurs de 12 : 1, 2, 3, 4, 6, 12 (ils vont par paires : $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Multiples de 12 : 12, 24, 36, 48, …</li></ul>
-<h3>Nombres premiers et composés</h3>
-<p>Un nombre <b>premier</b> a exactement deux diviseurs : 1 et lui-même (2, 3, 5, 7, 11, 13, …). Un nombre <b>composé</b> a plus de deux diviseurs. Le nombre 1 n’est ni premier ni composé, et 2 est le seul nombre premier pair.</p>
-⟦0⟧
-<h3>Décomposition en facteurs premiers</h3>
-<p>Tout nombre entier supérieur à 1 s’écrit d’une seule façon comme produit de nombres premiers. Utilisez un arbre : décomposez jusqu’à ce que chaque branche se termine par un nombre premier.</p>
-⟦1⟧
-<h3>PGCD et PPCM</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Divisible par`,
   '1u2j0a6t91o': R`Critère`,
   '1fsfip1h2ap': R`le dernier chiffre est pair`,
@@ -366,23 +309,6 @@ addT('fr', {
 /* Français — primaire (fractions → mesures) */
 addT('fr', {
   // fractions
-  '1j59vvw5wlm': R`
-<p>Une <b>fraction</b> $\frac{a}{b}$ désigne $a$ parts sur $b$ parts égales. Le nombre du haut est le <b>numérateur</b> ; celui du bas est le <b>dénominateur</b>.</p>
-<h3>Fractions égales et fraction irréductible</h3>
-<p>Multiplier ou diviser le numérateur et le dénominateur par un même nombre donne une fraction égale : $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Pour <b>simplifier</b>, on divise les deux par leur PGCD :</p>
-⟦0⟧
-<h3>Nombres mixtes</h3>
-<p>$2\frac{1}{3}$ signifie $2 + \frac{1}{3}$. Sous forme de fraction : $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Addition et soustraction</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplication et division</h3>
-⟦3⟧
-<p>Pour diviser, on <b>garde</b> la première fraction, on <b>change</b> ÷ en × et on <b>inverse</b> la seconde fraction.</p>
-⟦4⟧
-<h3>Fraction d’une quantité</h3>
-<p>On divise par le dénominateur, puis on multiplie par le numérateur : $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>On ne peut additionner ou soustraire que des fractions de <b>même dénominateur</b>. On les réécrit avec un dénominateur commun (le PPCM des dénominateurs), puis on additionne ou soustrait les numérateurs.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>N’additionnez jamais les dénominateurs : $\frac{1}{2} + \frac{1}{3}$ vaut $\frac{5}{6}$, et non $\frac{2}{5}$.</p>`,
@@ -408,23 +334,6 @@ addT('fr', {
   '2er4a94vvmc': R`On les compare sous forme décimale (ou avec un dénominateur commun) : ⟦0⟧. La plus petite est $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Les nombres décimaux prolongent la numération à droite des unités. Chaque rang vaut un dixième du rang situé à sa gauche.</p>
-⟦0⟧
-<p>Ainsi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Comparer des décimaux</h3>
-<p>Donnez aux nombres le même nombre de chiffres après la virgule en ajoutant des zéros, puis comparez : $0{,}5 = 0{,}50 \gt 0{,}45$. Un décimal plus long n’est pas forcément plus grand !</p>
-<h3>Addition et soustraction</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplication</h3>
-<p>On multiplie comme s’il n’y avait pas de virgule, puis on compte le nombre total de chiffres après la virgule dans les facteurs : le résultat en a autant.</p>
-⟦3⟧
-<h3>Division et conversions</h3>
-<p>Multiplier par 10, 100 ou 1000 décale les chiffres de 1, 2 ou 3 rangs vers la gauche (le nombre grandit) ; diviser les décale vers la droite. Une fraction devient un décimal en divisant le numérateur par le dénominateur : $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Arrondir des décimaux</h3>
-<p>Même règle que pour les entiers : on regarde le chiffre suivant. $6{,}847$ arrondi au dixième près donne $6{,}8$ ; au centième près, $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Dixièmes`,
   '1usmp59h50n': R`Centièmes`,
   'biszmhnvcw': R`Millièmes`,
@@ -452,16 +361,6 @@ addT('fr', {
   'clxur1r60o': R`Écrivez-les tous avec trois chiffres après la virgule : ⟦0⟧. Le plus petit est <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Pour cent</b> signifie « sur 100 » : $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>Les trois questions de base</h3>
-⟦1⟧
-⟦2⟧
-<h3>Hausses, baisses et réductions</h3>
-<p>Une réduction de $20\%$ sur 80 euros fait économiser $0{,}2 \times 80 = 16$ euros ; le prix soldé est donc $80 - 16 = 64$ euros. Plus rapide : on paie $80\%$ du prix, soit $0{,}8 \times 80 = 64$.</p>
-<p>Une hausse de $p\%$ revient à multiplier par $1 + \frac{p}{100}$ ; une baisse, à multiplier par $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Fraction`,
   '21lfn42y4af': R`Décimal`,
   '1vaz29jk1go': R`Pourcentage`,
@@ -483,15 +382,6 @@ addT('fr', {
   '260avkxsjev': R`Variation : ⟦0⟧ euros. Pourcentage de baisse : ⟦1⟧ — on divise toujours par le prix <b>initial</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>Le système métrique repose sur les puissances de dix, avec des préfixes qui indiquent la taille d’une unité.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Les durées</h3>
-<p>Le temps n’est <i>pas</i> décimal : une heure compte 60 minutes, pas 100. Pour calculer une durée, avancez par étapes : de 09:35 à 13:10, il y a 25 min (jusqu’à 10:00) + 3 h (jusqu’à 13:00) + 10 min = 3 h 35 min = 215 minutes.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Préfixe`,
   '18vrcwaxvwu': R`Signification`,
   '1j1ms4p35q': R`Exemples`,
@@ -526,15 +416,6 @@ addT('fr', {
 /* Français — primaire (périmètre et aire → données) */
 addT('fr', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>Le <b>périmètre</b> est la longueur totale du contour d’une figure (en cm, m, …). L’<b>aire</b> est la mesure de la surface qu’elle occupe (en unités carrées : cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Figures composées</h3>
-<p>Découpez une figure en L ou une autre figure composée en rectangles et en triangles, puis additionnez les aires — ou partez d’un grand rectangle et soustrayez le morceau manquant.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Rectangle, triangle et trapèze — la hauteur se mesure toujours perpendiculairement à la base.`,
   '1vbb9fjurso': R`Figure`,
   '1bkcetbdzwi': R`Périmètre`,
@@ -567,15 +448,6 @@ addT('fr', {
   '4fca853um1': R`Grand rectangle moins la partie retirée : $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>Le <b>volume</b> est l’espace occupé par un solide ; il se compte en <b>unités cubes</b> (cm³, m³). Un cube de 1 cm d’arête a un volume de 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Aire totale</h3>
-<p>L’aire totale est la somme des aires de toutes les faces. Un pavé droit a trois paires de rectangles identiques :</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Pavé droit : } V = l \times w \times h \qquad\qquad \text{Cube : } V = s^3`,
   '1v18xwhq9wo': R`<p>La contenance est liée au volume : $1 \text{ cm}^3 = 1 \text{ mL}$ et $1000 \text{ cm}^3 = 1 \text{ L}$. De plus, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Un aquarium mesure 50 cm de long, 30 cm de large et 40 cm de haut.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -595,17 +467,6 @@ addT('fr', {
   '29p9f2w08h': R`On cherche $s^3 = ⟦0⟧$. Comme $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, chaque arête mesure ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Les angles mesurent une rotation, en <b>degrés</b> (°). Un tour complet vaut $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Triangles</h3>
-<p><b>Équilatéral</b> : trois côtés égaux, chaque angle vaut $60^\circ$. <b>Isocèle</b> : deux côtés égaux et deux angles à la base égaux. <b>Quelconque</b> : aucun côté égal. Un triangle <b>rectangle</b> a un angle de $90^\circ$.</p>
-<h3>Polygones</h3>
-<p>Un polygone à $n$ côtés se découpe en $n - 2$ triangles à partir d’un sommet, donc</p>
-⟦2⟧
-<p>Dans un polygone <b>régulier</b>, tous les angles sont égaux ; chacun vaut donc $\frac{(n-2) \times 180^\circ}{n}$. Un hexagone régulier a des angles de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Type`,
   '1czpi6e2j2z': R`Mesure`,
   '2eamokno2qd': R`Aigu`,
@@ -645,13 +506,6 @@ addT('fr', {
   '1m260esohws': R`Les deux angles à la base sont égaux : $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Les données sont des informations que l’on recueille, comme des notes ou des fruits préférés. Un <b>tableau d’effectifs</b> indique combien de fois apparaît chaque valeur ; les <b>diagrammes en barres</b> et les <b>pictogrammes</b> montrent la même information sous forme visuelle.</p>
-<h3>Quatre indicateurs</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Indicateur`,
   '1fy4t37t415': R`Comment le trouver`,
   '18v4e4ulshl': R`Pour 3 ; 7 ; 7 ; 8 ; 10`,
@@ -705,16 +559,6 @@ addT('fr', {
   '187npo1zduj': R`corde`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Les <b>entiers relatifs</b> sont les nombres entiers et leurs opposés : $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Sur une droite graduée, les nombres augmentent vers la droite, donc $-7 \lt -2$ même si 7 est plus grand que 2.</p>
-<p>La <b>valeur absolue</b> $|a|$ est la distance à 0 : $|-6| = 6$ et $|6| = 6$.</p>
-<h3>Addition et soustraction</h3>
-⟦0⟧
-<h3>Multiplication et division</h3>
-⟦1⟧
-⟦2⟧
-<p>Dans la vie courante : températures négatives, altitudes sous le niveau de la mer, dettes, étages en sous-sol.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Même signe :</b> on additionne les distances à zéro et on garde le signe. $-4 + (-9) = -13$.</li><li><b>Signes contraires :</b> on soustrait les distances à zéro et on prend le signe du nombre le plus éloigné de zéro. $-11 + 5 = -6$.</li><li><b>Soustraire</b>, c’est ajouter l’opposé : $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Signes`,
   '18hy4wrreq9': R`Résultat`,
@@ -738,15 +582,6 @@ addT('fr', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ et $|⟦2⟧| = ⟦3⟧$, donc la valeur est $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Une <b>puissance</b> note une multiplication répétée : $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ facteurs}}$. Dans $2^5 = 32$, 2 est la <b>base</b> et 5 est l’<b>exposant</b>.</p>
-<h3>Règles de calcul sur les puissances</h3>
-⟦0⟧
-⟦1⟧
-<h3>Racines</h3>
-<p>La racine carrée annule le carré : $\sqrt{81} = 9$ car $9^2 = 81$. La racine cubique annule le cube : $\sqrt[3]{64} = 4$ car $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Règle`,
   '2du0zx6ztd9': R`<p>Simplifier $(2x^3)(5x^4)$ : on multiplie les nombres et on additionne les exposants, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Pour simplifier une racine carrée, on fait sortir le plus grand facteur carré : $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -776,16 +611,6 @@ addT('fr', {
   'r5mpjrvznb': R`On cherche le plus grand facteur carré : $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Donc $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Les scientifiques écrivent les nombres très grands ou très petits de façon compacte sous la forme</p>
-⟦0⟧
-<ul><li>La distance Terre–Soleil, environ $150\,000\,000$ km, vaut $1{,}5 \times 10^{8}$ km.</li><li>Un globule rouge, large d’environ $0{,}000\,008$ m, mesure $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Calculer</h3>
-<p>On multiplie (ou divise) les nombres de devant et on additionne (ou soustrait) les exposants. Puis on corrige le nombre de devant s’il n’est pas compris entre 1 et 10 :</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ entier relatif}`,
   '1phwx4rhhb0': R`<p>Comptez de combien de rangs la virgule se déplace pour qu’il reste exactement un chiffre non nul devant elle. Les grands nombres (virgule vers la gauche) donnent un exposant <b>positif</b> ; les nombres inférieurs à 1 (virgule vers la droite), un exposant <b>négatif</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -807,19 +632,6 @@ addT('fr', {
   '1ujla3379au': R` Comme ⟦0⟧ est inférieur à 1, on réécrit $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Un <b>ratio</b> $a : b$ compare deux quantités. Comme les fractions, un ratio se simplifie en divisant ses deux termes par leur PGCD : $18 : 24 = 3 : 4$.</p>
-<h3>Partage proportionnel</h3>
-⟦0⟧
-<h3>Taux et valeur unitaire</h3>
-<p>Un <b>taux</b> compare des quantités d’unités différentes : km par heure, euros par kg. Trouver la valeur d’<b>une</b> unité (la valeur unitaire) résout la plupart des problèmes.</p>
-⟦1⟧
-<h3>Proportionnalité directe et inverse</h3>
-⟦2⟧
-⟦3⟧
-<h3>Échelles</h3>
-<p>Une échelle de $1 : 50\,000$ signifie que 1 cm sur la carte représente $50\,000$ cm $= 500$ m $= 0{,}5$ km en réalité.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Partager 60 bonbons dans le ratio $2 : 3$.</p><ol><li>Nombre de parts : $2 + 3 = 5$.</li><li>Une part : $60 \div 5 = 12$.</li><li>Parts : $2 \times 12 = 24$ et $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{vitesse} = \frac{\text{distance}}{\text{durée}} \qquad \text{distance} = \text{vitesse} \times \text{durée}`,
   '1lx74znbkzq': R`<ul><li><b>Directe :</b> les deux quantités augmentent ensemble, $y = kx$. Deux fois plus de cahiers coûtent deux fois plus cher.</li><li><b>Inverse :</b> l’une augmente quand l’autre diminue, $xy = k$. Deux fois plus d’ouvriers finissent en deux fois moins de temps.</li></ul>`,
@@ -858,20 +670,6 @@ addT('fr', {
 /* Français — collège (calcul littéral → fonctions affines) */
 addT('fr', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Dans l’expression $5x^2 - 3xy + 7$, les <b>termes</b> sont $5x^2$, $-3xy$ et $7$ ; les <b>coefficients</b> sont 5 et $-3$ ; 7 est le <b>terme constant</b>. Des <b>termes semblables</b> ont exactement les mêmes lettres avec les mêmes exposants ($4ab$ et $-ab$ sont semblables ; $x^2$ et $x$ ne le sont pas).</p>
-<h3>Réduire</h3>
-<p>On regroupe les termes semblables en additionnant leurs coefficients : $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Développer</h3>
-⟦0⟧
-⟦1⟧
-<h3>Identités remarquables</h3>
-⟦2⟧
-<h3>Factoriser</h3>
-<p>Factoriser, c’est développer à l’envers. On met en facteur le plus grand facteur commun : $12x - 18 = 6(2x - 3)$.</p>
-<h3>Substituer</h3>
-<p>On remplace chaque lettre par sa valeur, avec des parenthèses pour les nombres négatifs : si $x = -2$, alors $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Distributivité :</b> $a(b + c) = ab + ac$. On multiplie <i>chaque</i> terme de la parenthèse par le facteur extérieur.</p><p><b>Double distributivité :</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. On oublie facilement le terme du milieu, $2 \cdot 4 \cdot x = 8x$.</p>`,
@@ -888,17 +686,6 @@ addT('fr', {
   '2e60a5izj9m': R`Développez $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Une équation affirme que deux expressions sont égales. Pensez à une balance : ce que l’on fait d’un côté, on le fait de l’autre, et l’équilibre est conservé. Le but est d’isoler l’inconnue.</p>
-⟦0⟧
-⟦1⟧
-<h3>Parenthèses et fractions</h3>
-<p>Développez d’abord (ou divisez les deux membres par le nombre devant la parenthèse). Supprimez les fractions en multipliant chaque terme par le dénominateur commun :</p>
-⟦2⟧
-<h3>Problèmes</h3>
-<ol><li>Choisissez une lettre pour l’inconnue et dites ce qu’elle représente.</li><li>Traduisez l’énoncé en équation.</li><li>Résolvez, puis vérifiez que la réponse a du sens dans le problème.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>On défait les opérations dans l’ordre inverse grâce aux <b>opérations réciproques</b> : addition ↔ soustraction, multiplication ↔ division.</p>`,
   '11eu1q8a3p': R`<p>Résoudre $5x - 7 = 2x + 11$.</p><ol><li>Soustraire $2x$ aux deux membres : $3x - 7 = 11$.</li><li>Ajouter 7 : $3x = 18$.</li><li>Diviser par 3 : $x = 6$.</li></ol><p>Vérification : $5(6) - 7 = 23$ et $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>La somme de trois entiers consécutifs vaut 72. Notons-les $n$, $n + 1$, $n + 2$ : $3n + 3 = 72$, donc $n = 23$. Les entiers sont 23, 24 et 25.</p>`,
@@ -926,17 +713,6 @@ addT('fr', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, donc $⟦3⟧x = ⟦4⟧$ et $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Une <b>inéquation</b> compare deux expressions : $\lt$ (strictement inférieur), $\gt$ (strictement supérieur), $\le$ (inférieur ou égal), $\ge$ (supérieur ou égal). Ses solutions forment en général tout un intervalle de nombres.</p>
-<p>Sur une droite graduée, $x \gt 2$ se représente par un point <b>ouvert</b> en 2 (2 n’est pas inclus) et une flèche vers la droite ; $x \le 2$ par un point <b>plein</b> et une flèche vers la gauche.</p>
-<h3>Résoudre</h3>
-<p>On résout comme une équation — ajouter, soustraire, multiplier ou diviser les deux membres — avec une règle supplémentaire :</p>
-⟦0⟧
-<p>Pourquoi ? $2 \lt 5$, mais en multipliant par $-1$ on obtient $-2$ et $-5$, et $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Doubles inégalités</h3>
-<p>On applique la même opération aux trois parties : $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Les solutions entières sont $-1 ; 0 ; 1 ; 2 ; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Quand on <b>multiplie ou divise par un nombre négatif</b>, on change le sens de l’inégalité.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Résoudre $7 - 2x \ge 1$.</p><ol><li>Soustraire 7 : $-2x \ge -6$.</li><li>Diviser par $-2$ et changer le sens : $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>« Le plus petit entier tel que $x \gt 4$ » est 5, pas 4 — une inégalité stricte exclut sa borne.</p>`,
@@ -955,13 +731,6 @@ addT('fr', {
   'abjkjjicc6': R`chaque membre`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Un <b>ensemble</b> est une collection bien définie d’objets, ses <b>éléments</b>. On écrit $A = \{2 ; 4 ; 6 ; 8\}$ et $4 \in A$ (« 4 appartient à A »), $5 \notin A$. $n(A)$ est le nombre d’éléments ; ici $n(A) = 4$. L’<b>ensemble vide</b> $\varnothing$ n’a aucun élément ; l’<b>ensemble universel</b> $U$ contient tout ce dont on parle.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Un diagramme de Venn : chaque zone correspond à une combinaison différente de « dans A » et « dans B ».`,
   '142ifrt0jkt': R`Notation`,
   '14czndj1h0b': R`Exemple avec A = {1 ; 2 ; 3 ; 4}, B = {3 ; 4 ; 5}`,
@@ -996,17 +765,6 @@ addT('fr', {
   '9yersm2gye': R`$A = ⟦0⟧$, donc $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Une <b>fonction affine</b> a pour représentation graphique une droite. Sous la <b>forme réduite</b></p>
-⟦0⟧
-<p>$m$ est le <b>coefficient directeur</b> (la pente) : de combien $y$ varie quand $x$ augmente de 1. $c$ est l’<b>ordonnée à l’origine</b>, là où la droite coupe l’axe des $y$. En notation fonctionnelle on écrit $f(x) = mx + c$ ; $f(3)$ désigne « la valeur pour $x = 3$ ».</p>
-<h3>Coefficient directeur à partir de deux points</h3>
-⟦1⟧
-⟦2⟧
-<h3>Intersections avec les axes et autres formes</h3>
-<p>Posez $x = 0$ pour trouver l’ordonnée à l’origine et $y = 0$ pour l’intersection avec l’axe des $x$. Une droite peut s’écrire $ax + by = c$ ; on la réécrit $y = -\frac{a}{b}x + \frac{c}{b}$ pour lire le coefficient directeur. Par un point $(x_1 ; y_1)$ avec le coefficient directeur $m$ : $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{variation verticale}}{\text{variation horizontale}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Par $(1 ; 2)$ et $(4 ; 11)$ : $m = \frac{11 - 2}{4 - 1} = 3$. On remplace $(1 ; 2)$ dans $y = 3x + c$ : $2 = 3 + c$, donc $c = -1$ et la droite est $y = 3x - 1$.</p>`,
@@ -1029,18 +787,6 @@ addT('fr', {
 /* Français — collège (systèmes → solides) */
 addT('fr', {
   // systems
-  '1obgwi6un65': R`
-<p>Un <b>système</b> de deux équations du premier degré en $x$ et $y$ demande les valeurs qui rendent vraies <i>les deux</i> équations. Graphiquement, la solution est le point d’intersection des deux droites.</p>
-<h3>Substitution</h3>
-⟦0⟧
-<h3>Combinaison</h3>
-⟦1⟧
-⟦2⟧
-<h3>Cas particuliers</h3>
-<p>Des droites parallèles (même coefficient directeur, ordonnées à l’origine différentes) ne se coupent jamais : <b>pas de solution</b>. Des droites confondues donnent une <b>infinité</b> de solutions.</p>
-<h3>Problèmes</h3>
-<p>Deux inconnues demandent deux informations. « Une ferme compte 30 têtes et 84 pattes, entre poules et vaches », avec $c$ vaches et $h$ poules : $c + h = 30$ et $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>On remplace la première dans la seconde : $3x + (2x - 1) = 14$, donc $5x = 15$, $x = 3$ et $y = 2(3) - 1 = 5$. Solution : $(3 ; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>On additionne les équations pour éliminer $y$ : $7x = 21$, donc $x = 3$. Puis $2(3) + 3y = 12$ donne $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Multipliez d’abord une équation (ou les deux) pour qu’une inconnue ait des coefficients égaux (ou opposés), puis soustrayez (ou additionnez) pour l’éliminer. Vérifiez toujours la réponse dans les <b>deux</b> équations de départ.</p>`,
@@ -1061,18 +807,6 @@ addT('fr', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ et $a - b = ⟦1⟧$. En additionnant : $2a = ⟦2⟧$, donc $a = ⟦3⟧$ et $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Dans un triangle rectangle, le plus long côté, opposé à l’angle droit, est l’<b>hypoténuse</b> $c$. Les deux autres sont les <b>côtés de l’angle droit</b> $a$ et $b$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Triplets pythagoriciens</h3>
-<p>Il est utile de retenir les solutions entières et leurs multiples : $(3 ; 4 ; 5)$, $(5 ; 12 ; 13)$, $(8 ; 15 ; 17)$, $(7 ; 24 ; 25)$, ainsi que $(6 ; 8 ; 10)$, $(9 ; 12 ; 15)$, …</p>
-<h3>Distance entre deux points</h3>
-⟦3⟧
-<h3>La réciproque</h3>
-<p>Avec $c$ le plus grand côté : si $a^2 + b^2 = c^2$, le triangle est <b>rectangle</b> ; si $a^2 + b^2 \gt c^2$, il est <b>acutangle</b> ; si $a^2 + b^2 \lt c^2$, il est <b>obtusangle</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Pour trouver l’hypoténuse, on additionne les carrés ; pour un côté de l’angle droit, on soustrait : $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Une échelle de 10 m est appuyée contre un mur, son pied à 6 m du mur. Hauteur atteinte : $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Avec des côtés 3 et 4, l’hypoténuse mesure 5, pas 7.</p>`,
@@ -1094,17 +828,6 @@ addT('fr', {
   '5pal2wak00': R`On compare avec le plus grand côté, ⟦0⟧ : $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ et $⟦4⟧^2 = ⟦5⟧$. Comme $⟦6⟧ ⟦7⟧ ⟦8⟧$, le triangle est <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>Le rapport entre le périmètre d’un cercle et son diamètre est toujours le même nombre, $\pi \approx 3{,}14159\ldots$ (souvent arrondi à $3{,}14$ ou $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Arcs et secteurs</h3>
-<p>Un secteur d’angle au centre $\theta$ représente la fraction $\frac{\theta}{360^\circ}$ du disque entier :</p>
-⟦3⟧
-<h3>Angles dans un cercle</h3>
-<ul><li>L’angle au centre est le <b>double</b> de l’angle inscrit qui intercepte le même arc.</li><li>Un angle inscrit dans un demi-cercle mesure $90^\circ$.</li><li>La tangente est perpendiculaire au rayon au point de contact.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Les éléments d’un cercle. Le diamètre est le double du rayon : d = 2r.`,
   '1y041ovnv67': R`<p>Rayon 5 cm : $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm et $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Laisser la réponse « en fonction de $\pi$ » la garde exacte.</p>`,
   '1ljhd2tb7ca': R`\text{longueur de l’arc} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{aire du secteur} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -1132,13 +855,6 @@ addT('fr', {
   'kfe0atvapi': R`L’angle inscrit est la moitié de l’angle au centre : $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p>Un <b>prisme</b> a la même section sur toute sa longueur : son volume est simplement l’aire de cette section multipliée par sa longueur. Une pyramide ou un cône qui s’y inscrit a exactement le tiers de ce volume.</p>
-⟦0⟧
-<p>Pour un cône, $s$ est la <b>génératrice</b> ; d’après Pythagore, $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Solide`,
   'alc1a0j1b0': R`Volume`,
   'bt7ak3o2ct': R`Aire totale`,
@@ -1177,16 +893,6 @@ addT('fr', {
 /* Français — Collège (statistiques → similitude) */
 addT('fr', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Un <b>indicateur de position</b> résume une série de données par une valeur typique ; un <b>indicateur de dispersion</b> dit à quel point les valeurs sont étalées.</p>
-⟦0⟧
-<h3>Moyenne à partir d’un tableau d’effectifs</h3>
-⟦1⟧
-⟦2⟧
-<h3>Raisonner à l’envers</h3>
-⟦3⟧
-<p>Avec un nombre pair de valeurs, la médiane est la moyenne des deux valeurs centrales.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`À privilégier quand…`,
   'j0p0vvrwxf': R`les données n’ont pas de valeurs extrêmes (aberrantes)`,
   '2ajydntyvld': R`les données sont asymétriques ou ont des valeurs aberrantes — p. ex. prix des logements`,
@@ -1212,16 +918,6 @@ addT('fr', {
   '22iugjzjcbh': R`Le mode est la valeur de plus grand effectif. ⟦0⟧ a un effectif de ⟦1⟧, le plus grand.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Une <b>expérience aléatoire</b> (lancer un dé, tirer une carte) a des <b>issues</b> possibles. L’ensemble de toutes les issues est l’<b>univers</b> $S$ ; un <b>événement</b> $E$ est un ensemble d’issues. Quand toutes les issues sont équiprobables :</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Deux dés</h3>
-<p>Lancer deux dés donne $6 \times 6 = 36$ issues équiprobables. Une somme de 7 s’obtient de 6 façons — (1 ; 6), (2 ; 5), (3 ; 4), (4 ; 3), (5 ; 2), (6 ; 1) — donc $P(\text{somme} = 7) = \frac{6}{36} = \frac{1}{6}$. En général, le nombre de façons d’obtenir une somme $s$ est $6 - |s - 7|$.</p>
-<h3>Un jeu de cartes</h3>
-<p>52 cartes : 4 couleurs (♠ ♣ noires, ♥ ♦ rouges) de 13 valeurs (A, 2–10, V, D, R). Il y a 12 figures (V, D, R).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$ : 0 signifie impossible, 1 signifie certain.</li><li><b>Événement contraire :</b> $P(\text{non } E) = 1 - P(E)$.</li><li><b>Effectif attendu</b> sur $n$ essais $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Un sac contient 3 billes rouges, 5 bleues et 2 vertes. $P(\text{bleue}) = \frac{5}{10} = \frac{1}{2}$ et $P(\text{non verte}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>La fréquence observée (issue d’essais réels) se rapproche de la probabilité théorique quand le nombre d’essais augmente — mais elle lui est rarement égale.</p>`,
@@ -1273,19 +969,6 @@ addT('fr', {
   '23r35ol6pkt': R`Il y a ⟦0⟧ parmi les 52 cartes : $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Les questions d’argent de la vie courante sont souvent des questions de pourcentages déguisées.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Remise et taxe</h3>
-<p>Appliquez les pourcentages l’un après l’autre : une remise de 20 % puis une taxe de 10 % sur 150 euros donnent $150 \times 0{,}8 \times 1{,}1 = 132$ euros.</p>
-<h3>Intérêts simples</h3>
-⟦3⟧
-<p>1 500 euros placés à 6 % par an pendant 3 ans rapportent $1\,500 \times 0{,}06 \times 3 = 270$ euros ; le total atteint 1 770 euros. Pour une durée en mois, prenez $t = \frac{\text{mois}}{12}$.</p>
-<h3>Poids brut, tare et poids net</h3>
-<p><b>Brut</b> = poids total ; <b>tare</b> = poids de l’emballage ; <b>net</b> = brut − tare. Un sac de 50 kg avec une tare de 2 % a un poids net de $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Terme`,
   '1mb9fntmked': R`Prix d’achat (PA)`,
   '12bh5c74j0l': R`ce que le vendeur a payé`,
@@ -1318,17 +1001,6 @@ addT('fr', {
   'g36e4lpvm4': R`$\text{PV} = \text{PA} \times ⟦0⟧$, donc $\text{PA} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ euros. (Retirer ⟦4⟧ % du prix de vente serait une erreur.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Une <b>suite</b> est une liste ordonnée de nombres appelés <b>termes</b>. Trouver la règle permet de prolonger la suite ou d’aller directement à n’importe quel terme.</p>
-<h3>Suites arithmétiques</h3>
-<p>On ajoute chaque fois le même nombre $d$ (la <b>raison</b>) : 5 ; 8 ; 11 ; 14 ; … a pour raison $d = 3$.</p>
-⟦0⟧
-<h3>Suites géométriques</h3>
-<p>Chaque terme est multiplié par la même <b>raison</b> $r$ : 3 ; 6 ; 12 ; 24 ; … ($r = 2$) ; 80 ; 40 ; 20 ; … ($r = \frac{1}{2}$).</p>
-<h3>Suites particulières</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>où $a$ est le premier terme. Pour 5 ; 8 ; 11 ; … : $u_n = 5 + 3(n - 1) = 3n + 2$, donc $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nom`,
   'mwgm16sn11': R`Termes`,
@@ -1355,14 +1027,6 @@ addT('fr', {
   'o3oiu9pprw': R`Les termes sont ⟦0⟧. Le 7ᵉ terme est ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Une <b>transformation</b> déplace une figure ou change sa taille. Par une translation, une symétrie ou une rotation, l’image est <b>superposable</b> (même forme, même taille) ; par une homothétie, elle est <b>semblable</b> (même forme, taille différente).</p>
-⟦0⟧
-<h3>Figures semblables</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformation`,
   'jmpbrf5c1s': R`Règle pour un point (x ; y)`,
   '2b0j70wot2h': R`Translation de vecteur $\binom{a}{b}$`,
@@ -1406,20 +1070,6 @@ addT('fr', {
   '2gdno2vs4iz': R`Écrivez une réponse comme 9pi ou 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Une <b>équation du second degré</b> est de la forme $ax^2 + bx + c = 0$ avec $a \ne 0$. Elle a au plus deux solutions (racines).</p>
-<h3>1. Factorisation</h3>
-<p>Un produit est nul si et seulement si l’un de ses facteurs est nul. Cherchez deux nombres dont le produit vaut $c$ et la somme vaut $b$ (quand $a = 1$) :</p>
-⟦0⟧
-<h3>2. Forme canonique</h3>
-⟦1⟧
-<h3>3. La formule du discriminant</h3>
-⟦2⟧
-<h3>Somme et produit des racines (Viète)</h3>
-⟦3⟧
-<p>Ainsi, une équation de racines $r$ et $s$ est $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ ou } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>Le <b>discriminant</b> $D = b^2 - 4ac$ indique combien il y a de racines réelles :</p><ul><li>$D \gt 0$ : deux racines réelles distinctes</li><li>$D = 0$ : une racine réelle double</li><li>$D \lt 0$ : aucune racine réelle (deux racines complexes)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$ : $D = 49 - 24 = 25$, donc $x = \frac{7 \pm 5}{4}$, soit $x = 3$ ou $x = \frac{1}{2}$. Vérification : somme $= \frac{7}{2}$ ✓, produit $= \frac{3}{2}$ ✓.</p>`,
@@ -1447,14 +1097,6 @@ addT('fr', {
   '27ssy7fe6w9': R`Soit $w$ la largeur : $w(w + ⟦0⟧) = ⟦1⟧$, donc $⟦2⟧ = 0$, c’est-à-dire $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Une largeur est positive, donc $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>La courbe de $f(x) = ax^2 + bx + c$ est une <b>parabole</b>. Elle est tournée <b>vers le haut</b> si $a \gt 0$ (une vallée, avec un minimum) et <b>vers le bas</b> si $a \lt 0$ (une colline, avec un maximum).</p>
-⟦0⟧
-<h3>Forme canonique</h3>
-⟦1⟧
-<p>La mise sous forme canonique transforme la forme développée : $x^2 - 6x + 11 = (x - 3)^2 + 2$, donc le sommet est $(3 ; 2)$ et le minimum vaut 2. L’ensemble des images est $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Axe de symétrie et sommet : $x = -\dfrac{b}{2a}$ ; le sommet est $\left(-\dfrac{b}{2a} ;\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Intersection avec l’axe des $y$ : $(0 ; c)$.</li><li>Intersections avec l’axe des $x$ : les racines de $ax^2 + bx + c = 0$ (s’il y en a).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{sommet } (h ; k)`,
   '17der0pee5r': R`<p>La hauteur d’un ballon est $h(t) = -5t^2 + 20t + 1$ mètres. Le sommet est en $t = -\frac{20}{2(-5)} = 2$ s, et la hauteur maximale est $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -1478,18 +1120,6 @@ addT('fr', {
   'xs3xxut6a6': R`Le sommet est $⟦0⟧$ et la parabole est tournée vers le bas, donc l’ensemble des images est $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Une <b>fonction</b> associe à chaque antécédent exactement <b>une</b> image. L’ensemble des valeurs autorisées est l’<b>ensemble de définition</b> ; l’ensemble des images est l’<b>ensemble image</b>.</p>
-<h3>Ensembles de définition naturels</h3>
-<ul><li>Pas de division par zéro : pour $\frac{1}{x - 2}$, il faut $x \ne 2$.</li><li>Pas de racine carrée d’un négatif : pour $\sqrt{x + 3}$, il faut $x \ge -3$.</li><li>Un logarithme exige un argument positif : pour $\log(x - 1)$, il faut $x \gt 1$.</li></ul>
-<h3>Composition</h3>
-⟦0⟧
-⟦1⟧
-<h3>Fonctions réciproques</h3>
-<p>$f^{-1}$ défait ce que fait $f$ : si $f(a) = b$, alors $f^{-1}(b) = a$. Pour la trouver, écrivez $y = f(x)$, échangez $x$ et $y$, puis exprimez $y$.</p>
-⟦2⟧
-<p>La courbe de $f^{-1}$ est la symétrique de celle de $f$ par rapport à la droite $y = x$. Seules les fonctions injectives ont une réciproque.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>On applique d’abord $g$, puis $f$. En général, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Alors $f(g(3)) = f(9) = 19$, mais $g(f(3)) = g(7) = 49$. En expressions : $f(g(x)) = 2x^2 + 1$ et $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$ : on échange pour obtenir $x = 3y - 5$, donc $y = \frac{x + 5}{3}$ et $f^{-1}(x) = \frac{x + 5}{3}$. Vérification : $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -1513,16 +1143,6 @@ addT('fr', {
   'ranlsqjvf9': R`Comme $⟦0⟧ \ge ⟦1⟧$, on utilise la seconde expression : $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Les exposants rationnels combinent puissances et racines : $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Ainsi, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ et $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logarithmes</h3>
-⟦0⟧
-⟦1⟧
-<h3>Résolution d’équations</h3>
-<ul><li>Même base : $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Équation logarithmique : $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases différentes : on prend le logarithme des deux membres, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Croissance et décroissance exponentielles</h3>
-<p>$A = A_0 \cdot r^{t/T}$ : une quantité multipliée par $r$ toutes les $T$ unités de temps. Intérêts composés : $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0 ;\; b \ne 1 ;\; a \gt 0)$$<p>Un logarithme répond à la question « à quelle puissance faut-il élever $b$ pour obtenir $a$ ? » — ainsi $\log_2 32 = 5$. $\log x$ désigne $\log_{10} x$ ; $\ln x$ désigne $\log_e x$, avec $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`changement de base`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. La règle du produit transforme un <i>produit</i> à l’intérieur en une somme à l’extérieur.</p>`,
@@ -1549,17 +1169,6 @@ addT('fr', {
 /* Français — Lycée (suites → résolution de triangles) */
 addT('fr', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Ici $a$ est le premier terme et $l$ le dernier.</p>
-⟦1⟧
-⟦2⟧
-<h3>Séries géométriques infinies</h3>
-⟦3⟧
-<p>Exemple : $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Notation sigma</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ signifie $f(1) + f(2) + \cdots + f(n)$. À retenir : $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ et $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Arithmétique`,
   '1atqzl7ltey': R`Géométrique`,
   'zs186mkwh5': R`on ajoute $d$ à chaque fois`,
@@ -1581,18 +1190,6 @@ addT('fr', {
   '222tg0c1ffy': R`C’est une série arithmétique : $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ euros.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>Dans un triangle rectangle, pour un angle aigu $\theta$ :</p>
-⟦0⟧
-<p>Moyen mnémotechnique : <b>SOH-CAH-TOA</b> (Sinus = Opposé/Hypoténuse, Cosinus = Adjacent/Hypoténuse, Tangente = Opposé/Adjacent). De plus, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, et les inverses sont $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Valeurs remarquables</h3>
-⟦1⟧
-<h3>Radians</h3>
-<p>$180^\circ = \pi$ radians. Pour passer des degrés aux radians, on multiplie par $\frac{\pi}{180}$ ; des radians aux degrés, par $\frac{180}{\pi}$. Ainsi $60^\circ = \frac{\pi}{3}$ et $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>Le cercle trigonométrique</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{opposé}}{\text{hypoténuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypoténuse}} \qquad \tan\theta = \frac{\text{opposé}}{\text{adjacent}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -1629,15 +1226,6 @@ addT('fr', {
   '1856p6n9vrk': R`Le sinus est positif dans I et II ; le cosinus dans I et IV ; la tangente dans I et III. Seul le <b>⟦0⟧</b> vérifie les deux conditions.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p>Une <b>identité</b> est vraie pour tout angle. Les plus importantes :</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Résoudre des équations trigonométriques</h3>
-<p>Trouvez l’angle de référence, puis tous les angles de l’intervalle demandé ayant le bon signe.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Identités de Pythagore`,
   '28msif6x03y': R`Formules d’addition`,
   '1qlqqnnfd2i': R`Formules de duplication`,
@@ -1659,13 +1247,6 @@ addT('fr', {
   '19cq8bi37ib': R`Le triangle a pour côtés ⟦0⟧, ⟦1⟧ et ⟦2⟧. Dans le quadrant ⟦3⟧, le sinus est ⟦4⟧ et le cosinus est ⟦5⟧, donc $\sin\theta = ⟦6⟧$ et $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Nommez un triangle de sorte que le côté $a$ soit opposé à l’angle $A$, $b$ opposé à $B$ et $c$ opposé à $C$. Ces règles valent pour <b>tout</b> triangle, pas seulement pour les triangles rectangles.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>À utiliser quand on connaît un côté et l’angle opposé, plus un autre côté ou un autre angle.</p>`,
   'mp16igkhf3': R`Loi des sinus`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>À utiliser avec deux côtés et l’angle compris entre eux, ou avec les trois côtés.</p>`,
@@ -1689,16 +1270,6 @@ addT('fr', {
 /* Français — Lycée (polynômes → intégrales) */
 addT('fr', {
   // polynomials
-  '1dv82xempy': R`
-<p>Un <b>polynôme</b> est une somme de termes $a_n x^n + \cdots + a_1 x + a_0$ avec des exposants entiers naturels. Son <b>degré</b> est le plus grand exposant ; $a_n$ est le <b>coefficient dominant</b>. Quand on multiplie des polynômes, les degrés s’additionnent et les coefficients dominants se multiplient.</p>
-<h3>Division</h3>
-<p>Diviser $P(x)$ par $(x - a)$ donne un quotient $Q(x)$ et un reste $R$ : $P(x) = (x - a)Q(x) + R$. La <b>méthode de Horner</b> permet de le faire rapidement avec les seuls coefficients.</p>
-⟦0⟧
-⟦1⟧
-<h3>Racines d’un polynôme de degré 3</h3>
-<p>Pour $ax^3 + bx^2 + cx + d = 0$ de racines $r_1, r_2, r_3$ :</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ par la méthode de Horner :</p>⟦0⟧<p>Quotient $x^2 - 2x - 3$, reste 0.</p>`,
   'agfsjitvd': R`<p><b>Théorème du reste :</b> le reste de la division de $P(x)$ par $(x - a)$ est $P(a)$.</p><p><b>Théorème du facteur :</b> $(x - a)$ divise $P(x)$ si et seulement si $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Diviser par $(x + 3)$ signifie $a = -3$ : calculez $P(-3)$, et non $P(3)$.</p>`,
@@ -1719,16 +1290,6 @@ addT('fr', {
   '1uusi8yg5sk': R`Le terme constant est le produit des termes constants : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p>Une <b>matrice</b> est un tableau rectangulaire de nombres. Une matrice $m \times n$ a $m$ lignes et $n$ colonnes ; $a_{ij}$ est le coefficient de la ligne $i$, colonne $j$.</p>
-<h3>Opérations</h3>
-<ul><li><b>Addition/soustraction</b> coefficient par coefficient (même taille uniquement).</li><li><b>Multiplication par un scalaire</b> : on multiplie chaque coefficient.</li><li><b>Produit</b> $AB$ : le coefficient $(i, j)$ est la ligne $i$ de $A$ « fois » la colonne $j$ de $B$. Il faut (colonnes de $A$) = (lignes de $B$), et une $m \times n$ fois une $n \times p$ donne une $m \times p$.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Déterminant et inverse (2 × 2)</h3>
-⟦2⟧
-<p>Si $\det A = 0$, la matrice n’est <b>pas inversible</b>. Les inverses permettent de résoudre des systèmes : $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>Le produit matriciel n’est <b>pas commutatif</b> : en général $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Pour l’inverse : <b>échangez</b> $a$ et $d$, <b>changez le signe</b> de $b$ et $c$, puis divisez par le déterminant.</p>`,
   '1h6gnxjh2g6': R`Calculez le déterminant de $⟦0⟧$.`,
@@ -1745,12 +1306,6 @@ addT('fr', {
   'xdj657lej': R`Ligne ⟦0⟧ de $A$ fois colonne ⟦1⟧ de $B$ : $⟦2⟧ = ⟦3⟧$. (Une matrice $2 \times 3$ fois une $3 \times 2$ donne une $2 \times 2$.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p>Un <b>vecteur</b> a une norme et une direction. En coordonnées, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Le vecteur de $P$ à $Q$ est $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Norme`,
   '1czax49eh4c': R`Addition`,
   'q2ntocofkn': R`on additionne les coordonnées`,
@@ -1774,18 +1329,6 @@ addT('fr', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. On divise chaque coordonnée par ⟦1⟧ : $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ signifie que $f(x)$ devient aussi proche qu’on veut de $L$ quand $x$ tend vers $a$ — quoi qu’il se passe exactement en $x = a$.</p>
-<h3>Méthodes</h3>
-<ol><li><b>Substitution directe</b> : elle marche pour les polynômes et les autres fonctions continues : $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factoriser et simplifier</b> face à $\frac{0}{0}$ : $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Utiliser la quantité conjuguée</b> pour les expressions avec racines.</li></ol>
-⟦0⟧
-<h3>Limites en l’infini</h3>
-⟦1⟧
-<h3>Une limite trigonométrique remarquable</h3>
-⟦2⟧
-<h3>Continuité</h3>
-<p>$f$ est continue en $a$ si $\lim_{x \to a} f(x) = f(a)$ : ni trou, ni saut, ni asymptote en ce point. Pour une fonction définie par morceaux, les deux morceaux doivent se raccorder.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Pour une fonction rationnelle, divisez le numérateur et le dénominateur par la plus grande puissance de $x$ du dénominateur :</p><ul><li>même degré → quotient des coefficients dominants ;</li><li>numérateur de degré inférieur → 0 ;</li><li>numérateur de degré supérieur → pas de limite finie ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ ne vaut ni « 0 » ni « non défini » : c’est une forme indéterminée qui demande plus de travail (factoriser, quantité conjuguée).</p>`,
   '18znpgymeuk': R`Calculez $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -1803,18 +1346,6 @@ addT('fr', {
   '1l84k7ifkz6': R`Les morceaux doivent se raccorder en $x = ⟦0⟧$ : $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, donc $⟦5⟧ + k = ⟦6⟧$ et $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p>La <b>dérivée</b> $f'(x)$ est le taux de variation instantané de $f$ — la pente de la tangente en $x$. Elle est définie par une limite :</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Tangentes</h3>
-<p>En $x = a$, la tangente a pour pente $m = f'(a)$ et passe par $(a ; f(a))$ : $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Points critiques</h3>
-<p>Là où $f'(x) = 0$, la courbe est momentanément horizontale. Utilisez la dérivée seconde : $f''(a) \gt 0$ → minimum local ; $f''(a) \lt 0$ → maximum local. $f$ est croissante là où $f' \gt 0$ et décroissante là où $f' \lt 0$.</p>
-<h3>Optimisation</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Règles`,
   '21wooetnwi8': R`<p>100 m de clôture entourent un rectangle le long d’une rivière (pas de clôture côté rivière). Avec les côtés $x, y, x$ : $2x + y = 100$, aire $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ donne $x = 25$, donc $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>La dérivée d’une constante est 0 — ne gardez pas le terme constant dans $f'(x)$.</p>`,
@@ -1841,17 +1372,6 @@ addT('fr', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, donc $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>L’intégration est l’opération inverse de la dérivation. Une <b>primitive</b> de $f$ est une fonction $F$ telle que $F' = f$ ; l’<b>intégrale indéfinie</b> comprend la constante d’intégration :</p>
-⟦0⟧
-⟦1⟧
-<h3>Intégrales définies</h3>
-⟦2⟧
-<p>Si $f \ge 0$, c’est l’aire sous la courbe entre $x = a$ et $x = b$. L’aire sous l’axe des $x$ compte négativement : coupez l’intégrale aux racines pour obtenir l’aire totale.</p>
-⟦3⟧
-<h3>Retrouver une fonction à partir de sa dérivée</h3>
-<p>Si $f'(x) = 6x + 2$ et $f(1) = 10$, alors $f(x) = 3x^2 + 2x + C$ et $3 + 2 + C = 10$ donne $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Vérifiez en dérivant.</p>`,
   '1jsx5j8bwuv': R`Théorème fondamental de l’analyse`,
   'k8jg70602j': R`<p>Aire entre $y = x^2$ et $y = 2x$ : elles se coupent en $x = 0$ et $x = 2$, et $2x \ge x^2$ entre les deux, donc $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
@@ -1881,19 +1401,6 @@ addT('fr', {
 /* Français — Lycée (dénombrement → logique) */
 addT('fr', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Arrangements : l’ordre compte</h3>
-⟦1⟧
-<p>Premier, deuxième et troisième prix parmi 10 personnes : $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Anagrammes avec lettres répétées : $\frac{n!}{p!\,q!\cdots}$. « BANANA » a $\frac{6!}{3!\,2!} = 60$ anagrammes.</li><li>Autour d’une table ronde : $(n - 1)!$ (les rotations comptent comme identiques).</li></ul>
-<h3>Combinaisons : l’ordre ne compte pas</h3>
-⟦2⟧
-<p>Un comité de 3 personnes parmi 10 : $\binom{10}{3} = 120$. Un comité de 2 hommes (parmi 5) et 3 femmes (parmi 6) : $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Formule du binôme</h3>
-⟦3⟧
-<p>Le coefficient de $x^2$ dans $(x + 3)^5$ est $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Principe multiplicatif :</b> si un premier choix peut se faire de $m$ façons et un second de $n$ façons, les deux ensemble peuvent se faire de $m \times n$ façons.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -1922,16 +1429,6 @@ addT('fr', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ facteurs) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Avec et sans remise</h3>
-⟦1⟧
-<p>Les arbres de probabilité organisent ces calculs : on multiplie le long des branches et on additionne entre les branches.</p>
-<h3>« Au moins un »</h3>
-<p>On passe par l’événement contraire : $P(\text{au moins un six en 3 lancers}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Formule de Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Formule`,
   '29i7n2pf82k': R`Événement contraire`,
   '1q1cgu220ce': R`Incompatibles`,
@@ -1969,18 +1466,6 @@ addT('fr', {
   '29cd8gay3w4': R`Avec remise, les tirages sont indépendants : $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Quartiles et diagrammes en boîte</h3>
-<p>Rangez les données. La médiane $Q_2$ les partage en deux ; $Q_1$ est la médiane de la moitié inférieure et $Q_3$ celle de la moitié supérieure (ici, on exclut la médiane des deux moitiés quand $n$ est impair). L’<b>écart interquartile</b> $\text{EI} = Q_3 - Q_1$ mesure la dispersion des 50 % centraux.</p>
-⟦0⟧
-<h3>Variance et écart type</h3>
-⟦1⟧
-⟦2⟧
-<h3>Données groupées</h3>
-<p>On estime la moyenne avec les centres des classes : $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformer les données</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Une règle courante pour les valeurs aberrantes : les valeurs inférieures à $Q_1 - 1{,}5\,\text{EI}$ ou supérieures à $Q_3 + 1{,}5\,\text{EI}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (échantillon)}`,
   '1c6crwakkdh': R`<p>Données 2 ; 4 ; 4 ; 4 ; 5 ; 5 ; 7 ; 9 : moyenne 5, écarts au carré 9 ; 1 ; 1 ; 1 ; 0 ; 0 ; 4 ; 16 (somme 32). Variance de la population $= \frac{32}{8} = 4$ et $\sigma = 2$.</p>`,
@@ -2011,19 +1496,6 @@ addT('fr', {
   '111p9ug7ykx': R`Borne inférieure $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Équation d’un cercle</h3>
-⟦1⟧
-<p>En développant, on obtient la <b>forme développée</b> $x^2 + y^2 + Dx + Ey + F = 0$, de centre $\left(-\frac{D}{2} ; -\frac{E}{2}\right)$ et de rayon $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Position d’un point</h3>
-<p>Remplacez le point dans $(x - a)^2 + (y - b)^2$ et comparez à $r^2$ : plus petit → à l’intérieur, égal → sur le cercle, plus grand → à l’extérieur.</p>
-<h3>Tangentes</h3>
-<p>Une tangente est perpendiculaire au rayon au point de contact. Pour le cercle $x^2 + y^2 = r^2$ en $(x_1 ; y_1)$, le rayon a pour pente $\frac{y_1}{x_1}$, donc la tangente a pour pente $-\frac{x_1}{y_1}$.</p>
-<h3>Paraboles</h3>
-<p>$y^2 = 4px$ a pour foyer $(p ; 0)$ et pour directrice $x = -p$ ; $x^2 = 4py$ a pour foyer $(0 ; p)$ et pour directrice $y = -p$. Tout point d’une parabole est à la même distance du foyer que de la directrice.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Milieu } \left(\frac{x_1 + x_2}{2} ; \frac{y_1 + y_2}{2}\right) \qquad \text{Distance } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centre } (a ; b), \text{ rayon } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$ : on fait apparaître les carrés, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centre $(3 ; -2)$, rayon 5.</p>`,
@@ -2052,13 +1524,6 @@ addT('fr', {
   '1huwumypuyf': R`Le rayon vers $⟦0⟧$ a pour pente $\frac{⟦1⟧}{⟦2⟧}$. La tangente lui est perpendiculaire : pente $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p>La <b>programmation linéaire</b> cherche la meilleure valeur (la plus grande ou la plus petite) d’une <b>fonction objectif</b> linéaire, comme le bénéfice $z = 30x + 20y$, sous des <b>contraintes</b> linéaires comme $x + y \le 40$.</p>
-<ol><li>Écrivez les contraintes sous forme d’inéquations (avec $x \ge 0$, $y \ge 0$).</li><li>Tracez chaque droite frontière et hachurez la région qui vérifie toutes les contraintes — le <b>domaine réalisable</b>.</li><li>Trouvez les sommets en résolvant des couples d’équations frontières.</li><li>Évaluez la fonction objectif en chaque sommet.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Pour les problèmes de minimisation avec des contraintes « ≥ », le domaine est souvent non borné ; avec des coûts positifs, le minimum est encore atteint en un sommet.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Théorème des sommets :</b> si un optimum existe, il est atteint en un sommet du domaine réalisable.</p>`,
   '1g8qhbmqb9w': R`<p>Maximisez $z = 3x + 2y$ sous les contraintes $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Sommets : $(0 ; 0)$, $(6 ; 0)$, $(4 ; 4)$ [où $x + y = 8$ coupe $2x + y = 12$], $(0 ; 8)$.</p><p>Valeurs de $z$ : 0 ; 18 ; 20 ; 16. Maximum $z = 20$ en $(4 ; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Vérifiez que chaque sommet satisfait <b>toutes</b> les contraintes — l’intersection de deux droites frontières peut être hors du domaine.</p>`,
@@ -2072,17 +1537,6 @@ addT('fr', {
   '296rrmt4h4q': R`Contraintes : $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Sommets : ⟦3⟧. Bénéfice maximal : <b>⟦4⟧</b> euros.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Une <b>proposition</b> est un énoncé qui est soit vrai, soit faux. On construit des propositions composées avec des <b>connecteurs</b> :</p>
-⟦0⟧
-⟦1⟧
-<h3>Implications associées</h3>
-⟦2⟧
-<h3>Quantificateurs</h3>
-<p>$\forall$ « pour tout » et $\exists$ « il existe ». La négation les échange : la négation de « Tous les élèves ont réussi » est « <b>Certains</b> élèves <b>n’ont pas</b> réussi » ; la négation de « Certains oiseaux ne volent pas » est « Tous les oiseaux volent ».</p>
-<h3>Raisonnements valides</h3>
-<ul><li><b>Modus ponens :</b> $p \Rightarrow q$, $p$ ; donc $q$.</li><li><b>Modus tollens :</b> $p \Rightarrow q$, $\neg q$ ; donc $\neg p$.</li><li><b>Syllogisme :</b> $p \Rightarrow q$, $q \Rightarrow r$ ; donc $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`VF`,
   '1h0id2d836q': R`<p>Une implication $p \Rightarrow q$ est fausse <b>uniquement</b> quand $p$ est vraie et $q$ est fausse.</p>`,
   '2aojok6ubm7': R`Forme`,
@@ -2185,15 +1639,6 @@ addT('fr', {
 /* Français — Université (techniques de dérivation → équations différentielles) */
 addT('fr', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dérivation implicite</h3>
-<p>Quand $y$ est défini implicitement, dérive les deux membres par rapport à $x$ en traitant $y$ comme une fonction de $x$ (donc $\frac{d}{dx}y^2 = 2y\,y'$), puis isole $y'$.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Produit`,
   '1fd6nxjb0xt': R`Quotient`,
   '21u0n9yxqot': R`Composition`,
@@ -2220,20 +1665,6 @@ addT('fr', {
   '20aqqhk2mtp': R`Dérivée d'un produit : $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Donc $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Règle de L'Hôpital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (appliquée deux fois).</p>
-<h3>Optimisation</h3>
-<ol><li>Écris la grandeur à optimiser comme fonction d'une seule variable (utilise la contrainte).</li><li>Dérive et résous $f'(x) = 0$.</li><li>Vérifie qu'il s'agit d'un maximum/minimum (dérivée seconde ou bornes).</li></ol>
-⟦1⟧
-<h3>Taux liés</h3>
-<p>Dérive une relation par rapport au temps. Pour un disque qui grandit, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Approximation affine</h3>
-⟦2⟧
-<h3>Convexité et théorème des accroissements finis</h3>
-<p>$f'' \gt 0$ : convexe ; $f'' \lt 0$ : concave ; un <b>point d'inflexion</b> est un point où la convexité change. <b>TAF :</b> si $f$ est continue sur $[a ; b]$ et dérivable à l'intérieur, il existe $c$ dans $]a ; b[$ tel que $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Si $\lim \frac{f(x)}{g(x)}$ est de la forme $\frac{0}{0}$ ou $\frac{\infty}{\infty}$, alors $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (quand le membre de droite existe).</p>`,
   '189x52ko5mw': R`<p>On découpe des carrés de côté $x$ aux coins d'une feuille carrée de 18 cm, puis on replie les bords. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ donne $x = 3$, donc $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{p. ex. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -2258,19 +1689,6 @@ addT('fr', {
   '1c5ltuvzsrq': R`Pente moyenne $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ donne $c = ⟦7⟧$ : le milieu, comme toujours pour une fonction du second degré.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Changement de variable</h3>
-<p>Cherche une fonction et sa dérivée. Avec $u = g(x)$, $du = g'(x)\,dx$ :</p>
-⟦0⟧
-<p>Pour une intégrale définie, change aussi les bornes (ou reviens à $x$ avant d'évaluer).</p>
-<h3>Intégration par parties</h3>
-⟦1⟧
-⟦2⟧
-<h3>Décomposition en éléments simples</h3>
-<p>Décompose une fonction rationnelle en morceaux plus simples : $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Chasse les dénominateurs et remplace $x = 1$ et $x = -2$ : $A = \frac{4}{3}$, $B = \frac{11}{3}$. Chaque morceau s'intègre en un logarithme.</p>
-<h3>Intégrales impropres</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Choisis $u$ selon la règle <b>LIATE</b> : Logarithme, fonctions trigonométriques Inverses, Algébriques, Trigonométriques, Exponentielles — la première qui apparaît.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$ : $u = x$, $dv = e^{2x}dx$, donc $du = dx$, $v = \frac{1}{2}e^{2x}$. Résultat : $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -2323,14 +1741,6 @@ addT('fr', {
   'lpjavqv13n': R`Un ressort a une raideur $k = ⟦0⟧$ N/m. Quel travail faut-il pour l'étirer de ⟦1⟧ m à partir de sa longueur au repos ?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Une série $\sum a_n$ <b>converge</b> si ses sommes partielles $S_N = a_1 + \cdots + a_N$ tendent vers une limite finie.</p>
-⟦0⟧
-⟦1⟧
-<h3>Séries entières et séries de Taylor</h3>
-<p>Une série entière $\sum c_n (x - a)^n$ converge pour $|x - a| \lt R$, le <b>rayon de convergence</b> (on le trouve avec la règle de d'Alembert). La série de Taylor de $f$ en $a$ est $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$ ; en 0, on parle de série de Maclaurin.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Critère`,
   '1boy0ga8tbt': R`Conclusion`,
   '7ih7yeq8ue': R`Divergence grossière`,
@@ -2384,19 +1794,6 @@ addT('fr', {
   '262p4pwoflz': R`C'est la série usuelle de $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Pour $f(x, y)$, la <b>dérivée partielle</b> $f_x = \frac{\partial f}{\partial x}$ dérive par rapport à $x$ en traitant $y$ comme une constante (et inversement pour $f_y$). Pour $f = x^2y^3$ : $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradient et dérivées directionnelles</h3>
-⟦0⟧
-<h3>Points critiques : test de la dérivée seconde</h3>
-<p>En un point où $f_x = f_y = 0$, pose $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$ : minimum local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$ : maximum local.</li><li>$D \lt 0$ : point selle. &nbsp; $D = 0$ : le test ne permet pas de conclure.</li></ul>
-<h3>Intégrales doubles</h3>
-<p>Sur un rectangle, intègre une variable à la fois (Fubini) : $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. En coordonnées polaires, $dA = r\,dr\,d\theta$.</p>
-<h3>Multiplicateurs de Lagrange</h3>
-<p>Pour optimiser $f$ sous la contrainte $g = c$, résous $\nabla f = \lambda\nabla g$ avec la contrainte.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x ; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ pointe dans la direction de plus forte croissance ; sa norme est ce taux maximal.</p>`,
   'opu0v1dwpl': R`<p>Maximise $f = xy$ sous la contrainte $x + y = 10$ : $(y ; x) = \lambda(1 ; 1)$ donne $x = y = 5$, donc le maximum vaut 25.</p>`,
   '83uqphqp8x': R`<p>En coordonnées polaires, n'oublie pas le facteur $r$ dans $dA = r\,dr\,d\theta$.</p>`,
@@ -2424,18 +1821,6 @@ addT('fr', {
   'hl1el1t8oy': R`Coordonnées polaires : $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p>Une <b>équation différentielle</b> relie une fonction à ses dérivées. Son <b>ordre</b> est celui de la dérivée la plus élevée qui y figure. La <b>solution générale</b> contient des constantes arbitraires ; des conditions initiales déterminent une solution particulière.</p>
-<h3>Équations à variables séparables</h3>
-⟦0⟧
-<p>Cas particulier : $\frac{dy}{dt} = ky$ donne $y = y_0e^{kt}$ — croissance ($k \gt 0$) ou décroissance ($k \lt 0$) exponentielle. Avec une demi-vie $T$, la quantité restante est $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Équations linéaires du premier ordre</h3>
-⟦1⟧
-<h3>Linéaires du second ordre à coefficients constants</h3>
-<p>Pour $ay'' + by' + cy = 0$, essaie $y = e^{rx}$ : on obtient l'<b>équation caractéristique</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$ : on sépare, $\int\frac{dy}{y} = \int 2x\,dx$, donc $\ln|y| = x^2 + C$ et $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Pour $y' + P(x)y = Q(x)$, multiplie par le <b>facteur intégrant</b> $\mu(x) = e^{\int P(x)\,dx}$. Alors $(\mu y)' = \mu Q$, donc $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Racines`,
@@ -2466,18 +1851,6 @@ addT('fr', {
 /* Français — Université (algèbre linéaire → transformée de Laplace) */
 addT('fr', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Systèmes linéaires et rang</h3>
-<p>On résout un système $A\mathbf{x} = \mathbf{b}$ en échelonnant la matrice augmentée $[A \mid \mathbf{b}]$ par opérations sur les lignes. Le <b>rang</b> de $A$ est le nombre de pivots (lignes non nulles de la forme échelonnée).</p>
-⟦0⟧
-<h3>Déterminants</h3>
-⟦1⟧
-<p>Propriétés utiles pour les matrices $n \times n$ : $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Règle de Cramer : $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Valeurs propres et vecteurs propres</h3>
-⟦2⟧
-⟦3⟧
-<p>Si $A$ possède $n$ vecteurs propres indépendants, elle est <b>diagonalisable</b> : $A = PDP^{-1}$, avec les vecteurs propres en colonnes de $P$ et les valeurs propres sur la diagonale de $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Théorème du rang :</b> pour une matrice $m \times n$, $\text{rg}(A) + \dim\ker(A) = n$. Une matrice carrée $A$ est inversible $\iff \det A \ne 0 \iff$ ses colonnes sont linéairement indépendantes $\iff \text{rg} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Pour une matrice $2 \times 2$ : $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. La somme des valeurs propres est la trace et leur produit est le déterminant.</p>`,
@@ -2509,15 +1882,6 @@ addT('fr', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, donc $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>L'unité imaginaire vérifie $i^2 = -1$. Un nombre complexe s'écrit $z = a + bi$, de partie réelle $\text{Re}(z) = a$ et de partie imaginaire $\text{Im}(z) = b$. Les puissances de $i$ se répètent tous les quatre : $i ; -1 ; -i ; 1 ; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Forme exponentielle et formule d'Euler</h3>
-⟦2⟧
-⟦3⟧
-<p>Les racines $n$-ièmes de l'unité sont $e^{2\pi ik/n}$ pour $k = 0 ; 1 ; \ldots ; n - 1$ : des points régulièrement espacés sur le cercle unité.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Multiplier`,
   '1lvuh3a6n9s': R`Conjugué`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, et $z\bar{z} = a^2 + b^2$`,
@@ -2546,14 +1910,6 @@ addT('fr', {
   '1xd7417ut46': R`Soit $z = ⟦0⟧$. Calcule $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p>Une <b>variable aléatoire</b> $X$ associe des nombres aux issues. Pour une variable $X$ discrète de probabilités $p(x)$ :</p>
-⟦0⟧
-⟦1⟧
-<h3>La loi normale</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Loi`,
   'z5bw2hz29r': R`P(X = k) ou densité`,
@@ -2585,17 +1941,6 @@ addT('fr', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ et $\text{Var}(X) = ⟦1⟧$. Calcule $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>On utilise une statistique de l'<b>échantillon</b> (comme $\bar{x}$) pour estimer un paramètre de la <b>population</b> (comme $\mu$). D'après le <b>théorème central limite</b>, pour $n$ grand, la moyenne de l'échantillon suit approximativement une loi normale de moyenne $\mu$ et d'<b>erreur type</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Intervalles de confiance</h3>
-⟦0⟧
-<p>Pour obtenir une marge d'erreur $E$, il faut $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (arrondi à l'entier supérieur). Si $\sigma$ est inconnu, utilise $s$ et la loi de Student $t$.</p>
-<h3>Tests d'hypothèse</h3>
-<ol><li>Énonce $H_0$ (p. ex. $\mu = \mu_0$) et $H_1$.</li><li>Calcule une statistique de test, p. ex. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Trouve la <b>p-valeur</b> : la probabilité, sous $H_0$, d'obtenir un résultat au moins aussi extrême.</li><li>Si $p \le \alpha$, rejette $H_0$ ; sinon, ne la rejette pas.</li></ol>
-⟦1⟧
-<h3>Régression linéaire</h3>
-<p>La droite des moindres carrés $\hat{y} = a + bx$ a pour pente $b = r\frac{s_y}{s_x}$ et passe par $(\bar{x} ; \bar{y})$, donc $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\,\%);\; 1{,}96 \;(95\,\%);\; 2{,}576 \;(99\,\%)`,
   '7nca7j57l5': R`H₀ vraie`,
   '2e0zey7f13x': R`H₀ fausse`,
@@ -2637,17 +1982,6 @@ addT('fr', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, donc on arrondit à l'entier supérieur : $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Arithmétique</h3>
-<p>$a \equiv b \pmod n$ signifie que $n$ divise $a - b$ ; $a \bmod n$ est le reste dans $\{0 ; 1 ; \ldots ; n - 1\}$. On peut additionner et multiplier des congruences, et réduire les puissances pas à pas.</p>
-⟦0⟧
-⟦1⟧
-<p>L'<b>inverse modulaire</b> de $a$ modulo $n$ est le $x$ tel que $ax \equiv 1 \pmod n$ ; il existe exactement quand $\gcd(a, n) = 1$.</p>
-<h3>Dénombrement</h3>
-<ul><li>Applications d'un ensemble à $m$ éléments dans un ensemble à $n$ éléments : $n^m$ ; injectives : $n(n-1)\cdots(n-m+1)$.</li><li>Inclusion–exclusion : $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Principe des tiroirs :</b> si plus de $kn$ objets vont dans $n$ tiroirs, un tiroir en reçoit au moins $k + 1$.</li></ul>
-<h3>Récurrences et graphes</h3>
-<p>Une relation de récurrence définit chaque terme à partir des précédents, comme $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Dans un graphe, le <b>lemme des poignées de main</b> dit que $\sum \deg(v) = 2|E|$ ; $K_n$ a $\binom{n}{2}$ arêtes ; un arbre à $n$ sommets a $n - 1$ arêtes ; un graphe connexe a un cycle eulérien ssi tous les degrés sont pairs.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Algorithme d'Euclide :</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, répété jusqu'à obtenir un reste nul.</p><p><b>Petit théorème de Fermat :</b> si $p$ est premier et $p \nmid a$, alors $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$ : $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Le PGCD est donc 18.</p><p>$2^{100} \bmod 7$ : comme $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Dans les problèmes d'inclusion–exclusion (« divisible par 3 ou par 5 »), l'intersection correspond à la divisibilité par le <b>PPCM</b>, 15.</p>`,
@@ -2688,18 +2022,6 @@ addT('fr', {
   '27kjdpfw0sg': R`Avec ⟦0⟧ catégories, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ personnes pourraient l'éviter ; une de plus impose un groupe de ⟦4⟧ : $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Les méthodes numériques approchent des résultats qui n'ont pas de forme explicite commode. Deux types d'erreur comptent : l'erreur de <b>troncature</b> (due à la méthode) et l'erreur d'<b>arrondi</b> (due à la précision finie).</p>
-⟦0⟧
-<h3>Recherche de racines</h3>
-<ul><li><b>Dichotomie :</b> si $f(a)$ et $f(b)$ sont de signes contraires, teste le milieu $m$ et garde la moitié où le signe change. Lente mais sûre : l'erreur est divisée par deux à chaque étape.</li><li><b>Newton–Raphson :</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Très rapide près d'une racine simple (convergence quadratique), mais peut échouer avec un mauvais point de départ ou si $f' \approx 0$.</li></ul>
-⟦1⟧
-<h3>Intégration numérique</h3>
-⟦2⟧
-<p>Ici $h = \frac{b - a}{n}$. La méthode de Simpson est exacte pour les polynômes de degré au plus 3.</p>
-<h3>Méthode d'Euler</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{erreur absolue} = |x_{\text{exact}} - x_{\text{approché}}| \qquad \text{erreur relative} = \frac{|x_{\text{exact}} - x_{\text{approché}}|}{|x_{\text{exact}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ avec $f(x) = x^2 - 10$ à partir de $x_0 = 3$ : $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — déjà exact à 4 décimales.</p>`,
   'vx6qz5zup7': R`\text{Trapèzes : } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ pair}) : \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -2718,17 +2040,6 @@ addT('fr', {
   '6utp8finkn': R`$⟦0⟧$ est approché par ⟦1⟧. Calcule l'erreur relative en pourcentage, à 3 décimales près.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p>Un <b>champ de vecteurs</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ associe un vecteur à chaque point — comme la vitesse du vent ou une force. Avec $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$ :</p>
-⟦0⟧
-<p>La divergence mesure le flux sortant d'un point ; le rotationnel mesure la rotation.</p>
-<h3>Intégrales curvilignes et champs conservatifs</h3>
-⟦1⟧
-⟦2⟧
-<h3>Les grands théorèmes</h3>
-⟦3⟧
-<p>Une jolie conséquence du théorème de Green : l'aire de $D$ vaut $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ est <b>conservatif</b> si $\mathbf{F} = \nabla\varphi$ pour un potentiel $\varphi$. Alors $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ pour tout chemin de $A$ à $B$. Dans le plan (domaine simplement connexe), $(P, Q)$ est conservatif ssi $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$ : $P_y = 2x = Q_x$, donc il est conservatif avec $\varphi = x^2y + 3y$. De $(0 ; 0)$ à $(2 ; 1)$ : $\varphi(2 ; 1) - \varphi(0 ; 0) = 4 + 3 = 7$.</p>`,
@@ -2758,13 +2069,6 @@ addT('fr', {
   '4awle3me9d': R`Intègre $P$ par rapport à $x$ : $\varphi = ⟦0⟧ + g(y)$. Alors $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ donne $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Les transformées inverses demandent en général d'abord une décomposition en éléments simples, puis une lecture de la table.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linéarité :</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Dérivées :</b> $\mathcal{L}\{y'\} = sY - y(0)$ et $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — les équations différentielles deviennent de l'algèbre.</p>`,
   'ie964pskzz': R`<p>Résous $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, donc $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. En inversant : $y = 3\cos 2t + \sin 2t$.</p>`,
@@ -2991,4 +2295,829 @@ addT('fr', {
   '19mvnrfi5rk': R`La transformée de Laplace change une équation différentielle en équation algébrique.`,
   // The Laplace transform is an improper integral, often worked 
   'da64d9071l': R`La transformée de Laplace est une intégrale impropre, souvent calculée par intégration par parties.`,
+});
+
+/* fr — lessons with figures */
+addT('fr', {
+  'whhnraxlat': R`
+<p>Notre système de numération utilise dix chiffres, de 0 à 9. Le <b>rang</b> d’un chiffre indique sa <b>valeur</b> : chaque rang vaut dix fois le rang situé à sa droite.</p>
+⟦0⟧
+<p>Dans <b>5 382 417</b>, le chiffre 8 est au rang des dizaines de mille, il vaut donc $8 \times 10\,000 = 80\,000$. Le chiffre 3 vaut $300\,000$.</p>
+<h3>Écriture décomposée</h3>
+<p>Écrire un nombre comme la somme des valeurs de ses chiffres montre ce que vaut chacun d’eux :</p>
+⟦1⟧
+⟦2⟧
+<p>Le 0 au rang des dizaines <b>tient la place</b>. Sans lui, 4 307 deviendrait 437.</p>
+<h3>Comparer des nombres</h3>
+<p>Un nombre entier qui a plus de chiffres est plus grand. Si deux nombres ont autant de chiffres, on les compare chiffre par chiffre en partant de la gauche ; le premier rang où ils diffèrent décide. Ainsi $52\,814 \gt 52\,781$ car au rang des centaines $8 \gt 7$.</p>
+<h3>Arrondir</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '963azreidi': R`
+<p>L’addition réunit des quantités ; la soustraction calcule ce qui reste ou l’<b>écart</b> entre deux quantités. Pour les grands nombres, on pose l’opération <b>en colonnes</b> : on aligne les chiffres selon leur rang et on commence par la colonne des unités, vers la gauche.</p>
+<h3>Addition avec retenue</h3>
+<p>Quand une colonne fait 10 ou plus, on écrit le chiffre des unités et on <b>reporte une retenue</b> dans la colonne suivante.</p>
+⟦0⟧
+⟦1⟧
+<h3>Soustraction avec retenue</h3>
+<p>Si le chiffre du haut est plus petit que celui du bas, on <b>emprunte</b> une dizaine à la colonne suivante : cela ajoute 10 à la colonne en cours.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Problèmes</h3>
+<p>Des mots comme <i>en tout, au total, de plus, augmenté</i> indiquent souvent une addition. Des mots comme <i>reste, il reste, écart, combien de plus, de moins</i> indiquent souvent une soustraction. Demandez-vous toujours ce que la question cherche vraiment.</p>
+⟦5⟧
+⟦6⟧`,
+  '1nuty7g7e3m': R`
+<p>La <b>multiplication</b> est une addition répétée de groupes égaux : $4 \times 6$ signifie 4 groupes de 6, soit $6 + 6 + 6 + 6 = 24$. La <b>division</b> partage une quantité en groupes égaux : $24 \div 6 = 4$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Multiplier de grands nombres</h3>
+<p>On décompose l’un des nombres selon ses rangs, on multiplie chaque partie et on additionne (c’est la distributivité) :</p>
+⟦2⟧
+⟦3⟧
+<h3>Division et reste</h3>
+<p>Quand la division ne tombe pas juste, ce qu’il reste s’appelle le <b>reste</b>. Il est toujours plus petit que le diviseur.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '2il80u5f0p': R`
+<p>Quand un calcul comporte plusieurs opérations, tout le monde doit les effectuer dans le même ordre, sinon une même expression donnerait des résultats différents. Cet ordre s’appelle les <b>priorités opératoires</b> ; en anglais, on le retient avec le mot <b>PEMDAS</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qawwgtxxnt': R`
+<p>Un <b>diviseur</b> d’un nombre le divise exactement. Un <b>multiple</b> d’un nombre est ce nombre multiplié par un nombre entier.</p>
+<ul><li>Diviseurs de 12 : 1, 2, 3, 4, 6, 12 (ils vont par paires : $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Multiples de 12 : 12, 24, 36, 48, …</li></ul>
+⟦0⟧
+<h3>Nombres premiers et composés</h3>
+<p>Un nombre <b>premier</b> a exactement deux diviseurs : 1 et lui-même (2, 3, 5, 7, 11, 13, …). Un nombre <b>composé</b> a plus de deux diviseurs. Le nombre 1 n’est ni premier ni composé, et 2 est le seul nombre premier pair.</p>
+⟦1⟧
+<h3>Décomposition en facteurs premiers</h3>
+<p>Tout nombre entier supérieur à 1 s’écrit d’une seule façon comme produit de nombres premiers. Utilisez un arbre : décomposez jusqu’à ce que chaque branche se termine par un nombre premier.</p>
+⟦2⟧
+⟦3⟧
+<h3>PGCD et PPCM</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '1izrzgyjhj9': R`
+<p>Une <b>fraction</b> $\frac{a}{b}$ désigne $a$ parts sur $b$ parts égales. Le nombre du haut est le <b>numérateur</b> ; celui du bas est le <b>dénominateur</b>.</p>
+⟦0⟧
+<h3>Fractions égales et fraction irréductible</h3>
+<p>Multiplier ou diviser le numérateur et le dénominateur par un même nombre donne une fraction égale : $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Pour <b>simplifier</b>, on divise les deux par leur PGCD :</p>
+⟦1⟧
+⟦2⟧
+<h3>Nombres mixtes</h3>
+<p>$2\frac{1}{3}$ signifie $2 + \frac{1}{3}$. Sous forme de fraction : $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
+⟦3⟧
+<h3>Addition et soustraction</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+<h3>Multiplication et division</h3>
+⟦7⟧
+<p>Pour diviser, on <b>garde</b> la première fraction, on <b>change</b> ÷ en × et on <b>inverse</b> la seconde fraction.</p>
+⟦8⟧
+<h3>Fraction d’une quantité</h3>
+<p>On divise par le dénominateur, puis on multiplie par le numérateur : $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
+⟦9⟧
+⟦10⟧`,
+  '10kgjsjaxgz': R`
+<p>Les nombres décimaux prolongent la numération à droite des unités. Chaque rang vaut un dixième du rang situé à sa gauche.</p>
+⟦0⟧
+<p>Ainsi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
+⟦1⟧
+<h3>Comparer des décimaux</h3>
+<p>Donnez aux nombres le même nombre de chiffres après la virgule en ajoutant des zéros, puis comparez : $0{,}5 = 0{,}50 \gt 0{,}45$. Un décimal plus long n’est pas forcément plus grand !</p>
+⟦2⟧
+<h3>Addition et soustraction</h3>
+⟦3⟧
+⟦4⟧
+<h3>Multiplication</h3>
+<p>On multiplie comme s’il n’y avait pas de virgule, puis on compte le nombre total de chiffres après la virgule dans les facteurs : le résultat en a autant.</p>
+⟦5⟧
+<h3>Division et conversions</h3>
+<p>Multiplier par 10, 100 ou 1000 décale les chiffres de 1, 2 ou 3 rangs vers la gauche (le nombre grandit) ; diviser les décale vers la droite. Une fraction devient un décimal en divisant le numérateur par le dénominateur : $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
+<h3>Arrondir des décimaux</h3>
+<p>Même règle que pour les entiers : on regarde le chiffre suivant. $6{,}847$ arrondi au dixième près donne $6{,}8$ ; au centième près, $6{,}85$.</p>
+⟦6⟧`,
+  '1rw72cdcsy1': R`
+<p><b>Pour cent</b> signifie « sur 100 » : $35\% = \frac{35}{100} = 0{,}35$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Les trois questions de base</h3>
+⟦2⟧
+⟦3⟧
+<h3>Hausses, baisses et réductions</h3>
+<p>Une réduction de $20\%$ sur 80 euros fait économiser $0{,}2 \times 80 = 16$ euros ; le prix soldé est donc $80 - 16 = 64$ euros. Plus rapide : on paie $80\%$ du prix, soit $0{,}8 \times 80 = 64$.</p>
+⟦4⟧
+<p>Une hausse de $p\%$ revient à multiplier par $1 + \frac{p}{100}$ ; une baisse, à multiplier par $1 - \frac{p}{100}$.</p>
+⟦5⟧`,
+  'qwxct8meof': R`
+<p>Le système métrique repose sur les puissances de dix, avec des préfixes qui indiquent la taille d’une unité.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Les durées</h3>
+<p>Le temps n’est <i>pas</i> décimal : une heure compte 60 minutes, pas 100. Pour calculer une durée, avancez par étapes : de 09:35 à 13:10, il y a 25 min (jusqu’à 10:00) + 3 h (jusqu’à 13:00) + 10 min = 3 h 35 min = 215 minutes.</p>
+⟦5⟧
+⟦6⟧`,
+  '1duo6cowvco': R`
+<p>Le <b>périmètre</b> est la longueur totale du contour d’une figure (en cm, m, …). L’<b>aire</b> est la mesure de la surface qu’elle occupe (en unités carrées : cm², m², …).</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Figures composées</h3>
+<p>Découpez une figure en L ou une autre figure composée en rectangles et en triangles, puis additionnez les aires — ou partez d’un grand rectangle et soustrayez le morceau manquant.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2bjnshv99mz': R`
+<p>Le <b>volume</b> est l’espace occupé par un solide ; il se compte en <b>unités cubes</b> (cm³, m³). Un cube de 1 cm d’arête a un volume de 1 cm³.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Aire totale</h3>
+<p>L’aire totale est la somme des aires de toutes les faces. Un pavé droit a trois paires de rectangles identiques :</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'hdpir6essq': R`
+<p>Les angles mesurent une rotation, en <b>degrés</b> (°). Un tour complet vaut $360^\circ$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Triangles</h3>
+<p><b>Équilatéral</b> : trois côtés égaux, chaque angle vaut $60^\circ$. <b>Isocèle</b> : deux côtés égaux et deux angles à la base égaux. <b>Quelconque</b> : aucun côté égal. Un triangle <b>rectangle</b> a un angle de $90^\circ$.</p>
+<h3>Polygones</h3>
+<p>Un polygone à $n$ côtés se découpe en $n - 2$ triangles à partir d’un sommet, donc</p>
+⟦3⟧
+⟦4⟧
+<p>Dans un polygone <b>régulier</b>, tous les angles sont égaux ; chacun vaut donc $\frac{(n-2) \times 180^\circ}{n}$. Un hexagone régulier a des angles de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
+⟦5⟧`,
+  '1t5wicpcspm': R`
+<p>Les données sont des informations que l’on recueille, comme des notes ou des fruits préférés. Un <b>tableau d’effectifs</b> indique combien de fois apparaît chaque valeur ; les <b>diagrammes en barres</b> et les <b>pictogrammes</b> montrent la même information sous forme visuelle.</p>
+⟦0⟧
+<h3>Quatre indicateurs</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '2c85eiflpnj': R`
+<p>Les <b>entiers relatifs</b> sont les nombres entiers et leurs opposés : $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Sur une droite graduée, les nombres augmentent vers la droite, donc $-7 \lt -2$ même si 7 est plus grand que 2.</p>
+⟦0⟧
+<p>La <b>valeur absolue</b> $|a|$ est la distance à 0 : $|-6| = 6$ et $|6| = 6$.</p>
+<h3>Addition et soustraction</h3>
+⟦1⟧
+⟦2⟧
+<h3>Multiplication et division</h3>
+⟦3⟧
+⟦4⟧
+<p>Dans la vie courante : températures négatives, altitudes sous le niveau de la mer, dettes, étages en sous-sol.</p>
+⟦5⟧`,
+  'tte1va9nbg': R`
+<p>Une <b>puissance</b> note une multiplication répétée : $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ facteurs}}$. Dans $2^5 = 32$, 2 est la <b>base</b> et 5 est l’<b>exposant</b>.</p>
+⟦0⟧
+<h3>Règles de calcul sur les puissances</h3>
+⟦1⟧
+⟦2⟧
+<h3>Racines</h3>
+<p>La racine carrée annule le carré : $\sqrt{81} = 9$ car $9^2 = 81$. La racine cubique annule le cube : $\sqrt[3]{64} = 4$ car $4^3 = 64$.</p>
+⟦3⟧
+⟦4⟧`,
+  'akeowmn81l': R`
+<p>Les scientifiques écrivent les nombres très grands ou très petits de façon compacte sous la forme</p>
+⟦0⟧
+<ul><li>La distance Terre–Soleil, environ $150\,000\,000$ km, vaut $1{,}5 \times 10^{8}$ km.</li><li>Un globule rouge, large d’environ $0{,}000\,008$ m, mesure $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Calculer</h3>
+<p>On multiplie (ou divise) les nombres de devant et on additionne (ou soustrait) les exposants. Puis on corrige le nombre de devant s’il n’est pas compris entre 1 et 10 :</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'z6teiu3uc7': R`
+<p>Un <b>ratio</b> $a : b$ compare deux quantités. Comme les fractions, un ratio se simplifie en divisant ses deux termes par leur PGCD : $18 : 24 = 3 : 4$.</p>
+<h3>Partage proportionnel</h3>
+⟦0⟧
+⟦1⟧
+<h3>Taux et valeur unitaire</h3>
+<p>Un <b>taux</b> compare des quantités d’unités différentes : km par heure, euros par kg. Trouver la valeur d’<b>une</b> unité (la valeur unitaire) résout la plupart des problèmes.</p>
+⟦2⟧
+<h3>Proportionnalité directe et inverse</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+<h3>Échelles</h3>
+<p>Une échelle de $1 : 50\,000$ signifie que 1 cm sur la carte représente $50\,000$ cm $= 500$ m $= 0{,}5$ km en réalité.</p>
+⟦6⟧`,
+  '1aox7mamv38': R`
+<p>Dans l’expression $5x^2 - 3xy + 7$, les <b>termes</b> sont $5x^2$, $-3xy$ et $7$ ; les <b>coefficients</b> sont 5 et $-3$ ; 7 est le <b>terme constant</b>. Des <b>termes semblables</b> ont exactement les mêmes lettres avec les mêmes exposants ($4ab$ et $-ab$ sont semblables ; $x^2$ et $x$ ne le sont pas).</p>
+<h3>Réduire</h3>
+<p>On regroupe les termes semblables en additionnant leurs coefficients : $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Développer</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Identités remarquables</h3>
+⟦3⟧
+⟦4⟧
+<h3>Factoriser</h3>
+<p>Factoriser, c’est développer à l’envers. On met en facteur le plus grand facteur commun : $12x - 18 = 6(2x - 3)$.</p>
+<h3>Substituer</h3>
+<p>On remplace chaque lettre par sa valeur, avec des parenthèses pour les nombres négatifs : si $x = -2$, alors $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦5⟧`,
+  '2ez6y5q5jl': R`
+<p>Une équation affirme que deux expressions sont égales. Pensez à une balance : ce que l’on fait d’un côté, on le fait de l’autre, et l’équilibre est conservé. Le but est d’isoler l’inconnue.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Parenthèses et fractions</h3>
+<p>Développez d’abord (ou divisez les deux membres par le nombre devant la parenthèse). Supprimez les fractions en multipliant chaque terme par le dénominateur commun :</p>
+⟦3⟧
+<h3>Problèmes</h3>
+<ol><li>Choisissez une lettre pour l’inconnue et dites ce qu’elle représente.</li><li>Traduisez l’énoncé en équation.</li><li>Résolvez, puis vérifiez que la réponse a du sens dans le problème.</li></ol>
+⟦4⟧
+⟦5⟧`,
+  '1em42pkc1jv': R`
+<p>Une <b>inéquation</b> compare deux expressions : $\lt$ (strictement inférieur), $\gt$ (strictement supérieur), $\le$ (inférieur ou égal), $\ge$ (supérieur ou égal). Ses solutions forment en général tout un intervalle de nombres.</p>
+<p>Sur une droite graduée, $x \gt 2$ se représente par un point <b>ouvert</b> en 2 (2 n’est pas inclus) et une flèche vers la droite ; $x \le 2$ par un point <b>plein</b> et une flèche vers la gauche.</p>
+⟦0⟧
+<h3>Résoudre</h3>
+<p>On résout comme une équation — ajouter, soustraire, multiplier ou diviser les deux membres — avec une règle supplémentaire :</p>
+⟦1⟧
+<p>Pourquoi ? $2 \lt 5$, mais en multipliant par $-1$ on obtient $-2$ et $-5$, et $-2 \gt -5$.</p>
+⟦2⟧
+<h3>Doubles inégalités</h3>
+<p>On applique la même opération aux trois parties : $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Les solutions entières sont $-1 ; 0 ; 1 ; 2 ; 3$.</p>
+⟦3⟧
+⟦4⟧`,
+  '2facwts035v': R`
+<p>Un <b>ensemble</b> est une collection bien définie d’objets, ses <b>éléments</b>. On écrit $A = \{2 ; 4 ; 6 ; 8\}$ et $4 \in A$ (« 4 appartient à A »), $5 \notin A$. $n(A)$ est le nombre d’éléments ; ici $n(A) = 4$. L’<b>ensemble vide</b> $\varnothing$ n’a aucun élément ; l’<b>ensemble universel</b> $U$ contient tout ce dont on parle.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qkk3uk216j': R`
+<p>Une <b>fonction affine</b> a pour représentation graphique une droite. Sous la <b>forme réduite</b></p>
+⟦0⟧
+<p>$m$ est le <b>coefficient directeur</b> (la pente) : de combien $y$ varie quand $x$ augmente de 1. $c$ est l’<b>ordonnée à l’origine</b>, là où la droite coupe l’axe des $y$. En notation fonctionnelle on écrit $f(x) = mx + c$ ; $f(3)$ désigne « la valeur pour $x = 3$ ».</p>
+<h3>Coefficient directeur à partir de deux points</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Intersections avec les axes et autres formes</h3>
+<p>Posez $x = 0$ pour trouver l’ordonnée à l’origine et $y = 0$ pour l’intersection avec l’axe des $x$. Une droite peut s’écrire $ax + by = c$ ; on la réécrit $y = -\frac{a}{b}x + \frac{c}{b}$ pour lire le coefficient directeur. Par un point $(x_1 ; y_1)$ avec le coefficient directeur $m$ : $y - y_1 = m(x - x_1)$.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'k20oq9cujh': R`
+<p>Un <b>système</b> de deux équations du premier degré en $x$ et $y$ demande les valeurs qui rendent vraies <i>les deux</i> équations. Graphiquement, la solution est le point d’intersection des deux droites.</p>
+⟦0⟧
+<h3>Substitution</h3>
+⟦1⟧
+<h3>Combinaison</h3>
+⟦2⟧
+⟦3⟧
+<h3>Cas particuliers</h3>
+⟦4⟧
+<p>Des droites parallèles (même coefficient directeur, ordonnées à l’origine différentes) ne se coupent jamais : <b>pas de solution</b>. Des droites confondues donnent une <b>infinité</b> de solutions.</p>
+<h3>Problèmes</h3>
+<p>Deux inconnues demandent deux informations. « Une ferme compte 30 têtes et 84 pattes, entre poules et vaches », avec $c$ vaches et $h$ poules : $c + h = 30$ et $4c + 2h = 84$.</p>
+⟦5⟧`,
+  '1bdrzsceuor': R`
+<p>Dans un triangle rectangle, le plus long côté, opposé à l’angle droit, est l’<b>hypoténuse</b> $c$. Les deux autres sont les <b>côtés de l’angle droit</b> $a$ et $b$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Triplets pythagoriciens</h3>
+<p>Il est utile de retenir les solutions entières et leurs multiples : $(3 ; 4 ; 5)$, $(5 ; 12 ; 13)$, $(8 ; 15 ; 17)$, $(7 ; 24 ; 25)$, ainsi que $(6 ; 8 ; 10)$, $(9 ; 12 ; 15)$, …</p>
+<h3>Distance entre deux points</h3>
+⟦4⟧
+⟦5⟧
+<h3>La réciproque</h3>
+<p>Avec $c$ le plus grand côté : si $a^2 + b^2 = c^2$, le triangle est <b>rectangle</b> ; si $a^2 + b^2 \gt c^2$, il est <b>acutangle</b> ; si $a^2 + b^2 \lt c^2$, il est <b>obtusangle</b>.</p>
+⟦6⟧`,
+  'focn6p44n1': R`
+⟦0⟧
+<p>Le rapport entre le périmètre d’un cercle et son diamètre est toujours le même nombre, $\pi \approx 3{,}14159\ldots$ (souvent arrondi à $3{,}14$ ou $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Arcs et secteurs</h3>
+<p>Un secteur d’angle au centre $\theta$ représente la fraction $\frac{\theta}{360^\circ}$ du disque entier :</p>
+⟦4⟧
+⟦5⟧
+<h3>Angles dans un cercle</h3>
+⟦6⟧
+<ul><li>L’angle au centre est le <b>double</b> de l’angle inscrit qui intercepte le même arc.</li><li>Un angle inscrit dans un demi-cercle mesure $90^\circ$.</li><li>La tangente est perpendiculaire au rayon au point de contact.</li></ul>
+⟦7⟧`,
+  'g6b5ghp740': R`
+<p>Un <b>prisme</b> a la même section sur toute sa longueur : son volume est simplement l’aire de cette section multipliée par sa longueur. Une pyramide ou un cône qui s’y inscrit a exactement le tiers de ce volume.</p>
+⟦0⟧
+⟦1⟧
+<p>Pour un cône, $s$ est la <b>génératrice</b> ; d’après Pythagore, $s = \sqrt{r^2 + h^2}$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'f13hxf9kw3': R`
+<p>Un <b>indicateur de position</b> résume une série de données par une valeur typique ; un <b>indicateur de dispersion</b> dit à quel point les valeurs sont étalées.</p>
+⟦0⟧
+⟦1⟧
+<h3>Moyenne à partir d’un tableau d’effectifs</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Raisonner à l’envers</h3>
+⟦5⟧
+<p>Avec un nombre pair de valeurs, la médiane est la moyenne des deux valeurs centrales.</p>
+⟦6⟧`,
+  '190fxed0s6m': R`
+<p>Une <b>expérience aléatoire</b> (lancer un dé, tirer une carte) a des <b>issues</b> possibles. L’ensemble de toutes les issues est l’<b>univers</b> $S$ ; un <b>événement</b> $E$ est un ensemble d’issues. Quand toutes les issues sont équiprobables :</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Deux dés</h3>
+<p>Lancer deux dés donne $6 \times 6 = 36$ issues équiprobables. Une somme de 7 s’obtient de 6 façons — (1 ; 6), (2 ; 5), (3 ; 4), (4 ; 3), (5 ; 2), (6 ; 1) — donc $P(\text{somme} = 7) = \frac{6}{36} = \frac{1}{6}$. En général, le nombre de façons d’obtenir une somme $s$ est $6 - |s - 7|$.</p>
+⟦4⟧
+<h3>Un jeu de cartes</h3>
+<p>52 cartes : 4 couleurs (♠ ♣ noires, ♥ ♦ rouges) de 13 valeurs (A, 2–10, V, D, R). Il y a 12 figures (V, D, R).</p>
+⟦5⟧`,
+  '151qbeg6ykm': R`
+<p>Les questions d’argent de la vie courante sont souvent des questions de pourcentages déguisées.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Remise et taxe</h3>
+<p>Appliquez les pourcentages l’un après l’autre : une remise de 20 % puis une taxe de 10 % sur 150 euros donnent $150 \times 0{,}8 \times 1{,}1 = 132$ euros.</p>
+<h3>Intérêts simples</h3>
+⟦3⟧
+<p>1 500 euros placés à 6 % par an pendant 3 ans rapportent $1\,500 \times 0{,}06 \times 3 = 270$ euros ; le total atteint 1 770 euros. Pour une durée en mois, prenez $t = \frac{\text{mois}}{12}$.</p>
+⟦4⟧
+<h3>Poids brut, tare et poids net</h3>
+<p><b>Brut</b> = poids total ; <b>tare</b> = poids de l’emballage ; <b>net</b> = brut − tare. Un sac de 50 kg avec une tare de 2 % a un poids net de $50 \times 0{,}98 = 49$ kg.</p>
+⟦5⟧`,
+  '2goqscgnmgq': R`
+<p>Une <b>suite</b> est une liste ordonnée de nombres appelés <b>termes</b>. Trouver la règle permet de prolonger la suite ou d’aller directement à n’importe quel terme.</p>
+<h3>Suites arithmétiques</h3>
+<p>On ajoute chaque fois le même nombre $d$ (la <b>raison</b>) : 5 ; 8 ; 11 ; 14 ; … a pour raison $d = 3$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Suites géométriques</h3>
+<p>Chaque terme est multiplié par la même <b>raison</b> $r$ : 3 ; 6 ; 12 ; 24 ; … ($r = 2$) ; 80 ; 40 ; 20 ; … ($r = \frac{1}{2}$).</p>
+⟦2⟧
+<h3>Suites particulières</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'dep80mf33u': R`
+<p>Une <b>transformation</b> déplace une figure ou change sa taille. Par une translation, une symétrie ou une rotation, l’image est <b>superposable</b> (même forme, même taille) ; par une homothétie, elle est <b>semblable</b> (même forme, taille différente).</p>
+⟦0⟧
+⟦1⟧
+<h3>Figures semblables</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ayg6rt51qo': R`
+<p>Une <b>équation du second degré</b> est de la forme $ax^2 + bx + c = 0$ avec $a \ne 0$. Elle a au plus deux solutions (racines).</p>
+<h3>1. Factorisation</h3>
+<p>Un produit est nul si et seulement si l’un de ses facteurs est nul. Cherchez deux nombres dont le produit vaut $c$ et la somme vaut $b$ (quand $a = 1$) :</p>
+⟦0⟧
+⟦1⟧
+<h3>2. Forme canonique</h3>
+⟦2⟧
+<h3>3. La formule du discriminant</h3>
+⟦3⟧
+⟦4⟧
+<h3>Somme et produit des racines (Viète)</h3>
+⟦5⟧
+<p>Ainsi, une équation de racines $r$ et $s$ est $x^2 - (r + s)x + rs = 0$.</p>
+⟦6⟧
+⟦7⟧`,
+  'r0cxzc7jq8': R`
+<p>La courbe de $f(x) = ax^2 + bx + c$ est une <b>parabole</b>. Elle est tournée <b>vers le haut</b> si $a \gt 0$ (une vallée, avec un minimum) et <b>vers le bas</b> si $a \lt 0$ (une colline, avec un maximum).</p>
+⟦0⟧
+<h3>Forme canonique</h3>
+⟦1⟧
+⟦2⟧
+<p>La mise sous forme canonique transforme la forme développée : $x^2 - 6x + 11 = (x - 3)^2 + 2$, donc le sommet est $(3 ; 2)$ et le minimum vaut 2. L’ensemble des images est $y \ge 2$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1mi3l1zkm3t': R`
+<p>Une <b>fonction</b> associe à chaque antécédent exactement <b>une</b> image. L’ensemble des valeurs autorisées est l’<b>ensemble de définition</b> ; l’ensemble des images est l’<b>ensemble image</b>.</p>
+⟦0⟧
+<h3>Ensembles de définition naturels</h3>
+<ul><li>Pas de division par zéro : pour $\frac{1}{x - 2}$, il faut $x \ne 2$.</li><li>Pas de racine carrée d’un négatif : pour $\sqrt{x + 3}$, il faut $x \ge -3$.</li><li>Un logarithme exige un argument positif : pour $\log(x - 1)$, il faut $x \gt 1$.</li></ul>
+<h3>Composition</h3>
+⟦1⟧
+⟦2⟧
+<h3>Fonctions réciproques</h3>
+<p>$f^{-1}$ défait ce que fait $f$ : si $f(a) = b$, alors $f^{-1}(b) = a$. Pour la trouver, écrivez $y = f(x)$, échangez $x$ et $y$, puis exprimez $y$.</p>
+⟦3⟧
+⟦4⟧
+<p>La courbe de $f^{-1}$ est la symétrique de celle de $f$ par rapport à la droite $y = x$. Seules les fonctions injectives ont une réciproque.</p>
+⟦5⟧`,
+  '24wdt7r22ed': R`
+<p>Les exposants rationnels combinent puissances et racines : $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Ainsi, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ et $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logarithmes</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Résolution d’équations</h3>
+<ul><li>Même base : $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Équation logarithmique : $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases différentes : on prend le logarithme des deux membres, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
+<h3>Croissance et décroissance exponentielles</h3>
+<p>$A = A_0 \cdot r^{t/T}$ : une quantité multipliée par $r$ toutes les $T$ unités de temps. Intérêts composés : $A = P(1 + i)^n$.</p>
+⟦3⟧
+⟦4⟧`,
+  '3hbd521s2e': R`
+⟦0⟧
+<p>Ici $a$ est le premier terme et $l$ le dernier.</p>
+⟦1⟧
+⟦2⟧
+<h3>Séries géométriques infinies</h3>
+⟦3⟧
+<p>Exemple : $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+⟦4⟧
+<h3>Notation sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ signifie $f(1) + f(2) + \cdots + f(n)$. À retenir : $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ et $\sum_{k=1}^{n} c = cn$.</p>
+⟦5⟧`,
+  '1t70i52x3de': R`
+<p>Dans un triangle rectangle, pour un angle aigu $\theta$ :</p>
+⟦0⟧
+⟦1⟧
+<p>Moyen mnémotechnique : <b>SOH-CAH-TOA</b> (Sinus = Opposé/Hypoténuse, Cosinus = Adjacent/Hypoténuse, Tangente = Opposé/Adjacent). De plus, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, et les inverses sont $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Valeurs remarquables</h3>
+⟦2⟧
+⟦3⟧
+<h3>Radians</h3>
+<p>$180^\circ = \pi$ radians. Pour passer des degrés aux radians, on multiplie par $\frac{\pi}{180}$ ; des radians aux degrés, par $\frac{180}{\pi}$. Ainsi $60^\circ = \frac{\pi}{3}$ et $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Le cercle trigonométrique</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  'mvrwakwbru': R`
+<p>Une <b>identité</b> est vraie pour tout angle. Les plus importantes :</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Résoudre des équations trigonométriques</h3>
+<p>Trouvez l’angle de référence, puis tous les angles de l’intervalle demandé ayant le bon signe.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ei45ji3kzc': R`
+<p>Nommez un triangle de sorte que le côté $a$ soit opposé à l’angle $A$, $b$ opposé à $B$ et $c$ opposé à $C$. Ces règles valent pour <b>tout</b> triangle, pas seulement pour les triangles rectangles.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '61mbb87wjy': R`
+<p>Un <b>polynôme</b> est une somme de termes $a_n x^n + \cdots + a_1 x + a_0$ avec des exposants entiers naturels. Son <b>degré</b> est le plus grand exposant ; $a_n$ est le <b>coefficient dominant</b>. Quand on multiplie des polynômes, les degrés s’additionnent et les coefficients dominants se multiplient.</p>
+<h3>Division</h3>
+<p>Diviser $P(x)$ par $(x - a)$ donne un quotient $Q(x)$ et un reste $R$ : $P(x) = (x - a)Q(x) + R$. La <b>méthode de Horner</b> permet de le faire rapidement avec les seuls coefficients.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Racines d’un polynôme de degré 3</h3>
+<p>Pour $ax^3 + bx^2 + cx + d = 0$ de racines $r_1, r_2, r_3$ :</p>
+⟦3⟧
+⟦4⟧`,
+  '1v5flijcft8': R`
+<p>Une <b>matrice</b> est un tableau rectangulaire de nombres. Une matrice $m \times n$ a $m$ lignes et $n$ colonnes ; $a_{ij}$ est le coefficient de la ligne $i$, colonne $j$.</p>
+<h3>Opérations</h3>
+<ul><li><b>Addition/soustraction</b> coefficient par coefficient (même taille uniquement).</li><li><b>Multiplication par un scalaire</b> : on multiplie chaque coefficient.</li><li><b>Produit</b> $AB$ : le coefficient $(i, j)$ est la ligne $i$ de $A$ « fois » la colonne $j$ de $B$. Il faut (colonnes de $A$) = (lignes de $B$), et une $m \times n$ fois une $n \times p$ donne une $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Déterminant et inverse (2 × 2)</h3>
+⟦2⟧
+<p>Si $\det A = 0$, la matrice n’est <b>pas inversible</b>. Les inverses permettent de résoudre des systèmes : $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧
+⟦4⟧`,
+  'etxqyliwjj': R`
+<p>Un <b>vecteur</b> a une norme et une direction. En coordonnées, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Le vecteur de $P$ à $Q$ est $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '66h68qke5m': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ signifie que $f(x)$ devient aussi proche qu’on veut de $L$ quand $x$ tend vers $a$ — quoi qu’il se passe exactement en $x = a$.</p>
+<h3>Méthodes</h3>
+<ol><li><b>Substitution directe</b> : elle marche pour les polynômes et les autres fonctions continues : $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factoriser et simplifier</b> face à $\frac{0}{0}$ : $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Utiliser la quantité conjuguée</b> pour les expressions avec racines.</li></ol>
+⟦0⟧
+⟦1⟧
+<h3>Limites en l’infini</h3>
+⟦2⟧
+⟦3⟧
+<h3>Une limite trigonométrique remarquable</h3>
+⟦4⟧
+<h3>Continuité</h3>
+<p>$f$ est continue en $a$ si $\lim_{x \to a} f(x) = f(a)$ : ni trou, ni saut, ni asymptote en ce point. Pour une fonction définie par morceaux, les deux morceaux doivent se raccorder.</p>
+⟦5⟧`,
+  'a1ga4rrgb4': R`
+<p>La <b>dérivée</b> $f'(x)$ est le taux de variation instantané de $f$ — la pente de la tangente en $x$. Elle est définie par une limite :</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Tangentes</h3>
+<p>En $x = a$, la tangente a pour pente $m = f'(a)$ et passe par $(a ; f(a))$ : $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Points critiques</h3>
+<p>Là où $f'(x) = 0$, la courbe est momentanément horizontale. Utilisez la dérivée seconde : $f''(a) \gt 0$ → minimum local ; $f''(a) \lt 0$ → maximum local. $f$ est croissante là où $f' \gt 0$ et décroissante là où $f' \lt 0$.</p>
+⟦4⟧
+<h3>Optimisation</h3>
+⟦5⟧
+⟦6⟧`,
+  'l6pgzhyei6': R`
+<p>L’intégration est l’opération inverse de la dérivation. Une <b>primitive</b> de $f$ est une fonction $F$ telle que $F' = f$ ; l’<b>intégrale indéfinie</b> comprend la constante d’intégration :</p>
+⟦0⟧
+⟦1⟧
+<h3>Intégrales définies</h3>
+⟦2⟧
+⟦3⟧
+<p>Si $f \ge 0$, c’est l’aire sous la courbe entre $x = a$ et $x = b$. L’aire sous l’axe des $x$ compte négativement : coupez l’intégrale aux racines pour obtenir l’aire totale.</p>
+⟦4⟧
+⟦5⟧
+<h3>Retrouver une fonction à partir de sa dérivée</h3>
+<p>Si $f'(x) = 6x + 2$ et $f(1) = 10$, alors $f(x) = 3x^2 + 2x + C$ et $3 + 2 + C = 10$ donne $C = 5$.</p>
+⟦6⟧`,
+  'kgwrue8ydx': R`
+⟦0⟧
+⟦1⟧
+<h3>Arrangements : l’ordre compte</h3>
+⟦2⟧
+<p>Premier, deuxième et troisième prix parmi 10 personnes : $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Anagrammes avec lettres répétées : $\frac{n!}{p!\,q!\cdots}$. « BANANA » a $\frac{6!}{3!\,2!} = 60$ anagrammes.</li><li>Autour d’une table ronde : $(n - 1)!$ (les rotations comptent comme identiques).</li></ul>
+<h3>Combinaisons : l’ordre ne compte pas</h3>
+⟦3⟧
+<p>Un comité de 3 personnes parmi 10 : $\binom{10}{3} = 120$. Un comité de 2 hommes (parmi 5) et 3 femmes (parmi 6) : $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Formule du binôme</h3>
+⟦4⟧
+⟦5⟧
+<p>Le coefficient de $x^2$ dans $(x + 3)^5$ est $\binom{5}{2}3^{3} = 270$.</p>
+⟦6⟧`,
+  '5087kj3cei': R`
+⟦0⟧
+⟦1⟧
+<h3>Avec et sans remise</h3>
+⟦2⟧
+<p>Les arbres de probabilité organisent ces calculs : on multiplie le long des branches et on additionne entre les branches.</p>
+⟦3⟧
+<h3>« Au moins un »</h3>
+<p>On passe par l’événement contraire : $P(\text{au moins un six en 3 lancers}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Formule de Bayes</h3>
+⟦4⟧
+⟦5⟧`,
+  'tc0j77gt19': R`
+<h3>Quartiles et diagrammes en boîte</h3>
+<p>Rangez les données. La médiane $Q_2$ les partage en deux ; $Q_1$ est la médiane de la moitié inférieure et $Q_3$ celle de la moitié supérieure (ici, on exclut la médiane des deux moitiés quand $n$ est impair). L’<b>écart interquartile</b> $\text{EI} = Q_3 - Q_1$ mesure la dispersion des 50 % centraux.</p>
+⟦0⟧
+⟦1⟧
+<h3>Variance et écart type</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Données groupées</h3>
+<p>On estime la moyenne avec les centres des classes : $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+⟦5⟧
+<h3>Transformer les données</h3>
+⟦6⟧
+⟦7⟧`,
+  'c7ge7rgpv3': R`
+⟦0⟧
+<h3>Équation d’un cercle</h3>
+⟦1⟧
+<p>En développant, on obtient la <b>forme développée</b> $x^2 + y^2 + Dx + Ey + F = 0$, de centre $\left(-\frac{D}{2} ; -\frac{E}{2}\right)$ et de rayon $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+⟦3⟧
+<h3>Position d’un point</h3>
+<p>Remplacez le point dans $(x - a)^2 + (y - b)^2$ et comparez à $r^2$ : plus petit → à l’intérieur, égal → sur le cercle, plus grand → à l’extérieur.</p>
+<h3>Tangentes</h3>
+<p>Une tangente est perpendiculaire au rayon au point de contact. Pour le cercle $x^2 + y^2 = r^2$ en $(x_1 ; y_1)$, le rayon a pour pente $\frac{y_1}{x_1}$, donc la tangente a pour pente $-\frac{x_1}{y_1}$.</p>
+<h3>Paraboles</h3>
+<p>$y^2 = 4px$ a pour foyer $(p ; 0)$ et pour directrice $x = -p$ ; $x^2 = 4py$ a pour foyer $(0 ; p)$ et pour directrice $y = -p$. Tout point d’une parabole est à la même distance du foyer que de la directrice.</p>
+⟦4⟧
+⟦5⟧`,
+  'kxyg3nvi7f': R`
+<p>La <b>programmation linéaire</b> cherche la meilleure valeur (la plus grande ou la plus petite) d’une <b>fonction objectif</b> linéaire, comme le bénéfice $z = 30x + 20y$, sous des <b>contraintes</b> linéaires comme $x + y \le 40$.</p>
+<ol><li>Écrivez les contraintes sous forme d’inéquations (avec $x \ge 0$, $y \ge 0$).</li><li>Tracez chaque droite frontière et hachurez la région qui vérifie toutes les contraintes — le <b>domaine réalisable</b>.</li><li>Trouvez les sommets en résolvant des couples d’équations frontières.</li><li>Évaluez la fonction objectif en chaque sommet.</li></ol>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>Pour les problèmes de minimisation avec des contraintes « ≥ », le domaine est souvent non borné ; avec des coûts positifs, le minimum est encore atteint en un sommet.</p>
+⟦3⟧`,
+  '242c6ma5mvc': R`
+<p>Une <b>proposition</b> est un énoncé qui est soit vrai, soit faux. On construit des propositions composées avec des <b>connecteurs</b> :</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Implications associées</h3>
+⟦3⟧
+<h3>Quantificateurs</h3>
+<p>$\forall$ « pour tout » et $\exists$ « il existe ». La négation les échange : la négation de « Tous les élèves ont réussi » est « <b>Certains</b> élèves <b>n’ont pas</b> réussi » ; la négation de « Certains oiseaux ne volent pas » est « Tous les oiseaux volent ».</p>
+<h3>Raisonnements valides</h3>
+<ul><li><b>Modus ponens :</b> $p \Rightarrow q$, $p$ ; donc $q$.</li><li><b>Modus tollens :</b> $p \Rightarrow q$, $\neg q$ ; donc $\neg p$.</li><li><b>Syllogisme :</b> $p \Rightarrow q$, $q \Rightarrow r$ ; donc $p \Rightarrow r$.</li></ul>
+⟦4⟧`,
+  '2eractxl2pu': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Dérivation implicite</h3>
+<p>Quand $y$ est défini implicitement, dérive les deux membres par rapport à $x$ en traitant $y$ comme une fonction de $x$ (donc $\frac{d}{dx}y^2 = 2y\,y'$), puis isole $y'$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2pce0rr7ld': R`
+<h3>Règle de L'Hôpital</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (appliquée deux fois).</p>
+<h3>Optimisation</h3>
+<ol><li>Écris la grandeur à optimiser comme fonction d'une seule variable (utilise la contrainte).</li><li>Dérive et résous $f'(x) = 0$.</li><li>Vérifie qu'il s'agit d'un maximum/minimum (dérivée seconde ou bornes).</li></ol>
+⟦1⟧
+⟦2⟧
+<h3>Taux liés</h3>
+<p>Dérive une relation par rapport au temps. Pour un disque qui grandit, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Approximation affine</h3>
+⟦3⟧
+⟦4⟧
+<h3>Convexité et théorème des accroissements finis</h3>
+<p>$f'' \gt 0$ : convexe ; $f'' \lt 0$ : concave ; un <b>point d'inflexion</b> est un point où la convexité change. <b>TAF :</b> si $f$ est continue sur $[a ; b]$ et dérivable à l'intérieur, il existe $c$ dans $]a ; b[$ tel que $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦5⟧
+⟦6⟧`,
+  '1i8ljxmt6ne': R`
+⟦0⟧
+<h3>Changement de variable</h3>
+<p>Cherche une fonction et sa dérivée. Avec $u = g(x)$, $du = g'(x)\,dx$ :</p>
+⟦1⟧
+<p>Pour une intégrale définie, change aussi les bornes (ou reviens à $x$ avant d'évaluer).</p>
+<h3>Intégration par parties</h3>
+⟦2⟧
+⟦3⟧
+<h3>Décomposition en éléments simples</h3>
+<p>Décompose une fonction rationnelle en morceaux plus simples : $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Chasse les dénominateurs et remplace $x = 1$ et $x = -2$ : $A = \frac{4}{3}$, $B = \frac{11}{3}$. Chaque morceau s'intègre en un logarithme.</p>
+<h3>Intégrales impropres</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '22ywziqc3vc': R`
+<p>Une série $\sum a_n$ <b>converge</b> si ses sommes partielles $S_N = a_1 + \cdots + a_N$ tendent vers une limite finie.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Séries entières et séries de Taylor</h3>
+<p>Une série entière $\sum c_n (x - a)^n$ converge pour $|x - a| \lt R$, le <b>rayon de convergence</b> (on le trouve avec la règle de d'Alembert). La série de Taylor de $f$ en $a$ est $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$ ; en 0, on parle de série de Maclaurin.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'snltdvly4b': R`
+<p>Pour $f(x, y)$, la <b>dérivée partielle</b> $f_x = \frac{\partial f}{\partial x}$ dérive par rapport à $x$ en traitant $y$ comme une constante (et inversement pour $f_y$). Pour $f = x^2y^3$ : $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradient et dérivées directionnelles</h3>
+⟦0⟧
+⟦1⟧
+<h3>Points critiques : test de la dérivée seconde</h3>
+<p>En un point où $f_x = f_y = 0$, pose $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$ : minimum local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$ : maximum local.</li><li>$D \lt 0$ : point selle. &nbsp; $D = 0$ : le test ne permet pas de conclure.</li></ul>
+<h3>Intégrales doubles</h3>
+<p>Sur un rectangle, intègre une variable à la fois (Fubini) : $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. En coordonnées polaires, $dA = r\,dr\,d\theta$.</p>
+<h3>Multiplicateurs de Lagrange</h3>
+<p>Pour optimiser $f$ sous la contrainte $g = c$, résous $\nabla f = \lambda\nabla g$ avec la contrainte.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'fs23huivh': R`
+<p>Une <b>équation différentielle</b> relie une fonction à ses dérivées. Son <b>ordre</b> est celui de la dérivée la plus élevée qui y figure. La <b>solution générale</b> contient des constantes arbitraires ; des conditions initiales déterminent une solution particulière.</p>
+<h3>Équations à variables séparables</h3>
+⟦0⟧
+⟦1⟧
+<p>Cas particulier : $\frac{dy}{dt} = ky$ donne $y = y_0e^{kt}$ — croissance ($k \gt 0$) ou décroissance ($k \lt 0$) exponentielle. Avec une demi-vie $T$, la quantité restante est $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>Équations linéaires du premier ordre</h3>
+⟦2⟧
+<h3>Linéaires du second ordre à coefficients constants</h3>
+<p>Pour $ay'' + by' + cy = 0$, essaie $y = e^{rx}$ : on obtient l'<b>équation caractéristique</b> $ar^2 + br + c = 0$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '24kf7gdq652': R`
+<h3>Systèmes linéaires et rang</h3>
+<p>On résout un système $A\mathbf{x} = \mathbf{b}$ en échelonnant la matrice augmentée $[A \mid \mathbf{b}]$ par opérations sur les lignes. Le <b>rang</b> de $A$ est le nombre de pivots (lignes non nulles de la forme échelonnée).</p>
+⟦0⟧
+<h3>Déterminants</h3>
+⟦1⟧
+<p>Propriétés utiles pour les matrices $n \times n$ : $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Règle de Cramer : $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Valeurs propres et vecteurs propres</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Si $A$ possède $n$ vecteurs propres indépendants, elle est <b>diagonalisable</b> : $A = PDP^{-1}$, avec les vecteurs propres en colonnes de $P$ et les valeurs propres sur la diagonale de $D$.</p>
+⟦5⟧`,
+  'to00bbswkc': R`
+<p>L'unité imaginaire vérifie $i^2 = -1$. Un nombre complexe s'écrit $z = a + bi$, de partie réelle $\text{Re}(z) = a$ et de partie imaginaire $\text{Im}(z) = b$. Les puissances de $i$ se répètent tous les quatre : $i ; -1 ; -i ; 1 ; \ldots$</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Forme exponentielle et formule d'Euler</h3>
+⟦3⟧
+⟦4⟧
+<p>Les racines $n$-ièmes de l'unité sont $e^{2\pi ik/n}$ pour $k = 0 ; 1 ; \ldots ; n - 1$ : des points régulièrement espacés sur le cercle unité.</p>
+⟦5⟧
+⟦6⟧`,
+  'x4ag408mej': R`
+<p>Une <b>variable aléatoire</b> $X$ associe des nombres aux issues. Pour une variable $X$ discrète de probabilités $p(x)$ :</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>La loi normale</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'c7oei6is1q': R`
+<p>On utilise une statistique de l'<b>échantillon</b> (comme $\bar{x}$) pour estimer un paramètre de la <b>population</b> (comme $\mu$). D'après le <b>théorème central limite</b>, pour $n$ grand, la moyenne de l'échantillon suit approximativement une loi normale de moyenne $\mu$ et d'<b>erreur type</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Intervalles de confiance</h3>
+⟦0⟧
+⟦1⟧
+<p>Pour obtenir une marge d'erreur $E$, il faut $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (arrondi à l'entier supérieur). Si $\sigma$ est inconnu, utilise $s$ et la loi de Student $t$.</p>
+<h3>Tests d'hypothèse</h3>
+<ol><li>Énonce $H_0$ (p. ex. $\mu = \mu_0$) et $H_1$.</li><li>Calcule une statistique de test, p. ex. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Trouve la <b>p-valeur</b> : la probabilité, sous $H_0$, d'obtenir un résultat au moins aussi extrême.</li><li>Si $p \le \alpha$, rejette $H_0$ ; sinon, ne la rejette pas.</li></ol>
+⟦2⟧
+⟦3⟧
+<h3>Régression linéaire</h3>
+<p>La droite des moindres carrés $\hat{y} = a + bx$ a pour pente $b = r\frac{s_y}{s_x}$ et passe par $(\bar{x} ; \bar{y})$, donc $a = \bar{y} - b\bar{x}$.</p>
+⟦4⟧
+⟦5⟧`,
+  '1sl57vmn5mx': R`
+<h3>Arithmétique</h3>
+<p>$a \equiv b \pmod n$ signifie que $n$ divise $a - b$ ; $a \bmod n$ est le reste dans $\{0 ; 1 ; \ldots ; n - 1\}$. On peut additionner et multiplier des congruences, et réduire les puissances pas à pas.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>L'<b>inverse modulaire</b> de $a$ modulo $n$ est le $x$ tel que $ax \equiv 1 \pmod n$ ; il existe exactement quand $\gcd(a, n) = 1$.</p>
+<h3>Dénombrement</h3>
+<ul><li>Applications d'un ensemble à $m$ éléments dans un ensemble à $n$ éléments : $n^m$ ; injectives : $n(n-1)\cdots(n-m+1)$.</li><li>Inclusion–exclusion : $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Principe des tiroirs :</b> si plus de $kn$ objets vont dans $n$ tiroirs, un tiroir en reçoit au moins $k + 1$.</li></ul>
+<h3>Récurrences et graphes</h3>
+<p>Une relation de récurrence définit chaque terme à partir des précédents, comme $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Dans un graphe, le <b>lemme des poignées de main</b> dit que $\sum \deg(v) = 2|E|$ ; $K_n$ a $\binom{n}{2}$ arêtes ; un arbre à $n$ sommets a $n - 1$ arêtes ; un graphe connexe a un cycle eulérien ssi tous les degrés sont pairs.</p>
+⟦3⟧
+⟦4⟧`,
+  '1mtvwhuo4v8': R`
+<p>Les méthodes numériques approchent des résultats qui n'ont pas de forme explicite commode. Deux types d'erreur comptent : l'erreur de <b>troncature</b> (due à la méthode) et l'erreur d'<b>arrondi</b> (due à la précision finie).</p>
+⟦0⟧
+<h3>Recherche de racines</h3>
+<ul><li><b>Dichotomie :</b> si $f(a)$ et $f(b)$ sont de signes contraires, teste le milieu $m$ et garde la moitié où le signe change. Lente mais sûre : l'erreur est divisée par deux à chaque étape.</li><li><b>Newton–Raphson :</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Très rapide près d'une racine simple (convergence quadratique), mais peut échouer avec un mauvais point de départ ou si $f' \approx 0$.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Intégration numérique</h3>
+⟦3⟧
+<p>Ici $h = \frac{b - a}{n}$. La méthode de Simpson est exacte pour les polynômes de degré au plus 3.</p>
+⟦4⟧
+<h3>Méthode d'Euler</h3>
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '12ng1nf8855': R`
+<p>Un <b>champ de vecteurs</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ associe un vecteur à chaque point — comme la vitesse du vent ou une force. Avec $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$ :</p>
+⟦0⟧
+<p>La divergence mesure le flux sortant d'un point ; le rotationnel mesure la rotation.</p>
+⟦1⟧
+<h3>Intégrales curvilignes et champs conservatifs</h3>
+⟦2⟧
+⟦3⟧
+<h3>Les grands théorèmes</h3>
+⟦4⟧
+<p>Une jolie conséquence du théorème de Green : l'aire de $D$ vaut $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦5⟧`,
+  'u5cfzxzcr6': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Les transformées inverses demandent en général d'abord une décomposition en éléments simples, puis une lecture de la table.</p>
+⟦5⟧`,
 });

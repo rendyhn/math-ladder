@@ -1,15 +1,6 @@
 /* Français — primaire (périmètre et aire → données) */
 addT('fr', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>Le <b>périmètre</b> est la longueur totale du contour d’une figure (en cm, m, …). L’<b>aire</b> est la mesure de la surface qu’elle occupe (en unités carrées : cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Figures composées</h3>
-<p>Découpez une figure en L ou une autre figure composée en rectangles et en triangles, puis additionnez les aires — ou partez d’un grand rectangle et soustrayez le morceau manquant.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Rectangle, triangle et trapèze — la hauteur se mesure toujours perpendiculairement à la base.`,
   '1vbb9fjurso': R`Figure`,
   '1bkcetbdzwi': R`Périmètre`,
@@ -42,15 +33,6 @@ addT('fr', {
   '4fca853um1': R`Grand rectangle moins la partie retirée : $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>Le <b>volume</b> est l’espace occupé par un solide ; il se compte en <b>unités cubes</b> (cm³, m³). Un cube de 1 cm d’arête a un volume de 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Aire totale</h3>
-<p>L’aire totale est la somme des aires de toutes les faces. Un pavé droit a trois paires de rectangles identiques :</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Pavé droit : } V = l \times w \times h \qquad\qquad \text{Cube : } V = s^3`,
   '1v18xwhq9wo': R`<p>La contenance est liée au volume : $1 \text{ cm}^3 = 1 \text{ mL}$ et $1000 \text{ cm}^3 = 1 \text{ L}$. De plus, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Un aquarium mesure 50 cm de long, 30 cm de large et 40 cm de haut.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -70,17 +52,6 @@ addT('fr', {
   '29p9f2w08h': R`On cherche $s^3 = ⟦0⟧$. Comme $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, chaque arête mesure ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Les angles mesurent une rotation, en <b>degrés</b> (°). Un tour complet vaut $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Triangles</h3>
-<p><b>Équilatéral</b> : trois côtés égaux, chaque angle vaut $60^\circ$. <b>Isocèle</b> : deux côtés égaux et deux angles à la base égaux. <b>Quelconque</b> : aucun côté égal. Un triangle <b>rectangle</b> a un angle de $90^\circ$.</p>
-<h3>Polygones</h3>
-<p>Un polygone à $n$ côtés se découpe en $n - 2$ triangles à partir d’un sommet, donc</p>
-⟦2⟧
-<p>Dans un polygone <b>régulier</b>, tous les angles sont égaux ; chacun vaut donc $\frac{(n-2) \times 180^\circ}{n}$. Un hexagone régulier a des angles de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Type`,
   '1czpi6e2j2z': R`Mesure`,
   '2eamokno2qd': R`Aigu`,
@@ -120,13 +91,6 @@ addT('fr', {
   '1m260esohws': R`Les deux angles à la base sont égaux : $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Les données sont des informations que l’on recueille, comme des notes ou des fruits préférés. Un <b>tableau d’effectifs</b> indique combien de fois apparaît chaque valeur ; les <b>diagrammes en barres</b> et les <b>pictogrammes</b> montrent la même information sous forme visuelle.</p>
-<h3>Quatre indicateurs</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Indicateur`,
   '1fy4t37t415': R`Comment le trouver`,
   '18v4e4ulshl': R`Pour 3 ; 7 ; 7 ; 8 ; 10`,

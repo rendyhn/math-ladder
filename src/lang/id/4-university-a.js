@@ -1,15 +1,6 @@
 /* Bahasa Indonesia — Kuliah (teknik turunan → persamaan diferensial) */
 addT('id', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Turunan implisit</h3>
-<p>Jika $y$ didefinisikan secara implisit, turunkan kedua ruas terhadap $x$ dengan memandang $y$ sebagai fungsi dari $x$ (jadi $\frac{d}{dx}y^2 = 2y\,y'$), lalu selesaikan untuk $y'$.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Perkalian`,
   '1fd6nxjb0xt': R`Pembagian`,
   '21u0n9yxqot': R`Rantai`,
@@ -36,20 +27,6 @@ addT('id', {
   '20aqqhk2mtp': R`Aturan perkalian: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Jadi $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Aturan L'Hôpital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (diterapkan dua kali).</p>
-<h3>Optimasi</h3>
-<ol><li>Tulis besaran yang dioptimalkan sebagai fungsi satu variabel (gunakan kendalanya).</li><li>Turunkan dan selesaikan $f'(x) = 0$.</li><li>Periksa apakah itu maksimum/minimum (turunan kedua atau titik ujung).</li></ol>
-⟦1⟧
-<h3>Laju yang berkaitan</h3>
-<p>Turunkan suatu hubungan terhadap waktu. Untuk lingkaran yang membesar, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Aproksimasi linear</h3>
-⟦2⟧
-<h3>Kecekungan dan teorema nilai rata-rata</h3>
-<p>$f'' \gt 0$: cekung ke atas; $f'' \lt 0$: cekung ke bawah; <b>titik belok</b> adalah tempat kecekungan berubah. <b>Teorema nilai rata-rata:</b> jika $f$ kontinu pada $[a; b]$ dan terdiferensialkan di dalamnya, ada $c$ di $(a; b)$ dengan $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Jika $\lim \frac{f(x)}{g(x)}$ berbentuk $\frac{0}{0}$ atau $\frac{\infty}{\infty}$, maka $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (jika limit ruas kanan ada).</p>`,
   '189x52ko5mw': R`<p>Dari keempat sudut lembaran persegi bersisi 18 cm dipotong persegi bersisi $x$, lalu sisinya dilipat ke atas. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ memberi $x = 3$, jadi $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{mis. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -74,19 +51,6 @@ addT('id', {
   '1c5ltuvzsrq': R`Gradien rata-rata $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ memberi $c = ⟦7⟧$ — titik tengah, seperti biasa untuk fungsi kuadrat.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Substitusi</h3>
-<p>Cari sebuah fungsi beserta turunannya. Dengan $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
-<p>Untuk integral tentu, ubah juga batasnya (atau kembalikan ke variabel semula sebelum menghitung).</p>
-<h3>Integral parsial</h3>
-⟦1⟧
-⟦2⟧
-<h3>Pecahan parsial</h3>
-<p>Pecah fungsi rasional menjadi bagian yang lebih sederhana: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Hilangkan penyebut lalu substitusikan $x = 1$ dan $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Setiap bagian diintegralkan menjadi logaritma.</p>
-<h3>Integral tak wajar</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Pilih $u$ menurut urutan <b>LIATE</b>: Logaritma, Invers trigonometri, Aljabar, Trigonometri, Eksponensial — mana yang lebih dulu muncul.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, jadi $du = dx$, $v = \frac{1}{2}e^{2x}$. Hasil: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -139,14 +103,6 @@ addT('id', {
   'lpjavqv13n': R`Sebuah pegas memiliki konstanta $k = ⟦0⟧$ N/m. Berapa usaha yang diperlukan untuk meregangkannya ⟦1⟧ m dari panjang alaminya?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Deret tak hingga $\sum a_n$ <b>konvergen</b> jika jumlah parsialnya $S_N = a_1 + \cdots + a_N$ mendekati suatu limit berhingga.</p>
-⟦0⟧
-⟦1⟧
-<h3>Deret pangkat dan deret Taylor</h3>
-<p>Deret pangkat $\sum c_n (x - a)^n$ konvergen untuk $|x - a| \lt R$, dengan $R$ adalah <b>jari-jari kekonvergenan</b> (dicari dengan uji rasio). Deret Taylor $f$ di sekitar $a$ adalah $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; di sekitar 0 disebut deret Maclaurin.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Uji`,
   '1boy0ga8tbt': R`Kesimpulan`,
   '7ih7yeq8ue': R`Uji suku ke-n (divergensi)`,
@@ -200,19 +156,6 @@ addT('id', {
   '262p4pwoflz': R`Ini adalah deret baku untuk $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Untuk $f(x, y)$, <b>turunan parsial</b> $f_x = \frac{\partial f}{\partial x}$ diturunkan terhadap $x$ dengan memandang $y$ sebagai konstanta (sebaliknya untuk $f_y$). Untuk $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradien dan turunan berarah</h3>
-⟦0⟧
-<h3>Titik kritis: uji turunan kedua</h3>
-<p>Di titik tempat $f_x = f_y = 0$, misalkan $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: minimum lokal. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: maksimum lokal.</li><li>$D \lt 0$: titik pelana. &nbsp; $D = 0$: uji tidak dapat menyimpulkan.</li></ul>
-<h3>Integral lipat dua</h3>
-<p>Pada persegi panjang, integralkan satu variabel setiap kali (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Dalam koordinat kutub, $dA = r\,dr\,d\theta$.</p>
-<h3>Pengali Lagrange</h3>
-<p>Untuk mengoptimalkan $f$ dengan kendala $g = c$, selesaikan $\nabla f = \lambda\nabla g$ bersama kendalanya.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ menunjuk ke arah kenaikan tercepat; panjangnya adalah laju maksimum itu.</p>`,
   'opu0v1dwpl': R`<p>Maksimumkan $f = xy$ dengan kendala $x + y = 10$: $(y; x) = \lambda(1; 1)$ memberi $x = y = 5$, jadi maksimumnya 25.</p>`,
   '83uqphqp8x': R`<p>Dalam koordinat kutub, jangan lupa faktor tambahan $r$ pada $dA = r\,dr\,d\theta$.</p>`,
@@ -240,18 +183,6 @@ addT('id', {
   'hl1el1t8oy': R`Koordinat kutub: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p><b>Persamaan diferensial</b> menghubungkan suatu fungsi dengan turunan-turunannya. <b>Ordenya</b> adalah turunan tertinggi yang muncul. <b>Solusi umum</b> memuat konstanta sembarang; syarat awal menentukan solusi khusus.</p>
-<h3>Persamaan terpisahkan</h3>
-⟦0⟧
-<p>Kasus khusus: $\frac{dy}{dt} = ky$ memberi $y = y_0e^{kt}$ — pertumbuhan ($k \gt 0$) atau peluruhan ($k \lt 0$) eksponensial. Dengan waktu paruh $T$, jumlah yang tersisa adalah $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Persamaan linear orde satu</h3>
-⟦1⟧
-<h3>Persamaan linear orde dua dengan koefisien konstan</h3>
-<p>Untuk $ay'' + by' + cy = 0$, coba $y = e^{rx}$ sehingga diperoleh <b>persamaan karakteristik</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: pisahkan, $\int\frac{dy}{y} = \int 2x\,dx$, jadi $\ln|y| = x^2 + C$ dan $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Untuk $y' + P(x)y = Q(x)$, kalikan dengan <b>faktor integrasi</b> $\mu(x) = e^{\int P(x)\,dx}$. Maka $(\mu y)' = \mu Q$, jadi $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Akar`,

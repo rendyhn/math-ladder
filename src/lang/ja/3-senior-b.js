@@ -1,17 +1,6 @@
 /* 日本語 — 高校（数列 → 三角形の解法） */
 addT('ja', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>ここで $a$ は初項、$l$ は末項です。</p>
-⟦1⟧
-⟦2⟧
-<h3>無限等比級数</h3>
-⟦3⟧
-<p>例：$8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$。</p>
-<h3>シグマ記号</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ は $f(1) + f(2) + \cdots + f(n)$ を表します。便利な公式：$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$、$\sum_{k=1}^{n} c = cn$。</p>
-⟦4⟧`,
   'lwukzez7ke': R`等差数列`,
   '1atqzl7ltey': R`等比数列`,
   'zs186mkwh5': R`毎回 $d$ をたす`,
@@ -33,18 +22,6 @@ addT('ja', {
   '222tg0c1ffy': R`等差数列の和です：$S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ ドル。`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>直角三角形で、鋭角 $\theta$ について：</p>
-⟦0⟧
-<p>英語圏の覚え方：<b>SOH-CAH-TOA</b>（sin = 対辺/斜辺、cos = 隣辺/斜辺、tan = 対辺/隣辺）。また $\tan\theta = \frac{\sin\theta}{\cos\theta}$ で、逆数は $\csc\theta = \frac{1}{\sin\theta}$、$\sec\theta = \frac{1}{\cos\theta}$、$\cot\theta = \frac{1}{\tan\theta}$ です。</p>
-<h3>有名角の値</h3>
-⟦1⟧
-<h3>弧度法</h3>
-<p>$180^\circ = \pi$ ラジアン。度をラジアンにするには $\frac{\pi}{180}$ を、ラジアンを度にするには $\frac{180}{\pi}$ をかけます。よって $60^\circ = \frac{\pi}{3}$、$\frac{3\pi}{4} = 135^\circ$。</p>
-<h3>単位円</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{対辺}}{\text{斜辺}} \qquad \cos\theta = \frac{\text{隣辺}}{\text{斜辺}} \qquad \tan\theta = \frac{\text{対辺}}{\text{隣辺}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('ja', {
   '1856p6n9vrk': R`sin が正なのは第 1・2 象限、cos は第 1・4 象限、tan は第 1・3 象限です。両方の条件を満たすのは<b>⟦0⟧</b>だけです。`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p><b>恒等式</b>はすべての角で成り立ちます。特に重要なもの：</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>三角方程式を解く</h3>
-<p>基準角を求め、指定された範囲で符号が正しい角をすべて求めます。</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`相互関係`,
   '28msif6x03y': R`加法定理`,
   '1qlqqnnfd2i': R`2 倍角の公式`,
@@ -111,13 +79,6 @@ addT('ja', {
   '19cq8bi37ib': R`三角形の 3 辺は ⟦0⟧、⟦1⟧、⟦2⟧ です。第 ⟦3⟧ 象限では sin は⟦4⟧、cos は⟦5⟧なので、$\sin\theta = ⟦6⟧$、$\cos\theta = ⟦7⟧$。`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>辺 $a$ が角 $A$ の対辺、$b$ が $B$ の対辺、$c$ が $C$ の対辺になるように名前をつけます。これらの定理は直角三角形に限らず、<b>どんな</b>三角形でも成り立ちます。</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>1 辺とその対角、さらにもう 1 辺か 1 角がわかっているときに使います。</p>`,
   'mp16igkhf3': R`正弦定理`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>2 辺とその間の角、または 3 辺がわかっているときに使います。</p>`,

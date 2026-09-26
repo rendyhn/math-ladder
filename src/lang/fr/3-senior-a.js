@@ -5,20 +5,6 @@ addT('fr', {
   '2gdno2vs4iz': R`Écrivez une réponse comme 9pi ou 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Une <b>équation du second degré</b> est de la forme $ax^2 + bx + c = 0$ avec $a \ne 0$. Elle a au plus deux solutions (racines).</p>
-<h3>1. Factorisation</h3>
-<p>Un produit est nul si et seulement si l’un de ses facteurs est nul. Cherchez deux nombres dont le produit vaut $c$ et la somme vaut $b$ (quand $a = 1$) :</p>
-⟦0⟧
-<h3>2. Forme canonique</h3>
-⟦1⟧
-<h3>3. La formule du discriminant</h3>
-⟦2⟧
-<h3>Somme et produit des racines (Viète)</h3>
-⟦3⟧
-<p>Ainsi, une équation de racines $r$ et $s$ est $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ ou } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>Le <b>discriminant</b> $D = b^2 - 4ac$ indique combien il y a de racines réelles :</p><ul><li>$D \gt 0$ : deux racines réelles distinctes</li><li>$D = 0$ : une racine réelle double</li><li>$D \lt 0$ : aucune racine réelle (deux racines complexes)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$ : $D = 49 - 24 = 25$, donc $x = \frac{7 \pm 5}{4}$, soit $x = 3$ ou $x = \frac{1}{2}$. Vérification : somme $= \frac{7}{2}$ ✓, produit $= \frac{3}{2}$ ✓.</p>`,
@@ -46,14 +32,6 @@ addT('fr', {
   '27ssy7fe6w9': R`Soit $w$ la largeur : $w(w + ⟦0⟧) = ⟦1⟧$, donc $⟦2⟧ = 0$, c’est-à-dire $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Une largeur est positive, donc $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>La courbe de $f(x) = ax^2 + bx + c$ est une <b>parabole</b>. Elle est tournée <b>vers le haut</b> si $a \gt 0$ (une vallée, avec un minimum) et <b>vers le bas</b> si $a \lt 0$ (une colline, avec un maximum).</p>
-⟦0⟧
-<h3>Forme canonique</h3>
-⟦1⟧
-<p>La mise sous forme canonique transforme la forme développée : $x^2 - 6x + 11 = (x - 3)^2 + 2$, donc le sommet est $(3 ; 2)$ et le minimum vaut 2. L’ensemble des images est $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Axe de symétrie et sommet : $x = -\dfrac{b}{2a}$ ; le sommet est $\left(-\dfrac{b}{2a} ;\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Intersection avec l’axe des $y$ : $(0 ; c)$.</li><li>Intersections avec l’axe des $x$ : les racines de $ax^2 + bx + c = 0$ (s’il y en a).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{sommet } (h ; k)`,
   '17der0pee5r': R`<p>La hauteur d’un ballon est $h(t) = -5t^2 + 20t + 1$ mètres. Le sommet est en $t = -\frac{20}{2(-5)} = 2$ s, et la hauteur maximale est $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -77,18 +55,6 @@ addT('fr', {
   'xs3xxut6a6': R`Le sommet est $⟦0⟧$ et la parabole est tournée vers le bas, donc l’ensemble des images est $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Une <b>fonction</b> associe à chaque antécédent exactement <b>une</b> image. L’ensemble des valeurs autorisées est l’<b>ensemble de définition</b> ; l’ensemble des images est l’<b>ensemble image</b>.</p>
-<h3>Ensembles de définition naturels</h3>
-<ul><li>Pas de division par zéro : pour $\frac{1}{x - 2}$, il faut $x \ne 2$.</li><li>Pas de racine carrée d’un négatif : pour $\sqrt{x + 3}$, il faut $x \ge -3$.</li><li>Un logarithme exige un argument positif : pour $\log(x - 1)$, il faut $x \gt 1$.</li></ul>
-<h3>Composition</h3>
-⟦0⟧
-⟦1⟧
-<h3>Fonctions réciproques</h3>
-<p>$f^{-1}$ défait ce que fait $f$ : si $f(a) = b$, alors $f^{-1}(b) = a$. Pour la trouver, écrivez $y = f(x)$, échangez $x$ et $y$, puis exprimez $y$.</p>
-⟦2⟧
-<p>La courbe de $f^{-1}$ est la symétrique de celle de $f$ par rapport à la droite $y = x$. Seules les fonctions injectives ont une réciproque.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>On applique d’abord $g$, puis $f$. En général, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Alors $f(g(3)) = f(9) = 19$, mais $g(f(3)) = g(7) = 49$. En expressions : $f(g(x)) = 2x^2 + 1$ et $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$ : on échange pour obtenir $x = 3y - 5$, donc $y = \frac{x + 5}{3}$ et $f^{-1}(x) = \frac{x + 5}{3}$. Vérification : $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -112,16 +78,6 @@ addT('fr', {
   'ranlsqjvf9': R`Comme $⟦0⟧ \ge ⟦1⟧$, on utilise la seconde expression : $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Les exposants rationnels combinent puissances et racines : $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Ainsi, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ et $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logarithmes</h3>
-⟦0⟧
-⟦1⟧
-<h3>Résolution d’équations</h3>
-<ul><li>Même base : $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Équation logarithmique : $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases différentes : on prend le logarithme des deux membres, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Croissance et décroissance exponentielles</h3>
-<p>$A = A_0 \cdot r^{t/T}$ : une quantité multipliée par $r$ toutes les $T$ unités de temps. Intérêts composés : $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0 ;\; b \ne 1 ;\; a \gt 0)$$<p>Un logarithme répond à la question « à quelle puissance faut-il élever $b$ pour obtenir $a$ ? » — ainsi $\log_2 32 = 5$. $\log x$ désigne $\log_{10} x$ ; $\ln x$ désigne $\log_e x$, avec $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`changement de base`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. La règle du produit transforme un <i>produit</i> à l’intérieur en une somme à l’extérieur.</p>`,

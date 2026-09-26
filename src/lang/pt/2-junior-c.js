@@ -1,18 +1,6 @@
 /* Português — anos finais (sistemas → sólidos) */
 addT('pt', {
   // systems
-  '1obgwi6un65': R`
-<p>Um <b>sistema</b> de duas equações do 1º grau em $x$ e $y$ pede os valores que tornam verdadeiras <i>as duas</i> equações. No gráfico, a solução é o ponto onde as duas retas se cruzam.</p>
-<h3>Substituição</h3>
-⟦0⟧
-<h3>Adição (eliminação)</h3>
-⟦1⟧
-⟦2⟧
-<h3>Casos especiais</h3>
-<p>Retas paralelas (mesmo coeficiente angular, coeficientes lineares diferentes) nunca se encontram: <b>não há solução</b>. Retas coincidentes dão <b>infinitas</b> soluções.</p>
-<h3>Problemas</h3>
-<p>Duas incógnitas precisam de duas informações. "Numa fazenda há galinhas e vacas, com 30 cabeças e 84 patas", com $c$ vacas e $h$ galinhas: $c + h = 30$ e $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitua a primeira na segunda: $3x + (2x - 1) = 14$, então $5x = 15$, $x = 3$ e $y = 2(3) - 1 = 5$. Solução: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Some as equações para eliminar $y$: $7x = 21$, então $x = 3$. Depois, $2(3) + 3y = 12$ dá $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Multiplique primeiro uma ou as duas equações para que uma incógnita tenha coeficientes iguais (ou opostos) e depois subtraia (ou some) para eliminá-la. Confira sempre a resposta nas <b>duas</b> equações originais.</p>`,
@@ -33,18 +21,6 @@ addT('pt', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ e $a - b = ⟦1⟧$. Somando: $2a = ⟦2⟧$, então $a = ⟦3⟧$ e $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Num triângulo retângulo, o lado mais longo, oposto ao ângulo reto, é a <b>hipotenusa</b> $c$. Os outros dois lados são os <b>catetos</b> $a$ e $b$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Ternos pitagóricos</h3>
-<p>Vale a pena lembrar as soluções inteiras e seus múltiplos: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, e $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Distância entre dois pontos</h3>
-⟦3⟧
-<h3>A recíproca</h3>
-<p>Sendo $c$ o maior lado: se $a^2 + b^2 = c^2$, o triângulo é <b>retângulo</b>; se $a^2 + b^2 \gt c^2$, é <b>acutângulo</b>; se $a^2 + b^2 \lt c^2$, é <b>obtusângulo</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Para achar a hipotenusa, some os quadrados; para achar um cateto, subtraia: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Uma escada de 10 m está apoiada numa parede, com o pé a 6 m dela. Altura alcançada: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Com catetos 3 e 4, a hipotenusa é 5, e não 7.</p>`,
@@ -66,17 +42,6 @@ addT('pt', {
   '5pal2wak00': R`Compare com o maior lado, ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ e $⟦4⟧^2 = ⟦5⟧$. Como $⟦6⟧ ⟦7⟧ ⟦8⟧$, o triângulo é <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>A razão entre o comprimento de qualquer circunferência e seu diâmetro é sempre o mesmo número, $\pi \approx 3{,}14159\ldots$ (muitas vezes aproximado por $3{,}14$ ou $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Arcos e setores</h3>
-<p>Um setor de ângulo central $\theta$ é a fração $\frac{\theta}{360^\circ}$ do círculo inteiro:</p>
-⟦3⟧
-<h3>Ângulos na circunferência</h3>
-<ul><li>O ângulo central é o <b>dobro</b> do ângulo inscrito que determina o mesmo arco.</li><li>Um ângulo inscrito numa semicircunferência mede $90^\circ$.</li><li>A tangente é perpendicular ao raio no ponto de tangência.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Elementos de uma circunferência. O diâmetro é o dobro do raio: d = 2r.`,
   '1y041ovnv67': R`<p>Raio 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm e $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Deixar a resposta "em função de $\pi$" a mantém exata.</p>`,
   '1ljhd2tb7ca': R`\text{comprimento do arco} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{área do setor} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -104,13 +69,6 @@ addT('pt', {
   'kfe0atvapi': R`O ângulo inscrito é a metade do central: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p>Um <b>prisma</b> tem a mesma seção transversal em todo o seu comprimento, então seu volume é simplesmente a área dessa seção vezes o comprimento. Uma pirâmide ou um cone que caiba exatamente dentro dele tem exatamente um terço desse volume.</p>
-⟦0⟧
-<p>No cone, $s$ é a <b>geratriz</b>; por Pitágoras, $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Sólido`,
   'alc1a0j1b0': R`Volume`,
   'bt7ak3o2ct': R`Área total`,

@@ -1,17 +1,6 @@
 /* 한국어 — 고등학교 (수열 → 삼각형의 풀이) */
 addT('ko', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>여기서 $a$는 첫째항, $l$은 끝항입니다.</p>
-⟦1⟧
-⟦2⟧
-<h3>무한등비급수</h3>
-⟦3⟧
-<p>예: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>시그마 기호</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$는 $f(1) + f(2) + \cdots + f(n)$을 뜻합니다. 유용한 공식: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$, $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`등차수열`,
   '1atqzl7ltey': R`등비수열`,
   'zs186mkwh5': R`매번 $d$를 더함`,
@@ -33,18 +22,6 @@ addT('ko', {
   '222tg0c1ffy': R`등차수열의 합입니다: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$달러.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>직각삼각형에서 예각 $\theta$에 대하여:</p>
-⟦0⟧
-<p>영어권 암기법: <b>SOH-CAH-TOA</b> (sin = 대변/빗변, cos = 인접변/빗변, tan = 대변/인접변). 또한 $\tan\theta = \frac{\sin\theta}{\cos\theta}$이고, 역수는 $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$입니다.</p>
-<h3>특수각의 삼각비</h3>
-⟦1⟧
-<h3>호도법</h3>
-<p>$180^\circ = \pi$ 라디안. 도를 라디안으로 바꾸려면 $\frac{\pi}{180}$을, 라디안을 도로 바꾸려면 $\frac{180}{\pi}$을 곱합니다. 따라서 $60^\circ = \frac{\pi}{3}$, $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>단위원</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{대변}}{\text{빗변}} \qquad \cos\theta = \frac{\text{인접변}}{\text{빗변}} \qquad \tan\theta = \frac{\text{대변}}{\text{인접변}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('ko', {
   '1856p6n9vrk': R`sin은 제1, 2사분면에서, cos는 제1, 4사분면에서, tan은 제1, 3사분면에서 양입니다. 두 조건을 모두 만족하는 것은 <b>⟦0⟧</b>뿐입니다.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p><b>항등식</b>은 모든 각에서 성립합니다. 가장 중요한 것들:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>삼각방정식 풀기</h3>
-<p>기준각을 구한 다음, 주어진 범위에서 부호가 맞는 각을 모두 찾습니다.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`피타고라스 항등식`,
   '28msif6x03y': R`덧셈정리`,
   '1qlqqnnfd2i': R`배각공식`,
@@ -111,13 +79,6 @@ addT('ko', {
   '19cq8bi37ib': R`삼각형의 세 변은 ⟦0⟧, ⟦1⟧, ⟦2⟧입니다. 제⟦3⟧사분면에서 sin은 ⟦4⟧, cos는 ⟦5⟧이므로 $\sin\theta = ⟦6⟧$, $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>변 $a$가 각 $A$의 대변, $b$가 $B$의 대변, $c$가 $C$의 대변이 되도록 이름을 붙입니다. 이 법칙들은 직각삼각형뿐 아니라 <b>모든</b> 삼각형에서 성립합니다.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>한 변과 그 대각, 그리고 다른 한 변이나 한 각을 알 때 사용합니다.</p>`,
   'mp16igkhf3': R`사인법칙`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>두 변과 그 끼인각을 알 때, 또는 세 변을 알 때 사용합니다.</p>`,

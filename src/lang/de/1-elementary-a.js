@@ -14,20 +14,6 @@ addT('de', {
   '2wu7e9ekt1': R`Ein Rechteck mit Länge l und Breite w, ein Dreieck mit Grundseite b und Höhe h sowie ein Trapez mit den parallelen Seiten a und b und der Höhe h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Unser Zahlensystem verwendet zehn Ziffern, 0 bis 9. Die <b>Stelle</b> einer Ziffer bestimmt ihren <b>Wert</b>: Jede Stelle ist zehnmal so viel wert wie die Stelle rechts daneben.</p>
-⟦0⟧
-<p>In <b>5 382 417</b> steht die Ziffer 8 an der Zehntausenderstelle, sie ist also $8 \times 10\,000 = 80\,000$ wert. Die Ziffer 3 ist $300\,000$ wert.</p>
-<h3>Zerlegung nach Stellenwerten</h3>
-<p>Schreibt man eine Zahl als Summe ihrer Stellenwerte, sieht man, was jede Ziffer wert ist:</p>
-⟦1⟧
-<p>Die 0 an der Zehnerstelle ist ein <b>Platzhalter</b>. Ohne sie würde aus 4 307 die Zahl 437.</p>
-<h3>Zahlen vergleichen</h3>
-<p>Eine natürliche Zahl mit mehr Stellen ist größer. Haben zwei Zahlen gleich viele Stellen, vergleicht man sie Ziffer für Ziffer von links; die erste Stelle, an der sie sich unterscheiden, entscheidet. Also ist $52\,814 \gt 52\,781$, weil an der Hunderterstelle $8 \gt 7$ gilt.</p>
-<h3>Runden</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Millionen`,
   '1y40p90zlus': R`Hunderttausender`,
@@ -64,18 +50,6 @@ addT('de', {
   '1uhrj1iztnj': R`von der kleinsten zur größten`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>Addieren fasst Mengen zusammen; Subtrahieren bestimmt, was übrig bleibt, oder den <b>Unterschied</b> zwischen zwei Mengen. Bei großen Zahlen rechnet man <b>schriftlich</b>: Die Ziffern werden nach Stellenwerten untereinander geschrieben, und man rechnet von der Einerspalte nach links.</p>
-<h3>Addieren mit Übertrag</h3>
-<p>Ergibt eine Spalte 10 oder mehr, schreibt man die Einerziffer hin und nimmt den Zehner als <b>Übertrag</b> in die nächste Spalte mit.</p>
-⟦0⟧
-<h3>Subtrahieren mit Entbündeln</h3>
-<p>Ist die obere Ziffer einer Spalte kleiner als die untere, <b>entbündelt</b> man (man borgt) eins aus der nächsten Spalte: Das ergibt 10 mehr in der aktuellen Spalte.</p>
-⟦1⟧
-⟦2⟧
-<h3>Textaufgaben</h3>
-<p>Wörter wie <i>insgesamt, zusammen, mehr, erhöht</i> bedeuten meist Addition. Wörter wie <i>übrig, bleiben, Unterschied, wie viel mehr, weniger</i> bedeuten meist Subtraktion. Frag dich immer, was die Aufgabe wirklich wissen will.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Einer: $7 + 6 = 13$ → 3 hinschreiben, 1 übertragen.</li><li>Zehner: $8 + 4 + 1 = 13$ → 3 hinschreiben, 1 übertragen.</li><li>Hunderter: $5 + 8 + 1 = 14$ → 4 hinschreiben, 1 übertragen.</li><li>Tausender: $4 + 2 + 1 = 7$.</li></ol><p>Ergebnis: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Einer: 4 ist kleiner als 8. Die Zehnerziffer ist 0, also entbündelt man einen Hunderter: Aus 204 werden 1 Hunderter, 9 Zehner und 14 Einer. $14 - 8 = 6$.</li><li>Zehner: $9 - 5 = 4$.</li><li>Hunderter: 1 ist kleiner als 7, also einen Tausender entbündeln: $11 - 7 = 4$.</li><li>Tausender: $5 - 1 = 4$.</li></ol><p>Ergebnis: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>Addition und Subtraktion machen sich gegenseitig rückgängig. Eine Subtraktion prüft man durch Addieren: $4\,446 + 1\,758 = 6\,204$ ✓. So findet man auch fehlende Zahlen: Wenn $\square + 348 = 1\,000$, dann ist $\square = 1\,000 - 348 = 652$.</p>`,
@@ -100,17 +74,6 @@ addT('de', {
   'h14zpmlfj7': R`„Wie viele mehr“ fragt nach dem Unterschied: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p><b>Multiplizieren</b> ist wiederholtes Addieren gleich großer Gruppen: $4 \times 6$ bedeutet 4 Gruppen zu je 6, also $6 + 6 + 6 + 6 = 24$. <b>Dividieren</b> teilt eine Menge in gleich große Gruppen auf: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Größere Zahlen multiplizieren</h3>
-<p>Zerlege eine Zahl nach Stellenwerten, multipliziere jeden Teil und addiere (das ist das Distributivgesetz):</p>
-⟦1⟧
-<h3>Division mit Rest</h3>
-<p>Geht eine Division nicht auf, heißt das, was übrig bleibt, <b>Rest</b>. Er ist immer kleiner als der Divisor.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>Multiplikation und Division machen sich gegenseitig rückgängig: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Beim Multiplizieren ist die Reihenfolge egal: $a \times b = b \times a$.</li><li>Multiplikation verteilt sich auf eine Summe: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ Rest } 2 \qquad \text{denn } 5 \times 9 + 2 = 47`,
@@ -136,13 +99,6 @@ addT('de', {
   '13ytah9dyhs': R`Gleich lange Reihen bedeuten Multiplikation: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ Stühle.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Enthält eine Rechnung mehrere Rechenarten, müssen alle sie in derselben Reihenfolge ausführen – sonst ergäbe derselbe Term verschiedene Ergebnisse. Man merkt sich die Reihenfolge mit <b>Klammer vor Potenz vor Punkt vor Strich</b>; im Englischen heißt die Merkregel <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Schritt`,
   '1ata9ppdhpl': R`Rechenart`,
   '1i56r47suu5': R`Beispiel`,
@@ -168,19 +124,6 @@ addT('de', {
   '2g7vu4g2g7r': R`Addition und Subtraktion sind gleichrangig, also von links nach rechts: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, dann $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Würde man zuerst $⟦6⟧ + ⟦7⟧$ rechnen, käme fälschlich ⟦8⟧ heraus.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Ein <b>Teiler</b> einer Zahl teilt sie ohne Rest. Ein <b>Vielfaches</b> einer Zahl ist diese Zahl mal eine natürliche Zahl.</p>
-<ul><li>Teiler von 12: 1, 2, 3, 4, 6, 12 (sie treten paarweise auf: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Vielfache von 12: 12, 24, 36, 48, …</li></ul>
-<h3>Primzahlen und zusammengesetzte Zahlen</h3>
-<p>Eine <b>Primzahl</b> hat genau zwei Teiler: 1 und sich selbst (2, 3, 5, 7, 11, 13, …). Eine <b>zusammengesetzte</b> Zahl hat mehr als zwei Teiler. Die 1 ist weder Primzahl noch zusammengesetzt, und 2 ist die einzige gerade Primzahl.</p>
-⟦0⟧
-<h3>Primfaktorzerlegung</h3>
-<p>Jede natürliche Zahl größer als 1 lässt sich auf genau eine Weise als Produkt von Primzahlen schreiben. Nutze einen Faktorbaum: Zerlege weiter, bis jeder Ast mit einer Primzahl endet.</p>
-⟦1⟧
-<h3>ggT und kgV</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Teilbar durch`,
   '1u2j0a6t91o': R`Regel`,
   '1fsfip1h2ap': R`letzte Ziffer ist gerade`,

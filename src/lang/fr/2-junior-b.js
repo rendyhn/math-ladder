@@ -1,20 +1,6 @@
 /* Français — collège (calcul littéral → fonctions affines) */
 addT('fr', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Dans l’expression $5x^2 - 3xy + 7$, les <b>termes</b> sont $5x^2$, $-3xy$ et $7$ ; les <b>coefficients</b> sont 5 et $-3$ ; 7 est le <b>terme constant</b>. Des <b>termes semblables</b> ont exactement les mêmes lettres avec les mêmes exposants ($4ab$ et $-ab$ sont semblables ; $x^2$ et $x$ ne le sont pas).</p>
-<h3>Réduire</h3>
-<p>On regroupe les termes semblables en additionnant leurs coefficients : $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Développer</h3>
-⟦0⟧
-⟦1⟧
-<h3>Identités remarquables</h3>
-⟦2⟧
-<h3>Factoriser</h3>
-<p>Factoriser, c’est développer à l’envers. On met en facteur le plus grand facteur commun : $12x - 18 = 6(2x - 3)$.</p>
-<h3>Substituer</h3>
-<p>On remplace chaque lettre par sa valeur, avec des parenthèses pour les nombres négatifs : si $x = -2$, alors $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Distributivité :</b> $a(b + c) = ab + ac$. On multiplie <i>chaque</i> terme de la parenthèse par le facteur extérieur.</p><p><b>Double distributivité :</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. On oublie facilement le terme du milieu, $2 \cdot 4 \cdot x = 8x$.</p>`,
@@ -31,17 +17,6 @@ addT('fr', {
   '2e60a5izj9m': R`Développez $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Une équation affirme que deux expressions sont égales. Pensez à une balance : ce que l’on fait d’un côté, on le fait de l’autre, et l’équilibre est conservé. Le but est d’isoler l’inconnue.</p>
-⟦0⟧
-⟦1⟧
-<h3>Parenthèses et fractions</h3>
-<p>Développez d’abord (ou divisez les deux membres par le nombre devant la parenthèse). Supprimez les fractions en multipliant chaque terme par le dénominateur commun :</p>
-⟦2⟧
-<h3>Problèmes</h3>
-<ol><li>Choisissez une lettre pour l’inconnue et dites ce qu’elle représente.</li><li>Traduisez l’énoncé en équation.</li><li>Résolvez, puis vérifiez que la réponse a du sens dans le problème.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>On défait les opérations dans l’ordre inverse grâce aux <b>opérations réciproques</b> : addition ↔ soustraction, multiplication ↔ division.</p>`,
   '11eu1q8a3p': R`<p>Résoudre $5x - 7 = 2x + 11$.</p><ol><li>Soustraire $2x$ aux deux membres : $3x - 7 = 11$.</li><li>Ajouter 7 : $3x = 18$.</li><li>Diviser par 3 : $x = 6$.</li></ol><p>Vérification : $5(6) - 7 = 23$ et $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>La somme de trois entiers consécutifs vaut 72. Notons-les $n$, $n + 1$, $n + 2$ : $3n + 3 = 72$, donc $n = 23$. Les entiers sont 23, 24 et 25.</p>`,
@@ -69,17 +44,6 @@ addT('fr', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, donc $⟦3⟧x = ⟦4⟧$ et $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Une <b>inéquation</b> compare deux expressions : $\lt$ (strictement inférieur), $\gt$ (strictement supérieur), $\le$ (inférieur ou égal), $\ge$ (supérieur ou égal). Ses solutions forment en général tout un intervalle de nombres.</p>
-<p>Sur une droite graduée, $x \gt 2$ se représente par un point <b>ouvert</b> en 2 (2 n’est pas inclus) et une flèche vers la droite ; $x \le 2$ par un point <b>plein</b> et une flèche vers la gauche.</p>
-<h3>Résoudre</h3>
-<p>On résout comme une équation — ajouter, soustraire, multiplier ou diviser les deux membres — avec une règle supplémentaire :</p>
-⟦0⟧
-<p>Pourquoi ? $2 \lt 5$, mais en multipliant par $-1$ on obtient $-2$ et $-5$, et $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Doubles inégalités</h3>
-<p>On applique la même opération aux trois parties : $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Les solutions entières sont $-1 ; 0 ; 1 ; 2 ; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Quand on <b>multiplie ou divise par un nombre négatif</b>, on change le sens de l’inégalité.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Résoudre $7 - 2x \ge 1$.</p><ol><li>Soustraire 7 : $-2x \ge -6$.</li><li>Diviser par $-2$ et changer le sens : $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>« Le plus petit entier tel que $x \gt 4$ » est 5, pas 4 — une inégalité stricte exclut sa borne.</p>`,
@@ -98,13 +62,6 @@ addT('fr', {
   'abjkjjicc6': R`chaque membre`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Un <b>ensemble</b> est une collection bien définie d’objets, ses <b>éléments</b>. On écrit $A = \{2 ; 4 ; 6 ; 8\}$ et $4 \in A$ (« 4 appartient à A »), $5 \notin A$. $n(A)$ est le nombre d’éléments ; ici $n(A) = 4$. L’<b>ensemble vide</b> $\varnothing$ n’a aucun élément ; l’<b>ensemble universel</b> $U$ contient tout ce dont on parle.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Un diagramme de Venn : chaque zone correspond à une combinaison différente de « dans A » et « dans B ».`,
   '142ifrt0jkt': R`Notation`,
   '14czndj1h0b': R`Exemple avec A = {1 ; 2 ; 3 ; 4}, B = {3 ; 4 ; 5}`,
@@ -139,17 +96,6 @@ addT('fr', {
   '9yersm2gye': R`$A = ⟦0⟧$, donc $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Une <b>fonction affine</b> a pour représentation graphique une droite. Sous la <b>forme réduite</b></p>
-⟦0⟧
-<p>$m$ est le <b>coefficient directeur</b> (la pente) : de combien $y$ varie quand $x$ augmente de 1. $c$ est l’<b>ordonnée à l’origine</b>, là où la droite coupe l’axe des $y$. En notation fonctionnelle on écrit $f(x) = mx + c$ ; $f(3)$ désigne « la valeur pour $x = 3$ ».</p>
-<h3>Coefficient directeur à partir de deux points</h3>
-⟦1⟧
-⟦2⟧
-<h3>Intersections avec les axes et autres formes</h3>
-<p>Posez $x = 0$ pour trouver l’ordonnée à l’origine et $y = 0$ pour l’intersection avec l’axe des $x$. Une droite peut s’écrire $ax + by = c$ ; on la réécrit $y = -\frac{a}{b}x + \frac{c}{b}$ pour lire le coefficient directeur. Par un point $(x_1 ; y_1)$ avec le coefficient directeur $m$ : $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{variation verticale}}{\text{variation horizontale}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Par $(1 ; 2)$ et $(4 ; 11)$ : $m = \frac{11 - 2}{4 - 1} = 3$. On remplace $(1 ; 2)$ dans $y = 3x + c$ : $2 = 3 + c$, donc $c = -1$ et la droite est $y = 3x - 1$.</p>`,

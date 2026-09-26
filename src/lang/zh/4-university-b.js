@@ -1,18 +1,6 @@
 /* 中文 — 大学（线性代数 → 拉普拉斯变换） */
 addT('zh', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>线性方程组与秩</h3>
-<p>解方程组 $A\mathbf{x} = \mathbf{b}$ 时，把增广矩阵 $[A \mid \mathbf{b}]$ 用初等行变换化为阶梯形。$A$ 的<b>秩</b>是主元的个数（阶梯形中非零行的行数）。</p>
-⟦0⟧
-<h3>行列式</h3>
-⟦1⟧
-<p>$n \times n$ 矩阵的常用性质：$\det(AB) = \det A \det B$，$\det(A^T) = \det A$，$\det(A^{-1}) = \frac{1}{\det A}$，$\det(kA) = k^n\det A$。克拉默法则：$x_i = \frac{\det A_i}{\det A}$。</p>
-<h3>特征值与特征向量</h3>
-⟦2⟧
-⟦3⟧
-<p>如果 $A$ 有 $n$ 个线性无关的特征向量，它就<b>可对角化</b>：$A = PDP^{-1}$，其中 $P$ 的列是特征向量，$D$ 的对角线上是特征值。</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>秩–零化度定理：</b>对 $m \times n$ 矩阵，$\text{rank}(A) + \text{nullity}(A) = n$。方阵 $A$ 可逆 $\iff \det A \ne 0 \iff$ 各列线性无关 $\iff \text{rank} = n$。</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>对 $2 \times 2$ 矩阵：$\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$。特征值之和等于迹，之积等于行列式。</p>`,
@@ -44,15 +32,6 @@ addT('zh', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$，所以 $\lambda = ⟦3⟧$。`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>虚数单位满足 $i^2 = -1$。复数写成 $z = a + bi$，实部 $\text{Re}(z) = a$，虚部 $\text{Im}(z) = b$。$i$ 的幂每四个一循环：$i, -1, -i, 1, \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>三角形式与欧拉公式</h3>
-⟦2⟧
-⟦3⟧
-<p>$n$ 次单位根是 $e^{2\pi ik/n}$，$k = 0, 1, \ldots, n - 1$：单位圆上等距分布的点。</p>
-⟦4⟧`,
   'rz9c61mn5': R`乘法`,
   '1lvuh3a6n9s': R`共轭`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$，且 $z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('zh', {
   '1xd7417ut46': R`设 $z = ⟦0⟧$。求 $\text{⟦1⟧}(z^2)$。`,
 
   // distributions
-  '28d8604hmp9': R`
-<p><b>随机变量</b> $X$ 给每个结果对应一个数。对概率为 $p(x)$ 的离散型 $X$：</p>
-⟦0⟧
-⟦1⟧
-<h3>正态分布</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`分布`,
   'z5bw2hz29r': R`P(X = k) 或密度`,
@@ -120,17 +91,6 @@ addT('zh', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$，$\text{Var}(X) = ⟦1⟧$。求 $E[⟦2⟧]$。`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>我们用<b>样本</b>统计量（如 $\bar{x}$）估计<b>总体</b>参数（如 $\mu$）。由<b>中心极限定理</b>，当 $n$ 较大时，样本均值近似服从均值为 $\mu$、<b>标准误</b>为 $\frac{\sigma}{\sqrt{n}}$ 的正态分布。</p>
-<h3>置信区间</h3>
-⟦0⟧
-<p>要使误差限为 $E$，需要 $n \ge \left(\frac{z^*\sigma}{E}\right)^2$（向上取整）。$\sigma$ 未知时，用 $s$ 和 $t$ 分布。</p>
-<h3>假设检验</h3>
-<ol><li>提出 $H_0$（例如 $\mu = \mu_0$）和 $H_1$。</li><li>计算检验统计量，例如 $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$。</li><li>求 <b>p 值</b>：在 $H_0$ 成立的前提下，得到至少这样极端结果的概率。</li><li>若 $p \le \alpha$，拒绝 $H_0$；否则不拒绝。</li></ol>
-⟦1⟧
-<h3>线性回归</h3>
-<p>最小二乘直线 $\hat{y} = a + bx$ 的斜率为 $b = r\frac{s_y}{s_x}$，并经过 $(\bar{x}, \bar{y})$，所以 $a = \bar{y} - b\bar{x}$。</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1.645 \;(90\%),\; 1.96 \;(95\%),\; 2.576 \;(99\%)`,
   '7nca7j57l5': R`H₀ 为真`,
   '2e0zey7f13x': R`H₀ 为假`,
@@ -172,17 +132,6 @@ addT('zh', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$，向上取整：$n = ⟦4⟧$。`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>数论</h3>
-<p>$a \equiv b \pmod n$ 表示 $n$ 整除 $a - b$；$a \bmod n$ 是 $\{0, 1, \ldots, n - 1\}$ 中的余数。同余式可以相加、相乘，幂可以逐步约简。</p>
-⟦0⟧
-⟦1⟧
-<p>$a$ 模 $n$ 的<b>模逆元</b>是满足 $ax \equiv 1 \pmod n$ 的 $x$；它存在当且仅当 $\gcd(a, n) = 1$。</p>
-<h3>计数</h3>
-<ul><li>从 $m$ 元集合到 $n$ 元集合的映射有 $n^m$ 个；单射有 $n(n-1)\cdots(n-m+1)$ 个。</li><li>容斥原理：$|A \cup B| = |A| + |B| - |A \cap B|$。</li><li><b>抽屉原理：</b>把多于 $kn$ 个物体放进 $n$ 个抽屉，至少有一个抽屉里不少于 $k + 1$ 个。</li></ul>
-<h3>递推与图</h3>
-<p>递推关系用前面的项定义每一项，如 $a_n = 2a_{n-1} + 1$，$a_0 = 1$。在图中，<b>握手定理</b>说 $\sum \deg(v) = 2|E|$；$K_n$ 有 $\binom{n}{2}$ 条边；$n$ 个顶点的树有 $n - 1$ 条边；连通图有欧拉回路当且仅当所有顶点的度都是偶数。</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>欧几里得算法（辗转相除法）：</b>$\gcd(a, b) = \gcd(b, a \bmod b)$，重复直到余数为 0。</p><p><b>费马小定理：</b>若 $p$ 为质数且 $p \nmid a$，则 $a^{p-1} \equiv 1 \pmod p$。</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$：$252 = 1 \cdot 198 + 54$，$198 = 3 \cdot 54 + 36$，$54 = 1 \cdot 36 + 18$，$36 = 2 \cdot 18$。所以最大公约数是 18。</p><p>$2^{100} \bmod 7$：因为 $2^3 = 8 \equiv 1$，$2^{100} = (2^3)^{33} \cdot 2 \equiv 2$。</p>`,
   '23tw4c5wfxh': R`<p>在容斥问题（“能被 3 或 5 整除”）中，重叠部分是能被<b>最小公倍数</b> 15 整除。</p>`,
@@ -223,18 +172,6 @@ addT('zh', {
   '27kjdpfw0sg': R`共有 ⟦0⟧ 类，$⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ 人还可能避免；再多一人就必然有 ⟦4⟧ 人同类：$⟦5⟧$。`,
 
   // numerical
-  '106u35np5bp': R`
-<p>数值方法用来近似那些没有方便的解析形式的答案。要注意两种误差：<b>截断</b>误差（来自方法本身）和<b>舍入</b>误差（来自有限精度）。</p>
-⟦0⟧
-<h3>求根</h3>
-<ul><li><b>二分法：</b>若 $f(a)$ 与 $f(b)$ 异号，检查中点 $m$，保留变号的那一半。慢但一定成功：每一步误差减半。</li><li><b>牛顿法：</b>$x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$。在单根附近非常快（二次收敛），但初值不好或 $f' \approx 0$ 时可能失败。</li></ul>
-⟦1⟧
-<h3>数值积分</h3>
-⟦2⟧
-<p>这里 $h = \frac{b - a}{n}$。辛普森公式对不超过 3 次的多项式是精确的。</p>
-<h3>欧拉法</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{绝对误差} = |x_{\text{真}} - x_{\text{近似}}| \qquad \text{相对误差} = \frac{|x_{\text{真}} - x_{\text{近似}}|}{|x_{\text{真}}|}`,
   '1a9noj3sp27': R`<p>用 $f(x) = x^2 - 10$ 从 $x_0 = 3$ 开始求 $\sqrt{10}$：$x_1 = 3 - \frac{-1}{6} = 3.1667$，$x_2 = 3.1623$——已经精确到 4 位小数。</p>`,
   'vx6qz5zup7': R`\text{梯形公式：} \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{辛普森公式（}n \text{ 为偶数）：} \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('zh', {
   '6utp8finkn': R`用 ⟦1⟧ 近似 $⟦0⟧$。求相对误差（百分比），保留 3 位小数。`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p><b>向量场</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ 给每一点指定一个向量——比如风速或力。记 $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$：</p>
-⟦0⟧
-<p>散度衡量从一点向外的流出量；旋度衡量旋转的程度。</p>
-<h3>曲线积分与保守场</h3>
-⟦1⟧
-⟦2⟧
-<h3>几个重要定理</h3>
-⟦3⟧
-<p>格林公式的一个巧妙推论：$D$ 的面积是 $\frac{1}{2}\oint_C (x\,dy - y\,dx)$。</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>若存在势函数 $\varphi$ 使 $\mathbf{F} = \nabla\varphi$，则 $\mathbf{F}$ 是<b>保守场</b>。这时对任意从 $A$ 到 $B$ 的路径，$\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$。在平面（单连通区域）上，$(P, Q)$ 是保守场当且仅当 $P_y = Q_x$。</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$：$P_y = 2x = Q_x$，所以它是保守场，$\varphi = x^2y + 3y$。从 $(0, 0)$ 到 $(2, 1)$：$\varphi(2, 1) - \varphi(0, 0) = 4 + 3 = 7$。</p>`,
@@ -293,13 +219,6 @@ addT('zh', {
   '4awle3me9d': R`把 $P$ 对 $x$ 积分：$\varphi = ⟦0⟧ + g(y)$。再由 $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ 得 $g = ⟦3⟧$。`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>求拉普拉斯逆变换通常要先做部分分式分解，再对照变换表。</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>线性：</b>$\mathcal{L}\{af + bg\} = aF + bG$。<b>导数：</b>$\mathcal{L}\{y'\} = sY - y(0)$，$\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$——这样就把微分方程变成了代数方程。</p>`,
   'ie964pskzz': R`<p>解 $y'' + 4y = 0$，$y(0) = 3$，$y'(0) = 2$。</p><p>$s^2Y - 3s - 2 + 4Y = 0$，所以 $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$。取逆变换：$y = 3\cos 2t + \sin 2t$。</p>`,

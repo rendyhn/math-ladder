@@ -14,16 +14,6 @@ addT('pt', {
   '187npo1zduj': R`corda`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Os <b>números inteiros</b> são os números naturais, seus opostos e o zero: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Na reta numérica, os números aumentam para a direita, então $-7 \lt -2$, embora 7 seja maior que 2.</p>
-<p>O <b>valor absoluto</b> (módulo) $|a|$ é a distância até o 0: $|-6| = 6$ e $|6| = 6$.</p>
-<h3>Adição e subtração</h3>
-⟦0⟧
-<h3>Multiplicação e divisão</h3>
-⟦1⟧
-⟦2⟧
-<p>No dia a dia: temperaturas abaixo de zero, altitudes abaixo do nível do mar, dívidas e andares no subsolo.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Sinais iguais:</b> some os módulos e mantenha o sinal. $-4 + (-9) = -13$.</li><li><b>Sinais diferentes:</b> subtraia os módulos e use o sinal do número de maior módulo. $-11 + 5 = -6$.</li><li><b>Subtrair</b> é somar o oposto: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Sinais`,
   '18hy4wrreq9': R`Resultado`,
@@ -47,15 +37,6 @@ addT('pt', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ e $|⟦2⟧| = ⟦3⟧$, então o valor é $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Uma <b>potência</b> indica uma multiplicação repetida: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ fatores}}$. Em $2^5 = 32$, 2 é a <b>base</b> e 5 é o <b>expoente</b>.</p>
-<h3>Propriedades das potências</h3>
-⟦0⟧
-⟦1⟧
-<h3>Raízes</h3>
-<p>A raiz quadrada desfaz o quadrado: $\sqrt{81} = 9$ porque $9^2 = 81$. A raiz cúbica desfaz o cubo: $\sqrt[3]{64} = 4$ porque $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Propriedade`,
   '2du0zx6ztd9': R`<p>Simplifique $(2x^3)(5x^4)$: multiplique os números e some os expoentes, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Para simplificar uma raiz quadrada, tire o maior fator que seja quadrado perfeito: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -85,16 +66,6 @@ addT('pt', {
   'r5mpjrvznb': R`Encontre o maior fator que seja quadrado perfeito: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Então $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Os cientistas escrevem números muito grandes ou muito pequenos de forma compacta como</p>
-⟦0⟧
-<ul><li>A distância até o Sol, cerca de $150\,000\,000$ km, é $1{,}5 \times 10^{8}$ km.</li><li>Um glóbulo vermelho, com cerca de $0{,}000\,008$ m de largura, mede $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Calculando</h3>
-<p>Multiplique (ou divida) os números da frente e some (ou subtraia) os expoentes. Depois ajuste o número da frente se ele não estiver entre 1 e 10:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ inteiro}`,
   '1phwx4rhhb0': R`<p>Conte quantas casas a vírgula se move para ficar exatamente um algarismo diferente de zero antes dela. Números grandes (vírgula para a esquerda) dão expoente <b>positivo</b>; números menores que 1 (vírgula para a direita) dão expoente <b>negativo</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -116,19 +87,6 @@ addT('pt', {
   '1ujla3379au': R` Como ⟦0⟧ é menor que 1, reescreva $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Uma <b>razão</b> $a : b$ compara duas quantidades. Como as frações, as razões podem ser simplificadas dividindo os dois termos pelo MDC: $18 : 24 = 3 : 4$.</p>
-<h3>Divisão proporcional</h3>
-⟦0⟧
-<h3>Taxas e valor unitário</h3>
-<p>Uma <b>taxa</b> compara quantidades com unidades diferentes: km por hora, reais por kg. Encontrar o valor de <b>uma</b> unidade (o valor unitário) resolve a maioria dos problemas.</p>
-⟦1⟧
-<h3>Proporção direta e inversa</h3>
-⟦2⟧
-⟦3⟧
-<h3>Escalas de mapas</h3>
-<p>Uma escala de $1 : 50\,000$ significa que 1 cm no mapa corresponde a $50\,000$ cm $= 500$ m $= 0{,}5$ km na realidade.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Divida 60 balas na razão $2 : 3$.</p><ol><li>Total de partes: $2 + 3 = 5$.</li><li>Uma parte: $60 \div 5 = 12$.</li><li>Partes: $2 \times 12 = 24$ e $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{velocidade} = \frac{\text{distância}}{\text{tempo}} \qquad \text{distância} = \text{velocidade} \times \text{tempo}`,
   '1lx74znbkzq': R`<ul><li><b>Direta:</b> as duas quantidades crescem juntas, $y = kx$. O dobro de cadernos custa o dobro.</li><li><b>Inversa:</b> uma cresce quando a outra diminui, $xy = k$. O dobro de trabalhadores termina na metade do tempo.</li></ul>`,

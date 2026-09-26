@@ -14,16 +14,6 @@ addT('fr', {
   '187npo1zduj': R`corde`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Les <b>entiers relatifs</b> sont les nombres entiers et leurs opposés : $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Sur une droite graduée, les nombres augmentent vers la droite, donc $-7 \lt -2$ même si 7 est plus grand que 2.</p>
-<p>La <b>valeur absolue</b> $|a|$ est la distance à 0 : $|-6| = 6$ et $|6| = 6$.</p>
-<h3>Addition et soustraction</h3>
-⟦0⟧
-<h3>Multiplication et division</h3>
-⟦1⟧
-⟦2⟧
-<p>Dans la vie courante : températures négatives, altitudes sous le niveau de la mer, dettes, étages en sous-sol.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Même signe :</b> on additionne les distances à zéro et on garde le signe. $-4 + (-9) = -13$.</li><li><b>Signes contraires :</b> on soustrait les distances à zéro et on prend le signe du nombre le plus éloigné de zéro. $-11 + 5 = -6$.</li><li><b>Soustraire</b>, c’est ajouter l’opposé : $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Signes`,
   '18hy4wrreq9': R`Résultat`,
@@ -47,15 +37,6 @@ addT('fr', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ et $|⟦2⟧| = ⟦3⟧$, donc la valeur est $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Une <b>puissance</b> note une multiplication répétée : $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ facteurs}}$. Dans $2^5 = 32$, 2 est la <b>base</b> et 5 est l’<b>exposant</b>.</p>
-<h3>Règles de calcul sur les puissances</h3>
-⟦0⟧
-⟦1⟧
-<h3>Racines</h3>
-<p>La racine carrée annule le carré : $\sqrt{81} = 9$ car $9^2 = 81$. La racine cubique annule le cube : $\sqrt[3]{64} = 4$ car $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Règle`,
   '2du0zx6ztd9': R`<p>Simplifier $(2x^3)(5x^4)$ : on multiplie les nombres et on additionne les exposants, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Pour simplifier une racine carrée, on fait sortir le plus grand facteur carré : $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -85,16 +66,6 @@ addT('fr', {
   'r5mpjrvznb': R`On cherche le plus grand facteur carré : $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Donc $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Les scientifiques écrivent les nombres très grands ou très petits de façon compacte sous la forme</p>
-⟦0⟧
-<ul><li>La distance Terre–Soleil, environ $150\,000\,000$ km, vaut $1{,}5 \times 10^{8}$ km.</li><li>Un globule rouge, large d’environ $0{,}000\,008$ m, mesure $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Calculer</h3>
-<p>On multiplie (ou divise) les nombres de devant et on additionne (ou soustrait) les exposants. Puis on corrige le nombre de devant s’il n’est pas compris entre 1 et 10 :</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ entier relatif}`,
   '1phwx4rhhb0': R`<p>Comptez de combien de rangs la virgule se déplace pour qu’il reste exactement un chiffre non nul devant elle. Les grands nombres (virgule vers la gauche) donnent un exposant <b>positif</b> ; les nombres inférieurs à 1 (virgule vers la droite), un exposant <b>négatif</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -116,19 +87,6 @@ addT('fr', {
   '1ujla3379au': R` Comme ⟦0⟧ est inférieur à 1, on réécrit $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Un <b>ratio</b> $a : b$ compare deux quantités. Comme les fractions, un ratio se simplifie en divisant ses deux termes par leur PGCD : $18 : 24 = 3 : 4$.</p>
-<h3>Partage proportionnel</h3>
-⟦0⟧
-<h3>Taux et valeur unitaire</h3>
-<p>Un <b>taux</b> compare des quantités d’unités différentes : km par heure, euros par kg. Trouver la valeur d’<b>une</b> unité (la valeur unitaire) résout la plupart des problèmes.</p>
-⟦1⟧
-<h3>Proportionnalité directe et inverse</h3>
-⟦2⟧
-⟦3⟧
-<h3>Échelles</h3>
-<p>Une échelle de $1 : 50\,000$ signifie que 1 cm sur la carte représente $50\,000$ cm $= 500$ m $= 0{,}5$ km en réalité.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Partager 60 bonbons dans le ratio $2 : 3$.</p><ol><li>Nombre de parts : $2 + 3 = 5$.</li><li>Une part : $60 \div 5 = 12$.</li><li>Parts : $2 \times 12 = 24$ et $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{vitesse} = \frac{\text{distance}}{\text{durée}} \qquad \text{distance} = \text{vitesse} \times \text{durée}`,
   '1lx74znbkzq': R`<ul><li><b>Directe :</b> les deux quantités augmentent ensemble, $y = kx$. Deux fois plus de cahiers coûtent deux fois plus cher.</li><li><b>Inverse :</b> l’une augmente quand l’autre diminue, $xy = k$. Deux fois plus d’ouvriers finissent en deux fois moins de temps.</li></ul>`,

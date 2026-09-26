@@ -1,15 +1,6 @@
 /* Español — Primaria (perímetro y área → datos) */
 addT('es', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>El <b>perímetro</b> es la longitud total del contorno de una figura (se mide en cm, m, …). El <b>área</b> es la cantidad de superficie que ocupa (se mide en unidades cuadradas: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Figuras compuestas</h3>
-<p>Divide una figura en forma de L u otra figura compuesta en rectángulos y triángulos y suma sus áreas, o bien toma un rectángulo grande y resta la parte que falta.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Rectángulo, triángulo y trapecio: la altura siempre se mide perpendicular a la base.`,
   '1vbb9fjurso': R`Figura`,
   '1bkcetbdzwi': R`Perímetro`,
@@ -42,15 +33,6 @@ addT('es', {
   '4fca853um1': R`Rectángulo grande menos el recorte: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>El <b>volumen</b> es el espacio que ocupa un cuerpo y se cuenta en <b>unidades cúbicas</b> (cm³, m³). Un cubo de 1 cm de arista tiene un volumen de 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Área total</h3>
-<p>El área total es la suma de las áreas de todas las caras. Un ortoedro tiene tres pares de rectángulos iguales:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Ortoedro: } V = l \times w \times h \qquad\qquad \text{Cubo: } V = s^3`,
   '1v18xwhq9wo': R`<p>La capacidad está ligada al volumen: $1 \text{ cm}^3 = 1 \text{ mL}$ y $1000 \text{ cm}^3 = 1 \text{ L}$. Además, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Una pecera mide 50 cm de largo, 30 cm de ancho y 40 cm de alto.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -70,17 +52,6 @@ addT('es', {
   '29p9f2w08h': R`Buscamos $s^3 = ⟦0⟧$. Como $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, cada arista mide ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Los ángulos miden giros, en <b>grados</b> (°). Una vuelta completa mide $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Triángulos</h3>
-<p><b>Equilátero</b>: tres lados iguales y todos sus ángulos de $60^\circ$. <b>Isósceles</b>: dos lados iguales y dos ángulos de la base iguales. <b>Escaleno</b>: ningún lado igual. Un triángulo <b>rectángulo</b> tiene un ángulo de $90^\circ$.</p>
-<h3>Polígonos</h3>
-<p>Un polígono de $n$ lados se puede dividir en $n - 2$ triángulos desde un vértice, así que</p>
-⟦2⟧
-<p>En un polígono <b>regular</b> todos los ángulos son iguales, así que cada uno mide $\frac{(n-2) \times 180^\circ}{n}$. Un hexágono regular tiene ángulos de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Tipo`,
   '1czpi6e2j2z': R`Medida`,
   '2eamokno2qd': R`Agudo`,
@@ -120,13 +91,6 @@ addT('es', {
   '1m260esohws': R`Los dos ángulos de la base son iguales: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Los datos son información que recogemos, como notas de exámenes o frutas favoritas. Una <b>tabla de frecuencias</b> registra cuántas veces aparece cada valor; los <b>diagramas de barras</b> y los <b>pictogramas</b> muestran la misma información de forma visual.</p>
-<h3>Cuatro medidas resumen</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Medida`,
   '1fy4t37t415': R`Cómo se calcula`,
   '18v4e4ulshl': R`Para 3; 7; 7; 8; 10`,

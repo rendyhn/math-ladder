@@ -1,23 +1,6 @@
 /* Português — ensino fundamental (frações → medidas) */
 addT('pt', {
   // fractions
-  '1j59vvw5wlm': R`
-<p>Uma <b>fração</b> $\frac{a}{b}$ significa $a$ partes de $b$ partes iguais. O número de cima é o <b>numerador</b>; o de baixo é o <b>denominador</b>.</p>
-<h3>Frações equivalentes e fração irredutível</h3>
-<p>Multiplicar ou dividir o numerador e o denominador pelo mesmo número dá uma fração equivalente: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Para <b>simplificar</b>, divida os dois pelo MDC:</p>
-⟦0⟧
-<h3>Números mistos</h3>
-<p>$2\frac{1}{3}$ significa $2 + \frac{1}{3}$. Como fração imprópria: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Adição e subtração</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplicação e divisão</h3>
-⟦3⟧
-<p>Para dividir, <b>mantenha</b> a primeira fração, <b>troque</b> ÷ por × e <b>inverta</b> a segunda fração.</p>
-⟦4⟧
-<h3>Fração de uma quantidade</h3>
-<p>Divida pelo denominador e depois multiplique pelo numerador: $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>Só é possível somar ou subtrair frações com o <b>mesmo denominador</b>. Reescreva-as com um denominador comum (o MMC dos denominadores) e depois some ou subtraia os numeradores.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>Nunca some os denominadores: $\frac{1}{2} + \frac{1}{3}$ é $\frac{5}{6}$, e não $\frac{2}{5}$.</p>`,
@@ -43,23 +26,6 @@ addT('pt', {
   '2er4a94vvmc': R`Compare-as como decimais (ou com um denominador comum): ⟦0⟧. A menor é $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Os números decimais estendem o valor posicional para a direita das unidades. Cada posição vale um décimo da posição à sua esquerda.</p>
-⟦0⟧
-<p>Assim, $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Comparando decimais</h3>
-<p>Deixe os números com a mesma quantidade de casas decimais acrescentando zeros e depois compare: $0{,}5 = 0{,}50 \gt 0{,}45$. Um decimal mais comprido não é necessariamente maior!</p>
-<h3>Adição e subtração</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplicação</h3>
-<p>Multiplique como se não houvesse vírgulas e conte o total de casas decimais dos fatores: o resultado tem essa quantidade de casas.</p>
-⟦3⟧
-<h3>Divisão e conversões</h3>
-<p>Multiplicar por 10, 100 ou 1000 desloca os algarismos 1, 2 ou 3 casas para a esquerda (o número aumenta); dividir os desloca para a direita. Uma fração vira decimal dividindo o numerador pelo denominador: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Arredondando decimais</h3>
-<p>A regra é a mesma dos números naturais: olhe o algarismo seguinte. $6{,}847$ arredondado para o décimo mais próximo é $6{,}8$; para o centésimo mais próximo, $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Décimos`,
   '1usmp59h50n': R`Centésimos`,
   'biszmhnvcw': R`Milésimos`,
@@ -87,16 +53,6 @@ addT('pt', {
   'clxur1r60o': R`Escreva todos com três casas decimais: ⟦0⟧. O menor é <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Por cento</b> significa "em cada 100": $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>As três perguntas básicas</h3>
-⟦1⟧
-⟦2⟧
-<h3>Aumentos, reduções e descontos</h3>
-<p>Um desconto de $20\%$ sobre 80 reais economiza $0{,}2 \times 80 = 16$ reais, então o preço com desconto é $80 - 16 = 64$ reais. Mais rápido: você paga $80\%$ do preço, $0{,}8 \times 80 = 64$.</p>
-<p>Um aumento de $p\%$ multiplica por $1 + \frac{p}{100}$; uma redução multiplica por $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Fração`,
   '21lfn42y4af': R`Decimal`,
   '1vaz29jk1go': R`Porcentagem`,
@@ -118,15 +74,6 @@ addT('pt', {
   '260avkxsjev': R`Variação: ⟦0⟧ reais. Redução percentual: ⟦1⟧ — divida sempre pelo preço <b>original</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>O sistema métrico se baseia em potências de dez, com prefixos que indicam o tamanho de uma unidade.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Tempo</h3>
-<p>O tempo <i>não</i> é decimal: uma hora tem 60 minutos, e não 100. Para calcular o tempo decorrido, avance por etapas: de 09:35 a 13:10 são 25 min (até 10:00) + 3 h (até 13:00) + 10 min = 3 h 35 min = 215 minutos.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Prefixo`,
   '18vrcwaxvwu': R`Significado`,
   '1j1ms4p35q': R`Exemplos`,

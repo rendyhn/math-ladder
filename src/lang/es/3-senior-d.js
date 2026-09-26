@@ -1,19 +1,6 @@
 /* Español — Bachillerato (combinatoria → lógica) */
 addT('es', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Permutaciones: el orden importa</h3>
-⟦1⟧
-<p>Primer, segundo y tercer premio entre 10 personas: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Ordenaciones con elementos repetidos: $\frac{n!}{p!\,q!\cdots}$. «BANANA» tiene $\frac{6!}{3!\,2!} = 60$ ordenaciones.</li><li>Alrededor de una mesa circular: $(n - 1)!$ (los giros cuentan como iguales).</li></ul>
-<h3>Combinaciones: el orden no importa</h3>
-⟦2⟧
-<p>Un comité de 3 personas elegidas entre 10: $\binom{10}{3} = 120$. Un comité de 2 hombres (de 5) y 3 mujeres (de 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Binomio de Newton</h3>
-⟦3⟧
-<p>El coeficiente de $x^2$ en $(x + 3)^5$ es $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Principio multiplicativo:</b> si una elección se puede hacer de $m$ maneras y otra de $n$ maneras, juntas se pueden hacer de $m \times n$ maneras.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -42,16 +29,6 @@ addT('es', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ factores) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Con y sin reemplazo</h3>
-⟦1⟧
-<p>Los diagramas de árbol lo organizan: se multiplica a lo largo de las ramas y se suma entre ramas.</p>
-<h3>«Al menos uno»</h3>
-<p>Usa el complementario: $P(\text{al menos un seis en 3 tiradas}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Teorema de Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Fórmula`,
   '29i7n2pf82k': R`Complementario`,
   '1q1cgu220ce': R`Mutuamente excluyentes`,
@@ -89,18 +66,6 @@ addT('es', {
   '29cd8gay3w4': R`Con reemplazo, las extracciones son independientes: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Cuartiles y diagramas de caja</h3>
-<p>Ordena los datos. La mediana $Q_2$ los divide por la mitad; $Q_1$ es la mediana de la mitad inferior y $Q_3$ la de la mitad superior (aquí dejamos la mediana fuera de ambas mitades cuando $n$ es impar). El <b>rango intercuartílico</b> $\text{RIC} = Q_3 - Q_1$ mide la dispersión del 50% central.</p>
-⟦0⟧
-<h3>Varianza y desviación típica</h3>
-⟦1⟧
-⟦2⟧
-<h3>Datos agrupados</h3>
-<p>Estima la media con las marcas de clase: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformar los datos</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Una regla habitual para valores atípicos: los valores por debajo de $Q_1 - 1{,}5\,\text{RIC}$ o por encima de $Q_3 + 1{,}5\,\text{RIC}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (muestral)}`,
   '1c6crwakkdh': R`<p>Datos 2; 4; 4; 4; 5; 5; 7; 9: media 5, desviaciones al cuadrado 9; 1; 1; 1; 0; 0; 4; 16 (suma 32). Varianza poblacional $= \frac{32}{8} = 4$ y $\sigma = 2$.</p>`,
@@ -131,19 +96,6 @@ addT('es', {
   '111p9ug7ykx': R`Límite inferior $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Ecuación de la circunferencia</h3>
-⟦1⟧
-<p>Al desarrollar se obtiene la <b>ecuación general</b> $x^2 + y^2 + Dx + Ey + F = 0$, con centro $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ y radio $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Posición de un punto</h3>
-<p>Sustituye el punto en $(x - a)^2 + (y - b)^2$ y compara con $r^2$: menor → dentro, igual → sobre, mayor → fuera.</p>
-<h3>Rectas tangentes</h3>
-<p>Una tangente es perpendicular al radio en el punto de contacto. Para la circunferencia $x^2 + y^2 = r^2$ en $(x_1; y_1)$, el radio tiene pendiente $\frac{y_1}{x_1}$, así que la tangente tiene pendiente $-\frac{x_1}{y_1}$.</p>
-<h3>Parábolas</h3>
-<p>$y^2 = 4px$ tiene foco $(p; 0)$ y directriz $x = -p$; $x^2 = 4py$ tiene foco $(0; p)$ y directriz $y = -p$. Cada punto de una parábola está a la misma distancia del foco que de la directriz.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Punto medio } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Distancia } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centro } (a; b), \text{ radio } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: completando cuadrados, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centro $(3; -2)$, radio 5.</p>`,
@@ -172,13 +124,6 @@ addT('es', {
   '1huwumypuyf': R`El radio hasta $⟦0⟧$ tiene pendiente $\frac{⟦1⟧}{⟦2⟧}$. La tangente es perpendicular: pendiente $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p>La <b>programación lineal</b> busca el mejor valor (el mayor o el menor) de una <b>función objetivo</b> lineal, como el beneficio $z = 30x + 20y$, sujeta a <b>restricciones</b> lineales como $x + y \le 40$.</p>
-<ol><li>Escribe las restricciones como inecuaciones (incluye $x \ge 0$, $y \ge 0$).</li><li>Dibuja cada recta frontera y sombrea la región que cumple todas las restricciones: la <b>región factible</b>.</li><li>Halla los vértices resolviendo pares de ecuaciones frontera.</li><li>Evalúa la función objetivo en cada vértice.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>En los problemas de minimización con restricciones «≥», la región suele ser no acotada; con costes positivos, el mínimo sigue estando en un vértice.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Teorema de los vértices:</b> si existe un óptimo, se alcanza en un vértice de la región factible.</p>`,
   '1g8qhbmqb9w': R`<p>Maximiza $z = 3x + 2y$ sujeta a $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vértices: $(0; 0)$, $(6; 0)$, $(4; 4)$ [donde $x + y = 8$ corta a $2x + y = 12$], $(0; 8)$.</p><p>Valores de $z$: 0; 18; 20; 16. Máximo $z = 20$ en $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Comprueba que cada vértice cumple <b>todas</b> las restricciones: la intersección de dos rectas frontera puede quedar fuera de la región.</p>`,
@@ -192,17 +137,6 @@ addT('es', {
   '296rrmt4h4q': R`Restricciones: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Vértices: ⟦3⟧. Beneficio máximo: <b>⟦4⟧</b> dólares.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Una <b>proposición</b> es un enunciado que es verdadero o falso. Las proposiciones compuestas se forman con <b>conectivos</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Condicionales relacionados</h3>
-⟦2⟧
-<h3>Cuantificadores</h3>
-<p>$\forall$ «para todo» y $\exists$ «existe». La negación los intercambia: la negación de «Todos los estudiantes aprobaron» es «<b>Algunos</b> estudiantes <b>no</b> aprobaron»; la negación de «Algunas aves no pueden volar» es «Todas las aves pueden volar».</p>
-<h3>Razonamientos válidos</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; por tanto, $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; por tanto, $\neg p$.</li><li><b>Silogismo:</b> $p \Rightarrow q$, $q \Rightarrow r$; por tanto, $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`VF`,
   '1h0id2d836q': R`<p>Una implicación $p \Rightarrow q$ es falsa <b>solo</b> cuando $p$ es verdadera y $q$ es falsa.</p>`,
   '2aojok6ubm7': R`Forma`,

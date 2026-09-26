@@ -1,16 +1,6 @@
 /* Español — Secundaria (estadística → semejanza) */
 addT('es', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Una <b>medida de tendencia central</b> resume un conjunto de datos con un valor típico; una <b>medida de dispersión</b> indica cuán separados están los valores.</p>
-⟦0⟧
-<h3>Media a partir de una tabla de frecuencias</h3>
-⟦1⟧
-⟦2⟧
-<h3>Razonar hacia atrás</h3>
-⟦3⟧
-<p>Con un número par de valores, la mediana es la media de los dos valores centrales.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Conviene cuando…`,
   'j0p0vvrwxf': R`los datos no tienen valores extremos (atípicos)`,
   '2ajydntyvld': R`los datos son asimétricos o tienen atípicos — p. ej., precios de viviendas`,
@@ -36,16 +26,6 @@ addT('es', {
   '22iugjzjcbh': R`La moda es el valor con mayor frecuencia. ⟦0⟧ tiene frecuencia ⟦1⟧, la mayor.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Un <b>experimento</b> (lanzar un dado, sacar una carta) tiene posibles <b>resultados</b>. El conjunto de todos los resultados es el <b>espacio muestral</b> $S$; un <b>suceso</b> $E$ es un conjunto de resultados. Cuando todos los resultados son igualmente probables:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dos dados</h3>
-<p>Lanzar dos dados da $6 \times 6 = 36$ resultados igualmente probables. Una suma de 7 se obtiene de 6 maneras —(1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1)—, así que $P(\text{suma} = 7) = \frac{6}{36} = \frac{1}{6}$. En general, el número de maneras de obtener una suma $s$ es $6 - |s - 7|$.</p>
-<h3>Una baraja de cartas</h3>
-<p>52 cartas: 4 palos (♠ ♣ negros, ♥ ♦ rojos) de 13 valores (A, 2–10, J, Q, K). Hay 12 figuras (J, Q, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 significa imposible y 1, seguro.</li><li><b>Complementario:</b> $P(\text{no } E) = 1 - P(E)$.</li><li><b>Frecuencia esperada</b> en $n$ ensayos $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Una bolsa tiene 3 canicas rojas, 5 azules y 2 verdes. $P(\text{azul}) = \frac{5}{10} = \frac{1}{2}$, y $P(\text{no verde}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>La probabilidad experimental (de ensayos reales) se acerca a la probabilidad teórica a medida que aumenta el número de ensayos, pero rara vez coincide exactamente.</p>`,
@@ -97,19 +77,6 @@ addT('es', {
   '23r35ol6pkt': R`Son ⟦0⟧ de las 52 cartas: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Las preguntas cotidianas sobre dinero son, en el fondo, preguntas de porcentajes.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Descuento e impuesto</h3>
-<p>Aplica los porcentajes uno tras otro: un descuento del 20% y luego un impuesto del 10% sobre 150 dólares dan $150 \times 0{,}8 \times 1{,}1 = 132$ dólares.</p>
-<h3>Interés simple</h3>
-⟦3⟧
-<p>1 500 dólares ahorrados al 6% anual durante 3 años generan $1\,500 \times 0{,}06 \times 3 = 270$ dólares; el total llega a 1 770 dólares. Si el plazo está en meses, usa $t = \frac{\text{meses}}{12}$.</p>
-<h3>Peso bruto, tara y peso neto</h3>
-<p><b>Bruto</b> = peso total; <b>tara</b> = peso del envase; <b>neto</b> = bruto − tara. Un saco de 50 kg con una tara del 2% tiene un peso neto de $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Término`,
   '1mb9fntmked': R`Precio de costo (PC)`,
   '12bh5c74j0l': R`lo que pagó el vendedor`,
@@ -142,17 +109,6 @@ addT('es', {
   'g36e4lpvm4': R`$\text{PV} = \text{PC} \times ⟦0⟧$, así que $\text{PC} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ dólares. (Restar el ⟦4⟧% al precio de venta sería un error).`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Una <b>sucesión</b> es una lista ordenada de números llamados <b>términos</b>. Descubrir la regla permite continuar el patrón o saltar directamente a cualquier término.</p>
-<h3>Sucesiones aritméticas</h3>
-<p>Cada vez se suma el mismo número $d$ (la <b>diferencia común</b>): 5; 8; 11; 14; … tiene $d = 3$.</p>
-⟦0⟧
-<h3>Sucesiones geométricas</h3>
-<p>Cada término se multiplica por la misma <b>razón</b> $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Sucesiones especiales</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>donde $a$ es el primer término. Para 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, así que $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nombre`,
   'mwgm16sn11': R`Términos`,
@@ -179,14 +135,6 @@ addT('es', {
   'o3oiu9pprw': R`Los términos son ⟦0⟧. El 7.º término es ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Una <b>transformación</b> mueve una figura o cambia su tamaño. Con traslaciones, simetrías y giros la imagen es <b>congruente</b> (misma forma y tamaño); con una homotecia es <b>semejante</b> (misma forma, distinto tamaño).</p>
-⟦0⟧
-<h3>Figuras semejantes</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformación`,
   'jmpbrf5c1s': R`Regla para un punto (x; y)`,
   '2b0j70wot2h': R`Traslación por $\binom{a}{b}$`,

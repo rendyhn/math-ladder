@@ -5,20 +5,6 @@ addT('id', {
   '2gdno2vs4iz': R`Tuliskan jawaban seperti 9pi atau 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p><b>Persamaan kuadrat</b> berbentuk $ax^2 + bx + c = 0$ dengan $a \ne 0$. Persamaan ini memiliki paling banyak dua penyelesaian (akar).</p>
-<h3>1. Pemfaktoran</h3>
-<p>Jika suatu hasil kali bernilai nol, salah satu faktornya nol. Cari dua bilangan yang hasil kalinya $c$ dan jumlahnya $b$ (jika $a = 1$):</p>
-⟦0⟧
-<h3>2. Melengkapkan kuadrat sempurna</h3>
-⟦1⟧
-<h3>3. Rumus kuadrat (rumus abc)</h3>
-⟦2⟧
-<h3>Jumlah dan hasil kali akar (Vieta)</h3>
-⟦3⟧
-<p>Jadi, persamaan dengan akar-akar $r$ dan $s$ adalah $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ atau } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p><b>Diskriminan</b> $D = b^2 - 4ac$ menunjukkan banyaknya akar real:</p><ul><li>$D \gt 0$: dua akar real berbeda</li><li>$D = 0$: satu akar real kembar</li><li>$D \lt 0$: tidak ada akar real (dua akar kompleks)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, jadi $x = \frac{7 \pm 5}{4}$, sehingga $x = 3$ atau $x = \frac{1}{2}$. Periksa: jumlah $= \frac{7}{2}$ ✓, hasil kali $= \frac{3}{2}$ ✓.</p>`,
@@ -46,14 +32,6 @@ addT('id', {
   '27ssy7fe6w9': R`Misalkan lebarnya $w$: $w(w + ⟦0⟧) = ⟦1⟧$, jadi $⟦2⟧ = 0$, yaitu $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Lebar harus positif, jadi $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>Grafik $f(x) = ax^2 + bx + c$ berupa <b>parabola</b>. Parabola terbuka <b>ke atas</b> jika $a \gt 0$ (seperti lembah, dengan nilai minimum) dan <b>ke bawah</b> jika $a \lt 0$ (seperti bukit, dengan nilai maksimum).</p>
-⟦0⟧
-<h3>Bentuk puncak</h3>
-⟦1⟧
-<p>Melengkapkan kuadrat mengubah bentuk umum menjadi bentuk puncak: $x^2 - 6x + 11 = (x - 3)^2 + 2$, jadi titik puncaknya $(3; 2)$ dan nilai minimumnya 2. Daerah hasilnya $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Sumbu simetri dan titik puncak: $x = -\dfrac{b}{2a}$; titik puncaknya $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Titik potong sumbu-$y$: $(0; c)$.</li><li>Titik potong sumbu-$x$: akar-akar $ax^2 + bx + c = 0$ (jika ada).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{titik puncak } (h; k)`,
   '17der0pee5r': R`<p>Tinggi sebuah bola adalah $h(t) = -5t^2 + 20t + 1$ meter. Titik puncaknya pada $t = -\frac{20}{2(-5)} = 2$ s, dan tinggi maksimumnya $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -77,18 +55,6 @@ addT('id', {
   'xs3xxut6a6': R`Titik puncaknya $⟦0⟧$ dan parabola terbuka ke bawah, jadi daerah hasilnya $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p><b>Fungsi</b> memasangkan setiap masukan dengan tepat <b>satu</b> keluaran. Himpunan masukan yang diperbolehkan disebut <b>daerah asal</b> (domain); himpunan keluarannya disebut <b>daerah hasil</b> (range).</p>
-<h3>Daerah asal alami</h3>
-<ul><li>Tidak boleh membagi dengan nol: untuk $\frac{1}{x - 2}$, daerah asalnya $x \ne 2$.</li><li>Tidak ada akar kuadrat dari bilangan negatif: untuk $\sqrt{x + 3}$, daerah asalnya $x \ge -3$.</li><li>Logaritma memerlukan numerus positif: untuk $\log(x - 1)$, daerah asalnya $x \gt 1$.</li></ul>
-<h3>Komposisi</h3>
-⟦0⟧
-⟦1⟧
-<h3>Fungsi invers</h3>
-<p>$f^{-1}$ membatalkan kerja $f$: jika $f(a) = b$ maka $f^{-1}(b) = a$. Untuk mencarinya, tulis $y = f(x)$, tukar $x$ dan $y$, lalu nyatakan $y$.</p>
-⟦2⟧
-<p>Grafik $f^{-1}$ adalah pencerminan grafik $f$ terhadap garis $y = x$. Hanya fungsi satu-satu (injektif) yang memiliki invers.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Terapkan $g$ dahulu, lalu $f$. Secara umum, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Maka $f(g(3)) = f(9) = 19$, tetapi $g(f(3)) = g(7) = 49$. Dalam bentuk ekspresi: $f(g(x)) = 2x^2 + 1$ dan $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: tukar untuk mendapat $x = 3y - 5$, jadi $y = \frac{x + 5}{3}$ dan $f^{-1}(x) = \frac{x + 5}{3}$. Periksa: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -112,16 +78,6 @@ addT('id', {
   'ranlsqjvf9': R`Karena $⟦0⟧ \ge ⟦1⟧$, gunakan aturan kedua: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Eksponen pecahan menggabungkan pangkat dan akar: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Jadi $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ dan $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logaritma</h3>
-⟦0⟧
-⟦1⟧
-<h3>Menyelesaikan persamaan</h3>
-<ul><li>Basis sama: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Persamaan logaritma: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Basis berbeda: logaritmakan kedua ruas, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Pertumbuhan dan peluruhan eksponensial</h3>
-<p>$A = A_0 \cdot r^{t/T}$: besaran yang dikalikan $r$ setiap $T$ satuan waktu. Bunga majemuk: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Logaritma menjawab pertanyaan "$b$ dipangkatkan berapa agar menjadi $a$?" — jadi $\log_2 32 = 5$. $\log x$ berarti $\log_{10} x$; $\ln x$ berarti $\log_e x$ dengan $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`perubahan basis`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. Sifat perkalian mengubah <i>hasil kali</i> di dalam menjadi penjumlahan di luar.</p>`,

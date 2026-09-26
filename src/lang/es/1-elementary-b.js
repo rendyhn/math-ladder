@@ -1,23 +1,6 @@
 /* Español — Primaria (fracciones → medidas) */
 addT('es', {
   // fractions
-  '1j59vvw5wlm': R`
-<p>Una <b>fracción</b> $\frac{a}{b}$ significa $a$ partes de $b$ partes iguales. El número de arriba es el <b>numerador</b>; el de abajo, el <b>denominador</b>.</p>
-<h3>Fracciones equivalentes y fracción irreducible</h3>
-<p>Si multiplicas o divides el numerador y el denominador por el mismo número, obtienes una fracción equivalente: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Para <b>simplificar</b>, divide ambos entre su MCD:</p>
-⟦0⟧
-<h3>Números mixtos</h3>
-<p>$2\frac{1}{3}$ significa $2 + \frac{1}{3}$. Como fracción impropia: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Sumar y restar</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplicar y dividir</h3>
-⟦3⟧
-<p>Para dividir, <b>deja</b> la primera fracción, <b>cambia</b> ÷ por × y <b>da la vuelta</b> a la segunda fracción.</p>
-⟦4⟧
-<h3>Fracción de una cantidad</h3>
-<p>Divide entre el denominador y multiplica por el numerador: $\frac{3}{8}$ de $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>Solo se pueden sumar o restar fracciones con el <b>mismo denominador</b>. Escríbelas con un denominador común (el mcm de los denominadores) y después suma o resta los numeradores.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>Nunca sumes los denominadores: $\frac{1}{2} + \frac{1}{3}$ es $\frac{5}{6}$, no $\frac{2}{5}$.</p>`,
@@ -43,23 +26,6 @@ addT('es', {
   '2er4a94vvmc': R`Compáralas como decimales (o con un denominador común): ⟦0⟧. La menor es $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Los decimales amplían el valor posicional a la derecha de las unidades. Cada posición vale la décima parte de la que tiene a su izquierda.</p>
-⟦0⟧
-<p>Así, $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Comparar decimales</h3>
-<p>Dales a los números la misma cantidad de cifras decimales añadiendo ceros y después compáralos: $0{,}5 = 0{,}50 \gt 0{,}45$. ¡Un decimal más largo no es necesariamente mayor!</p>
-<h3>Sumar y restar</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplicar</h3>
-<p>Multiplica como si no hubiera comas y cuenta cuántas cifras decimales tienen en total los factores: el resultado tiene esas mismas cifras decimales.</p>
-⟦3⟧
-<h3>Dividir y convertir</h3>
-<p>Multiplicar por 10, 100 o 1000 desplaza las cifras 1, 2 o 3 lugares hacia la izquierda (el número crece); dividir las desplaza hacia la derecha. Una fracción se convierte en decimal dividiendo el numerador entre el denominador: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Redondear decimales</h3>
-<p>La regla es la misma que con los números naturales: mira la cifra siguiente. $6{,}847$ redondeado a las décimas es $6{,}8$; a las centésimas, $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Décimas`,
   '1usmp59h50n': R`Centésimas`,
   'biszmhnvcw': R`Milésimas`,
@@ -87,16 +53,6 @@ addT('es', {
   'clxur1r60o': R`Escríbelos todos con tres cifras decimales: ⟦0⟧. El menor es <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Por ciento</b> significa «de cada 100»: $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>Las tres preguntas básicas</h3>
-⟦1⟧
-⟦2⟧
-<h3>Aumentos, disminuciones y descuentos</h3>
-<p>Un descuento del $20\%$ sobre 80 dólares ahorra $0{,}2 \times 80 = 16$ dólares, así que el precio rebajado es $80 - 16 = 64$ dólares. Más rápido: pagas el $80\%$ del precio, $0{,}8 \times 80 = 64$.</p>
-<p>Un aumento del $p\%$ multiplica por $1 + \frac{p}{100}$; una disminución multiplica por $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Fracción`,
   '21lfn42y4af': R`Decimal`,
   '1vaz29jk1go': R`Porcentaje`,
@@ -118,15 +74,6 @@ addT('es', {
   '260avkxsjev': R`Variación: ⟦0⟧ dólares. Disminución porcentual: ⟦1⟧. Divide siempre entre el precio <b>inicial</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>El sistema métrico se basa en potencias de diez, con prefijos que indican el tamaño de la unidad.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>El tiempo</h3>
-<p>El tiempo <i>no</i> es decimal: una hora tiene 60 minutos, no 100. Para calcular el tiempo transcurrido, avanza por tramos: de 09:35 a 13:10 van 25 min (hasta las 10:00) + 3 h (hasta las 13:00) + 10 min = 3 h 35 min = 215 minutos.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Prefijo`,
   '18vrcwaxvwu': R`Significado`,
   '1j1ms4p35q': R`Ejemplos`,

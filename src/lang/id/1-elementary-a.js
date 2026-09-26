@@ -14,20 +14,6 @@ addT('id', {
   '2wu7e9ekt1': R`Persegi panjang dengan panjang l dan lebar w, segitiga dengan alas b dan tinggi h, serta trapesium dengan sisi sejajar a dan b dan tinggi h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Sistem bilangan kita memakai sepuluh angka, yaitu 0 sampai 9. <b>Tempat</b> sebuah angka menentukan <b>nilainya</b>: setiap tempat bernilai sepuluh kali tempat di sebelah kanannya.</p>
-⟦0⟧
-<p>Pada <b>5 382 417</b>, angka 8 berada di tempat puluh ribuan, jadi nilainya $8 \times 10\,000 = 80\,000$. Angka 3 bernilai $300\,000$.</p>
-<h3>Bentuk panjang</h3>
-<p>Menulis bilangan sebagai jumlah nilai tempatnya menunjukkan nilai setiap angka:</p>
-⟦1⟧
-<p>Angka 0 di tempat puluhan berfungsi sebagai <b>pengisi tempat</b>. Tanpa 0 itu, 4 307 akan berubah menjadi 437.</p>
-<h3>Membandingkan bilangan</h3>
-<p>Bilangan cacah yang angkanya lebih banyak adalah yang lebih besar. Jika banyak angkanya sama, bandingkan angka demi angka mulai dari kiri; tempat pertama yang berbeda menentukan. Jadi $52\,814 \gt 52\,781$ karena pada tempat ratusan $8 \gt 7$.</p>
-<h3>Pembulatan</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Jutaan`,
   '1y40p90zlus': R`Ratus ribuan`,
@@ -64,18 +50,6 @@ addT('id', {
   '1uhrj1iztnj': R`dari terkecil ke terbesar`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>Penjumlahan menggabungkan beberapa banyak benda; pengurangan mencari sisa atau <b>selisih</b> dua banyak benda. Untuk bilangan besar kita memakai <b>cara bersusun</b>: susun angka sesuai nilai tempatnya lalu hitung mulai dari kolom satuan ke kiri.</p>
-<h3>Penjumlahan dengan menyimpan</h3>
-<p>Jika jumlah satu kolom 10 atau lebih, tulis angka satuannya dan <b>simpan</b> puluhannya ke kolom berikutnya.</p>
-⟦0⟧
-<h3>Pengurangan dengan meminjam</h3>
-<p>Jika angka atas pada suatu kolom lebih kecil daripada angka bawah, <b>pinjam</b> satu dari kolom berikutnya: kolom saat ini bertambah 10.</p>
-⟦1⟧
-⟦2⟧
-<h3>Soal cerita</h3>
-<p>Kata-kata seperti <i>semuanya, seluruhnya, lebih banyak, bertambah</i> biasanya berarti penjumlahan. Kata-kata seperti <i>sisa, tinggal, selisih, berapa lebih banyak, lebih sedikit</i> biasanya berarti pengurangan. Selalu tanyakan apa yang sebenarnya diminta soal.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Satuan: $7 + 6 = 13$ → tulis 3, simpan 1.</li><li>Puluhan: $8 + 4 + 1 = 13$ → tulis 3, simpan 1.</li><li>Ratusan: $5 + 8 + 1 = 14$ → tulis 4, simpan 1.</li><li>Ribuan: $4 + 2 + 1 = 7$.</li></ol><p>Jawaban: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Satuan: 4 lebih kecil dari 8. Angka puluhannya 0, jadi pinjam dari ratusan: 204 menjadi 1 ratusan, 9 puluhan, dan 14 satuan. $14 - 8 = 6$.</li><li>Puluhan: $9 - 5 = 4$.</li><li>Ratusan: 1 lebih kecil dari 7, jadi pinjam satu ribuan: $11 - 7 = 4$.</li><li>Ribuan: $5 - 1 = 4$.</li></ol><p>Jawaban: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>Penjumlahan dan pengurangan saling berkebalikan. Periksa hasil pengurangan dengan penjumlahan: $4\,446 + 1\,758 = 6\,204$ ✓. Cara ini juga dipakai untuk mencari bilangan yang hilang: jika $\square + 348 = 1\,000$, maka $\square = 1\,000 - 348 = 652$.</p>`,
@@ -100,17 +74,6 @@ addT('id', {
   'h14zpmlfj7': R`"Berapa lebih banyak" menanyakan selisih: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p><b>Perkalian</b> adalah penjumlahan berulang dari kelompok-kelompok yang sama besar: $4 \times 6$ berarti 4 kelompok berisi 6, yaitu $6 + 6 + 6 + 6 = 24$. <b>Pembagian</b> membagi suatu banyak benda menjadi kelompok-kelompok yang sama besar: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Mengalikan bilangan yang lebih besar</h3>
-<p>Uraikan salah satu bilangan menurut nilai tempatnya, kalikan setiap bagian, lalu jumlahkan (inilah sifat distributif):</p>
-⟦1⟧
-<h3>Pembagian dan sisa</h3>
-<p>Jika suatu bilangan tidak habis dibagi, bagian yang tersisa disebut <b>sisa</b>. Sisa selalu lebih kecil daripada pembagi.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>Perkalian dan pembagian saling berkebalikan: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Urutan tidak berpengaruh pada perkalian: $a \times b = b \times a$.</li><li>Perkalian dapat disebarkan pada penjumlahan: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ sisa } 2 \qquad \text{karena } 5 \times 9 + 2 = 47`,
@@ -136,13 +99,6 @@ addT('id', {
   '13ytah9dyhs': R`Baris yang sama banyak berarti perkalian: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ kursi.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Jika suatu perhitungan memuat beberapa operasi, semua orang harus mengerjakannya dengan urutan yang sama; kalau tidak, satu bentuk yang sama bisa menghasilkan jawaban berbeda. Urutan yang disepakati ini disebut <b>urutan operasi hitung</b>; dalam bahasa Inggris sering diingat dengan singkatan <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Langkah`,
   '1ata9ppdhpl': R`Operasi`,
   '1i56r47suu5': R`Contoh`,
@@ -168,19 +124,6 @@ addT('id', {
   '2g7vu4g2g7r': R`Penjumlahan dan pengurangan setingkat, jadi kerjakan dari kiri ke kanan: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, lalu $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Jika $⟦6⟧ + ⟦7⟧$ dijumlahkan lebih dulu, hasilnya keliru menjadi ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p><b>Faktor</b> suatu bilangan adalah bilangan yang membagi habis bilangan itu. <b>Kelipatan</b> suatu bilangan adalah bilangan itu dikali bilangan asli.</p>
-<ul><li>Faktor 12: 1, 2, 3, 4, 6, 12 (berpasangan: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Kelipatan 12: 12, 24, 36, 48, …</li></ul>
-<h3>Bilangan prima dan komposit</h3>
-<p>Bilangan <b>prima</b> tepat memiliki dua faktor: 1 dan bilangan itu sendiri (2, 3, 5, 7, 11, 13, …). Bilangan <b>komposit</b> memiliki lebih dari dua faktor. Bilangan 1 bukan prima dan bukan komposit, dan 2 adalah satu-satunya bilangan prima genap.</p>
-⟦0⟧
-<h3>Faktorisasi prima</h3>
-<p>Setiap bilangan cacah yang lebih dari 1 dapat ditulis sebagai hasil kali bilangan prima dengan tepat satu cara. Gunakan pohon faktor: terus uraikan sampai setiap cabang berakhir di bilangan prima.</p>
-⟦1⟧
-<h3>FPB dan KPK</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Habis dibagi`,
   '1u2j0a6t91o': R`Ciri`,
   '1fsfip1h2ap': R`angka terakhirnya genap`,

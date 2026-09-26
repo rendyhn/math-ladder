@@ -1,16 +1,6 @@
 /* Português (Brasil) — Ensino Fundamental II (estatística → semelhança) */
 addT('pt', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Uma <b>medida de tendência central</b> resume um conjunto de dados com um valor típico; uma <b>medida de dispersão</b> indica o quanto os valores estão espalhados.</p>
-⟦0⟧
-<h3>Média a partir de uma tabela de frequências</h3>
-⟦1⟧
-⟦2⟧
-<h3>Raciocinando de trás para frente</h3>
-⟦3⟧
-<p>Com uma quantidade par de valores, a mediana é a média dos dois valores centrais.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Indicada quando…`,
   'j0p0vvrwxf': R`os dados não têm valores extremos (outliers)`,
   '2ajydntyvld': R`os dados são assimétricos ou têm outliers — ex.: preços de imóveis`,
@@ -36,16 +26,6 @@ addT('pt', {
   '22iugjzjcbh': R`A moda é o valor com a maior frequência. ⟦0⟧ tem frequência ⟦1⟧, a maior.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Um <b>experimento</b> (lançar um dado, tirar uma carta) tem <b>resultados</b> possíveis. O conjunto de todos os resultados é o <b>espaço amostral</b> $S$; um <b>evento</b> $E$ é um conjunto de resultados. Quando todos os resultados são igualmente prováveis:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dois dados</h3>
-<p>Lançar dois dados dá $6 \times 6 = 36$ resultados igualmente prováveis. A soma 7 ocorre de 6 maneiras — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, então $P(\text{soma} = 7) = \frac{6}{36} = \frac{1}{6}$. Em geral, o número de maneiras de obter a soma $s$ é $6 - |s - 7|$.</p>
-<h3>Um baralho</h3>
-<p>52 cartas: 4 naipes (♠ ♣ pretos, ♥ ♦ vermelhos) de 13 valores (A, 2–10, J, Q, K). Há 12 figuras (J, Q, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 significa impossível e 1 significa certo.</li><li><b>Complementar:</b> $P(\text{não } E) = 1 - P(E)$.</li><li><b>Frequência esperada</b> em $n$ tentativas $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Um saco tem 3 bolinhas de gude vermelhas, 5 azuis e 2 verdes. $P(\text{azul}) = \frac{5}{10} = \frac{1}{2}$ e $P(\text{não verde}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>A probabilidade experimental (de tentativas reais) se aproxima da probabilidade teórica à medida que o número de tentativas aumenta — mas raramente coincide exatamente.</p>`,
@@ -97,19 +77,6 @@ addT('pt', {
   '23r35ol6pkt': R`São ⟦0⟧ entre as 52 cartas: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Questões de dinheiro do dia a dia são, no fundo, questões de porcentagem.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Desconto e imposto</h3>
-<p>Aplique as porcentagens uma após a outra: um desconto de 20% e depois um imposto de 10% sobre 150 reais dão $150 \times 0{,}8 \times 1{,}1 = 132$ reais.</p>
-<h3>Juros simples</h3>
-⟦3⟧
-<p>1 500 reais aplicados a 6% ao ano durante 3 anos rendem $1\,500 \times 0{,}06 \times 3 = 270$ reais; o total chega a 1 770 reais. Para meses, use $t = \frac{\text{meses}}{12}$.</p>
-<h3>Peso bruto, tara e peso líquido</h3>
-<p><b>Bruto</b> = peso total; <b>tara</b> = peso da embalagem; <b>líquido</b> = bruto − tara. Um saco de 50 kg com tara de 2% tem peso líquido de $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Termo`,
   '1mb9fntmked': R`Preço de custo (PC)`,
   '12bh5c74j0l': R`o que o vendedor pagou`,
@@ -142,17 +109,6 @@ addT('pt', {
   'g36e4lpvm4': R`$\text{PV} = \text{PC} \times ⟦0⟧$, então $\text{PC} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ reais. (Tirar ⟦4⟧% do preço de venda estaria errado.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Uma <b>sequência</b> é uma lista ordenada de números chamados <b>termos</b>. Descobrir a regra permite continuar o padrão ou ir direto a qualquer termo.</p>
-<h3>Progressões aritméticas</h3>
-<p>Soma-se sempre o mesmo número $d$ (a <b>razão</b>): 5; 8; 11; 14; … tem $d = 3$.</p>
-⟦0⟧
-<h3>Progressões geométricas</h3>
-<p>Cada termo é multiplicado pela mesma <b>razão</b> $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Sequências especiais</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>em que $a$ é o primeiro termo. Para 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, então $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nome`,
   'mwgm16sn11': R`Termos`,
@@ -179,14 +135,6 @@ addT('pt', {
   'o3oiu9pprw': R`Os termos são ⟦0⟧. O 7º termo é ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Uma <b>transformação</b> move uma figura ou muda o seu tamanho. Em translações, reflexões e rotações a imagem é <b>congruente</b> (mesma forma e tamanho); em uma homotetia ela é <b>semelhante</b> (mesma forma, tamanho diferente).</p>
-⟦0⟧
-<h3>Figuras semelhantes</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformação`,
   'jmpbrf5c1s': R`Regra para um ponto (x; y)`,
   '2b0j70wot2h': R`Translação por $\binom{a}{b}$`,

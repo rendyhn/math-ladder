@@ -1,5 +1,9 @@
+##### core
+@kskfa8facc
+Clock with 7 positions 0 to 6; powers of 2 cycle 1, 2, 4, 1, …
+
 ##### diff-techniques
-@i2e9stiapi  ; 0=Tbl([T`Rule`, T`Formula`], [[T`Product`, | 1=Tbl([T`Function`, T`Derivative`, T`Funct | 2=Ex(T`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5 | 3=Ex(T`<p>$x^2 + y^2 = 25 \Rightarrow 2x + | 4=Key(T`<p><b>Logarithmic differentiation< | 5=Tip(T`<p>Chain rule: always multiply by 
+@2eractxl2pu  ; 0=Tbl([T`Rule`, T`Formula`], [[T`Product`, | 1=Tbl([T`Function`, T`Derivative`, T`Funct | 2=Ex(T`<p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5 | 3=Ex(T`<p>$x^2 + y^2 = 25 \Rightarrow 2x + | 4=Fig(planeSvg({ W: 320, x: [-6, 8], y: [- | 5=Key(T`<p><b>Logarithmic differentiation< | 6=Tip(T`<p>Chain rule: always multiply by 
 
 ⟦0⟧
 ⟦1⟧
@@ -9,6 +13,7 @@
 ⟦3⟧
 ⟦4⟧
 ⟦5⟧
+⟦6⟧
 @1kr8zytc8j5
 Product
 @1fd6nxjb0xt
@@ -23,6 +28,12 @@ Derivative
 <p>$\dfrac{d}{dx}\,(3x^2 + 1)^5 = 5(3x^2 + 1)^4 \cdot 6x = 30x(3x^2 + 1)^4$ &nbsp;(chain rule)</p><p>$\dfrac{d}{dx}\,x^2 e^{3x} = 2x e^{3x} + 3x^2 e^{3x} = xe^{3x}(2 + 3x)$ &nbsp;(product rule)</p>
 @1nhip08xeg5
 <p>$x^2 + y^2 = 25 \Rightarrow 2x + 2y\,y' = 0 \Rightarrow y' = -\dfrac{x}{y}$. At $(3, 4)$ the slope is $-\frac{3}{4}$.</p>
+@18xwomhalgd
+slope −3/4
+@1p8iwczz04s
+Circle x² + y² = 25 with the tangent at (3, 4)
+@21zx0cgseac
+Implicit differentiation gives the tangent slope $-\frac{x}{y} = -\frac{3}{4}$ at $(3, 4)$ — perpendicular to the radius, whose slope is $\frac{4}{3}$.
 @wvkdxn7frj
 <p><b>Logarithmic differentiation</b> handles products, quotients and variable powers: for $y = x^x$, $\ln y = x\ln x$, so $\frac{y'}{y} = \ln x + 1$ and $y' = x^x(\ln x + 1)$.</p>
 @re4vli1oc9
@@ -59,7 +70,7 @@ Let $f(x) = x\ln x$. Find $f'(e^{⟦0⟧})$.
 Product rule: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. So $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.
 
 ##### diff-applications
-@g0oq20zzs  ; 0=Key(T`<p>If $\lim \frac{f(x)}{g(x)}$ has | 1=Ex(T`<p>Squares of side $x$ are cut from | 2=Fm(T`f(a + h) \approx f(a) + f'(a)\,h \q | 3=Tip(T`<p>L'Hôpital differentiates top an
+@2pce0rr7ld  ; 0=Key(T`<p>If $\lim \frac{f(x)}{g(x)}$ has | 1=Ex(T`<p>Squares of side $x$ are cut from | 2=Fig(planeSvg({ W: 340, x: [0, 9.5], y: [ | 3=Fm(T`f(a + h) \approx f(a) + f'(a)\,h \q | 4=Fig(planeSvg({ W: 340, x: [15, 35], y: [ | 5=Fig(planeSvg({ W: 300, x: [-0.5, 2.5], y | 6=Tip(T`<p>L'Hôpital differentiates top an
 
 <h3>L'Hôpital's rule</h3>
 ⟦0⟧
@@ -67,19 +78,42 @@ Product rule: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. So $f'(e^{⟦0�
 <h3>Optimisation</h3>
 <ol><li>Write the quantity to optimise as a function of one variable (use the constraint).</li><li>Differentiate and solve $f'(x) = 0$.</li><li>Check it is a max/min (second derivative or endpoints).</li></ol>
 ⟦1⟧
+⟦2⟧
 <h3>Related rates</h3>
 <p>Differentiate a relationship with respect to time. For a growing circle, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
 <h3>Linear approximation</h3>
-⟦2⟧
+⟦3⟧
+⟦4⟧
 <h3>Concavity and the Mean Value Theorem</h3>
 <p>$f'' \gt 0$: concave up; $f'' \lt 0$: concave down; an <b>inflection point</b> is where concavity changes. <b>MVT:</b> if $f$ is continuous on $[a, b]$ and differentiable inside, some $c$ in $(a, b)$ has $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧
+⟦5⟧
+⟦6⟧
 @11hmiu9w9s4
 <p>If $\lim \frac{f(x)}{g(x)}$ has the form $\frac{0}{0}$ or $\frac{\infty}{\infty}$, then $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (when the right side exists).</p>
 @189x52ko5mw
 <p>Squares of side $x$ are cut from the corners of an 18 cm square sheet, and the sides folded up. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ gives $x = 3$, so $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>
+@2e7063wkobg
+max 432 cm³ at x = 3
+@1iewsvz30pu
+Graph of the box volume V = x(18 − 2x)² with a maximum of 432 at x = 3
+@b0nxi2qdcb
+$V(x) = x(18 - 2x)^2$ on $0 \le x \le 9$: the peak, where $V' = 0$, is at $x = 3$.
 @e22qux2ozs
 f(a + h) \approx f(a) + f'(a)\,h \qquad \text{e.g. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1
+@4q44bonyk5
+tangent at 25
+@1kls25n6qft
+Square root curve and its tangent line at x = 25
+@1a7uiddsedk
+Near $x = 25$ the tangent line hugs the curve, so it gives good approximations: $\sqrt{26} \approx 5.1$ (true value $5.0990\ldots$).
+@1nghpuy37gf
+secant
+@14sudikl25m
+tangent at c
+@293ef1452la
+Mean value theorem: a tangent parallel to the secant from a to b
+@13gtbidm161
+Mean Value Theorem for $f(x) = x^2$ on $[0, 2]$: the tangent at $c = 1$ is parallel to the secant (both have slope 2).
 @15384lzo6ba
 <p>L'Hôpital differentiates top and bottom <b>separately</b> — it is not the quotient rule.</p>
 @s2219vpl96  ; 0=a === 1 ? '' : a
@@ -120,20 +154,34 @@ $f(x) = ⟦0⟧$ on $[⟦1⟧, ⟦2⟧]$. Find the value $c$ guaranteed by the M
 Average slope $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ gives $c = ⟦7⟧$ — the midpoint, as always for a quadratic.
 
 ##### integration-techniques
-@vrvi3bfbr  ; 0=Fm(T`\int 2x(x^2 + 1)^3\,dx = \int u^3\, | 1=Key(T`$$\int u\,dv = uv - \int v\,du$$<p | 2=Ex(T`<p>$\int x e^{2x}\,dx$: $u = x$, $d | 3=Fm(T`\int_1^\infty \frac{dx}{x^p} = \fra | 4=Tip(T`<p>$\int \frac{g'(x)}{g(x)}\,dx = 
+@1i8ljxmt6ne  ; 0=Fig(flowSvg([T`Is it a standard integral | 1=Fm(T`\int 2x(x^2 + 1)^3\,dx = \int u^3\, | 2=Key(T`$$\int u\,dv = uv - \int v\,du$$<p | 3=Ex(T`<p>$\int x e^{2x}\,dx$: $u = x$, $d | 4=Fm(T`\int_1^\infty \frac{dx}{x^p} = \fra | 5=Fig(planeSvg({ W: 360, H: 220, x: [0, 8] | 6=Tip(T`<p>$\int \frac{g'(x)}{g(x)}\,dx = 
 
+⟦0⟧
 <h3>Substitution</h3>
 <p>Look for a function and its derivative. With $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
+⟦1⟧
 <p>For definite integrals, change the limits too (or substitute back before evaluating).</p>
 <h3>Integration by parts</h3>
-⟦1⟧
 ⟦2⟧
+⟦3⟧
 <h3>Partial fractions</h3>
 <p>Split a rational function into simpler pieces: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Multiply out and substitute $x = 1$ and $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Each piece integrates to a logarithm.</p>
 <h3>Improper integrals</h3>
-⟦3⟧
 ⟦4⟧
+⟦5⟧
+⟦6⟧
+@12zrnyux61u
+Is it a standard integral? → use the table
+@16sg3xjysil
+f(g(x)) · g′(x)? → substitution
+@kedbd7m6kf
+product of different types? → by parts (LIATE)
+@1exw8wo80dq
+rational function? → partial fractions
+@3g2z6sdbxj
+Checklist for choosing an integration technique
+@z2ywtb6lhr
+A quick checklist: try the questions in order.
 @26zznowz8be
 \int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C
 @5ecfawuidh
@@ -142,6 +190,10 @@ $$\int u\,dv = uv - \int v\,du$$<p>Choose $u$ by <b>LIATE</b>: Logarithmic, Inve
 <p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, so $du = dx$, $v = \frac{1}{2}e^{2x}$. Result: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>
 @2clmb8muggz
 \int_1^\infty \frac{dx}{x^p} = \frac{1}{p - 1} \text{ for } p \gt 1 \text{ (diverges for } p \le 1) \qquad \int_0^\infty e^{-kx}\,dx = \frac{1}{k}
+@og653vmj3w
+Areas under 1/x and 1/x² from 1 to infinity
+@dn13560le0
+Both curves tend to 0, but only the area under the lower curve $\frac{1}{x^2}$ (shaded) is finite: $\int_1^\infty \frac{dx}{x^2} = 1$. The area under $\frac{1}{x}$ grows like $\ln x$ without bound.
 @l8twy4h3ug
 <p>$\int \frac{g'(x)}{g(x)}\,dx = \ln|g(x)| + C$ — spot this pattern before reaching for anything heavier.</p>
 @fesx7djw83
@@ -196,8 +248,18 @@ Arc length
 Work (variable force)
 @25psf0wh4wl
 <p>Rotating $y = \sqrt{x}$, $0 \le x \le 4$, about the $x$-axis: $V = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\right]_0^4 = 8\pi$.</p>
+@1s4cb2rcnlo
+disc
+@806h0g6gs0
+Solid formed by rotating y = √x about the x-axis, with one thin disc
+@1kd52baqv0i
+Rotating $y = \sqrt{x}$ about the $x$-axis: each thin disc has volume $\pi y^2\,dx = \pi x\,dx$; adding them gives $8\pi$.
 @84txgrqh8f
 <p>A spring with $k = 200$ N/m (Hooke's law $F = kx$) stretched 0.3 m: $W = \int_0^{0.3} 200x\,dx = 100(0.3)^2 = 9$ J.</p>
+@m5clvqb0mn
+Force-extension graph of a spring; the triangle under it up to 0.3 m has area 9 joules
+@225bg4u38pi
+Work is the area under the force–extension graph: a triangle $\frac{1}{2} \times 0.3 \times 60 = 9$ J.
 @4sufc6qh8k
 <p>Sketch first. Find where the curves meet (these are the limits) and which one is on top — the integrand is always <b>top minus bottom</b> (or outer radius squared minus inner radius squared).</p>
 @2dts82e214f
@@ -234,15 +296,17 @@ $y' = x^{1/2}$, so $L = \int_0^{⟦0⟧} \sqrt{1 + x}\,dx = \left[\frac{2}{3}(1 
 A spring has constant $k = ⟦0⟧$ N/m. How much work is needed to stretch it ⟦1⟧ m from its natural length?
 
 ##### series
-@1efhn95iov3  ; 0=Tbl([T`Test`, T`Conclusion`], [[T`Diverg | 1=Ex(T`<p><b>Telescoping:</b> $\displaysty | 2=Tbl([T`Function`, T`Maclaurin series`, T | 3=Tip(T`<p>$a_n \to 0$ is necessary but no
+@22ywziqc3vc  ; 0=Tbl([T`Test`, T`Conclusion`], [[T`Diverg | 1=Ex(T`<p><b>Telescoping:</b> $\displaysty | 2=Fig(planeSvg({ W: 360, H: 240, x: [0, 12 | 3=Tbl([T`Function`, T`Maclaurin series`, T | 4=Fig(planeSvg({ W: 380, H: 250, x: [-6.5, | 5=Tip(T`<p>$a_n \to 0$ is necessary but no
 
 <p>An infinite series $\sum a_n$ <b>converges</b> if its partial sums $S_N = a_1 + \cdots + a_N$ approach a finite limit.</p>
 ⟦0⟧
 ⟦1⟧
+⟦2⟧
 <h3>Power series and Taylor series</h3>
 <p>A power series $\sum c_n (x - a)^n$ converges for $|x - a| \lt R$, the <b>radius of convergence</b> (find it with the ratio test). The Taylor series of $f$ about $a$ is $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; about 0 it is called a Maclaurin series.</p>
-⟦2⟧
 ⟦3⟧
+⟦4⟧
+⟦5⟧
 @1fv7uha3bb4
 Test
 @1boy0ga8tbt
@@ -271,12 +335,24 @@ Alternating series
 $\sum (-1)^n b_n$ converges if $b_n \downarrow 0$
 @12cxen3heke
 <p><b>Telescoping:</b> $\displaystyle\sum_{n=1}^{N}\frac{1}{n(n+1)} = \sum\left(\frac{1}{n} - \frac{1}{n+1}\right) = 1 - \frac{1}{N+1}$, which tends to 1.</p>
+@1a8zs92t56c
+limit 1
+@1y9px07sht0
+harmonic Σ 1/n
+@cezd25u2ay
+Partial sums of the telescoping series approaching 1, and of the harmonic series growing slowly without limit
+@wkzbbbpzmt
+Partial sums $S_N$: the telescoping series levels off at 1 (converges), while the harmonic series keeps creeping upward (diverges).
 @1ql1d0zgkve
 Maclaurin series
 @1arf5rbq565
 Valid for
 @oui4ssl2gv
 all x
+@17yy4fugakd
+Sine curve with its Taylor polynomials of degree 1, 3 and 5
+@1vv57xqt390
+Taylor polynomials of $\sin x$: each extra term makes the polynomial hug the curve over a wider interval.
 @kvkz0oqeo6
 <p>$a_n \to 0$ is necessary but not sufficient: the harmonic series $\sum \frac{1}{n}$ diverges even though $\frac{1}{n} \to 0$.</p>
 @16u2ienbhtn  ; 0=from1 ? 1 : 0 | 1=a === 1 ? '' : a | 2=frT(p, q)
@@ -347,11 +423,12 @@ Which function has the Maclaurin series $\displaystyle ⟦0⟧$?
 This is the standard series for $⟦0⟧$.
 
 ##### multivariable
-@elrzs4craq  ; 0=Key(T`$$\nabla f = \left(f_x, f_y\right) | 1=Ex(T`<p>Maximise $f = xy$ subject to $x  | 2=Tip(T`<p>In polar coordinates, don't for
+@snltdvly4b  ; 0=Key(T`$$\nabla f = \left(f_x, f_y\right) | 1=Fig(planeSvg({ W: 300, x: [-3.5, 3.5], y | 2=Ex(T`<p>Maximise $f = xy$ subject to $x  | 3=Fig(planeSvg({ W: 320, x: [0, 11], y: [0 | 4=Tip(T`<p>In polar coordinates, don't for
 
 <p>For $f(x, y)$, the <b>partial derivative</b> $f_x = \frac{\partial f}{\partial x}$ differentiates with respect to $x$ while treating $y$ as a constant (and vice versa for $f_y$). For $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
 <h3>Gradient and directional derivatives</h3>
 ⟦0⟧
+⟦1⟧
 <h3>Critical points: second derivative test</h3>
 <p>At a point where $f_x = f_y = 0$, let $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
 <ul><li>$D \gt 0$, $f_{xx} \gt 0$: local minimum. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: local maximum.</li><li>$D \lt 0$: saddle point. &nbsp; $D = 0$: the test is inconclusive.</li></ul>
@@ -359,12 +436,21 @@ This is the standard series for $⟦0⟧$.
 <p>Over a rectangle, integrate one variable at a time (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. In polar coordinates, $dA = r\,dr\,d\theta$.</p>
 <h3>Lagrange multipliers</h3>
 <p>To optimise $f$ subject to $g = c$, solve $\nabla f = \lambda\nabla g$ together with the constraint.</p>
-⟦1⟧
 ⟦2⟧
+⟦3⟧
+⟦4⟧
 @1lpi0dcmqpt
 $$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ points in the direction of steepest increase; its length is that maximum rate.</p>
+@1bcnk7kygar
+Contour lines of f = x² + y² with gradient arrows pointing straight outward
+@1dlfrerjue7
+Contours of $f = x^2 + y^2$ (levels 1, 4, 9). The gradient $\nabla f = (2x, 2y)$ is perpendicular to each contour and points uphill.
 @opu0v1dwpl
 <p>Maximise $f = xy$ subject to $x + y = 10$: $(y, x) = \lambda(1, 1)$ gives $x = y = 5$, so the maximum is 25.</p>
+@1ccwfnybcxw
+Level curves xy = 9, 16, 25 and the constraint line x + y = 10, touching at (5, 5)
+@1x9r423ge2j
+The best level curve $xy = 25$ just touches the constraint line at $(5, 5)$: there $\nabla f$ and $\nabla g$ are parallel — Lagrange's condition.
 @83uqphqp8x
 <p>In polar coordinates, don't forget the extra factor $r$ in $dA = r\,dr\,d\theta$.</p>
 @oxpugv5o3o  ; 0=f | 1=fX ? 'x' : 'y' | 2=p | 3=q
@@ -413,21 +499,27 @@ Evaluate $\displaystyle\iint_D (x^2 + y^2)\,dA$, where $D$ is the disc $x^2 + y^
 Polar coordinates: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.
 
 ##### ode
-@29y4y4v6xas  ; 0=Ex(T`<p>$\frac{dy}{dx} = 2xy$: separate, | 1=Key(T`<p>For $y' + P(x)y = Q(x)$, multip | 2=Tbl([T`Roots`, T`General solution`], [[T | 3=Ex(T`<p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $ | 4=Tip(T`<p>For a repeated root, $C_1e^{rx}
+@fs23huivh  ; 0=Ex(T`<p>$\frac{dy}{dx} = 2xy$: separate, | 1=Fig(planeSvg({ W: 340, x: [-2, 2], y: [- | 2=Key(T`<p>For $y' + P(x)y = Q(x)$, multip | 3=Tbl([T`Roots`, T`General solution`], [[T | 4=FigRow([[planeSvg({ W: 250, H: 180, x: [ | 5=Ex(T`<p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $ | 6=Tip(T`<p>For a repeated root, $C_1e^{rx}
 
 <p>A <b>differential equation</b> relates a function to its derivatives. Its <b>order</b> is the highest derivative that appears. A <b>general solution</b> contains arbitrary constants; initial conditions pick out a particular solution.</p>
 <h3>Separable equations</h3>
 ⟦0⟧
+⟦1⟧
 <p>Special case: $\frac{dy}{dt} = ky$ gives $y = y_0e^{kt}$ — exponential growth ($k \gt 0$) or decay ($k \lt 0$). With half-life $T$, the amount left is $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
 <h3>First-order linear equations</h3>
-⟦1⟧
+⟦2⟧
 <h3>Second-order linear, constant coefficients</h3>
 <p>For $ay'' + by' + cy = 0$, try $y = e^{rx}$ to get the <b>characteristic equation</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
 ⟦3⟧
 ⟦4⟧
+⟦5⟧
+⟦6⟧
 @cqow3q58nr
 <p>$\frac{dy}{dx} = 2xy$: separate, $\int\frac{dy}{y} = \int 2x\,dx$, so $\ln|y| = x^2 + C$ and $y = Ae^{x^2}$.</p>
+@1jwgnzb1d2z
+Slope field of dy/dx = 2xy with three solution curves y = A e^(x²)
+@13jw3j3o1x9
+The slope field of $y' = 2xy$: each short segment shows the slope at that point. Solution curves $y = Ae^{x^2}$ follow the segments.
 @24caer7vpv9
 <p>For $y' + P(x)y = Q(x)$, multiply by the <b>integrating factor</b> $\mu(x) = e^{\int P(x)\,dx}$. Then $(\mu y)' = \mu Q$, so $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>
 @2fhw42v6h9r
@@ -440,6 +532,16 @@ real, distinct $r_1, r_2$
 repeated $r$
 @3w3x9xlope
 complex $\alpha \pm \beta i$
+@1kik7dc296m
+Solution for real roots: decays without oscillating
+@218nrs3y2db
+Real roots: no oscillation
+@1qk4gb2d7uo
+Solution for complex roots: oscillation inside a decaying envelope
+@2a9zpmm65ol
+Complex roots $\alpha \pm \beta i$: oscillation
+@1ctklf6p6d1
+The roots of the characteristic equation decide the shape: real roots give pure exponentials, complex roots give waves (damped when $\alpha \lt 0$).
 @68uvb89pvs
 <p>$y'' + 4y = 0$: $r^2 + 4 = 0$, $r = \pm 2i$, so $y = C_1\cos 2x + C_2\sin 2x$ — simple harmonic motion.</p>
 @vgovr9zohx
@@ -478,7 +580,7 @@ What is the order of the differential equation $⟦0⟧$?
 The order is the highest derivative that appears: here it is ⟦0⟧.
 
 ##### linear-algebra
-@aoku0sfspm  ; 0=Key(T`<p><b>Rank–nullity:</b> for an $m  | 1=Fm(T`\det\begin{pmatrix} a & b & c \\ d  | 2=Key(T`$$A\mathbf{v} = \lambda\mathbf{v}, | 3=Ex(T`<p>$A = \begin{pmatrix} 4 & 1 \\ 2  | 4=Tip(T`<p>$\det(2A) = 2^n\det A$, not $2\
+@24kf7gdq652  ; 0=Key(T`<p><b>Rank–nullity:</b> for an $m  | 1=Fm(T`\det\begin{pmatrix} a & b & c \\ d  | 2=Key(T`$$A\mathbf{v} = \lambda\mathbf{v}, | 3=Ex(T`<p>$A = \begin{pmatrix} 4 & 1 \\ 2  | 4=Fig(planeSvg({ W: 340, x: [-2, 6], y: [- | 5=Tip(T`<p>$\det(2A) = 2^n\det A$, not $2\
 
 <h3>Linear systems and rank</h3>
 <p>A system $A\mathbf{x} = \mathbf{b}$ is solved by row-reducing the augmented matrix $[A \mid \mathbf{b}]$ to echelon form. The <b>rank</b> of $A$ is the number of pivots (non-zero rows in echelon form).</p>
@@ -489,8 +591,9 @@ The order is the highest derivative that appears: here it is ⟦0⟧.
 <h3>Eigenvalues and eigenvectors</h3>
 ⟦2⟧
 ⟦3⟧
-<p>If $A$ has $n$ independent eigenvectors, it is <b>diagonalisable</b>: $A = PDP^{-1}$, with eigenvectors as the columns of $P$ and eigenvalues on the diagonal of $D$.</p>
 ⟦4⟧
+<p>If $A$ has $n$ independent eigenvectors, it is <b>diagonalisable</b>: $A = PDP^{-1}$, with eigenvectors as the columns of $P$ and eigenvalues on the diagonal of $D$.</p>
+⟦5⟧
 @q9p1mxjp5t
 <p><b>Rank–nullity:</b> for an $m \times n$ matrix, $\text{rank}(A) + \text{nullity}(A) = n$. A square $A$ is invertible $\iff \det A \ne 0 \iff$ its columns are linearly independent $\iff \text{rank} = n$.</p>
 @12oak6poq42
@@ -499,6 +602,10 @@ The order is the highest derivative that appears: here it is ⟦0⟧.
 $$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>For a $2 \times 2$ matrix: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. The eigenvalues sum to the trace and multiply to the determinant.</p>
 @1khrdp55fj
 <p>$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$: $\lambda^2 - 7\lambda + 10 = 0$, so $\lambda = 2, 5$. For $\lambda = 5$: $(A - 5I)\mathbf{v} = 0$ gives $\mathbf{v} = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.</p>
+@giwkvelbcc
+Eigenvectors (1, 1) and (1, −2) are stretched along their own lines by 5 and 2; the vector (1, 0) is turned to (4, 2)
+@10zoe3cxhmh
+$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$ stretches its eigenvectors along their own lines (by 5 and by 2). An ordinary vector like $\mathbf{u} = (1, 0)$ is knocked off its line, to $(4, 2)$.
 @21awxvuldiu
 <p>$\det(2A) = 2^n\det A$, not $2\det A$ — every one of the $n$ rows is scaled.</p>
 @19a9vb1rr2m  ; 0=m[0][0] | 1=m[1][1] * m[2][2] - m[1][2] * m[2][1] | 2=pn(m[0][1]) | 3=m[1][0] * m[2][2] - m[1][2] * m[2][0] | 4=pn(m[0][2]) | 5=m[1][0] * m[2][1] - m[1][1] * m[2][0] | 6=d
@@ -551,16 +658,22 @@ $\mathbf{v} = ⟦0⟧$ is an eigenvector of $A = ⟦1⟧$. What is its eigenvalu
 $A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, so $\lambda = ⟦3⟧$.
 
 ##### complex
-@n87wkmbfmz  ; 0=Tbl([T`Operation`, T`Rule`], [[T`Multipl | 1=Ex(T`<p>$\dfrac{5 + 5i}{2 - i} = \dfrac{ | 2=Key(T`$$z = r(\cos\theta + i\sin\theta)  | 3=Ex(T`<p>$1 + i = \sqrt{2}e^{i\pi/4}$, so | 4=Tip(T`<p>The argument of $-1 - i$ is $-\
+@to00bbswkc  ; 0=Fig(planeSvg({ W: 300, x: [-1, 5], y: [- | 1=Tbl([T`Operation`, T`Rule`], [[T`Multipl | 2=Ex(T`<p>$\dfrac{5 + 5i}{2 - i} = \dfrac{ | 3=Key(T`$$z = r(\cos\theta + i\sin\theta)  | 4=Ex(T`<p>$1 + i = \sqrt{2}e^{i\pi/4}$, so | 5=Fig(planeSvg({ W: 280, x: [-1.5, 1.5], y | 6=Tip(T`<p>The argument of $-1 - i$ is $-\
 
 <p>The imaginary unit satisfies $i^2 = -1$. A complex number is $z = a + bi$ with real part $\text{Re}(z) = a$ and imaginary part $\text{Im}(z) = b$. Powers of $i$ repeat every four: $i, -1, -i, 1, \ldots$</p>
 ⟦0⟧
 ⟦1⟧
-<h3>Polar form and Euler's formula</h3>
 ⟦2⟧
+<h3>Polar form and Euler's formula</h3>
 ⟦3⟧
-<p>The $n$th roots of unity are $e^{2\pi ik/n}$ for $k = 0, 1, \ldots, n - 1$: equally spaced points on the unit circle.</p>
 ⟦4⟧
+<p>The $n$th roots of unity are $e^{2\pi ik/n}$ for $k = 0, 1, \ldots, n - 1$: equally spaced points on the unit circle.</p>
+⟦5⟧
+⟦6⟧
+@1kh6ncrrjhr
+Argand diagram with z = 3 + 2i, its modulus r, argument theta and conjugate
+@18by369zpdw
+The Argand diagram: $z = a + bi$ is the point $(a, b)$. Its distance from 0 is $r = |z| = \sqrt{13}$, its angle is $\theta = \arg z$, and $\bar{z}$ is its mirror image in the real axis.
 @rz9c61mn5
 Multiply
 @1lvuh3a6n9s
@@ -581,6 +694,10 @@ $\arg z = \theta$ with $\tan\theta = \frac{b}{a}$ (mind the quadrant)
 $$z = r(\cos\theta + i\sin\theta) = re^{i\theta} \qquad\qquad z^n = r^n e^{in\theta} \;\;\text{(De Moivre)}$$
 @16lvmowwhri
 <p>$1 + i = \sqrt{2}e^{i\pi/4}$, so $(1 + i)^8 = (\sqrt{2})^8 e^{2\pi i} = 16$.</p>
+@2ca46km61o7
+The six sixth roots of unity forming a regular hexagon on the unit circle
+@z7gejv15pg
+The 6th roots of unity $e^{2\pi i k/6}$ sit at the corners of a regular hexagon on the unit circle.
 @256fv20o5wc
 <p>The argument of $-1 - i$ is $-\frac{3\pi}{4}$, not $\frac{\pi}{4}$: $\arctan\frac{b}{a}$ alone can't tell the third quadrant from the first.</p>
 @10omtzlugr6  ; 0=cxT(a, b) | 1=cxT(c, d)
@@ -615,15 +732,17 @@ $⟦0⟧ = \sqrt{2}\,e^{i\theta}$ with $\theta = ⟦1⟧$. Then $(\sqrt{2})^{⟦
 Let $z = ⟦0⟧$. Find $\text{⟦1⟧}(z^2)$.
 
 ##### distributions
-@28d8604hmp9  ; 0=Fm(T`E[X] = \sum x\,p(x) \qquad \text{Va | 1=Tbl([T`Distribution`, T`P(X = k) or dens | 2=Key(T`<p>Standardise with $Z = \dfrac{X  | 3=Ex(T`<p>Heights $X \sim N(170, 8^2)$. A  | 4=Tip(T`<p>Binomial needs a fixed number o
+@x4ag408mej  ; 0=Fm(T`E[X] = \sum x\,p(x) \qquad \text{Va | 1=Tbl([T`Distribution`, T`P(X = k) or dens | 2=Fig(barsSvg(step(0, 10, 1).map(k => [Str | 3=Key(T`<p>Standardise with $Z = \dfrac{X  | 4=Ex(T`<p>Heights $X \sim N(170, 8^2)$. A  | 5=Fig(planeSvg({ W: 400, H: 200, x: [142,  | 6=Tip(T`<p>Binomial needs a fixed number o
 
 <p>A <b>random variable</b> $X$ assigns numbers to outcomes. For a discrete $X$ with probabilities $p(x)$:</p>
 ⟦0⟧
 ⟦1⟧
-<h3>The normal distribution</h3>
 ⟦2⟧
+<h3>The normal distribution</h3>
 ⟦3⟧
 ⟦4⟧
+⟦5⟧
+⟦6⟧
 @gk52muplh1
 E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)
 @115owsb7jcv
@@ -644,10 +763,18 @@ Exponential$(\lambda)$
 Normal $N(\mu, \sigma^2)$
 @26wsuf9ho5r
 bell curve
+@29swvaaz64n
+Bar chart of the binomial distribution B(10, 0.5)
+@aj8pez2n9z
+$B(10, 0.5)$: the probabilities are symmetric about the mean $np = 5$, where $P(X = 5) \approx 0.246$.
 @1bw0zjk7wg1
 <p>Standardise with $Z = \dfrac{X - \mu}{\sigma}$, then use standard normal tables. The <b>68–95–99.7 rule</b>: about 68%, 95% and 99.7% of values lie within 1, 2 and 3 standard deviations of the mean.</p>
 @1mn62kz3dqi
 <p>Heights $X \sim N(170, 8^2)$. A height of 186 cm has $z = \frac{186 - 170}{8} = 2$, so only about 2.5% of people are taller.</p>
+@128ovwhf0xt
+Normal curve of heights with mean 170 and standard deviation 8; the tail above 186 is shaded
+@f0r0sm75po
+$N(170, 8^2)$: 186 cm is 2 standard deviations above the mean; the shaded tail is about 2.5% of the area.
 @20odz9yh9el
 <p>Binomial needs a fixed number of independent trials with the same success probability. Poisson counts events in an interval at a constant average rate.</p>
 @hehw668sc4  ; 0=qTable([['$x$', ...xs], ['$P(X = x)$', .
@@ -684,20 +811,35 @@ $\text{Var}(aX + b) = a^2\,\text{Var}(X) = ⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ —
 $E[X] = ⟦0⟧$ and $\text{Var}(X) = ⟦1⟧$. Find $E[⟦2⟧]$.
 
 ##### inference
-@oph0fjnqfd  ; 0=Fm(T`\bar{x} \pm z^*\frac{\sigma}{\sqrt{ | 1=Tbl(['', T`H₀ true`, T`H₀ false`], [[T`R | 2=Tip(T`<p>"Fail to reject $H_0$" is not t
+@c7oei6is1q  ; 0=Fm(T`\bar{x} \pm z^*\frac{\sigma}{\sqrt{ | 1=Fig(planeSvg({ W: 400, H: 190, x: [-3.6, | 2=Fig(planeSvg({ W: 400, H: 190, x: [-3.6, | 3=Tbl(['', T`H₀ true`, T`H₀ false`], [[T`R | 4=Fig(planeSvg({ W: 340, x: [0, 10], y: [0 | 5=Tip(T`<p>"Fail to reject $H_0$" is not t
 
 <p>We use a <b>sample</b> statistic (like $\bar{x}$) to estimate a <b>population</b> parameter (like $\mu$). By the <b>Central Limit Theorem</b>, for large $n$ the sample mean is approximately normal with mean $\mu$ and <b>standard error</b> $\frac{\sigma}{\sqrt{n}}$.</p>
 <h3>Confidence intervals</h3>
 ⟦0⟧
+⟦1⟧
 <p>To achieve a margin of error $E$, you need $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (round up). When $\sigma$ is unknown, use $s$ and the $t$-distribution.</p>
 <h3>Hypothesis tests</h3>
 <ol><li>State $H_0$ (e.g. $\mu = \mu_0$) and $H_1$.</li><li>Compute a test statistic, e.g. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Find the <b>p-value</b>: the probability, assuming $H_0$, of a result at least this extreme.</li><li>If $p \le \alpha$, reject $H_0$; otherwise fail to reject it.</li></ol>
-⟦1⟧
+⟦2⟧
+⟦3⟧
 <h3>Linear regression</h3>
 <p>The least-squares line $\hat{y} = a + bx$ has slope $b = r\frac{s_y}{s_x}$ and passes through $(\bar{x}, \bar{y})$, so $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧
+⟦4⟧
+⟦5⟧
 @cozbu7bifr
 \bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1.645 \;(90\%),\; 1.96 \;(95\%),\; 2.576 \;(99\%)
+@r62u9c9xje
+Standard normal curve with the middle 95 percent between −1.96 and 1.96 shaded
+@1duqmk71tmc
+95% of sample means fall within $1.96$ standard errors of $\mu$ — which is why $\bar{x} \pm 1.96\frac{\sigma}{\sqrt{n}}$ catches $\mu$ 95% of the time.
+@162ox02119f
+observed z = 2.4
+@1adfzwf3gei
+fail to reject
+@17q1572rbon
+Two-tailed test at 5 percent: rejection regions beyond ±1.96 and an observed z of 2.4 inside the right tail
+@6fofc667su
+A two-tailed test at $\alpha = 0.05$: the shaded tails are the rejection region. An observed $z = 2.4$ lands in it, so we reject $H_0$ (p-value $\approx 0.016$).
 @7nca7j57l5
 H₀ true
 @2e0zey7f13x
@@ -714,6 +856,10 @@ Fail to reject H₀
 Correct
 @e51gkfcb06
 Type II error (probability β)
+@4jgetub3ye
+Scatter plot with a least-squares regression line
+@1vzq0h3n0ai
+The least-squares line runs through the middle of the cloud, making the sum of squared vertical distances as small as possible. It always passes through $(\bar{x}, \bar{y})$.
 @6idiejz1ba
 <p>"Fail to reject $H_0$" is not the same as "accept $H_0$" — the data just aren't strong enough evidence against it.</p>
 @awqxfz9vdv  ; 0=s | 1=n
@@ -730,8 +876,6 @@ Lower limit $= ⟦0⟧ - ⟦1⟧ \approx ⟦2⟧$.
 Test $H_0: \mu = ⟦0⟧$ with $\sigma = ⟦1⟧$. A sample of ⟦2⟧ has $\bar{x} = ⟦3⟧$. Compute the $z$ test statistic to 2 decimal places.
 @b7sayy3tzp  ; 0=M(pv) | 1=M(alpha * 100)
 A test gives a p-value of ⟦0⟧. At the ⟦1⟧% significance level, what is the decision?
-@1adfzwf3gei
-fail to reject
 @2fh7exkwsd7
 do not reject
 @1ui411puarn  ; 0=M(alpha) | 1=M(pv) | 2=rej ? '\\le' : '\\gt' | 3=M(alpha) | 4=rej ? T`so we <b>reject</b> $H_0$.` : T`
@@ -776,22 +920,30 @@ What is the smallest sample size giving a ⟦0⟧% confidence interval with marg
 $n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, so round up: $n = ⟦4⟧$.
 
 ##### discrete
-@a1ovpdx0vp  ; 0=Key(T`<p><b>Euclidean algorithm:</b> $\g | 1=Ex(T`<p>$\gcd(252, 198)$: $252 = 1 \cdot | 2=Tip(T`<p>In inclusion–exclusion problems
+@1sl57vmn5mx  ; 0=Key(T`<p><b>Euclidean algorithm:</b> $\g | 1=Ex(T`<p>$\gcd(252, 198)$: $252 = 1 \cdot | 2=Fig(modClockSvg(), T`Powers of 2 modulo  | 3=Fig(networkSvg([[60, 50, 'A'], [200, 30, | 4=Tip(T`<p>In inclusion–exclusion problems
 
 <h3>Number theory</h3>
 <p>$a \equiv b \pmod n$ means $n$ divides $a - b$; $a \bmod n$ is the remainder in $\{0, 1, \ldots, n - 1\}$. Congruences can be added and multiplied, and powers reduced step by step.</p>
 ⟦0⟧
 ⟦1⟧
+⟦2⟧
 <p>The <b>modular inverse</b> of $a$ mod $n$ is $x$ with $ax \equiv 1 \pmod n$; it exists exactly when $\gcd(a, n) = 1$.</p>
 <h3>Counting</h3>
 <ul><li>Functions from a set of size $m$ to one of size $n$: $n^m$; injective ones: $n(n-1)\cdots(n-m+1)$.</li><li>Inclusion–exclusion: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Pigeonhole:</b> if more than $kn$ objects go into $n$ boxes, some box gets at least $k + 1$.</li></ul>
 <h3>Recurrences and graphs</h3>
 <p>A recurrence defines each term from earlier ones, like $a_n = 2a_{n-1} + 1$, $a_0 = 1$. In a graph, the <b>handshake lemma</b> says $\sum \deg(v) = 2|E|$; $K_n$ has $\binom{n}{2}$ edges; a tree on $n$ vertices has $n - 1$ edges; a connected graph has an Euler circuit iff every degree is even.</p>
-⟦2⟧
+⟦3⟧
+⟦4⟧
 @1vllnifl24g
 <p><b>Euclidean algorithm:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, repeated until the remainder is 0.</p><p><b>Fermat's little theorem:</b> if $p$ is prime and $p \nmid a$, then $a^{p-1} \equiv 1 \pmod p$.</p>
 @28pp2kgl31t
 <p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. So the gcd is 18.</p><p>$2^{100} \bmod 7$: since $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>
+@1tipu7c9al3
+Powers of 2 modulo 7 cycle $1 \to 2 \to 4 \to 1$ every 3 steps, so $2^{100} = 2^{99} \cdot 2 \equiv 1 \cdot 2 = 2$.
+@rvvoukm432
+A graph with five vertices and seven edges, each vertex labelled with its degree
+@2f014abbyyc
+Degrees $3 + 3 + 2 + 4 + 2 = 14 = 2 \times 7$ edges: every edge is counted once at each end (handshake lemma).
 @23tw4c5wfxh
 <p>In inclusion–exclusion problems ("divisible by 3 or 5"), the overlap is divisibility by the <b>lcm</b>, 15.</p>
 @8fw6na2xe1  ; 0=M(a) | 1=n
@@ -866,27 +1018,46 @@ What is the smallest number of people needed to guarantee that at least ⟦0⟧ 
 With ⟦0⟧ categories, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ people could avoid it; one more forces a group of ⟦4⟧: $⟦5⟧$.
 
 ##### numerical
-@106u35np5bp  ; 0=Fm(T`\text{absolute error} = |x_{\text{t | 1=Ex(T`<p>$\sqrt{10}$ via $f(x) = x^2 - 10 | 2=Fm(T`\text{Trapezoidal: } \frac{h}{2}\bi | 3=Key(T`<p>For $y' = f(x, y)$ with $y(x_0) | 4=Tip(T`<p>In the trapezoidal rule only th
+@1mtvwhuo4v8  ; 0=Fm(T`\text{absolute error} = |x_{\text{t | 1=Ex(T`<p>$\sqrt{10}$ via $f(x) = x^2 - 10 | 2=Fig(planeSvg({ W: 360, x: [0, 7], y: [-1 | 3=Fm(T`\text{Trapezoidal: } \frac{h}{2}\bi | 4=Fig(planeSvg({ W: 340, x: [-0.3, 4.4], y | 5=Key(T`<p>For $y' = f(x, y)$ with $y(x_0) | 6=Fig(planeSvg({ W: 340, x: [0, 2.2], y: [ | 7=Tip(T`<p>In the trapezoidal rule only th
 
 <p>Numerical methods approximate answers that have no convenient closed form. Two kinds of error matter: <b>truncation</b> error (from the method) and <b>round-off</b> error (from finite precision).</p>
 ⟦0⟧
 <h3>Root finding</h3>
 <ul><li><b>Bisection:</b> if $f(a)$ and $f(b)$ have opposite signs, test the midpoint $m$ and keep the half where the sign changes. Slow but guaranteed: the error halves each step.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Very fast near a simple root (quadratic convergence), but it can fail with a bad start or $f' \approx 0$.</li></ul>
 ⟦1⟧
-<h3>Numerical integration</h3>
 ⟦2⟧
-<p>Here $h = \frac{b - a}{n}$. Simpson's rule is exact for polynomials up to degree 3.</p>
-<h3>Euler's method</h3>
+<h3>Numerical integration</h3>
 ⟦3⟧
+<p>Here $h = \frac{b - a}{n}$. Simpson's rule is exact for polynomials up to degree 3.</p>
 ⟦4⟧
+<h3>Euler's method</h3>
+⟦5⟧
+⟦6⟧
+⟦7⟧
 @2fbw9jej1dm
 \text{absolute error} = |x_{\text{true}} - x_{\text{approx}}| \qquad \text{relative error} = \frac{|x_{\text{true}} - x_{\text{approx}}|}{|x_{\text{true}}|}
 @1a9noj3sp27
 <p>$\sqrt{10}$ via $f(x) = x^2 - 10$ from $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3.1667$, $x_2 = 3.1623$ — already correct to 4 decimal places.</p>
+@1h6vyclq2id
+Newton's method on x² − 10 starting from x₀ = 6: tangent lines lead to x₁ ≈ 3.83 and x₂ ≈ 3.22
+@rw5pr8zfhj
+Newton's method: follow the tangent down to the axis, then repeat. From a far start $x_0 = 6$: $x_1 \approx 3.83$, $x_2 \approx 3.22$, closing in on $\sqrt{10} \approx 3.162$.
 @vx6qz5zup7
 \text{Trapezoidal: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ even}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]
+@2dcxkd04r99
+Trapezoidal rule with four strips under a curve
+@xtadyxerve
+The trapezoidal rule joins neighbouring points with straight lines; the small gaps between chords and curve are its error.
 @2fmxu9hfzwl
 <p>For $y' = f(x, y)$ with $y(x_0) = y_0$: $\; y_{n+1} = y_n + h\,f(x_n, y_n)$, $x_{n+1} = x_n + h$. Halving $h$ roughly halves the error.</p>
+@2ak1gl7cef1
+Euler 5.06
+@116ohe8fv24
+exact 7.39
+@19y93u0q15t
+Euler's method with step 0.5 for y′ = y compared with the exact solution e to the x
+@cdu2d6t5hv
+Euler's method for $y' = y$, $y(0) = 1$, $h = 0.5$: each step follows the current slope, so the polygon falls further below $e^x$ as the curve bends upward.
 @fn0bl5sobc
 <p>In the trapezoidal rule only the <b>interior</b> ordinates are doubled; the two end values appear once.</p>
 @1n5pqkgqwu1  ; 0=a | 1=x0
@@ -913,20 +1084,31 @@ Use Euler's method with $h = ⟦0⟧$ to approximate $y(⟦1⟧)$ for $y' = ⟦2
 $⟦0⟧$ is approximated by ⟦1⟧. Find the relative error as a percentage, to 3 decimal places.
 
 ##### vector-calculus
-@bh1w03a054  ; 0=Fm(T`\text{div}\,\mathbf{F} = \nabla\cdo | 1=Key(T`<p>$\mathbf{F}$ is <b>conservative | 2=Ex(T`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $ | 3=Tbl([T`Theorem`, T`Statement`], [[T`Gree | 4=Tip(T`<p>Green's theorem needs $C$ trave
+@12ng1nf8855  ; 0=Fm(T`\text{div}\,\mathbf{F} = \nabla\cdo | 1=FigRow([[planeSvg({ W: 240, x: [-2.4, 2. | 2=Key(T`<p>$\mathbf{F}$ is <b>conservative | 3=Ex(T`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $ | 4=Tbl([T`Theorem`, T`Statement`], [[T`Gree | 5=Tip(T`<p>Green's theorem needs $C$ trave
 
 <p>A <b>vector field</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ attaches a vector to every point — like wind velocity or a force. With $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
 ⟦0⟧
 <p>Divergence measures outflow from a point; curl measures rotation.</p>
-<h3>Line integrals and conservative fields</h3>
 ⟦1⟧
+<h3>Line integrals and conservative fields</h3>
 ⟦2⟧
-<h3>The big theorems</h3>
 ⟦3⟧
-<p>A neat consequence of Green's theorem: the area of $D$ is $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+<h3>The big theorems</h3>
 ⟦4⟧
+<p>A neat consequence of Green's theorem: the area of $D$ is $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦5⟧
 @1oemuo3mhjj
 \text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)
+@colkfdim43
+Vector field (x, y) pointing outward from the origin
+@i9e3oxp5ne
+$\mathbf{F} = (x, y)$: div $= 2$, curl $= 0$
+@ud7c2723aa
+Vector field (−y, x) circulating anticlockwise
+@1w7qhhdphc9
+$\mathbf{F} = (-y, x)$: div $= 0$, curl $= 2$
+@22dpzh2y6el
+Outflow versus rotation: the first field spreads out from the origin, the second swirls around it.
 @dx5b9h7rwd
 <p>$\mathbf{F}$ is <b>conservative</b> if $\mathbf{F} = \nabla\varphi$ for a potential $\varphi$. Then $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ for any path from $A$ to $B$. In the plane (simply connected domain), $(P, Q)$ is conservative iff $P_y = Q_x$.</p>
 @11uavg1kohe
@@ -981,20 +1163,25 @@ Find a potential function for $\mathbf{F} = \left(⟦0⟧,\; ⟦1⟧\right)$.
 Integrate $P$ in $x$: $\varphi = ⟦0⟧ + g(y)$. Then $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ gives $g = ⟦3⟧$.
 
 ##### laplace
-@f6f4kfx30i  ; 0=Fm(T`\mathcal{L}\{f(t)\} = F(s) = \int_0 | 1=Tbl(['f(t)', 'F(s)', 'f(t)', 'F(s)'], [[ | 2=Key(T`<p><b>Linearity:</b> $\mathcal{L}\ | 3=Ex(T`<p>Solve $y'' + 4y = 0$, $y(0) = 3$ | 4=Tip(T`<p>$\mathcal{L}\{\sin bt\}$ has $b
+@u5cfzxzcr6  ; 0=Fm(T`\mathcal{L}\{f(t)\} = F(s) = \int_0 | 1=Tbl(['f(t)', 'F(s)', 'f(t)', 'F(s)'], [[ | 2=Key(T`<p><b>Linearity:</b> $\mathcal{L}\ | 3=Ex(T`<p>Solve $y'' + 4y = 0$, $y(0) = 3$ | 4=Fig(planeSvg({ W: 380, H: 220, x: [0, 6. | 5=Tip(T`<p>$\mathcal{L}\{\sin bt\}$ has $b
 
 ⟦0⟧
 ⟦1⟧
 ⟦2⟧
 ⟦3⟧
-<p>Inverse transforms usually need partial fractions first, then matching against the table.</p>
 ⟦4⟧
+<p>Inverse transforms usually need partial fractions first, then matching against the table.</p>
+⟦5⟧
 @1kbz0ay16v9
 \mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt
 @1id74v8hrdj
 <p><b>Linearity:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Derivatives:</b> $\mathcal{L}\{y'\} = sY - y(0)$ and $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — this turns differential equations into algebra.</p>
 @ie964pskzz
 <p>Solve $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, so $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Inverting: $y = 3\cos 2t + \sin 2t$.</p>
+@27glld2op9x
+Solution y = 3 cos 2t + sin 2t of the initial value problem
+@1jcdtlvnw9v
+The solution found with Laplace transforms: it starts at $y(0) = 3$ with slope $y'(0) = 2$ and oscillates with period $\pi$.
 @cgwsp3i8af
 <p>$\mathcal{L}\{\sin bt\}$ has $b$ on top; $\mathcal{L}\{\cos bt\}$ has $s$ on top. Mixing them up is the most common slip.</p>
 @t6bpsx84ob  ; 0=terms([[a, `t^{${n}}`], [b, eX(c, 't')]]

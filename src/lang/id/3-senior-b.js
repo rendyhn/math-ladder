@@ -1,17 +1,6 @@
 /* Bahasa Indonesia — SMA (barisan dan deret → aturan sinus dan kosinus) */
 addT('id', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Di sini $a$ adalah suku pertama dan $l$ suku terakhir.</p>
-⟦1⟧
-⟦2⟧
-<h3>Deret geometri tak hingga</h3>
-⟦3⟧
-<p>Contoh: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Notasi sigma</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Aritmetika`,
   '1atqzl7ltey': R`Geometri`,
   'zs186mkwh5': R`ditambah $d$ setiap kali`,
@@ -33,18 +22,6 @@ addT('id', {
   '222tg0c1ffy': R`Ini deret aritmetika: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ ribu rupiah.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
-⟦0⟧
-<p>Jembatan keledai: <b>SOH-CAH-TOA</b> (sin = depan/miring, cos = samping/miring, tan = depan/samping). Selain itu, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, dan kebalikannya adalah $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Nilai eksak</h3>
-⟦1⟧
-<h3>Radian</h3>
-<p>$180^\circ = \pi$ radian. Untuk mengubah derajat ke radian, kalikan dengan $\frac{\pi}{180}$; radian ke derajat, kalikan dengan $\frac{180}{\pi}$. Jadi $60^\circ = \frac{\pi}{3}$ dan $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>Lingkaran satuan</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{sisi depan}}{\text{sisi miring}} \qquad \cos\theta = \frac{\text{sisi samping}}{\text{sisi miring}} \qquad \tan\theta = \frac{\text{sisi depan}}{\text{sisi samping}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('id', {
   '1856p6n9vrk': R`sin positif di kuadran I dan II; cos di I dan IV; tan di I dan III. Hanya <b>⟦0⟧</b> yang memenuhi kedua syarat.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Menyelesaikan persamaan trigonometri</h3>
-<p>Tentukan sudut acuannya, lalu semua sudut pada interval yang diminta dengan tanda yang benar.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Identitas Pythagoras`,
   '28msif6x03y': R`Jumlah dan selisih sudut`,
   '1qlqqnnfd2i': R`Sudut rangkap`,
@@ -111,13 +79,6 @@ addT('id', {
   '19cq8bi37ib': R`Sisi-sisi segitiganya ⟦0⟧, ⟦1⟧, dan ⟦2⟧. Di kuadran ⟦3⟧, sinus bernilai ⟦4⟧ dan kosinus bernilai ⟦5⟧, jadi $\sin\theta = ⟦6⟧$ dan $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Beri nama segitiga sehingga sisi $a$ berhadapan dengan sudut $A$, $b$ dengan $B$, dan $c$ dengan $C$. Aturan ini berlaku untuk <b>setiap</b> segitiga, bukan hanya segitiga siku-siku.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Gunakan jika diketahui satu sisi dan sudut di hadapannya, ditambah satu sisi atau sudut lain.</p>`,
   'mp16igkhf3': R`Aturan sinus`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Gunakan jika diketahui dua sisi dan sudut apitnya (sisi-sudut-sisi), atau ketiga sisinya.</p>`,

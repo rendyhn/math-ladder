@@ -1,17 +1,6 @@
 /* Français — Lycée (suites → résolution de triangles) */
 addT('fr', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Ici $a$ est le premier terme et $l$ le dernier.</p>
-⟦1⟧
-⟦2⟧
-<h3>Séries géométriques infinies</h3>
-⟦3⟧
-<p>Exemple : $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Notation sigma</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ signifie $f(1) + f(2) + \cdots + f(n)$. À retenir : $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ et $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Arithmétique`,
   '1atqzl7ltey': R`Géométrique`,
   'zs186mkwh5': R`on ajoute $d$ à chaque fois`,
@@ -33,18 +22,6 @@ addT('fr', {
   '222tg0c1ffy': R`C’est une série arithmétique : $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ euros.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>Dans un triangle rectangle, pour un angle aigu $\theta$ :</p>
-⟦0⟧
-<p>Moyen mnémotechnique : <b>SOH-CAH-TOA</b> (Sinus = Opposé/Hypoténuse, Cosinus = Adjacent/Hypoténuse, Tangente = Opposé/Adjacent). De plus, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, et les inverses sont $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Valeurs remarquables</h3>
-⟦1⟧
-<h3>Radians</h3>
-<p>$180^\circ = \pi$ radians. Pour passer des degrés aux radians, on multiplie par $\frac{\pi}{180}$ ; des radians aux degrés, par $\frac{180}{\pi}$. Ainsi $60^\circ = \frac{\pi}{3}$ et $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>Le cercle trigonométrique</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{opposé}}{\text{hypoténuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypoténuse}} \qquad \tan\theta = \frac{\text{opposé}}{\text{adjacent}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('fr', {
   '1856p6n9vrk': R`Le sinus est positif dans I et II ; le cosinus dans I et IV ; la tangente dans I et III. Seul le <b>⟦0⟧</b> vérifie les deux conditions.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p>Une <b>identité</b> est vraie pour tout angle. Les plus importantes :</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Résoudre des équations trigonométriques</h3>
-<p>Trouvez l’angle de référence, puis tous les angles de l’intervalle demandé ayant le bon signe.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Identités de Pythagore`,
   '28msif6x03y': R`Formules d’addition`,
   '1qlqqnnfd2i': R`Formules de duplication`,
@@ -111,13 +79,6 @@ addT('fr', {
   '19cq8bi37ib': R`Le triangle a pour côtés ⟦0⟧, ⟦1⟧ et ⟦2⟧. Dans le quadrant ⟦3⟧, le sinus est ⟦4⟧ et le cosinus est ⟦5⟧, donc $\sin\theta = ⟦6⟧$ et $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Nommez un triangle de sorte que le côté $a$ soit opposé à l’angle $A$, $b$ opposé à $B$ et $c$ opposé à $C$. Ces règles valent pour <b>tout</b> triangle, pas seulement pour les triangles rectangles.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>À utiliser quand on connaît un côté et l’angle opposé, plus un autre côté ou un autre angle.</p>`,
   'mp16igkhf3': R`Loi des sinus`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>À utiliser avec deux côtés et l’angle compris entre eux, ou avec les trois côtés.</p>`,

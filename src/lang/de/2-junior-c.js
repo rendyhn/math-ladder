@@ -1,18 +1,6 @@
 /* Deutsch — Sekundarstufe I (Gleichungssysteme → Körper) */
 addT('de', {
   // systems
-  '1obgwi6un65': R`
-<p>Ein <b>lineares Gleichungssystem</b> aus zwei Gleichungen mit $x$ und $y$ fragt nach den Werten, die <i>beide</i> Gleichungen erfüllen. Grafisch ist die Lösung der Schnittpunkt der beiden Geraden.</p>
-<h3>Einsetzungsverfahren</h3>
-⟦0⟧
-<h3>Additionsverfahren</h3>
-⟦1⟧
-⟦2⟧
-<h3>Sonderfälle</h3>
-<p>Parallele Geraden (gleiche Steigung, verschiedene $y$-Achsenabschnitte) schneiden sich nie: <b>keine Lösung</b>. Identische Geraden ergeben <b>unendlich viele</b> Lösungen.</p>
-<h3>Textaufgaben</h3>
-<p>Zwei Unbekannte brauchen zwei Angaben. „Auf einem Hof haben Hühner und Kühe zusammen 30 Köpfe und 84 Beine“, mit $c$ Kühen und $h$ Hühnern: $c + h = 30$ und $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Setze die erste in die zweite Gleichung ein: $3x + (2x - 1) = 14$, also $5x = 15$, $x = 3$ und $y = 2(3) - 1 = 5$. Lösung: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Addiere die Gleichungen, um $y$ zu eliminieren: $7x = 21$, also $x = 3$. Dann ergibt $2(3) + 3y = 12$, dass $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Multipliziere zuerst eine oder beide Gleichungen so, dass eine Variable gleiche (oder entgegengesetzte) Koeffizienten hat, und subtrahiere (oder addiere) dann, um sie zu eliminieren. Prüfe die Lösung immer in <b>beiden</b> Ausgangsgleichungen.</p>`,
@@ -33,18 +21,6 @@ addT('de', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ und $a - b = ⟦1⟧$. Addieren: $2a = ⟦2⟧$, also $a = ⟦3⟧$ und $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Im rechtwinkligen Dreieck heißt die längste Seite, die dem rechten Winkel gegenüberliegt, <b>Hypotenuse</b> $c$. Die beiden anderen Seiten sind die <b>Katheten</b> $a$ und $b$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Pythagoreische Tripel</h3>
-<p>Ganzzahlige Lösungen und ihre Vielfachen merkt man sich gern: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$ sowie $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Abstand zweier Punkte</h3>
-⟦3⟧
-<h3>Die Umkehrung</h3>
-<p>Ist $c$ die längste Seite, dann gilt: Aus $a^2 + b^2 = c^2$ folgt, das Dreieck ist <b>rechtwinklig</b>; bei $a^2 + b^2 \gt c^2$ ist es <b>spitzwinklig</b>; bei $a^2 + b^2 \lt c^2$ ist es <b>stumpfwinklig</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Für die Hypotenuse addiert man die Quadrate, für eine Kathete subtrahiert man: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Eine 10 m lange Leiter lehnt an einer Wand, ihr Fuß steht 6 m von der Wand entfernt. Erreichte Höhe: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Bei den Katheten 3 und 4 ist die Hypotenuse 5, nicht 7.</p>`,
@@ -66,17 +42,6 @@ addT('de', {
   '5pal2wak00': R`Vergleiche mit der längsten Seite ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ und $⟦4⟧^2 = ⟦5⟧$. Da $⟦6⟧ ⟦7⟧ ⟦8⟧$, ist das Dreieck <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>Das Verhältnis von Umfang zu Durchmesser ist bei jedem Kreis dieselbe Zahl, $\pi \approx 3{,}14159\ldots$ (oft genähert durch $3{,}14$ oder $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Kreisbögen und Kreisausschnitte</h3>
-<p>Ein Kreisausschnitt mit Mittelpunktswinkel $\theta$ ist der Anteil $\frac{\theta}{360^\circ}$ des ganzen Kreises:</p>
-⟦3⟧
-<h3>Winkel am Kreis</h3>
-<ul><li>Der Mittelpunktswinkel ist <b>doppelt</b> so groß wie ein Umfangswinkel über demselben Bogen.</li><li>Ein Winkel im Halbkreis beträgt $90^\circ$ (Satz des Thales).</li><li>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Teile eines Kreises. Der Durchmesser ist doppelt so lang wie der Radius: d = 2r.`,
   '1y041ovnv67': R`<p>Radius 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm und $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Ergebnisse „mit $\pi$“ anzugeben, hält sie exakt.</p>`,
   '1ljhd2tb7ca': R`\text{Bogenlänge} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{Ausschnittsfläche} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -104,13 +69,6 @@ addT('de', {
   'kfe0atvapi': R`Der Umfangswinkel ist halb so groß wie der Mittelpunktswinkel: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p>Ein <b>Prisma</b> hat überall denselben Querschnitt; sein Volumen ist daher einfach die Querschnittsfläche mal die Länge. Eine Pyramide oder ein Kegel, der genau hineinpasst, hat genau ein Drittel dieses Volumens.</p>
-⟦0⟧
-<p>Beim Kegel ist $s$ die <b>Mantellinie</b>; nach Pythagoras gilt $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Körper`,
   'alc1a0j1b0': R`Volumen`,
   'bt7ak3o2ct': R`Oberfläche`,

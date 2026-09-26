@@ -167,20 +167,6 @@ addT('de', {
   '2wu7e9ekt1': R`Ein Rechteck mit Länge l und Breite w, ein Dreieck mit Grundseite b und Höhe h sowie ein Trapez mit den parallelen Seiten a und b und der Höhe h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Unser Zahlensystem verwendet zehn Ziffern, 0 bis 9. Die <b>Stelle</b> einer Ziffer bestimmt ihren <b>Wert</b>: Jede Stelle ist zehnmal so viel wert wie die Stelle rechts daneben.</p>
-⟦0⟧
-<p>In <b>5 382 417</b> steht die Ziffer 8 an der Zehntausenderstelle, sie ist also $8 \times 10\,000 = 80\,000$ wert. Die Ziffer 3 ist $300\,000$ wert.</p>
-<h3>Zerlegung nach Stellenwerten</h3>
-<p>Schreibt man eine Zahl als Summe ihrer Stellenwerte, sieht man, was jede Ziffer wert ist:</p>
-⟦1⟧
-<p>Die 0 an der Zehnerstelle ist ein <b>Platzhalter</b>. Ohne sie würde aus 4 307 die Zahl 437.</p>
-<h3>Zahlen vergleichen</h3>
-<p>Eine natürliche Zahl mit mehr Stellen ist größer. Haben zwei Zahlen gleich viele Stellen, vergleicht man sie Ziffer für Ziffer von links; die erste Stelle, an der sie sich unterscheiden, entscheidet. Also ist $52\,814 \gt 52\,781$, weil an der Hunderterstelle $8 \gt 7$ gilt.</p>
-<h3>Runden</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Millionen`,
   '1y40p90zlus': R`Hunderttausender`,
@@ -217,18 +203,6 @@ addT('de', {
   '1uhrj1iztnj': R`von der kleinsten zur größten`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>Addieren fasst Mengen zusammen; Subtrahieren bestimmt, was übrig bleibt, oder den <b>Unterschied</b> zwischen zwei Mengen. Bei großen Zahlen rechnet man <b>schriftlich</b>: Die Ziffern werden nach Stellenwerten untereinander geschrieben, und man rechnet von der Einerspalte nach links.</p>
-<h3>Addieren mit Übertrag</h3>
-<p>Ergibt eine Spalte 10 oder mehr, schreibt man die Einerziffer hin und nimmt den Zehner als <b>Übertrag</b> in die nächste Spalte mit.</p>
-⟦0⟧
-<h3>Subtrahieren mit Entbündeln</h3>
-<p>Ist die obere Ziffer einer Spalte kleiner als die untere, <b>entbündelt</b> man (man borgt) eins aus der nächsten Spalte: Das ergibt 10 mehr in der aktuellen Spalte.</p>
-⟦1⟧
-⟦2⟧
-<h3>Textaufgaben</h3>
-<p>Wörter wie <i>insgesamt, zusammen, mehr, erhöht</i> bedeuten meist Addition. Wörter wie <i>übrig, bleiben, Unterschied, wie viel mehr, weniger</i> bedeuten meist Subtraktion. Frag dich immer, was die Aufgabe wirklich wissen will.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Einer: $7 + 6 = 13$ → 3 hinschreiben, 1 übertragen.</li><li>Zehner: $8 + 4 + 1 = 13$ → 3 hinschreiben, 1 übertragen.</li><li>Hunderter: $5 + 8 + 1 = 14$ → 4 hinschreiben, 1 übertragen.</li><li>Tausender: $4 + 2 + 1 = 7$.</li></ol><p>Ergebnis: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Einer: 4 ist kleiner als 8. Die Zehnerziffer ist 0, also entbündelt man einen Hunderter: Aus 204 werden 1 Hunderter, 9 Zehner und 14 Einer. $14 - 8 = 6$.</li><li>Zehner: $9 - 5 = 4$.</li><li>Hunderter: 1 ist kleiner als 7, also einen Tausender entbündeln: $11 - 7 = 4$.</li><li>Tausender: $5 - 1 = 4$.</li></ol><p>Ergebnis: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>Addition und Subtraktion machen sich gegenseitig rückgängig. Eine Subtraktion prüft man durch Addieren: $4\,446 + 1\,758 = 6\,204$ ✓. So findet man auch fehlende Zahlen: Wenn $\square + 348 = 1\,000$, dann ist $\square = 1\,000 - 348 = 652$.</p>`,
@@ -253,17 +227,6 @@ addT('de', {
   'h14zpmlfj7': R`„Wie viele mehr“ fragt nach dem Unterschied: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p><b>Multiplizieren</b> ist wiederholtes Addieren gleich großer Gruppen: $4 \times 6$ bedeutet 4 Gruppen zu je 6, also $6 + 6 + 6 + 6 = 24$. <b>Dividieren</b> teilt eine Menge in gleich große Gruppen auf: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Größere Zahlen multiplizieren</h3>
-<p>Zerlege eine Zahl nach Stellenwerten, multipliziere jeden Teil und addiere (das ist das Distributivgesetz):</p>
-⟦1⟧
-<h3>Division mit Rest</h3>
-<p>Geht eine Division nicht auf, heißt das, was übrig bleibt, <b>Rest</b>. Er ist immer kleiner als der Divisor.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>Multiplikation und Division machen sich gegenseitig rückgängig: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Beim Multiplizieren ist die Reihenfolge egal: $a \times b = b \times a$.</li><li>Multiplikation verteilt sich auf eine Summe: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ Rest } 2 \qquad \text{denn } 5 \times 9 + 2 = 47`,
@@ -289,13 +252,6 @@ addT('de', {
   '13ytah9dyhs': R`Gleich lange Reihen bedeuten Multiplikation: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ Stühle.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Enthält eine Rechnung mehrere Rechenarten, müssen alle sie in derselben Reihenfolge ausführen – sonst ergäbe derselbe Term verschiedene Ergebnisse. Man merkt sich die Reihenfolge mit <b>Klammer vor Potenz vor Punkt vor Strich</b>; im Englischen heißt die Merkregel <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Schritt`,
   '1ata9ppdhpl': R`Rechenart`,
   '1i56r47suu5': R`Beispiel`,
@@ -321,19 +277,6 @@ addT('de', {
   '2g7vu4g2g7r': R`Addition und Subtraktion sind gleichrangig, also von links nach rechts: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, dann $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Würde man zuerst $⟦6⟧ + ⟦7⟧$ rechnen, käme fälschlich ⟦8⟧ heraus.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Ein <b>Teiler</b> einer Zahl teilt sie ohne Rest. Ein <b>Vielfaches</b> einer Zahl ist diese Zahl mal eine natürliche Zahl.</p>
-<ul><li>Teiler von 12: 1, 2, 3, 4, 6, 12 (sie treten paarweise auf: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Vielfache von 12: 12, 24, 36, 48, …</li></ul>
-<h3>Primzahlen und zusammengesetzte Zahlen</h3>
-<p>Eine <b>Primzahl</b> hat genau zwei Teiler: 1 und sich selbst (2, 3, 5, 7, 11, 13, …). Eine <b>zusammengesetzte</b> Zahl hat mehr als zwei Teiler. Die 1 ist weder Primzahl noch zusammengesetzt, und 2 ist die einzige gerade Primzahl.</p>
-⟦0⟧
-<h3>Primfaktorzerlegung</h3>
-<p>Jede natürliche Zahl größer als 1 lässt sich auf genau eine Weise als Produkt von Primzahlen schreiben. Nutze einen Faktorbaum: Zerlege weiter, bis jeder Ast mit einer Primzahl endet.</p>
-⟦1⟧
-<h3>ggT und kgV</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Teilbar durch`,
   '1u2j0a6t91o': R`Regel`,
   '1fsfip1h2ap': R`letzte Ziffer ist gerade`,
@@ -366,23 +309,6 @@ addT('de', {
 /* Deutsch — Grundschule (Brüche → Größen) */
 addT('de', {
   // fractions
-  '1j59vvw5wlm': R`
-<p>Ein <b>Bruch</b> $\frac{a}{b}$ bedeutet $a$ Teile von $b$ gleich großen Teilen. Die obere Zahl heißt <b>Zähler</b>, die untere <b>Nenner</b>.</p>
-<h3>Gleichwertige Brüche und vollständig gekürzte Form</h3>
-<p>Multipliziert oder dividiert man Zähler und Nenner mit derselben Zahl, erhält man einen gleichwertigen Bruch: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Zum <b>Kürzen</b> teilt man beide durch ihren ggT:</p>
-⟦0⟧
-<h3>Gemischte Zahlen</h3>
-<p>$2\frac{1}{3}$ bedeutet $2 + \frac{1}{3}$. Als unechter Bruch: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Addieren und Subtrahieren</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplizieren und Dividieren</h3>
-⟦3⟧
-<p>Zum Dividieren <b>behältst</b> du den ersten Bruch, <b>ersetzt</b> ÷ durch × und <b>kehrst</b> den zweiten Bruch um (Kehrwert).</p>
-⟦4⟧
-<h3>Bruchteil einer Größe</h3>
-<p>Teile durch den Nenner und multipliziere dann mit dem Zähler: $\frac{3}{8}$ von $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>Addieren oder subtrahieren kann man nur Brüche mit <b>gleichem Nenner</b>. Bringe sie auf einen gemeinsamen Nenner (das kgV der Nenner) und addiere oder subtrahiere dann die Zähler.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>Addiere niemals die Nenner: $\frac{1}{2} + \frac{1}{3}$ ist $\frac{5}{6}$, nicht $\frac{2}{5}$.</p>`,
@@ -408,23 +334,6 @@ addT('de', {
   '2er4a94vvmc': R`Vergleiche sie als Dezimalzahlen (oder mit gemeinsamem Nenner): ⟦0⟧. Am kleinsten ist $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Dezimalzahlen setzen die Stellenwerte rechts von den Einern fort. Jede Stelle ist ein Zehntel der Stelle links daneben.</p>
-⟦0⟧
-<p>Also ist $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Dezimalzahlen vergleichen</h3>
-<p>Gib den Zahlen durch angehängte Nullen gleich viele Nachkommastellen und vergleiche dann: $0{,}5 = 0{,}50 \gt 0{,}45$. Eine längere Dezimalzahl ist nicht unbedingt größer!</p>
-<h3>Addieren und Subtrahieren</h3>
-⟦1⟧
-⟦2⟧
-<h3>Multiplizieren</h3>
-<p>Multipliziere, als gäbe es kein Komma, und zähle dann die Nachkommastellen aller Faktoren zusammen – so viele hat das Ergebnis.</p>
-⟦3⟧
-<h3>Dividieren und Umwandeln</h3>
-<p>Multiplizieren mit 10, 100 oder 1000 verschiebt die Ziffern um 1, 2 oder 3 Stellen nach links (die Zahl wird größer); Dividieren verschiebt sie nach rechts. Einen Bruch wandelt man in eine Dezimalzahl um, indem man den Zähler durch den Nenner teilt: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Dezimalzahlen runden</h3>
-<p>Dieselbe Regel wie bei natürlichen Zahlen: Schau auf die nächste Ziffer. $6{,}847$ auf Zehntel gerundet ist $6{,}8$; auf Hundertstel $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Zehntel`,
   '1usmp59h50n': R`Hundertstel`,
   'biszmhnvcw': R`Tausendstel`,
@@ -452,16 +361,6 @@ addT('de', {
   'clxur1r60o': R`Schreibe alle mit drei Nachkommastellen: ⟦0⟧. Am kleinsten ist <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Prozent</b> bedeutet „von Hundert“: $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>Die drei Grundaufgaben</h3>
-⟦1⟧
-⟦2⟧
-<h3>Zunahme, Abnahme und Rabatt</h3>
-<p>Ein Rabatt von $20\%$ auf 80 Euro spart $0{,}2 \times 80 = 16$ Euro, der reduzierte Preis ist also $80 - 16 = 64$ Euro. Schneller: Man zahlt $80\%$ des Preises, $0{,}8 \times 80 = 64$.</p>
-<p>Eine Zunahme um $p\%$ bedeutet Multiplikation mit $1 + \frac{p}{100}$; eine Abnahme Multiplikation mit $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Bruch`,
   '21lfn42y4af': R`Dezimalzahl`,
   '1vaz29jk1go': R`Prozent`,
@@ -483,15 +382,6 @@ addT('de', {
   '260avkxsjev': R`Änderung: ⟦0⟧ Euro. Prozentuale Abnahme: ⟦1⟧ – teile immer durch den <b>ursprünglichen</b> Preis.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>Das metrische System beruht auf Zehnerpotenzen; Vorsilben geben die Größe einer Einheit an.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Zeit</h3>
-<p>Zeit ist <i>nicht</i> dezimal: Eine Stunde hat 60 Minuten, nicht 100. Eine Zeitspanne bestimmt man schrittweise: Von 09:35 bis 13:10 sind es 25 min (bis 10:00) + 3 h (bis 13:00) + 10 min = 3 h 35 min = 215 Minuten.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Vorsilbe`,
   '18vrcwaxvwu': R`Bedeutung`,
   '1j1ms4p35q': R`Beispiele`,
@@ -526,15 +416,6 @@ addT('de', {
 /* Deutsch — Grundschule (Umfang und Flächeninhalt → Daten) */
 addT('de', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>Der <b>Umfang</b> ist die Gesamtlänge des Randes einer Figur (gemessen in cm, m, …). Der <b>Flächeninhalt</b> gibt an, wie viel Fläche sie bedeckt (gemessen in Quadrateinheiten: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Zusammengesetzte Figuren</h3>
-<p>Zerlege eine L-Form oder eine andere zusammengesetzte Figur in Rechtecke und Dreiecke und addiere die Flächen – oder nimm ein großes Rechteck und ziehe das fehlende Stück ab.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Rechteck, Dreieck und Trapez – die Höhe steht immer senkrecht auf der Grundseite.`,
   '1vbb9fjurso': R`Figur`,
   '1bkcetbdzwi': R`Umfang`,
@@ -567,15 +448,6 @@ addT('de', {
   '4fca853um1': R`Großes Rechteck minus Ausschnitt: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>Das <b>Volumen</b> ist der Raum, den ein Körper einnimmt; man zählt es in <b>Kubikeinheiten</b> (cm³, m³). Ein Würfel mit 1 cm Kantenlänge hat das Volumen 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Oberflächeninhalt</h3>
-<p>Der Oberflächeninhalt ist die Summe der Flächen aller Seitenflächen. Ein Quader hat drei Paare gleicher Rechtecke:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Quader: } V = l \times w \times h \qquad\qquad \text{Würfel: } V = s^3`,
   '1v18xwhq9wo': R`<p>Rauminhalt und Volumen hängen zusammen: $1 \text{ cm}^3 = 1 \text{ mL}$ und $1000 \text{ cm}^3 = 1 \text{ L}$. Außerdem ist $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Ein Aquarium ist 50 cm lang, 30 cm breit und 40 cm hoch.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -595,17 +467,6 @@ addT('de', {
   '29p9f2w08h': R`Gesucht ist $s^3 = ⟦0⟧$. Da $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, ist jede Kante ⟦5⟧ cm lang.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Winkel messen Drehungen, und zwar in <b>Grad</b> (°). Eine volle Drehung hat $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Dreiecke</h3>
-<p><b>Gleichseitig</b>: drei gleich lange Seiten, jeder Winkel $60^\circ$. <b>Gleichschenklig</b>: zwei gleich lange Seiten und zwei gleich große Basiswinkel. <b>Unregelmäßig</b>: keine gleich langen Seiten. Ein <b>rechtwinkliges</b> Dreieck hat einen $90^\circ$-Winkel.</p>
-<h3>Vielecke</h3>
-<p>Ein Vieleck mit $n$ Ecken lässt sich von einer Ecke aus in $n - 2$ Dreiecke zerlegen, also gilt</p>
-⟦2⟧
-<p>In einem <b>regelmäßigen</b> Vieleck sind alle Winkel gleich groß, jeder misst also $\frac{(n-2) \times 180^\circ}{n}$. Ein regelmäßiges Sechseck hat Winkel von $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Art`,
   '1czpi6e2j2z': R`Größe`,
   '2eamokno2qd': R`Spitz`,
@@ -645,13 +506,6 @@ addT('de', {
   '1m260esohws': R`Die beiden Basiswinkel sind gleich groß: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Daten sind Informationen, die wir sammeln, zum Beispiel Testergebnisse oder Lieblingsobst. Eine <b>Häufigkeitstabelle</b> zeigt, wie oft jeder Wert vorkommt; <b>Säulendiagramme</b> und <b>Bilddiagramme</b> zeigen dieselbe Information bildlich.</p>
-<h3>Vier Kennwerte</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Kennwert`,
   '1fy4t37t415': R`So findet man ihn`,
   '18v4e4ulshl': R`Für 3; 7; 7; 8; 10`,
@@ -705,16 +559,6 @@ addT('de', {
   '187npo1zduj': R`Sehne`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Die <b>ganzen Zahlen</b> sind die natürlichen Zahlen, ihre Gegenzahlen und die Null: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Auf dem Zahlenstrahl werden die Zahlen nach rechts größer, also ist $-7 \lt -2$, obwohl 7 größer als 2 ist.</p>
-<p>Der <b>Betrag</b> $|a|$ ist der Abstand von 0: $|-6| = 6$ und $|6| = 6$.</p>
-<h3>Addieren und Subtrahieren</h3>
-⟦0⟧
-<h3>Multiplizieren und Dividieren</h3>
-⟦1⟧
-⟦2⟧
-<p>Im Alltag: Temperaturen unter null, Höhen unter dem Meeresspiegel, Schulden und Untergeschosse.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Gleiche Vorzeichen:</b> Beträge addieren, Vorzeichen beibehalten. $-4 + (-9) = -13$.</li><li><b>Verschiedene Vorzeichen:</b> Beträge subtrahieren, Vorzeichen der Zahl mit dem größeren Betrag nehmen. $-11 + 5 = -6$.</li><li><b>Subtrahieren</b> heißt, die Gegenzahl addieren: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Vorzeichen`,
   '18hy4wrreq9': R`Ergebnis`,
@@ -738,15 +582,6 @@ addT('de', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ und $|⟦2⟧| = ⟦3⟧$, also ist der Wert $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Eine <b>Potenz</b> beschreibt wiederholtes Multiplizieren: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ Faktoren}}$. In $2^5 = 32$ ist 2 die <b>Basis</b> und 5 der <b>Exponent</b>.</p>
-<h3>Potenzgesetze</h3>
-⟦0⟧
-⟦1⟧
-<h3>Wurzeln</h3>
-<p>Die Quadratwurzel macht das Quadrieren rückgängig: $\sqrt{81} = 9$, denn $9^2 = 81$. Die Kubikwurzel macht das Hoch-drei rückgängig: $\sqrt[3]{64} = 4$, denn $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Gesetz`,
   '2du0zx6ztd9': R`<p>Vereinfache $(2x^3)(5x^4)$: Zahlen multiplizieren und Exponenten addieren, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Um eine Quadratwurzel zu vereinfachen, zieht man den größten Quadratfaktor heraus: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -776,16 +611,6 @@ addT('de', {
   'r5mpjrvznb': R`Suche den größten Quadratfaktor: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Also $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>In der Wissenschaft schreibt man sehr große oder sehr kleine Zahlen kompakt als</p>
-⟦0⟧
-<ul><li>Die Entfernung zur Sonne, etwa $150\,000\,000$ km, ist $1{,}5 \times 10^{8}$ km.</li><li>Ein rotes Blutkörperchen, etwa $0{,}000\,008$ m breit, misst $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Rechnen</h3>
-<p>Multipliziere (oder dividiere) die vorderen Zahlen und addiere (oder subtrahiere) die Exponenten. Korrigiere danach die vordere Zahl, falls sie nicht zwischen 1 und 10 liegt:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ ganzzahlig}`,
   '1phwx4rhhb0': R`<p>Zähle, um wie viele Stellen das Komma rückt, bis genau eine von null verschiedene Ziffer davor steht. Große Zahlen (Komma nach links) ergeben einen <b>positiven</b> Exponenten, Zahlen kleiner als 1 (Komma nach rechts) einen <b>negativen</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -807,19 +632,6 @@ addT('de', {
   '1ujla3379au': R` Da ⟦0⟧ kleiner als 1 ist, schreibe $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Ein <b>Verhältnis</b> $a : b$ vergleicht zwei Größen. Wie Brüche kann man Verhältnisse kürzen, indem man beide Teile durch ihren ggT teilt: $18 : 24 = 3 : 4$.</p>
-<h3>Aufteilen im Verhältnis</h3>
-⟦0⟧
-<h3>Raten und Einheitswerte</h3>
-<p>Eine <b>Rate</b> vergleicht Größen mit verschiedenen Einheiten: Kilometer pro Stunde, Euro pro Kilogramm. Wer den Wert für <b>eine</b> Einheit kennt (Dreisatz), löst die meisten Aufgaben.</p>
-⟦1⟧
-<h3>Proportional und antiproportional</h3>
-⟦2⟧
-⟦3⟧
-<h3>Maßstab</h3>
-<p>Ein Maßstab von $1 : 50\,000$ bedeutet: 1 cm auf der Karte sind in Wirklichkeit $50\,000$ cm $= 500$ m $= 0{,}5$ km.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Teile 60 Bonbons im Verhältnis $2 : 3$ auf.</p><ol><li>Anzahl der Teile: $2 + 3 = 5$.</li><li>Ein Teil: $60 \div 5 = 12$.</li><li>Anteile: $2 \times 12 = 24$ und $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{Geschwindigkeit} = \frac{\text{Strecke}}{\text{Zeit}} \qquad \text{Strecke} = \text{Geschwindigkeit} \times \text{Zeit}`,
   '1lx74znbkzq': R`<ul><li><b>Proportional:</b> Beide Größen wachsen gemeinsam, $y = kx$. Doppelt so viele Hefte kosten doppelt so viel.</li><li><b>Antiproportional:</b> Die eine wächst, wenn die andere schrumpft, $xy = k$. Doppelt so viele Arbeitskräfte brauchen halb so lange.</li></ul>`,
@@ -858,20 +670,6 @@ addT('de', {
 /* Deutsch — Sekundarstufe I (Terme → lineare Funktionen) */
 addT('de', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Im Term $5x^2 - 3xy + 7$ sind die <b>Summanden</b> $5x^2$, $-3xy$ und $7$; die <b>Koeffizienten</b> sind 5 und $-3$; 7 ist die <b>Konstante</b>. <b>Gleichartige Terme</b> haben genau dieselben Variablen mit denselben Exponenten ($4ab$ und $-ab$ sind gleichartig; $x^2$ und $x$ nicht).</p>
-<h3>Zusammenfassen</h3>
-<p>Fasse gleichartige Terme zusammen, indem du ihre Koeffizienten addierst: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Klammern auflösen</h3>
-⟦0⟧
-⟦1⟧
-<h3>Binomische Formeln</h3>
-⟦2⟧
-<h3>Faktorisieren</h3>
-<p>Faktorisieren ist Ausmultiplizieren rückwärts. Klammere den größten gemeinsamen Faktor aus: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Einsetzen</h3>
-<p>Ersetze jede Variable durch ihren Wert und setze negative Zahlen in Klammern: Für $x = -2$ ist $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Distributivgesetz:</b> $a(b + c) = ab + ac$. Multipliziere <i>jeden</i> Summanden in der Klammer mit dem Faktor davor.</p><p><b>Zwei Klammern:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. Der mittlere Term $2 \cdot 4 \cdot x = 8x$ wird leicht vergessen.</p>`,
@@ -888,17 +686,6 @@ addT('de', {
   '2e60a5izj9m': R`Multipliziere aus: $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Eine Gleichung sagt aus, dass zwei Terme gleich sind. Denk an eine Balkenwaage: Was du auf der einen Seite tust, tust du auch auf der anderen, dann bleibt sie im Gleichgewicht. Ziel ist, die Unbekannte allein auf eine Seite zu bringen.</p>
-⟦0⟧
-⟦1⟧
-<h3>Klammern und Brüche</h3>
-<p>Löse zuerst die Klammern auf (oder teile beide Seiten durch die Zahl vor der Klammer). Brüche beseitigst du, indem du jeden Summanden mit dem Hauptnenner multiplizierst:</p>
-⟦2⟧
-<h3>Textaufgaben</h3>
-<ol><li>Wähle eine Variable für die Unbekannte und schreibe auf, wofür sie steht.</li><li>Übersetze den Text in eine Gleichung.</li><li>Löse sie und prüfe, ob die Antwort zur Situation passt.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Mache die Rechenschritte in umgekehrter Reihenfolge mit <b>Umkehroperationen</b> rückgängig: Addition ↔ Subtraktion, Multiplikation ↔ Division.</p>`,
   '11eu1q8a3p': R`<p>Löse $5x - 7 = 2x + 11$.</p><ol><li>Auf beiden Seiten $2x$ subtrahieren: $3x - 7 = 11$.</li><li>7 addieren: $3x = 18$.</li><li>Durch 3 teilen: $x = 6$.</li></ol><p>Probe: $5(6) - 7 = 23$ und $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>Die Summe dreier aufeinanderfolgender ganzer Zahlen ist 72. Nenne sie $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, also $n = 23$. Die Zahlen sind 23, 24 und 25.</p>`,
@@ -926,17 +713,6 @@ addT('de', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, also $⟦3⟧x = ⟦4⟧$ und $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Eine <b>Ungleichung</b> vergleicht zwei Terme: $\lt$ (kleiner als), $\gt$ (größer als), $\le$ (kleiner oder gleich), $\ge$ (größer oder gleich). Ihre Lösung ist meist ein ganzer Zahlenbereich.</p>
-<p>Auf dem Zahlenstrahl zeichnet man $x \gt 2$ mit einem <b>offenen</b> Kreis bei 2 (2 gehört nicht dazu) und einem Pfeil nach rechts; $x \le 2$ mit einem <b>ausgefüllten</b> Kreis und einem Pfeil nach links.</p>
-<h3>Lösen</h3>
-<p>Man löst wie eine Gleichung – auf beiden Seiten addieren, subtrahieren, multiplizieren oder dividieren – mit einer zusätzlichen Regel:</p>
-⟦0⟧
-<p>Warum? $2 \lt 5$, aber nach Multiplikation mit $-1$ erhält man $-2$ und $-5$, und $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Doppelungleichungen</h3>
-<p>Wende dieselbe Umformung auf alle drei Teile an: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Die ganzzahligen Lösungen sind $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Wenn du mit einer <b>negativen Zahl multiplizierst oder durch sie dividierst</b>, dreht sich das Ungleichheitszeichen um.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Löse $7 - 2x \ge 1$.</p><ol><li>7 subtrahieren: $-2x \ge -6$.</li><li>Durch $-2$ teilen und Zeichen umdrehen: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>„Die kleinste ganze Zahl mit $x \gt 4$“ ist 5, nicht 4 – eine echte Ungleichung schließt ihren Randwert aus.</p>`,
@@ -955,13 +731,6 @@ addT('de', {
   'abjkjjicc6': R`allen Teilen`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Eine <b>Menge</b> ist eine klar festgelegte Zusammenfassung von Objekten, ihren <b>Elementen</b>. Wir schreiben $A = \{2; 4; 6; 8\}$ und $4 \in A$ („4 ist Element von A“), $5 \notin A$. $n(A)$ ist die Anzahl der Elemente; hier $n(A) = 4$. Die <b>leere Menge</b> $\varnothing$ hat keine Elemente; die <b>Grundmenge</b> $U$ enthält alles, worüber gerade gesprochen wird.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Ein Venn-Diagramm: Jedes Feld ist eine andere Kombination aus „in A“ und „in B“.`,
   '142ifrt0jkt': R`Schreibweise`,
   '14czndj1h0b': R`Beispiel mit A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -996,17 +765,6 @@ addT('de', {
   '9yersm2gye': R`$A = ⟦0⟧$, also $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Eine <b>lineare Funktion</b> hat als Graphen eine Gerade. In der <b>Normalform</b></p>
-⟦0⟧
-<p>ist $m$ die <b>Steigung</b>: um wie viel sich $y$ ändert, wenn $x$ um 1 wächst. $c$ ist der <b>$y$-Achsenabschnitt</b>, wo die Gerade die $y$-Achse schneidet. In Funktionsschreibweise schreibt man $f(x) = mx + c$; $f(3)$ bedeutet „der Wert für $x = 3$“.</p>
-<h3>Steigung aus zwei Punkten</h3>
-⟦1⟧
-⟦2⟧
-<h3>Achsenschnittpunkte und andere Formen</h3>
-<p>Setze $x = 0$, um den $y$-Achsenabschnitt zu finden, und $y = 0$ für die Nullstelle. Eine Gerade kann man als $ax + by = c$ schreiben; forme zu $y = -\frac{a}{b}x + \frac{c}{b}$ um, um die Steigung abzulesen. Durch einen Punkt $(x_1; y_1)$ mit Steigung $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{Höhenunterschied}}{\text{Längenunterschied}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Durch $(1; 2)$ und $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Setze $(1; 2)$ in $y = 3x + c$ ein: $2 = 3 + c$, also $c = -1$, und die Gerade ist $y = 3x - 1$.</p>`,
@@ -1029,18 +787,6 @@ addT('de', {
 /* Deutsch — Sekundarstufe I (Gleichungssysteme → Körper) */
 addT('de', {
   // systems
-  '1obgwi6un65': R`
-<p>Ein <b>lineares Gleichungssystem</b> aus zwei Gleichungen mit $x$ und $y$ fragt nach den Werten, die <i>beide</i> Gleichungen erfüllen. Grafisch ist die Lösung der Schnittpunkt der beiden Geraden.</p>
-<h3>Einsetzungsverfahren</h3>
-⟦0⟧
-<h3>Additionsverfahren</h3>
-⟦1⟧
-⟦2⟧
-<h3>Sonderfälle</h3>
-<p>Parallele Geraden (gleiche Steigung, verschiedene $y$-Achsenabschnitte) schneiden sich nie: <b>keine Lösung</b>. Identische Geraden ergeben <b>unendlich viele</b> Lösungen.</p>
-<h3>Textaufgaben</h3>
-<p>Zwei Unbekannte brauchen zwei Angaben. „Auf einem Hof haben Hühner und Kühe zusammen 30 Köpfe und 84 Beine“, mit $c$ Kühen und $h$ Hühnern: $c + h = 30$ und $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Setze die erste in die zweite Gleichung ein: $3x + (2x - 1) = 14$, also $5x = 15$, $x = 3$ und $y = 2(3) - 1 = 5$. Lösung: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Addiere die Gleichungen, um $y$ zu eliminieren: $7x = 21$, also $x = 3$. Dann ergibt $2(3) + 3y = 12$, dass $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Multipliziere zuerst eine oder beide Gleichungen so, dass eine Variable gleiche (oder entgegengesetzte) Koeffizienten hat, und subtrahiere (oder addiere) dann, um sie zu eliminieren. Prüfe die Lösung immer in <b>beiden</b> Ausgangsgleichungen.</p>`,
@@ -1061,18 +807,6 @@ addT('de', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ und $a - b = ⟦1⟧$. Addieren: $2a = ⟦2⟧$, also $a = ⟦3⟧$ und $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Im rechtwinkligen Dreieck heißt die längste Seite, die dem rechten Winkel gegenüberliegt, <b>Hypotenuse</b> $c$. Die beiden anderen Seiten sind die <b>Katheten</b> $a$ und $b$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Pythagoreische Tripel</h3>
-<p>Ganzzahlige Lösungen und ihre Vielfachen merkt man sich gern: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$ sowie $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Abstand zweier Punkte</h3>
-⟦3⟧
-<h3>Die Umkehrung</h3>
-<p>Ist $c$ die längste Seite, dann gilt: Aus $a^2 + b^2 = c^2$ folgt, das Dreieck ist <b>rechtwinklig</b>; bei $a^2 + b^2 \gt c^2$ ist es <b>spitzwinklig</b>; bei $a^2 + b^2 \lt c^2$ ist es <b>stumpfwinklig</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Für die Hypotenuse addiert man die Quadrate, für eine Kathete subtrahiert man: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Eine 10 m lange Leiter lehnt an einer Wand, ihr Fuß steht 6 m von der Wand entfernt. Erreichte Höhe: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Bei den Katheten 3 und 4 ist die Hypotenuse 5, nicht 7.</p>`,
@@ -1094,17 +828,6 @@ addT('de', {
   '5pal2wak00': R`Vergleiche mit der längsten Seite ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ und $⟦4⟧^2 = ⟦5⟧$. Da $⟦6⟧ ⟦7⟧ ⟦8⟧$, ist das Dreieck <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>Das Verhältnis von Umfang zu Durchmesser ist bei jedem Kreis dieselbe Zahl, $\pi \approx 3{,}14159\ldots$ (oft genähert durch $3{,}14$ oder $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Kreisbögen und Kreisausschnitte</h3>
-<p>Ein Kreisausschnitt mit Mittelpunktswinkel $\theta$ ist der Anteil $\frac{\theta}{360^\circ}$ des ganzen Kreises:</p>
-⟦3⟧
-<h3>Winkel am Kreis</h3>
-<ul><li>Der Mittelpunktswinkel ist <b>doppelt</b> so groß wie ein Umfangswinkel über demselben Bogen.</li><li>Ein Winkel im Halbkreis beträgt $90^\circ$ (Satz des Thales).</li><li>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Teile eines Kreises. Der Durchmesser ist doppelt so lang wie der Radius: d = 2r.`,
   '1y041ovnv67': R`<p>Radius 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm und $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Ergebnisse „mit $\pi$“ anzugeben, hält sie exakt.</p>`,
   '1ljhd2tb7ca': R`\text{Bogenlänge} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{Ausschnittsfläche} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -1132,13 +855,6 @@ addT('de', {
   'kfe0atvapi': R`Der Umfangswinkel ist halb so groß wie der Mittelpunktswinkel: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p>Ein <b>Prisma</b> hat überall denselben Querschnitt; sein Volumen ist daher einfach die Querschnittsfläche mal die Länge. Eine Pyramide oder ein Kegel, der genau hineinpasst, hat genau ein Drittel dieses Volumens.</p>
-⟦0⟧
-<p>Beim Kegel ist $s$ die <b>Mantellinie</b>; nach Pythagoras gilt $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Körper`,
   'alc1a0j1b0': R`Volumen`,
   'bt7ak3o2ct': R`Oberfläche`,
@@ -1177,16 +893,6 @@ addT('de', {
 /* Deutsch — Sekundarstufe I (Statistik → Ähnlichkeit) */
 addT('de', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Ein <b>Lagemaß</b> fasst einen Datensatz durch einen typischen Wert zusammen; ein <b>Streuungsmaß</b> gibt an, wie weit die Werte auseinanderliegen.</p>
-⟦0⟧
-<h3>Mittelwert aus einer Häufigkeitstabelle</h3>
-⟦1⟧
-⟦2⟧
-<h3>Rückwärts rechnen</h3>
-⟦3⟧
-<p>Bei einer geraden Anzahl von Werten ist der Median der Mittelwert der beiden mittleren Werte.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Geeignet, wenn…`,
   'j0p0vvrwxf': R`die Daten keine extremen Werte (Ausreißer) haben`,
   '2ajydntyvld': R`die Daten schief verteilt sind oder Ausreißer haben — z. B. Hauspreise`,
@@ -1212,16 +918,6 @@ addT('de', {
   '22iugjzjcbh': R`Der Modalwert ist der Wert mit der größten Häufigkeit. ⟦0⟧ hat die Häufigkeit ⟦1⟧, die größte.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Ein <b>Zufallsexperiment</b> (einen Würfel werfen, eine Karte ziehen) hat mögliche <b>Ergebnisse</b>. Die Menge aller Ergebnisse ist die <b>Ergebnismenge</b> $S$; ein <b>Ereignis</b> $E$ ist eine Menge von Ergebnissen. Sind alle Ergebnisse gleich wahrscheinlich, gilt:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Zwei Würfel</h3>
-<p>Zwei Würfel ergeben $6 \times 6 = 36$ gleich wahrscheinliche Ergebnisse. Die Augensumme 7 entsteht auf 6 Arten — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, also ist $P(\text{Summe} = 7) = \frac{6}{36} = \frac{1}{6}$. Allgemein gibt es $6 - |s - 7|$ Arten, die Summe $s$ zu erhalten.</p>
-<h3>Ein Kartenspiel</h3>
-<p>52 Karten: 4 Farben (♠ ♣ schwarz, ♥ ♦ rot) mit je 13 Werten (A, 2–10, B, D, K). Es gibt 12 Bildkarten (B, D, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 bedeutet unmöglich, 1 bedeutet sicher.</li><li><b>Gegenereignis:</b> $P(\text{nicht } E) = 1 - P(E)$.</li><li><b>Erwartete Häufigkeit</b> bei $n$ Versuchen $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>In einem Beutel sind 3 rote, 5 blaue und 2 grüne Murmeln. $P(\text{blau}) = \frac{5}{10} = \frac{1}{2}$ und $P(\text{nicht grün}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>Die relative Häufigkeit (aus echten Versuchen) nähert sich mit wachsender Versuchszahl der theoretischen Wahrscheinlichkeit — stimmt aber selten genau überein.</p>`,
@@ -1273,19 +969,6 @@ addT('de', {
   '23r35ol6pkt': R`Von den 52 Karten sind es ⟦0⟧: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Alltägliche Geldfragen sind meist verkleidete Prozentaufgaben.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Rabatt und Steuer</h3>
-<p>Wende Prozentsätze nacheinander an: 20 % Rabatt und danach 10 % Steuer auf 150 Euro ergeben $150 \times 0{,}8 \times 1{,}1 = 132$ Euro.</p>
-<h3>Einfache Zinsen</h3>
-⟦3⟧
-<p>1 500 Euro, 3 Jahre lang zu 6 % pro Jahr angelegt, bringen $1\,500 \times 0{,}06 \times 3 = 270$ Euro; das Guthaben wächst auf 1 770 Euro. Bei Monaten nimm $t = \frac{\text{Monate}}{12}$.</p>
-<h3>Brutto, Tara und Netto</h3>
-<p><b>Brutto</b> = Gesamtgewicht; <b>Tara</b> = Gewicht der Verpackung; <b>Netto</b> = Brutto − Tara. Ein 50-kg-Sack mit 2 % Tara hat ein Nettogewicht von $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Begriff`,
   '1mb9fntmked': R`Einkaufspreis (EP)`,
   '12bh5c74j0l': R`was der Verkäufer bezahlt hat`,
@@ -1318,17 +1001,6 @@ addT('de', {
   'g36e4lpvm4': R`$\text{VP} = \text{EP} \times ⟦0⟧$, also $\text{EP} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ Euro. (⟦4⟧ % vom Verkaufspreis abzuziehen wäre falsch.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Eine <b>Folge</b> ist eine geordnete Liste von Zahlen, den <b>Gliedern</b>. Wer die Regel erkennt, kann die Folge fortsetzen oder direkt zu jedem beliebigen Glied springen.</p>
-<h3>Arithmetische Folgen</h3>
-<p>Es wird jedes Mal dieselbe Zahl $d$ (die <b>Differenz</b>) addiert: 5; 8; 11; 14; … hat $d = 3$.</p>
-⟦0⟧
-<h3>Geometrische Folgen</h3>
-<p>Jedes Glied wird mit demselben <b>Quotienten</b> $r$ multipliziert: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Besondere Folgen</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>wobei $a$ das erste Glied ist. Für 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, also $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Name`,
   'mwgm16sn11': R`Glieder`,
@@ -1355,14 +1027,6 @@ addT('de', {
   'o3oiu9pprw': R`Die Glieder sind ⟦0⟧. Das 7. Glied ist ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Eine <b>Abbildung</b> verschiebt eine Figur oder ändert ihre Größe. Bei Verschiebungen, Spiegelungen und Drehungen ist das Bild <b>kongruent</b> (gleiche Form und Größe); bei einer zentrischen Streckung ist es <b>ähnlich</b> (gleiche Form, andere Größe).</p>
-⟦0⟧
-<h3>Ähnliche Figuren</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Abbildung`,
   'jmpbrf5c1s': R`Regel für einen Punkt (x; y)`,
   '2b0j70wot2h': R`Verschiebung um $\binom{a}{b}$`,
@@ -1406,20 +1070,6 @@ addT('de', {
   '2gdno2vs4iz': R`Gib eine Antwort wie 9pi oder 3pi/4 ein.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Eine <b>quadratische Gleichung</b> hat die Form $ax^2 + bx + c = 0$ mit $a \ne 0$. Sie hat höchstens zwei Lösungen (Nullstellen).</p>
-<h3>1. Faktorisieren</h3>
-<p>Ein Produkt ist null, wenn einer seiner Faktoren null ist. Suche zwei Zahlen, deren Produkt $c$ und deren Summe $b$ ist (für $a = 1$):</p>
-⟦0⟧
-<h3>2. Quadratische Ergänzung</h3>
-⟦1⟧
-<h3>3. Die Mitternachtsformel</h3>
-⟦2⟧
-<h3>Summe und Produkt der Lösungen (Vieta)</h3>
-⟦3⟧
-<p>Eine Gleichung mit den Lösungen $r$ und $s$ lautet also $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ oder } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>Die <b>Diskriminante</b> $D = b^2 - 4ac$ gibt an, wie viele reelle Lösungen es gibt:</p><ul><li>$D \gt 0$: zwei verschiedene reelle Lösungen</li><li>$D = 0$: eine doppelte reelle Lösung</li><li>$D \lt 0$: keine reelle Lösung (zwei komplexe Lösungen)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, also $x = \frac{7 \pm 5}{4}$, d. h. $x = 3$ oder $x = \frac{1}{2}$. Probe: Summe $= \frac{7}{2}$ ✓, Produkt $= \frac{3}{2}$ ✓.</p>`,
@@ -1447,14 +1097,6 @@ addT('de', {
   '27ssy7fe6w9': R`Sei $w$ die Breite: $w(w + ⟦0⟧) = ⟦1⟧$, also $⟦2⟧ = 0$, d. h. $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Eine Breite muss positiv sein, also $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>Der Graph von $f(x) = ax^2 + bx + c$ ist eine <b>Parabel</b>. Sie ist <b>nach oben</b> geöffnet, wenn $a \gt 0$ (ein Tal mit einem Minimum), und <b>nach unten</b>, wenn $a \lt 0$ (ein Hügel mit einem Maximum).</p>
-⟦0⟧
-<h3>Scheitelpunktform</h3>
-⟦1⟧
-<p>Die quadratische Ergänzung wandelt die allgemeine Form in die Scheitelpunktform um: $x^2 - 6x + 11 = (x - 3)^2 + 2$, der Scheitelpunkt ist also $(3; 2)$ und der kleinste Wert 2. Die Wertemenge ist $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Symmetrieachse und Scheitelpunkt: $x = -\dfrac{b}{2a}$; der Scheitelpunkt ist $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>$y$-Achsenabschnitt: $(0; c)$.</li><li>Nullstellen: die Lösungen von $ax^2 + bx + c = 0$ (falls vorhanden).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{Scheitelpunkt } (h; k)`,
   '17der0pee5r': R`<p>Die Höhe eines Balls ist $h(t) = -5t^2 + 20t + 1$ Meter. Der Scheitelpunkt liegt bei $t = -\frac{20}{2(-5)} = 2$ s, und die maximale Höhe ist $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -1478,18 +1120,6 @@ addT('de', {
   'xs3xxut6a6': R`Der Scheitelpunkt ist $⟦0⟧$ und die Parabel ist nach unten geöffnet, also ist die Wertemenge $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Eine <b>Funktion</b> ordnet jedem Eingabewert genau <b>einen</b> Ausgabewert zu. Die Menge der erlaubten Eingaben ist die <b>Definitionsmenge</b>; die Menge der Ausgaben ist die <b>Wertemenge</b>.</p>
-<h3>Maximale Definitionsmengen</h3>
-<ul><li>Keine Division durch null: Für $\frac{1}{x - 2}$ ist die Definitionsmenge $x \ne 2$.</li><li>Keine Wurzeln aus negativen Zahlen: Für $\sqrt{x + 3}$ ist die Definitionsmenge $x \ge -3$.</li><li>Logarithmen brauchen positive Argumente: Für $\log(x - 1)$ ist die Definitionsmenge $x \gt 1$.</li></ul>
-<h3>Verkettung</h3>
-⟦0⟧
-⟦1⟧
-<h3>Umkehrfunktionen</h3>
-<p>$f^{-1}$ macht $f$ rückgängig: Ist $f(a) = b$, so ist $f^{-1}(b) = a$. Um sie zu bestimmen, schreibe $y = f(x)$, vertausche $x$ und $y$ und löse nach $y$ auf.</p>
-⟦2⟧
-<p>Der Graph von $f^{-1}$ ist das Spiegelbild des Graphen von $f$ an der Geraden $y = x$. Nur umkehrbar eindeutige (injektive) Funktionen haben eine Umkehrfunktion.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Zuerst $g$ anwenden, dann $f$. Im Allgemeinen gilt $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Dann ist $f(g(3)) = f(9) = 19$, aber $g(f(3)) = g(7) = 49$. Als Terme: $f(g(x)) = 2x^2 + 1$ und $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: Vertauschen ergibt $x = 3y - 5$, also $y = \frac{x + 5}{3}$ und $f^{-1}(x) = \frac{x + 5}{3}$. Probe: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -1513,16 +1143,6 @@ addT('de', {
   'ranlsqjvf9': R`Da $⟦0⟧ \ge ⟦1⟧$, gilt die zweite Vorschrift: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Rationale Exponenten verbinden Potenzen und Wurzeln: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Also ist $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ und $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logarithmen</h3>
-⟦0⟧
-⟦1⟧
-<h3>Gleichungen lösen</h3>
-<ul><li>Gleiche Basis: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Logarithmusgleichung: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Verschiedene Basen: Logarithmiere beide Seiten, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Exponentielles Wachstum und exponentielle Abnahme</h3>
-<p>$A = A_0 \cdot r^{t/T}$: eine Größe, die alle $T$ Zeiteinheiten mit $r$ multipliziert wird. Zinseszins: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Ein Logarithmus beantwortet die Frage „Mit welcher Hochzahl muss man $b$ potenzieren, um $a$ zu erhalten?“ — also ist $\log_2 32 = 5$. $\log x$ bedeutet $\log_{10} x$; $\ln x$ bedeutet $\log_e x$ mit $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`Basiswechsel`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. Das Produktgesetz macht aus einem <i>Produkt</i> innen eine Summe außen.</p>`,
@@ -1549,17 +1169,6 @@ addT('de', {
 /* Deutsch — Oberstufe (Folgen → Dreiecksberechnung) */
 addT('de', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Dabei ist $a$ das erste und $l$ das letzte Glied.</p>
-⟦1⟧
-⟦2⟧
-<h3>Unendliche geometrische Reihen</h3>
-⟦3⟧
-<p>Beispiel: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Summenzeichen</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ bedeutet $f(1) + f(2) + \cdots + f(n)$. Nützlich: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ und $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Arithmetisch`,
   '1atqzl7ltey': R`Geometrisch`,
   'zs186mkwh5': R`jedes Mal $d$ addieren`,
@@ -1581,18 +1190,6 @@ addT('de', {
   '222tg0c1ffy': R`Das ist eine arithmetische Reihe: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ Euro.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>In einem rechtwinkligen Dreieck gilt für einen spitzen Winkel $\theta$:</p>
-⟦0⟧
-<p>Merkhilfe: <b>GAGA-HHAG</b> (Sinus = Gegenkathete/Hypotenuse, Kosinus = Ankathete/Hypotenuse, Tangens = Gegenkathete/Ankathete). Außerdem ist $\tan\theta = \frac{\sin\theta}{\cos\theta}$, und die Kehrwerte sind $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Exakte Werte</h3>
-⟦1⟧
-<h3>Bogenmaß</h3>
-<p>$180^\circ = \pi$ im Bogenmaß. Von Grad ins Bogenmaß: mit $\frac{\pi}{180}$ multiplizieren; vom Bogenmaß in Grad: mit $\frac{180}{\pi}$ multiplizieren. Also $60^\circ = \frac{\pi}{3}$ und $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>Der Einheitskreis</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{Gegenkathete}}{\text{Hypotenuse}} \qquad \cos\theta = \frac{\text{Ankathete}}{\text{Hypotenuse}} \qquad \tan\theta = \frac{\text{Gegenkathete}}{\text{Ankathete}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -1629,15 +1226,6 @@ addT('de', {
   '1856p6n9vrk': R`Der Sinus ist positiv in I und II, der Kosinus in I und IV, der Tangens in I und III. Nur <b>⟦0⟧</b> erfüllt beide Bedingungen.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p>Eine <b>Identität</b> gilt für jeden Winkel. Die wichtigsten:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Trigonometrische Gleichungen lösen</h3>
-<p>Bestimme den Bezugswinkel und dann alle Winkel im geforderten Intervall mit dem richtigen Vorzeichen.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Trigonometrischer Pythagoras`,
   '28msif6x03y': R`Additionstheoreme`,
   '1qlqqnnfd2i': R`Doppelwinkelformeln`,
@@ -1659,13 +1247,6 @@ addT('de', {
   '19cq8bi37ib': R`Das Dreieck hat die Seiten ⟦0⟧, ⟦1⟧ und ⟦2⟧. Im Quadranten ⟦3⟧ ist der Sinus ⟦4⟧ und der Kosinus ⟦5⟧, also $\sin\theta = ⟦6⟧$ und $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Beschrifte ein Dreieck so, dass die Seite $a$ dem Winkel $A$ gegenüberliegt, $b$ dem Winkel $B$ und $c$ dem Winkel $C$. Diese Sätze gelten für <b>jedes</b> Dreieck, nicht nur für rechtwinklige.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Verwende ihn, wenn du eine Seite und den gegenüberliegenden Winkel sowie eine weitere Seite oder einen weiteren Winkel kennst.</p>`,
   'mp16igkhf3': R`Sinussatz`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Verwende ihn bei zwei Seiten und dem eingeschlossenen Winkel (SWS) oder bei drei Seiten (SSS).</p>`,
@@ -1689,16 +1270,6 @@ addT('de', {
 /* Deutsch — Oberstufe (Polynome → Integrale) */
 addT('de', {
   // polynomials
-  '1dv82xempy': R`
-<p>Ein <b>Polynom</b> ist eine Summe von Termen $a_n x^n + \cdots + a_1 x + a_0$ mit natürlichen Exponenten. Sein <b>Grad</b> ist der höchste Exponent; $a_n$ ist der <b>Leitkoeffizient</b>. Beim Multiplizieren von Polynomen addieren sich die Grade und die Leitkoeffizienten werden multipliziert.</p>
-<h3>Division</h3>
-<p>Die Division von $P(x)$ durch $(x - a)$ liefert einen Quotienten $Q(x)$ und einen Rest $R$: $P(x) = (x - a)Q(x) + R$. Das <b>Horner-Schema</b> erledigt das schnell nur mit den Koeffizienten.</p>
-⟦0⟧
-⟦1⟧
-<h3>Nullstellen eines kubischen Polynoms</h3>
-<p>Für $ax^3 + bx^2 + cx + d = 0$ mit den Nullstellen $r_1, r_2, r_3$ gilt:</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ mit dem Horner-Schema:</p>⟦0⟧<p>Quotient $x^2 - 2x - 3$, Rest 0.</p>`,
   'agfsjitvd': R`<p><b>Restsatz:</b> Der Rest bei der Division von $P(x)$ durch $(x - a)$ ist $P(a)$.</p><p><b>Linearfaktorsatz:</b> $(x - a)$ ist genau dann ein Faktor von $P(x)$, wenn $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Division durch $(x + 3)$ bedeutet $a = -3$: Berechne $P(-3)$, nicht $P(3)$.</p>`,
@@ -1719,16 +1290,6 @@ addT('de', {
   '1uusi8yg5sk': R`Das absolute Glied ist das Produkt der absoluten Glieder: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p>Eine <b>Matrix</b> ist ein rechteckiges Zahlenschema. Eine $m \times n$-Matrix hat $m$ Zeilen und $n$ Spalten; $a_{ij}$ ist der Eintrag in Zeile $i$, Spalte $j$.</p>
-<h3>Rechenoperationen</h3>
-<ul><li><b>Addieren/Subtrahieren</b> eintragsweise (nur bei gleicher Größe).</li><li><b>Skalare Multiplikation</b>: jeden Eintrag multiplizieren.</li><li><b>Multiplizieren</b> $AB$: Eintrag $(i, j)$ ist Zeile $i$ von $A$ „mal“ Spalte $j$ von $B$. Dazu muss (Spaltenzahl von $A$) = (Zeilenzahl von $B$) sein; eine $m \times n$- mal eine $n \times p$-Matrix ergibt eine $m \times p$-Matrix.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Determinante und Inverse (2 × 2)</h3>
-⟦2⟧
-<p>Ist $\det A = 0$, so ist die Matrix <b>singulär</b> und hat keine Inverse. Mit Inversen löst man Gleichungssysteme: $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>Die Matrixmultiplikation ist <b>nicht kommutativ</b>: Meist ist $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Für die Inverse: $a$ und $d$ <b>vertauschen</b>, $b$ und $c$ <b>mit −1 multiplizieren</b>, dann durch die Determinante teilen.</p>`,
   '1h6gnxjh2g6': R`Berechne die Determinante von $⟦0⟧$.`,
@@ -1745,12 +1306,6 @@ addT('de', {
   'xdj657lej': R`Zeile ⟦0⟧ von $A$ mal Spalte ⟦1⟧ von $B$: $⟦2⟧ = ⟦3⟧$. (Eine $2 \times 3$- mal eine $3 \times 2$-Matrix ergibt eine $2 \times 2$-Matrix.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p>Ein <b>Vektor</b> hat Länge und Richtung. In Koordinaten: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ oder $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Der Vektor von $P$ nach $Q$ ist $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Betrag`,
   '1czax49eh4c': R`Addition`,
   'q2ntocofkn': R`Koordinaten addieren`,
@@ -1774,18 +1329,6 @@ addT('de', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Teile jede Koordinate durch ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ bedeutet: $f(x)$ kommt $L$ beliebig nahe, wenn $x$ gegen $a$ geht — egal, was genau bei $x = a$ passiert.</p>
-<h3>Methoden</h3>
-<ol><li><b>Direktes Einsetzen</b> funktioniert bei Polynomen und anderen stetigen Funktionen: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorisieren und kürzen</b> bei $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Erweitern mit dem konjugierten Term</b> bei Wurzelausdrücken.</li></ol>
-⟦0⟧
-<h3>Grenzwerte im Unendlichen</h3>
-⟦1⟧
-<h3>Ein besonderer trigonometrischer Grenzwert</h3>
-⟦2⟧
-<h3>Stetigkeit</h3>
-<p>$f$ ist stetig in $a$, wenn $\lim_{x \to a} f(x) = f(a)$: keine Lücken, Sprünge oder Asymptoten dort. Bei einer abschnittsweise definierten Funktion müssen die beiden Teile an der Nahtstelle zusammenpassen.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Bei einer gebrochenrationalen Funktion teilst du Zähler und Nenner durch die höchste Potenz von $x$ im Nenner:</p><ul><li>gleicher Grad → Quotient der Leitkoeffizienten;</li><li>Zählergrad kleiner → 0;</li><li>Zählergrad größer → kein endlicher Grenzwert ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ ist weder „0“ noch „nicht definiert“ — es zeigt, dass mehr Arbeit nötig ist (faktorisieren, erweitern).</p>`,
   '18znpgymeuk': R`Berechne $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -1803,18 +1346,6 @@ addT('de', {
   '1l84k7ifkz6': R`Die Teile müssen bei $x = ⟦0⟧$ zusammenpassen: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, also $⟦5⟧ + k = ⟦6⟧$ und $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p>Die <b>Ableitung</b> $f'(x)$ ist die momentane Änderungsrate von $f$ — die Steigung der Tangente an der Stelle $x$. Sie ist durch einen Grenzwert definiert:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Tangenten</h3>
-<p>Bei $x = a$ hat die Tangente die Steigung $m = f'(a)$ und geht durch $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Stationäre Stellen</h3>
-<p>Wo $f'(x) = 0$ ist, verläuft der Graph kurz waagerecht. Nutze die zweite Ableitung: $f''(a) \gt 0$ → lokales Minimum; $f''(a) \lt 0$ → lokales Maximum. $f$ ist steigend, wo $f' \gt 0$, und fallend, wo $f' \lt 0$.</p>
-<h3>Optimierung</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Regeln`,
   '21wooetnwi8': R`<p>Mit 100 m Zaun wird ein Rechteck an einem Fluss eingezäunt (an der Flussseite kein Zaun). Mit den Seiten $x, y, x$: $2x + y = 100$, Fläche $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ ergibt $x = 25$, also $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>Die Ableitung einer Konstanten ist 0 — nimm das absolute Glied nicht mit in $f'(x)$.</p>`,
@@ -1841,17 +1372,6 @@ addT('de', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, also $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>Integrieren kehrt das Ableiten um. Eine <b>Stammfunktion</b> von $f$ ist jede Funktion $F$ mit $F' = f$; das <b>unbestimmte Integral</b> enthält die Integrationskonstante:</p>
-⟦0⟧
-⟦1⟧
-<h3>Bestimmte Integrale</h3>
-⟦2⟧
-<p>Für $f \ge 0$ ist das die Fläche unter der Kurve zwischen $x = a$ und $x = b$. Flächen unterhalb der $x$-Achse zählen negativ — teile das Integral an den Nullstellen, wenn du die Gesamtfläche willst.</p>
-⟦3⟧
-<h3>Eine Funktion aus ihrer Ableitung bestimmen</h3>
-<p>Ist $f'(x) = 6x + 2$ und $f(1) = 10$, dann ist $f(x) = 3x^2 + 2x + C$, und $3 + 2 + C = 10$ ergibt $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Probe durch Ableiten.</p>`,
   '1jsx5j8bwuv': R`Hauptsatz der Differential- und Integralrechnung`,
   'k8jg70602j': R`<p>Fläche zwischen $y = x^2$ und $y = 2x$: Sie schneiden sich bei $x = 0$ und $x = 2$, dazwischen ist $2x \ge x^2$, also $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
@@ -1881,19 +1401,6 @@ addT('de', {
 /* Deutsch — Oberstufe (Kombinatorik → Logik) */
 addT('de', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Permutationen/Variationen: Die Reihenfolge zählt</h3>
-⟦1⟧
-<p>Erster, zweiter und dritter Preis unter 10 Personen: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Anordnungen mit Wiederholung: $\frac{n!}{p!\,q!\cdots}$. „BANANA“ hat $\frac{6!}{3!\,2!} = 60$ Anordnungen.</li><li>Um einen runden Tisch: $(n - 1)!$ (Drehungen gelten als gleich).</li></ul>
-<h3>Kombinationen: Die Reihenfolge zählt nicht</h3>
-⟦2⟧
-<p>Ein Ausschuss aus 3 von 10 Personen: $\binom{10}{3} = 120$. Ein Ausschuss aus 2 Männern (von 5) und 3 Frauen (von 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Binomischer Lehrsatz</h3>
-⟦3⟧
-<p>Der Koeffizient von $x^2$ in $(x + 3)^5$ ist $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Produktregel:</b> Gibt es für eine Wahl $m$ Möglichkeiten und für eine zweite $n$ Möglichkeiten, dann gibt es zusammen $m \times n$ Möglichkeiten.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -1922,16 +1429,6 @@ addT('de', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ Faktoren) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Mit und ohne Zurücklegen</h3>
-⟦1⟧
-<p>Baumdiagramme ordnen das: entlang der Äste multiplizieren (Pfadregel), über die Äste addieren (Summenregel).</p>
-<h3>„Mindestens einmal“</h3>
-<p>Nutze das Gegenereignis: $P(\text{mindestens eine Sechs in 3 Würfen}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Satz von Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Formel`,
   '29i7n2pf82k': R`Gegenereignis`,
   '1q1cgu220ce': R`Unvereinbar`,
@@ -1969,18 +1466,6 @@ addT('de', {
   '29cd8gay3w4': R`Mit Zurücklegen sind die Züge unabhängig: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Quartile und Boxplots</h3>
-<p>Sortiere die Daten. Der Median $Q_2$ teilt sie in zwei Hälften; $Q_1$ ist der Median der unteren Hälfte, $Q_3$ der der oberen Hälfte (hier lassen wir den Median bei ungeradem $n$ aus beiden Hälften weg). Der <b>Interquartilsabstand</b> $\text{IQA} = Q_3 - Q_1$ misst die Streuung der mittleren 50 %.</p>
-⟦0⟧
-<h3>Varianz und Standardabweichung</h3>
-⟦1⟧
-⟦2⟧
-<h3>Klassierte Daten</h3>
-<p>Schätze den Mittelwert mit den Klassenmitten: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Daten transformieren</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Eine übliche Regel für Ausreißer: Werte unter $Q_1 - 1{,}5\,\text{IQA}$ oder über $Q_3 + 1{,}5\,\text{IQA}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (Stichprobe)}`,
   '1c6crwakkdh': R`<p>Daten 2; 4; 4; 4; 5; 5; 7; 9: Mittelwert 5, quadrierte Abweichungen 9; 1; 1; 1; 0; 0; 4; 16 (Summe 32). Varianz der Grundgesamtheit $= \frac{32}{8} = 4$ und $\sigma = 2$.</p>`,
@@ -2011,19 +1496,6 @@ addT('de', {
   '111p9ug7ykx': R`Untere Grenze $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Kreisgleichung</h3>
-⟦1⟧
-<p>Ausmultipliziert ergibt sich die <b>allgemeine Form</b> $x^2 + y^2 + Dx + Ey + F = 0$ mit dem Mittelpunkt $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ und dem Radius $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Lage eines Punktes</h3>
-<p>Setze den Punkt in $(x - a)^2 + (y - b)^2$ ein und vergleiche mit $r^2$: kleiner → innerhalb, gleich → auf dem Kreis, größer → außerhalb.</p>
-<h3>Tangenten</h3>
-<p>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius. Beim Kreis $x^2 + y^2 = r^2$ im Punkt $(x_1; y_1)$ hat der Radius die Steigung $\frac{y_1}{x_1}$, also hat die Tangente die Steigung $-\frac{x_1}{y_1}$.</p>
-<h3>Parabeln</h3>
-<p>$y^2 = 4px$ hat den Brennpunkt $(p; 0)$ und die Leitgerade $x = -p$; $x^2 = 4py$ hat den Brennpunkt $(0; p)$ und die Leitgerade $y = -p$. Jeder Punkt einer Parabel ist vom Brennpunkt genauso weit entfernt wie von der Leitgeraden.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Mittelpunkt } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Abstand } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{Mittelpunkt } (a; b), \text{ Radius } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: quadratisch ergänzen, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Mittelpunkt $(3; -2)$, Radius 5.</p>`,
@@ -2052,13 +1524,6 @@ addT('de', {
   '1huwumypuyf': R`Der Radius zu $⟦0⟧$ hat die Steigung $\frac{⟦1⟧}{⟦2⟧}$. Die Tangente steht senkrecht darauf: Steigung $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p><b>Lineare Optimierung</b> sucht den besten (größten oder kleinsten) Wert einer linearen <b>Zielfunktion</b>, etwa des Gewinns $z = 30x + 20y$, unter linearen <b>Nebenbedingungen</b> wie $x + y \le 40$.</p>
-<ol><li>Schreibe die Nebenbedingungen als Ungleichungen (mit $x \ge 0$, $y \ge 0$).</li><li>Zeichne jede Randgerade und markiere den Bereich, der alle Bedingungen erfüllt — den <b>zulässigen Bereich</b>.</li><li>Bestimme die Eckpunkte, indem du Paare von Randgleichungen löst.</li><li>Werte die Zielfunktion in jedem Eckpunkt aus.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Bei Minimierungsaufgaben mit „≥“-Bedingungen ist der Bereich oft unbeschränkt; bei positiven Kosten liegt das Minimum trotzdem in einer Ecke.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Eckpunktsatz:</b> Wenn ein Optimum existiert, wird es in einer Ecke des zulässigen Bereichs angenommen.</p>`,
   '1g8qhbmqb9w': R`<p>Maximiere $z = 3x + 2y$ unter $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Ecken: $(0; 0)$, $(6; 0)$, $(4; 4)$ [Schnitt von $x + y = 8$ und $2x + y = 12$], $(0; 8)$.</p><p>Werte von $z$: 0; 18; 20; 16. Maximum $z = 20$ in $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Prüfe, ob jede Ecke <b>alle</b> Bedingungen erfüllt — ein Schnittpunkt zweier Randgeraden kann außerhalb des Bereichs liegen.</p>`,
@@ -2072,17 +1537,6 @@ addT('de', {
   '296rrmt4h4q': R`Bedingungen: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Ecken: ⟦3⟧. Maximaler Gewinn: <b>⟦4⟧</b> Euro.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Eine <b>Aussage</b> ist ein Satz, der entweder wahr oder falsch ist. Zusammengesetzte Aussagen entstehen mit <b>Junktoren</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Verwandte Implikationen</h3>
-⟦2⟧
-<h3>Quantoren</h3>
-<p>$\forall$ „für alle“ und $\exists$ „es gibt“. Die Verneinung vertauscht sie: Die Verneinung von „Alle Schüler haben bestanden“ ist „<b>Einige</b> Schüler haben <b>nicht</b> bestanden“; die Verneinung von „Einige Vögel können nicht fliegen“ ist „Alle Vögel können fliegen“.</p>
-<h3>Gültige Schlüsse</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; also $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; also $\neg p$.</li><li><b>Kettenschluss:</b> $p \Rightarrow q$, $q \Rightarrow r$; also $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`WF`,
   '1h0id2d836q': R`<p>Eine Implikation $p \Rightarrow q$ ist <b>nur</b> dann falsch, wenn $p$ wahr und $q$ falsch ist.</p>`,
   '2aojok6ubm7': R`Form`,
@@ -2185,15 +1639,6 @@ addT('de', {
 /* Deutsch — Universität (Ableitungstechniken → Differentialgleichungen) */
 addT('de', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Implizites Differenzieren</h3>
-<p>Ist $y$ implizit gegeben, leite beide Seiten nach $x$ ab und behandle $y$ dabei als Funktion von $x$ (also $\frac{d}{dx}y^2 = 2y\,y'$); löse dann nach $y'$ auf.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Produkt`,
   '1fd6nxjb0xt': R`Quotient`,
   '21u0n9yxqot': R`Kette`,
@@ -2220,20 +1665,6 @@ addT('de', {
   '20aqqhk2mtp': R`Produktregel: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Also $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Regel von L'Hospital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (zweimal angewendet).</p>
-<h3>Optimierung</h3>
-<ol><li>Schreibe die zu optimierende Größe als Funktion einer Variablen (nutze die Nebenbedingung).</li><li>Leite ab und löse $f'(x) = 0$.</li><li>Prüfe, ob ein Maximum/Minimum vorliegt (zweite Ableitung oder Randwerte).</li></ol>
-⟦1⟧
-<h3>Verknüpfte Änderungsraten</h3>
-<p>Leite eine Beziehung nach der Zeit ab. Für einen wachsenden Kreis gilt $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Lineare Näherung</h3>
-⟦2⟧
-<h3>Krümmung und Mittelwertsatz</h3>
-<p>$f'' \gt 0$: linksgekrümmt (konvex); $f'' \lt 0$: rechtsgekrümmt (konkav); ein <b>Wendepunkt</b> ist eine Stelle, an der sich das Krümmungsverhalten ändert. <b>Mittelwertsatz:</b> Ist $f$ stetig auf $[a; b]$ und im Inneren differenzierbar, so gibt es ein $c$ in $(a; b)$ mit $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Hat $\lim \frac{f(x)}{g(x)}$ die Form $\frac{0}{0}$ oder $\frac{\infty}{\infty}$, dann gilt $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (falls die rechte Seite existiert).</p>`,
   '189x52ko5mw': R`<p>Aus den Ecken eines quadratischen Blechs von 18 cm Seitenlänge werden Quadrate der Seitenlänge $x$ ausgeschnitten und die Seiten hochgebogen. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ ergibt $x = 3$, also $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{z. B. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -2258,19 +1689,6 @@ addT('de', {
   '1c5ltuvzsrq': R`Mittlere Steigung $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ ergibt $c = ⟦7⟧$ — die Intervallmitte, wie immer bei einer quadratischen Funktion.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Substitution</h3>
-<p>Suche eine Funktion und ihre Ableitung. Mit $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
-<p>Bei bestimmten Integralen ändere auch die Grenzen (oder rücksubstituiere vor dem Einsetzen).</p>
-<h3>Partielle Integration</h3>
-⟦1⟧
-⟦2⟧
-<h3>Partialbruchzerlegung</h3>
-<p>Zerlege eine gebrochenrationale Funktion in einfachere Teile: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Multipliziere mit dem Nenner und setze $x = 1$ und $x = -2$ ein: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Jeder Teil ergibt beim Integrieren einen Logarithmus.</p>
-<h3>Uneigentliche Integrale</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Wähle $u$ nach <b>LIATE</b>: Logarithmus, Inverse Winkelfunktion, Algebraisch, Trigonometrisch, Exponentiell — was zuerst kommt.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, also $du = dx$, $v = \frac{1}{2}e^{2x}$. Ergebnis: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -2323,14 +1741,6 @@ addT('de', {
   'lpjavqv13n': R`Eine Feder hat die Federkonstante $k = ⟦0⟧$ N/m. Wie viel Arbeit ist nötig, um sie aus der Ruhelage um ⟦1⟧ m zu dehnen?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Eine unendliche Reihe $\sum a_n$ <b>konvergiert</b>, wenn ihre Partialsummen $S_N = a_1 + \cdots + a_N$ gegen einen endlichen Grenzwert streben.</p>
-⟦0⟧
-⟦1⟧
-<h3>Potenzreihen und Taylorreihen</h3>
-<p>Eine Potenzreihe $\sum c_n (x - a)^n$ konvergiert für $|x - a| \lt R$, den <b>Konvergenzradius</b> (bestimmt mit dem Quotientenkriterium). Die Taylorreihe von $f$ um $a$ ist $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; um 0 heißt sie Maclaurin-Reihe.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Kriterium`,
   '1boy0ga8tbt': R`Folgerung`,
   '7ih7yeq8ue': R`Nullfolgenkriterium`,
@@ -2384,19 +1794,6 @@ addT('de', {
   '262p4pwoflz': R`Das ist die Standardreihe von $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Für $f(x, y)$ leitet die <b>partielle Ableitung</b> $f_x = \frac{\partial f}{\partial x}$ nach $x$ ab und behandelt $y$ als Konstante (umgekehrt bei $f_y$). Für $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradient und Richtungsableitung</h3>
-⟦0⟧
-<h3>Kritische Punkte: Test mit der zweiten Ableitung</h3>
-<p>In einem Punkt mit $f_x = f_y = 0$ sei $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: lokales Minimum. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: lokales Maximum.</li><li>$D \lt 0$: Sattelpunkt. &nbsp; $D = 0$: Der Test ist nicht aussagekräftig.</li></ul>
-<h3>Doppelintegrale</h3>
-<p>Über einem Rechteck integriert man nacheinander (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. In Polarkoordinaten ist $dA = r\,dr\,d\theta$.</p>
-<h3>Lagrange-Multiplikatoren</h3>
-<p>Um $f$ unter der Nebenbedingung $g = c$ zu optimieren, löse $\nabla f = \lambda\nabla g$ zusammen mit der Nebenbedingung.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ zeigt in die Richtung des steilsten Anstiegs; seine Länge ist diese maximale Änderungsrate.</p>`,
   'opu0v1dwpl': R`<p>Maximiere $f = xy$ unter $x + y = 10$: $(y; x) = \lambda(1; 1)$ ergibt $x = y = 5$, das Maximum ist also 25.</p>`,
   '83uqphqp8x': R`<p>Vergiss in Polarkoordinaten nicht den zusätzlichen Faktor $r$ in $dA = r\,dr\,d\theta$.</p>`,
@@ -2424,18 +1821,6 @@ addT('de', {
   'hl1el1t8oy': R`Polarkoordinaten: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p>Eine <b>Differentialgleichung</b> verknüpft eine Funktion mit ihren Ableitungen. Ihre <b>Ordnung</b> ist die höchste vorkommende Ableitung. Die <b>allgemeine Lösung</b> enthält beliebige Konstanten; Anfangsbedingungen legen eine spezielle Lösung fest.</p>
-<h3>Trennung der Variablen</h3>
-⟦0⟧
-<p>Sonderfall: $\frac{dy}{dt} = ky$ ergibt $y = y_0e^{kt}$ — exponentielles Wachstum ($k \gt 0$) oder exponentielle Abnahme ($k \lt 0$). Bei der Halbwertszeit $T$ ist die verbleibende Menge $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Lineare Gleichungen erster Ordnung</h3>
-⟦1⟧
-<h3>Lineare Gleichungen zweiter Ordnung mit konstanten Koeffizienten</h3>
-<p>Für $ay'' + by' + cy = 0$ führt der Ansatz $y = e^{rx}$ auf die <b>charakteristische Gleichung</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: Variablen trennen, $\int\frac{dy}{y} = \int 2x\,dx$, also $\ln|y| = x^2 + C$ und $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Für $y' + P(x)y = Q(x)$ multipliziere mit dem <b>integrierenden Faktor</b> $\mu(x) = e^{\int P(x)\,dx}$. Dann gilt $(\mu y)' = \mu Q$, also $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Nullstellen`,
@@ -2466,18 +1851,6 @@ addT('de', {
 /* Deutsch — Universität (lineare Algebra → Laplace-Transformation) */
 addT('de', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Lineare Gleichungssysteme und Rang</h3>
-<p>Ein System $A\mathbf{x} = \mathbf{b}$ löst man, indem man die erweiterte Matrix $[A \mid \mathbf{b}]$ durch Zeilenumformungen auf Stufenform bringt. Der <b>Rang</b> von $A$ ist die Anzahl der Pivotelemente (Nicht-Nullzeilen in Stufenform).</p>
-⟦0⟧
-<h3>Determinanten</h3>
-⟦1⟧
-<p>Nützliche Eigenschaften für $n \times n$-Matrizen: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Cramersche Regel: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Eigenwerte und Eigenvektoren</h3>
-⟦2⟧
-⟦3⟧
-<p>Hat $A$ $n$ linear unabhängige Eigenvektoren, so ist sie <b>diagonalisierbar</b>: $A = PDP^{-1}$, mit den Eigenvektoren als Spalten von $P$ und den Eigenwerten auf der Diagonalen von $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Rangsatz (Dimensionsformel):</b> Für eine $m \times n$-Matrix gilt $\text{Rang}(A) + \dim\ker(A) = n$. Eine quadratische Matrix $A$ ist invertierbar $\iff \det A \ne 0 \iff$ ihre Spalten sind linear unabhängig $\iff \text{Rang} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Für eine $2 \times 2$-Matrix: $\lambda^2 - (\text{Spur}\,A)\lambda + \det A = 0$. Die Summe der Eigenwerte ist die Spur, ihr Produkt die Determinante.</p>`,
@@ -2509,15 +1882,6 @@ addT('de', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, also $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>Die imaginäre Einheit erfüllt $i^2 = -1$. Eine komplexe Zahl ist $z = a + bi$ mit Realteil $\text{Re}(z) = a$ und Imaginärteil $\text{Im}(z) = b$. Die Potenzen von $i$ wiederholen sich alle vier: $i; -1; -i; 1; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Polarform und eulersche Formel</h3>
-⟦2⟧
-⟦3⟧
-<p>Die $n$-ten Einheitswurzeln sind $e^{2\pi ik/n}$ für $k = 0; 1; \ldots; n - 1$: gleichmäßig verteilte Punkte auf dem Einheitskreis.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Multiplizieren`,
   '1lvuh3a6n9s': R`Konjugieren`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$ und $z\bar{z} = a^2 + b^2$`,
@@ -2546,14 +1910,6 @@ addT('de', {
   '1xd7417ut46': R`Sei $z = ⟦0⟧$. Bestimme $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p>Eine <b>Zufallsvariable</b> $X$ ordnet den Ergebnissen Zahlen zu. Für eine diskrete $X$ mit Wahrscheinlichkeiten $p(x)$:</p>
-⟦0⟧
-⟦1⟧
-<h3>Die Normalverteilung</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Verteilung`,
   'z5bw2hz29r': R`P(X = k) bzw. Dichte`,
@@ -2585,17 +1941,6 @@ addT('de', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ und $\text{Var}(X) = ⟦1⟧$. Bestimme $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>Wir schätzen mit einer Kenngröße der <b>Stichprobe</b> (etwa $\bar{x}$) einen Parameter der <b>Grundgesamtheit</b> (etwa $\mu$). Nach dem <b>zentralen Grenzwertsatz</b> ist der Stichprobenmittelwert für großes $n$ annähernd normalverteilt mit Mittelwert $\mu$ und <b>Standardfehler</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Konfidenzintervalle</h3>
-⟦0⟧
-<p>Für eine Fehlermarge $E$ braucht man $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (aufrunden). Ist $\sigma$ unbekannt, nimm $s$ und die $t$-Verteilung.</p>
-<h3>Hypothesentests</h3>
-<ol><li>Formuliere $H_0$ (z. B. $\mu = \mu_0$) und $H_1$.</li><li>Berechne eine Teststatistik, z. B. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Bestimme den <b>p-Wert</b>: die Wahrscheinlichkeit, unter $H_0$ ein mindestens so extremes Ergebnis zu erhalten.</li><li>Ist $p \le \alpha$, verwirf $H_0$; sonst wird $H_0$ nicht verworfen.</li></ol>
-⟦1⟧
-<h3>Lineare Regression</h3>
-<p>Die Regressionsgerade $\hat{y} = a + bx$ (Methode der kleinsten Quadrate) hat die Steigung $b = r\frac{s_y}{s_x}$ und verläuft durch $(\bar{x}; \bar{y})$, also $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\,\%);\; 1{,}96 \;(95\,\%);\; 2{,}576 \;(99\,\%)`,
   '7nca7j57l5': R`H₀ wahr`,
   '2e0zey7f13x': R`H₀ falsch`,
@@ -2637,17 +1982,6 @@ addT('de', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, also aufrunden: $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Zahlentheorie</h3>
-<p>$a \equiv b \pmod n$ bedeutet, dass $n$ ein Teiler von $a - b$ ist; $a \bmod n$ ist der Rest in $\{0; 1; \ldots; n - 1\}$. Kongruenzen darf man addieren und multiplizieren, und Potenzen schrittweise reduzieren.</p>
-⟦0⟧
-⟦1⟧
-<p>Das <b>modulare Inverse</b> von $a$ modulo $n$ ist das $x$ mit $ax \equiv 1 \pmod n$; es existiert genau dann, wenn $\gcd(a, n) = 1$.</p>
-<h3>Abzählen</h3>
-<ul><li>Abbildungen einer $m$-elementigen in eine $n$-elementige Menge: $n^m$; injektive: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusion–Exklusion: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Schubfachprinzip:</b> Kommen mehr als $kn$ Objekte in $n$ Schubfächer, so enthält ein Fach mindestens $k + 1$.</li></ul>
-<h3>Rekursionen und Graphen</h3>
-<p>Eine Rekursion definiert jedes Glied aus früheren, etwa $a_n = 2a_{n-1} + 1$, $a_0 = 1$. In einem Graphen besagt das <b>Handschlaglemma</b> $\sum \deg(v) = 2|E|$; $K_n$ hat $\binom{n}{2}$ Kanten; ein Baum mit $n$ Knoten hat $n - 1$ Kanten; ein zusammenhängender Graph hat genau dann einen Eulerkreis, wenn alle Grade gerade sind.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Euklidischer Algorithmus:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, wiederholt, bis der Rest 0 ist.</p><p><b>Kleiner Satz von Fermat:</b> Ist $p$ prim und $p \nmid a$, dann gilt $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Der ggT ist also 18.</p><p>$2^{100} \bmod 7$: Da $2^3 = 8 \equiv 1$, ist $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Bei Inklusion–Exklusion („durch 3 oder 5 teilbar“) ist die Überschneidung die Teilbarkeit durch das <b>kgV</b>, 15.</p>`,
@@ -2688,18 +2022,6 @@ addT('de', {
   '27kjdpfw0sg': R`Bei ⟦0⟧ Kategorien könnten $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ Personen es vermeiden; eine mehr erzwingt eine Gruppe von ⟦4⟧: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Numerische Verfahren nähern Ergebnisse an, für die es keine handliche geschlossene Form gibt. Zwei Fehlerarten sind wichtig: der <b>Verfahrensfehler</b> (Abbruchfehler) und der <b>Rundungsfehler</b> (durch endliche Genauigkeit).</p>
-⟦0⟧
-<h3>Nullstellensuche</h3>
-<ul><li><b>Bisektion:</b> Haben $f(a)$ und $f(b)$ verschiedene Vorzeichen, prüfe die Mitte $m$ und behalte die Hälfte mit dem Vorzeichenwechsel. Langsam, aber sicher: Der Fehler halbiert sich bei jedem Schritt.</li><li><b>Newton-Verfahren:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sehr schnell nahe einer einfachen Nullstelle (quadratische Konvergenz), kann aber bei schlechtem Startwert oder $f' \approx 0$ versagen.</li></ul>
-⟦1⟧
-<h3>Numerische Integration</h3>
-⟦2⟧
-<p>Hier ist $h = \frac{b - a}{n}$. Die Simpsonregel ist für Polynome bis zum Grad 3 exakt.</p>
-<h3>Euler-Verfahren</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{absoluter Fehler} = |x_{\text{exakt}} - x_{\text{Näherung}}| \qquad \text{relativer Fehler} = \frac{|x_{\text{exakt}} - x_{\text{Näherung}}|}{|x_{\text{exakt}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ über $f(x) = x^2 - 10$ mit $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — schon auf 4 Nachkommastellen genau.</p>`,
   'vx6qz5zup7': R`\text{Trapezregel: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ gerade}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -2718,17 +2040,6 @@ addT('de', {
   '6utp8finkn': R`$⟦0⟧$ wird durch ⟦1⟧ angenähert. Bestimme den relativen Fehler in Prozent auf 3 Nachkommastellen.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p>Ein <b>Vektorfeld</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ ordnet jedem Punkt einen Vektor zu — etwa eine Windgeschwindigkeit oder eine Kraft. Mit $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
-⟦0⟧
-<p>Die Divergenz misst die Quellstärke in einem Punkt; die Rotation misst die Wirbelstärke.</p>
-<h3>Kurvenintegrale und konservative Felder</h3>
-⟦1⟧
-⟦2⟧
-<h3>Die großen Integralsätze</h3>
-⟦3⟧
-<p>Eine schöne Folgerung aus dem Satz von Green: Der Flächeninhalt von $D$ ist $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ ist <b>konservativ</b> (ein Gradientenfeld), wenn $\mathbf{F} = \nabla\varphi$ für ein Potential $\varphi$. Dann gilt $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ für jeden Weg von $A$ nach $B$. In der Ebene (einfach zusammenhängendes Gebiet) ist $(P, Q)$ genau dann konservativ, wenn $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, also konservativ mit $\varphi = x^2y + 3y$. Von $(0; 0)$ nach $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
@@ -2758,13 +2069,6 @@ addT('de', {
   '4awle3me9d': R`Integriere $P$ nach $x$: $\varphi = ⟦0⟧ + g(y)$. Dann ergibt $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$, dass $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Für Rücktransformationen braucht man meist zuerst eine Partialbruchzerlegung und dann einen Abgleich mit der Tabelle.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linearität:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Ableitungen:</b> $\mathcal{L}\{y'\} = sY - y(0)$ und $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — so werden Differentialgleichungen zu Algebra.</p>`,
   'ie964pskzz': R`<p>Löse $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, also $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Rücktransformation: $y = 3\cos 2t + \sin 2t$.</p>`,
@@ -2991,4 +2295,829 @@ addT('de', {
   '19mvnrfi5rk': R`Die Laplace-Transformation macht aus einer Differentialgleichung eine algebraische Gleichung.`,
   // The Laplace transform is an improper integral, often worked 
   'da64d9071l': R`Die Laplace-Transformation ist ein uneigentliches Integral, das oft mit partieller Integration berechnet wird.`,
+});
+
+/* de — lessons with figures */
+addT('de', {
+  'whhnraxlat': R`
+<p>Unser Zahlensystem verwendet zehn Ziffern, 0 bis 9. Die <b>Stelle</b> einer Ziffer bestimmt ihren <b>Wert</b>: Jede Stelle ist zehnmal so viel wert wie die Stelle rechts daneben.</p>
+⟦0⟧
+<p>In <b>5 382 417</b> steht die Ziffer 8 an der Zehntausenderstelle, sie ist also $8 \times 10\,000 = 80\,000$ wert. Die Ziffer 3 ist $300\,000$ wert.</p>
+<h3>Zerlegung nach Stellenwerten</h3>
+<p>Schreibt man eine Zahl als Summe ihrer Stellenwerte, sieht man, was jede Ziffer wert ist:</p>
+⟦1⟧
+⟦2⟧
+<p>Die 0 an der Zehnerstelle ist ein <b>Platzhalter</b>. Ohne sie würde aus 4 307 die Zahl 437.</p>
+<h3>Zahlen vergleichen</h3>
+<p>Eine natürliche Zahl mit mehr Stellen ist größer. Haben zwei Zahlen gleich viele Stellen, vergleicht man sie Ziffer für Ziffer von links; die erste Stelle, an der sie sich unterscheiden, entscheidet. Also ist $52\,814 \gt 52\,781$, weil an der Hunderterstelle $8 \gt 7$ gilt.</p>
+<h3>Runden</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '963azreidi': R`
+<p>Addieren fasst Mengen zusammen; Subtrahieren bestimmt, was übrig bleibt, oder den <b>Unterschied</b> zwischen zwei Mengen. Bei großen Zahlen rechnet man <b>schriftlich</b>: Die Ziffern werden nach Stellenwerten untereinander geschrieben, und man rechnet von der Einerspalte nach links.</p>
+<h3>Addieren mit Übertrag</h3>
+<p>Ergibt eine Spalte 10 oder mehr, schreibt man die Einerziffer hin und nimmt den Zehner als <b>Übertrag</b> in die nächste Spalte mit.</p>
+⟦0⟧
+⟦1⟧
+<h3>Subtrahieren mit Entbündeln</h3>
+<p>Ist die obere Ziffer einer Spalte kleiner als die untere, <b>entbündelt</b> man (man borgt) eins aus der nächsten Spalte: Das ergibt 10 mehr in der aktuellen Spalte.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Textaufgaben</h3>
+<p>Wörter wie <i>insgesamt, zusammen, mehr, erhöht</i> bedeuten meist Addition. Wörter wie <i>übrig, bleiben, Unterschied, wie viel mehr, weniger</i> bedeuten meist Subtraktion. Frag dich immer, was die Aufgabe wirklich wissen will.</p>
+⟦5⟧
+⟦6⟧`,
+  '1nuty7g7e3m': R`
+<p><b>Multiplizieren</b> ist wiederholtes Addieren gleich großer Gruppen: $4 \times 6$ bedeutet 4 Gruppen zu je 6, also $6 + 6 + 6 + 6 = 24$. <b>Dividieren</b> teilt eine Menge in gleich große Gruppen auf: $24 \div 6 = 4$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Größere Zahlen multiplizieren</h3>
+<p>Zerlege eine Zahl nach Stellenwerten, multipliziere jeden Teil und addiere (das ist das Distributivgesetz):</p>
+⟦2⟧
+⟦3⟧
+<h3>Division mit Rest</h3>
+<p>Geht eine Division nicht auf, heißt das, was übrig bleibt, <b>Rest</b>. Er ist immer kleiner als der Divisor.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '2il80u5f0p': R`
+<p>Enthält eine Rechnung mehrere Rechenarten, müssen alle sie in derselben Reihenfolge ausführen – sonst ergäbe derselbe Term verschiedene Ergebnisse. Man merkt sich die Reihenfolge mit <b>Klammer vor Potenz vor Punkt vor Strich</b>; im Englischen heißt die Merkregel <b>PEMDAS</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qawwgtxxnt': R`
+<p>Ein <b>Teiler</b> einer Zahl teilt sie ohne Rest. Ein <b>Vielfaches</b> einer Zahl ist diese Zahl mal eine natürliche Zahl.</p>
+<ul><li>Teiler von 12: 1, 2, 3, 4, 6, 12 (sie treten paarweise auf: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Vielfache von 12: 12, 24, 36, 48, …</li></ul>
+⟦0⟧
+<h3>Primzahlen und zusammengesetzte Zahlen</h3>
+<p>Eine <b>Primzahl</b> hat genau zwei Teiler: 1 und sich selbst (2, 3, 5, 7, 11, 13, …). Eine <b>zusammengesetzte</b> Zahl hat mehr als zwei Teiler. Die 1 ist weder Primzahl noch zusammengesetzt, und 2 ist die einzige gerade Primzahl.</p>
+⟦1⟧
+<h3>Primfaktorzerlegung</h3>
+<p>Jede natürliche Zahl größer als 1 lässt sich auf genau eine Weise als Produkt von Primzahlen schreiben. Nutze einen Faktorbaum: Zerlege weiter, bis jeder Ast mit einer Primzahl endet.</p>
+⟦2⟧
+⟦3⟧
+<h3>ggT und kgV</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '1izrzgyjhj9': R`
+<p>Ein <b>Bruch</b> $\frac{a}{b}$ bedeutet $a$ Teile von $b$ gleich großen Teilen. Die obere Zahl heißt <b>Zähler</b>, die untere <b>Nenner</b>.</p>
+⟦0⟧
+<h3>Gleichwertige Brüche und vollständig gekürzte Form</h3>
+<p>Multipliziert oder dividiert man Zähler und Nenner mit derselben Zahl, erhält man einen gleichwertigen Bruch: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Zum <b>Kürzen</b> teilt man beide durch ihren ggT:</p>
+⟦1⟧
+⟦2⟧
+<h3>Gemischte Zahlen</h3>
+<p>$2\frac{1}{3}$ bedeutet $2 + \frac{1}{3}$. Als unechter Bruch: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
+⟦3⟧
+<h3>Addieren und Subtrahieren</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+<h3>Multiplizieren und Dividieren</h3>
+⟦7⟧
+<p>Zum Dividieren <b>behältst</b> du den ersten Bruch, <b>ersetzt</b> ÷ durch × und <b>kehrst</b> den zweiten Bruch um (Kehrwert).</p>
+⟦8⟧
+<h3>Bruchteil einer Größe</h3>
+<p>Teile durch den Nenner und multipliziere dann mit dem Zähler: $\frac{3}{8}$ von $40 = (40 \div 8) \times 3 = 15$.</p>
+⟦9⟧
+⟦10⟧`,
+  '10kgjsjaxgz': R`
+<p>Dezimalzahlen setzen die Stellenwerte rechts von den Einern fort. Jede Stelle ist ein Zehntel der Stelle links daneben.</p>
+⟦0⟧
+<p>Also ist $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
+⟦1⟧
+<h3>Dezimalzahlen vergleichen</h3>
+<p>Gib den Zahlen durch angehängte Nullen gleich viele Nachkommastellen und vergleiche dann: $0{,}5 = 0{,}50 \gt 0{,}45$. Eine längere Dezimalzahl ist nicht unbedingt größer!</p>
+⟦2⟧
+<h3>Addieren und Subtrahieren</h3>
+⟦3⟧
+⟦4⟧
+<h3>Multiplizieren</h3>
+<p>Multipliziere, als gäbe es kein Komma, und zähle dann die Nachkommastellen aller Faktoren zusammen – so viele hat das Ergebnis.</p>
+⟦5⟧
+<h3>Dividieren und Umwandeln</h3>
+<p>Multiplizieren mit 10, 100 oder 1000 verschiebt die Ziffern um 1, 2 oder 3 Stellen nach links (die Zahl wird größer); Dividieren verschiebt sie nach rechts. Einen Bruch wandelt man in eine Dezimalzahl um, indem man den Zähler durch den Nenner teilt: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
+<h3>Dezimalzahlen runden</h3>
+<p>Dieselbe Regel wie bei natürlichen Zahlen: Schau auf die nächste Ziffer. $6{,}847$ auf Zehntel gerundet ist $6{,}8$; auf Hundertstel $6{,}85$.</p>
+⟦6⟧`,
+  '1rw72cdcsy1': R`
+<p><b>Prozent</b> bedeutet „von Hundert“: $35\% = \frac{35}{100} = 0{,}35$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Die drei Grundaufgaben</h3>
+⟦2⟧
+⟦3⟧
+<h3>Zunahme, Abnahme und Rabatt</h3>
+<p>Ein Rabatt von $20\%$ auf 80 Euro spart $0{,}2 \times 80 = 16$ Euro, der reduzierte Preis ist also $80 - 16 = 64$ Euro. Schneller: Man zahlt $80\%$ des Preises, $0{,}8 \times 80 = 64$.</p>
+⟦4⟧
+<p>Eine Zunahme um $p\%$ bedeutet Multiplikation mit $1 + \frac{p}{100}$; eine Abnahme Multiplikation mit $1 - \frac{p}{100}$.</p>
+⟦5⟧`,
+  'qwxct8meof': R`
+<p>Das metrische System beruht auf Zehnerpotenzen; Vorsilben geben die Größe einer Einheit an.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Zeit</h3>
+<p>Zeit ist <i>nicht</i> dezimal: Eine Stunde hat 60 Minuten, nicht 100. Eine Zeitspanne bestimmt man schrittweise: Von 09:35 bis 13:10 sind es 25 min (bis 10:00) + 3 h (bis 13:00) + 10 min = 3 h 35 min = 215 Minuten.</p>
+⟦5⟧
+⟦6⟧`,
+  '1duo6cowvco': R`
+<p>Der <b>Umfang</b> ist die Gesamtlänge des Randes einer Figur (gemessen in cm, m, …). Der <b>Flächeninhalt</b> gibt an, wie viel Fläche sie bedeckt (gemessen in Quadrateinheiten: cm², m², …).</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Zusammengesetzte Figuren</h3>
+<p>Zerlege eine L-Form oder eine andere zusammengesetzte Figur in Rechtecke und Dreiecke und addiere die Flächen – oder nimm ein großes Rechteck und ziehe das fehlende Stück ab.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2bjnshv99mz': R`
+<p>Das <b>Volumen</b> ist der Raum, den ein Körper einnimmt; man zählt es in <b>Kubikeinheiten</b> (cm³, m³). Ein Würfel mit 1 cm Kantenlänge hat das Volumen 1 cm³.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Oberflächeninhalt</h3>
+<p>Der Oberflächeninhalt ist die Summe der Flächen aller Seitenflächen. Ein Quader hat drei Paare gleicher Rechtecke:</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'hdpir6essq': R`
+<p>Winkel messen Drehungen, und zwar in <b>Grad</b> (°). Eine volle Drehung hat $360^\circ$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Dreiecke</h3>
+<p><b>Gleichseitig</b>: drei gleich lange Seiten, jeder Winkel $60^\circ$. <b>Gleichschenklig</b>: zwei gleich lange Seiten und zwei gleich große Basiswinkel. <b>Unregelmäßig</b>: keine gleich langen Seiten. Ein <b>rechtwinkliges</b> Dreieck hat einen $90^\circ$-Winkel.</p>
+<h3>Vielecke</h3>
+<p>Ein Vieleck mit $n$ Ecken lässt sich von einer Ecke aus in $n - 2$ Dreiecke zerlegen, also gilt</p>
+⟦3⟧
+⟦4⟧
+<p>In einem <b>regelmäßigen</b> Vieleck sind alle Winkel gleich groß, jeder misst also $\frac{(n-2) \times 180^\circ}{n}$. Ein regelmäßiges Sechseck hat Winkel von $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
+⟦5⟧`,
+  '1t5wicpcspm': R`
+<p>Daten sind Informationen, die wir sammeln, zum Beispiel Testergebnisse oder Lieblingsobst. Eine <b>Häufigkeitstabelle</b> zeigt, wie oft jeder Wert vorkommt; <b>Säulendiagramme</b> und <b>Bilddiagramme</b> zeigen dieselbe Information bildlich.</p>
+⟦0⟧
+<h3>Vier Kennwerte</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '2c85eiflpnj': R`
+<p>Die <b>ganzen Zahlen</b> sind die natürlichen Zahlen, ihre Gegenzahlen und die Null: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Auf dem Zahlenstrahl werden die Zahlen nach rechts größer, also ist $-7 \lt -2$, obwohl 7 größer als 2 ist.</p>
+⟦0⟧
+<p>Der <b>Betrag</b> $|a|$ ist der Abstand von 0: $|-6| = 6$ und $|6| = 6$.</p>
+<h3>Addieren und Subtrahieren</h3>
+⟦1⟧
+⟦2⟧
+<h3>Multiplizieren und Dividieren</h3>
+⟦3⟧
+⟦4⟧
+<p>Im Alltag: Temperaturen unter null, Höhen unter dem Meeresspiegel, Schulden und Untergeschosse.</p>
+⟦5⟧`,
+  'tte1va9nbg': R`
+<p>Eine <b>Potenz</b> beschreibt wiederholtes Multiplizieren: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ Faktoren}}$. In $2^5 = 32$ ist 2 die <b>Basis</b> und 5 der <b>Exponent</b>.</p>
+⟦0⟧
+<h3>Potenzgesetze</h3>
+⟦1⟧
+⟦2⟧
+<h3>Wurzeln</h3>
+<p>Die Quadratwurzel macht das Quadrieren rückgängig: $\sqrt{81} = 9$, denn $9^2 = 81$. Die Kubikwurzel macht das Hoch-drei rückgängig: $\sqrt[3]{64} = 4$, denn $4^3 = 64$.</p>
+⟦3⟧
+⟦4⟧`,
+  'akeowmn81l': R`
+<p>In der Wissenschaft schreibt man sehr große oder sehr kleine Zahlen kompakt als</p>
+⟦0⟧
+<ul><li>Die Entfernung zur Sonne, etwa $150\,000\,000$ km, ist $1{,}5 \times 10^{8}$ km.</li><li>Ein rotes Blutkörperchen, etwa $0{,}000\,008$ m breit, misst $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Rechnen</h3>
+<p>Multipliziere (oder dividiere) die vorderen Zahlen und addiere (oder subtrahiere) die Exponenten. Korrigiere danach die vordere Zahl, falls sie nicht zwischen 1 und 10 liegt:</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'z6teiu3uc7': R`
+<p>Ein <b>Verhältnis</b> $a : b$ vergleicht zwei Größen. Wie Brüche kann man Verhältnisse kürzen, indem man beide Teile durch ihren ggT teilt: $18 : 24 = 3 : 4$.</p>
+<h3>Aufteilen im Verhältnis</h3>
+⟦0⟧
+⟦1⟧
+<h3>Raten und Einheitswerte</h3>
+<p>Eine <b>Rate</b> vergleicht Größen mit verschiedenen Einheiten: Kilometer pro Stunde, Euro pro Kilogramm. Wer den Wert für <b>eine</b> Einheit kennt (Dreisatz), löst die meisten Aufgaben.</p>
+⟦2⟧
+<h3>Proportional und antiproportional</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+<h3>Maßstab</h3>
+<p>Ein Maßstab von $1 : 50\,000$ bedeutet: 1 cm auf der Karte sind in Wirklichkeit $50\,000$ cm $= 500$ m $= 0{,}5$ km.</p>
+⟦6⟧`,
+  '1aox7mamv38': R`
+<p>Im Term $5x^2 - 3xy + 7$ sind die <b>Summanden</b> $5x^2$, $-3xy$ und $7$; die <b>Koeffizienten</b> sind 5 und $-3$; 7 ist die <b>Konstante</b>. <b>Gleichartige Terme</b> haben genau dieselben Variablen mit denselben Exponenten ($4ab$ und $-ab$ sind gleichartig; $x^2$ und $x$ nicht).</p>
+<h3>Zusammenfassen</h3>
+<p>Fasse gleichartige Terme zusammen, indem du ihre Koeffizienten addierst: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Klammern auflösen</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Binomische Formeln</h3>
+⟦3⟧
+⟦4⟧
+<h3>Faktorisieren</h3>
+<p>Faktorisieren ist Ausmultiplizieren rückwärts. Klammere den größten gemeinsamen Faktor aus: $12x - 18 = 6(2x - 3)$.</p>
+<h3>Einsetzen</h3>
+<p>Ersetze jede Variable durch ihren Wert und setze negative Zahlen in Klammern: Für $x = -2$ ist $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦5⟧`,
+  '2ez6y5q5jl': R`
+<p>Eine Gleichung sagt aus, dass zwei Terme gleich sind. Denk an eine Balkenwaage: Was du auf der einen Seite tust, tust du auch auf der anderen, dann bleibt sie im Gleichgewicht. Ziel ist, die Unbekannte allein auf eine Seite zu bringen.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Klammern und Brüche</h3>
+<p>Löse zuerst die Klammern auf (oder teile beide Seiten durch die Zahl vor der Klammer). Brüche beseitigst du, indem du jeden Summanden mit dem Hauptnenner multiplizierst:</p>
+⟦3⟧
+<h3>Textaufgaben</h3>
+<ol><li>Wähle eine Variable für die Unbekannte und schreibe auf, wofür sie steht.</li><li>Übersetze den Text in eine Gleichung.</li><li>Löse sie und prüfe, ob die Antwort zur Situation passt.</li></ol>
+⟦4⟧
+⟦5⟧`,
+  '1em42pkc1jv': R`
+<p>Eine <b>Ungleichung</b> vergleicht zwei Terme: $\lt$ (kleiner als), $\gt$ (größer als), $\le$ (kleiner oder gleich), $\ge$ (größer oder gleich). Ihre Lösung ist meist ein ganzer Zahlenbereich.</p>
+<p>Auf dem Zahlenstrahl zeichnet man $x \gt 2$ mit einem <b>offenen</b> Kreis bei 2 (2 gehört nicht dazu) und einem Pfeil nach rechts; $x \le 2$ mit einem <b>ausgefüllten</b> Kreis und einem Pfeil nach links.</p>
+⟦0⟧
+<h3>Lösen</h3>
+<p>Man löst wie eine Gleichung – auf beiden Seiten addieren, subtrahieren, multiplizieren oder dividieren – mit einer zusätzlichen Regel:</p>
+⟦1⟧
+<p>Warum? $2 \lt 5$, aber nach Multiplikation mit $-1$ erhält man $-2$ und $-5$, und $-2 \gt -5$.</p>
+⟦2⟧
+<h3>Doppelungleichungen</h3>
+<p>Wende dieselbe Umformung auf alle drei Teile an: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Die ganzzahligen Lösungen sind $-1; 0; 1; 2; 3$.</p>
+⟦3⟧
+⟦4⟧`,
+  '2facwts035v': R`
+<p>Eine <b>Menge</b> ist eine klar festgelegte Zusammenfassung von Objekten, ihren <b>Elementen</b>. Wir schreiben $A = \{2; 4; 6; 8\}$ und $4 \in A$ („4 ist Element von A“), $5 \notin A$. $n(A)$ ist die Anzahl der Elemente; hier $n(A) = 4$. Die <b>leere Menge</b> $\varnothing$ hat keine Elemente; die <b>Grundmenge</b> $U$ enthält alles, worüber gerade gesprochen wird.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qkk3uk216j': R`
+<p>Eine <b>lineare Funktion</b> hat als Graphen eine Gerade. In der <b>Normalform</b></p>
+⟦0⟧
+<p>ist $m$ die <b>Steigung</b>: um wie viel sich $y$ ändert, wenn $x$ um 1 wächst. $c$ ist der <b>$y$-Achsenabschnitt</b>, wo die Gerade die $y$-Achse schneidet. In Funktionsschreibweise schreibt man $f(x) = mx + c$; $f(3)$ bedeutet „der Wert für $x = 3$“.</p>
+<h3>Steigung aus zwei Punkten</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Achsenschnittpunkte und andere Formen</h3>
+<p>Setze $x = 0$, um den $y$-Achsenabschnitt zu finden, und $y = 0$ für die Nullstelle. Eine Gerade kann man als $ax + by = c$ schreiben; forme zu $y = -\frac{a}{b}x + \frac{c}{b}$ um, um die Steigung abzulesen. Durch einen Punkt $(x_1; y_1)$ mit Steigung $m$: $y - y_1 = m(x - x_1)$.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'k20oq9cujh': R`
+<p>Ein <b>lineares Gleichungssystem</b> aus zwei Gleichungen mit $x$ und $y$ fragt nach den Werten, die <i>beide</i> Gleichungen erfüllen. Grafisch ist die Lösung der Schnittpunkt der beiden Geraden.</p>
+⟦0⟧
+<h3>Einsetzungsverfahren</h3>
+⟦1⟧
+<h3>Additionsverfahren</h3>
+⟦2⟧
+⟦3⟧
+<h3>Sonderfälle</h3>
+⟦4⟧
+<p>Parallele Geraden (gleiche Steigung, verschiedene $y$-Achsenabschnitte) schneiden sich nie: <b>keine Lösung</b>. Identische Geraden ergeben <b>unendlich viele</b> Lösungen.</p>
+<h3>Textaufgaben</h3>
+<p>Zwei Unbekannte brauchen zwei Angaben. „Auf einem Hof haben Hühner und Kühe zusammen 30 Köpfe und 84 Beine“, mit $c$ Kühen und $h$ Hühnern: $c + h = 30$ und $4c + 2h = 84$.</p>
+⟦5⟧`,
+  '1bdrzsceuor': R`
+<p>Im rechtwinkligen Dreieck heißt die längste Seite, die dem rechten Winkel gegenüberliegt, <b>Hypotenuse</b> $c$. Die beiden anderen Seiten sind die <b>Katheten</b> $a$ und $b$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Pythagoreische Tripel</h3>
+<p>Ganzzahlige Lösungen und ihre Vielfachen merkt man sich gern: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$ sowie $(6; 8; 10)$, $(9; 12; 15)$, …</p>
+<h3>Abstand zweier Punkte</h3>
+⟦4⟧
+⟦5⟧
+<h3>Die Umkehrung</h3>
+<p>Ist $c$ die längste Seite, dann gilt: Aus $a^2 + b^2 = c^2$ folgt, das Dreieck ist <b>rechtwinklig</b>; bei $a^2 + b^2 \gt c^2$ ist es <b>spitzwinklig</b>; bei $a^2 + b^2 \lt c^2$ ist es <b>stumpfwinklig</b>.</p>
+⟦6⟧`,
+  'focn6p44n1': R`
+⟦0⟧
+<p>Das Verhältnis von Umfang zu Durchmesser ist bei jedem Kreis dieselbe Zahl, $\pi \approx 3{,}14159\ldots$ (oft genähert durch $3{,}14$ oder $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Kreisbögen und Kreisausschnitte</h3>
+<p>Ein Kreisausschnitt mit Mittelpunktswinkel $\theta$ ist der Anteil $\frac{\theta}{360^\circ}$ des ganzen Kreises:</p>
+⟦4⟧
+⟦5⟧
+<h3>Winkel am Kreis</h3>
+⟦6⟧
+<ul><li>Der Mittelpunktswinkel ist <b>doppelt</b> so groß wie ein Umfangswinkel über demselben Bogen.</li><li>Ein Winkel im Halbkreis beträgt $90^\circ$ (Satz des Thales).</li><li>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius.</li></ul>
+⟦7⟧`,
+  'g6b5ghp740': R`
+<p>Ein <b>Prisma</b> hat überall denselben Querschnitt; sein Volumen ist daher einfach die Querschnittsfläche mal die Länge. Eine Pyramide oder ein Kegel, der genau hineinpasst, hat genau ein Drittel dieses Volumens.</p>
+⟦0⟧
+⟦1⟧
+<p>Beim Kegel ist $s$ die <b>Mantellinie</b>; nach Pythagoras gilt $s = \sqrt{r^2 + h^2}$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'f13hxf9kw3': R`
+<p>Ein <b>Lagemaß</b> fasst einen Datensatz durch einen typischen Wert zusammen; ein <b>Streuungsmaß</b> gibt an, wie weit die Werte auseinanderliegen.</p>
+⟦0⟧
+⟦1⟧
+<h3>Mittelwert aus einer Häufigkeitstabelle</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Rückwärts rechnen</h3>
+⟦5⟧
+<p>Bei einer geraden Anzahl von Werten ist der Median der Mittelwert der beiden mittleren Werte.</p>
+⟦6⟧`,
+  '190fxed0s6m': R`
+<p>Ein <b>Zufallsexperiment</b> (einen Würfel werfen, eine Karte ziehen) hat mögliche <b>Ergebnisse</b>. Die Menge aller Ergebnisse ist die <b>Ergebnismenge</b> $S$; ein <b>Ereignis</b> $E$ ist eine Menge von Ergebnissen. Sind alle Ergebnisse gleich wahrscheinlich, gilt:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Zwei Würfel</h3>
+<p>Zwei Würfel ergeben $6 \times 6 = 36$ gleich wahrscheinliche Ergebnisse. Die Augensumme 7 entsteht auf 6 Arten — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, also ist $P(\text{Summe} = 7) = \frac{6}{36} = \frac{1}{6}$. Allgemein gibt es $6 - |s - 7|$ Arten, die Summe $s$ zu erhalten.</p>
+⟦4⟧
+<h3>Ein Kartenspiel</h3>
+<p>52 Karten: 4 Farben (♠ ♣ schwarz, ♥ ♦ rot) mit je 13 Werten (A, 2–10, B, D, K). Es gibt 12 Bildkarten (B, D, K).</p>
+⟦5⟧`,
+  '151qbeg6ykm': R`
+<p>Alltägliche Geldfragen sind meist verkleidete Prozentaufgaben.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Rabatt und Steuer</h3>
+<p>Wende Prozentsätze nacheinander an: 20 % Rabatt und danach 10 % Steuer auf 150 Euro ergeben $150 \times 0{,}8 \times 1{,}1 = 132$ Euro.</p>
+<h3>Einfache Zinsen</h3>
+⟦3⟧
+<p>1 500 Euro, 3 Jahre lang zu 6 % pro Jahr angelegt, bringen $1\,500 \times 0{,}06 \times 3 = 270$ Euro; das Guthaben wächst auf 1 770 Euro. Bei Monaten nimm $t = \frac{\text{Monate}}{12}$.</p>
+⟦4⟧
+<h3>Brutto, Tara und Netto</h3>
+<p><b>Brutto</b> = Gesamtgewicht; <b>Tara</b> = Gewicht der Verpackung; <b>Netto</b> = Brutto − Tara. Ein 50-kg-Sack mit 2 % Tara hat ein Nettogewicht von $50 \times 0{,}98 = 49$ kg.</p>
+⟦5⟧`,
+  '2goqscgnmgq': R`
+<p>Eine <b>Folge</b> ist eine geordnete Liste von Zahlen, den <b>Gliedern</b>. Wer die Regel erkennt, kann die Folge fortsetzen oder direkt zu jedem beliebigen Glied springen.</p>
+<h3>Arithmetische Folgen</h3>
+<p>Es wird jedes Mal dieselbe Zahl $d$ (die <b>Differenz</b>) addiert: 5; 8; 11; 14; … hat $d = 3$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Geometrische Folgen</h3>
+<p>Jedes Glied wird mit demselben <b>Quotienten</b> $r$ multipliziert: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
+⟦2⟧
+<h3>Besondere Folgen</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'dep80mf33u': R`
+<p>Eine <b>Abbildung</b> verschiebt eine Figur oder ändert ihre Größe. Bei Verschiebungen, Spiegelungen und Drehungen ist das Bild <b>kongruent</b> (gleiche Form und Größe); bei einer zentrischen Streckung ist es <b>ähnlich</b> (gleiche Form, andere Größe).</p>
+⟦0⟧
+⟦1⟧
+<h3>Ähnliche Figuren</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ayg6rt51qo': R`
+<p>Eine <b>quadratische Gleichung</b> hat die Form $ax^2 + bx + c = 0$ mit $a \ne 0$. Sie hat höchstens zwei Lösungen (Nullstellen).</p>
+<h3>1. Faktorisieren</h3>
+<p>Ein Produkt ist null, wenn einer seiner Faktoren null ist. Suche zwei Zahlen, deren Produkt $c$ und deren Summe $b$ ist (für $a = 1$):</p>
+⟦0⟧
+⟦1⟧
+<h3>2. Quadratische Ergänzung</h3>
+⟦2⟧
+<h3>3. Die Mitternachtsformel</h3>
+⟦3⟧
+⟦4⟧
+<h3>Summe und Produkt der Lösungen (Vieta)</h3>
+⟦5⟧
+<p>Eine Gleichung mit den Lösungen $r$ und $s$ lautet also $x^2 - (r + s)x + rs = 0$.</p>
+⟦6⟧
+⟦7⟧`,
+  'r0cxzc7jq8': R`
+<p>Der Graph von $f(x) = ax^2 + bx + c$ ist eine <b>Parabel</b>. Sie ist <b>nach oben</b> geöffnet, wenn $a \gt 0$ (ein Tal mit einem Minimum), und <b>nach unten</b>, wenn $a \lt 0$ (ein Hügel mit einem Maximum).</p>
+⟦0⟧
+<h3>Scheitelpunktform</h3>
+⟦1⟧
+⟦2⟧
+<p>Die quadratische Ergänzung wandelt die allgemeine Form in die Scheitelpunktform um: $x^2 - 6x + 11 = (x - 3)^2 + 2$, der Scheitelpunkt ist also $(3; 2)$ und der kleinste Wert 2. Die Wertemenge ist $y \ge 2$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1mi3l1zkm3t': R`
+<p>Eine <b>Funktion</b> ordnet jedem Eingabewert genau <b>einen</b> Ausgabewert zu. Die Menge der erlaubten Eingaben ist die <b>Definitionsmenge</b>; die Menge der Ausgaben ist die <b>Wertemenge</b>.</p>
+⟦0⟧
+<h3>Maximale Definitionsmengen</h3>
+<ul><li>Keine Division durch null: Für $\frac{1}{x - 2}$ ist die Definitionsmenge $x \ne 2$.</li><li>Keine Wurzeln aus negativen Zahlen: Für $\sqrt{x + 3}$ ist die Definitionsmenge $x \ge -3$.</li><li>Logarithmen brauchen positive Argumente: Für $\log(x - 1)$ ist die Definitionsmenge $x \gt 1$.</li></ul>
+<h3>Verkettung</h3>
+⟦1⟧
+⟦2⟧
+<h3>Umkehrfunktionen</h3>
+<p>$f^{-1}$ macht $f$ rückgängig: Ist $f(a) = b$, so ist $f^{-1}(b) = a$. Um sie zu bestimmen, schreibe $y = f(x)$, vertausche $x$ und $y$ und löse nach $y$ auf.</p>
+⟦3⟧
+⟦4⟧
+<p>Der Graph von $f^{-1}$ ist das Spiegelbild des Graphen von $f$ an der Geraden $y = x$. Nur umkehrbar eindeutige (injektive) Funktionen haben eine Umkehrfunktion.</p>
+⟦5⟧`,
+  '24wdt7r22ed': R`
+<p>Rationale Exponenten verbinden Potenzen und Wurzeln: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Also ist $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ und $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logarithmen</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Gleichungen lösen</h3>
+<ul><li>Gleiche Basis: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Logarithmusgleichung: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Verschiedene Basen: Logarithmiere beide Seiten, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
+<h3>Exponentielles Wachstum und exponentielle Abnahme</h3>
+<p>$A = A_0 \cdot r^{t/T}$: eine Größe, die alle $T$ Zeiteinheiten mit $r$ multipliziert wird. Zinseszins: $A = P(1 + i)^n$.</p>
+⟦3⟧
+⟦4⟧`,
+  '3hbd521s2e': R`
+⟦0⟧
+<p>Dabei ist $a$ das erste und $l$ das letzte Glied.</p>
+⟦1⟧
+⟦2⟧
+<h3>Unendliche geometrische Reihen</h3>
+⟦3⟧
+<p>Beispiel: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+⟦4⟧
+<h3>Summenzeichen</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ bedeutet $f(1) + f(2) + \cdots + f(n)$. Nützlich: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ und $\sum_{k=1}^{n} c = cn$.</p>
+⟦5⟧`,
+  '1t70i52x3de': R`
+<p>In einem rechtwinkligen Dreieck gilt für einen spitzen Winkel $\theta$:</p>
+⟦0⟧
+⟦1⟧
+<p>Merkhilfe: <b>GAGA-HHAG</b> (Sinus = Gegenkathete/Hypotenuse, Kosinus = Ankathete/Hypotenuse, Tangens = Gegenkathete/Ankathete). Außerdem ist $\tan\theta = \frac{\sin\theta}{\cos\theta}$, und die Kehrwerte sind $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Exakte Werte</h3>
+⟦2⟧
+⟦3⟧
+<h3>Bogenmaß</h3>
+<p>$180^\circ = \pi$ im Bogenmaß. Von Grad ins Bogenmaß: mit $\frac{\pi}{180}$ multiplizieren; vom Bogenmaß in Grad: mit $\frac{180}{\pi}$ multiplizieren. Also $60^\circ = \frac{\pi}{3}$ und $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Der Einheitskreis</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  'mvrwakwbru': R`
+<p>Eine <b>Identität</b> gilt für jeden Winkel. Die wichtigsten:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Trigonometrische Gleichungen lösen</h3>
+<p>Bestimme den Bezugswinkel und dann alle Winkel im geforderten Intervall mit dem richtigen Vorzeichen.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ei45ji3kzc': R`
+<p>Beschrifte ein Dreieck so, dass die Seite $a$ dem Winkel $A$ gegenüberliegt, $b$ dem Winkel $B$ und $c$ dem Winkel $C$. Diese Sätze gelten für <b>jedes</b> Dreieck, nicht nur für rechtwinklige.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '61mbb87wjy': R`
+<p>Ein <b>Polynom</b> ist eine Summe von Termen $a_n x^n + \cdots + a_1 x + a_0$ mit natürlichen Exponenten. Sein <b>Grad</b> ist der höchste Exponent; $a_n$ ist der <b>Leitkoeffizient</b>. Beim Multiplizieren von Polynomen addieren sich die Grade und die Leitkoeffizienten werden multipliziert.</p>
+<h3>Division</h3>
+<p>Die Division von $P(x)$ durch $(x - a)$ liefert einen Quotienten $Q(x)$ und einen Rest $R$: $P(x) = (x - a)Q(x) + R$. Das <b>Horner-Schema</b> erledigt das schnell nur mit den Koeffizienten.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Nullstellen eines kubischen Polynoms</h3>
+<p>Für $ax^3 + bx^2 + cx + d = 0$ mit den Nullstellen $r_1, r_2, r_3$ gilt:</p>
+⟦3⟧
+⟦4⟧`,
+  '1v5flijcft8': R`
+<p>Eine <b>Matrix</b> ist ein rechteckiges Zahlenschema. Eine $m \times n$-Matrix hat $m$ Zeilen und $n$ Spalten; $a_{ij}$ ist der Eintrag in Zeile $i$, Spalte $j$.</p>
+<h3>Rechenoperationen</h3>
+<ul><li><b>Addieren/Subtrahieren</b> eintragsweise (nur bei gleicher Größe).</li><li><b>Skalare Multiplikation</b>: jeden Eintrag multiplizieren.</li><li><b>Multiplizieren</b> $AB$: Eintrag $(i, j)$ ist Zeile $i$ von $A$ „mal“ Spalte $j$ von $B$. Dazu muss (Spaltenzahl von $A$) = (Zeilenzahl von $B$) sein; eine $m \times n$- mal eine $n \times p$-Matrix ergibt eine $m \times p$-Matrix.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinante und Inverse (2 × 2)</h3>
+⟦2⟧
+<p>Ist $\det A = 0$, so ist die Matrix <b>singulär</b> und hat keine Inverse. Mit Inversen löst man Gleichungssysteme: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧
+⟦4⟧`,
+  'etxqyliwjj': R`
+<p>Ein <b>Vektor</b> hat Länge und Richtung. In Koordinaten: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ oder $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Der Vektor von $P$ nach $Q$ ist $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '66h68qke5m': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ bedeutet: $f(x)$ kommt $L$ beliebig nahe, wenn $x$ gegen $a$ geht — egal, was genau bei $x = a$ passiert.</p>
+<h3>Methoden</h3>
+<ol><li><b>Direktes Einsetzen</b> funktioniert bei Polynomen und anderen stetigen Funktionen: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorisieren und kürzen</b> bei $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Erweitern mit dem konjugierten Term</b> bei Wurzelausdrücken.</li></ol>
+⟦0⟧
+⟦1⟧
+<h3>Grenzwerte im Unendlichen</h3>
+⟦2⟧
+⟦3⟧
+<h3>Ein besonderer trigonometrischer Grenzwert</h3>
+⟦4⟧
+<h3>Stetigkeit</h3>
+<p>$f$ ist stetig in $a$, wenn $\lim_{x \to a} f(x) = f(a)$: keine Lücken, Sprünge oder Asymptoten dort. Bei einer abschnittsweise definierten Funktion müssen die beiden Teile an der Nahtstelle zusammenpassen.</p>
+⟦5⟧`,
+  'a1ga4rrgb4': R`
+<p>Die <b>Ableitung</b> $f'(x)$ ist die momentane Änderungsrate von $f$ — die Steigung der Tangente an der Stelle $x$. Sie ist durch einen Grenzwert definiert:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Tangenten</h3>
+<p>Bei $x = a$ hat die Tangente die Steigung $m = f'(a)$ und geht durch $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Stationäre Stellen</h3>
+<p>Wo $f'(x) = 0$ ist, verläuft der Graph kurz waagerecht. Nutze die zweite Ableitung: $f''(a) \gt 0$ → lokales Minimum; $f''(a) \lt 0$ → lokales Maximum. $f$ ist steigend, wo $f' \gt 0$, und fallend, wo $f' \lt 0$.</p>
+⟦4⟧
+<h3>Optimierung</h3>
+⟦5⟧
+⟦6⟧`,
+  'l6pgzhyei6': R`
+<p>Integrieren kehrt das Ableiten um. Eine <b>Stammfunktion</b> von $f$ ist jede Funktion $F$ mit $F' = f$; das <b>unbestimmte Integral</b> enthält die Integrationskonstante:</p>
+⟦0⟧
+⟦1⟧
+<h3>Bestimmte Integrale</h3>
+⟦2⟧
+⟦3⟧
+<p>Für $f \ge 0$ ist das die Fläche unter der Kurve zwischen $x = a$ und $x = b$. Flächen unterhalb der $x$-Achse zählen negativ — teile das Integral an den Nullstellen, wenn du die Gesamtfläche willst.</p>
+⟦4⟧
+⟦5⟧
+<h3>Eine Funktion aus ihrer Ableitung bestimmen</h3>
+<p>Ist $f'(x) = 6x + 2$ und $f(1) = 10$, dann ist $f(x) = 3x^2 + 2x + C$, und $3 + 2 + C = 10$ ergibt $C = 5$.</p>
+⟦6⟧`,
+  'kgwrue8ydx': R`
+⟦0⟧
+⟦1⟧
+<h3>Permutationen/Variationen: Die Reihenfolge zählt</h3>
+⟦2⟧
+<p>Erster, zweiter und dritter Preis unter 10 Personen: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Anordnungen mit Wiederholung: $\frac{n!}{p!\,q!\cdots}$. „BANANA“ hat $\frac{6!}{3!\,2!} = 60$ Anordnungen.</li><li>Um einen runden Tisch: $(n - 1)!$ (Drehungen gelten als gleich).</li></ul>
+<h3>Kombinationen: Die Reihenfolge zählt nicht</h3>
+⟦3⟧
+<p>Ein Ausschuss aus 3 von 10 Personen: $\binom{10}{3} = 120$. Ein Ausschuss aus 2 Männern (von 5) und 3 Frauen (von 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Binomischer Lehrsatz</h3>
+⟦4⟧
+⟦5⟧
+<p>Der Koeffizient von $x^2$ in $(x + 3)^5$ ist $\binom{5}{2}3^{3} = 270$.</p>
+⟦6⟧`,
+  '5087kj3cei': R`
+⟦0⟧
+⟦1⟧
+<h3>Mit und ohne Zurücklegen</h3>
+⟦2⟧
+<p>Baumdiagramme ordnen das: entlang der Äste multiplizieren (Pfadregel), über die Äste addieren (Summenregel).</p>
+⟦3⟧
+<h3>„Mindestens einmal“</h3>
+<p>Nutze das Gegenereignis: $P(\text{mindestens eine Sechs in 3 Würfen}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Satz von Bayes</h3>
+⟦4⟧
+⟦5⟧`,
+  'tc0j77gt19': R`
+<h3>Quartile und Boxplots</h3>
+<p>Sortiere die Daten. Der Median $Q_2$ teilt sie in zwei Hälften; $Q_1$ ist der Median der unteren Hälfte, $Q_3$ der der oberen Hälfte (hier lassen wir den Median bei ungeradem $n$ aus beiden Hälften weg). Der <b>Interquartilsabstand</b> $\text{IQA} = Q_3 - Q_1$ misst die Streuung der mittleren 50 %.</p>
+⟦0⟧
+⟦1⟧
+<h3>Varianz und Standardabweichung</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Klassierte Daten</h3>
+<p>Schätze den Mittelwert mit den Klassenmitten: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+⟦5⟧
+<h3>Daten transformieren</h3>
+⟦6⟧
+⟦7⟧`,
+  'c7ge7rgpv3': R`
+⟦0⟧
+<h3>Kreisgleichung</h3>
+⟦1⟧
+<p>Ausmultipliziert ergibt sich die <b>allgemeine Form</b> $x^2 + y^2 + Dx + Ey + F = 0$ mit dem Mittelpunkt $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ und dem Radius $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+⟦3⟧
+<h3>Lage eines Punktes</h3>
+<p>Setze den Punkt in $(x - a)^2 + (y - b)^2$ ein und vergleiche mit $r^2$: kleiner → innerhalb, gleich → auf dem Kreis, größer → außerhalb.</p>
+<h3>Tangenten</h3>
+<p>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius. Beim Kreis $x^2 + y^2 = r^2$ im Punkt $(x_1; y_1)$ hat der Radius die Steigung $\frac{y_1}{x_1}$, also hat die Tangente die Steigung $-\frac{x_1}{y_1}$.</p>
+<h3>Parabeln</h3>
+<p>$y^2 = 4px$ hat den Brennpunkt $(p; 0)$ und die Leitgerade $x = -p$; $x^2 = 4py$ hat den Brennpunkt $(0; p)$ und die Leitgerade $y = -p$. Jeder Punkt einer Parabel ist vom Brennpunkt genauso weit entfernt wie von der Leitgeraden.</p>
+⟦4⟧
+⟦5⟧`,
+  'kxyg3nvi7f': R`
+<p><b>Lineare Optimierung</b> sucht den besten (größten oder kleinsten) Wert einer linearen <b>Zielfunktion</b>, etwa des Gewinns $z = 30x + 20y$, unter linearen <b>Nebenbedingungen</b> wie $x + y \le 40$.</p>
+<ol><li>Schreibe die Nebenbedingungen als Ungleichungen (mit $x \ge 0$, $y \ge 0$).</li><li>Zeichne jede Randgerade und markiere den Bereich, der alle Bedingungen erfüllt — den <b>zulässigen Bereich</b>.</li><li>Bestimme die Eckpunkte, indem du Paare von Randgleichungen löst.</li><li>Werte die Zielfunktion in jedem Eckpunkt aus.</li></ol>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>Bei Minimierungsaufgaben mit „≥“-Bedingungen ist der Bereich oft unbeschränkt; bei positiven Kosten liegt das Minimum trotzdem in einer Ecke.</p>
+⟦3⟧`,
+  '242c6ma5mvc': R`
+<p>Eine <b>Aussage</b> ist ein Satz, der entweder wahr oder falsch ist. Zusammengesetzte Aussagen entstehen mit <b>Junktoren</b>:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Verwandte Implikationen</h3>
+⟦3⟧
+<h3>Quantoren</h3>
+<p>$\forall$ „für alle“ und $\exists$ „es gibt“. Die Verneinung vertauscht sie: Die Verneinung von „Alle Schüler haben bestanden“ ist „<b>Einige</b> Schüler haben <b>nicht</b> bestanden“; die Verneinung von „Einige Vögel können nicht fliegen“ ist „Alle Vögel können fliegen“.</p>
+<h3>Gültige Schlüsse</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; also $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; also $\neg p$.</li><li><b>Kettenschluss:</b> $p \Rightarrow q$, $q \Rightarrow r$; also $p \Rightarrow r$.</li></ul>
+⟦4⟧`,
+  '2eractxl2pu': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Implizites Differenzieren</h3>
+<p>Ist $y$ implizit gegeben, leite beide Seiten nach $x$ ab und behandle $y$ dabei als Funktion von $x$ (also $\frac{d}{dx}y^2 = 2y\,y'$); löse dann nach $y'$ auf.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2pce0rr7ld': R`
+<h3>Regel von L'Hospital</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (zweimal angewendet).</p>
+<h3>Optimierung</h3>
+<ol><li>Schreibe die zu optimierende Größe als Funktion einer Variablen (nutze die Nebenbedingung).</li><li>Leite ab und löse $f'(x) = 0$.</li><li>Prüfe, ob ein Maximum/Minimum vorliegt (zweite Ableitung oder Randwerte).</li></ol>
+⟦1⟧
+⟦2⟧
+<h3>Verknüpfte Änderungsraten</h3>
+<p>Leite eine Beziehung nach der Zeit ab. Für einen wachsenden Kreis gilt $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Lineare Näherung</h3>
+⟦3⟧
+⟦4⟧
+<h3>Krümmung und Mittelwertsatz</h3>
+<p>$f'' \gt 0$: linksgekrümmt (konvex); $f'' \lt 0$: rechtsgekrümmt (konkav); ein <b>Wendepunkt</b> ist eine Stelle, an der sich das Krümmungsverhalten ändert. <b>Mittelwertsatz:</b> Ist $f$ stetig auf $[a; b]$ und im Inneren differenzierbar, so gibt es ein $c$ in $(a; b)$ mit $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦5⟧
+⟦6⟧`,
+  '1i8ljxmt6ne': R`
+⟦0⟧
+<h3>Substitution</h3>
+<p>Suche eine Funktion und ihre Ableitung. Mit $u = g(x)$, $du = g'(x)\,dx$:</p>
+⟦1⟧
+<p>Bei bestimmten Integralen ändere auch die Grenzen (oder rücksubstituiere vor dem Einsetzen).</p>
+<h3>Partielle Integration</h3>
+⟦2⟧
+⟦3⟧
+<h3>Partialbruchzerlegung</h3>
+<p>Zerlege eine gebrochenrationale Funktion in einfachere Teile: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Multipliziere mit dem Nenner und setze $x = 1$ und $x = -2$ ein: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Jeder Teil ergibt beim Integrieren einen Logarithmus.</p>
+<h3>Uneigentliche Integrale</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '22ywziqc3vc': R`
+<p>Eine unendliche Reihe $\sum a_n$ <b>konvergiert</b>, wenn ihre Partialsummen $S_N = a_1 + \cdots + a_N$ gegen einen endlichen Grenzwert streben.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Potenzreihen und Taylorreihen</h3>
+<p>Eine Potenzreihe $\sum c_n (x - a)^n$ konvergiert für $|x - a| \lt R$, den <b>Konvergenzradius</b> (bestimmt mit dem Quotientenkriterium). Die Taylorreihe von $f$ um $a$ ist $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; um 0 heißt sie Maclaurin-Reihe.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'snltdvly4b': R`
+<p>Für $f(x, y)$ leitet die <b>partielle Ableitung</b> $f_x = \frac{\partial f}{\partial x}$ nach $x$ ab und behandelt $y$ als Konstante (umgekehrt bei $f_y$). Für $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradient und Richtungsableitung</h3>
+⟦0⟧
+⟦1⟧
+<h3>Kritische Punkte: Test mit der zweiten Ableitung</h3>
+<p>In einem Punkt mit $f_x = f_y = 0$ sei $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$: lokales Minimum. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: lokales Maximum.</li><li>$D \lt 0$: Sattelpunkt. &nbsp; $D = 0$: Der Test ist nicht aussagekräftig.</li></ul>
+<h3>Doppelintegrale</h3>
+<p>Über einem Rechteck integriert man nacheinander (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. In Polarkoordinaten ist $dA = r\,dr\,d\theta$.</p>
+<h3>Lagrange-Multiplikatoren</h3>
+<p>Um $f$ unter der Nebenbedingung $g = c$ zu optimieren, löse $\nabla f = \lambda\nabla g$ zusammen mit der Nebenbedingung.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'fs23huivh': R`
+<p>Eine <b>Differentialgleichung</b> verknüpft eine Funktion mit ihren Ableitungen. Ihre <b>Ordnung</b> ist die höchste vorkommende Ableitung. Die <b>allgemeine Lösung</b> enthält beliebige Konstanten; Anfangsbedingungen legen eine spezielle Lösung fest.</p>
+<h3>Trennung der Variablen</h3>
+⟦0⟧
+⟦1⟧
+<p>Sonderfall: $\frac{dy}{dt} = ky$ ergibt $y = y_0e^{kt}$ — exponentielles Wachstum ($k \gt 0$) oder exponentielle Abnahme ($k \lt 0$). Bei der Halbwertszeit $T$ ist die verbleibende Menge $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>Lineare Gleichungen erster Ordnung</h3>
+⟦2⟧
+<h3>Lineare Gleichungen zweiter Ordnung mit konstanten Koeffizienten</h3>
+<p>Für $ay'' + by' + cy = 0$ führt der Ansatz $y = e^{rx}$ auf die <b>charakteristische Gleichung</b> $ar^2 + br + c = 0$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '24kf7gdq652': R`
+<h3>Lineare Gleichungssysteme und Rang</h3>
+<p>Ein System $A\mathbf{x} = \mathbf{b}$ löst man, indem man die erweiterte Matrix $[A \mid \mathbf{b}]$ durch Zeilenumformungen auf Stufenform bringt. Der <b>Rang</b> von $A$ ist die Anzahl der Pivotelemente (Nicht-Nullzeilen in Stufenform).</p>
+⟦0⟧
+<h3>Determinanten</h3>
+⟦1⟧
+<p>Nützliche Eigenschaften für $n \times n$-Matrizen: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Cramersche Regel: $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Eigenwerte und Eigenvektoren</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Hat $A$ $n$ linear unabhängige Eigenvektoren, so ist sie <b>diagonalisierbar</b>: $A = PDP^{-1}$, mit den Eigenvektoren als Spalten von $P$ und den Eigenwerten auf der Diagonalen von $D$.</p>
+⟦5⟧`,
+  'to00bbswkc': R`
+<p>Die imaginäre Einheit erfüllt $i^2 = -1$. Eine komplexe Zahl ist $z = a + bi$ mit Realteil $\text{Re}(z) = a$ und Imaginärteil $\text{Im}(z) = b$. Die Potenzen von $i$ wiederholen sich alle vier: $i; -1; -i; 1; \ldots$</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Polarform und eulersche Formel</h3>
+⟦3⟧
+⟦4⟧
+<p>Die $n$-ten Einheitswurzeln sind $e^{2\pi ik/n}$ für $k = 0; 1; \ldots; n - 1$: gleichmäßig verteilte Punkte auf dem Einheitskreis.</p>
+⟦5⟧
+⟦6⟧`,
+  'x4ag408mej': R`
+<p>Eine <b>Zufallsvariable</b> $X$ ordnet den Ergebnissen Zahlen zu. Für eine diskrete $X$ mit Wahrscheinlichkeiten $p(x)$:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Die Normalverteilung</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'c7oei6is1q': R`
+<p>Wir schätzen mit einer Kenngröße der <b>Stichprobe</b> (etwa $\bar{x}$) einen Parameter der <b>Grundgesamtheit</b> (etwa $\mu$). Nach dem <b>zentralen Grenzwertsatz</b> ist der Stichprobenmittelwert für großes $n$ annähernd normalverteilt mit Mittelwert $\mu$ und <b>Standardfehler</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Konfidenzintervalle</h3>
+⟦0⟧
+⟦1⟧
+<p>Für eine Fehlermarge $E$ braucht man $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (aufrunden). Ist $\sigma$ unbekannt, nimm $s$ und die $t$-Verteilung.</p>
+<h3>Hypothesentests</h3>
+<ol><li>Formuliere $H_0$ (z. B. $\mu = \mu_0$) und $H_1$.</li><li>Berechne eine Teststatistik, z. B. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Bestimme den <b>p-Wert</b>: die Wahrscheinlichkeit, unter $H_0$ ein mindestens so extremes Ergebnis zu erhalten.</li><li>Ist $p \le \alpha$, verwirf $H_0$; sonst wird $H_0$ nicht verworfen.</li></ol>
+⟦2⟧
+⟦3⟧
+<h3>Lineare Regression</h3>
+<p>Die Regressionsgerade $\hat{y} = a + bx$ (Methode der kleinsten Quadrate) hat die Steigung $b = r\frac{s_y}{s_x}$ und verläuft durch $(\bar{x}; \bar{y})$, also $a = \bar{y} - b\bar{x}$.</p>
+⟦4⟧
+⟦5⟧`,
+  '1sl57vmn5mx': R`
+<h3>Zahlentheorie</h3>
+<p>$a \equiv b \pmod n$ bedeutet, dass $n$ ein Teiler von $a - b$ ist; $a \bmod n$ ist der Rest in $\{0; 1; \ldots; n - 1\}$. Kongruenzen darf man addieren und multiplizieren, und Potenzen schrittweise reduzieren.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>Das <b>modulare Inverse</b> von $a$ modulo $n$ ist das $x$ mit $ax \equiv 1 \pmod n$; es existiert genau dann, wenn $\gcd(a, n) = 1$.</p>
+<h3>Abzählen</h3>
+<ul><li>Abbildungen einer $m$-elementigen in eine $n$-elementige Menge: $n^m$; injektive: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusion–Exklusion: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Schubfachprinzip:</b> Kommen mehr als $kn$ Objekte in $n$ Schubfächer, so enthält ein Fach mindestens $k + 1$.</li></ul>
+<h3>Rekursionen und Graphen</h3>
+<p>Eine Rekursion definiert jedes Glied aus früheren, etwa $a_n = 2a_{n-1} + 1$, $a_0 = 1$. In einem Graphen besagt das <b>Handschlaglemma</b> $\sum \deg(v) = 2|E|$; $K_n$ hat $\binom{n}{2}$ Kanten; ein Baum mit $n$ Knoten hat $n - 1$ Kanten; ein zusammenhängender Graph hat genau dann einen Eulerkreis, wenn alle Grade gerade sind.</p>
+⟦3⟧
+⟦4⟧`,
+  '1mtvwhuo4v8': R`
+<p>Numerische Verfahren nähern Ergebnisse an, für die es keine handliche geschlossene Form gibt. Zwei Fehlerarten sind wichtig: der <b>Verfahrensfehler</b> (Abbruchfehler) und der <b>Rundungsfehler</b> (durch endliche Genauigkeit).</p>
+⟦0⟧
+<h3>Nullstellensuche</h3>
+<ul><li><b>Bisektion:</b> Haben $f(a)$ und $f(b)$ verschiedene Vorzeichen, prüfe die Mitte $m$ und behalte die Hälfte mit dem Vorzeichenwechsel. Langsam, aber sicher: Der Fehler halbiert sich bei jedem Schritt.</li><li><b>Newton-Verfahren:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sehr schnell nahe einer einfachen Nullstelle (quadratische Konvergenz), kann aber bei schlechtem Startwert oder $f' \approx 0$ versagen.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Numerische Integration</h3>
+⟦3⟧
+<p>Hier ist $h = \frac{b - a}{n}$. Die Simpsonregel ist für Polynome bis zum Grad 3 exakt.</p>
+⟦4⟧
+<h3>Euler-Verfahren</h3>
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '12ng1nf8855': R`
+<p>Ein <b>Vektorfeld</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ ordnet jedem Punkt einen Vektor zu — etwa eine Windgeschwindigkeit oder eine Kraft. Mit $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
+⟦0⟧
+<p>Die Divergenz misst die Quellstärke in einem Punkt; die Rotation misst die Wirbelstärke.</p>
+⟦1⟧
+<h3>Kurvenintegrale und konservative Felder</h3>
+⟦2⟧
+⟦3⟧
+<h3>Die großen Integralsätze</h3>
+⟦4⟧
+<p>Eine schöne Folgerung aus dem Satz von Green: Der Flächeninhalt von $D$ ist $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦5⟧`,
+  'u5cfzxzcr6': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Für Rücktransformationen braucht man meist zuerst eine Partialbruchzerlegung und dann einen Abgleich mit der Tabelle.</p>
+⟦5⟧`,
 });

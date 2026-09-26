@@ -1,20 +1,6 @@
 /* Español — Secundaria (expresiones algebraicas → funciones lineales) */
 addT('es', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>En la expresión $5x^2 - 3xy + 7$, los <b>términos</b> son $5x^2$, $-3xy$ y $7$; los <b>coeficientes</b> son 5 y $-3$; 7 es el <b>término independiente</b>. Los <b>términos semejantes</b> tienen exactamente las mismas variables con los mismos exponentes ($4ab$ y $-ab$ son semejantes; $x^2$ y $x$ no lo son).</p>
-<h3>Simplificar</h3>
-<p>Reduce los términos semejantes sumando sus coeficientes: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Quitar paréntesis</h3>
-⟦0⟧
-⟦1⟧
-<h3>Productos notables</h3>
-⟦2⟧
-<h3>Factorizar</h3>
-<p>Factorizar es desarrollar al revés. Saca el factor común máximo: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Sustituir</h3>
-<p>Cambia cada letra por su valor, con paréntesis para los negativos: si $x = -2$, entonces $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Propiedad distributiva:</b> $a(b + c) = ab + ac$. Multiplica <i>cada</i> término del paréntesis por el término de fuera.</p><p><b>Dos paréntesis:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. Es fácil olvidar el término central, $2 \cdot 4 \cdot x = 8x$.</p>`,
@@ -31,17 +17,6 @@ addT('es', {
   '2e60a5izj9m': R`Desarrolla $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Una ecuación dice que dos expresiones son iguales. Piensa en una balanza: lo que hagas en un lado, hazlo también en el otro, y seguirá equilibrada. El objetivo es dejar sola la incógnita.</p>
-⟦0⟧
-⟦1⟧
-<h3>Paréntesis y fracciones</h3>
-<p>Primero quita los paréntesis (o divide ambos lados entre el número de fuera). Elimina las fracciones multiplicando cada término por el denominador común:</p>
-⟦2⟧
-<h3>Problemas con enunciado</h3>
-<ol><li>Elige una letra para la incógnita y di qué representa.</li><li>Traduce el enunciado a una ecuación.</li><li>Resuelve y comprueba que la respuesta tiene sentido en el problema.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Deshaz las operaciones en orden inverso usando <b>operaciones inversas</b>: suma ↔ resta, multiplicación ↔ división.</p>`,
   '11eu1q8a3p': R`<p>Resuelve $5x - 7 = 2x + 11$.</p><ol><li>Resta $2x$ en ambos lados: $3x - 7 = 11$.</li><li>Suma 7: $3x = 18$.</li><li>Divide entre 3: $x = 6$.</li></ol><p>Comprobación: $5(6) - 7 = 23$ y $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>La suma de tres enteros consecutivos es 72. Llámalos $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, así que $n = 23$. Los enteros son 23, 24 y 25.</p>`,
@@ -69,17 +44,6 @@ addT('es', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, así que $⟦3⟧x = ⟦4⟧$ y $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Una <b>desigualdad</b> compara dos expresiones: $\lt$ (menor que), $\gt$ (mayor que), $\le$ (menor o igual que), $\ge$ (mayor o igual que). Su solución suele ser todo un intervalo de números.</p>
-<p>En la recta numérica, $x \gt 2$ se dibuja con un círculo <b>vacío</b> en 2 (el 2 no se incluye) y una flecha hacia la derecha; $x \le 2$ usa un círculo <b>relleno</b> y una flecha hacia la izquierda.</p>
-<h3>Resolver</h3>
-<p>Se resuelve igual que una ecuación (sumando, restando, multiplicando o dividiendo en ambos lados) con una regla extra:</p>
-⟦0⟧
-<p>¿Por qué? $2 \lt 5$, pero al multiplicar ambos lados por $-1$ se obtiene $-2$ y $-5$, y $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Desigualdades dobles</h3>
-<p>Aplica la misma operación a las tres partes: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Las soluciones enteras son $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Cuando <b>multiplicas o divides por un número negativo</b>, el signo de la desigualdad cambia de sentido.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Resuelve $7 - 2x \ge 1$.</p><ol><li>Resta 7: $-2x \ge -6$.</li><li>Divide entre $-2$ y cambia el sentido: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>«El menor entero con $x \gt 4$» es 5, no 4: una desigualdad estricta excluye el extremo.</p>`,
@@ -98,13 +62,6 @@ addT('es', {
   'abjkjjicc6': R`cada parte`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Un <b>conjunto</b> es una colección bien definida de objetos, sus <b>elementos</b>. Escribimos $A = \{2; 4; 6; 8\}$ y $4 \in A$ («4 pertenece a A»), $5 \notin A$. $n(A)$ es el número de elementos; aquí $n(A) = 4$. El <b>conjunto vacío</b> $\varnothing$ no tiene elementos; el <b>conjunto universal</b> $U$ contiene todo aquello de lo que se habla.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Un diagrama de Venn: cada región es una combinación distinta de «está en A» y «está en B».`,
   '142ifrt0jkt': R`Notación`,
   '14czndj1h0b': R`Ejemplo con A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -139,17 +96,6 @@ addT('es', {
   '9yersm2gye': R`$A = ⟦0⟧$, así que $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Una <b>función lineal</b> tiene por gráfica una recta. En la <b>forma explícita</b></p>
-⟦0⟧
-<p>$m$ es la <b>pendiente</b>: cuánto cambia $y$ cuando $x$ aumenta en 1. $c$ es la <b>ordenada en el origen</b>, el punto donde la recta corta al eje $y$. Con notación de funciones escribimos $f(x) = mx + c$, así que $f(3)$ significa «el valor cuando $x = 3$».</p>
-<h3>Pendiente a partir de dos puntos</h3>
-⟦1⟧
-⟦2⟧
-<h3>Cortes con los ejes y otras formas</h3>
-<p>Haz $x = 0$ para hallar el corte con el eje $y$, e $y = 0$ para el corte con el eje $x$. Una recta puede escribirse $ax + by = c$; despeja $y = -\frac{a}{b}x + \frac{c}{b}$ para leer la pendiente. Por un punto $(x_1; y_1)$ con pendiente $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m =\frac{\text{avance vertical}}{\text{avance horizontal}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Por $(1; 2)$ y $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Sustituye $(1; 2)$ en $y = 3x + c$: $2 = 3 + c$, así que $c = -1$ y la recta es $y = 3x - 1$.</p>`,
