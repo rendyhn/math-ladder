@@ -5,20 +5,6 @@ addT('de', {
   '2gdno2vs4iz': R`Gib eine Antwort wie 9pi oder 3pi/4 ein.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Eine <b>quadratische Gleichung</b> hat die Form $ax^2 + bx + c = 0$ mit $a \ne 0$. Sie hat höchstens zwei Lösungen (Nullstellen).</p>
-<h3>1. Faktorisieren</h3>
-<p>Ein Produkt ist null, wenn einer seiner Faktoren null ist. Suche zwei Zahlen, deren Produkt $c$ und deren Summe $b$ ist (für $a = 1$):</p>
-⟦0⟧
-<h3>2. Quadratische Ergänzung</h3>
-⟦1⟧
-<h3>3. Die Mitternachtsformel</h3>
-⟦2⟧
-<h3>Summe und Produkt der Lösungen (Vieta)</h3>
-⟦3⟧
-<p>Eine Gleichung mit den Lösungen $r$ und $s$ lautet also $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ oder } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>Die <b>Diskriminante</b> $D = b^2 - 4ac$ gibt an, wie viele reelle Lösungen es gibt:</p><ul><li>$D \gt 0$: zwei verschiedene reelle Lösungen</li><li>$D = 0$: eine doppelte reelle Lösung</li><li>$D \lt 0$: keine reelle Lösung (zwei komplexe Lösungen)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, also $x = \frac{7 \pm 5}{4}$, d. h. $x = 3$ oder $x = \frac{1}{2}$. Probe: Summe $= \frac{7}{2}$ ✓, Produkt $= \frac{3}{2}$ ✓.</p>`,
@@ -46,14 +32,6 @@ addT('de', {
   '27ssy7fe6w9': R`Sei $w$ die Breite: $w(w + ⟦0⟧) = ⟦1⟧$, also $⟦2⟧ = 0$, d. h. $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Eine Breite muss positiv sein, also $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>Der Graph von $f(x) = ax^2 + bx + c$ ist eine <b>Parabel</b>. Sie ist <b>nach oben</b> geöffnet, wenn $a \gt 0$ (ein Tal mit einem Minimum), und <b>nach unten</b>, wenn $a \lt 0$ (ein Hügel mit einem Maximum).</p>
-⟦0⟧
-<h3>Scheitelpunktform</h3>
-⟦1⟧
-<p>Die quadratische Ergänzung wandelt die allgemeine Form in die Scheitelpunktform um: $x^2 - 6x + 11 = (x - 3)^2 + 2$, der Scheitelpunkt ist also $(3; 2)$ und der kleinste Wert 2. Die Wertemenge ist $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Symmetrieachse und Scheitelpunkt: $x = -\dfrac{b}{2a}$; der Scheitelpunkt ist $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>$y$-Achsenabschnitt: $(0; c)$.</li><li>Nullstellen: die Lösungen von $ax^2 + bx + c = 0$ (falls vorhanden).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{Scheitelpunkt } (h; k)`,
   '17der0pee5r': R`<p>Die Höhe eines Balls ist $h(t) = -5t^2 + 20t + 1$ Meter. Der Scheitelpunkt liegt bei $t = -\frac{20}{2(-5)} = 2$ s, und die maximale Höhe ist $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -77,18 +55,6 @@ addT('de', {
   'xs3xxut6a6': R`Der Scheitelpunkt ist $⟦0⟧$ und die Parabel ist nach unten geöffnet, also ist die Wertemenge $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Eine <b>Funktion</b> ordnet jedem Eingabewert genau <b>einen</b> Ausgabewert zu. Die Menge der erlaubten Eingaben ist die <b>Definitionsmenge</b>; die Menge der Ausgaben ist die <b>Wertemenge</b>.</p>
-<h3>Maximale Definitionsmengen</h3>
-<ul><li>Keine Division durch null: Für $\frac{1}{x - 2}$ ist die Definitionsmenge $x \ne 2$.</li><li>Keine Wurzeln aus negativen Zahlen: Für $\sqrt{x + 3}$ ist die Definitionsmenge $x \ge -3$.</li><li>Logarithmen brauchen positive Argumente: Für $\log(x - 1)$ ist die Definitionsmenge $x \gt 1$.</li></ul>
-<h3>Verkettung</h3>
-⟦0⟧
-⟦1⟧
-<h3>Umkehrfunktionen</h3>
-<p>$f^{-1}$ macht $f$ rückgängig: Ist $f(a) = b$, so ist $f^{-1}(b) = a$. Um sie zu bestimmen, schreibe $y = f(x)$, vertausche $x$ und $y$ und löse nach $y$ auf.</p>
-⟦2⟧
-<p>Der Graph von $f^{-1}$ ist das Spiegelbild des Graphen von $f$ an der Geraden $y = x$. Nur umkehrbar eindeutige (injektive) Funktionen haben eine Umkehrfunktion.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Zuerst $g$ anwenden, dann $f$. Im Allgemeinen gilt $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Dann ist $f(g(3)) = f(9) = 19$, aber $g(f(3)) = g(7) = 49$. Als Terme: $f(g(x)) = 2x^2 + 1$ und $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: Vertauschen ergibt $x = 3y - 5$, also $y = \frac{x + 5}{3}$ und $f^{-1}(x) = \frac{x + 5}{3}$. Probe: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -112,16 +78,6 @@ addT('de', {
   'ranlsqjvf9': R`Da $⟦0⟧ \ge ⟦1⟧$, gilt die zweite Vorschrift: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Rationale Exponenten verbinden Potenzen und Wurzeln: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Also ist $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ und $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logarithmen</h3>
-⟦0⟧
-⟦1⟧
-<h3>Gleichungen lösen</h3>
-<ul><li>Gleiche Basis: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Logarithmusgleichung: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Verschiedene Basen: Logarithmiere beide Seiten, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Exponentielles Wachstum und exponentielle Abnahme</h3>
-<p>$A = A_0 \cdot r^{t/T}$: eine Größe, die alle $T$ Zeiteinheiten mit $r$ multipliziert wird. Zinseszins: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Ein Logarithmus beantwortet die Frage „Mit welcher Hochzahl muss man $b$ potenzieren, um $a$ zu erhalten?“ — also ist $\log_2 32 = 5$. $\log x$ bedeutet $\log_{10} x$; $\ln x$ bedeutet $\log_e x$ mit $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`Basiswechsel`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. Das Produktgesetz macht aus einem <i>Produkt</i> innen eine Summe außen.</p>`,

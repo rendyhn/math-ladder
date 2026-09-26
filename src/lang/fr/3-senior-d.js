@@ -1,19 +1,6 @@
 /* Français — Lycée (dénombrement → logique) */
 addT('fr', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Arrangements : l’ordre compte</h3>
-⟦1⟧
-<p>Premier, deuxième et troisième prix parmi 10 personnes : $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Anagrammes avec lettres répétées : $\frac{n!}{p!\,q!\cdots}$. « BANANA » a $\frac{6!}{3!\,2!} = 60$ anagrammes.</li><li>Autour d’une table ronde : $(n - 1)!$ (les rotations comptent comme identiques).</li></ul>
-<h3>Combinaisons : l’ordre ne compte pas</h3>
-⟦2⟧
-<p>Un comité de 3 personnes parmi 10 : $\binom{10}{3} = 120$. Un comité de 2 hommes (parmi 5) et 3 femmes (parmi 6) : $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Formule du binôme</h3>
-⟦3⟧
-<p>Le coefficient de $x^2$ dans $(x + 3)^5$ est $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Principe multiplicatif :</b> si un premier choix peut se faire de $m$ façons et un second de $n$ façons, les deux ensemble peuvent se faire de $m \times n$ façons.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -42,16 +29,6 @@ addT('fr', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ facteurs) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Avec et sans remise</h3>
-⟦1⟧
-<p>Les arbres de probabilité organisent ces calculs : on multiplie le long des branches et on additionne entre les branches.</p>
-<h3>« Au moins un »</h3>
-<p>On passe par l’événement contraire : $P(\text{au moins un six en 3 lancers}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Formule de Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Formule`,
   '29i7n2pf82k': R`Événement contraire`,
   '1q1cgu220ce': R`Incompatibles`,
@@ -89,18 +66,6 @@ addT('fr', {
   '29cd8gay3w4': R`Avec remise, les tirages sont indépendants : $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Quartiles et diagrammes en boîte</h3>
-<p>Rangez les données. La médiane $Q_2$ les partage en deux ; $Q_1$ est la médiane de la moitié inférieure et $Q_3$ celle de la moitié supérieure (ici, on exclut la médiane des deux moitiés quand $n$ est impair). L’<b>écart interquartile</b> $\text{EI} = Q_3 - Q_1$ mesure la dispersion des 50 % centraux.</p>
-⟦0⟧
-<h3>Variance et écart type</h3>
-⟦1⟧
-⟦2⟧
-<h3>Données groupées</h3>
-<p>On estime la moyenne avec les centres des classes : $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformer les données</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Une règle courante pour les valeurs aberrantes : les valeurs inférieures à $Q_1 - 1{,}5\,\text{EI}$ ou supérieures à $Q_3 + 1{,}5\,\text{EI}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (échantillon)}`,
   '1c6crwakkdh': R`<p>Données 2 ; 4 ; 4 ; 4 ; 5 ; 5 ; 7 ; 9 : moyenne 5, écarts au carré 9 ; 1 ; 1 ; 1 ; 0 ; 0 ; 4 ; 16 (somme 32). Variance de la population $= \frac{32}{8} = 4$ et $\sigma = 2$.</p>`,
@@ -131,19 +96,6 @@ addT('fr', {
   '111p9ug7ykx': R`Borne inférieure $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Équation d’un cercle</h3>
-⟦1⟧
-<p>En développant, on obtient la <b>forme développée</b> $x^2 + y^2 + Dx + Ey + F = 0$, de centre $\left(-\frac{D}{2} ; -\frac{E}{2}\right)$ et de rayon $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Position d’un point</h3>
-<p>Remplacez le point dans $(x - a)^2 + (y - b)^2$ et comparez à $r^2$ : plus petit → à l’intérieur, égal → sur le cercle, plus grand → à l’extérieur.</p>
-<h3>Tangentes</h3>
-<p>Une tangente est perpendiculaire au rayon au point de contact. Pour le cercle $x^2 + y^2 = r^2$ en $(x_1 ; y_1)$, le rayon a pour pente $\frac{y_1}{x_1}$, donc la tangente a pour pente $-\frac{x_1}{y_1}$.</p>
-<h3>Paraboles</h3>
-<p>$y^2 = 4px$ a pour foyer $(p ; 0)$ et pour directrice $x = -p$ ; $x^2 = 4py$ a pour foyer $(0 ; p)$ et pour directrice $y = -p$. Tout point d’une parabole est à la même distance du foyer que de la directrice.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Milieu } \left(\frac{x_1 + x_2}{2} ; \frac{y_1 + y_2}{2}\right) \qquad \text{Distance } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centre } (a ; b), \text{ rayon } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$ : on fait apparaître les carrés, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centre $(3 ; -2)$, rayon 5.</p>`,
@@ -172,13 +124,6 @@ addT('fr', {
   '1huwumypuyf': R`Le rayon vers $⟦0⟧$ a pour pente $\frac{⟦1⟧}{⟦2⟧}$. La tangente lui est perpendiculaire : pente $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p>La <b>programmation linéaire</b> cherche la meilleure valeur (la plus grande ou la plus petite) d’une <b>fonction objectif</b> linéaire, comme le bénéfice $z = 30x + 20y$, sous des <b>contraintes</b> linéaires comme $x + y \le 40$.</p>
-<ol><li>Écrivez les contraintes sous forme d’inéquations (avec $x \ge 0$, $y \ge 0$).</li><li>Tracez chaque droite frontière et hachurez la région qui vérifie toutes les contraintes — le <b>domaine réalisable</b>.</li><li>Trouvez les sommets en résolvant des couples d’équations frontières.</li><li>Évaluez la fonction objectif en chaque sommet.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Pour les problèmes de minimisation avec des contraintes « ≥ », le domaine est souvent non borné ; avec des coûts positifs, le minimum est encore atteint en un sommet.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Théorème des sommets :</b> si un optimum existe, il est atteint en un sommet du domaine réalisable.</p>`,
   '1g8qhbmqb9w': R`<p>Maximisez $z = 3x + 2y$ sous les contraintes $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Sommets : $(0 ; 0)$, $(6 ; 0)$, $(4 ; 4)$ [où $x + y = 8$ coupe $2x + y = 12$], $(0 ; 8)$.</p><p>Valeurs de $z$ : 0 ; 18 ; 20 ; 16. Maximum $z = 20$ en $(4 ; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Vérifiez que chaque sommet satisfait <b>toutes</b> les contraintes — l’intersection de deux droites frontières peut être hors du domaine.</p>`,
@@ -192,17 +137,6 @@ addT('fr', {
   '296rrmt4h4q': R`Contraintes : $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Sommets : ⟦3⟧. Bénéfice maximal : <b>⟦4⟧</b> euros.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Une <b>proposition</b> est un énoncé qui est soit vrai, soit faux. On construit des propositions composées avec des <b>connecteurs</b> :</p>
-⟦0⟧
-⟦1⟧
-<h3>Implications associées</h3>
-⟦2⟧
-<h3>Quantificateurs</h3>
-<p>$\forall$ « pour tout » et $\exists$ « il existe ». La négation les échange : la négation de « Tous les élèves ont réussi » est « <b>Certains</b> élèves <b>n’ont pas</b> réussi » ; la négation de « Certains oiseaux ne volent pas » est « Tous les oiseaux volent ».</p>
-<h3>Raisonnements valides</h3>
-<ul><li><b>Modus ponens :</b> $p \Rightarrow q$, $p$ ; donc $q$.</li><li><b>Modus tollens :</b> $p \Rightarrow q$, $\neg q$ ; donc $\neg p$.</li><li><b>Syllogisme :</b> $p \Rightarrow q$, $q \Rightarrow r$ ; donc $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`VF`,
   '1h0id2d836q': R`<p>Une implication $p \Rightarrow q$ est fausse <b>uniquement</b> quand $p$ est vraie et $q$ est fausse.</p>`,
   '2aojok6ubm7': R`Forme`,

@@ -1,20 +1,6 @@
 /* Bahasa Indonesia — SMP (bentuk aljabar → fungsi linear) */
 addT('id', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Pada bentuk $5x^2 - 3xy + 7$, <b>suku-sukunya</b> adalah $5x^2$, $-3xy$, dan $7$; <b>koefisiennya</b> 5 dan $-3$; 7 adalah <b>konstanta</b>. <b>Suku sejenis</b> memiliki variabel dan pangkat yang persis sama ($4ab$ dan $-ab$ sejenis; $x^2$ dan $x$ tidak).</p>
-<h3>Menyederhanakan</h3>
-<p>Gabungkan suku sejenis dengan menjumlahkan koefisiennya: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Menjabarkan tanda kurung</h3>
-⟦0⟧
-⟦1⟧
-<h3>Perkalian istimewa</h3>
-⟦2⟧
-<h3>Pemfaktoran</h3>
-<p>Memfaktorkan adalah kebalikan dari menjabarkan. Keluarkan faktor persekutuan terbesar: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Substitusi</h3>
-<p>Ganti setiap huruf dengan nilainya, pakai tanda kurung untuk bilangan negatif: jika $x = -2$, maka $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Sifat distributif:</b> $a(b + c) = ab + ac$. Kalikan suku di luar dengan <i>setiap</i> suku di dalam kurung.</p><p><b>Dua tanda kurung:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. Suku tengahnya, $2 \cdot 4 \cdot x = 8x$, sering terlupa.</p>`,
@@ -31,17 +17,6 @@ addT('id', {
   '2e60a5izj9m': R`Jabarkan $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Persamaan menyatakan bahwa dua bentuk bernilai sama. Bayangkan timbangan: apa pun yang dilakukan pada satu sisi, lakukan juga pada sisi lain, maka timbangan tetap seimbang. Tujuannya adalah membuat variabel sendirian di satu ruas.</p>
-⟦0⟧
-⟦1⟧
-<h3>Tanda kurung dan pecahan</h3>
-<p>Jabarkan tanda kurung lebih dulu (atau bagi kedua ruas dengan bilangan di luar kurung). Hilangkan pecahan dengan mengalikan setiap suku dengan penyebut persekutuan:</p>
-⟦2⟧
-<h3>Soal cerita</h3>
-<ol><li>Pilih huruf untuk besaran yang dicari dan jelaskan artinya.</li><li>Ubah kalimat soal menjadi persamaan.</li><li>Selesaikan, lalu periksa apakah jawabannya masuk akal.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Batalkan operasi dengan urutan terbalik memakai <b>operasi invers</b>: penjumlahan ↔ pengurangan, perkalian ↔ pembagian.</p>`,
   '11eu1q8a3p': R`<p>Selesaikan $5x - 7 = 2x + 11$.</p><ol><li>Kurangi kedua ruas dengan $2x$: $3x - 7 = 11$.</li><li>Tambahkan 7: $3x = 18$.</li><li>Bagi dengan 3: $x = 6$.</li></ol><p>Periksa: $5(6) - 7 = 23$ dan $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>Jumlah tiga bilangan bulat berurutan adalah 72. Misalkan $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, jadi $n = 23$. Bilangannya 23, 24, dan 25.</p>`,
@@ -69,17 +44,6 @@ addT('id', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, jadi $⟦3⟧x = ⟦4⟧$ dan $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p><b>Pertidaksamaan</b> membandingkan dua bentuk: $\lt$ (kurang dari), $\gt$ (lebih dari), $\le$ (kurang dari atau sama dengan), $\ge$ (lebih dari atau sama dengan). Penyelesaiannya biasanya berupa suatu rentang bilangan.</p>
-<p>Pada garis bilangan, $x \gt 2$ digambar dengan bulatan <b>kosong</b> di 2 (2 tidak termasuk) dan panah ke kanan; $x \le 2$ memakai bulatan <b>penuh</b> dan panah ke kiri.</p>
-<h3>Menyelesaikan</h3>
-<p>Selesaikan seperti persamaan — tambah, kurangi, kalikan, atau bagi kedua ruas — dengan satu aturan tambahan:</p>
-⟦0⟧
-<p>Mengapa? $2 \lt 5$, tetapi jika kedua ruas dikalikan $-1$ diperoleh $-2$ dan $-5$, dan $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Pertidaksamaan ganda</h3>
-<p>Lakukan operasi yang sama pada ketiga bagian: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Penyelesaian bulatnya $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Jika kamu <b>mengalikan atau membagi dengan bilangan negatif</b>, balik arah tanda pertidaksamaannya.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Selesaikan $7 - 2x \ge 1$.</p><ol><li>Kurangi 7: $-2x \ge -6$.</li><li>Bagi dengan $-2$ dan balik tandanya: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>"Bilangan bulat terkecil yang memenuhi $x \gt 4$" adalah 5, bukan 4 — pertidaksamaan tegas tidak memuat titik ujungnya.</p>`,
@@ -98,13 +62,6 @@ addT('id', {
   'abjkjjicc6': R`setiap bagian`,
 
   // sets
-  '1upw9az6tpj': R`
-<p><b>Himpunan</b> adalah kumpulan benda yang terdefinisi dengan jelas; benda-bendanya disebut <b>anggota</b>. Kita tulis $A = \{2; 4; 6; 8\}$ dan $4 \in A$ ("4 anggota A"), $5 \notin A$. $n(A)$ adalah banyak anggota; di sini $n(A) = 4$. <b>Himpunan kosong</b> $\varnothing$ tidak punya anggota; <b>himpunan semesta</b> $U$ memuat semua yang sedang dibicarakan.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Diagram Venn: setiap daerah adalah kombinasi berbeda dari "di A" dan "di B".`,
   '142ifrt0jkt': R`Notasi`,
   '14czndj1h0b': R`Contoh dengan A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -139,17 +96,6 @@ addT('id', {
   '9yersm2gye': R`$A = ⟦0⟧$, jadi $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p><b>Fungsi linear</b> memiliki grafik berupa garis lurus. Dalam <b>bentuk gradien–titik potong</b></p>
-⟦0⟧
-<p>$m$ adalah <b>gradien</b> (kemiringan): besar perubahan $y$ ketika $x$ bertambah 1. $c$ adalah <b>titik potong sumbu $y$</b>, tempat garis memotong sumbu $y$. Dengan notasi fungsi ditulis $f(x) = mx + c$, jadi $f(3)$ berarti "nilai fungsi ketika $x = 3$".</p>
-<h3>Gradien dari dua titik</h3>
-⟦1⟧
-⟦2⟧
-<h3>Titik potong sumbu dan bentuk lain</h3>
-<p>Ambil $x = 0$ untuk mencari titik potong sumbu $y$, dan $y = 0$ untuk titik potong sumbu $x$. Garis dapat ditulis $ax + by = c$; ubah menjadi $y = -\frac{a}{b}x + \frac{c}{b}$ untuk membaca gradiennya. Melalui titik $(x_1; y_1)$ dengan gradien $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{perubahan tegak}}{\text{perubahan mendatar}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Melalui $(1; 2)$ dan $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitusikan $(1; 2)$ ke $y = 3x + c$: $2 = 3 + c$, jadi $c = -1$ dan garisnya $y = 3x - 1$.</p>`,

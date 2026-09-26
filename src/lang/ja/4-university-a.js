@@ -1,15 +1,6 @@
 /* 日本語 — 大学（微分法 → 微分方程式） */
 addT('ja', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>陰関数の微分</h3>
-<p>$y$ が陰関数で与えられているときは、$y$ を $x$ の関数とみなして両辺を $x$ で微分し（$\frac{d}{dx}y^2 = 2y\,y'$ となる）、$y'$ について解く。</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`積`,
   '1fd6nxjb0xt': R`商`,
   '21u0n9yxqot': R`合成関数`,
@@ -36,20 +27,6 @@ addT('ja', {
   '20aqqhk2mtp': R`積の微分：$f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$。よって $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$。`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>ロピタルの定理</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$（2 回適用）。</p>
-<h3>最適化</h3>
-<ol><li>最適化したい量を 1 変数の関数で表す（条件式を使う）。</li><li>微分して $f'(x) = 0$ を解く。</li><li>最大・最小であることを確かめる（2 階導関数または端点）。</li></ol>
-⟦1⟧
-<h3>関連する変化率</h3>
-<p>関係式を時間で微分する。広がる円なら $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$。</p>
-<h3>1 次近似</h3>
-⟦2⟧
-<h3>凹凸と平均値の定理</h3>
-<p>$f'' \gt 0$：下に凸；$f'' \lt 0$：上に凸；凹凸が入れかわる点が<b>変曲点</b>。<b>平均値の定理：</b>$f$ が $[a, b]$ で連続で内部で微分可能なら、$(a, b)$ 内に $f'(c) = \frac{f(b) - f(a)}{b - a}$ となる $c$ が存在する。</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>$\lim \frac{f(x)}{g(x)}$ が $\frac{0}{0}$ または $\frac{\infty}{\infty}$ の形なら、$\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$（右辺の極限が存在するとき）。</p>`,
   '189x52ko5mw': R`<p>1 辺 18 cm の正方形の板の四隅から 1 辺 $x$ の正方形を切り取り、ふちを折り曲げる。$V = x(18 - 2x)^2$、$V' = (18 - 2x)(18 - 6x) = 0$ より $x = 3$、よって $V_{\max} = 3 \cdot 12^2 = 432$ cm³。</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{例 } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1`,
@@ -74,19 +51,6 @@ addT('ja', {
   '1c5ltuvzsrq': R`平均の傾き $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$。$f'(c) = 2c ⟦5⟧ = ⟦6⟧$ より $c = ⟦7⟧$——2 次関数ではいつも区間の中点になる。`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>置換積分</h3>
-<p>関数とその導関数の組を探す。$u = g(x)$、$du = g'(x)\,dx$ とおくと：</p>
-⟦0⟧
-<p>定積分では積分区間も置き換える（または元の変数に戻してから計算する）。</p>
-<h3>部分積分</h3>
-⟦1⟧
-⟦2⟧
-<h3>部分分数分解</h3>
-<p>有理関数を簡単な分数に分ける：$\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$。分母を払って $x = 1$、$x = -2$ を代入すると $A = \frac{4}{3}$、$B = \frac{11}{3}$。それぞれ積分すると対数になる。</p>
-<h3>広義積分</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>$u$ は <b>対・逆・代・三・指</b>の順で選ぶ：対数関数、逆三角関数、多項式（代数関数）、三角関数、指数関数——先に来るものを $u$ にする。</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$：$u = x$、$dv = e^{2x}dx$ とすると $du = dx$、$v = \frac{1}{2}e^{2x}$。結果：$\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$。</p>`,
@@ -139,14 +103,6 @@ addT('ja', {
   'lpjavqv13n': R`ばね定数 $k = ⟦0⟧$ N/m のばねがあります。自然の長さから ⟦1⟧ m 伸ばすのに必要な仕事を求めなさい。`,
 
   // series
-  '1efhn95iov3': R`
-<p>無限級数 $\sum a_n$ は、部分和 $S_N = a_1 + \cdots + a_N$ が有限の値に近づくとき<b>収束する</b>という。</p>
-⟦0⟧
-⟦1⟧
-<h3>べき級数とテイラー級数</h3>
-<p>べき級数 $\sum c_n (x - a)^n$ は $|x - a| \lt R$ で収束する。$R$ を<b>収束半径</b>という（比判定法で求める）。$f$ の $a$ のまわりのテイラー級数は $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$；0 のまわりのものをマクローリン級数という。</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`判定法`,
   '1boy0ga8tbt': R`結論`,
   '7ih7yeq8ue': R`発散判定（一般項）`,
@@ -200,19 +156,6 @@ addT('ja', {
   '262p4pwoflz': R`これは $⟦0⟧$ の標準的な展開である。`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>$f(x, y)$ の<b>偏導関数</b> $f_x = \frac{\partial f}{\partial x}$ は、$y$ を定数とみなして $x$ で微分したもの（$f_y$ はその逆）。$f = x^2y^3$ なら $f_x = 2xy^3$、$f_y = 3x^2y^2$。</p>
-<h3>勾配と方向微分</h3>
-⟦0⟧
-<h3>臨界点：2 階導関数による判定</h3>
-<p>$f_x = f_y = 0$ となる点で $D = f_{xx}f_{yy} - f_{xy}^2$ とおく。</p>
-<ul><li>$D \gt 0$、$f_{xx} \gt 0$：極小。 &nbsp; $D \gt 0$、$f_{xx} \lt 0$：極大。</li><li>$D \lt 0$：鞍点。 &nbsp; $D = 0$：判定できない。</li></ul>
-<h3>2 重積分</h3>
-<p>長方形上では 1 変数ずつ積分する（フビニの定理）：$\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$。極座標では $dA = r\,dr\,d\theta$。</p>
-<h3>ラグランジュの未定乗数法</h3>
-<p>条件 $g = c$ のもとで $f$ を最適化するには、$\nabla f = \lambda\nabla g$ と条件式を連立して解く。</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ は最も急に増加する方向を向き、その大きさがその最大の変化率である。</p>`,
   'opu0v1dwpl': R`<p>$x + y = 10$ のもとで $f = xy$ を最大化：$(y, x) = \lambda(1, 1)$ より $x = y = 5$、最大値は 25。</p>`,
   '83uqphqp8x': R`<p>極座標では $dA = r\,dr\,d\theta$ の余分な因子 $r$ を忘れないこと。</p>`,
@@ -240,18 +183,6 @@ addT('ja', {
   'hl1el1t8oy': R`極座標：$\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$。`,
 
   // ode
-  '29y4y4v6xas': R`
-<p><b>微分方程式</b>は関数とその導関数の関係を表す。現れる最も高い導関数の階数をその<b>階数</b>という。<b>一般解</b>は任意定数を含み、初期条件によって特殊解が決まる。</p>
-<h3>変数分離形</h3>
-⟦0⟧
-<p>特別な場合：$\frac{dy}{dt} = ky$ の解は $y = y_0e^{kt}$——指数関数的な増加（$k \gt 0$）または減少（$k \lt 0$）。半減期が $T$ のとき、残る量は $N_0\left(\frac{1}{2}\right)^{t/T}$。</p>
-<h3>1 階線形微分方程式</h3>
-⟦1⟧
-<h3>定数係数の 2 階線形微分方程式</h3>
-<p>$ay'' + by' + cy = 0$ に $y = e^{rx}$ を代入すると<b>特性方程式</b> $ar^2 + br + c = 0$ が得られる。</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$：変数を分離して $\int\frac{dy}{y} = \int 2x\,dx$、よって $\ln|y| = x^2 + C$、$y = Ae^{x^2}$。</p>`,
   '24caer7vpv9': R`<p>$y' + P(x)y = Q(x)$ には<b>積分因子</b> $\mu(x) = e^{\int P(x)\,dx}$ をかける。すると $(\mu y)' = \mu Q$ となり、$y = \frac{1}{\mu}\int \mu Q\,dx$。</p>`,
   '2fhw42v6h9r': R`特性方程式の解`,

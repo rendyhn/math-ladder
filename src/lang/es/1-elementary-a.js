@@ -14,20 +14,6 @@ addT('es', {
   '2wu7e9ekt1': R`Un rectángulo de largo l y ancho w, un triángulo de base b y altura h, y un trapecio de lados paralelos a y b y altura h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Nuestro sistema de numeración usa diez cifras, del 0 al 9. La <b>posición</b> de una cifra indica su <b>valor</b>: cada posición vale diez veces más que la que tiene a su derecha.</p>
-⟦0⟧
-<p>En <b>5 382 417</b> la cifra 8 está en las decenas de millar, así que vale $8 \times 10\,000 = 80\,000$. La cifra 3 vale $300\,000$.</p>
-<h3>Forma desarrollada</h3>
-<p>Escribir un número como suma de los valores de sus cifras muestra cuánto vale cada una:</p>
-⟦1⟧
-<p>El 0 de las decenas <b>guarda el lugar</b>. Sin él, 4 307 se convertiría en 437.</p>
-<h3>Comparar números</h3>
-<p>Un número natural con más cifras es mayor. Si dos números tienen la misma cantidad de cifras, compáralos cifra a cifra desde la izquierda; decide la primera posición en la que se diferencian. Así, $52\,814 \gt 52\,781$ porque en las centenas $8 \gt 7$.</p>
-<h3>Redondeo</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Millones`,
   '1y40p90zlus': R`Centenas de millar`,
@@ -64,18 +50,6 @@ addT('es', {
   '1uhrj1iztnj': R`menor a mayor`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>La suma junta cantidades; la resta calcula lo que queda o la <b>diferencia</b> entre dos cantidades. Con números grandes usamos el <b>algoritmo en columna</b>: alinea las cifras por su valor posicional y trabaja desde la columna de las unidades hacia la izquierda.</p>
-<h3>Sumar llevando</h3>
-<p>Cuando una columna suma 10 o más, escribe la cifra de las unidades y <b>lleva</b> la decena a la columna siguiente.</p>
-⟦0⟧
-<h3>Restar pidiendo prestado</h3>
-<p>Si la cifra de arriba de una columna es menor que la de abajo, <b>pide prestado</b> (reagrupa) uno a la columna siguiente: eso suma 10 a la columna actual.</p>
-⟦1⟧
-⟦2⟧
-<h3>Problemas con enunciado</h3>
-<p>Palabras como <i>en total, juntos, más, aumentó</i> suelen indicar suma. Palabras como <i>quedan, sobran, diferencia, cuántos más, menos</i> suelen indicar resta. Pregúntate siempre qué pide realmente el problema.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Unidades: $7 + 6 = 13$ → escribe 3 y llevas 1.</li><li>Decenas: $8 + 4 + 1 = 13$ → escribe 3 y llevas 1.</li><li>Centenas: $5 + 8 + 1 = 14$ → escribe 4 y llevas 1.</li><li>Unidades de millar: $4 + 2 + 1 = 7$.</li></ol><p>Respuesta: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Unidades: 4 es menor que 8. La cifra de las decenas es 0, así que pedimos a las centenas: 204 pasa a ser 1 centena, 9 decenas y 14 unidades. $14 - 8 = 6$.</li><li>Decenas: $9 - 5 = 4$.</li><li>Centenas: 1 es menor que 7, así que pedimos una unidad de millar: $11 - 7 = 4$.</li><li>Unidades de millar: $5 - 1 = 4$.</li></ol><p>Respuesta: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>La suma y la resta se deshacen mutuamente. Comprueba una resta sumando: $4\,446 + 1\,758 = 6\,204$ ✓. Así también se hallan números desconocidos: si $\square + 348 = 1\,000$, entonces $\square = 1\,000 - 348 = 652$.</p>`,
@@ -100,17 +74,6 @@ addT('es', {
   'h14zpmlfj7': R`«Cuántos más» pide la diferencia: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p>La <b>multiplicación</b> es una suma repetida de grupos iguales: $4 \times 6$ significa 4 grupos de 6, es decir, $6 + 6 + 6 + 6 = 24$. La <b>división</b> reparte una cantidad en grupos iguales: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Multiplicar números más grandes</h3>
-<p>Descompón uno de los números según sus valores posicionales, multiplica cada parte y suma (es la propiedad distributiva en acción):</p>
-⟦1⟧
-<h3>División y resto</h3>
-<p>Cuando un número no se divide exactamente, lo que sobra es el <b>resto</b>. Siempre es menor que el divisor.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>La multiplicación y la división se deshacen mutuamente: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>En la multiplicación el orden no importa: $a \times b = b \times a$.</li><li>La multiplicación se distribuye sobre la suma: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ resto } 2 \qquad \text{porque } 5 \times 9 + 2 = 47`,
@@ -136,13 +99,6 @@ addT('es', {
   '13ytah9dyhs': R`Filas iguales significan multiplicación: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ sillas.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Cuando un cálculo tiene varias operaciones, todos debemos hacerlas en el mismo orden; si no, la misma expresión daría resultados distintos. El orden acordado suele recordarse con reglas como <b>PAPOMUDAS</b> o <b>PEMDAS</b> (paréntesis, potencias, multiplicación y división, suma y resta).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Paso`,
   '1ata9ppdhpl': R`Operación`,
   '1i56r47suu5': R`Ejemplo`,
@@ -168,19 +124,6 @@ addT('es', {
   '2g7vu4g2g7r': R`La suma y la resta tienen la misma prioridad, así que se va de izquierda a derecha: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$ y luego $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Sumar primero $⟦6⟧ + ⟦7⟧$ daría, erróneamente, ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Un <b>divisor</b> (o factor) de un número lo divide exactamente. Un <b>múltiplo</b> de un número es ese número multiplicado por un número natural.</p>
-<ul><li>Divisores de 12: 1, 2, 3, 4, 6, 12 (van por parejas: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Múltiplos de 12: 12, 24, 36, 48, …</li></ul>
-<h3>Números primos y compuestos</h3>
-<p>Un número <b>primo</b> tiene exactamente dos divisores: el 1 y él mismo (2, 3, 5, 7, 11, 13, …). Un número <b>compuesto</b> tiene más de dos divisores. El 1 no es ni primo ni compuesto, y el 2 es el único primo par.</p>
-⟦0⟧
-<h3>Descomposición en factores primos</h3>
-<p>Todo número natural mayor que 1 se puede escribir como producto de primos de una única manera. Usa un árbol de factores: sigue dividiendo hasta que cada rama termine en un primo.</p>
-⟦1⟧
-<h3>MCD y mcm</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Divisible entre`,
   '1u2j0a6t91o': R`Criterio`,
   '1fsfip1h2ap': R`la última cifra es par`,

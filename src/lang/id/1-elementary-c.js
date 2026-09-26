@@ -1,15 +1,6 @@
 /* Bahasa Indonesia — SD (keliling dan luas → data) */
 addT('id', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p><b>Keliling</b> adalah panjang seluruh tepi suatu bangun (diukur dalam cm, m, …). <b>Luas</b> adalah besar permukaan yang ditutupi bangun itu (diukur dalam satuan persegi: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Bangun gabungan</h3>
-<p>Bagi bangun berbentuk L atau bangun gabungan lain menjadi persegi panjang dan segitiga, lalu jumlahkan luasnya — atau ambil satu persegi panjang besar lalu kurangi bagian yang hilang.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Persegi panjang, segitiga, dan trapesium — tinggi selalu diukur tegak lurus terhadap alas.`,
   '1vbb9fjurso': R`Bangun`,
   '1bkcetbdzwi': R`Keliling`,
@@ -42,15 +33,6 @@ addT('id', {
   '4fca853um1': R`Persegi panjang besar dikurangi bagian yang dipotong: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p><b>Volume</b> adalah besar ruang yang ditempati suatu bangun ruang, dihitung dalam <b>satuan kubik</b> (cm³, m³). Kubus dengan rusuk 1 cm memiliki volume 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Luas permukaan</h3>
-<p>Luas permukaan adalah jumlah luas semua sisi. Balok memiliki tiga pasang persegi panjang yang sama:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Balok: } V = l \times w \times h \qquad\qquad \text{Kubus: } V = s^3`,
   '1v18xwhq9wo': R`<p>Kapasitas berkaitan dengan volume: $1 \text{ cm}^3 = 1 \text{ mL}$ dan $1000 \text{ cm}^3 = 1 \text{ L}$. Selain itu, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Sebuah akuarium panjangnya 50 cm, lebarnya 30 cm, dan tingginya 40 cm.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -70,17 +52,6 @@ addT('id', {
   '29p9f2w08h': R`Kita perlu $s^3 = ⟦0⟧$. Karena $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, panjang setiap rusuk adalah ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Sudut mengukur besar putaran, dalam satuan <b>derajat</b> (°). Satu putaran penuh adalah $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Segitiga</h3>
-<p><b>Sama sisi</b>: ketiga sisinya sama panjang, setiap sudutnya $60^\circ$. <b>Sama kaki</b>: dua sisi sama panjang dan dua sudut alasnya sama besar. <b>Sembarang</b>: tidak ada sisi yang sama panjang. Segitiga <b>siku-siku</b> memiliki satu sudut $90^\circ$.</p>
-<h3>Segi banyak</h3>
-<p>Segi banyak dengan $n$ sisi dapat dibagi menjadi $n - 2$ segitiga dari satu titik sudut, sehingga</p>
-⟦2⟧
-<p>Pada segi banyak <b>beraturan</b> semua sudutnya sama besar, jadi setiap sudut besarnya $\frac{(n-2) \times 180^\circ}{n}$. Segi enam beraturan memiliki sudut $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Jenis`,
   '1czpi6e2j2z': R`Besar`,
   '2eamokno2qd': R`Lancip`,
@@ -120,13 +91,6 @@ addT('id', {
   '1m260esohws': R`Kedua sudut alas sama besar: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Data adalah informasi yang kita kumpulkan, misalnya nilai ulangan atau buah kesukaan. <b>Tabel frekuensi</b> mencatat berapa kali setiap nilai muncul; <b>diagram batang</b> dan <b>piktogram</b> menampilkan informasi yang sama secara visual.</p>
-<h3>Empat ukuran ringkasan</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Ukuran`,
   '1fy4t37t415': R`Cara menentukan`,
   '18v4e4ulshl': R`Untuk 3; 7; 7; 8; 10`,

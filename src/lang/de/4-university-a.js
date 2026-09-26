@@ -1,15 +1,6 @@
 /* Deutsch — Universität (Ableitungstechniken → Differentialgleichungen) */
 addT('de', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Implizites Differenzieren</h3>
-<p>Ist $y$ implizit gegeben, leite beide Seiten nach $x$ ab und behandle $y$ dabei als Funktion von $x$ (also $\frac{d}{dx}y^2 = 2y\,y'$); löse dann nach $y'$ auf.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Produkt`,
   '1fd6nxjb0xt': R`Quotient`,
   '21u0n9yxqot': R`Kette`,
@@ -36,20 +27,6 @@ addT('de', {
   '20aqqhk2mtp': R`Produktregel: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Also $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Regel von L'Hospital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (zweimal angewendet).</p>
-<h3>Optimierung</h3>
-<ol><li>Schreibe die zu optimierende Größe als Funktion einer Variablen (nutze die Nebenbedingung).</li><li>Leite ab und löse $f'(x) = 0$.</li><li>Prüfe, ob ein Maximum/Minimum vorliegt (zweite Ableitung oder Randwerte).</li></ol>
-⟦1⟧
-<h3>Verknüpfte Änderungsraten</h3>
-<p>Leite eine Beziehung nach der Zeit ab. Für einen wachsenden Kreis gilt $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Lineare Näherung</h3>
-⟦2⟧
-<h3>Krümmung und Mittelwertsatz</h3>
-<p>$f'' \gt 0$: linksgekrümmt (konvex); $f'' \lt 0$: rechtsgekrümmt (konkav); ein <b>Wendepunkt</b> ist eine Stelle, an der sich das Krümmungsverhalten ändert. <b>Mittelwertsatz:</b> Ist $f$ stetig auf $[a; b]$ und im Inneren differenzierbar, so gibt es ein $c$ in $(a; b)$ mit $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Hat $\lim \frac{f(x)}{g(x)}$ die Form $\frac{0}{0}$ oder $\frac{\infty}{\infty}$, dann gilt $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (falls die rechte Seite existiert).</p>`,
   '189x52ko5mw': R`<p>Aus den Ecken eines quadratischen Blechs von 18 cm Seitenlänge werden Quadrate der Seitenlänge $x$ ausgeschnitten und die Seiten hochgebogen. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ ergibt $x = 3$, also $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{z. B. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -74,19 +51,6 @@ addT('de', {
   '1c5ltuvzsrq': R`Mittlere Steigung $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ ergibt $c = ⟦7⟧$ — die Intervallmitte, wie immer bei einer quadratischen Funktion.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Substitution</h3>
-<p>Suche eine Funktion und ihre Ableitung. Mit $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
-<p>Bei bestimmten Integralen ändere auch die Grenzen (oder rücksubstituiere vor dem Einsetzen).</p>
-<h3>Partielle Integration</h3>
-⟦1⟧
-⟦2⟧
-<h3>Partialbruchzerlegung</h3>
-<p>Zerlege eine gebrochenrationale Funktion in einfachere Teile: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Multipliziere mit dem Nenner und setze $x = 1$ und $x = -2$ ein: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Jeder Teil ergibt beim Integrieren einen Logarithmus.</p>
-<h3>Uneigentliche Integrale</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Wähle $u$ nach <b>LIATE</b>: Logarithmus, Inverse Winkelfunktion, Algebraisch, Trigonometrisch, Exponentiell — was zuerst kommt.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, also $du = dx$, $v = \frac{1}{2}e^{2x}$. Ergebnis: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -139,14 +103,6 @@ addT('de', {
   'lpjavqv13n': R`Eine Feder hat die Federkonstante $k = ⟦0⟧$ N/m. Wie viel Arbeit ist nötig, um sie aus der Ruhelage um ⟦1⟧ m zu dehnen?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Eine unendliche Reihe $\sum a_n$ <b>konvergiert</b>, wenn ihre Partialsummen $S_N = a_1 + \cdots + a_N$ gegen einen endlichen Grenzwert streben.</p>
-⟦0⟧
-⟦1⟧
-<h3>Potenzreihen und Taylorreihen</h3>
-<p>Eine Potenzreihe $\sum c_n (x - a)^n$ konvergiert für $|x - a| \lt R$, den <b>Konvergenzradius</b> (bestimmt mit dem Quotientenkriterium). Die Taylorreihe von $f$ um $a$ ist $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; um 0 heißt sie Maclaurin-Reihe.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Kriterium`,
   '1boy0ga8tbt': R`Folgerung`,
   '7ih7yeq8ue': R`Nullfolgenkriterium`,
@@ -200,19 +156,6 @@ addT('de', {
   '262p4pwoflz': R`Das ist die Standardreihe von $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Für $f(x, y)$ leitet die <b>partielle Ableitung</b> $f_x = \frac{\partial f}{\partial x}$ nach $x$ ab und behandelt $y$ als Konstante (umgekehrt bei $f_y$). Für $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradient und Richtungsableitung</h3>
-⟦0⟧
-<h3>Kritische Punkte: Test mit der zweiten Ableitung</h3>
-<p>In einem Punkt mit $f_x = f_y = 0$ sei $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: lokales Minimum. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: lokales Maximum.</li><li>$D \lt 0$: Sattelpunkt. &nbsp; $D = 0$: Der Test ist nicht aussagekräftig.</li></ul>
-<h3>Doppelintegrale</h3>
-<p>Über einem Rechteck integriert man nacheinander (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. In Polarkoordinaten ist $dA = r\,dr\,d\theta$.</p>
-<h3>Lagrange-Multiplikatoren</h3>
-<p>Um $f$ unter der Nebenbedingung $g = c$ zu optimieren, löse $\nabla f = \lambda\nabla g$ zusammen mit der Nebenbedingung.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ zeigt in die Richtung des steilsten Anstiegs; seine Länge ist diese maximale Änderungsrate.</p>`,
   'opu0v1dwpl': R`<p>Maximiere $f = xy$ unter $x + y = 10$: $(y; x) = \lambda(1; 1)$ ergibt $x = y = 5$, das Maximum ist also 25.</p>`,
   '83uqphqp8x': R`<p>Vergiss in Polarkoordinaten nicht den zusätzlichen Faktor $r$ in $dA = r\,dr\,d\theta$.</p>`,
@@ -240,18 +183,6 @@ addT('de', {
   'hl1el1t8oy': R`Polarkoordinaten: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p>Eine <b>Differentialgleichung</b> verknüpft eine Funktion mit ihren Ableitungen. Ihre <b>Ordnung</b> ist die höchste vorkommende Ableitung. Die <b>allgemeine Lösung</b> enthält beliebige Konstanten; Anfangsbedingungen legen eine spezielle Lösung fest.</p>
-<h3>Trennung der Variablen</h3>
-⟦0⟧
-<p>Sonderfall: $\frac{dy}{dt} = ky$ ergibt $y = y_0e^{kt}$ — exponentielles Wachstum ($k \gt 0$) oder exponentielle Abnahme ($k \lt 0$). Bei der Halbwertszeit $T$ ist die verbleibende Menge $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Lineare Gleichungen erster Ordnung</h3>
-⟦1⟧
-<h3>Lineare Gleichungen zweiter Ordnung mit konstanten Koeffizienten</h3>
-<p>Für $ay'' + by' + cy = 0$ führt der Ansatz $y = e^{rx}$ auf die <b>charakteristische Gleichung</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: Variablen trennen, $\int\frac{dy}{y} = \int 2x\,dx$, also $\ln|y| = x^2 + C$ und $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Für $y' + P(x)y = Q(x)$ multipliziere mit dem <b>integrierenden Faktor</b> $\mu(x) = e^{\int P(x)\,dx}$. Dann gilt $(\mu y)' = \mu Q$, also $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Nullstellen`,

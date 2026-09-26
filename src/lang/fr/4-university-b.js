@@ -1,18 +1,6 @@
 /* Français — Université (algèbre linéaire → transformée de Laplace) */
 addT('fr', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Systèmes linéaires et rang</h3>
-<p>On résout un système $A\mathbf{x} = \mathbf{b}$ en échelonnant la matrice augmentée $[A \mid \mathbf{b}]$ par opérations sur les lignes. Le <b>rang</b> de $A$ est le nombre de pivots (lignes non nulles de la forme échelonnée).</p>
-⟦0⟧
-<h3>Déterminants</h3>
-⟦1⟧
-<p>Propriétés utiles pour les matrices $n \times n$ : $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Règle de Cramer : $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Valeurs propres et vecteurs propres</h3>
-⟦2⟧
-⟦3⟧
-<p>Si $A$ possède $n$ vecteurs propres indépendants, elle est <b>diagonalisable</b> : $A = PDP^{-1}$, avec les vecteurs propres en colonnes de $P$ et les valeurs propres sur la diagonale de $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Théorème du rang :</b> pour une matrice $m \times n$, $\text{rg}(A) + \dim\ker(A) = n$. Une matrice carrée $A$ est inversible $\iff \det A \ne 0 \iff$ ses colonnes sont linéairement indépendantes $\iff \text{rg} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Pour une matrice $2 \times 2$ : $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. La somme des valeurs propres est la trace et leur produit est le déterminant.</p>`,
@@ -44,15 +32,6 @@ addT('fr', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, donc $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>L'unité imaginaire vérifie $i^2 = -1$. Un nombre complexe s'écrit $z = a + bi$, de partie réelle $\text{Re}(z) = a$ et de partie imaginaire $\text{Im}(z) = b$. Les puissances de $i$ se répètent tous les quatre : $i ; -1 ; -i ; 1 ; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Forme exponentielle et formule d'Euler</h3>
-⟦2⟧
-⟦3⟧
-<p>Les racines $n$-ièmes de l'unité sont $e^{2\pi ik/n}$ pour $k = 0 ; 1 ; \ldots ; n - 1$ : des points régulièrement espacés sur le cercle unité.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Multiplier`,
   '1lvuh3a6n9s': R`Conjugué`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, et $z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('fr', {
   '1xd7417ut46': R`Soit $z = ⟦0⟧$. Calcule $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p>Une <b>variable aléatoire</b> $X$ associe des nombres aux issues. Pour une variable $X$ discrète de probabilités $p(x)$ :</p>
-⟦0⟧
-⟦1⟧
-<h3>La loi normale</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Loi`,
   'z5bw2hz29r': R`P(X = k) ou densité`,
@@ -120,17 +91,6 @@ addT('fr', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ et $\text{Var}(X) = ⟦1⟧$. Calcule $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>On utilise une statistique de l'<b>échantillon</b> (comme $\bar{x}$) pour estimer un paramètre de la <b>population</b> (comme $\mu$). D'après le <b>théorème central limite</b>, pour $n$ grand, la moyenne de l'échantillon suit approximativement une loi normale de moyenne $\mu$ et d'<b>erreur type</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Intervalles de confiance</h3>
-⟦0⟧
-<p>Pour obtenir une marge d'erreur $E$, il faut $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (arrondi à l'entier supérieur). Si $\sigma$ est inconnu, utilise $s$ et la loi de Student $t$.</p>
-<h3>Tests d'hypothèse</h3>
-<ol><li>Énonce $H_0$ (p. ex. $\mu = \mu_0$) et $H_1$.</li><li>Calcule une statistique de test, p. ex. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Trouve la <b>p-valeur</b> : la probabilité, sous $H_0$, d'obtenir un résultat au moins aussi extrême.</li><li>Si $p \le \alpha$, rejette $H_0$ ; sinon, ne la rejette pas.</li></ol>
-⟦1⟧
-<h3>Régression linéaire</h3>
-<p>La droite des moindres carrés $\hat{y} = a + bx$ a pour pente $b = r\frac{s_y}{s_x}$ et passe par $(\bar{x} ; \bar{y})$, donc $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\,\%);\; 1{,}96 \;(95\,\%);\; 2{,}576 \;(99\,\%)`,
   '7nca7j57l5': R`H₀ vraie`,
   '2e0zey7f13x': R`H₀ fausse`,
@@ -172,17 +132,6 @@ addT('fr', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, donc on arrondit à l'entier supérieur : $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Arithmétique</h3>
-<p>$a \equiv b \pmod n$ signifie que $n$ divise $a - b$ ; $a \bmod n$ est le reste dans $\{0 ; 1 ; \ldots ; n - 1\}$. On peut additionner et multiplier des congruences, et réduire les puissances pas à pas.</p>
-⟦0⟧
-⟦1⟧
-<p>L'<b>inverse modulaire</b> de $a$ modulo $n$ est le $x$ tel que $ax \equiv 1 \pmod n$ ; il existe exactement quand $\gcd(a, n) = 1$.</p>
-<h3>Dénombrement</h3>
-<ul><li>Applications d'un ensemble à $m$ éléments dans un ensemble à $n$ éléments : $n^m$ ; injectives : $n(n-1)\cdots(n-m+1)$.</li><li>Inclusion–exclusion : $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Principe des tiroirs :</b> si plus de $kn$ objets vont dans $n$ tiroirs, un tiroir en reçoit au moins $k + 1$.</li></ul>
-<h3>Récurrences et graphes</h3>
-<p>Une relation de récurrence définit chaque terme à partir des précédents, comme $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Dans un graphe, le <b>lemme des poignées de main</b> dit que $\sum \deg(v) = 2|E|$ ; $K_n$ a $\binom{n}{2}$ arêtes ; un arbre à $n$ sommets a $n - 1$ arêtes ; un graphe connexe a un cycle eulérien ssi tous les degrés sont pairs.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Algorithme d'Euclide :</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, répété jusqu'à obtenir un reste nul.</p><p><b>Petit théorème de Fermat :</b> si $p$ est premier et $p \nmid a$, alors $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$ : $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Le PGCD est donc 18.</p><p>$2^{100} \bmod 7$ : comme $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Dans les problèmes d'inclusion–exclusion (« divisible par 3 ou par 5 »), l'intersection correspond à la divisibilité par le <b>PPCM</b>, 15.</p>`,
@@ -223,18 +172,6 @@ addT('fr', {
   '27kjdpfw0sg': R`Avec ⟦0⟧ catégories, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ personnes pourraient l'éviter ; une de plus impose un groupe de ⟦4⟧ : $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Les méthodes numériques approchent des résultats qui n'ont pas de forme explicite commode. Deux types d'erreur comptent : l'erreur de <b>troncature</b> (due à la méthode) et l'erreur d'<b>arrondi</b> (due à la précision finie).</p>
-⟦0⟧
-<h3>Recherche de racines</h3>
-<ul><li><b>Dichotomie :</b> si $f(a)$ et $f(b)$ sont de signes contraires, teste le milieu $m$ et garde la moitié où le signe change. Lente mais sûre : l'erreur est divisée par deux à chaque étape.</li><li><b>Newton–Raphson :</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Très rapide près d'une racine simple (convergence quadratique), mais peut échouer avec un mauvais point de départ ou si $f' \approx 0$.</li></ul>
-⟦1⟧
-<h3>Intégration numérique</h3>
-⟦2⟧
-<p>Ici $h = \frac{b - a}{n}$. La méthode de Simpson est exacte pour les polynômes de degré au plus 3.</p>
-<h3>Méthode d'Euler</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{erreur absolue} = |x_{\text{exact}} - x_{\text{approché}}| \qquad \text{erreur relative} = \frac{|x_{\text{exact}} - x_{\text{approché}}|}{|x_{\text{exact}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ avec $f(x) = x^2 - 10$ à partir de $x_0 = 3$ : $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — déjà exact à 4 décimales.</p>`,
   'vx6qz5zup7': R`\text{Trapèzes : } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ pair}) : \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('fr', {
   '6utp8finkn': R`$⟦0⟧$ est approché par ⟦1⟧. Calcule l'erreur relative en pourcentage, à 3 décimales près.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p>Un <b>champ de vecteurs</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ associe un vecteur à chaque point — comme la vitesse du vent ou une force. Avec $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$ :</p>
-⟦0⟧
-<p>La divergence mesure le flux sortant d'un point ; le rotationnel mesure la rotation.</p>
-<h3>Intégrales curvilignes et champs conservatifs</h3>
-⟦1⟧
-⟦2⟧
-<h3>Les grands théorèmes</h3>
-⟦3⟧
-<p>Une jolie conséquence du théorème de Green : l'aire de $D$ vaut $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ est <b>conservatif</b> si $\mathbf{F} = \nabla\varphi$ pour un potentiel $\varphi$. Alors $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ pour tout chemin de $A$ à $B$. Dans le plan (domaine simplement connexe), $(P, Q)$ est conservatif ssi $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$ : $P_y = 2x = Q_x$, donc il est conservatif avec $\varphi = x^2y + 3y$. De $(0 ; 0)$ à $(2 ; 1)$ : $\varphi(2 ; 1) - \varphi(0 ; 0) = 4 + 3 = 7$.</p>`,
@@ -293,13 +219,6 @@ addT('fr', {
   '4awle3me9d': R`Intègre $P$ par rapport à $x$ : $\varphi = ⟦0⟧ + g(y)$. Alors $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ donne $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Les transformées inverses demandent en général d'abord une décomposition en éléments simples, puis une lecture de la table.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linéarité :</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Dérivées :</b> $\mathcal{L}\{y'\} = sY - y(0)$ et $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — les équations différentielles deviennent de l'algèbre.</p>`,
   'ie964pskzz': R`<p>Résous $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, donc $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. En inversant : $y = 3\cos 2t + \sin 2t$.</p>`,

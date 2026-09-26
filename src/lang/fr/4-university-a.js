@@ -1,15 +1,6 @@
 /* Français — Université (techniques de dérivation → équations différentielles) */
 addT('fr', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dérivation implicite</h3>
-<p>Quand $y$ est défini implicitement, dérive les deux membres par rapport à $x$ en traitant $y$ comme une fonction de $x$ (donc $\frac{d}{dx}y^2 = 2y\,y'$), puis isole $y'$.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Produit`,
   '1fd6nxjb0xt': R`Quotient`,
   '21u0n9yxqot': R`Composition`,
@@ -36,20 +27,6 @@ addT('fr', {
   '20aqqhk2mtp': R`Dérivée d'un produit : $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Donc $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Règle de L'Hôpital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (appliquée deux fois).</p>
-<h3>Optimisation</h3>
-<ol><li>Écris la grandeur à optimiser comme fonction d'une seule variable (utilise la contrainte).</li><li>Dérive et résous $f'(x) = 0$.</li><li>Vérifie qu'il s'agit d'un maximum/minimum (dérivée seconde ou bornes).</li></ol>
-⟦1⟧
-<h3>Taux liés</h3>
-<p>Dérive une relation par rapport au temps. Pour un disque qui grandit, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Approximation affine</h3>
-⟦2⟧
-<h3>Convexité et théorème des accroissements finis</h3>
-<p>$f'' \gt 0$ : convexe ; $f'' \lt 0$ : concave ; un <b>point d'inflexion</b> est un point où la convexité change. <b>TAF :</b> si $f$ est continue sur $[a ; b]$ et dérivable à l'intérieur, il existe $c$ dans $]a ; b[$ tel que $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Si $\lim \frac{f(x)}{g(x)}$ est de la forme $\frac{0}{0}$ ou $\frac{\infty}{\infty}$, alors $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (quand le membre de droite existe).</p>`,
   '189x52ko5mw': R`<p>On découpe des carrés de côté $x$ aux coins d'une feuille carrée de 18 cm, puis on replie les bords. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ donne $x = 3$, donc $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{p. ex. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -74,19 +51,6 @@ addT('fr', {
   '1c5ltuvzsrq': R`Pente moyenne $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ donne $c = ⟦7⟧$ : le milieu, comme toujours pour une fonction du second degré.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Changement de variable</h3>
-<p>Cherche une fonction et sa dérivée. Avec $u = g(x)$, $du = g'(x)\,dx$ :</p>
-⟦0⟧
-<p>Pour une intégrale définie, change aussi les bornes (ou reviens à $x$ avant d'évaluer).</p>
-<h3>Intégration par parties</h3>
-⟦1⟧
-⟦2⟧
-<h3>Décomposition en éléments simples</h3>
-<p>Décompose une fonction rationnelle en morceaux plus simples : $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Chasse les dénominateurs et remplace $x = 1$ et $x = -2$ : $A = \frac{4}{3}$, $B = \frac{11}{3}$. Chaque morceau s'intègre en un logarithme.</p>
-<h3>Intégrales impropres</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Choisis $u$ selon la règle <b>LIATE</b> : Logarithme, fonctions trigonométriques Inverses, Algébriques, Trigonométriques, Exponentielles — la première qui apparaît.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$ : $u = x$, $dv = e^{2x}dx$, donc $du = dx$, $v = \frac{1}{2}e^{2x}$. Résultat : $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -139,14 +103,6 @@ addT('fr', {
   'lpjavqv13n': R`Un ressort a une raideur $k = ⟦0⟧$ N/m. Quel travail faut-il pour l'étirer de ⟦1⟧ m à partir de sa longueur au repos ?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Une série $\sum a_n$ <b>converge</b> si ses sommes partielles $S_N = a_1 + \cdots + a_N$ tendent vers une limite finie.</p>
-⟦0⟧
-⟦1⟧
-<h3>Séries entières et séries de Taylor</h3>
-<p>Une série entière $\sum c_n (x - a)^n$ converge pour $|x - a| \lt R$, le <b>rayon de convergence</b> (on le trouve avec la règle de d'Alembert). La série de Taylor de $f$ en $a$ est $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$ ; en 0, on parle de série de Maclaurin.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Critère`,
   '1boy0ga8tbt': R`Conclusion`,
   '7ih7yeq8ue': R`Divergence grossière`,
@@ -200,19 +156,6 @@ addT('fr', {
   '262p4pwoflz': R`C'est la série usuelle de $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Pour $f(x, y)$, la <b>dérivée partielle</b> $f_x = \frac{\partial f}{\partial x}$ dérive par rapport à $x$ en traitant $y$ comme une constante (et inversement pour $f_y$). Pour $f = x^2y^3$ : $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradient et dérivées directionnelles</h3>
-⟦0⟧
-<h3>Points critiques : test de la dérivée seconde</h3>
-<p>En un point où $f_x = f_y = 0$, pose $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$ : minimum local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$ : maximum local.</li><li>$D \lt 0$ : point selle. &nbsp; $D = 0$ : le test ne permet pas de conclure.</li></ul>
-<h3>Intégrales doubles</h3>
-<p>Sur un rectangle, intègre une variable à la fois (Fubini) : $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. En coordonnées polaires, $dA = r\,dr\,d\theta$.</p>
-<h3>Multiplicateurs de Lagrange</h3>
-<p>Pour optimiser $f$ sous la contrainte $g = c$, résous $\nabla f = \lambda\nabla g$ avec la contrainte.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x ; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ pointe dans la direction de plus forte croissance ; sa norme est ce taux maximal.</p>`,
   'opu0v1dwpl': R`<p>Maximise $f = xy$ sous la contrainte $x + y = 10$ : $(y ; x) = \lambda(1 ; 1)$ donne $x = y = 5$, donc le maximum vaut 25.</p>`,
   '83uqphqp8x': R`<p>En coordonnées polaires, n'oublie pas le facteur $r$ dans $dA = r\,dr\,d\theta$.</p>`,
@@ -240,18 +183,6 @@ addT('fr', {
   'hl1el1t8oy': R`Coordonnées polaires : $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p>Une <b>équation différentielle</b> relie une fonction à ses dérivées. Son <b>ordre</b> est celui de la dérivée la plus élevée qui y figure. La <b>solution générale</b> contient des constantes arbitraires ; des conditions initiales déterminent une solution particulière.</p>
-<h3>Équations à variables séparables</h3>
-⟦0⟧
-<p>Cas particulier : $\frac{dy}{dt} = ky$ donne $y = y_0e^{kt}$ — croissance ($k \gt 0$) ou décroissance ($k \lt 0$) exponentielle. Avec une demi-vie $T$, la quantité restante est $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Équations linéaires du premier ordre</h3>
-⟦1⟧
-<h3>Linéaires du second ordre à coefficients constants</h3>
-<p>Pour $ay'' + by' + cy = 0$, essaie $y = e^{rx}$ : on obtient l'<b>équation caractéristique</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$ : on sépare, $\int\frac{dy}{y} = \int 2x\,dx$, donc $\ln|y| = x^2 + C$ et $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Pour $y' + P(x)y = Q(x)$, multiplie par le <b>facteur intégrant</b> $\mu(x) = e^{\int P(x)\,dx}$. Alors $(\mu y)' = \mu Q$, donc $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Racines`,

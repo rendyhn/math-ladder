@@ -1,15 +1,6 @@
 /* Português — ensino fundamental (perímetro e área → dados) */
 addT('pt', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p>O <b>perímetro</b> é a medida total do contorno de uma figura (em cm, m, …). A <b>área</b> é a medida da superfície que ela ocupa (em unidades quadradas: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Figuras compostas</h3>
-<p>Divida uma figura em forma de L ou outra figura composta em retângulos e triângulos e some as áreas — ou pegue um retângulo grande e subtraia a parte que falta.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Retângulo, triângulo e trapézio — a altura é sempre medida perpendicularmente à base.`,
   '1vbb9fjurso': R`Figura`,
   '1bkcetbdzwi': R`Perímetro`,
@@ -42,15 +33,6 @@ addT('pt', {
   '4fca853um1': R`Retângulo grande menos o recorte: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p>O <b>volume</b> é o espaço que um sólido ocupa, medido em <b>unidades cúbicas</b> (cm³, m³). Um cubo com arestas de 1 cm tem volume de 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Área total</h3>
-<p>A área total é a soma das áreas de todas as faces. Um paralelepípedo tem três pares de retângulos iguais:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Paralelepípedo: } V = l \times w \times h \qquad\qquad \text{Cubo: } V = s^3`,
   '1v18xwhq9wo': R`<p>A capacidade está ligada ao volume: $1 \text{ cm}^3 = 1 \text{ mL}$ e $1000 \text{ cm}^3 = 1 \text{ L}$. Além disso, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Um aquário tem 50 cm de comprimento, 30 cm de largura e 40 cm de altura.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -70,17 +52,6 @@ addT('pt', {
   '29p9f2w08h': R`Queremos $s^3 = ⟦0⟧$. Como $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, cada aresta mede ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Os ângulos medem giros, em <b>graus</b> (°). Uma volta completa tem $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Triângulos</h3>
-<p><b>Equilátero</b>: três lados iguais, cada ângulo com $60^\circ$. <b>Isósceles</b>: dois lados iguais e dois ângulos da base iguais. <b>Escaleno</b>: nenhum lado igual. Um triângulo <b>retângulo</b> tem um ângulo de $90^\circ$.</p>
-<h3>Polígonos</h3>
-<p>Um polígono de $n$ lados pode ser dividido em $n - 2$ triângulos a partir de um vértice, então</p>
-⟦2⟧
-<p>Em um polígono <b>regular</b> todos os ângulos são iguais, então cada um mede $\frac{(n-2) \times 180^\circ}{n}$. Um hexágono regular tem ângulos de $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Tipo`,
   '1czpi6e2j2z': R`Medida`,
   '2eamokno2qd': R`Agudo`,
@@ -120,13 +91,6 @@ addT('pt', {
   '1m260esohws': R`Os dois ângulos da base são iguais: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Dados são informações que coletamos, como notas de provas ou frutas favoritas. Uma <b>tabela de frequências</b> registra quantas vezes cada valor aparece; <b>gráficos de barras</b> e <b>pictogramas</b> mostram a mesma informação de forma visual.</p>
-<h3>Quatro medidas-resumo</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Medida`,
   '1fy4t37t415': R`Como calcular`,
   '18v4e4ulshl': R`Para 3; 7; 7; 8; 10`,

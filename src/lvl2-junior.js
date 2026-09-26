@@ -20,6 +20,55 @@ const circleSvg = () => `<svg viewBox="0 0 300 200" role="img" aria-label="${T`C
 <text class="fig-text" x="140" y="118">O</text><text class="fig-text" x="176" y="60">r</text><text class="fig-small" x="104" y="94">${T`diameter`}</text>
 <text class="fig-small" x="236" y="72">${T`sector`}</text><text class="fig-small" x="104" y="170">${T`chord`}</text></svg>`;
 
+const sup = n => String(n).replace(/-/g, '⁻').replace(/\d/g, d => '⁰¹²³⁴⁵⁶⁷⁸⁹'[d]);
+const pythSquaresSvg = () => {   // squares on the three sides of a 3-4-5 triangle
+  const u = 20, P = (x, y) => [80 + x * u, 170 - y * u];
+  let s = svgBox(250, 260, T`A 3-4-5 right triangle with a square drawn on each side: areas 9, 16 and 25`);
+  s += sPoly([P(0, 0), P(0, 3), P(-3, 3), P(-3, 0)], 'mf-s2l', ' stroke-width="1.6"') + sPoly([P(0, 0), P(4, 0), P(4, -4), P(0, -4)], 'mf-s3l', ' stroke-width="1.6"') + sPoly([P(0, 3), P(4, 0), P(7, 4), P(3, 7)], 'mf-s1l', ' stroke-width="1.6"');
+  for (let i = 1; i < 3; i++) s += sL(...P(-i, 0), ...P(-i, 3), 'mf-thin') + sL(...P(0, i), ...P(-3, i), 'mf-thin');
+  for (let i = 1; i < 4; i++) s += sL(...P(i, 0), ...P(i, -4), 'mf-thin') + sL(...P(0, -i), ...P(4, -i), 'mf-thin');
+  s += sPoly([P(0, 0), P(4, 0), P(0, 3)], 'mf-shape', ' stroke-width="2"') + sRight(...P(0, 0), 1, 0, 0, -1, 10);
+  return s + sT(...P(-1.5, 1.3), 'a² = 9', 'mf-lab-b') + sT(...P(2, -2.2), 'b² = 16', 'mf-lab-b') + sT(...P(3.5, 3.3), 'c² = 25', 'mf-lab-b') + sT(...P(-0.5, 3.4), 'a', 'mf-var') + sT(...P(2, 0.3), 'b', 'mf-var') + sT(...P(2.3, 1.9), 'c', 'mf-var') + '</svg>';
+};
+const piRollSvg = () => {   // a circle of diameter 1 rolled out once: the track is π diameters long
+  const d = 56, x0 = 30, y0 = 110;
+  let s = svgBox(300, 150, T`A circle of diameter d rolled along a line covers a distance of just over 3 diameters, pi times d`);
+  s += sC(x0 + d / 2, y0 - d / 2, d / 2, 'mf-s1l', ' stroke-width="1.6"') + sL(x0, y0 - d / 2, x0 + d, y0 - d / 2, 'mf-c2', ' stroke-width="2.5"') + sT(x0 + d / 2, y0 - d / 2 - 6, 'd', 'mf-var');
+  s += sL(x0 + d / 2, y0, x0 + d / 2 + Math.PI * d, y0, 'mf-c1', ' stroke-width="4"');
+  for (let k = 0; k <= 3; k++) s += sL(x0 + d / 2 + k * d, y0 - 7, x0 + d / 2 + k * d, y0 + 7, 'mf-line') + (k ? sT(x0 + d / 2 + (k - 0.5) * d, y0 + 22, 'd', 'mf-var') : '');
+  s += sT(x0 + d / 2 + 3.07 * d, y0 + 22, '…', 'mf-lab') + sT(x0 + d / 2 + Math.PI * d, y0 - 12, 'C = πd', 'mf-lab-b', 'end');
+  return s + '</svg>';
+};
+const sectorSvg = () => {
+  const cx = 110, cy = 100, r = 76, th = 60, p = a => [cx + r * Math.cos(a * Math.PI / 180), cy - r * Math.sin(a * Math.PI / 180)];
+  let s = svgBox(240, 190, T`A circle with a shaded 60 degree sector`) + sC(cx, cy, r, 'mf-cell', ' stroke-width="1.6"');
+  s += sP(`M${cx} ${cy} L${p(0).map(f1).join(' ')} A${r} ${r} 0 0 0 ${p(th).map(f1).join(' ')}Z`, 'mf-s1l', ' stroke-width="1.8"') + sAngle(cx, cy, 20, 0, th, 'mf-c2');
+  s += sT(cx + 30, cy - 10, 'θ', 'mf-var', 'start') + sT(cx + r / 2, cy + 16, 'r', 'mf-var') + sP(`M${p(0).map(f1).join(' ')} A${r} ${r} 0 0 0 ${p(th).map(f1).join(' ')}`, 'mf-c1', ' fill="none" stroke-width="4"') + sT(...p(34).map((v, i) => v + (i ? -4 : 10)), T`arc`, 'mf-lab-b', 'start');
+  return s + '</svg>';
+};
+const centreAngleSvg = () => {
+  const cx = 130, cy = 100, r = 80, p = a => [cx + r * Math.cos(a * Math.PI / 180), cy - r * Math.sin(a * Math.PI / 180)], A = p(200), B = p(340), P = p(90);
+  const dir = (F, G) => Math.atan2(F[1] - G[1], G[0] - F[0]) * 180 / Math.PI;
+  let s = svgBox(260, 196, T`Circle with centre O: the angle AOB at the centre is twice the angle APB at the circumference`) + sC(cx, cy, r, 'mf-ring');
+  s += sPline([A, [cx, cy], B], 'mf-c1', ' fill="none" stroke-width="2"') + sPline([A, P, B], 'mf-c2', ' fill="none" stroke-width="2"');
+  s += sAngle(cx, cy, 18, 200, 340, 'mf-c1') + sAngle(P[0], P[1], 26, dir(P, A), dir(P, B), 'mf-c2');
+  s += sT(cx, cy + 36, '140°', 'mf-lab-b') + sT(P[0], P[1] + 44, '70°', 'mf-lab-b') + sT(cx, cy - 6, 'O', 'mf-var') + sT(A[0] - 10, A[1] + 6, 'A', 'mf-var', 'end') + sT(B[0] + 10, B[1] + 6, 'B', 'mf-var', 'start') + sT(P[0], P[1] - 8, 'P', 'mf-var');
+  return s + [A, B, P, [cx, cy]].map(q => sC(q[0], q[1], 3.5, 'mf-dot')).join('') + '</svg>';
+};
+const cylNetSvg = () => {
+  let s = svgBox(330, 190, T`Net of a cylinder: two circles of radius r and a rectangle of height h and width 2 pi r`);
+  s += sC(130, 34, 28, 'mf-s2l', ' stroke-width="1.6"') + sC(130, 156, 28, 'mf-s2l', ' stroke-width="1.6"') + sR(40, 62, 220, 66, 'mf-s1l', 0, ' stroke-width="1.6"');
+  s += sL(130, 34, 158, 34, 'mf-line') + sT(144, 28, 'r', 'mf-var') + sT(150, 102, '2πr', 'mf-lab-b') + sT(270, 100, 'h', 'mf-var', 'start');
+  return s + '</svg>';
+};
+const diceGridSvg = () => {   // sums of two dice, sum 7 highlighted
+  const c = 30, x0 = 34, y0 = 30;
+  let s = svgBox(x0 + 6 * c + 10, y0 + 6 * c + 10, T`Six by six table of the sums of two dice with the six sums of 7 highlighted`);
+  for (let i = 1; i <= 6; i++) s += sT(x0 + (i - 0.5) * c, y0 - 10, i, 'mf-lab-b') + sT(x0 - 12, y0 + (i - 0.5) * c + 5, i, 'mf-lab-b');
+  for (let r = 1; r <= 6; r++) for (let k = 1; k <= 6; k++) s += sR(x0 + (k - 1) * c, y0 + (r - 1) * c, c, c, r + k === 7 ? 'mf-s1l' : 'mf-cell', 0, ' stroke-width="1.2"') + sT(x0 + (k - 0.5) * c, y0 + (r - 0.5) * c + 5, r + k, r + k === 7 ? 'mf-lab-b' : 'mf-small');
+  return s + '</svg>';
+};
+
 level({
   id: 'junior', name: 'Junior High School', short: 'Junior High', band: 'Grades 7–9', color: 'lv2',
   blurb: 'Integers, powers, algebra and linear equations, sets, geometry of circles and solids, and first statistics and probability.',
@@ -30,9 +79,11 @@ level({
   blurb: 'Negative numbers on the number line and the sign rules for all four operations.',
   lesson: () => T`
 <p>The <b>integers</b> are the whole numbers and their opposites: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ On a number line, numbers increase to the right, so $-7 \lt -2$ even though 7 is bigger than 2.</p>
+${Fig(numberLineSvg({ min: -8, max: 8, step: 1, labelEvery: 2, marks: [{ v: -7, label: F(-7), cls: 'mf-s2' }, { v: -2, label: F(-2) }], label: T`Number line from −8 to 8 with −7 and −2 marked` }), T`Further right means greater: −7 is to the left of −2, so $-7 \lt -2$.`)}
 <p>The <b>absolute value</b> $|a|$ is the distance from 0: $|-6| = 6$ and $|6| = 6$.</p>
 <h3>Adding and subtracting</h3>
 ${Key(T`<ul><li><b>Same signs:</b> add the sizes, keep the sign. $-4 + (-9) = -13$.</li><li><b>Different signs:</b> subtract the sizes, take the sign of the larger size. $-11 + 5 = -6$.</li><li><b>Subtracting</b> means adding the opposite: $3 - (-8) = 3 + 8 = 11$.</li></ul>`)}
+${Fig(numberLineSvg({ min: -12, max: 2, step: 1, labelEvery: 2, jumps: [{ from: -11, to: -6, label: '+5' }], marks: [{ v: -11, label: F(-11), below: true }, { v: -6, label: F(-6), cls: 'mf-s2', below: true }], H: 104, label: T`Number line showing a jump of +5 from −11 to −6` }), T`Adding a positive number moves right: $-11 + 5 = -6$.`)}
 <h3>Multiplying and dividing</h3>
 ${Tbl([T`Signs`, T`Result`, T`Example`], [[T`+ and +`, T`positive`, T`$6 \times 3 = 18$`], [T`− and −`, T`positive`, T`$(-6) \times (-3) = 18$`], [T`+ and −`, T`negative`, T`$6 \times (-3) = -18$`], [T`− and +`, T`negative`, T`$-18 \div 3 = -6$`]])}
 ${Ex(T`<p>$-5 \times (-4) - (-7) = 20 + 7 = 27$</p>`)}
@@ -53,6 +104,7 @@ ${Tip(T`<p>$-3^2 = -9$ but $(-3)^2 = 9$. Without brackets, the power applies onl
   blurb: 'Powers, the laws of exponents, zero and negative exponents, square and cube roots, simplifying surds.',
   lesson: () => T`
 <p>An <b>exponent</b> (power) counts repeated multiplication: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ factors}}$. In $2^5 = 32$, 2 is the <b>base</b> and 5 is the <b>exponent</b>.</p>
+${FigRow([[gridSvg(3, 3, 9, { cell: 24, label: T`A 3 by 3 square of 9 unit squares` }), '3² = 3 × 3 = 9'], [cuboidSvg(3, 3, 3, { cubes: true, unit: 22, labels: ['3', '3', '3'], label: T`A 3 by 3 by 3 cube of 27 unit cubes` }), '3³ = 3 × 3 × 3 = 27']], T`Why "squared" and "cubed": $3^2$ is the area of a 3 by 3 square, $3^3$ the volume of a 3 by 3 by 3 cube.`)}
 <h3>Laws of exponents</h3>
 ${Tbl([T`Law`, T`Example`], [[T`$a^m \cdot a^n = a^{m+n}$`, T`$x^3 \cdot x^4 = x^7$`], [T`$\dfrac{a^m}{a^n} = a^{m-n}$`, T`$\dfrac{y^9}{y^2} = y^7$`], [T`$(a^m)^n = a^{mn}$`, T`$(k^2)^5 = k^{10}$`], [T`$(ab)^n = a^n b^n$`, T`$(3x)^2 = 9x^2$`], [T`$a^0 = 1$ ($a \ne 0$)`, T`$7^0 = 1$`], [T`$a^{-n} = \dfrac{1}{a^n}$`, T`$2^{-3} = \dfrac{1}{8}$`]])}
 ${Ex(T`<p>Simplify $(2x^3)(5x^4)$: multiply the numbers and add the exponents, $10x^{7}$.</p>`)}
@@ -78,6 +130,7 @@ ${Tip(T`<p>$x^3 \cdot x^4$ is $x^7$, not $x^{12}$ — multiply the bases, <i>add
 <p>Scientists write very large or very small numbers compactly as</p>
 ${Fm(T`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ an integer}`)}
 <ul><li>The distance to the Sun, about $150{,}000{,}000$ km, is $1.5 \times 10^{8}$ km.</li><li>A red blood cell, about $0.000\,008$ m wide, is $8 \times 10^{-6}$ m.</li></ul>
+${FigW(numberLineSvg({ min: -6, max: 12, step: 1, labelEvery: 2, W: 560, H: 110, fmt: v => '10' + sup(v), marks: [{ v: Math.log10(8e-6), label: T`blood cell`, cls: 'mf-s2' }, { v: Math.log10(1.7), label: T`person`, below: true }, { v: Math.log10(8849), label: T`Everest`, cls: 'mf-s3' }, { v: Math.log10(1.496e11), label: T`Sun`, cls: 'mf-s4', below: true }], label: T`Powers-of-ten scale in metres from a red blood cell to the distance to the Sun` }), T`A powers-of-ten scale (metres). Each step right is 10 times bigger: a red blood cell ($8 \times 10^{-6}$ m), a person (about 1.7 m), Mount Everest (8,849 m) and the Earth–Sun distance ($1.5 \times 10^{11}$ m).`)}
 ${Key(T`<p>Count how many places the decimal point moves to leave exactly one non-zero digit in front of it. Big numbers (moving left) give a <b>positive</b> exponent; numbers less than 1 (moving right) give a <b>negative</b> exponent.</p>`)}
 <h3>Calculating</h3>
 <p>Multiply (or divide) the front numbers, and add (or subtract) the exponents. Then fix the front number if it is not between 1 and 10:</p>
@@ -100,11 +153,13 @@ ${Tip(T`<p>$23 \times 10^{4}$ has the right value but is not in scientific notat
 <p>A <b>ratio</b> $a : b$ compares two quantities. Like fractions, ratios can be simplified by dividing both parts by their GCF: $18 : 24 = 3 : 4$.</p>
 <h3>Sharing in a ratio</h3>
 ${Ex(T`<p>Share 60 sweets in the ratio $2 : 3$.</p><ol><li>Total parts: $2 + 3 = 5$.</li><li>One part: $60 \div 5 = 12$.</li><li>Shares: $2 \times 12 = 24$ and $3 \times 12 = 36$.</li></ol>`)}
+${Fig(barModelSvg([['12', 1], ['12', 1], ['12', 1, 'mf-s2l'], ['12', 1, 'mf-s2l'], ['12', 1, 'mf-s2l']], { top: '60', bottom: T`2 parts : 3 parts = 24 : 36`, label: T`Bar model: 60 split into 5 equal parts of 12, two for the first share and three for the second` }), T`Sharing 60 in the ratio $2 : 3$: five equal parts of 12.`)}
 <h3>Rates and unit rates</h3>
 <p>A <b>rate</b> compares quantities with different units: km per hour, dollars per kg. Finding the value of <b>one</b> unit (the unit rate) solves most problems.</p>
 ${Fm(T`\text{speed} = \frac{\text{distance}}{\text{time}} \qquad \text{distance} = \text{speed} \times \text{time}`)}
 <h3>Direct and inverse proportion</h3>
 ${Key(T`<ul><li><b>Direct:</b> both quantities grow together, $y = kx$. Twice as many notebooks cost twice as much.</li><li><b>Inverse:</b> one grows as the other shrinks, $xy = k$. Twice as many workers finish in half the time.</li></ul>`)}
+${FigRow([[planeSvg({ W: 260, H: 200, x: [0, 6], y: [0, 12], step: [1, 2], fns: [{ f: x => 2 * x }], xl: T`notebooks`, yl: T`cost` }), T`Direct: $y = 2x$, a straight line through 0`], [planeSvg({ W: 260, H: 200, x: [0, 12], y: [0, 12], step: [2, 2], fns: [{ f: x => 12 / x, from: 1 }], pts: [[2, 6], [4, 3], [6, 2]], xl: T`workers`, yl: T`days` }), T`Inverse: $xy = 12$, a curve`]], T`Direct proportion doubles together; inverse proportion halves one when the other doubles.`)}
 ${Ex(T`<p>6 workers build a wall in 10 days. The job is $6 \times 10 = 60$ worker-days, so 4 workers need $60 \div 4 = 15$ days.</p>`)}
 <h3>Map scales</h3>
 <p>A scale of $1 : 50{,}000$ means 1 cm on the map is $50{,}000$ cm $= 500$ m $= 0.5$ km in reality.</p>
@@ -128,9 +183,11 @@ ${Tip(T`<p>Before comparing, make the units the same. And check whether a situat
 <p>Combine like terms by adding their coefficients: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
 <h3>Expanding brackets</h3>
 ${Key(T`<p><b>Distributive law:</b> $a(b + c) = ab + ac$. Multiply <i>every</i> term inside by the term outside.</p><p><b>Two brackets (FOIL):</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`)}
+${Fig(areaModelSvg([['x', 3], ['3', 1.2]], [['x', 3], ['2', 0.8]], { cells: [['x²', '3x'], ['2x', '6']], total: '(x + 3)(x + 2) = x² + 5x + 6', label: T`Area model for (x + 3)(x + 2)` }), T`Expanding as area: a rectangle $(x + 3)$ wide and $(x + 2)$ tall splits into four pieces.`)}
 ${Ex(T`<p>$(x + 3)(x - 5) = x^2 - 5x + 3x - 15 = x^2 - 2x - 15$</p>`)}
 <h3>Special products</h3>
 ${Fm(T`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`)}
+${Fig(areaModelSvg([['a', 3], ['b', 1.4]], [['a', 3], ['b', 1.4]], { cells: [['a²', 'ab'], ['ab', 'b²']], total: '(a + b)² = a² + 2ab + b²', label: T`Square of side a + b split into a², two ab rectangles and b²` }), T`$(a + b)^2$ has <b>two</b> $ab$ rectangles — that is the $2ab$ people forget.`)}
 <h3>Factorising</h3>
 <p>Factorising is expanding in reverse. Take out the greatest common factor: $12x - 18 = 6(2x - 3)$.</p>
 <h3>Substitution</h3>
@@ -151,6 +208,7 @@ ${Tip(T`<p>$(x + 4)^2 \ne x^2 + 16$. The middle term $2 \cdot 4 \cdot x = 8x$ is
   blurb: 'Solving one-variable equations with brackets, fractions and unknowns on both sides; word problems.',
   lesson: () => T`
 <p>An equation says two expressions are equal. Think of a balance: whatever you do to one side, do to the other, and it stays balanced. The aim is to get the unknown alone.</p>
+${Fig(balanceSvg('2x + 3', '11', { label: T`A balanced scale with 2x + 3 on the left and 11 on the right` }), T`$2x + 3 = 11$: take 3 from both pans ($2x = 8$), then halve both ($x = 4$). The scale stays level.`)}
 ${Key(T`<p>Undo operations in reverse order using <b>inverse operations</b>: addition ↔ subtraction, multiplication ↔ division.</p>`)}
 ${Ex(T`<p>Solve $5x - 7 = 2x + 11$.</p><ol><li>Subtract $2x$ from both sides: $3x - 7 = 11$.</li><li>Add 7: $3x = 18$.</li><li>Divide by 3: $x = 6$.</li></ol><p>Check: $5(6) - 7 = 23$ and $2(6) + 11 = 23$ ✓</p>`)}
 <h3>Brackets and fractions</h3>
@@ -177,6 +235,7 @@ ${Tip(T`<p>When you move a term across the equals sign, its sign changes — bec
   lesson: () => T`
 <p>An <b>inequality</b> compares two expressions: $\lt$ (less than), $\gt$ (greater than), $\le$ (less than or equal), $\ge$ (greater than or equal). Its solution is usually a whole range of numbers.</p>
 <p>On a number line, $x \gt 2$ is drawn with an <b>open</b> circle at 2 (2 is not included) and an arrow to the right; $x \le 2$ uses a <b>filled</b> circle and an arrow to the left.</p>
+${FigRow([[numberLineSvg({ min: -2, max: 6, step: 1, ray: { from: 2, dir: 1, open: true }, W: 300, label: T`x greater than 2: open circle at 2, arrow right` }), T`$x \gt 2$`], [numberLineSvg({ min: -2, max: 6, step: 1, ray: { from: 2, dir: -1 }, W: 300, label: T`x at most 2: filled circle at 2, arrow left` }), T`$x \le 2$`]])}
 <h3>Solving</h3>
 <p>Solve exactly like an equation — add, subtract, multiply or divide both sides — with one extra rule:</p>
 ${Key(T`<p>When you <b>multiply or divide by a negative number</b>, reverse the inequality sign.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`)}
@@ -184,6 +243,7 @@ ${Key(T`<p>When you <b>multiply or divide by a negative number</b>, reverse the 
 ${Ex(T`<p>Solve $7 - 2x \ge 1$.</p><ol><li>Subtract 7: $-2x \ge -6$.</li><li>Divide by $-2$ and flip: $x \le 3$.</li></ol>`)}
 <h3>Double inequalities</h3>
 <p>Do the same operation to all three parts: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. The integer solutions are $-1, 0, 1, 2, 3$.</p>
+${Fig(numberLineSvg({ min: -4, max: 5, step: 1, seg: [-2, 3, true, false], label: T`Solution set from −2 (open) to 3 (filled)` }), T`$-2 \lt x \le 3$: open at −2 (excluded), filled at 3 (included).`)}
 ${Tip(T`<p>"Smallest integer with $x \gt 4$" is 5, not 4 — a strict inequality excludes its endpoint.</p>`)}`,
   gens: [
     () => { const k = rnz(-8, 10), a = ri(2, 9), b = rnz(-15, 15), c = a * k + b, s = pick(['lt', 'gt', 'le', 'ge']), X = (sy, v) => `$x ${SYM[sy]} ${M(v)}$`, alt = (c + b) / a; return { q: T`Solve $${lin(a, b)} ${SYM[s]} ${c}$.`, a: X(s, k), w: [X(FLIP[s], k), X(s, -k), X(FLIP[s], -k), Number.isInteger(alt) && alt !== k ? X(s, alt) : X(s, k + 1)], s: T`${moveTxt(b)}: $${xt(a)} ${SYM[s]} ${c - b}$. Divide by ${a} (positive, so the sign stays): $x ${SYM[s]} ${k}$.` }; },
@@ -202,6 +262,7 @@ ${Fig(vennSvg(), T`A Venn diagram: each region is a different combination of "in
 ${Tbl([T`Notation`, T`Meaning`, T`Example with A = {1,2,3,4}, B = {3,4,5}`], [[T`$A \cap B$`, T`intersection: in both`, T`$\{3, 4\}$`], [T`$A \cup B$`, T`union: in either (or both)`, T`$\{1, 2, 3, 4, 5\}$`], [T`$A - B$`, T`in A but not in B`, T`$\{1, 2\}$`], [T`$A'$`, T`complement: in U but not in A`, T`everything else in U`], [T`$A \subseteq B$`, T`every element of A is in B`, T`$\{3\} \subseteq B$`]])}
 ${Key(T`$$n(A \cup B) = n(A) + n(B) - n(A \cap B)$$<p>We subtract the overlap because it was counted twice. A set with $n$ elements has $2^n$ subsets (including $\varnothing$ and the set itself).</p>`)}
 ${Ex(T`<p>In a class of 35, 20 play football, 18 play basketball and 8 play both. Then $n(F \cup B) = 20 + 18 - 8 = 30$ play at least one sport, and $35 - 30 = 5$ play neither.</p>`)}
+${Fig(venn2Svg({ a: 'F', b: 'B', texts: { a: '12', ab: '8', b: '10', out: '5' }, label: T`Venn diagram: 12 football only, 8 both, 10 basketball only, 5 neither` }), T`Fill the overlap first (8), then "football only" $= 20 - 8 = 12$ and "basketball only" $= 18 - 8 = 10$; $35 - 30 = 5$ are outside.`)}
 ${Tip(T`<p>"How many play only football?" is $20 - 8 = 12$, not 20. Fill in the overlap of a Venn diagram first, then work outwards.</p>`)}`,
   gens: [
     () => { const both = ri(3, 10), a = ri(both + 3, 20), b = ri(both + 3, 20), N = a + b - both + ri(1, 10), neither = N - (a + b - both); return chance() ? { q: T`In a class of ${N} students, ${a} like football, ${b} like basketball and ${both} like both. How many students like neither sport?`, a: neither, w: [N - a - b, N - (a + b + both), a + b - both, neither + both], s: T`$n(F \cup B) = ${a} + ${b} - ${both} = ${a + b - both}$. Neither: $${N} - ${a + b - both} = ${neither}$.` } : { q: T`In a group, ${a} people speak English, ${b} speak French and ${both} speak both. How many speak at least one of the two languages?`, a: a + b - both, w: [a + b, a + b - 2 * both, a + b + both], s: T`$n(E \cup F) = n(E) + n(F) - n(E \cap F) = ${a} + ${b} - ${both} = ${a + b - both}$.` }; },
@@ -222,9 +283,11 @@ ${Fm(T`y = mx + c`)}
 <h3>Gradient from two points</h3>
 ${Fm(T`m = \frac{\text{rise}}{\text{run}} = \frac{y_2 - y_1}{x_2 - x_1}`)}
 ${Ex(T`<p>Through $(1, 2)$ and $(4, 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitute $(1, 2)$ into $y = 3x + c$: $2 = 3 + c$, so $c = -1$ and the line is $y = 3x - 1$.</p>`)}
+${Fig(planeSvg({ W: 360, H: 300, x: [-1, 5], y: [-4, 12], step: [1, 2], fns: [{ f: x => 3 * x - 1, label: 'y = 3x − 1', at: 2.2, dx: 14, dy: 10 }], segs: [[1, 2, 4, 2, 'mf-c2', true], [4, 2, 4, 11, 'mf-c2', true]], pts: [[1, 2, cP(1, 2), 'end', false, 8, -8], [4, 11, cP(4, 11), 'end', false, 8, -4]], texts: [[2.5, 0.9, T`run = 3`], [4.15, 6.3, T`rise = 9`, 'start']], label: T`Line y = 3x − 1 through (1, 2) and (4, 11) with a slope triangle` }), T`The slope triangle: rise ÷ run $= 9 \div 3 = 3$. The line crosses the $y$-axis at $-1$.`)}
 <h3>Intercepts and other forms</h3>
 <p>Set $x = 0$ to find the $y$-intercept and $y = 0$ to find the $x$-intercept. A line may be written $ax + by = c$; rearrange to $y = -\frac{a}{b}x + \frac{c}{b}$ to read off the gradient. Through a point $(x_1, y_1)$ with gradient $m$: $y - y_1 = m(x - x_1)$.</p>
 ${Key(T`<ul><li><b>Parallel</b> lines have equal gradients: $m_1 = m_2$.</li><li><b>Perpendicular</b> lines have gradients that multiply to $-1$: $m_1 m_2 = -1$, so $m_2 = -\frac{1}{m_1}$.</li></ul>`)}
+${FigRow([[planeSvg({ W: 250, x: [-4, 4], y: [-4, 4], equal: true, fns: [{ f: x => x + 1 }, { f: x => x - 2, cls: 'mf-c2' }], label: T`Two parallel lines y = x + 1 and y = x − 2` }), T`Parallel: $m_1 = m_2 = 1$`], [planeSvg({ W: 250, x: [-4, 4], y: [-4, 4], equal: true, fns: [{ f: x => 2 * x }, { f: x => -x / 2, cls: 'mf-c2' }], extra: (X, Y) => sRight(X(0), Y(0), 1 / Math.sqrt(5), -2 / Math.sqrt(5), -2 / Math.sqrt(5), -1 / Math.sqrt(5), 10), label: T`Perpendicular lines y = 2x and y = −x/2` }), T`Perpendicular:<br>$m_1 m_2 = -1$`]])}
 ${Tip(T`<p>Keep the order consistent: if you use $y_2 - y_1$ on top, use $x_2 - x_1$ underneath. A positive gradient rises to the right; a negative one falls.</p>`)}`,
   gens: [
     () => { let x1, y1, x2, y2; do { x1 = ri(-8, 8); y1 = ri(-8, 8); x2 = ri(-8, 8); y2 = ri(-8, 8); } while (x1 === x2 || y1 === y2); const dy = y2 - y1, dx = x2 - x1; return { q: T`Find the gradient of the line through $${pt(x1, y1)}$ and $${pt(x2, y2)}$.`, ...FR(dy, dx), h: hFrac, w: [fx(dx, dy), fx(-dy, dx), fx(y2 + y1, x2 + x1 || 1)], s: T`$m = \frac{y_2 - y_1}{x_2 - x_1} = \frac{${M(y2)} - ${pn(y1)}}{${M(x2)} - ${pn(x1)}} = \frac{${dy}}{${dx}}${gcd(dy, dx) > 1 || dx < 0 ? T` = ${frT(dy, dx)}` : ''}$.` }; },
@@ -241,12 +304,14 @@ ${Tip(T`<p>Keep the order consistent: if you use $y_2 - y_1$ on top, use $x_2 - 
   blurb: 'Solving two equations in two unknowns by substitution and elimination; word problems.',
   lesson: () => T`
 <p>A <b>system</b> of two linear equations in $x$ and $y$ asks for values that make <i>both</i> equations true. Graphically, the solution is the point where the two lines cross.</p>
+${Fig(planeSvg({ W: 340, x: [-1, 6], y: [-2, 12], step: [1, 2], fns: [{ f: x => 2 * x - 1, label: 'y = 2x − 1', at: 5, dx: -4, dy: -10, anchor: 'end' }, { f: x => 14 - 3 * x, cls: 'mf-c2', label: '3x + y = 14', at: 3.8, dx: 10, dy: -2 }], pts: [[3, 5, cP(3, 5), 'start', false, 10, 4]], label: T`Lines y = 2x − 1 and 3x + y = 14 crossing at (3, 5)` }), T`The two lines cross at $(3, 5)$ — the only point on both, so the only solution.`)}
 <h3>Substitution</h3>
 ${Ex(T`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitute the first into the second: $3x + (2x - 1) = 14$, so $5x = 15$, $x = 3$, and $y = 2(3) - 1 = 5$. Solution: $(3, 5)$.</p>`)}
 <h3>Elimination</h3>
 ${Ex(T`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Add the equations to eliminate $y$: $7x = 21$, so $x = 3$. Then $2(3) + 3y = 12$ gives $y = 2$.</p>`)}
 ${Key(T`<p>Multiply one or both equations first so a variable has equal (or opposite) coefficients, then subtract (or add) to eliminate it. Always check the answer in <b>both</b> original equations.</p>`)}
 <h3>Special cases</h3>
+${FigRow([[planeSvg({ W: 240, x: [-3, 3], y: [-3, 3], equal: true, ticks: false, fns: [{ f: x => x / 2 + 1 }, { f: x => x / 2 - 1, cls: 'mf-c2' }], label: T`Two parallel lines` }), T`No solution`], [planeSvg({ W: 240, x: [-3, 3], y: [-3, 3], equal: true, ticks: false, fns: [{ f: x => 1 - x, cls: 'mf-c2', n: 60 }, { f: x => 1 - x, dash: true }], label: T`Two lines on top of each other` }), T`Infinitely many`]])}
 <p>Parallel lines (same gradient, different intercepts) never meet: <b>no solution</b>. Identical lines give <b>infinitely many</b> solutions.</p>
 <h3>Word problems</h3>
 <p>Two unknowns need two facts. "A farm has 30 heads and 84 legs among chickens and cows": $c + h = 30$ and $4c + 2h = 84$.</p>
@@ -267,11 +332,13 @@ ${Tip(T`<p>When subtracting equations, subtract <i>every</i> term, including the
 <p>In a right triangle the longest side, opposite the right angle, is the <b>hypotenuse</b> $c$. The other two sides are the <b>legs</b> $a$ and $b$.</p>
 ${Fig(rightTriSvg())}
 ${Key(T`$$a^2 + b^2 = c^2$$<p>To find the hypotenuse, add the squares; to find a leg, subtract: $b = \sqrt{c^2 - a^2}$.</p>`)}
+${Fig(pythSquaresSvg(), T`The square on the hypotenuse equals the two other squares together: $9 + 16 = 25$ (count the unit squares).`)}
 ${Ex(T`<p>A 10 m ladder leans against a wall with its foot 6 m from the wall. Height reached: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`)}
 <h3>Pythagorean triples</h3>
 <p>Whole-number solutions are worth remembering, together with their multiples: $(3, 4, 5)$, $(5, 12, 13)$, $(8, 15, 17)$, $(7, 24, 25)$, and $(6, 8, 10)$, $(9, 12, 15)$, …</p>
 <h3>Distance between two points</h3>
 ${Fm(T`d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`)}
+${Fig(planeSvg({ W: 320, x: [0, 6], y: [0, 5], equal: true, segs: [[1, 1, 5, 1, 'mf-c2', true], [5, 1, 5, 4, 'mf-c2', true], [1, 1, 5, 4, 'mf-c1']], pts: [[1, 1, cP(1, 1), 'end', false, 6, 16], [5, 4, cP(5, 4), 'end', false, 8, -6]], texts: [[3, 0.55, '4'], [5.25, 2.5, '3', 'start'], [2.8, 3, 'd = 5']], label: T`Distance between (1, 1) and (5, 4) as the hypotenuse of a 4 by 3 right triangle` }), T`The distance formula is Pythagoras on the grid: $d = \sqrt{4^2 + 3^2} = 5$.`)}
 <h3>The converse</h3>
 <p>With $c$ the longest side: if $a^2 + b^2 = c^2$ the triangle is <b>right</b>; if $a^2 + b^2 \gt c^2$ it is <b>acute</b>; if $a^2 + b^2 \lt c^2$ it is <b>obtuse</b>.</p>
 ${Tip(T`<p>$\sqrt{a^2 + b^2} \ne a + b$. For legs 3 and 4 the hypotenuse is 5, not 7.</p>`)}`,
@@ -291,12 +358,15 @@ ${Tip(T`<p>$\sqrt{a^2 + b^2} \ne a + b$. For legs 3 and 4 the hypotenuse is 5, n
   lesson: () => T`
 ${Fig(circleSvg(), T`Parts of a circle. The diameter is twice the radius: d = 2r.`)}
 <p>The ratio of any circle's circumference to its diameter is the same number, $\pi \approx 3.14159\ldots$ (often approximated as $3.14$ or $\frac{22}{7}$).</p>
+${Fig(piRollSvg(), T`Roll a circle once along a line: the track is a little more than 3 diameters long — exactly $\pi d$.`)}
 ${Key(T`$$C = 2\pi r = \pi d \qquad\qquad A = \pi r^2$$`)}
 ${Ex(T`<p>Radius 5 cm: $C = 2\pi(5) = 10\pi \approx 31.4$ cm, and $A = \pi(5)^2 = 25\pi \approx 78.5$ cm². Leaving answers "in terms of $\pi$" keeps them exact.</p>`)}
 <h3>Arcs and sectors</h3>
 <p>A sector with central angle $\theta$ is the fraction $\frac{\theta}{360^\circ}$ of the whole circle:</p>
 ${Fm(T`\text{arc length} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{sector area} = \frac{\theta}{360^\circ} \times \pi r^2`)}
+${Fig(sectorSvg(), T`A $60^\circ$ sector is $\frac{60}{360} = \frac{1}{6}$ of the circle, so its arc and area are $\frac{1}{6}$ of the full circumference and area.`)}
 <h3>Angles in circles</h3>
+${Fig(centreAngleSvg(), T`Angle at the centre ($140^\circ$) = twice the angle at the circumference ($70^\circ$) on the same arc AB.`)}
 <ul><li>The angle at the centre is <b>twice</b> the angle at the circumference standing on the same arc.</li><li>An angle in a semicircle is $90^\circ$.</li><li>A tangent is perpendicular to the radius at the point of contact.</li></ul>
 ${Tip(T`<p>Check whether you are given the radius or the diameter. Using $d$ in $\pi r^2$ makes the area four times too big.</p>`)}`,
   gens: [
@@ -314,10 +384,12 @@ ${Tip(T`<p>Check whether you are given the radius or the diameter. Using $d$ in 
   blurb: 'Prisms, cylinders, pyramids, cones and spheres.',
   lesson: () => T`
 <p>A <b>prism</b> has the same cross-section all the way through, so its volume is simply the area of that cross-section times its length. A pyramid or cone that fits inside it has exactly one third of that volume.</p>
+${FigW(solidsSvg([['prism', T`Prism`], ['cylinder', T`Cylinder`], ['pyramid', T`Pyramid`], ['cone', T`Cone`], ['sphere', T`Sphere`]], { label: T`A triangular prism, cylinder, pyramid, cone and sphere` }), T`Prisms and cylinders keep the same cross-section; pyramids and cones taper to a point.`)}
 ${Tbl([T`Solid`, T`Volume`, T`Surface area`], [[T`Prism`, T`$A_{\text{base}} \times h$`, T`sum of all faces`], [T`Cylinder`, T`$\pi r^2 h$`, T`$2\pi r^2 + 2\pi r h$`], [T`Pyramid`, T`$\frac{1}{3} A_{\text{base}} \times h$`, T`base + triangles`], [T`Cone`, T`$\frac{1}{3}\pi r^2 h$`, T`$\pi r^2 + \pi r s$`], [T`Sphere`, T`$\frac{4}{3}\pi r^3$`, T`$4\pi r^2$`]])}
 <p>For a cone, $s$ is the <b>slant height</b>; by Pythagoras, $s = \sqrt{r^2 + h^2}$.</p>
 ${Ex(T`<p>A cylinder with $r = 3$ cm and $h = 10$ cm:</p><p>$V = \pi (3)^2 (10) = 90\pi$ cm³ $\approx 282.7$ cm³. &nbsp; $SA = 2\pi(9) + 2\pi(3)(10) = 18\pi + 60\pi = 78\pi$ cm².</p>`)}
 ${Key(T`<p>A cylinder's curved surface unrolls into a rectangle: one side is the height $h$, the other is the circumference $2\pi r$. That is where $2\pi r h$ comes from.</p>`)}
+${Fig(cylNetSvg(), T`The net of a cylinder: two circles and a rectangle whose width is the circumference $2\pi r$.`)}
 ${Tip(T`<p>Hemispheres: half the sphere's volume, but the surface area is $2\pi r^2$ (curved part) $+ \pi r^2$ (flat circle) $= 3\pi r^2$.</p>`)}`,
   gens: [
     () => { const r = ri(2, 10), h = ri(2, 15); return { q: T`Find the volume of a cylinder with radius ${r} cm and height ${h} cm, in terms of $\pi$.`, ...PI(r * r * h), u: 'cm³', h: hPi, w: [pix(2 * r * h), pix(r * h), pix(2 * r * r * h), pix(r * r * h + 2 * r * r)], s: T`$V = \pi r^2 h = \pi \times ${r * r} \times ${h} = ${piT(r * r * h)}$ cm³.` }; },
@@ -336,9 +408,11 @@ ${Tip(T`<p>Hemispheres: half the sphere's volume, but the surface area is $2\pi 
   lesson: () => T`
 <p>A <b>measure of centre</b> summarises a data set with one typical value; a <b>measure of spread</b> says how scattered the values are.</p>
 ${Tbl([T`Measure`, T`Best when…`], [[T`Mean`, T`data has no extreme values (outliers)`], [T`Median`, T`data is skewed or has outliers — e.g. house prices`], [T`Mode`, T`data is categorical — e.g. favourite colour`], [T`Range`, T`a quick sense of spread (but sensitive to outliers)`]])}
+${Fig(dotPlotSvg([3, 4, 4, 5, 5, 5, 6, 6, 7, 20], { min: 2, max: 20, marks: [[5, T`median 5`, 'mf-c2'], [6.5, T`mean 6.5`, 'mf-c4']], label: T`Dot plot of ten values with one outlier at 20; the mean 6.5 is pulled to the right of the median 5` }), T`One outlier (20) drags the mean up to 6.5, while the median stays at 5 — that is why the median suits skewed data.`)}
 <h3>Mean from a frequency table</h3>
 ${Fm(T`\bar{x} = \frac{\sum f x}{\sum f}`)}
 ${Ex(T`${qTable([[T`Score $x$`, '1', '2', '3', '4'], [T`Frequency $f$`, '3', '5', '8', '4']], true)}<p>$\sum f = 20$ and $\sum fx = 3 + 10 + 24 + 16 = 53$, so the mean is $\frac{53}{20} = 2.65$. The mode is 3 (highest frequency). The median is the mean of the 10th and 11th values — both 3 — so the median is 3.</p>`)}
+${Fig(barsSvg([['1', 3], ['2', 5], ['3', 8, 'mf-s2'], ['4', 4]], { W: 360, H: 210, step: 2, yl: T`frequency`, label: T`Bar chart of the frequency table: score 1 three times, 2 five times, 3 eight times, 4 four times` }), T`The tallest bar is the mode (score 3). The mean, 2.65, sits a little lower because of the smaller scores.`)}
 <h3>Working backwards</h3>
 ${Key(T`<p>$\text{total} = \text{mean} \times \text{count}$. If 5 numbers have mean 12, their total is 60 — so if four of them sum to 47, the fifth is 13.</p>`)}
 <p>With an even number of values, the median is the mean of the two middle values.</p>
@@ -360,8 +434,10 @@ ${Tip(T`<p>In a frequency table, divide $\sum fx$ by the total frequency $\sum f
 ${Fm(T`P(E) = \frac{n(E)}{n(S)}`)}
 ${Key(T`<ul><li>$0 \le P(E) \le 1$: 0 means impossible, 1 means certain.</li><li><b>Complement:</b> $P(\text{not } E) = 1 - P(E)$.</li><li><b>Expected frequency</b> in $n$ trials $= P(E) \times n$.</li></ul>`)}
 ${Ex(T`<p>A bag has 3 red, 5 blue and 2 green marbles. $P(\text{blue}) = \frac{5}{10} = \frac{1}{2}$, and $P(\text{not green}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`)}
+${Fig(numberLineSvg({ min: 0, max: 1, step: 0.1, labelEvery: 0.5, H: 104, marks: [{ v: 0.2, label: T`green`, cls: 'mf-s3' }, { v: 0.5, label: T`blue`, cls: 'mf-s1' }, { v: 0.8, label: T`not green`, cls: 'mf-s2' }], label: T`Probability scale from 0 to 1 with the marble probabilities marked` }), T`The probability scale: 0 is impossible, 1 is certain. The marbles give $P(\text{green}) = 0.2$, $P(\text{blue}) = 0.5$, $P(\text{not green}) = 0.8$.`)}
 <h3>Two dice</h3>
 <p>Rolling two dice gives $6 \times 6 = 36$ equally likely outcomes. A sum of 7 happens in 6 ways — (1,6), (2,5), (3,4), (4,3), (5,2), (6,1) — so $P(\text{sum} = 7) = \frac{6}{36} = \frac{1}{6}$. In general, the number of ways to get a sum $s$ is $6 - |s - 7|$.</p>
+${Fig(diceGridSvg(), T`All 36 outcomes of two dice. Sums are constant along each diagonal; the six shaded cells give a sum of 7.`)}
 <h3>A deck of cards</h3>
 <p>52 cards: 4 suits (♠ ♣ black, ♥ ♦ red) of 13 ranks (A, 2–10, J, Q, K). There are 12 face cards (J, Q, K).</p>
 ${Tip(T`<p>Experimental probability (from real trials) gets closer to theoretical probability as the number of trials grows — but it rarely matches exactly.</p>`)}`,
@@ -388,6 +464,7 @@ ${Ex(T`<p>A phone bought for 400 dollars is sold for 460 dollars. Profit $= 60$,
 <h3>Simple interest</h3>
 ${Fm(T`I = P \times r \times t \qquad \text{(principal} \times \text{yearly rate} \times \text{years)}`)}
 <p>1,500 dollars saved at 6% per year for 3 years earns $1{,}500 \times 0.06 \times 3 = 270$ dollars; the total becomes 1,770 dollars. For months, use $t = \frac{\text{months}}{12}$.</p>
+${Fig(barsSvg([[T`start`, 1500], [T`year 1`, 1590], [T`year 2`, 1680], [T`year 3`, 1770, 'mf-s2']], { W: 380, H: 220, yMax: 2000, step: 500, label: T`Bar chart of a 1,500 dollar saving growing by 90 dollars each year to 1,770 dollars` }), T`Simple interest adds the same amount every year: $6\%$ of 1,500 = 90 dollars.`)}
 <h3>Gross, tare and net</h3>
 <p><b>Gross</b> = total weight; <b>tare</b> = weight of the packaging; <b>net</b> = gross − tare. A 50 kg sack with 2% tare has net weight $50 \times 0.98 = 49$ kg.</p>
 ${Tip(T`<p>Profit percentage is always based on the <b>cost</b> price, not the selling price.</p>`)}`,
@@ -409,8 +486,10 @@ ${Tip(T`<p>Profit percentage is always based on the <b>cost</b> price, not the s
 <h3>Arithmetic sequences</h3>
 <p>The same number $d$ (the <b>common difference</b>) is added each time: 5, 8, 11, 14, … has $d = 3$.</p>
 ${Key(T`$$u_n = a + (n - 1)d$$<p>where $a$ is the first term. For 5, 8, 11, …: $u_n = 5 + 3(n - 1) = 3n + 2$, so $u_{50} = 152$.</p>`)}
+${Fig(planeSvg({ W: 320, H: 230, x: [0, 7], y: [0, 24], step: [1, 4], pts: [1, 2, 3, 4, 5, 6].map(n => [n, 3 * n + 2, String(3 * n + 2), 'end', false, 6, -8]), fns: [{ f: x => 3 * x + 2, cls: 'mf-c2', dash: true, from: 0.5, to: 6.5 }], xl: 'n', yl: 'uₙ', label: T`Terms of 5, 8, 11, … plotted against n: they lie on a straight line` }), T`Terms of an arithmetic sequence lie on a straight line — the common difference 3 is its gradient.`)}
 <h3>Geometric sequences</h3>
 <p>Each term is multiplied by the same <b>ratio</b> $r$: 3, 6, 12, 24, … ($r = 2$); 80, 40, 20, … ($r = \frac{1}{2}$).</p>
+${FigRow([1, 2, 3, 4].map(n => [gridSvg(n, n, (r, c) => c <= r ? 'mf-s1' : null, { dots: true, cell: 18, label: T`Triangle of dots` }), String(n * (n + 1) / 2)]), T`Triangular numbers 1, 3, 6, 10: each new row adds one more dot than the last.`)}
 <h3>Special sequences</h3>
 ${Tbl([T`Name`, T`Terms`, T`nth term`], [[T`Square numbers`, [1, 4, 9, 16, 25, '…'].join(LS()), T`$n^2$`], [T`Cube numbers`, [1, 8, 27, 64, '…'].join(LS()), T`$n^3$`], [T`Triangular numbers`, [1, 3, 6, 10, 15, '…'].join(LS()), T`$\frac{n(n+1)}{2}$`], [T`Fibonacci`, [1, 1, 2, 3, 5, 8, '…'].join(LS()), T`each term = sum of the previous two`]])}
 ${Ex(T`<p>Which term of 7, 11, 15, … equals 95? $u_n = 4n + 3 = 95$, so $n = 23$: it is the 23rd term.</p>`)}
@@ -432,10 +511,12 @@ ${Tip(T`<p>The coefficient of $n$ in the nth-term formula is the common differen
   lesson: () => T`
 <p>A <b>transformation</b> moves or resizes a shape. Under translations, reflections and rotations the image is <b>congruent</b> (same shape and size); under a dilation it is <b>similar</b> (same shape, different size).</p>
 ${Tbl([T`Transformation`, T`Rule for a point (x, y)`], [[T`Translation by $\binom{a}{b}$`, `$(x + a${LS().trim()}\\; y + b)$`], [T`Reflection in the $x$-axis`, `$(x${LS().trim()}\\; -y)$`], [T`Reflection in the $y$-axis`, `$(-x${LS().trim()}\\; y)$`], [T`Reflection in $y = x$`, `$(y${LS().trim()}\\; x)$`], [T`Rotation $90^\circ$ anticlockwise about O`, `$(-y${LS().trim()}\\; x)$`], [T`Rotation $180^\circ$ about O`, `$(-x${LS().trim()}\\; -y)$`], [T`Rotation $90^\circ$ clockwise about O`, `$(y${LS().trim()}\\; -x)$`], [T`Dilation, scale factor $k$, centre O`, `$(kx${LS().trim()}\\; ky)$`]])}
+${Fig(planeSvg({ W: 360, x: [-6, 6], y: [-5, 5], equal: true, polys: [{ pts: [[1, 1], [4, 1], [1, 3]], cls: 'mf-f1' }, { pts: [[-1, 1], [-4, 1], [-1, 3]], cls: 'mf-f2' }, { pts: [[-1, -1], [-4, -1], [-1, -3]], cls: 'mf-f3' }, { pts: [[2, -2], [5, -2], [2, 0]], cls: 'mf-f4' }], texts: [[2, 1.6, 'P', 'middle', 'mf-lab-b'], [-2, 1.6, T`reflect`, 'middle', 'mf-small'], [-2, -1.6, T`rotate 180°`, 'middle', 'mf-small'], [3, -1.4, T`translate`, 'middle', 'mf-small']], label: T`Triangle P with its reflection in the y-axis, rotation by 180 degrees and a translation` }), T`Triangle P and three congruent images: reflected in the $y$-axis, rotated $180^\circ$ about the origin, and translated by $\binom{1}{-3}$.`)}
 <h3>Similar figures</h3>
 ${Key(T`<p>In similar figures, corresponding angles are equal and corresponding sides are in the same ratio, the <b>scale factor</b> $k$. Areas scale by $k^2$ and volumes by $k^3$.</p>`)}
 ${Ex(T`<p>Triangles $ABC$ and $PQR$ are similar with $AB = 6$, $BC = 8$ and $PQ = 9$. Scale factor $k = \frac{9}{6} = 1.5$, so $QR = 8 \times 1.5 = 12$. If triangle $ABC$ has area 24, triangle $PQR$ has area $24 \times 1.5^2 = 54$.</p>`)}
 ${Ex(T`<p>A 1.5 m pole casts a 2 m shadow at the same moment a tree casts a 12 m shadow. The triangles are similar: $\frac{h}{12} = \frac{1.5}{2}$, so $h = 9$ m.</p>`)}
+${Fig(planeSvg({ W: 380, H: 250, x: [-1, 13], y: [0, 10], grid: false, ticks: false, xl: ' ', yl: ' ', segs: [[0, 0, 0, 9, 'mf-c3'], [10, 0, 10, 1.5, 'mf-c2'], [0, 9, 12, 0, 'mf-c4', true]], texts: [[-0.3, 4.5, 'h = 9 m', 'end'], [10.3, 2.2, F(1.5) + ' m', 'start'], [6, -0.75, '12 m', 'middle'], [11, -0.75, '2 m', 'middle', 'mf-small'], [7, 5.2, T`sun's ray`, 'start', 'mf-small']], label: T`A tree and a pole with the same sun ray forming two similar right triangles` }), T`The sun's ray makes two similar triangles sharing an angle: $\frac{h}{12} = \frac{1.5}{2}$.`)}
 ${Tip(T`<p>Similar sides differ by a <b>multiple</b>, not by a fixed amount. If one side grows from 6 to 9, a side of 8 grows to 12, not 11.</p>`)}`,
   gens: [
     () => { const x = rnz(-8, 8), y = rnz(-8, 8), tx = rnz(-6, 6), ty = rnz(-6, 6); const tr = [[T`a reflection in the $x$-axis`, [x, -y], '(x, y) → (x, −y)'], [T`a reflection in the $y$-axis`, [-x, y], '(x, y) → (−x, y)'], [T`a reflection in the line $y = x$`, [y, x], '(x, y) → (y, x)'], [T`a rotation of $90^\circ$ anticlockwise about the origin`, [-y, x], '(x, y) → (−y, x)'], [T`a rotation of $180^\circ$ about the origin`, [-x, -y], '(x, y) → (−x, −y)'], [T`a rotation of $90^\circ$ clockwise about the origin`, [y, -x], '(x, y) → (y, −x)'], [T`a translation by $${colv([tx, ty])}$`, [x + tx, y + ty], `(x, y) → (x ${tx < 0 ? '−' : '+'} ${Math.abs(tx)}, y ${ty < 0 ? '−' : '+'} ${Math.abs(ty)})`]]; const i = ri(0, tr.length - 1), [name, [ax, ay], rule] = tr[i], P = p => `$${pt(...p)}$`; return { q: T`The point $P${pt(x, y)}$ is mapped by ${name}. What are the coordinates of its image?`, a: P([ax, ay]), v: [ax, ay], ord: true, h: T`Type the coordinates as x, y.`, w: shuffle(tr.filter((_, j) => j !== i).map(t => P(t[1]))), s: T`The rule is ${rule.replace(/, /g, LS())}, so the image is $${pt(ax, ay)}$.` }; },

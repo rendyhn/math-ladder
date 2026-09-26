@@ -1,16 +1,6 @@
 /* Français — Lycée (polynômes → intégrales) */
 addT('fr', {
   // polynomials
-  '1dv82xempy': R`
-<p>Un <b>polynôme</b> est une somme de termes $a_n x^n + \cdots + a_1 x + a_0$ avec des exposants entiers naturels. Son <b>degré</b> est le plus grand exposant ; $a_n$ est le <b>coefficient dominant</b>. Quand on multiplie des polynômes, les degrés s’additionnent et les coefficients dominants se multiplient.</p>
-<h3>Division</h3>
-<p>Diviser $P(x)$ par $(x - a)$ donne un quotient $Q(x)$ et un reste $R$ : $P(x) = (x - a)Q(x) + R$. La <b>méthode de Horner</b> permet de le faire rapidement avec les seuls coefficients.</p>
-⟦0⟧
-⟦1⟧
-<h3>Racines d’un polynôme de degré 3</h3>
-<p>Pour $ax^3 + bx^2 + cx + d = 0$ de racines $r_1, r_2, r_3$ :</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ par la méthode de Horner :</p>⟦0⟧<p>Quotient $x^2 - 2x - 3$, reste 0.</p>`,
   'agfsjitvd': R`<p><b>Théorème du reste :</b> le reste de la division de $P(x)$ par $(x - a)$ est $P(a)$.</p><p><b>Théorème du facteur :</b> $(x - a)$ divise $P(x)$ si et seulement si $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Diviser par $(x + 3)$ signifie $a = -3$ : calculez $P(-3)$, et non $P(3)$.</p>`,
@@ -31,16 +21,6 @@ addT('fr', {
   '1uusi8yg5sk': R`Le terme constant est le produit des termes constants : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p>Une <b>matrice</b> est un tableau rectangulaire de nombres. Une matrice $m \times n$ a $m$ lignes et $n$ colonnes ; $a_{ij}$ est le coefficient de la ligne $i$, colonne $j$.</p>
-<h3>Opérations</h3>
-<ul><li><b>Addition/soustraction</b> coefficient par coefficient (même taille uniquement).</li><li><b>Multiplication par un scalaire</b> : on multiplie chaque coefficient.</li><li><b>Produit</b> $AB$ : le coefficient $(i, j)$ est la ligne $i$ de $A$ « fois » la colonne $j$ de $B$. Il faut (colonnes de $A$) = (lignes de $B$), et une $m \times n$ fois une $n \times p$ donne une $m \times p$.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Déterminant et inverse (2 × 2)</h3>
-⟦2⟧
-<p>Si $\det A = 0$, la matrice n’est <b>pas inversible</b>. Les inverses permettent de résoudre des systèmes : $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>Le produit matriciel n’est <b>pas commutatif</b> : en général $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Pour l’inverse : <b>échangez</b> $a$ et $d$, <b>changez le signe</b> de $b$ et $c$, puis divisez par le déterminant.</p>`,
   '1h6gnxjh2g6': R`Calculez le déterminant de $⟦0⟧$.`,
@@ -57,12 +37,6 @@ addT('fr', {
   'xdj657lej': R`Ligne ⟦0⟧ de $A$ fois colonne ⟦1⟧ de $B$ : $⟦2⟧ = ⟦3⟧$. (Une matrice $2 \times 3$ fois une $3 \times 2$ donne une $2 \times 2$.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p>Un <b>vecteur</b> a une norme et une direction. En coordonnées, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Le vecteur de $P$ à $Q$ est $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Norme`,
   '1czax49eh4c': R`Addition`,
   'q2ntocofkn': R`on additionne les coordonnées`,
@@ -86,18 +60,6 @@ addT('fr', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. On divise chaque coordonnée par ⟦1⟧ : $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ signifie que $f(x)$ devient aussi proche qu’on veut de $L$ quand $x$ tend vers $a$ — quoi qu’il se passe exactement en $x = a$.</p>
-<h3>Méthodes</h3>
-<ol><li><b>Substitution directe</b> : elle marche pour les polynômes et les autres fonctions continues : $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factoriser et simplifier</b> face à $\frac{0}{0}$ : $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Utiliser la quantité conjuguée</b> pour les expressions avec racines.</li></ol>
-⟦0⟧
-<h3>Limites en l’infini</h3>
-⟦1⟧
-<h3>Une limite trigonométrique remarquable</h3>
-⟦2⟧
-<h3>Continuité</h3>
-<p>$f$ est continue en $a$ si $\lim_{x \to a} f(x) = f(a)$ : ni trou, ni saut, ni asymptote en ce point. Pour une fonction définie par morceaux, les deux morceaux doivent se raccorder.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Pour une fonction rationnelle, divisez le numérateur et le dénominateur par la plus grande puissance de $x$ du dénominateur :</p><ul><li>même degré → quotient des coefficients dominants ;</li><li>numérateur de degré inférieur → 0 ;</li><li>numérateur de degré supérieur → pas de limite finie ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ ne vaut ni « 0 » ni « non défini » : c’est une forme indéterminée qui demande plus de travail (factoriser, quantité conjuguée).</p>`,
   '18znpgymeuk': R`Calculez $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -115,18 +77,6 @@ addT('fr', {
   '1l84k7ifkz6': R`Les morceaux doivent se raccorder en $x = ⟦0⟧$ : $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, donc $⟦5⟧ + k = ⟦6⟧$ et $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p>La <b>dérivée</b> $f'(x)$ est le taux de variation instantané de $f$ — la pente de la tangente en $x$. Elle est définie par une limite :</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Tangentes</h3>
-<p>En $x = a$, la tangente a pour pente $m = f'(a)$ et passe par $(a ; f(a))$ : $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Points critiques</h3>
-<p>Là où $f'(x) = 0$, la courbe est momentanément horizontale. Utilisez la dérivée seconde : $f''(a) \gt 0$ → minimum local ; $f''(a) \lt 0$ → maximum local. $f$ est croissante là où $f' \gt 0$ et décroissante là où $f' \lt 0$.</p>
-<h3>Optimisation</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Règles`,
   '21wooetnwi8': R`<p>100 m de clôture entourent un rectangle le long d’une rivière (pas de clôture côté rivière). Avec les côtés $x, y, x$ : $2x + y = 100$, aire $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ donne $x = 25$, donc $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>La dérivée d’une constante est 0 — ne gardez pas le terme constant dans $f'(x)$.</p>`,
@@ -153,17 +103,6 @@ addT('fr', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, donc $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>L’intégration est l’opération inverse de la dérivation. Une <b>primitive</b> de $f$ est une fonction $F$ telle que $F' = f$ ; l’<b>intégrale indéfinie</b> comprend la constante d’intégration :</p>
-⟦0⟧
-⟦1⟧
-<h3>Intégrales définies</h3>
-⟦2⟧
-<p>Si $f \ge 0$, c’est l’aire sous la courbe entre $x = a$ et $x = b$. L’aire sous l’axe des $x$ compte négativement : coupez l’intégrale aux racines pour obtenir l’aire totale.</p>
-⟦3⟧
-<h3>Retrouver une fonction à partir de sa dérivée</h3>
-<p>Si $f'(x) = 6x + 2$ et $f(1) = 10$, alors $f(x) = 3x^2 + 2x + C$ et $3 + 2 + C = 10$ donne $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Vérifiez en dérivant.</p>`,
   '1jsx5j8bwuv': R`Théorème fondamental de l’analyse`,
   'k8jg70602j': R`<p>Aire entre $y = x^2$ et $y = 2x$ : elles se coupent en $x = 0$ et $x = 2$, et $2x \ge x^2$ entre les deux, donc $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,

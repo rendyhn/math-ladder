@@ -14,16 +14,6 @@ addT('de', {
   '187npo1zduj': R`Sehne`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Die <b>ganzen Zahlen</b> sind die natürlichen Zahlen, ihre Gegenzahlen und die Null: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Auf dem Zahlenstrahl werden die Zahlen nach rechts größer, also ist $-7 \lt -2$, obwohl 7 größer als 2 ist.</p>
-<p>Der <b>Betrag</b> $|a|$ ist der Abstand von 0: $|-6| = 6$ und $|6| = 6$.</p>
-<h3>Addieren und Subtrahieren</h3>
-⟦0⟧
-<h3>Multiplizieren und Dividieren</h3>
-⟦1⟧
-⟦2⟧
-<p>Im Alltag: Temperaturen unter null, Höhen unter dem Meeresspiegel, Schulden und Untergeschosse.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Gleiche Vorzeichen:</b> Beträge addieren, Vorzeichen beibehalten. $-4 + (-9) = -13$.</li><li><b>Verschiedene Vorzeichen:</b> Beträge subtrahieren, Vorzeichen der Zahl mit dem größeren Betrag nehmen. $-11 + 5 = -6$.</li><li><b>Subtrahieren</b> heißt, die Gegenzahl addieren: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Vorzeichen`,
   '18hy4wrreq9': R`Ergebnis`,
@@ -47,15 +37,6 @@ addT('de', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ und $|⟦2⟧| = ⟦3⟧$, also ist der Wert $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Eine <b>Potenz</b> beschreibt wiederholtes Multiplizieren: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ Faktoren}}$. In $2^5 = 32$ ist 2 die <b>Basis</b> und 5 der <b>Exponent</b>.</p>
-<h3>Potenzgesetze</h3>
-⟦0⟧
-⟦1⟧
-<h3>Wurzeln</h3>
-<p>Die Quadratwurzel macht das Quadrieren rückgängig: $\sqrt{81} = 9$, denn $9^2 = 81$. Die Kubikwurzel macht das Hoch-drei rückgängig: $\sqrt[3]{64} = 4$, denn $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Gesetz`,
   '2du0zx6ztd9': R`<p>Vereinfache $(2x^3)(5x^4)$: Zahlen multiplizieren und Exponenten addieren, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Um eine Quadratwurzel zu vereinfachen, zieht man den größten Quadratfaktor heraus: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -85,16 +66,6 @@ addT('de', {
   'r5mpjrvznb': R`Suche den größten Quadratfaktor: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Also $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>In der Wissenschaft schreibt man sehr große oder sehr kleine Zahlen kompakt als</p>
-⟦0⟧
-<ul><li>Die Entfernung zur Sonne, etwa $150\,000\,000$ km, ist $1{,}5 \times 10^{8}$ km.</li><li>Ein rotes Blutkörperchen, etwa $0{,}000\,008$ m breit, misst $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Rechnen</h3>
-<p>Multipliziere (oder dividiere) die vorderen Zahlen und addiere (oder subtrahiere) die Exponenten. Korrigiere danach die vordere Zahl, falls sie nicht zwischen 1 und 10 liegt:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ ganzzahlig}`,
   '1phwx4rhhb0': R`<p>Zähle, um wie viele Stellen das Komma rückt, bis genau eine von null verschiedene Ziffer davor steht. Große Zahlen (Komma nach links) ergeben einen <b>positiven</b> Exponenten, Zahlen kleiner als 1 (Komma nach rechts) einen <b>negativen</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -116,19 +87,6 @@ addT('de', {
   '1ujla3379au': R` Da ⟦0⟧ kleiner als 1 ist, schreibe $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Ein <b>Verhältnis</b> $a : b$ vergleicht zwei Größen. Wie Brüche kann man Verhältnisse kürzen, indem man beide Teile durch ihren ggT teilt: $18 : 24 = 3 : 4$.</p>
-<h3>Aufteilen im Verhältnis</h3>
-⟦0⟧
-<h3>Raten und Einheitswerte</h3>
-<p>Eine <b>Rate</b> vergleicht Größen mit verschiedenen Einheiten: Kilometer pro Stunde, Euro pro Kilogramm. Wer den Wert für <b>eine</b> Einheit kennt (Dreisatz), löst die meisten Aufgaben.</p>
-⟦1⟧
-<h3>Proportional und antiproportional</h3>
-⟦2⟧
-⟦3⟧
-<h3>Maßstab</h3>
-<p>Ein Maßstab von $1 : 50\,000$ bedeutet: 1 cm auf der Karte sind in Wirklichkeit $50\,000$ cm $= 500$ m $= 0{,}5$ km.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Teile 60 Bonbons im Verhältnis $2 : 3$ auf.</p><ol><li>Anzahl der Teile: $2 + 3 = 5$.</li><li>Ein Teil: $60 \div 5 = 12$.</li><li>Anteile: $2 \times 12 = 24$ und $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{Geschwindigkeit} = \frac{\text{Strecke}}{\text{Zeit}} \qquad \text{Strecke} = \text{Geschwindigkeit} \times \text{Zeit}`,
   '1lx74znbkzq': R`<ul><li><b>Proportional:</b> Beide Größen wachsen gemeinsam, $y = kx$. Doppelt so viele Hefte kosten doppelt so viel.</li><li><b>Antiproportional:</b> Die eine wächst, wenn die andere schrumpft, $xy = k$. Doppelt so viele Arbeitskräfte brauchen halb so lange.</li></ul>`,

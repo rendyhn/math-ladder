@@ -1,17 +1,6 @@
 /* Español — Bachillerato (sucesiones → resolución de triángulos) */
 addT('es', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Aquí $a$ es el primer término y $l$ el último.</p>
-⟦1⟧
-⟦2⟧
-<h3>Series geométricas infinitas</h3>
-⟦3⟧
-<p>Ejemplo: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Notación sigma</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Datos útiles: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ y $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Aritmética`,
   '1atqzl7ltey': R`Geométrica`,
   'zs186mkwh5': R`se suma $d$ cada vez`,
@@ -33,18 +22,6 @@ addT('es', {
   '222tg0c1ffy': R`Es una serie aritmética: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ dólares.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>En un triángulo rectángulo, respecto a un ángulo agudo $\theta$:</p>
-⟦0⟧
-<p>Regla mnemotécnica: <b>SOH-CAH-TOA</b> (seno = opuesto/hipotenusa, coseno = adyacente/hipotenusa, tangente = opuesto/adyacente). Además, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, y las razones recíprocas son $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Valores exactos</h3>
-⟦1⟧
-<h3>Radianes</h3>
-<p>$180^\circ = \pi$ radianes. Para pasar de grados a radianes se multiplica por $\frac{\pi}{180}$; de radianes a grados, por $\frac{180}{\pi}$. Así, $60^\circ = \frac{\pi}{3}$ y $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>La circunferencia unitaria</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{opuesto}}{\text{hipotenusa}} \qquad \cos\theta = \frac{\text{adyacente}}{\text{hipotenusa}} \qquad \tan\theta = \frac{\text{opuesto}}{\text{adyacente}}`,
   'ig8vf2x1y6': R`sen θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('es', {
   '1856p6n9vrk': R`El seno es positivo en I y II; el coseno, en I y IV; la tangente, en I y III. Solo el <b>⟦0⟧</b> cumple ambas condiciones.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p>Una <b>identidad</b> se cumple para todo ángulo. Las más importantes:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Resolver ecuaciones trigonométricas</h3>
-<p>Halla el ángulo de referencia y luego todos los ángulos del intervalo pedido que tengan el signo correcto.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Identidades pitagóricas`,
   '28msif6x03y': R`Ángulos compuestos`,
   '1qlqqnnfd2i': R`Ángulo doble`,
@@ -111,13 +79,6 @@ addT('es', {
   '19cq8bi37ib': R`El triángulo tiene lados ⟦0⟧, ⟦1⟧ y ⟦2⟧. En el cuadrante ⟦3⟧, el seno es ⟦4⟧ y el coseno es ⟦5⟧, así que $\sin\theta = ⟦6⟧$ y $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Nombra un triángulo de modo que el lado $a$ sea opuesto al ángulo $A$, $b$ opuesto a $B$ y $c$ opuesto a $C$. Estas reglas sirven para <b>cualquier</b> triángulo, no solo para los rectángulos.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Úsalo cuando conozcas un lado y su ángulo opuesto, además de otro lado u otro ángulo.</p>`,
   'mp16igkhf3': R`Teorema del seno`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Úsalo con dos lados y el ángulo comprendido (LAL), o con los tres lados (LLL).</p>`,

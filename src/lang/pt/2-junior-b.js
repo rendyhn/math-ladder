@@ -1,20 +1,6 @@
 /* Português — anos finais (expressões algébricas → funções afins) */
 addT('pt', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Na expressão $5x^2 - 3xy + 7$, os <b>termos</b> são $5x^2$, $-3xy$ e $7$; os <b>coeficientes</b> são 5 e $-3$; 7 é o <b>termo independente</b>. <b>Termos semelhantes</b> têm exatamente as mesmas letras com os mesmos expoentes ($4ab$ e $-ab$ são semelhantes; $x^2$ e $x$ não são).</p>
-<h3>Simplificar</h3>
-<p>Junte os termos semelhantes somando seus coeficientes: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Eliminar parênteses</h3>
-⟦0⟧
-⟦1⟧
-<h3>Produtos notáveis</h3>
-⟦2⟧
-<h3>Fatorar</h3>
-<p>Fatorar é desenvolver ao contrário. Coloque em evidência o maior fator comum: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Substituir</h3>
-<p>Troque cada letra pelo seu valor, usando parênteses para os negativos: se $x = -2$, então $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Propriedade distributiva:</b> $a(b + c) = ab + ac$. Multiplique <i>cada</i> termo dentro do parêntese pelo termo de fora.</p><p><b>Dois parênteses:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. É fácil esquecer o termo do meio, $2 \cdot 4 \cdot x = 8x$.</p>`,
@@ -31,17 +17,6 @@ addT('pt', {
   '2e60a5izj9m': R`Desenvolva $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Uma equação diz que duas expressões são iguais. Pense numa balança: o que você fizer de um lado, faça também do outro, e ela continua equilibrada. O objetivo é isolar a incógnita.</p>
-⟦0⟧
-⟦1⟧
-<h3>Parênteses e frações</h3>
-<p>Primeiro elimine os parênteses (ou divida os dois lados pelo número de fora). Elimine as frações multiplicando cada termo pelo denominador comum:</p>
-⟦2⟧
-<h3>Problemas</h3>
-<ol><li>Escolha uma letra para a incógnita e diga o que ela representa.</li><li>Traduza o enunciado em uma equação.</li><li>Resolva e confira se a resposta faz sentido no problema.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Desfaça as operações na ordem inversa usando <b>operações inversas</b>: adição ↔ subtração, multiplicação ↔ divisão.</p>`,
   '11eu1q8a3p': R`<p>Resolva $5x - 7 = 2x + 11$.</p><ol><li>Subtraia $2x$ dos dois lados: $3x - 7 = 11$.</li><li>Some 7: $3x = 18$.</li><li>Divida por 3: $x = 6$.</li></ol><p>Verificação: $5(6) - 7 = 23$ e $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>A soma de três inteiros consecutivos é 72. Chame-os de $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, então $n = 23$. Os inteiros são 23, 24 e 25.</p>`,
@@ -69,17 +44,6 @@ addT('pt', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, então $⟦3⟧x = ⟦4⟧$ e $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Uma <b>inequação</b> compara duas expressões: $\lt$ (menor que), $\gt$ (maior que), $\le$ (menor ou igual a), $\ge$ (maior ou igual a). Sua solução costuma ser todo um intervalo de números.</p>
-<p>Na reta numérica, $x \gt 2$ é desenhado com uma bolinha <b>aberta</b> em 2 (o 2 não está incluído) e uma seta para a direita; $x \le 2$ usa uma bolinha <b>fechada</b> e uma seta para a esquerda.</p>
-<h3>Resolvendo</h3>
-<p>Resolva como uma equação — somando, subtraindo, multiplicando ou dividindo os dois lados — com uma regra a mais:</p>
-⟦0⟧
-<p>Por quê? $2 \lt 5$, mas multiplicando os dois lados por $-1$ obtemos $-2$ e $-5$, e $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Inequações duplas</h3>
-<p>Faça a mesma operação nas três partes: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. As soluções inteiras são $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Quando você <b>multiplica ou divide por um número negativo</b>, inverta o sinal da desigualdade.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Resolva $7 - 2x \ge 1$.</p><ol><li>Subtraia 7: $-2x \ge -6$.</li><li>Divida por $-2$ e inverta o sinal: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>"O menor inteiro com $x \gt 4$" é 5, e não 4 — uma desigualdade estrita exclui o extremo.</p>`,
@@ -98,13 +62,6 @@ addT('pt', {
   'abjkjjicc6': R`todas as partes`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Um <b>conjunto</b> é uma coleção bem definida de objetos, os seus <b>elementos</b>. Escrevemos $A = \{2; 4; 6; 8\}$ e $4 \in A$ ("4 pertence a A"), $5 \notin A$. $n(A)$ é o número de elementos; aqui $n(A) = 4$. O <b>conjunto vazio</b> $\varnothing$ não tem elementos; o <b>conjunto universo</b> $U$ contém tudo o que está em discussão.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Um diagrama de Venn: cada região é uma combinação diferente de "está em A" e "está em B".`,
   '142ifrt0jkt': R`Notação`,
   '14czndj1h0b': R`Exemplo com A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -139,17 +96,6 @@ addT('pt', {
   '9yersm2gye': R`$A = ⟦0⟧$, então $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Uma <b>função afim</b> tem como gráfico uma reta. Na <b>forma reduzida</b></p>
-⟦0⟧
-<p>$m$ é o <b>coeficiente angular</b> (a inclinação): quanto $y$ varia quando $x$ aumenta 1. $c$ é o <b>coeficiente linear</b>, onde a reta corta o eixo $y$. Na notação de funções escrevemos $f(x) = mx + c$, então $f(3)$ significa "o valor quando $x = 3$".</p>
-<h3>Coeficiente angular a partir de dois pontos</h3>
-⟦1⟧
-⟦2⟧
-<h3>Interceptos e outras formas</h3>
-<p>Faça $x = 0$ para achar onde a reta corta o eixo $y$ e $y = 0$ para onde corta o eixo $x$. Uma reta pode ser escrita $ax + by = c$; isole $y = -\frac{a}{b}x + \frac{c}{b}$ para ler o coeficiente angular. Passando por um ponto $(x_1; y_1)$ com coeficiente angular $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{variação vertical}}{\text{variação horizontal}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Por $(1; 2)$ e $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitua $(1; 2)$ em $y = 3x + c$: $2 = 3 + c$, então $c = -1$ e a reta é $y = 3x - 1$.</p>`,

@@ -1,16 +1,6 @@
 /* Français — Collège (statistiques → similitude) */
 addT('fr', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Un <b>indicateur de position</b> résume une série de données par une valeur typique ; un <b>indicateur de dispersion</b> dit à quel point les valeurs sont étalées.</p>
-⟦0⟧
-<h3>Moyenne à partir d’un tableau d’effectifs</h3>
-⟦1⟧
-⟦2⟧
-<h3>Raisonner à l’envers</h3>
-⟦3⟧
-<p>Avec un nombre pair de valeurs, la médiane est la moyenne des deux valeurs centrales.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`À privilégier quand…`,
   'j0p0vvrwxf': R`les données n’ont pas de valeurs extrêmes (aberrantes)`,
   '2ajydntyvld': R`les données sont asymétriques ou ont des valeurs aberrantes — p. ex. prix des logements`,
@@ -36,16 +26,6 @@ addT('fr', {
   '22iugjzjcbh': R`Le mode est la valeur de plus grand effectif. ⟦0⟧ a un effectif de ⟦1⟧, le plus grand.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Une <b>expérience aléatoire</b> (lancer un dé, tirer une carte) a des <b>issues</b> possibles. L’ensemble de toutes les issues est l’<b>univers</b> $S$ ; un <b>événement</b> $E$ est un ensemble d’issues. Quand toutes les issues sont équiprobables :</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Deux dés</h3>
-<p>Lancer deux dés donne $6 \times 6 = 36$ issues équiprobables. Une somme de 7 s’obtient de 6 façons — (1 ; 6), (2 ; 5), (3 ; 4), (4 ; 3), (5 ; 2), (6 ; 1) — donc $P(\text{somme} = 7) = \frac{6}{36} = \frac{1}{6}$. En général, le nombre de façons d’obtenir une somme $s$ est $6 - |s - 7|$.</p>
-<h3>Un jeu de cartes</h3>
-<p>52 cartes : 4 couleurs (♠ ♣ noires, ♥ ♦ rouges) de 13 valeurs (A, 2–10, V, D, R). Il y a 12 figures (V, D, R).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$ : 0 signifie impossible, 1 signifie certain.</li><li><b>Événement contraire :</b> $P(\text{non } E) = 1 - P(E)$.</li><li><b>Effectif attendu</b> sur $n$ essais $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Un sac contient 3 billes rouges, 5 bleues et 2 vertes. $P(\text{bleue}) = \frac{5}{10} = \frac{1}{2}$ et $P(\text{non verte}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>La fréquence observée (issue d’essais réels) se rapproche de la probabilité théorique quand le nombre d’essais augmente — mais elle lui est rarement égale.</p>`,
@@ -97,19 +77,6 @@ addT('fr', {
   '23r35ol6pkt': R`Il y a ⟦0⟧ parmi les 52 cartes : $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Les questions d’argent de la vie courante sont souvent des questions de pourcentages déguisées.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Remise et taxe</h3>
-<p>Appliquez les pourcentages l’un après l’autre : une remise de 20 % puis une taxe de 10 % sur 150 euros donnent $150 \times 0{,}8 \times 1{,}1 = 132$ euros.</p>
-<h3>Intérêts simples</h3>
-⟦3⟧
-<p>1 500 euros placés à 6 % par an pendant 3 ans rapportent $1\,500 \times 0{,}06 \times 3 = 270$ euros ; le total atteint 1 770 euros. Pour une durée en mois, prenez $t = \frac{\text{mois}}{12}$.</p>
-<h3>Poids brut, tare et poids net</h3>
-<p><b>Brut</b> = poids total ; <b>tare</b> = poids de l’emballage ; <b>net</b> = brut − tare. Un sac de 50 kg avec une tare de 2 % a un poids net de $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Terme`,
   '1mb9fntmked': R`Prix d’achat (PA)`,
   '12bh5c74j0l': R`ce que le vendeur a payé`,
@@ -142,17 +109,6 @@ addT('fr', {
   'g36e4lpvm4': R`$\text{PV} = \text{PA} \times ⟦0⟧$, donc $\text{PA} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ euros. (Retirer ⟦4⟧ % du prix de vente serait une erreur.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Une <b>suite</b> est une liste ordonnée de nombres appelés <b>termes</b>. Trouver la règle permet de prolonger la suite ou d’aller directement à n’importe quel terme.</p>
-<h3>Suites arithmétiques</h3>
-<p>On ajoute chaque fois le même nombre $d$ (la <b>raison</b>) : 5 ; 8 ; 11 ; 14 ; … a pour raison $d = 3$.</p>
-⟦0⟧
-<h3>Suites géométriques</h3>
-<p>Chaque terme est multiplié par la même <b>raison</b> $r$ : 3 ; 6 ; 12 ; 24 ; … ($r = 2$) ; 80 ; 40 ; 20 ; … ($r = \frac{1}{2}$).</p>
-<h3>Suites particulières</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>où $a$ est le premier terme. Pour 5 ; 8 ; 11 ; … : $u_n = 5 + 3(n - 1) = 3n + 2$, donc $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nom`,
   'mwgm16sn11': R`Termes`,
@@ -179,14 +135,6 @@ addT('fr', {
   'o3oiu9pprw': R`Les termes sont ⟦0⟧. Le 7ᵉ terme est ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Une <b>transformation</b> déplace une figure ou change sa taille. Par une translation, une symétrie ou une rotation, l’image est <b>superposable</b> (même forme, même taille) ; par une homothétie, elle est <b>semblable</b> (même forme, taille différente).</p>
-⟦0⟧
-<h3>Figures semblables</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformation`,
   'jmpbrf5c1s': R`Règle pour un point (x ; y)`,
   '2b0j70wot2h': R`Translation de vecteur $\binom{a}{b}$`,

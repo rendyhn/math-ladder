@@ -1,19 +1,6 @@
 /* Bahasa Indonesia — SMA (kaidah pencacahan → logika) */
 addT('id', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Permutasi: urutan diperhatikan</h3>
-⟦1⟧
-<p>Juara pertama, kedua, dan ketiga dari 10 orang: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Susunan dengan unsur yang sama: $\frac{n!}{p!\,q!\cdots}$. Kata "BANANA" memiliki $\frac{6!}{3!\,2!} = 60$ susunan.</li><li>Permutasi siklis (melingkar): $(n - 1)!$ (hasil rotasi dianggap sama).</li></ul>
-<h3>Kombinasi: urutan tidak diperhatikan</h3>
-⟦2⟧
-<p>Panitia 3 orang dari 10 orang: $\binom{10}{3} = 120$. Panitia berisi 2 pria (dari 5) dan 3 wanita (dari 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Teorema binomial</h3>
-⟦3⟧
-<p>Koefisien $x^2$ pada $(x + 3)^5$ adalah $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Aturan perkalian:</b> jika pilihan pertama dapat dilakukan dengan $m$ cara dan pilihan kedua dengan $n$ cara, keduanya bersama-sama dapat dilakukan dengan $m \times n$ cara.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -42,16 +29,6 @@ addT('id', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ faktor) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Dengan dan tanpa pengembalian</h3>
-⟦1⟧
-<p>Diagram pohon membantu mengaturnya: kalikan sepanjang cabang, jumlahkan antarcabang.</p>
-<h3>"Paling sedikit satu"</h3>
-<p>Gunakan komplemen: $P(\text{paling sedikit satu mata 6 dalam 3 lemparan}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Teorema Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Rumus`,
   '29i7n2pf82k': R`Komplemen`,
   '1q1cgu220ce': R`Saling lepas`,
@@ -89,18 +66,6 @@ addT('id', {
   '29cd8gay3w4': R`Dengan pengembalian, kedua pengambilan saling bebas: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Kuartil dan diagram kotak-garis</h3>
-<p>Urutkan data. Median $Q_2$ membagi data menjadi dua bagian; $Q_1$ adalah median bagian bawah dan $Q_3$ median bagian atas (di sini median tidak dimasukkan ke kedua bagian jika $n$ ganjil). <b>Jangkauan antarkuartil</b> $\text{JAK} = Q_3 - Q_1$ mengukur sebaran 50% data di tengah.</p>
-⟦0⟧
-<h3>Ragam dan simpangan baku</h3>
-⟦1⟧
-⟦2⟧
-<h3>Data berkelompok</h3>
-<p>Taksir rata-rata dengan titik tengah kelas: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformasi data</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Aturan pencilan yang umum: nilai di bawah $Q_1 - 1{,}5\,\text{JAK}$ atau di atas $Q_3 + 1{,}5\,\text{JAK}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sampel)}`,
   '1c6crwakkdh': R`<p>Data 2; 4; 4; 4; 5; 5; 7; 9: rata-rata 5, kuadrat simpangan 9; 1; 1; 1; 0; 0; 4; 16 (jumlah 32). Ragam populasi $= \frac{32}{8} = 4$ dan $\sigma = 2$.</p>`,
@@ -131,19 +96,6 @@ addT('id', {
   '111p9ug7ykx': R`Batas bawah $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Persamaan lingkaran</h3>
-⟦1⟧
-<p>Jika dijabarkan, diperoleh <b>bentuk umum</b> $x^2 + y^2 + Dx + Ey + F = 0$ dengan pusat $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ dan jari-jari $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Kedudukan titik</h3>
-<p>Substitusikan titik ke $(x - a)^2 + (y - b)^2$ dan bandingkan dengan $r^2$: lebih kecil → di dalam, sama → pada lingkaran, lebih besar → di luar.</p>
-<h3>Garis singgung</h3>
-<p>Garis singgung tegak lurus jari-jari di titik singgung. Untuk lingkaran $x^2 + y^2 = r^2$ di titik $(x_1; y_1)$, gradien jari-jarinya $\frac{y_1}{x_1}$, jadi gradien garis singgungnya $-\frac{x_1}{y_1}$.</p>
-<h3>Parabola</h3>
-<p>$y^2 = 4px$ memiliki fokus $(p; 0)$ dan direktriks $x = -p$; $x^2 = 4py$ memiliki fokus $(0; p)$ dan direktriks $y = -p$. Setiap titik pada parabola berjarak sama ke fokus dan ke direktriks.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Titik tengah } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Jarak } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{pusat } (a; b), \text{ jari-jari } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: lengkapkan kuadrat, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Pusat $(3; -2)$, jari-jari 5.</p>`,
@@ -172,13 +124,6 @@ addT('id', {
   '1huwumypuyf': R`Jari-jari ke $⟦0⟧$ bergradien $\frac{⟦1⟧}{⟦2⟧}$. Garis singgung tegak lurus padanya: gradien $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p><b>Program linear</b> mencari nilai terbaik (terbesar atau terkecil) dari <b>fungsi objektif</b> linear, misalnya keuntungan $z = 30x + 20y$, dengan <b>kendala</b> linear seperti $x + y \le 40$.</p>
-<ol><li>Tulis kendala sebagai pertidaksamaan (termasuk $x \ge 0$, $y \ge 0$).</li><li>Gambar setiap garis batas dan arsir daerah yang memenuhi semua kendala — <b>daerah penyelesaian</b> (daerah layak).</li><li>Tentukan titik-titik pojok dengan menyelesaikan pasangan persamaan garis batas.</li><li>Hitung nilai fungsi objektif di setiap titik pojok.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Untuk masalah minimum dengan kendala "≥", daerahnya sering tidak terbatas; jika biayanya positif, nilai minimum tetap tercapai di titik pojok.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Teorema titik pojok:</b> jika nilai optimum ada, nilai itu tercapai di salah satu titik pojok daerah penyelesaian.</p>`,
   '1g8qhbmqb9w': R`<p>Maksimumkan $z = 3x + 2y$ dengan kendala $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Titik pojok: $(0; 0)$, $(6; 0)$, $(4; 4)$ [perpotongan $x + y = 8$ dan $2x + y = 12$], $(0; 8)$.</p><p>Nilai $z$: 0; 18; 20; 16. Maksimum $z = 20$ di $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Periksa apakah setiap titik pojok memenuhi <b>semua</b> kendala — perpotongan dua garis batas bisa saja berada di luar daerah.</p>`,
@@ -192,17 +137,6 @@ addT('id', {
   '296rrmt4h4q': R`Kendala: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Titik pojok: ⟦3⟧. Keuntungan maksimum: <b>⟦4⟧</b> ribu rupiah.`,
 
   // logic
-  '22xng4phovn': R`
-<p><b>Pernyataan</b> (proposisi) adalah kalimat yang bernilai benar atau salah, tetapi tidak keduanya. Pernyataan majemuk dibentuk dengan <b>kata hubung logika</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Konvers, invers, dan kontraposisi</h3>
-⟦2⟧
-<h3>Kuantor</h3>
-<p>$\forall$ "untuk semua" dan $\exists$ "ada/terdapat". Negasi menukar keduanya: negasi dari "Semua siswa lulus" adalah "<b>Ada</b> siswa yang <b>tidak</b> lulus"; negasi dari "Ada burung yang tidak dapat terbang" adalah "Semua burung dapat terbang".</p>
-<h3>Penarikan kesimpulan yang sah</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; jadi $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; jadi $\neg p$.</li><li><b>Silogisme:</b> $p \Rightarrow q$, $q \Rightarrow r$; jadi $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`BS`,
   '1h0id2d836q': R`<p>Implikasi $p \Rightarrow q$ bernilai salah <b>hanya</b> jika $p$ benar dan $q$ salah.</p>`,
   '2aojok6ubm7': R`Bentuk`,

@@ -1,15 +1,6 @@
 /* Português — Universidade (técnicas de derivação → equações diferenciais) */
 addT('pt', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Derivação implícita</h3>
-<p>Quando $y$ é definido implicitamente, derive os dois lados em relação a $x$, tratando $y$ como função de $x$ (assim $\frac{d}{dx}y^2 = 2y\,y'$), e depois isole $y'$.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Produto`,
   '1fd6nxjb0xt': R`Quociente`,
   '21u0n9yxqot': R`Cadeia`,
@@ -36,20 +27,6 @@ addT('pt', {
   '20aqqhk2mtp': R`Regra do produto: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Logo $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Regra de L'Hôpital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (aplicada duas vezes).</p>
-<h3>Otimização</h3>
-<ol><li>Escreva a grandeza a otimizar como função de uma só variável (use a restrição).</li><li>Derive e resolva $f'(x) = 0$.</li><li>Verifique se é máximo/mínimo (segunda derivada ou extremos do intervalo).</li></ol>
-⟦1⟧
-<h3>Taxas relacionadas</h3>
-<p>Derive uma relação em relação ao tempo. Para um círculo que cresce, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Aproximação linear</h3>
-⟦2⟧
-<h3>Concavidade e teorema do valor médio</h3>
-<p>$f'' \gt 0$: concavidade para cima; $f'' \lt 0$: concavidade para baixo; um <b>ponto de inflexão</b> é onde a concavidade muda. <b>TVM:</b> se $f$ é contínua em $[a; b]$ e derivável no interior, existe $c$ em $(a; b)$ com $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Se $\lim \frac{f(x)}{g(x)}$ tem a forma $\frac{0}{0}$ ou $\frac{\infty}{\infty}$, então $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (quando o lado direito existe).</p>`,
   '189x52ko5mw': R`<p>Recortam-se quadrados de lado $x$ nos cantos de uma folha quadrada de 18 cm e dobram-se as abas. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ dá $x = 3$, então $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{p. ex. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -74,19 +51,6 @@ addT('pt', {
   '1c5ltuvzsrq': R`Inclinação média $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ dá $c = ⟦7⟧$ — o ponto médio, como sempre para uma quadrática.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Substituição</h3>
-<p>Procure uma função e sua derivada. Com $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
-<p>Em integrais definidas, mude também os limites (ou volte à variável original antes de calcular).</p>
-<h3>Integração por partes</h3>
-⟦1⟧
-⟦2⟧
-<h3>Frações parciais</h3>
-<p>Decomponha uma função racional em partes mais simples: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Elimine os denominadores e substitua $x = 1$ e $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Cada parte integra para um logaritmo.</p>
-<h3>Integrais impróprias</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Escolha $u$ pela regra <b>LIATE</b>: Logarítmica, Inversa trigonométrica, Algébrica, Trigonométrica, Exponencial — a que aparecer primeiro.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, então $du = dx$, $v = \frac{1}{2}e^{2x}$. Resultado: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -139,14 +103,6 @@ addT('pt', {
   'lpjavqv13n': R`Uma mola tem constante $k = ⟦0⟧$ N/m. Quanto trabalho é necessário para esticá-la ⟦1⟧ m a partir do comprimento natural?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Uma série infinita $\sum a_n$ <b>converge</b> se suas somas parciais $S_N = a_1 + \cdots + a_N$ tendem a um limite finito.</p>
-⟦0⟧
-⟦1⟧
-<h3>Séries de potências e séries de Taylor</h3>
-<p>Uma série de potências $\sum c_n (x - a)^n$ converge para $|x - a| \lt R$, o <b>raio de convergência</b> (encontrado com o teste da razão). A série de Taylor de $f$ em torno de $a$ é $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; em torno de 0 ela se chama série de Maclaurin.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Teste`,
   '1boy0ga8tbt': R`Conclusão`,
   '7ih7yeq8ue': R`Teste do termo geral`,
@@ -200,19 +156,6 @@ addT('pt', {
   '262p4pwoflz': R`É a série conhecida de $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Para $f(x, y)$, a <b>derivada parcial</b> $f_x = \frac{\partial f}{\partial x}$ deriva em relação a $x$ tratando $y$ como constante (e vice-versa para $f_y$). Para $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradiente e derivadas direcionais</h3>
-⟦0⟧
-<h3>Pontos críticos: teste da segunda derivada</h3>
-<p>Num ponto em que $f_x = f_y = 0$, seja $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: mínimo local. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: máximo local.</li><li>$D \lt 0$: ponto de sela. &nbsp; $D = 0$: o teste é inconclusivo.</li></ul>
-<h3>Integrais duplas</h3>
-<p>Sobre um retângulo, integre uma variável de cada vez (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Em coordenadas polares, $dA = r\,dr\,d\theta$.</p>
-<h3>Multiplicadores de Lagrange</h3>
-<p>Para otimizar $f$ sujeita a $g = c$, resolva $\nabla f = \lambda\nabla g$ junto com a restrição.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ aponta na direção de maior crescimento; seu comprimento é essa taxa máxima.</p>`,
   'opu0v1dwpl': R`<p>Maximize $f = xy$ sujeita a $x + y = 10$: $(y; x) = \lambda(1; 1)$ dá $x = y = 5$, então o máximo é 25.</p>`,
   '83uqphqp8x': R`<p>Em coordenadas polares, não esqueça o fator extra $r$ em $dA = r\,dr\,d\theta$.</p>`,
@@ -240,18 +183,6 @@ addT('pt', {
   'hl1el1t8oy': R`Coordenadas polares: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p>Uma <b>equação diferencial</b> relaciona uma função com suas derivadas. Sua <b>ordem</b> é a da derivada mais alta que aparece. A <b>solução geral</b> contém constantes arbitrárias; condições iniciais determinam uma solução particular.</p>
-<h3>Equações separáveis</h3>
-⟦0⟧
-<p>Caso especial: $\frac{dy}{dt} = ky$ dá $y = y_0e^{kt}$ — crescimento ($k \gt 0$) ou decaimento ($k \lt 0$) exponencial. Com meia-vida $T$, a quantidade restante é $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Equações lineares de primeira ordem</h3>
-⟦1⟧
-<h3>Lineares de segunda ordem com coeficientes constantes</h3>
-<p>Para $ay'' + by' + cy = 0$, tente $y = e^{rx}$ e obtenha a <b>equação característica</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: separe, $\int\frac{dy}{y} = \int 2x\,dx$, então $\ln|y| = x^2 + C$ e $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Para $y' + P(x)y = Q(x)$, multiplique pelo <b>fator integrante</b> $\mu(x) = e^{\int P(x)\,dx}$. Então $(\mu y)' = \mu Q$, logo $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Raízes`,

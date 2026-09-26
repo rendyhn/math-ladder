@@ -14,20 +14,6 @@ addT('fr', {
   '2wu7e9ekt1': R`Un rectangle de longueur l et de largeur w, un triangle de base b et de hauteur h, et un trapèze de bases parallèles a et b et de hauteur h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Notre système de numération utilise dix chiffres, de 0 à 9. Le <b>rang</b> d’un chiffre indique sa <b>valeur</b> : chaque rang vaut dix fois le rang situé à sa droite.</p>
-⟦0⟧
-<p>Dans <b>5 382 417</b>, le chiffre 8 est au rang des dizaines de mille, il vaut donc $8 \times 10\,000 = 80\,000$. Le chiffre 3 vaut $300\,000$.</p>
-<h3>Écriture décomposée</h3>
-<p>Écrire un nombre comme la somme des valeurs de ses chiffres montre ce que vaut chacun d’eux :</p>
-⟦1⟧
-<p>Le 0 au rang des dizaines <b>tient la place</b>. Sans lui, 4 307 deviendrait 437.</p>
-<h3>Comparer des nombres</h3>
-<p>Un nombre entier qui a plus de chiffres est plus grand. Si deux nombres ont autant de chiffres, on les compare chiffre par chiffre en partant de la gauche ; le premier rang où ils diffèrent décide. Ainsi $52\,814 \gt 52\,781$ car au rang des centaines $8 \gt 7$.</p>
-<h3>Arrondir</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Millions`,
   '1y40p90zlus': R`Centaines de mille`,
@@ -64,18 +50,6 @@ addT('fr', {
   '1uhrj1iztnj': R`plus petit au plus grand`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>L’addition réunit des quantités ; la soustraction calcule ce qui reste ou l’<b>écart</b> entre deux quantités. Pour les grands nombres, on pose l’opération <b>en colonnes</b> : on aligne les chiffres selon leur rang et on commence par la colonne des unités, vers la gauche.</p>
-<h3>Addition avec retenue</h3>
-<p>Quand une colonne fait 10 ou plus, on écrit le chiffre des unités et on <b>reporte une retenue</b> dans la colonne suivante.</p>
-⟦0⟧
-<h3>Soustraction avec retenue</h3>
-<p>Si le chiffre du haut est plus petit que celui du bas, on <b>emprunte</b> une dizaine à la colonne suivante : cela ajoute 10 à la colonne en cours.</p>
-⟦1⟧
-⟦2⟧
-<h3>Problèmes</h3>
-<p>Des mots comme <i>en tout, au total, de plus, augmenté</i> indiquent souvent une addition. Des mots comme <i>reste, il reste, écart, combien de plus, de moins</i> indiquent souvent une soustraction. Demandez-vous toujours ce que la question cherche vraiment.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Unités : $7 + 6 = 13$ → on écrit 3 et on retient 1.</li><li>Dizaines : $8 + 4 + 1 = 13$ → on écrit 3 et on retient 1.</li><li>Centaines : $5 + 8 + 1 = 14$ → on écrit 4 et on retient 1.</li><li>Milliers : $4 + 2 + 1 = 7$.</li></ol><p>Réponse : <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Unités : 4 est plus petit que 8. Le chiffre des dizaines est 0, on emprunte donc aux centaines : 204 devient 1 centaine, 9 dizaines et 14 unités. $14 - 8 = 6$.</li><li>Dizaines : $9 - 5 = 4$.</li><li>Centaines : 1 est plus petit que 7, on emprunte un millier : $11 - 7 = 4$.</li><li>Milliers : $5 - 1 = 4$.</li></ol><p>Réponse : <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>L’addition et la soustraction s’annulent l’une l’autre. Pour vérifier une soustraction, on additionne : $4\,446 + 1\,758 = 6\,204$ ✓. Cela permet aussi de trouver un nombre manquant : si $\square + 348 = 1\,000$, alors $\square = 1\,000 - 348 = 652$.</p>`,
@@ -100,17 +74,6 @@ addT('fr', {
   'h14zpmlfj7': R`« Combien de plus » demande l’écart : $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p>La <b>multiplication</b> est une addition répétée de groupes égaux : $4 \times 6$ signifie 4 groupes de 6, soit $6 + 6 + 6 + 6 = 24$. La <b>division</b> partage une quantité en groupes égaux : $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Multiplier de grands nombres</h3>
-<p>On décompose l’un des nombres selon ses rangs, on multiplie chaque partie et on additionne (c’est la distributivité) :</p>
-⟦1⟧
-<h3>Division et reste</h3>
-<p>Quand la division ne tombe pas juste, ce qu’il reste s’appelle le <b>reste</b>. Il est toujours plus petit que le diviseur.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>La multiplication et la division s’annulent l’une l’autre : $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>L’ordre des facteurs ne compte pas : $a \times b = b \times a$.</li><li>La multiplication est distributive sur l’addition : $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ reste } 2 \qquad \text{car } 5 \times 9 + 2 = 47`,
@@ -136,13 +99,6 @@ addT('fr', {
   '13ytah9dyhs': R`Des rangées égales, c’est une multiplication : $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ chaises.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Quand un calcul comporte plusieurs opérations, tout le monde doit les effectuer dans le même ordre, sinon une même expression donnerait des résultats différents. Cet ordre s’appelle les <b>priorités opératoires</b> ; en anglais, on le retient avec le mot <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Étape`,
   '1ata9ppdhpl': R`Opération`,
   '1i56r47suu5': R`Exemple`,
@@ -168,19 +124,6 @@ addT('fr', {
   '2g7vu4g2g7r': R`L’addition et la soustraction ont la même priorité, on calcule donc de gauche à droite : $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, puis $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Calculer d’abord $⟦6⟧ + ⟦7⟧$ donnerait à tort ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p>Un <b>diviseur</b> d’un nombre le divise exactement. Un <b>multiple</b> d’un nombre est ce nombre multiplié par un nombre entier.</p>
-<ul><li>Diviseurs de 12 : 1, 2, 3, 4, 6, 12 (ils vont par paires : $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Multiples de 12 : 12, 24, 36, 48, …</li></ul>
-<h3>Nombres premiers et composés</h3>
-<p>Un nombre <b>premier</b> a exactement deux diviseurs : 1 et lui-même (2, 3, 5, 7, 11, 13, …). Un nombre <b>composé</b> a plus de deux diviseurs. Le nombre 1 n’est ni premier ni composé, et 2 est le seul nombre premier pair.</p>
-⟦0⟧
-<h3>Décomposition en facteurs premiers</h3>
-<p>Tout nombre entier supérieur à 1 s’écrit d’une seule façon comme produit de nombres premiers. Utilisez un arbre : décomposez jusqu’à ce que chaque branche se termine par un nombre premier.</p>
-⟦1⟧
-<h3>PGCD et PPCM</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Divisible par`,
   '1u2j0a6t91o': R`Critère`,
   '1fsfip1h2ap': R`le dernier chiffre est pair`,

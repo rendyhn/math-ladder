@@ -1,19 +1,6 @@
 /* Português (Brasil) — Ensino Médio (análise combinatória → lógica) */
 addT('pt', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Arranjos: a ordem importa</h3>
-⟦1⟧
-<p>Primeiro, segundo e terceiro prêmios entre 10 pessoas: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Permutações com elementos repetidos: $\frac{n!}{p!\,q!\cdots}$. "BANANA" tem $\frac{6!}{3!\,2!} = 60$ anagramas.</li><li>Em volta de uma mesa redonda: $(n - 1)!$ (rotações contam como iguais).</li></ul>
-<h3>Combinações: a ordem não importa</h3>
-⟦2⟧
-<p>Uma comissão de 3 pessoas entre 10: $\binom{10}{3} = 120$. Uma comissão com 2 homens (de 5) e 3 mulheres (de 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Binômio de Newton</h3>
-⟦3⟧
-<p>O coeficiente de $x^2$ em $(x + 3)^5$ é $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Princípio multiplicativo:</b> se uma escolha pode ser feita de $m$ maneiras e outra de $n$ maneiras, juntas podem ser feitas de $m \times n$ maneiras.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -42,16 +29,6 @@ addT('pt', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ fatores) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Com e sem reposição</h3>
-⟦1⟧
-<p>Diagramas de árvore organizam isso: multiplique ao longo dos ramos e some entre os ramos.</p>
-<h3>"Pelo menos um"</h3>
-<p>Use o complementar: $P(\text{pelo menos um seis em 3 lançamentos}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Teorema de Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Fórmula`,
   '29i7n2pf82k': R`Complementar`,
   '1q1cgu220ce': R`Mutuamente exclusivos`,
@@ -89,18 +66,6 @@ addT('pt', {
   '29cd8gay3w4': R`Com reposição, as retiradas são independentes: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Quartis e diagramas de caixa</h3>
-<p>Ordene os dados. A mediana $Q_2$ os divide ao meio; $Q_1$ é a mediana da metade inferior e $Q_3$ a da metade superior (aqui deixamos a mediana fora das duas metades quando $n$ é ímpar). A <b>amplitude interquartil</b> $\text{AIQ} = Q_3 - Q_1$ mede a dispersão dos 50% centrais.</p>
-⟦0⟧
-<h3>Variância e desvio padrão</h3>
-⟦1⟧
-⟦2⟧
-<h3>Dados agrupados</h3>
-<p>Estime a média com os pontos médios das classes: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformando dados</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Uma regra comum para valores atípicos: valores abaixo de $Q_1 - 1{,}5\,\text{AIQ}$ ou acima de $Q_3 + 1{,}5\,\text{AIQ}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (amostral)}`,
   '1c6crwakkdh': R`<p>Dados 2; 4; 4; 4; 5; 5; 7; 9: média 5, desvios ao quadrado 9; 1; 1; 1; 0; 0; 4; 16 (soma 32). Variância populacional $= \frac{32}{8} = 4$ e $\sigma = 2$.</p>`,
@@ -131,19 +96,6 @@ addT('pt', {
   '111p9ug7ykx': R`Limite inferior $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Equação da circunferência</h3>
-⟦1⟧
-<p>Desenvolvendo, obtém-se a <b>equação geral</b> $x^2 + y^2 + Dx + Ey + F = 0$, com centro $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ e raio $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Posição de um ponto</h3>
-<p>Substitua o ponto em $(x - a)^2 + (y - b)^2$ e compare com $r^2$: menor → dentro, igual → sobre, maior → fora.</p>
-<h3>Retas tangentes</h3>
-<p>Uma tangente é perpendicular ao raio no ponto de tangência. Para a circunferência $x^2 + y^2 = r^2$ em $(x_1; y_1)$, o raio tem inclinação $\frac{y_1}{x_1}$, então a tangente tem inclinação $-\frac{x_1}{y_1}$.</p>
-<h3>Parábolas</h3>
-<p>$y^2 = 4px$ tem foco $(p; 0)$ e diretriz $x = -p$; $x^2 = 4py$ tem foco $(0; p)$ e diretriz $y = -p$. Todo ponto de uma parábola está à mesma distância do foco e da diretriz.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Ponto médio } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Distância } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centro } (a; b), \text{ raio } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: completando quadrados, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centro $(3; -2)$, raio 5.</p>`,
@@ -172,13 +124,6 @@ addT('pt', {
   '1huwumypuyf': R`O raio até $⟦0⟧$ tem inclinação $\frac{⟦1⟧}{⟦2⟧}$. A tangente é perpendicular: inclinação $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p>A <b>programação linear</b> busca o melhor valor (maior ou menor) de uma <b>função objetivo</b> linear, como o lucro $z = 30x + 20y$, sujeita a <b>restrições</b> lineares como $x + y \le 40$.</p>
-<ol><li>Escreva as restrições como inequações (inclua $x \ge 0$, $y \ge 0$).</li><li>Desenhe cada reta de fronteira e sombreie a região que satisfaz todas as restrições — a <b>região viável</b>.</li><li>Encontre os vértices resolvendo pares de equações de fronteira.</li><li>Calcule a função objetivo em cada vértice.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Em problemas de minimização com restrições "≥", a região costuma ser ilimitada; com custos positivos, o mínimo continua num vértice.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Teorema dos vértices:</b> se existe um ótimo, ele ocorre num vértice da região viável.</p>`,
   '1g8qhbmqb9w': R`<p>Maximize $z = 3x + 2y$ sujeita a $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vértices: $(0; 0)$, $(6; 0)$, $(4; 4)$ [onde $x + y = 8$ encontra $2x + y = 12$], $(0; 8)$.</p><p>Valores de $z$: 0; 18; 20; 16. Máximo $z = 20$ em $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Verifique se cada vértice satisfaz <b>todas</b> as restrições — a interseção de duas retas de fronteira pode ficar fora da região.</p>`,
@@ -192,17 +137,6 @@ addT('pt', {
   '296rrmt4h4q': R`Restrições: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Vértices: ⟦3⟧. Lucro máximo: <b>⟦4⟧</b> reais.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Uma <b>proposição</b> é uma frase que é verdadeira ou falsa. Proposições compostas são formadas com <b>conectivos</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Condicionais relacionadas</h3>
-⟦2⟧
-<h3>Quantificadores</h3>
-<p>$\forall$ "para todo" e $\exists$ "existe". A negação troca um pelo outro: a negação de "Todos os alunos passaram" é "<b>Alguns</b> alunos <b>não</b> passaram"; a negação de "Algumas aves não voam" é "Todas as aves voam".</p>
-<h3>Argumentos válidos</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; logo, $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; logo, $\neg p$.</li><li><b>Silogismo:</b> $p \Rightarrow q$, $q \Rightarrow r$; logo, $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`VF`,
   '1h0id2d836q': R`<p>Uma implicação $p \Rightarrow q$ é falsa <b>somente</b> quando $p$ é verdadeira e $q$ é falsa.</p>`,
   '2aojok6ubm7': R`Forma`,

@@ -167,20 +167,6 @@ addT('id', {
   '2wu7e9ekt1': R`Persegi panjang dengan panjang l dan lebar w, segitiga dengan alas b dan tinggi h, serta trapesium dengan sisi sejajar a dan b dan tinggi h`,
 
   // place-value
-  'i1ejiqva2l': R`
-<p>Sistem bilangan kita memakai sepuluh angka, yaitu 0 sampai 9. <b>Tempat</b> sebuah angka menentukan <b>nilainya</b>: setiap tempat bernilai sepuluh kali tempat di sebelah kanannya.</p>
-⟦0⟧
-<p>Pada <b>5 382 417</b>, angka 8 berada di tempat puluh ribuan, jadi nilainya $8 \times 10\,000 = 80\,000$. Angka 3 bernilai $300\,000$.</p>
-<h3>Bentuk panjang</h3>
-<p>Menulis bilangan sebagai jumlah nilai tempatnya menunjukkan nilai setiap angka:</p>
-⟦1⟧
-<p>Angka 0 di tempat puluhan berfungsi sebagai <b>pengisi tempat</b>. Tanpa 0 itu, 4 307 akan berubah menjadi 437.</p>
-<h3>Membandingkan bilangan</h3>
-<p>Bilangan cacah yang angkanya lebih banyak adalah yang lebih besar. Jika banyak angkanya sama, bandingkan angka demi angka mulai dari kiri; tempat pertama yang berbeda menentukan. Jadi $52\,814 \gt 52\,781$ karena pada tempat ratusan $8 \gt 7$.</p>
-<h3>Pembulatan</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gisuf2bt5s': R`4\,307 = 4\,000 + 300 + 7`,
   'k8yn6x5f0c': R`Jutaan`,
   '1y40p90zlus': R`Ratus ribuan`,
@@ -217,18 +203,6 @@ addT('id', {
   '1uhrj1iztnj': R`dari terkecil ke terbesar`,
 
   // add-sub
-  '2crp1hgq6k1': R`
-<p>Penjumlahan menggabungkan beberapa banyak benda; pengurangan mencari sisa atau <b>selisih</b> dua banyak benda. Untuk bilangan besar kita memakai <b>cara bersusun</b>: susun angka sesuai nilai tempatnya lalu hitung mulai dari kolom satuan ke kiri.</p>
-<h3>Penjumlahan dengan menyimpan</h3>
-<p>Jika jumlah satu kolom 10 atau lebih, tulis angka satuannya dan <b>simpan</b> puluhannya ke kolom berikutnya.</p>
-⟦0⟧
-<h3>Pengurangan dengan meminjam</h3>
-<p>Jika angka atas pada suatu kolom lebih kecil daripada angka bawah, <b>pinjam</b> satu dari kolom berikutnya: kolom saat ini bertambah 10.</p>
-⟦1⟧
-⟦2⟧
-<h3>Soal cerita</h3>
-<p>Kata-kata seperti <i>semuanya, seluruhnya, lebih banyak, bertambah</i> biasanya berarti penjumlahan. Kata-kata seperti <i>sisa, tinggal, selisih, berapa lebih banyak, lebih sedikit</i> biasanya berarti pengurangan. Selalu tanyakan apa yang sebenarnya diminta soal.</p>
-⟦3⟧`,
   '12bc1hhhzgf': R`<p>$4\,587 + 2\,846$</p><ol><li>Satuan: $7 + 6 = 13$ → tulis 3, simpan 1.</li><li>Puluhan: $8 + 4 + 1 = 13$ → tulis 3, simpan 1.</li><li>Ratusan: $5 + 8 + 1 = 14$ → tulis 4, simpan 1.</li><li>Ribuan: $4 + 2 + 1 = 7$.</li></ol><p>Jawaban: <b>7 433</b>.</p>`,
   'dzfcdnot25': R`<p>$6\,204 - 1\,758$</p><ol><li>Satuan: 4 lebih kecil dari 8. Angka puluhannya 0, jadi pinjam dari ratusan: 204 menjadi 1 ratusan, 9 puluhan, dan 14 satuan. $14 - 8 = 6$.</li><li>Puluhan: $9 - 5 = 4$.</li><li>Ratusan: 1 lebih kecil dari 7, jadi pinjam satu ribuan: $11 - 7 = 4$.</li><li>Ribuan: $5 - 1 = 4$.</li></ol><p>Jawaban: <b>4 446</b>.</p>`,
   '1myl5xbp4pm': R`<p>Penjumlahan dan pengurangan saling berkebalikan. Periksa hasil pengurangan dengan penjumlahan: $4\,446 + 1\,758 = 6\,204$ ✓. Cara ini juga dipakai untuk mencari bilangan yang hilang: jika $\square + 348 = 1\,000$, maka $\square = 1\,000 - 348 = 652$.</p>`,
@@ -253,17 +227,6 @@ addT('id', {
   'h14zpmlfj7': R`"Berapa lebih banyak" menanyakan selisih: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // mul-div
-  '12j6s3mfail': R`
-<p><b>Perkalian</b> adalah penjumlahan berulang dari kelompok-kelompok yang sama besar: $4 \times 6$ berarti 4 kelompok berisi 6, yaitu $6 + 6 + 6 + 6 = 24$. <b>Pembagian</b> membagi suatu banyak benda menjadi kelompok-kelompok yang sama besar: $24 \div 6 = 4$.</p>
-⟦0⟧
-<h3>Mengalikan bilangan yang lebih besar</h3>
-<p>Uraikan salah satu bilangan menurut nilai tempatnya, kalikan setiap bagian, lalu jumlahkan (inilah sifat distributif):</p>
-⟦1⟧
-<h3>Pembagian dan sisa</h3>
-<p>Jika suatu bilangan tidak habis dibagi, bagian yang tersisa disebut <b>sisa</b>. Sisa selalu lebih kecil daripada pembagi.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '1rjytzik9fa': R`<p>Perkalian dan pembagian saling berkebalikan: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Urutan tidak berpengaruh pada perkalian: $a \times b = b \times a$.</li><li>Perkalian dapat disebarkan pada penjumlahan: $a \times (b + c) = a \times b + a \times c$.</li></ul>`,
   '20j6lyqvksk': R`347 \times 26 = 347 \times 20 + 347 \times 6 = 6\,940 + 2\,082 = 9\,022`,
   '11dzvmewikb': R`47 \div 5 = 9 \text{ sisa } 2 \qquad \text{karena } 5 \times 9 + 2 = 47`,
@@ -289,13 +252,6 @@ addT('id', {
   '13ytah9dyhs': R`Baris yang sama banyak berarti perkalian: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$ kursi.`,
 
   // order-ops
-  'jeo8qdfjh8': R`
-<p>Jika suatu perhitungan memuat beberapa operasi, semua orang harus mengerjakannya dengan urutan yang sama; kalau tidak, satu bentuk yang sama bisa menghasilkan jawaban berbeda. Urutan yang disepakati ini disebut <b>urutan operasi hitung</b>; dalam bahasa Inggris sering diingat dengan singkatan <b>PEMDAS</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '100vdkuw7cv': R`Langkah`,
   '1ata9ppdhpl': R`Operasi`,
   '1i56r47suu5': R`Contoh`,
@@ -321,19 +277,6 @@ addT('id', {
   '2g7vu4g2g7r': R`Penjumlahan dan pengurangan setingkat, jadi kerjakan dari kiri ke kanan: $⟦0⟧ - ⟦1⟧ = ⟦2⟧$, lalu $⟦3⟧ + ⟦4⟧ = ⟦5⟧$. Jika $⟦6⟧ + ⟦7⟧$ dijumlahkan lebih dulu, hasilnya keliru menjadi ⟦8⟧.`,
 
   // factors
-  'obrpwbkvog': R`
-<p><b>Faktor</b> suatu bilangan adalah bilangan yang membagi habis bilangan itu. <b>Kelipatan</b> suatu bilangan adalah bilangan itu dikali bilangan asli.</p>
-<ul><li>Faktor 12: 1, 2, 3, 4, 6, 12 (berpasangan: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Kelipatan 12: 12, 24, 36, 48, …</li></ul>
-<h3>Bilangan prima dan komposit</h3>
-<p>Bilangan <b>prima</b> tepat memiliki dua faktor: 1 dan bilangan itu sendiri (2, 3, 5, 7, 11, 13, …). Bilangan <b>komposit</b> memiliki lebih dari dua faktor. Bilangan 1 bukan prima dan bukan komposit, dan 2 adalah satu-satunya bilangan prima genap.</p>
-⟦0⟧
-<h3>Faktorisasi prima</h3>
-<p>Setiap bilangan cacah yang lebih dari 1 dapat ditulis sebagai hasil kali bilangan prima dengan tepat satu cara. Gunakan pohon faktor: terus uraikan sampai setiap cabang berakhir di bilangan prima.</p>
-⟦1⟧
-<h3>FPB dan KPK</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '10ydoy6638h': R`Habis dibagi`,
   '1u2j0a6t91o': R`Ciri`,
   '1fsfip1h2ap': R`angka terakhirnya genap`,
@@ -366,23 +309,6 @@ addT('id', {
 /* Bahasa Indonesia — SD (pecahan → pengukuran) */
 addT('id', {
   // fractions
-  '1j59vvw5wlm': R`
-<p><b>Pecahan</b> $\frac{a}{b}$ berarti $a$ bagian dari $b$ bagian yang sama besar. Bilangan di atas disebut <b>pembilang</b>; bilangan di bawah disebut <b>penyebut</b>.</p>
-<h3>Pecahan senilai dan bentuk paling sederhana</h3>
-<p>Mengalikan atau membagi pembilang dan penyebut dengan bilangan yang sama menghasilkan pecahan senilai: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Untuk <b>menyederhanakan</b>, bagi keduanya dengan FPB-nya:</p>
-⟦0⟧
-<h3>Pecahan campuran</h3>
-<p>$2\frac{1}{3}$ berarti $2 + \frac{1}{3}$. Sebagai pecahan biasa: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Penjumlahan dan pengurangan</h3>
-⟦1⟧
-⟦2⟧
-<h3>Perkalian dan pembagian</h3>
-⟦3⟧
-<p>Untuk membagi, <b>tetapkan</b> pecahan pertama, <b>ubah</b> ÷ menjadi ×, lalu <b>balik</b> pecahan kedua.</p>
-⟦4⟧
-<h3>Pecahan dari suatu jumlah</h3>
-<p>Bagi dengan penyebut, lalu kalikan dengan pembilang: $\frac{3}{8}$ dari $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>Pecahan hanya dapat dijumlahkan atau dikurangkan jika <b>penyebutnya sama</b>. Samakan penyebutnya (gunakan KPK dari penyebut-penyebutnya), lalu jumlahkan atau kurangkan pembilangnya.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>Jangan pernah menjumlahkan penyebut: $\frac{1}{2} + \frac{1}{3}$ hasilnya $\frac{5}{6}$, bukan $\frac{2}{5}$.</p>`,
@@ -408,23 +334,6 @@ addT('id', {
   '2er4a94vvmc': R`Bandingkan dalam bentuk desimal (atau samakan penyebutnya): ⟦0⟧. Yang terkecil adalah $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Bilangan desimal memperluas nilai tempat ke sebelah kanan satuan. Setiap tempat bernilai sepersepuluh tempat di sebelah kirinya.</p>
-⟦0⟧
-<p>Jadi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Membandingkan desimal</h3>
-<p>Samakan banyak angka di belakang koma dengan menambahkan nol, lalu bandingkan: $0{,}5 = 0{,}50 \gt 0{,}45$. Desimal yang lebih panjang belum tentu lebih besar!</p>
-<h3>Penjumlahan dan pengurangan</h3>
-⟦1⟧
-⟦2⟧
-<h3>Perkalian</h3>
-<p>Kalikan seolah-olah tidak ada koma, lalu hitung jumlah angka di belakang koma pada kedua faktor — hasilnya memiliki angka di belakang koma sebanyak itu.</p>
-⟦3⟧
-<h3>Pembagian dan mengubah bentuk</h3>
-<p>Mengalikan dengan 10, 100, atau 1000 menggeser angka-angka 1, 2, atau 3 tempat ke kiri (bilangannya membesar); membagi menggesernya ke kanan. Pecahan diubah menjadi desimal dengan membagi pembilang oleh penyebut: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Membulatkan desimal</h3>
-<p>Aturannya sama dengan bilangan cacah: lihat angka berikutnya. $6{,}847$ dibulatkan ke persepuluhan terdekat menjadi $6{,}8$; ke perseratusan terdekat menjadi $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Persepuluhan`,
   '1usmp59h50n': R`Perseratusan`,
   'biszmhnvcw': R`Perseribuan`,
@@ -452,16 +361,6 @@ addT('id', {
   'clxur1r60o': R`Tulis semuanya dengan tiga angka di belakang koma: ⟦0⟧. Yang terkecil adalah <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Persen</b> berarti "per seratus": $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>Tiga pertanyaan dasar</h3>
-⟦1⟧
-⟦2⟧
-<h3>Kenaikan, penurunan, dan diskon</h3>
-<p>Diskon $20\%$ untuk barang seharga 80 ribu rupiah menghemat $0{,}2 \times 80 = 16$ ribu rupiah, jadi harga setelah diskon $80 - 16 = 64$ ribu rupiah. Lebih cepat: kamu membayar $80\%$ dari harga, yaitu $0{,}8 \times 80 = 64$.</p>
-<p>Kenaikan $p\%$ berarti dikalikan $1 + \frac{p}{100}$; penurunan berarti dikalikan $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Pecahan`,
   '21lfn42y4af': R`Desimal`,
   '1vaz29jk1go': R`Persen`,
@@ -483,15 +382,6 @@ addT('id', {
   '260avkxsjev': R`Perubahan: ⟦0⟧ ribu rupiah. Persentase penurunan: ⟦1⟧ — selalu bagi dengan harga <b>awal</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>Sistem metrik dibangun dari perpangkatan sepuluh, dengan awalan yang menunjukkan besar suatu satuan.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Waktu</h3>
-<p>Waktu <i>tidak</i> desimal: satu jam sama dengan 60 menit, bukan 100. Untuk menghitung lama waktu, hitung maju bertahap: dari 09:35 sampai 13:10 adalah 25 menit (sampai 10:00) + 3 jam (sampai 13:00) + 10 menit = 3 jam 35 menit = 215 menit.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Awalan`,
   '18vrcwaxvwu': R`Arti`,
   '1j1ms4p35q': R`Contoh`,
@@ -526,15 +416,6 @@ addT('id', {
 /* Bahasa Indonesia — SD (keliling dan luas → data) */
 addT('id', {
   // perimeter-area
-  '1xtxvjsrb9v': R`
-<p><b>Keliling</b> adalah panjang seluruh tepi suatu bangun (diukur dalam cm, m, …). <b>Luas</b> adalah besar permukaan yang ditutupi bangun itu (diukur dalam satuan persegi: cm², m², …).</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Bangun gabungan</h3>
-<p>Bagi bangun berbentuk L atau bangun gabungan lain menjadi persegi panjang dan segitiga, lalu jumlahkan luasnya — atau ambil satu persegi panjang besar lalu kurangi bagian yang hilang.</p>
-⟦4⟧`,
   '1be5xudsubm': R`Persegi panjang, segitiga, dan trapesium — tinggi selalu diukur tegak lurus terhadap alas.`,
   '1vbb9fjurso': R`Bangun`,
   '1bkcetbdzwi': R`Keliling`,
@@ -567,15 +448,6 @@ addT('id', {
   '4fca853um1': R`Persegi panjang besar dikurangi bagian yang dipotong: $⟦0⟧ \times ⟦1⟧ - ⟦2⟧ \times ⟦3⟧ = ⟦4⟧ - ⟦5⟧ = ⟦6⟧$ m².`,
 
   // volume-basic
-  '27t1x8ik6r5': R`
-<p><b>Volume</b> adalah besar ruang yang ditempati suatu bangun ruang, dihitung dalam <b>satuan kubik</b> (cm³, m³). Kubus dengan rusuk 1 cm memiliki volume 1 cm³.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Luas permukaan</h3>
-<p>Luas permukaan adalah jumlah luas semua sisi. Balok memiliki tiga pasang persegi panjang yang sama:</p>
-⟦3⟧
-⟦4⟧`,
   'eqp3lgj8pe': R`\text{Balok: } V = l \times w \times h \qquad\qquad \text{Kubus: } V = s^3`,
   '1v18xwhq9wo': R`<p>Kapasitas berkaitan dengan volume: $1 \text{ cm}^3 = 1 \text{ mL}$ dan $1000 \text{ cm}^3 = 1 \text{ L}$. Selain itu, $1 \text{ m}^3 = 1000 \text{ L}$.</p>`,
   '1y5vqy9gj8b': R`<p>Sebuah akuarium panjangnya 50 cm, lebarnya 30 cm, dan tingginya 40 cm.</p><p>$V = 50 \times 30 \times 40 = 60\,000 \text{ cm}^3 = 60 \text{ L}$.</p>`,
@@ -595,17 +467,6 @@ addT('id', {
   '29p9f2w08h': R`Kita perlu $s^3 = ⟦0⟧$. Karena $⟦1⟧ \times ⟦2⟧ \times ⟦3⟧ = ⟦4⟧$, panjang setiap rusuk adalah ⟦5⟧ cm.`,
 
   // angles-shapes
-  '1zhvjckeb0g': R`
-<p>Sudut mengukur besar putaran, dalam satuan <b>derajat</b> (°). Satu putaran penuh adalah $360^\circ$.</p>
-⟦0⟧
-⟦1⟧
-<h3>Segitiga</h3>
-<p><b>Sama sisi</b>: ketiga sisinya sama panjang, setiap sudutnya $60^\circ$. <b>Sama kaki</b>: dua sisi sama panjang dan dua sudut alasnya sama besar. <b>Sembarang</b>: tidak ada sisi yang sama panjang. Segitiga <b>siku-siku</b> memiliki satu sudut $90^\circ$.</p>
-<h3>Segi banyak</h3>
-<p>Segi banyak dengan $n$ sisi dapat dibagi menjadi $n - 2$ segitiga dari satu titik sudut, sehingga</p>
-⟦2⟧
-<p>Pada segi banyak <b>beraturan</b> semua sudutnya sama besar, jadi setiap sudut besarnya $\frac{(n-2) \times 180^\circ}{n}$. Segi enam beraturan memiliki sudut $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
-⟦3⟧`,
   'k7wfdtk1dy': R`Jenis`,
   '1czpi6e2j2z': R`Besar`,
   '2eamokno2qd': R`Lancip`,
@@ -645,13 +506,6 @@ addT('id', {
   '1m260esohws': R`Kedua sudut alas sama besar: $\frac{180^\circ - ⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // data-basic
-  '1rkikmzq9kv': R`
-<p>Data adalah informasi yang kita kumpulkan, misalnya nilai ulangan atau buah kesukaan. <b>Tabel frekuensi</b> mencatat berapa kali setiap nilai muncul; <b>diagram batang</b> dan <b>piktogram</b> menampilkan informasi yang sama secara visual.</p>
-<h3>Empat ukuran ringkasan</h3>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '2fsgim21nih': R`Ukuran`,
   '1fy4t37t415': R`Cara menentukan`,
   '18v4e4ulshl': R`Untuk 3; 7; 7; 8; 10`,
@@ -705,16 +559,6 @@ addT('id', {
   '187npo1zduj': R`tali busur`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p><b>Bilangan bulat</b> terdiri atas bilangan cacah dan lawan-lawannya: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Pada garis bilangan, bilangan makin besar ke arah kanan, jadi $-7 \lt -2$ walaupun 7 lebih besar daripada 2.</p>
-<p><b>Nilai mutlak</b> $|a|$ adalah jarak bilangan itu dari 0: $|-6| = 6$ dan $|6| = 6$.</p>
-<h3>Penjumlahan dan pengurangan</h3>
-⟦0⟧
-<h3>Perkalian dan pembagian</h3>
-⟦1⟧
-⟦2⟧
-<p>Penerapan sehari-hari: suhu di bawah nol, ketinggian di bawah permukaan laut, utang, dan lantai di bawah tanah.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Tanda sama:</b> jumlahkan nilai mutlaknya, tandanya tetap. $-4 + (-9) = -13$.</li><li><b>Tanda berbeda:</b> kurangkan nilai mutlaknya, ambil tanda bilangan yang nilai mutlaknya lebih besar. $-11 + 5 = -6$.</li><li><b>Mengurangkan</b> berarti menambahkan lawannya: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Tanda`,
   '18hy4wrreq9': R`Hasil`,
@@ -738,15 +582,6 @@ addT('id', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ dan $|⟦2⟧| = ⟦3⟧$, jadi nilainya $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p><b>Perpangkatan</b> menyatakan perkalian berulang: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ faktor}}$. Pada $2^5 = 32$, 2 adalah <b>bilangan pokok</b> dan 5 adalah <b>pangkat</b>.</p>
-<h3>Sifat-sifat perpangkatan</h3>
-⟦0⟧
-⟦1⟧
-<h3>Akar</h3>
-<p>Akar kuadrat adalah kebalikan dari kuadrat: $\sqrt{81} = 9$ karena $9^2 = 81$. Akar pangkat tiga adalah kebalikan dari pangkat tiga: $\sqrt[3]{64} = 4$ karena $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Sifat`,
   '2du0zx6ztd9': R`<p>Sederhanakan $(2x^3)(5x^4)$: kalikan angkanya dan jumlahkan pangkatnya, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Untuk menyederhanakan akar kuadrat, keluarkan faktor kuadrat sempurna yang terbesar: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -776,16 +611,6 @@ addT('id', {
   'r5mpjrvznb': R`Cari faktor kuadrat sempurna terbesar: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Jadi $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Para ilmuwan menulis bilangan yang sangat besar atau sangat kecil secara ringkas dalam bentuk</p>
-⟦0⟧
-<ul><li>Jarak ke Matahari, sekitar $150\,000\,000$ km, adalah $1{,}5 \times 10^{8}$ km.</li><li>Sel darah merah yang lebarnya sekitar $0{,}000\,008$ m berukuran $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Menghitung</h3>
-<p>Kalikan (atau bagi) bilangan di depan, lalu jumlahkan (atau kurangkan) pangkatnya. Setelah itu, sesuaikan bilangan di depan jika tidak berada di antara 1 dan 10:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ bilangan bulat}`,
   '1phwx4rhhb0': R`<p>Hitung berapa tempat tanda koma harus digeser agar di depannya tersisa tepat satu angka bukan nol. Bilangan besar (koma bergeser ke kiri) berpangkat <b>positif</b>; bilangan yang kurang dari 1 (koma bergeser ke kanan) berpangkat <b>negatif</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -807,19 +632,6 @@ addT('id', {
   '1ujla3379au': R` Karena ⟦0⟧ kurang dari 1, tulis ulang $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p><b>Perbandingan</b> $a : b$ membandingkan dua besaran. Seperti pecahan, perbandingan dapat disederhanakan dengan membagi kedua sukunya dengan FPB: $18 : 24 = 3 : 4$.</p>
-<h3>Membagi menurut perbandingan</h3>
-⟦0⟧
-<h3>Laju dan nilai satuan</h3>
-<p><b>Laju</b> membandingkan besaran dengan satuan berbeda: kilometer per jam, rupiah per kg. Mencari nilai untuk <b>satu</b> satuan (nilai satuan) menyelesaikan sebagian besar soal.</p>
-⟦1⟧
-<h3>Perbandingan senilai dan berbalik nilai</h3>
-⟦2⟧
-⟦3⟧
-<h3>Skala peta</h3>
-<p>Skala $1 : 50\,000$ berarti 1 cm pada peta sama dengan $50\,000$ cm $= 500$ m $= 0{,}5$ km sebenarnya.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Bagikan 60 permen dengan perbandingan $2 : 3$.</p><ol><li>Jumlah bagian: $2 + 3 = 5$.</li><li>Satu bagian: $60 \div 5 = 12$.</li><li>Bagiannya: $2 \times 12 = 24$ dan $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{kecepatan} = \frac{\text{jarak}}{\text{waktu}} \qquad \text{jarak} = \text{kecepatan} \times \text{waktu}`,
   '1lx74znbkzq': R`<ul><li><b>Senilai:</b> kedua besaran bertambah bersama, $y = kx$. Buku tulis dua kali lebih banyak harganya dua kali lipat.</li><li><b>Berbalik nilai:</b> yang satu bertambah, yang lain berkurang, $xy = k$. Pekerja dua kali lebih banyak menyelesaikan pekerjaan dalam separuh waktu.</li></ul>`,
@@ -858,20 +670,6 @@ addT('id', {
 /* Bahasa Indonesia — SMP (bentuk aljabar → fungsi linear) */
 addT('id', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Pada bentuk $5x^2 - 3xy + 7$, <b>suku-sukunya</b> adalah $5x^2$, $-3xy$, dan $7$; <b>koefisiennya</b> 5 dan $-3$; 7 adalah <b>konstanta</b>. <b>Suku sejenis</b> memiliki variabel dan pangkat yang persis sama ($4ab$ dan $-ab$ sejenis; $x^2$ dan $x$ tidak).</p>
-<h3>Menyederhanakan</h3>
-<p>Gabungkan suku sejenis dengan menjumlahkan koefisiennya: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Menjabarkan tanda kurung</h3>
-⟦0⟧
-⟦1⟧
-<h3>Perkalian istimewa</h3>
-⟦2⟧
-<h3>Pemfaktoran</h3>
-<p>Memfaktorkan adalah kebalikan dari menjabarkan. Keluarkan faktor persekutuan terbesar: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Substitusi</h3>
-<p>Ganti setiap huruf dengan nilainya, pakai tanda kurung untuk bilangan negatif: jika $x = -2$, maka $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Sifat distributif:</b> $a(b + c) = ab + ac$. Kalikan suku di luar dengan <i>setiap</i> suku di dalam kurung.</p><p><b>Dua tanda kurung:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. Suku tengahnya, $2 \cdot 4 \cdot x = 8x$, sering terlupa.</p>`,
@@ -888,17 +686,6 @@ addT('id', {
   '2e60a5izj9m': R`Jabarkan $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Persamaan menyatakan bahwa dua bentuk bernilai sama. Bayangkan timbangan: apa pun yang dilakukan pada satu sisi, lakukan juga pada sisi lain, maka timbangan tetap seimbang. Tujuannya adalah membuat variabel sendirian di satu ruas.</p>
-⟦0⟧
-⟦1⟧
-<h3>Tanda kurung dan pecahan</h3>
-<p>Jabarkan tanda kurung lebih dulu (atau bagi kedua ruas dengan bilangan di luar kurung). Hilangkan pecahan dengan mengalikan setiap suku dengan penyebut persekutuan:</p>
-⟦2⟧
-<h3>Soal cerita</h3>
-<ol><li>Pilih huruf untuk besaran yang dicari dan jelaskan artinya.</li><li>Ubah kalimat soal menjadi persamaan.</li><li>Selesaikan, lalu periksa apakah jawabannya masuk akal.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Batalkan operasi dengan urutan terbalik memakai <b>operasi invers</b>: penjumlahan ↔ pengurangan, perkalian ↔ pembagian.</p>`,
   '11eu1q8a3p': R`<p>Selesaikan $5x - 7 = 2x + 11$.</p><ol><li>Kurangi kedua ruas dengan $2x$: $3x - 7 = 11$.</li><li>Tambahkan 7: $3x = 18$.</li><li>Bagi dengan 3: $x = 6$.</li></ol><p>Periksa: $5(6) - 7 = 23$ dan $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>Jumlah tiga bilangan bulat berurutan adalah 72. Misalkan $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, jadi $n = 23$. Bilangannya 23, 24, dan 25.</p>`,
@@ -926,17 +713,6 @@ addT('id', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, jadi $⟦3⟧x = ⟦4⟧$ dan $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p><b>Pertidaksamaan</b> membandingkan dua bentuk: $\lt$ (kurang dari), $\gt$ (lebih dari), $\le$ (kurang dari atau sama dengan), $\ge$ (lebih dari atau sama dengan). Penyelesaiannya biasanya berupa suatu rentang bilangan.</p>
-<p>Pada garis bilangan, $x \gt 2$ digambar dengan bulatan <b>kosong</b> di 2 (2 tidak termasuk) dan panah ke kanan; $x \le 2$ memakai bulatan <b>penuh</b> dan panah ke kiri.</p>
-<h3>Menyelesaikan</h3>
-<p>Selesaikan seperti persamaan — tambah, kurangi, kalikan, atau bagi kedua ruas — dengan satu aturan tambahan:</p>
-⟦0⟧
-<p>Mengapa? $2 \lt 5$, tetapi jika kedua ruas dikalikan $-1$ diperoleh $-2$ dan $-5$, dan $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Pertidaksamaan ganda</h3>
-<p>Lakukan operasi yang sama pada ketiga bagian: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Penyelesaian bulatnya $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Jika kamu <b>mengalikan atau membagi dengan bilangan negatif</b>, balik arah tanda pertidaksamaannya.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Selesaikan $7 - 2x \ge 1$.</p><ol><li>Kurangi 7: $-2x \ge -6$.</li><li>Bagi dengan $-2$ dan balik tandanya: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>"Bilangan bulat terkecil yang memenuhi $x \gt 4$" adalah 5, bukan 4 — pertidaksamaan tegas tidak memuat titik ujungnya.</p>`,
@@ -955,13 +731,6 @@ addT('id', {
   'abjkjjicc6': R`setiap bagian`,
 
   // sets
-  '1upw9az6tpj': R`
-<p><b>Himpunan</b> adalah kumpulan benda yang terdefinisi dengan jelas; benda-bendanya disebut <b>anggota</b>. Kita tulis $A = \{2; 4; 6; 8\}$ dan $4 \in A$ ("4 anggota A"), $5 \notin A$. $n(A)$ adalah banyak anggota; di sini $n(A) = 4$. <b>Himpunan kosong</b> $\varnothing$ tidak punya anggota; <b>himpunan semesta</b> $U$ memuat semua yang sedang dibicarakan.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Diagram Venn: setiap daerah adalah kombinasi berbeda dari "di A" dan "di B".`,
   '142ifrt0jkt': R`Notasi`,
   '14czndj1h0b': R`Contoh dengan A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -996,17 +765,6 @@ addT('id', {
   '9yersm2gye': R`$A = ⟦0⟧$, jadi $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p><b>Fungsi linear</b> memiliki grafik berupa garis lurus. Dalam <b>bentuk gradien–titik potong</b></p>
-⟦0⟧
-<p>$m$ adalah <b>gradien</b> (kemiringan): besar perubahan $y$ ketika $x$ bertambah 1. $c$ adalah <b>titik potong sumbu $y$</b>, tempat garis memotong sumbu $y$. Dengan notasi fungsi ditulis $f(x) = mx + c$, jadi $f(3)$ berarti "nilai fungsi ketika $x = 3$".</p>
-<h3>Gradien dari dua titik</h3>
-⟦1⟧
-⟦2⟧
-<h3>Titik potong sumbu dan bentuk lain</h3>
-<p>Ambil $x = 0$ untuk mencari titik potong sumbu $y$, dan $y = 0$ untuk titik potong sumbu $x$. Garis dapat ditulis $ax + by = c$; ubah menjadi $y = -\frac{a}{b}x + \frac{c}{b}$ untuk membaca gradiennya. Melalui titik $(x_1; y_1)$ dengan gradien $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{perubahan tegak}}{\text{perubahan mendatar}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Melalui $(1; 2)$ dan $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Substitusikan $(1; 2)$ ke $y = 3x + c$: $2 = 3 + c$, jadi $c = -1$ dan garisnya $y = 3x - 1$.</p>`,
@@ -1029,18 +787,6 @@ addT('id', {
 /* Bahasa Indonesia — SMP (sistem persamaan → bangun ruang) */
 addT('id', {
   // systems
-  '1obgwi6un65': R`
-<p><b>Sistem</b> dua persamaan linear dalam $x$ dan $y$ meminta nilai yang membuat <i>kedua</i> persamaan benar sekaligus. Secara grafik, penyelesaiannya adalah titik potong kedua garis.</p>
-<h3>Metode substitusi</h3>
-⟦0⟧
-<h3>Metode eliminasi</h3>
-⟦1⟧
-⟦2⟧
-<h3>Kasus khusus</h3>
-<p>Garis sejajar (gradien sama, titik potong sumbu-y berbeda) tidak pernah berpotongan: <b>tidak ada penyelesaian</b>. Garis yang berimpit punya <b>tak hingga banyak</b> penyelesaian.</p>
-<h3>Soal cerita</h3>
-<p>Dua bilangan yang tidak diketahui memerlukan dua informasi. "Ayam dan sapi di sebuah peternakan punya 30 kepala dan 84 kaki": misalkan $c$ = banyak sapi dan $h$ = banyak ayam, maka $c + h = 30$ dan $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitusikan persamaan pertama ke persamaan kedua: $3x + (2x - 1) = 14$, jadi $5x = 15$, $x = 3$, dan $y = 2(3) - 1 = 5$. Penyelesaian: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Jumlahkan kedua persamaan untuk mengeliminasi $y$: $7x = 21$, jadi $x = 3$. Lalu dari $2(3) + 3y = 12$ diperoleh $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Kalikan salah satu atau kedua persamaan agar koefisien salah satu variabel sama (atau berlawanan), lalu kurangkan (atau jumlahkan) untuk mengeliminasinya. Selalu periksa jawaban pada <b>kedua</b> persamaan asal.</p>`,
@@ -1061,18 +807,6 @@ addT('id', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ dan $a - b = ⟦1⟧$. Jumlahkan: $2a = ⟦2⟧$, jadi $a = ⟦3⟧$ dan $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Pada segitiga siku-siku, sisi terpanjang yang berhadapan dengan sudut siku-siku disebut <b>hipotenusa</b> (sisi miring) $c$. Dua sisi lainnya, $a$ dan $b$, adalah <b>sisi siku-siku</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Tripel Pythagoras</h3>
-<p>Penyelesaian bilangan bulat beserta kelipatannya layak dihafal: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, serta $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Jarak antara dua titik</h3>
-⟦3⟧
-<h3>Kebalikan teorema</h3>
-<p>Jika $c$ sisi terpanjang: $a^2 + b^2 = c^2$ berarti segitiga <b>siku-siku</b>; $a^2 + b^2 \gt c^2$ berarti segitiga <b>lancip</b>; $a^2 + b^2 \lt c^2$ berarti segitiga <b>tumpul</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Untuk mencari hipotenusa, jumlahkan kuadratnya; untuk mencari sisi siku-siku, kurangkan: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Tangga sepanjang 10 m disandarkan ke dinding dengan kaki tangga 6 m dari dinding. Tinggi yang dicapai: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Untuk sisi siku-siku 3 dan 4, hipotenusanya 5, bukan 7.</p>`,
@@ -1094,17 +828,6 @@ addT('id', {
   '5pal2wak00': R`Bandingkan dengan sisi terpanjang, ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ dan $⟦4⟧^2 = ⟦5⟧$. Karena $⟦6⟧ ⟦7⟧ ⟦8⟧$, segitiga itu <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>Perbandingan keliling dengan diameter selalu sama untuk setiap lingkaran: $\pi \approx 3{,}14159\ldots$ (sering didekati dengan $3{,}14$ atau $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Busur dan juring</h3>
-<p>Juring dengan sudut pusat $\theta$ adalah bagian $\frac{\theta}{360^\circ}$ dari seluruh lingkaran:</p>
-⟦3⟧
-<h3>Sudut pada lingkaran</h3>
-<ul><li>Sudut pusat besarnya <b>dua kali</b> sudut keliling yang menghadap busur yang sama.</li><li>Sudut keliling yang menghadap diameter besarnya $90^\circ$.</li><li>Garis singgung tegak lurus jari-jari di titik singgungnya.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Bagian-bagian lingkaran. Diameter adalah dua kali jari-jari: d = 2r.`,
   '1y041ovnv67': R`<p>Jari-jari 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm dan $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Menuliskan jawaban "dalam $\pi$" membuatnya tetap eksak.</p>`,
   '1ljhd2tb7ca': R`\text{Panjang busur} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{Luas juring} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -1132,13 +855,6 @@ addT('id', {
   'kfe0atvapi': R`Sudut keliling = setengah sudut pusat: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p><b>Prisma</b> memiliki penampang yang sama sepanjang tubuhnya, jadi volumenya cukup luas penampang dikali panjangnya. Limas atau kerucut yang pas masuk ke dalamnya memiliki tepat sepertiga volume itu.</p>
-⟦0⟧
-<p>Pada kerucut, $s$ adalah <b>garis pelukis</b>; menurut Pythagoras, $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Bangun`,
   'alc1a0j1b0': R`Volume`,
   'bt7ak3o2ct': R`Luas permukaan`,
@@ -1177,16 +893,6 @@ addT('id', {
 /* Bahasa Indonesia — SMP (statistika → kesebangunan) */
 addT('id', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p><b>Ukuran pemusatan</b> merangkum sekumpulan data dengan satu nilai khas; <b>ukuran penyebaran</b> menunjukkan seberapa tersebar nilai-nilainya.</p>
-⟦0⟧
-<h3>Rata-rata dari tabel frekuensi</h3>
-⟦1⟧
-⟦2⟧
-<h3>Bekerja mundur</h3>
-⟦3⟧
-<p>Jika banyak data genap, median adalah rata-rata dua nilai di tengah.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Cocok jika…`,
   'j0p0vvrwxf': R`data tidak memiliki nilai ekstrem (pencilan)`,
   '2ajydntyvld': R`data miring atau memiliki pencilan — mis. harga rumah`,
@@ -1212,16 +918,6 @@ addT('id', {
   '22iugjzjcbh': R`Modus adalah nilai dengan frekuensi terbesar. ⟦0⟧ memiliki frekuensi ⟦1⟧, yang terbesar.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Sebuah <b>percobaan</b> (melempar dadu, mengambil kartu) memiliki <b>hasil</b> yang mungkin. Himpunan semua hasil disebut <b>ruang sampel</b> $S$; sebuah <b>kejadian</b> $E$ adalah himpunan beberapa hasil. Jika semua hasil sama mungkinnya:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dua dadu</h3>
-<p>Melempar dua dadu menghasilkan $6 \times 6 = 36$ hasil yang sama mungkin. Jumlah 7 muncul dengan 6 cara — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) — jadi $P(\text{jumlah} = 7) = \frac{6}{36} = \frac{1}{6}$. Secara umum, banyak cara memperoleh jumlah $s$ adalah $6 - |s - 7|$.</p>
-<h3>Satu set kartu remi</h3>
-<p>52 kartu: 4 jenis (♠ ♣ hitam, ♥ ♦ merah) masing-masing 13 nilai (A, 2–10, J, Q, K). Ada 12 kartu bergambar (J, Q, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 berarti mustahil, 1 berarti pasti.</li><li><b>Komplemen:</b> $P(\text{bukan } E) = 1 - P(E)$.</li><li><b>Frekuensi harapan</b> dalam $n$ percobaan $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Sebuah kantong berisi 3 kelereng merah, 5 biru, dan 2 hijau. $P(\text{biru}) = \frac{5}{10} = \frac{1}{2}$, dan $P(\text{bukan hijau}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>Peluang empiris (dari percobaan nyata) makin mendekati peluang teoretis seiring bertambahnya banyak percobaan — tetapi jarang tepat sama.</p>`,
@@ -1273,19 +969,6 @@ addT('id', {
   '23r35ol6pkt': R`Ada ⟦0⟧ dari 52 kartu: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Soal uang sehari-hari sebenarnya adalah soal persen yang menyamar.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Diskon dan pajak</h3>
-<p>Terapkan persentase satu per satu: diskon 20% lalu pajak 10% atas 150 ribu rupiah menghasilkan $150 \times 0{,}8 \times 1{,}1 = 132$ ribu rupiah.</p>
-<h3>Bunga tunggal</h3>
-⟦3⟧
-<p>Tabungan 1 500 ribu rupiah dengan bunga 6% per tahun selama 3 tahun menghasilkan $1\,500 \times 0{,}06 \times 3 = 270$ ribu rupiah; totalnya menjadi 1 770 ribu rupiah. Jika waktunya dalam bulan, gunakan $t = \frac{\text{bulan}}{12}$.</p>
-<h3>Bruto, tara, dan neto</h3>
-<p><b>Bruto</b> = berat keseluruhan; <b>tara</b> = berat kemasan; <b>neto</b> = bruto − tara. Karung 50 kg dengan tara 2% memiliki berat neto $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Istilah`,
   '1mb9fntmked': R`Harga beli (HB)`,
   '12bh5c74j0l': R`yang dibayar penjual`,
@@ -1318,17 +1001,6 @@ addT('id', {
   'g36e4lpvm4': R`$\text{HJ} = \text{HB} \times ⟦0⟧$, jadi $\text{HB} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ ribu rupiah. (Mengurangi ⟦4⟧% dari harga jual adalah cara yang salah.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p><b>Barisan</b> adalah daftar bilangan yang berurutan; setiap bilangannya disebut <b>suku</b>. Dengan menemukan aturannya, kamu bisa melanjutkan pola atau langsung mencari suku mana pun.</p>
-<h3>Barisan aritmetika</h3>
-<p>Setiap kali ditambah bilangan yang sama $d$ (<b>beda</b>): 5; 8; 11; 14; … memiliki $d = 3$.</p>
-⟦0⟧
-<h3>Barisan geometri</h3>
-<p>Setiap suku dikalikan dengan <b>rasio</b> yang sama $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Barisan khusus</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>dengan $a$ suku pertama. Untuk 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, jadi $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nama`,
   'mwgm16sn11': R`Suku-suku`,
@@ -1355,14 +1027,6 @@ addT('id', {
   'o3oiu9pprw': R`Suku-sukunya adalah ⟦0⟧. Suku ke-7 adalah ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p><b>Transformasi</b> memindahkan bangun atau mengubah ukurannya. Pada translasi, refleksi, dan rotasi, bayangannya <b>kongruen</b> (bentuk dan ukuran sama); pada dilatasi, bayangannya <b>sebangun</b> (bentuk sama, ukuran berbeda).</p>
-⟦0⟧
-<h3>Bangun yang sebangun</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformasi`,
   'jmpbrf5c1s': R`Aturan untuk titik (x; y)`,
   '2b0j70wot2h': R`Translasi oleh $\binom{a}{b}$`,
@@ -1406,20 +1070,6 @@ addT('id', {
   '2gdno2vs4iz': R`Tuliskan jawaban seperti 9pi atau 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p><b>Persamaan kuadrat</b> berbentuk $ax^2 + bx + c = 0$ dengan $a \ne 0$. Persamaan ini memiliki paling banyak dua penyelesaian (akar).</p>
-<h3>1. Pemfaktoran</h3>
-<p>Jika suatu hasil kali bernilai nol, salah satu faktornya nol. Cari dua bilangan yang hasil kalinya $c$ dan jumlahnya $b$ (jika $a = 1$):</p>
-⟦0⟧
-<h3>2. Melengkapkan kuadrat sempurna</h3>
-⟦1⟧
-<h3>3. Rumus kuadrat (rumus abc)</h3>
-⟦2⟧
-<h3>Jumlah dan hasil kali akar (Vieta)</h3>
-⟦3⟧
-<p>Jadi, persamaan dengan akar-akar $r$ dan $s$ adalah $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ atau } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p><b>Diskriminan</b> $D = b^2 - 4ac$ menunjukkan banyaknya akar real:</p><ul><li>$D \gt 0$: dua akar real berbeda</li><li>$D = 0$: satu akar real kembar</li><li>$D \lt 0$: tidak ada akar real (dua akar kompleks)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, jadi $x = \frac{7 \pm 5}{4}$, sehingga $x = 3$ atau $x = \frac{1}{2}$. Periksa: jumlah $= \frac{7}{2}$ ✓, hasil kali $= \frac{3}{2}$ ✓.</p>`,
@@ -1447,14 +1097,6 @@ addT('id', {
   '27ssy7fe6w9': R`Misalkan lebarnya $w$: $w(w + ⟦0⟧) = ⟦1⟧$, jadi $⟦2⟧ = 0$, yaitu $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Lebar harus positif, jadi $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>Grafik $f(x) = ax^2 + bx + c$ berupa <b>parabola</b>. Parabola terbuka <b>ke atas</b> jika $a \gt 0$ (seperti lembah, dengan nilai minimum) dan <b>ke bawah</b> jika $a \lt 0$ (seperti bukit, dengan nilai maksimum).</p>
-⟦0⟧
-<h3>Bentuk puncak</h3>
-⟦1⟧
-<p>Melengkapkan kuadrat mengubah bentuk umum menjadi bentuk puncak: $x^2 - 6x + 11 = (x - 3)^2 + 2$, jadi titik puncaknya $(3; 2)$ dan nilai minimumnya 2. Daerah hasilnya $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Sumbu simetri dan titik puncak: $x = -\dfrac{b}{2a}$; titik puncaknya $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Titik potong sumbu-$y$: $(0; c)$.</li><li>Titik potong sumbu-$x$: akar-akar $ax^2 + bx + c = 0$ (jika ada).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{titik puncak } (h; k)`,
   '17der0pee5r': R`<p>Tinggi sebuah bola adalah $h(t) = -5t^2 + 20t + 1$ meter. Titik puncaknya pada $t = -\frac{20}{2(-5)} = 2$ s, dan tinggi maksimumnya $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -1478,18 +1120,6 @@ addT('id', {
   'xs3xxut6a6': R`Titik puncaknya $⟦0⟧$ dan parabola terbuka ke bawah, jadi daerah hasilnya $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p><b>Fungsi</b> memasangkan setiap masukan dengan tepat <b>satu</b> keluaran. Himpunan masukan yang diperbolehkan disebut <b>daerah asal</b> (domain); himpunan keluarannya disebut <b>daerah hasil</b> (range).</p>
-<h3>Daerah asal alami</h3>
-<ul><li>Tidak boleh membagi dengan nol: untuk $\frac{1}{x - 2}$, daerah asalnya $x \ne 2$.</li><li>Tidak ada akar kuadrat dari bilangan negatif: untuk $\sqrt{x + 3}$, daerah asalnya $x \ge -3$.</li><li>Logaritma memerlukan numerus positif: untuk $\log(x - 1)$, daerah asalnya $x \gt 1$.</li></ul>
-<h3>Komposisi</h3>
-⟦0⟧
-⟦1⟧
-<h3>Fungsi invers</h3>
-<p>$f^{-1}$ membatalkan kerja $f$: jika $f(a) = b$ maka $f^{-1}(b) = a$. Untuk mencarinya, tulis $y = f(x)$, tukar $x$ dan $y$, lalu nyatakan $y$.</p>
-⟦2⟧
-<p>Grafik $f^{-1}$ adalah pencerminan grafik $f$ terhadap garis $y = x$. Hanya fungsi satu-satu (injektif) yang memiliki invers.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Terapkan $g$ dahulu, lalu $f$. Secara umum, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Maka $f(g(3)) = f(9) = 19$, tetapi $g(f(3)) = g(7) = 49$. Dalam bentuk ekspresi: $f(g(x)) = 2x^2 + 1$ dan $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: tukar untuk mendapat $x = 3y - 5$, jadi $y = \frac{x + 5}{3}$ dan $f^{-1}(x) = \frac{x + 5}{3}$. Periksa: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -1513,16 +1143,6 @@ addT('id', {
   'ranlsqjvf9': R`Karena $⟦0⟧ \ge ⟦1⟧$, gunakan aturan kedua: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Eksponen pecahan menggabungkan pangkat dan akar: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Jadi $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ dan $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logaritma</h3>
-⟦0⟧
-⟦1⟧
-<h3>Menyelesaikan persamaan</h3>
-<ul><li>Basis sama: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Persamaan logaritma: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Basis berbeda: logaritmakan kedua ruas, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Pertumbuhan dan peluruhan eksponensial</h3>
-<p>$A = A_0 \cdot r^{t/T}$: besaran yang dikalikan $r$ setiap $T$ satuan waktu. Bunga majemuk: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Logaritma menjawab pertanyaan "$b$ dipangkatkan berapa agar menjadi $a$?" — jadi $\log_2 32 = 5$. $\log x$ berarti $\log_{10} x$; $\ln x$ berarti $\log_e x$ dengan $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`perubahan basis`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. Sifat perkalian mengubah <i>hasil kali</i> di dalam menjadi penjumlahan di luar.</p>`,
@@ -1549,17 +1169,6 @@ addT('id', {
 /* Bahasa Indonesia — SMA (barisan dan deret → aturan sinus dan kosinus) */
 addT('id', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Di sini $a$ adalah suku pertama dan $l$ suku terakhir.</p>
-⟦1⟧
-⟦2⟧
-<h3>Deret geometri tak hingga</h3>
-⟦3⟧
-<p>Contoh: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Notasi sigma</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Aritmetika`,
   '1atqzl7ltey': R`Geometri`,
   'zs186mkwh5': R`ditambah $d$ setiap kali`,
@@ -1581,18 +1190,6 @@ addT('id', {
   '222tg0c1ffy': R`Ini deret aritmetika: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ ribu rupiah.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
-⟦0⟧
-<p>Jembatan keledai: <b>SOH-CAH-TOA</b> (sin = depan/miring, cos = samping/miring, tan = depan/samping). Selain itu, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, dan kebalikannya adalah $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Nilai eksak</h3>
-⟦1⟧
-<h3>Radian</h3>
-<p>$180^\circ = \pi$ radian. Untuk mengubah derajat ke radian, kalikan dengan $\frac{\pi}{180}$; radian ke derajat, kalikan dengan $\frac{180}{\pi}$. Jadi $60^\circ = \frac{\pi}{3}$ dan $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>Lingkaran satuan</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{sisi depan}}{\text{sisi miring}} \qquad \cos\theta = \frac{\text{sisi samping}}{\text{sisi miring}} \qquad \tan\theta = \frac{\text{sisi depan}}{\text{sisi samping}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -1629,15 +1226,6 @@ addT('id', {
   '1856p6n9vrk': R`sin positif di kuadran I dan II; cos di I dan IV; tan di I dan III. Hanya <b>⟦0⟧</b> yang memenuhi kedua syarat.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Menyelesaikan persamaan trigonometri</h3>
-<p>Tentukan sudut acuannya, lalu semua sudut pada interval yang diminta dengan tanda yang benar.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Identitas Pythagoras`,
   '28msif6x03y': R`Jumlah dan selisih sudut`,
   '1qlqqnnfd2i': R`Sudut rangkap`,
@@ -1659,13 +1247,6 @@ addT('id', {
   '19cq8bi37ib': R`Sisi-sisi segitiganya ⟦0⟧, ⟦1⟧, dan ⟦2⟧. Di kuadran ⟦3⟧, sinus bernilai ⟦4⟧ dan kosinus bernilai ⟦5⟧, jadi $\sin\theta = ⟦6⟧$ dan $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Beri nama segitiga sehingga sisi $a$ berhadapan dengan sudut $A$, $b$ dengan $B$, dan $c$ dengan $C$. Aturan ini berlaku untuk <b>setiap</b> segitiga, bukan hanya segitiga siku-siku.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Gunakan jika diketahui satu sisi dan sudut di hadapannya, ditambah satu sisi atau sudut lain.</p>`,
   'mp16igkhf3': R`Aturan sinus`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Gunakan jika diketahui dua sisi dan sudut apitnya (sisi-sudut-sisi), atau ketiga sisinya.</p>`,
@@ -1689,16 +1270,6 @@ addT('id', {
 /* Bahasa Indonesia — SMA (polinomial → integral) */
 addT('id', {
   // polynomials
-  '1dv82xempy': R`
-<p><b>Polinomial</b> (suku banyak) adalah jumlah suku-suku $a_n x^n + \cdots + a_1 x + a_0$ dengan pangkat bilangan cacah. <b>Derajatnya</b> adalah pangkat tertinggi; $a_n$ adalah <b>koefisien utama</b>. Saat polinomial dikalikan, derajatnya dijumlahkan dan koefisien utamanya dikalikan.</p>
-<h3>Pembagian</h3>
-<p>Membagi $P(x)$ dengan $(x - a)$ menghasilkan hasil bagi $Q(x)$ dan sisa $R$: $P(x) = (x - a)Q(x) + R$. <b>Cara Horner</b> (pembagian sintetis) adalah cara cepat yang hanya memakai koefisien.</p>
-⟦0⟧
-⟦1⟧
-<h3>Akar-akar polinomial berderajat tiga</h3>
-<p>Untuk $ax^3 + bx^2 + cx + d = 0$ dengan akar-akar $r_1, r_2, r_3$:</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ dengan cara Horner:</p>⟦0⟧<p>Hasil bagi $x^2 - 2x - 3$, sisa 0.</p>`,
   'agfsjitvd': R`<p><b>Teorema sisa:</b> sisa pembagian $P(x)$ oleh $(x - a)$ adalah $P(a)$.</p><p><b>Teorema faktor:</b> $(x - a)$ adalah faktor $P(x)$ tepat ketika $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Membagi dengan $(x + 3)$ berarti $a = -3$: hitung $P(-3)$, bukan $P(3)$.</p>`,
@@ -1719,16 +1290,6 @@ addT('id', {
   '1uusi8yg5sk': R`Konstanta hasil kali adalah hasil kali konstanta-konstantanya: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p><b>Matriks</b> adalah susunan bilangan berbentuk persegi panjang. Matriks $m \times n$ memiliki $m$ baris dan $n$ kolom; $a_{ij}$ adalah elemen pada baris $i$, kolom $j$.</p>
-<h3>Operasi</h3>
-<ul><li><b>Penjumlahan/pengurangan</b> elemen demi elemen (hanya untuk ordo yang sama).</li><li><b>Perkalian skalar</b>: kalikan setiap elemen.</li><li><b>Perkalian</b> $AB$: elemen $(i, j)$ adalah baris $i$ dari $A$ "dikali" kolom $j$ dari $B$. Syaratnya (banyak kolom $A$) = (banyak baris $B$), dan matriks $m \times n$ dikali $n \times p$ menghasilkan $m \times p$.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Determinan dan invers (2 × 2)</h3>
-⟦2⟧
-<p>Jika $\det A = 0$, matriksnya <b>singular</b> dan tidak memiliki invers. Invers dapat menyelesaikan sistem persamaan: $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>Perkalian matriks <b>tidak komutatif</b>: umumnya $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Untuk invers: <b>tukar</b> $a$ dan $d$, <b>ubah tanda</b> $b$ dan $c$, lalu bagi dengan determinan.</p>`,
   '1h6gnxjh2g6': R`Tentukan determinan dari $⟦0⟧$.`,
@@ -1745,12 +1306,6 @@ addT('id', {
   'xdj657lej': R`Baris ⟦0⟧ dari $A$ dikali kolom ⟦1⟧ dari $B$: $⟦2⟧ = ⟦3⟧$. (Matriks $2 \times 3$ dikali $3 \times 2$ menghasilkan $2 \times 2$.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p><b>Vektor</b> memiliki besar dan arah. Dalam komponen, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ atau $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Vektor dari $P$ ke $Q$ adalah $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Panjang (besar)`,
   '1czax49eh4c': R`Penjumlahan`,
   'q2ntocofkn': R`jumlahkan komponennya`,
@@ -1774,18 +1329,6 @@ addT('id', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Bagi setiap komponen dengan ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ berarti $f(x)$ dapat sedekat mungkin dengan $L$ ketika $x$ mendekati $a$ — apa pun yang terjadi tepat di $x = a$.</p>
-<h3>Teknik</h3>
-<ol><li><b>Substitusi langsung</b> berlaku untuk polinomial dan fungsi kontinu lainnya: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorkan lalu sederhanakan</b> untuk bentuk $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rasionalkan</b> bentuk akar: kalikan dengan sekawannya.</li></ol>
-⟦0⟧
-<h3>Limit di tak hingga</h3>
-⟦1⟧
-<h3>Limit trigonometri istimewa</h3>
-⟦2⟧
-<h3>Kekontinuan</h3>
-<p>$f$ kontinu di $a$ jika $\lim_{x \to a} f(x) = f(a)$: tidak ada lubang, lompatan, atau asimtot di sana. Untuk fungsi sepotong-sepotong, kedua potongan harus bertemu di titik sambungnya.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Untuk fungsi rasional, bagi pembilang dan penyebut dengan pangkat tertinggi $x$ pada penyebut:</p><ul><li>derajat sama → perbandingan koefisien utama;</li><li>derajat pembilang lebih kecil → 0;</li><li>derajat pembilang lebih besar → tidak ada limit berhingga ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ bukan "0" dan bukan "tidak terdefinisi" — itu bentuk tak tentu yang menandakan perlu langkah lanjut (memfaktorkan, merasionalkan).</p>`,
   '18znpgymeuk': R`Hitunglah $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -1803,18 +1346,6 @@ addT('id', {
   '1l84k7ifkz6': R`Kedua potongan harus bertemu di $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, jadi $⟦5⟧ + k = ⟦6⟧$ dan $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p><b>Turunan</b> $f'(x)$ adalah laju perubahan sesaat $f$ — gradien garis singgung di $x$. Turunan didefinisikan dengan limit:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Garis singgung</h3>
-<p>Di $x = a$, garis singgung bergradien $m = f'(a)$ dan melalui $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Titik stasioner</h3>
-<p>Di tempat $f'(x) = 0$, grafik sesaat mendatar. Gunakan turunan kedua: $f''(a) \gt 0$ → minimum lokal; $f''(a) \lt 0$ → maksimum lokal. $f$ naik di tempat $f' \gt 0$ dan turun di tempat $f' \lt 0$.</p>
-<h3>Optimasi</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Aturan`,
   '21wooetnwi8': R`<p>Pagar sepanjang 100 m dipakai untuk memagari persegi panjang di tepi sungai (sisi sungai tidak perlu dipagari). Dengan sisi $x, y, x$: $2x + y = 100$, luas $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ memberikan $x = 25$, jadi $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>Turunan konstanta adalah 0 — jangan membawa suku konstanta ke $f'(x)$.</p>`,
@@ -1841,17 +1372,6 @@ addT('id', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, jadi $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>Integral adalah kebalikan dari turunan. <b>Antiturunan</b> dari $f$ adalah sembarang $F$ dengan $F' = f$; <b>integral tak tentu</b> memuat konstanta integrasi:</p>
-⟦0⟧
-⟦1⟧
-<h3>Integral tentu</h3>
-⟦2⟧
-<p>Untuk $f \ge 0$, ini adalah luas di bawah kurva antara $x = a$ dan $x = b$. Luas di bawah sumbu-$x$ dihitung negatif, jadi pisahkan integral di akar-akarnya jika ingin luas total.</p>
-⟦3⟧
-<h3>Menentukan fungsi dari turunannya</h3>
-<p>Jika $f'(x) = 6x + 2$ dan $f(1) = 10$, maka $f(x) = 3x^2 + 2x + C$ dan $3 + 2 + C = 10$ memberikan $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Periksa dengan menurunkannya.</p>`,
   '1jsx5j8bwuv': R`Teorema Dasar Kalkulus`,
   'k8jg70602j': R`<p>Luas antara $y = x^2$ dan $y = 2x$: keduanya berpotongan di $x = 0$ dan $x = 2$, dan $2x \ge x^2$ di antaranya, jadi $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,
@@ -1881,19 +1401,6 @@ addT('id', {
 /* Bahasa Indonesia — SMA (kaidah pencacahan → logika) */
 addT('id', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Permutasi: urutan diperhatikan</h3>
-⟦1⟧
-<p>Juara pertama, kedua, dan ketiga dari 10 orang: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Susunan dengan unsur yang sama: $\frac{n!}{p!\,q!\cdots}$. Kata "BANANA" memiliki $\frac{6!}{3!\,2!} = 60$ susunan.</li><li>Permutasi siklis (melingkar): $(n - 1)!$ (hasil rotasi dianggap sama).</li></ul>
-<h3>Kombinasi: urutan tidak diperhatikan</h3>
-⟦2⟧
-<p>Panitia 3 orang dari 10 orang: $\binom{10}{3} = 120$. Panitia berisi 2 pria (dari 5) dan 3 wanita (dari 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Teorema binomial</h3>
-⟦3⟧
-<p>Koefisien $x^2$ pada $(x + 3)^5$ adalah $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Aturan perkalian:</b> jika pilihan pertama dapat dilakukan dengan $m$ cara dan pilihan kedua dengan $n$ cara, keduanya bersama-sama dapat dilakukan dengan $m \times n$ cara.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -1922,16 +1429,6 @@ addT('id', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ faktor) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Dengan dan tanpa pengembalian</h3>
-⟦1⟧
-<p>Diagram pohon membantu mengaturnya: kalikan sepanjang cabang, jumlahkan antarcabang.</p>
-<h3>"Paling sedikit satu"</h3>
-<p>Gunakan komplemen: $P(\text{paling sedikit satu mata 6 dalam 3 lemparan}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Teorema Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Rumus`,
   '29i7n2pf82k': R`Komplemen`,
   '1q1cgu220ce': R`Saling lepas`,
@@ -1969,18 +1466,6 @@ addT('id', {
   '29cd8gay3w4': R`Dengan pengembalian, kedua pengambilan saling bebas: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Kuartil dan diagram kotak-garis</h3>
-<p>Urutkan data. Median $Q_2$ membagi data menjadi dua bagian; $Q_1$ adalah median bagian bawah dan $Q_3$ median bagian atas (di sini median tidak dimasukkan ke kedua bagian jika $n$ ganjil). <b>Jangkauan antarkuartil</b> $\text{JAK} = Q_3 - Q_1$ mengukur sebaran 50% data di tengah.</p>
-⟦0⟧
-<h3>Ragam dan simpangan baku</h3>
-⟦1⟧
-⟦2⟧
-<h3>Data berkelompok</h3>
-<p>Taksir rata-rata dengan titik tengah kelas: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transformasi data</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Aturan pencilan yang umum: nilai di bawah $Q_1 - 1{,}5\,\text{JAK}$ atau di atas $Q_3 + 1{,}5\,\text{JAK}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sampel)}`,
   '1c6crwakkdh': R`<p>Data 2; 4; 4; 4; 5; 5; 7; 9: rata-rata 5, kuadrat simpangan 9; 1; 1; 1; 0; 0; 4; 16 (jumlah 32). Ragam populasi $= \frac{32}{8} = 4$ dan $\sigma = 2$.</p>`,
@@ -2011,19 +1496,6 @@ addT('id', {
   '111p9ug7ykx': R`Batas bawah $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Persamaan lingkaran</h3>
-⟦1⟧
-<p>Jika dijabarkan, diperoleh <b>bentuk umum</b> $x^2 + y^2 + Dx + Ey + F = 0$ dengan pusat $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ dan jari-jari $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Kedudukan titik</h3>
-<p>Substitusikan titik ke $(x - a)^2 + (y - b)^2$ dan bandingkan dengan $r^2$: lebih kecil → di dalam, sama → pada lingkaran, lebih besar → di luar.</p>
-<h3>Garis singgung</h3>
-<p>Garis singgung tegak lurus jari-jari di titik singgung. Untuk lingkaran $x^2 + y^2 = r^2$ di titik $(x_1; y_1)$, gradien jari-jarinya $\frac{y_1}{x_1}$, jadi gradien garis singgungnya $-\frac{x_1}{y_1}$.</p>
-<h3>Parabola</h3>
-<p>$y^2 = 4px$ memiliki fokus $(p; 0)$ dan direktriks $x = -p$; $x^2 = 4py$ memiliki fokus $(0; p)$ dan direktriks $y = -p$. Setiap titik pada parabola berjarak sama ke fokus dan ke direktriks.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Titik tengah } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Jarak } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{pusat } (a; b), \text{ jari-jari } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: lengkapkan kuadrat, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Pusat $(3; -2)$, jari-jari 5.</p>`,
@@ -2052,13 +1524,6 @@ addT('id', {
   '1huwumypuyf': R`Jari-jari ke $⟦0⟧$ bergradien $\frac{⟦1⟧}{⟦2⟧}$. Garis singgung tegak lurus padanya: gradien $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p><b>Program linear</b> mencari nilai terbaik (terbesar atau terkecil) dari <b>fungsi objektif</b> linear, misalnya keuntungan $z = 30x + 20y$, dengan <b>kendala</b> linear seperti $x + y \le 40$.</p>
-<ol><li>Tulis kendala sebagai pertidaksamaan (termasuk $x \ge 0$, $y \ge 0$).</li><li>Gambar setiap garis batas dan arsir daerah yang memenuhi semua kendala — <b>daerah penyelesaian</b> (daerah layak).</li><li>Tentukan titik-titik pojok dengan menyelesaikan pasangan persamaan garis batas.</li><li>Hitung nilai fungsi objektif di setiap titik pojok.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Untuk masalah minimum dengan kendala "≥", daerahnya sering tidak terbatas; jika biayanya positif, nilai minimum tetap tercapai di titik pojok.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Teorema titik pojok:</b> jika nilai optimum ada, nilai itu tercapai di salah satu titik pojok daerah penyelesaian.</p>`,
   '1g8qhbmqb9w': R`<p>Maksimumkan $z = 3x + 2y$ dengan kendala $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Titik pojok: $(0; 0)$, $(6; 0)$, $(4; 4)$ [perpotongan $x + y = 8$ dan $2x + y = 12$], $(0; 8)$.</p><p>Nilai $z$: 0; 18; 20; 16. Maksimum $z = 20$ di $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Periksa apakah setiap titik pojok memenuhi <b>semua</b> kendala — perpotongan dua garis batas bisa saja berada di luar daerah.</p>`,
@@ -2072,17 +1537,6 @@ addT('id', {
   '296rrmt4h4q': R`Kendala: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Titik pojok: ⟦3⟧. Keuntungan maksimum: <b>⟦4⟧</b> ribu rupiah.`,
 
   // logic
-  '22xng4phovn': R`
-<p><b>Pernyataan</b> (proposisi) adalah kalimat yang bernilai benar atau salah, tetapi tidak keduanya. Pernyataan majemuk dibentuk dengan <b>kata hubung logika</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Konvers, invers, dan kontraposisi</h3>
-⟦2⟧
-<h3>Kuantor</h3>
-<p>$\forall$ "untuk semua" dan $\exists$ "ada/terdapat". Negasi menukar keduanya: negasi dari "Semua siswa lulus" adalah "<b>Ada</b> siswa yang <b>tidak</b> lulus"; negasi dari "Ada burung yang tidak dapat terbang" adalah "Semua burung dapat terbang".</p>
-<h3>Penarikan kesimpulan yang sah</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; jadi $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; jadi $\neg p$.</li><li><b>Silogisme:</b> $p \Rightarrow q$, $q \Rightarrow r$; jadi $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`BS`,
   '1h0id2d836q': R`<p>Implikasi $p \Rightarrow q$ bernilai salah <b>hanya</b> jika $p$ benar dan $q$ salah.</p>`,
   '2aojok6ubm7': R`Bentuk`,
@@ -2185,15 +1639,6 @@ addT('id', {
 /* Bahasa Indonesia — Kuliah (teknik turunan → persamaan diferensial) */
 addT('id', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Turunan implisit</h3>
-<p>Jika $y$ didefinisikan secara implisit, turunkan kedua ruas terhadap $x$ dengan memandang $y$ sebagai fungsi dari $x$ (jadi $\frac{d}{dx}y^2 = 2y\,y'$), lalu selesaikan untuk $y'$.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`Perkalian`,
   '1fd6nxjb0xt': R`Pembagian`,
   '21u0n9yxqot': R`Rantai`,
@@ -2220,20 +1665,6 @@ addT('id', {
   '20aqqhk2mtp': R`Aturan perkalian: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. Jadi $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>Aturan L'Hôpital</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (diterapkan dua kali).</p>
-<h3>Optimasi</h3>
-<ol><li>Tulis besaran yang dioptimalkan sebagai fungsi satu variabel (gunakan kendalanya).</li><li>Turunkan dan selesaikan $f'(x) = 0$.</li><li>Periksa apakah itu maksimum/minimum (turunan kedua atau titik ujung).</li></ol>
-⟦1⟧
-<h3>Laju yang berkaitan</h3>
-<p>Turunkan suatu hubungan terhadap waktu. Untuk lingkaran yang membesar, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>Aproksimasi linear</h3>
-⟦2⟧
-<h3>Kecekungan dan teorema nilai rata-rata</h3>
-<p>$f'' \gt 0$: cekung ke atas; $f'' \lt 0$: cekung ke bawah; <b>titik belok</b> adalah tempat kecekungan berubah. <b>Teorema nilai rata-rata:</b> jika $f$ kontinu pada $[a; b]$ dan terdiferensialkan di dalamnya, ada $c$ di $(a; b)$ dengan $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>Jika $\lim \frac{f(x)}{g(x)}$ berbentuk $\frac{0}{0}$ atau $\frac{\infty}{\infty}$, maka $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (jika limit ruas kanan ada).</p>`,
   '189x52ko5mw': R`<p>Dari keempat sudut lembaran persegi bersisi 18 cm dipotong persegi bersisi $x$, lalu sisinya dilipat ke atas. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$ memberi $x = 3$, jadi $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{mis. } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5{,}1`,
@@ -2258,19 +1689,6 @@ addT('id', {
   '1c5ltuvzsrq': R`Gradien rata-rata $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$ memberi $c = ⟦7⟧$ — titik tengah, seperti biasa untuk fungsi kuadrat.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>Substitusi</h3>
-<p>Cari sebuah fungsi beserta turunannya. Dengan $u = g(x)$, $du = g'(x)\,dx$:</p>
-⟦0⟧
-<p>Untuk integral tentu, ubah juga batasnya (atau kembalikan ke variabel semula sebelum menghitung).</p>
-<h3>Integral parsial</h3>
-⟦1⟧
-⟦2⟧
-<h3>Pecahan parsial</h3>
-<p>Pecah fungsi rasional menjadi bagian yang lebih sederhana: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Hilangkan penyebut lalu substitusikan $x = 1$ dan $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Setiap bagian diintegralkan menjadi logaritma.</p>
-<h3>Integral tak wajar</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>Pilih $u$ menurut urutan <b>LIATE</b>: Logaritma, Invers trigonometri, Aljabar, Trigonometri, Eksponensial — mana yang lebih dulu muncul.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$, jadi $du = dx$, $v = \frac{1}{2}e^{2x}$. Hasil: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -2323,14 +1741,6 @@ addT('id', {
   'lpjavqv13n': R`Sebuah pegas memiliki konstanta $k = ⟦0⟧$ N/m. Berapa usaha yang diperlukan untuk meregangkannya ⟦1⟧ m dari panjang alaminya?`,
 
   // series
-  '1efhn95iov3': R`
-<p>Deret tak hingga $\sum a_n$ <b>konvergen</b> jika jumlah parsialnya $S_N = a_1 + \cdots + a_N$ mendekati suatu limit berhingga.</p>
-⟦0⟧
-⟦1⟧
-<h3>Deret pangkat dan deret Taylor</h3>
-<p>Deret pangkat $\sum c_n (x - a)^n$ konvergen untuk $|x - a| \lt R$, dengan $R$ adalah <b>jari-jari kekonvergenan</b> (dicari dengan uji rasio). Deret Taylor $f$ di sekitar $a$ adalah $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; di sekitar 0 disebut deret Maclaurin.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`Uji`,
   '1boy0ga8tbt': R`Kesimpulan`,
   '7ih7yeq8ue': R`Uji suku ke-n (divergensi)`,
@@ -2384,19 +1794,6 @@ addT('id', {
   '262p4pwoflz': R`Ini adalah deret baku untuk $⟦0⟧$.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>Untuk $f(x, y)$, <b>turunan parsial</b> $f_x = \frac{\partial f}{\partial x}$ diturunkan terhadap $x$ dengan memandang $y$ sebagai konstanta (sebaliknya untuk $f_y$). Untuk $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>Gradien dan turunan berarah</h3>
-⟦0⟧
-<h3>Titik kritis: uji turunan kedua</h3>
-<p>Di titik tempat $f_x = f_y = 0$, misalkan $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: minimum lokal. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: maksimum lokal.</li><li>$D \lt 0$: titik pelana. &nbsp; $D = 0$: uji tidak dapat menyimpulkan.</li></ul>
-<h3>Integral lipat dua</h3>
-<p>Pada persegi panjang, integralkan satu variabel setiap kali (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Dalam koordinat kutub, $dA = r\,dr\,d\theta$.</p>
-<h3>Pengali Lagrange</h3>
-<p>Untuk mengoptimalkan $f$ dengan kendala $g = c$, selesaikan $\nabla f = \lambda\nabla g$ bersama kendalanya.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x; f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ menunjuk ke arah kenaikan tercepat; panjangnya adalah laju maksimum itu.</p>`,
   'opu0v1dwpl': R`<p>Maksimumkan $f = xy$ dengan kendala $x + y = 10$: $(y; x) = \lambda(1; 1)$ memberi $x = y = 5$, jadi maksimumnya 25.</p>`,
   '83uqphqp8x': R`<p>Dalam koordinat kutub, jangan lupa faktor tambahan $r$ pada $dA = r\,dr\,d\theta$.</p>`,
@@ -2424,18 +1821,6 @@ addT('id', {
   'hl1el1t8oy': R`Koordinat kutub: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p><b>Persamaan diferensial</b> menghubungkan suatu fungsi dengan turunan-turunannya. <b>Ordenya</b> adalah turunan tertinggi yang muncul. <b>Solusi umum</b> memuat konstanta sembarang; syarat awal menentukan solusi khusus.</p>
-<h3>Persamaan terpisahkan</h3>
-⟦0⟧
-<p>Kasus khusus: $\frac{dy}{dt} = ky$ memberi $y = y_0e^{kt}$ — pertumbuhan ($k \gt 0$) atau peluruhan ($k \lt 0$) eksponensial. Dengan waktu paruh $T$, jumlah yang tersisa adalah $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>Persamaan linear orde satu</h3>
-⟦1⟧
-<h3>Persamaan linear orde dua dengan koefisien konstan</h3>
-<p>Untuk $ay'' + by' + cy = 0$, coba $y = e^{rx}$ sehingga diperoleh <b>persamaan karakteristik</b> $ar^2 + br + c = 0$.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: pisahkan, $\int\frac{dy}{y} = \int 2x\,dx$, jadi $\ln|y| = x^2 + C$ dan $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>Untuk $y' + P(x)y = Q(x)$, kalikan dengan <b>faktor integrasi</b> $\mu(x) = e^{\int P(x)\,dx}$. Maka $(\mu y)' = \mu Q$, jadi $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`Akar`,
@@ -2466,18 +1851,6 @@ addT('id', {
 /* Bahasa Indonesia — Kuliah (aljabar linear → transformasi Laplace) */
 addT('id', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Sistem persamaan linear dan rank</h3>
-<p>Sistem $A\mathbf{x} = \mathbf{b}$ diselesaikan dengan mereduksi baris matriks lengkap $[A \mid \mathbf{b}]$ menjadi bentuk eselon. <b>Rank</b> $A$ adalah banyaknya pivot (baris tak nol dalam bentuk eselon).</p>
-⟦0⟧
-<h3>Determinan</h3>
-⟦1⟧
-<p>Sifat-sifat yang berguna untuk matriks $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Aturan Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Nilai eigen dan vektor eigen</h3>
-⟦2⟧
-⟦3⟧
-<p>Jika $A$ memiliki $n$ vektor eigen yang bebas linear, $A$ <b>dapat didiagonalkan</b>: $A = PDP^{-1}$, dengan vektor eigen sebagai kolom $P$ dan nilai eigen pada diagonal $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Teorema rank–nulitas:</b> untuk matriks $m \times n$, $\text{rank}(A) + \text{nulitas}(A) = n$. Matriks persegi $A$ dapat dibalik $\iff \det A \ne 0 \iff$ kolom-kolomnya bebas linear $\iff \text{rank} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Untuk matriks $2 \times 2$: $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. Jumlah nilai eigen sama dengan trace, dan hasil kalinya sama dengan determinan.</p>`,
@@ -2509,15 +1882,6 @@ addT('id', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, jadi $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>Satuan imajiner memenuhi $i^2 = -1$. Bilangan kompleks ditulis $z = a + bi$ dengan bagian real $\text{Re}(z) = a$ dan bagian imajiner $\text{Im}(z) = b$. Pangkat $i$ berulang setiap empat: $i; -1; -i; 1; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Bentuk polar dan rumus Euler</h3>
-⟦2⟧
-⟦3⟧
-<p>Akar pangkat $n$ dari satu adalah $e^{2\pi ik/n}$ untuk $k = 0; 1; \ldots; n - 1$: titik-titik yang berjarak sama pada lingkaran satuan.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Perkalian`,
   '1lvuh3a6n9s': R`Sekawan`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, dan $z\bar{z} = a^2 + b^2$`,
@@ -2546,14 +1910,6 @@ addT('id', {
   '1xd7417ut46': R`Misalkan $z = ⟦0⟧$. Tentukan $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p><b>Variabel acak</b> $X$ memberi angka pada setiap hasil. Untuk $X$ diskret dengan peluang $p(x)$:</p>
-⟦0⟧
-⟦1⟧
-<h3>Distribusi normal</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Distribusi`,
   'z5bw2hz29r': R`P(X = k) atau densitas`,
@@ -2585,17 +1941,6 @@ addT('id', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ dan $\text{Var}(X) = ⟦1⟧$. Tentukan $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>Kita memakai statistik <b>sampel</b> (seperti $\bar{x}$) untuk menaksir parameter <b>populasi</b> (seperti $\mu$). Menurut <b>teorema limit pusat</b>, untuk $n$ besar rata-rata sampel kira-kira berdistribusi normal dengan rata-rata $\mu$ dan <b>galat baku</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Selang kepercayaan</h3>
-⟦0⟧
-<p>Agar batas galatnya $E$, diperlukan $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (dibulatkan ke atas). Jika $\sigma$ tidak diketahui, gunakan $s$ dan distribusi $t$.</p>
-<h3>Uji hipotesis</h3>
-<ol><li>Rumuskan $H_0$ (mis. $\mu = \mu_0$) dan $H_1$.</li><li>Hitung statistik uji, mis. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Tentukan <b>nilai-p</b>: peluang, dengan menganggap $H_0$ benar, memperoleh hasil yang paling sedikit seekstrem ini.</li><li>Jika $p \le \alpha$, tolak $H_0$; jika tidak, $H_0$ tidak ditolak.</li></ol>
-⟦1⟧
-<h3>Regresi linear</h3>
-<p>Garis kuadrat terkecil $\hat{y} = a + bx$ memiliki gradien $b = r\frac{s_y}{s_x}$ dan melalui $(\bar{x}; \bar{y})$, jadi $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\%);\; 1{,}96 \;(95\%);\; 2{,}576 \;(99\%)`,
   '7nca7j57l5': R`H₀ benar`,
   '2e0zey7f13x': R`H₀ salah`,
@@ -2637,17 +1982,6 @@ addT('id', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, jadi bulatkan ke atas: $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Teori bilangan</h3>
-<p>$a \equiv b \pmod n$ berarti $n$ membagi habis $a - b$; $a \bmod n$ adalah sisa pembagian dalam $\{0; 1; \ldots; n - 1\}$. Kongruensi boleh dijumlahkan dan dikalikan, dan pangkat dapat direduksi langkah demi langkah.</p>
-⟦0⟧
-⟦1⟧
-<p><b>Invers modular</b> $a$ modulo $n$ adalah $x$ dengan $ax \equiv 1 \pmod n$; invers ini ada tepat ketika $\gcd(a, n) = 1$.</p>
-<h3>Pencacahan</h3>
-<ul><li>Fungsi dari himpunan berukuran $m$ ke himpunan berukuran $n$: $n^m$; fungsi injektif: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusi–eksklusi: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Prinsip sarang merpati:</b> jika lebih dari $kn$ benda dimasukkan ke $n$ kotak, ada kotak yang berisi paling sedikit $k + 1$.</li></ul>
-<h3>Relasi rekurensi dan graf</h3>
-<p>Relasi rekurensi mendefinisikan setiap suku dari suku-suku sebelumnya, seperti $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Pada graf, <b>lema jabat tangan</b> menyatakan $\sum \deg(v) = 2|E|$; $K_n$ memiliki $\binom{n}{2}$ sisi; pohon dengan $n$ simpul memiliki $n - 1$ sisi; graf terhubung memiliki sirkuit Euler jika dan hanya jika semua derajatnya genap.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Algoritma Euclid:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, diulang sampai sisanya 0.</p><p><b>Teorema kecil Fermat:</b> jika $p$ prima dan $p \nmid a$, maka $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Jadi FPB-nya 18.</p><p>$2^{100} \bmod 7$: karena $2^3 = 8 \equiv 1$, $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Dalam soal inklusi–eksklusi ("habis dibagi 3 atau 5"), irisannya adalah habis dibagi <b>KPK</b>-nya, yaitu 15.</p>`,
@@ -2688,18 +2022,6 @@ addT('id', {
   '27kjdpfw0sg': R`Dengan ⟦0⟧ kategori, $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ orang masih bisa menghindarinya; satu orang lagi memaksa terbentuknya kelompok ⟦4⟧ orang: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Metode numerik mengaproksimasi jawaban yang tidak memiliki bentuk tertutup yang praktis. Dua jenis galat penting: galat <b>pemotongan</b> (dari metodenya) dan galat <b>pembulatan</b> (dari presisi yang terbatas).</p>
-⟦0⟧
-<h3>Mencari akar</h3>
-<ul><li><b>Bagi dua (biseksi):</b> jika $f(a)$ dan $f(b)$ berlawanan tanda, uji titik tengah $m$ dan simpan separuh yang mengalami perubahan tanda. Lambat tetapi pasti: galatnya menjadi separuh setiap langkah.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sangat cepat di dekat akar sederhana (konvergensi kuadratik), tetapi bisa gagal dengan tebakan awal yang buruk atau jika $f' \approx 0$.</li></ul>
-⟦1⟧
-<h3>Integrasi numerik</h3>
-⟦2⟧
-<p>Di sini $h = \frac{b - a}{n}$. Aturan Simpson eksak untuk polinomial berderajat paling tinggi 3.</p>
-<h3>Metode Euler</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{galat mutlak} = |x_{\text{sejati}} - x_{\text{aproks}}| \qquad \text{galat relatif} = \frac{|x_{\text{sejati}} - x_{\text{aproks}}|}{|x_{\text{sejati}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ melalui $f(x) = x^2 - 10$ dari $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — sudah tepat sampai 4 tempat desimal.</p>`,
   'vx6qz5zup7': R`\text{Trapesium: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ genap}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -2718,17 +2040,6 @@ addT('id', {
   '6utp8finkn': R`$⟦0⟧$ diaproksimasi oleh ⟦1⟧. Tentukan galat relatifnya dalam persen, sampai 3 tempat desimal.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p><b>Medan vektor</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ memberikan sebuah vektor pada setiap titik — seperti kecepatan angin atau gaya. Dengan $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
-⟦0⟧
-<p>Divergensi mengukur aliran keluar dari suatu titik; curl mengukur putaran.</p>
-<h3>Integral garis dan medan konservatif</h3>
-⟦1⟧
-⟦2⟧
-<h3>Teorema-teorema besar</h3>
-⟦3⟧
-<p>Akibat menarik dari teorema Green: luas $D$ sama dengan $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ <b>konservatif</b> jika $\mathbf{F} = \nabla\varphi$ untuk suatu potensial $\varphi$. Maka $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ untuk sembarang lintasan dari $A$ ke $B$. Di bidang (daerah terhubung sederhana), $(P, Q)$ konservatif jika dan hanya jika $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, jadi medan ini konservatif dengan $\varphi = x^2y + 3y$. Dari $(0; 0)$ ke $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
@@ -2758,13 +2069,6 @@ addT('id', {
   '4awle3me9d': R`Integralkan $P$ terhadap $x$: $\varphi = ⟦0⟧ + g(y)$. Lalu $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$ memberi $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Transformasi invers biasanya memerlukan pecahan parsial terlebih dahulu, lalu dicocokkan dengan tabel.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linearitas:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Turunan:</b> $\mathcal{L}\{y'\} = sY - y(0)$ dan $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — dengan ini persamaan diferensial berubah menjadi aljabar.</p>`,
   'ie964pskzz': R`<p>Selesaikan $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, jadi $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Dengan invers: $y = 3\cos 2t + \sin 2t$.</p>`,
@@ -2991,4 +2295,1188 @@ addT('id', {
   '19mvnrfi5rk': R`Transformasi Laplace mengubah persamaan diferensial menjadi persamaan aljabar.`,
   // The Laplace transform is an improper integral, often worked 
   'da64d9071l': R`Transformasi Laplace adalah integral tak wajar, yang sering dihitung dengan integral parsial.`,
+});
+
+/* Bahasa Indonesia — 9-figcaps */
+addT('id', {
+  '1ogbw8wz8eu': R`median`,
+  'glmqryi5du': R`atas`,
+  '133jc9ud4m8': R`depan`,
+  '1ha0sto9ww8': R`bawah`,
+  '3aovv25fmb': R`samping`,
+  '180lyt6tmu1': R`belakang`,
+  'vh2jyu4u5w': R`Bangun berbentuk L yang dibagi garis putus-putus menjadi persegi panjang A berukuran 4 kali 8 dan persegi panjang B berukuran 6 kali 4`,
+  '2e3sjj0h3jo': R`Segi empat, segi lima, dan segi enam, masing-masing dipotong menjadi segitiga oleh diagonal dari satu sudut`,
+  'cpwx1o1gss': R`⟦0⟧ sisi → ⟦1⟧ segitiga`,
+  '1elsofgngbf': R`Tabel nilai tempat untuk 4 307`,
+  '1kevr5xqf8m': R`Setiap kolom bernilai sepuluh kali kolom di sebelah kanannya. Angka 0 membuat kolom puluhan tetap kosong sehingga angka 4 tetap berada di ribuan.`,
+  '1ff6cfwl8nh': R`tengah-tengah`,
+  '2gkb4n6grbp': R`Garis bilangan dari 3 400 sampai 3 500 dengan 3 462 ditandai melewati titik tengah 3 450`,
+  '1wgp3r34zyc': R`3 462 terletak melewati titik tengah 3 450, jadi lebih dekat ke 3 500 daripada ke 3 400.`,
+  'dya1ktyp4w': R`Penjumlahan bersusun 4 587 dan 2 846 dengan angka simpanan ditulis di atas`,
+  '1bntl49q9ho': R`Angka 1 kecil adalah simpanan: setiap kolom yang mencapai 10 atau lebih memberikan satu puluhan ke kolom di sebelah kirinya.`,
+  'oi9pmz6twm': R`Pengurangan bersusun 6 204 dikurangi 1 758 dengan puluhan pinjaman ditandai`,
+  'okx4t4k28h': R`"+10" menandai setiap kolom yang harus meminjam dari kolom di sebelah kirinya.`,
+  'wcc3fyip8y': R`Model batang: keseluruhan 6 204 dibagi menjadi bagian yang diketahui 1 758 dan bagian yang belum diketahui`,
+  '158czdezeow': R`Model batang: keseluruhan dibagi menjadi dua bagian. Bagian yang hilang = keseluruhan − bagian yang diketahui.`,
+  '2d2dw53io9v': R`Susunan 4 baris dengan 6 titik di setiap baris`,
+  '1y4uqwlpi49': R`Susunan: 4 baris berisi 6. Baca per kolom, dan kamu melihat 6 baris berisi 4 — tetap 24 titik yang sama.`,
+  '1jsdhh4ic90': R`Model luas untuk 347 kali 26`,
+  '6blh224pj2': R`Model luas: uraikan 347 dan 26 menurut nilai tempat, kalikan setiap pasangan, lalu jumlahkan semua bagiannya.`,
+  '1s5ttwjrao3': R`47 titik yang tersusun dalam 9 kolom penuh berisi 5 dan sisa 2`,
+  '1yv6yqefsgx': R`9 kelompok berisi 5, sisa 2`,
+  'ysg00q1hzp': R`47 bijih hitung dalam kelompok berisi 5: sembilan kelompok penuh dan sisa 2.`,
+  '1sozxu1ww61': R`Penyederhanaan langkah demi langkah dari (8 + 4) × 3 − 2³`,
+  '2c7ycbyb05a': R`Satu langkah setiap kali: kurung, lalu pangkat, lalu perkalian, lalu pengurangan.`,
+  '1lx8513hzpv': R`Persegi panjang 1 kali 12`,
+  '1kyg66oplfs': R`Persegi panjang 2 kali 6`,
+  'y3f8gn7g42': R`Persegi panjang 3 kali 4`,
+  'h7a2ldpbct': R`12 persegi dapat disusun menjadi tepat tiga persegi panjang berbeda, satu untuk setiap pasangan faktor.`,
+  '8tgb0rvag9': R`Pohon faktor 360`,
+  '95n9un657x': R`Pohon faktor untuk 360: bilangan yang dilingkari adalah bilangan prima, jadi $360 = 2^3 \times 3^2 \times 5$.`,
+  '2awfn0ep3ki': R`Diagram Venn faktor prima dari 24 dan 36`,
+  '1js8qvwytz4': R`Faktor prima yang sama berada di irisan. FPB = hasil kali irisan = 12; KPK = hasil kali semuanya = 72.`,
+  '1c8caj4lekf': R`Lingkaran yang diarsir untuk menunjukkan tiga perempat, lima perdelapan, dan dua pertiga`,
+  '29pbw34qlm6': R`Penyebut menyatakan menjadi berapa bagian sama besar keseluruhan dipotong; pembilang menyatakan berapa bagian yang diarsir.`,
+  '190uyngbpnr': R`Batang pecahan yang menunjukkan bahwa 2/3, 4/6, dan 10/15 sama panjang`,
+  '1jhylsi085w': R`Pecahan senilai menutupi panjang yang sama — bagian-bagiannya hanya dipotong lebih kecil.`,
+  '18xzdnjyh1u': R`Dua lingkaran utuh yang dipotong menjadi sepertiga dan sepertiga lingkaran`,
+  'degryja9tb': R`$2\frac{1}{3}$ adalah 2 utuh dan 1 pertiga; jika dihitung dalam pertigaan, hasilnya $3 + 3 + 1 = 7$ pertiga.`,
+  'uva79hsn9p': R`Batang pecahan dalam perduabelasan: 2/3 adalah 8 perduabelas dan 3/4 adalah 9 perduabelas`,
+  '1znsk7iq2k1': R`Potong kedua batang menjadi perduabelasan: $\frac{2}{3} = \frac{8}{12}$ dan $\frac{3}{4} = \frac{9}{12}$, jadi bersama-sama menjadi $\frac{17}{12}$.`,
+  '2g8edezrbjt': R`Batang 40 yang dipotong menjadi 8 bagian sama besar berisi 5 dengan 3 bagian diarsir`,
+  '261lue5l434': R`40 dibagi menjadi 8 bagian sama besar, masing-masing 5; 3 bagian menjadi 15.`,
+  'gm72s5afko': R`Petak seratus dengan 4 kolom dan 5 persegi lagi diarsir`,
+  '1d5lt1hy721': R`Satu utuh dipotong menjadi 100 persegi: setiap kolom adalah sepersepuluh, setiap persegi kecil seperseratus.`,
+  '133x1cc9yfj': R`Garis bilangan dari 0,3 sampai 0,6 dengan 0,45 tepat di sebelah kiri 0,5`,
+  '28tkqft47y0': R`Pada garis bilangan, 0,45 berada di sebelah kiri 0,5, jadi lebih kecil.`,
+  '22ver6ntmih': R`Petak seratus dengan 35 persegi diarsir`,
+  '1tpzne3eivk': R`35 dari 100 persegi diarsir: 35 persen.`,
+  '1ups7gkhhbg': R`bayar 16`,
+  'g9caogzs98': R`hemat 16`,
+  '1ub39acqu3': R`80 dolar = 100%`,
+  '1bmojvnwocq': R`setiap bagian 20% = 16 dolar`,
+  '1utreu5x96i': R`Model batang: 80 dolar dibagi menjadi lima bagian 20 persen, empat dibayar dan satu dihemat`,
+  '27uc2nad5ec': R`Diskon 20%: potong harga menjadi lima bagian 20%; kamu menghemat satu bagian dan membayar empat bagian lainnya (80%).`,
+  '1tvow2j3lsz': R`Tangga satuan panjang dari kilometer turun sampai milimeter`,
+  '2b9u975q90r': R`Setiap anak tangga turun pada tangga metrik berarti dikali 10; setiap anak tangga naik berarti dibagi 10. Dari km ke m ada tiga anak tangga: × 1 000.`,
+  'qicuqpzgep': R`Garis waktu yang menghitung maju dari 09.35 sampai 13.10`,
+  '1x83phdymm0': R`Hitung maju sampai jam bulat berikutnya, lalu per jam penuh, lalu sisa menitnya (tidak berskala).`,
+  'ohc7o872vs': R`Persegi panjang 5 kali 3 yang tersusun dari 15 persegi satuan`,
+  'fcoly2d73i': R`Luas: 5 × 3 = 15 persegi`,
+  '1dvxa58s0lv': R`Luas menghitung persegi satuan: 3 baris berisi 5 persegi.`,
+  '21ri2l2hnbh': R`Bangun L dibagi menjadi dua persegi panjang: luas total $32 + 24 = 56$ satuan persegi. Cek: $10 \times 8 - 6 \times 4 = 56$.`,
+  '1k2n9bp8f76': R`Balok 4 kali 3 kali 2 yang tersusun dari kubus satuan`,
+  'ms9y04e1om': R`Setiap lapisan memuat $4 \times 3 = 12$ kubus dan ada 2 lapisan, jadi $V = 24 \text{ cm}^3$.`,
+  '1ctkleroqtf': R`Jaring-jaring balok 4 kali 3 kali 2`,
+  '5qydg6at97': R`Jika dibuka menjadi jaring-jaring, keenam sisi membentuk tiga pasang yang sama: atas dan bawah, depan dan belakang, serta kedua sisi samping.`,
+  '5pz0x8edsq': R`Sudut lancip, siku-siku, tumpul, dan lurus`,
+  '7l4rzo7jp8': R`Lancip < 90° < tumpul < 180°. Sudut refleks lebih besar dari 180°.`,
+  '7yh7biohqt': R`Diagonal dari satu sudut memotong segi-$n$ menjadi $n - 2$ segitiga, masing-masing $180^\circ$.`,
+  '2ens23t4g3a': R`Apel`,
+  '6578mu68ud': R`Pisang`,
+  '1lfs4x16odq': R`Mangga`,
+  '18j2qgxu44o': R`Jeruk`,
+  '1iggpiv9kct': R`siswa`,
+  '2awg6iqbg70': R`Diagram batang buah kesukaan: apel 8, pisang 5, mangga 11, jeruk 6`,
+  '15c7vtdn66': R`Diagram batang buah kesukaan satu kelas. Batang tertinggi adalah modus: mangga.`,
+  '21pg07pdefk': R`rata-rata = median = 9`,
+  '17pw4m7d4yb': R`modus`,
+  'eqsomj1ihy': R`Diagram titik untuk skor 5, 7, 9, 12, 12`,
+  '260jfhrxs5i': R`Diagram titik skor: median adalah titik tengah, modus adalah tumpukan tertinggi, jangkauan adalah sebaran dari 5 sampai 12.`,
+  'yndnbrd9cl': R`Segitiga siku-siku 3-4-5 dengan persegi pada setiap sisinya: luas 9, 16, dan 25`,
+  '1b6tlm7yo2x': R`Lingkaran berdiameter d yang digelindingkan sepanjang garis menempuh jarak sedikit lebih dari 3 diameter, yaitu pi kali d`,
+  '62f40wsqkm': R`Lingkaran dengan juring 60 derajat yang diarsir`,
+  'cln768n65t': R`busur`,
+  '2evx6g1ifhd': R`Lingkaran berpusat O: sudut pusat AOB dua kali sudut keliling APB`,
+  'w2x0b6r5fv': R`Jaring-jaring tabung: dua lingkaran berjari-jari r dan persegi panjang dengan tinggi h dan lebar 2 pi r`,
+  'i1u9trz81g': R`Tabel enam kali enam jumlah mata dua dadu dengan enam jumlah 7 disorot`,
+  '1im3m31npst': R`Garis bilangan dari −8 sampai 8 dengan −7 dan −2 ditandai`,
+  '7b8kpa7rs3': R`Semakin ke kanan semakin besar: −7 berada di sebelah kiri −2, jadi $-7 \lt -2$.`,
+  'tb2azdeyap': R`Garis bilangan yang menunjukkan lompatan +5 dari −11 ke −6`,
+  '22bsdbk52ro': R`Menambah bilangan positif berarti bergerak ke kanan: $-11 + 5 = -6$.`,
+  'nvajqzz1tn': R`Persegi 3 kali 3 berisi 9 persegi satuan`,
+  '24voh2zoini': R`Kubus 3 kali 3 kali 3 berisi 27 kubus satuan`,
+  '1m6l8q5epje': R`Mengapa disebut "kuadrat" dan "kubik": $3^2$ adalah luas persegi 3 kali 3, $3^3$ adalah volume kubus 3 kali 3 kali 3.`,
+  '2gk8qv0oatv': R`sel darah`,
+  '1o7xmm4dlph': R`manusia`,
+  'sa5h3p1sqv': R`Everest`,
+  '2fyxww7qwgs': R`Matahari`,
+  '11v4ypih44u': R`Skala perpangkatan sepuluh dalam meter dari sel darah merah sampai jarak ke Matahari`,
+  '12hr7iknwdf': R`Skala perpangkatan sepuluh (meter). Setiap langkah ke kanan 10 kali lebih besar: sel darah merah ($8 \times 10^{-6}$ m), manusia (sekitar 1,7 m), Gunung Everest (8 849 m), dan jarak Bumi–Matahari ($1{,}5 \times 10^{11}$ m).`,
+  'woq08a4pq5': R`2 bagian : 3 bagian = 24 : 36`,
+  '17eskft0yz6': R`Model batang: 60 dibagi menjadi 5 bagian sama besar berisi 12, dua untuk bagian pertama dan tiga untuk bagian kedua`,
+  '10ux4z5kcrz': R`Membagi 60 dengan perbandingan $2 : 3$: lima bagian sama besar berisi 12.`,
+  '2900ua4y4cx': R`harga`,
+  'eaeibkme78': R`Langsung: $y = 2x$, garis lurus melalui 0`,
+  '9buhhciys9': R`pekerja`,
+  'njo518f7fs': R`Berbalik: $xy = 12$, sebuah kurva`,
+  '143l4wy9v78': R`Perbandingan senilai: keduanya berlipat dua bersama; perbandingan berbalik nilai: yang satu menjadi setengah ketika yang lain berlipat dua.`,
+  '2dt0cxp8eve': R`Model luas untuk (x + 3)(x + 2)`,
+  '19e3zetdfjl': R`Menjabarkan sebagai luas: persegi panjang selebar $(x + 3)$ dan setinggi $(x + 2)$ terbagi menjadi empat bagian.`,
+  '2aslgvbeqm1': R`Persegi bersisi a + b yang dibagi menjadi a², dua persegi panjang ab, dan b²`,
+  '4e6guvbdn0': R`$(a + b)^2$ memuat <b>dua</b> persegi panjang $ab$ — itulah $2ab$ yang sering dilupakan.`,
+  '1ran38af2uo': R`Timbangan seimbang dengan 2x + 3 di kiri dan 11 di kanan`,
+  '25klpbr8b7p': R`$2x + 3 = 11$: ambil 3 dari kedua piringan ($2x = 8$), lalu bagi dua keduanya ($x = 4$). Timbangan tetap seimbang.`,
+  '1gbp35rjate': R`x lebih dari 2: lingkaran kosong di 2, panah ke kanan`,
+  '1tkegg4a2kd': R`x paling besar 2: lingkaran penuh di 2, panah ke kiri`,
+  'mn0a9g09mh': R`Himpunan penyelesaian dari −2 (kosong) sampai 3 (penuh)`,
+  'r2y0lj1ya6': R`$-2 \lt x \le 3$: kosong di −2 (tidak termasuk), penuh di 3 (termasuk).`,
+  '1dh11q8ybgg': R`Diagram Venn: 12 hanya sepak bola, 8 keduanya, 10 hanya basket, 5 tidak keduanya`,
+  'brv43xs0j': R`Isi irisan dahulu (8), lalu "hanya sepak bola" $= 20 - 8 = 12$ dan "hanya basket" $= 18 - 8 = 10$; $35 - 30 = 5$ berada di luar.`,
+  '8vqfqtau7a': R`datar = 3`,
+  '28hswbuac0h': R`naik = 9`,
+  '1n8nljy8qsd': R`Garis y = 3x − 1 melalui (1; 2) dan (4; 11) dengan segitiga kemiringan`,
+  '1hyjfa052j5': R`Segitiga kemiringan: naik ÷ datar $= 9 \div 3 = 3$. Garis memotong sumbu-$y$ di $-1$.`,
+  '5ynrl0a89u': R`Dua garis sejajar y = x + 1 dan y = x − 2`,
+  'ifzuqve7yr': R`Sejajar: $m_1 = m_2 = 1$`,
+  '1d06kz8hgbx': R`Garis tegak lurus y = 2x dan y = −x/2`,
+  '1zj6puoei2e': R`Garis y = 2x − 1 dan 3x + y = 14 berpotongan di (3; 5)`,
+  'qqtv2se4gy': R`Kedua garis berpotongan di $(3; 5)$ — satu-satunya titik yang terletak pada keduanya, jadi satu-satunya penyelesaian.`,
+  '24985t2z78f': R`Dua garis sejajar`,
+  'oqw0zaxr5q': R`Tidak ada penyelesaian`,
+  '2a8qt80jhgm': R`Dua garis yang saling berimpit`,
+  '7iepnfjymm': R`Tak hingga banyaknya`,
+  '28gnqihr95s': R`Persegi pada sisi miring sama dengan gabungan dua persegi lainnya: $9 + 16 = 25$ (hitung persegi satuannya).`,
+  '24gppd7r39l': R`Jarak antara (1; 1) dan (5; 4) sebagai sisi miring segitiga siku-siku 4 kali 3`,
+  'u4xnokcnre': R`Rumus jarak adalah teorema Pythagoras pada petak: $d = \sqrt{4^2 + 3^2} = 5$.`,
+  '27oc0yi6px5': R`Gelindingkan lingkaran satu putaran sepanjang garis: lintasannya sedikit lebih dari 3 diameter — tepatnya $\pi d$.`,
+  '1ynvebv8pof': R`Juring $60^\circ$ adalah $\frac{60}{360} = \frac{1}{6}$ lingkaran, jadi busur dan luasnya $\frac{1}{6}$ dari keliling dan luas lingkaran penuh.`,
+  'ov61rbwqme': R`Sudut pusat ($140^\circ$) = dua kali sudut keliling ($70^\circ$) yang menghadap busur AB yang sama.`,
+  '1xou9y41fen': R`Prisma segitiga, tabung, limas, kerucut, dan bola`,
+  '17q7uccf2i7': R`Prisma dan tabung memiliki penampang yang sama sepanjang badannya; limas dan kerucut menyempit ke satu titik.`,
+  '2b3t40u1lym': R`Jaring-jaring tabung: dua lingkaran dan persegi panjang yang lebarnya sama dengan keliling $2\pi r$.`,
+  '4r0c6oh6y0': R`median 5`,
+  '27lr1i8k72a': R`rata-rata 6,5`,
+  'm81ohpzo9t': R`Diagram titik sepuluh nilai dengan satu pencilan di 20; rata-rata 6,5 tertarik ke kanan median 5`,
+  'viogqk5h81': R`Satu pencilan (20) menarik rata-rata naik menjadi 6,5, sedangkan median tetap 5 — itulah sebabnya median cocok untuk data yang menceng.`,
+  '5d1hrhu8sp': R`frekuensi`,
+  'vu3y782gty': R`Diagram batang tabel frekuensi: skor 1 tiga kali, 2 lima kali, 3 delapan kali, 4 empat kali`,
+  '11n99o5iwte': R`Batang tertinggi adalah modus (skor 3). Rata-ratanya, 2,65, sedikit lebih rendah karena ada skor-skor yang lebih kecil.`,
+  '222jg451350': R`bukan hijau`,
+  '1xje16c7zgh': R`Skala peluang dari 0 sampai 1 dengan peluang kelereng ditandai`,
+  'eo76de7aif': R`Skala peluang: 0 berarti mustahil, 1 berarti pasti. Kelereng memberikan $P(\text{hijau}) = 0{,}2$, $P(\text{biru}) = 0{,}5$, $P(\text{bukan hijau}) = 0{,}8$.`,
+  'i7d490spk4': R`Semua 36 hasil dari dua dadu. Jumlahnya tetap sepanjang setiap diagonal; enam sel yang diarsir memberi jumlah 7.`,
+  '1j91pj1exdc': R`awal`,
+  'ldy62jgez4': R`tahun 1`,
+  'hy6y3ebra4': R`tahun 2`,
+  '28dnt2n7usc': R`tahun 3`,
+  '12sn2cx1xlh': R`Diagram batang tabungan 1 500 dolar yang bertambah 90 dolar setiap tahun menjadi 1 770 dolar`,
+  'a5ezz6jene': R`Bunga tunggal menambahkan jumlah yang sama setiap tahun: $6\%$ dari 1 500 = 90 dolar.`,
+  '228yltiav3m': R`Suku-suku 5, 8, 11, … digambar terhadap n: semuanya terletak pada satu garis lurus`,
+  '105qdl5ca42': R`Suku-suku barisan aritmetika terletak pada garis lurus — beda 3 adalah gradiennya.`,
+  'wv189ffi4b': R`Segitiga titik`,
+  'y6e29q4nxt': R`Bilangan segitiga 1, 3, 6, 10: setiap baris baru menambah satu titik lebih banyak daripada baris sebelumnya.`,
+  'uqy6bdi5m8': R`cermin`,
+  '16xe9zxdoil': R`putar 180°`,
+  '20utxalh6p3': R`geser`,
+  '2cz169va1xe': R`Segitiga P beserta pencerminannya terhadap sumbu-y, rotasi 180 derajat, dan sebuah translasi`,
+  '19mnc7yox7u': R`Segitiga P dan tiga bayangan yang kongruen: dicerminkan terhadap sumbu-$y$, diputar $180^\circ$ terhadap titik asal, dan digeser sejauh $\binom{1}{-3}$.`,
+  '21xariffel3': R`sinar matahari`,
+  '1l52ojhjucs': R`Pohon dan tiang dengan sinar matahari yang sama membentuk dua segitiga siku-siku yang sebangun`,
+  'z569bgj7a2': R`Sinar matahari membentuk dua segitiga sebangun yang berbagi satu sudut: $\frac{h}{12} = \frac{1{,}5}{2}$.`,
+  '12u8u9gs25f': R`Persegi satuan yang terus dibagi dua: 1/2, 1/4, 1/8, 1/16 … memenuhi seluruh persegi`,
+  '2df5i2n5fxl': R`Parabola y = x² − x − 12 yang memotong sumbu-x di −3 dan 4`,
+  '1a0ipt3mxs6': R`Akar-akarnya adalah titik-titik tempat grafik memotong sumbu-$x$: $x = -3$ dan $x = 4$.`,
+  '1ot26xx6whq': R`Parabola yang memotong sumbu-x dua kali`,
+  'ui14wewfih': R`$D \gt 0$: dua akar`,
+  '1kyv65yupx6': R`Parabola yang menyinggung sumbu-x sekali`,
+  's47tj5d72u': R`$D = 0$: satu akar`,
+  '27vsbjm7p55': R`Parabola di atas sumbu-x`,
+  'sdk9apoqyu': R`$D \lt 0$: tidak ada akar real`,
+  '1w3my89w63p': R`Diskriminan menentukan apakah parabola memotong, menyinggung, atau tidak mengenai sumbu-$x$.`,
+  '1xdj87zn4cv': R`puncak (3; 2)`,
+  '24zhl271dki': R`sumbu x = 3`,
+  '1smbyumcyqd': R`Parabola dengan puncak (3; 2) dan sumbu simetri x = 3`,
+  'neeqce8iry': R`$y = (x - 3)^2 + 2$: puncak $(3; 2)$ terletak pada sumbu simetri $x = 3$; grafiknya simetris di kedua sisi.`,
+  '16qcu2sfdou': R`maks 21 m saat t = 2 s`,
+  '1t7piztddba': R`Ketinggian bola h = −5t² + 20t + 1 dengan maksimum 21 m saat t = 2 s`,
+  '8czrhdn0de': R`Lintasan bola: parabola terbuka ke bawah ($a \lt 0$) yang puncaknya adalah titik tertinggi.`,
+  '295s65oqmbi': R`Diagram panah sebuah fungsi`,
+  'b84d1oqpg0': R`Fungsi: setiap masukan punya satu keluaran`,
+  '1qwi8aqdo25': R`Diagram panah yang bukan fungsi`,
+  'bzyc25gztx': R`Bukan fungsi: 1 punya dua keluaran`,
+  'ku7jg1k7ol': R`Grafik f(x) = 3x − 5 dan inversnya, saling bercermin terhadap garis y = x`,
+  'xkcxsaydnf': R`$f$ dan $f^{-1}$ saling bercermin terhadap $y = x$: titik $(2; 1)$ pada $f$ menjadi $(1; 2)$ pada $f^{-1}$.`,
+  '1s6oxtf8uwp': R`Grafik y = 2 pangkat x dan y = log basis 2 dari x, saling bercermin terhadap y = x`,
+  'jeflpwn4hi': R`$y = {}^2\!\log x$ adalah pencerminan $y = 2^x$ terhadap $y = x$: grafiknya melalui $(1; 0)$ karena $2^0 = 1$, dan hanya terdefinisi untuk $x \gt 0$.`,
+  'qovloyiaa': R`Peluruhan eksponensial yang menjadi setengah setiap 5 tahun: 100, 50, 25, 12,5`,
+  'ea9i2rkdn9': R`Peluruhan dengan $r = \frac{1}{2}$ dan $T = 5$: $A = 100 \cdot \left(\frac{1}{2}\right)^{t/5}$ menjadi setengahnya setiap 5 tahun (waktu paruh).`,
+  '1vtnatr92t4': R`$\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$ terus mengisi setengah dari sisa yang ada, jadi tidak pernah melewati 1 — jumlah tak hingganya tepat $\frac{1/2}{1 - 1/2} = 1$.`,
+  '1x61y1509nw': R`samping`,
+  '6caqcq2gkc': R`depan`,
+  '1ilnjp6gt1o': R`miring`,
+  'a0f8g4t9i2': R`Segitiga siku-siku dengan sudut theta: sisi samping di bawah, sisi depan tegak, sisi miring condong`,
+  '1zrbwlvtfgw': R`Nama sisi bergantung pada sudutnya: sisi depan menghadap $\theta$, sisi samping menempel pada sudut itu, dan sisi miring menghadap sudut siku-siku.`,
+  'rrf7aflm82': R`Segitiga 30-60-90 dengan sisi 1, akar 3, dan 2`,
+  '1fsfo15wcly': R`Segitiga 45-45-90 dengan sisi 1, 1, dan akar 2`,
+  '2d3ydwfjvbc': R`Nilai eksak berasal dari dua segitiga ini (setengah persegi dan setengah segitiga sama sisi).`,
+  '7rps7y09yd': R`Semua +`,
+  '2ayg6tt8n96': R`Sin +`,
+  'bces0a05ul': R`Tan +`,
+  '1e8w7p9ym5b': R`Cos +`,
+  '1v5h6x67v2x': R`Lingkaran satuan dengan titik (cos theta, sin theta) dan tanda di setiap kuadran`,
+  'wf7766943r': R`Pada lingkaran satuan, titik bersudut $\theta$ adalah $(\cos\theta; \sin\theta)$; label kuadran menunjukkan perbandingan mana yang positif.`,
+  '290uscz1t5v': R`Grafik sin x dan cos x dari 0 sampai 360 derajat`,
+  '1vb77zjcntx': R`$\sin x$ dan $\cos x$ adalah gelombang yang sama dengan pergeseran $90^\circ$; keduanya berulang setiap $360^\circ$ dan tetap di antara $-1$ dan 1.`,
+  'zm1uo0yz1r': R`Kurva sinus yang bertemu garis y = −1/2 pada 210 dan 330 derajat`,
+  '1s5iw6srr9n': R`$\sin x = -\frac{1}{2}$ mempunyai dua penyelesaian dalam satu putaran, yaitu tempat gelombang memotong garis: $210^\circ$ dan $330^\circ$.`,
+  '29p2h3x92hg': R`Segitiga ABC dengan sisi a di depan A, b di depan B, dan c di depan C`,
+  '3diu9ruk8r': R`Setiap sisi dinamai menurut sudut di depannya: $a$ menghadap $A$, $b$ menghadap $B$, $c$ menghadap $C$.`,
+  'kmj00f2t6h': R`Grafik fungsi kubik x³ − 4x² + x + 6 yang memotong sumbu-x di −1, 2, dan 3`,
+  'd5j9grci2i': R`$P(x) = x^3 - 4x^2 + x + 6 = (x + 1)(x - 2)(x - 3)$: setiap faktor $(x - a)$ memberi akar di tempat kurva memotong sumbu.`,
+  '1jclipsu2an': R`luas 1`,
+  '2bovttmv9b4': R`luas 2`,
+  '1ir4ocgumcz': R`Matriks dengan baris (2, 1) dan (0, 1) memetakan persegi satuan menjadi jajargenjang berluas 2`,
+  '28dc7tt4yqq': R`$\begin{pmatrix} 2 & 1 \\ 0 & 1 \end{pmatrix}$ memetakan persegi satuan menjadi jajargenjang. Determinannya, 2, adalah faktor skala luas.`,
+  '2fyfdxmivso': R`Aturan segitiga: vektor a lalu vektor b menghasilkan a tambah b`,
+  '1dxsrrk9peh': R`Aturan segitiga: letakkan $\mathbf{b}$ di ujung $\mathbf{a}$; jumlahnya berjalan dari pangkal $\mathbf{a}$ ke ujung $\mathbf{b}$. Di sini $\binom{3}{1} + \binom{1}{3} = \binom{4}{4}$.`,
+  '1a5pbyiouth': R`lubang di (2; 4)`,
+  '1hvnws943sl': R`Grafik (x² − 4)/(x − 2): garis y = x + 2 dengan lubang di (2; 4)`,
+  '8opl4mv2n': R`$\frac{x^2 - 4}{x - 2}$ sama dengan $x + 2$ kecuali di $x = 2$, tempat adanya lubang. Limitnya tetap 4.`,
+  '2aoajizmej3': R`Fungsi rasional yang mendekati asimtot datar y = 2`,
+  '25k6q30kp4': R`Derajat pembilang dan penyebut sama: untuk $x \to \pm\infty$, $\frac{2x + 1}{x - 1} \to \frac{2}{1} = 2$, yaitu asimtot datar.`,
+  '4ht51xublf': R`garis singgung, gradien 2`,
+  '1honzfpzudw': R`Garis potong dari P(1; 1) dengan h = 2 dan h = 1 yang mendekati garis singgung bergradien 2`,
+  'jivzxlq2jl': R`Saat $h \to 0$, gradien garis potong ($4$, lalu $3$, …) mendekati gradien garis singgung $f'(1) = 2$.`,
+  'i3hnwz7fz6': R`maks`,
+  'mu0l0xxh4t': R`min`,
+  '1z8b8ras2ps': R`Kubik y = x³ − 3x dengan maksimum lokal di (−1; 2) dan minimum lokal di (1; −2), tempat garis singgungnya mendatar`,
+  '2g9cz5bdt4e': R`Di titik stasioner garis singgungnya mendatar ($f'(x) = 3x^2 - 3 = 0$, $x = \pm 1$). $f'' = 6x$ bernilai negatif di $-1$ (maks) dan positif di $1$ (min).`,
+  '10q2afa9ji6': R`Luas di bawah kurva yang didekati dengan delapan persegi panjang`,
+  'ojylbearpk': R`Integral tentu adalah limit jumlah persegi panjang: persegi panjang yang makin tipis makin pas mengisi luas di bawah kurva.`,
+  'b8mvpm4ec2': R`Daerah antara y = 2x dan y = x² dari 0 sampai 2`,
+  '15fpmapmvaj': R`Luas yang diarsir di antara kedua kurva: $\int_0^2 (\text{atas} - \text{bawah})\,dx = \frac{4}{3}$.`,
+  '1zy2qkjfkse': R`teh`,
+  'r0b7wz9smm': R`kopi`,
+  '5q1z823ntg': R`Diagram pohon: 3 ukuran gelas lalu 2 minuman menghasilkan 6 kemungkinan`,
+  '46n2u09dn': R`3 ukuran × 2 minuman = 6 cabang: aturan perkalian.`,
+  '1nspk0bcn0f': R`Segitiga Pascal baris 0 sampai 6`,
+  '1yupp6g5ssm': R`Segitiga Pascal: setiap bilangan adalah jumlah dua bilangan di atasnya. Baris $n$ berisi $\binom{n}{0}, \binom{n}{1}, \ldots$ — baris 5 memberikan $1, 5, 10, 10, 5, 1$.`,
+  '1wkjx7pohuu': R`Diagram Venn dengan A gabungan B diarsir`,
+  '1im9uh2bc26': R`$P(A \cup B)$: menjumlahkan $P(A)$ dan $P(B)$ menghitung irisannya dua kali, jadi kurangi $P(A \cap B)$ sekali.`,
+  '1bdgsdwgpgu': R`Diagram pohon pengambilan dua bola tanpa pengembalian dari 5 merah dan 3 biru`,
+  'dlv1xzz3o6': R`Tanpa pengembalian, peluang pengambilan kedua berubah. Kalikan sepanjang setiap jalur; keempat hasilnya berjumlah 1.`,
+  '24dknxd2uyx': R`Diagram kotak garis dari 2, 4, 4, 4, 5, 5, 7, 9: minimum 2, Q1 4, median 4,5, Q3 6, maksimum 9`,
+  '2at6r2370td': R`Diagram kotak garis dari 2, 4, 4, 4, 5, 5, 7, 9. Kotaknya mencakup separuh bagian tengah (jangkauan antarkuartil $= 6 - 4 = 2$); garis-garisnya mencapai nilai ekstrem.`,
+  '2cty80joc4v': R`Kurva normal: sekitar 68 persen dalam satu simpangan baku dan 95 persen dalam dua`,
+  '1m7yt676n71': R`Untuk data berbentuk lonceng (normal), sekitar 68% berada dalam $1\sigma$ dari rata-rata, 95% dalam $2\sigma$, dan 99,7% dalam $3\sigma$.`,
+  'sfjgv5bi6j': R`Histogram data berkelompok dengan kelas 0–10 sampai 40–50`,
+  'g6j7qo5lvo': R`Histogram data berkelompok: batang-batangnya bersentuhan karena kelasnya kontinu. Titik tengah 5, 15, 25, … dipakai untuk menaksir rata-rata.`,
+  '2dz4u1upux2': R`Lingkaran berpusat (3; −2) dan berjari-jari 5`,
+  '259kql24e0h': R`$(x - 3)^2 + (y + 2)^2 = 25$: pusat $(3; -2)$, jari-jari 5 (jari-jari ke $(7; 1)$ membentuk segitiga 3-4-5).`,
+  '66xwoufwul': R`direktriks y = −1`,
+  'm7x7pgnu6': R`Parabola x² = 4y dengan fokus (0; 1) dan direktriks y = −1`,
+  '11wjqvwr36i': R`Setiap titik pada $x^2 = 4y$ sama jauhnya dari fokus $(0; 1)$ dan direktriks $y = -1$; untuk $P(2; 1)$ kedua jaraknya 2.`,
+  '2e3pxrmclup': R`Daerah layak dengan titik pojok (0; 0), (6; 0), (4; 4), dan (0; 8) serta garis selidik z = 20 yang menyinggung (4; 4)`,
+  '14n1v4325z3': R`Daerah layak yang diarsir. Jika garis selidik putus-putus $3x + 2y = z$ digeser keluar, titik pojok terakhir yang disentuhnya adalah $(4; 4)$, jadi $z_{\max} = 20$.`,
+  '2axvfjsy2e8': R`Diagram Venn untuk p dan q`,
+  '27zesysl3rr': R`Diagram Venn untuk p atau q`,
+  '1nb1y2il4sd': R`Diagram Venn untuk bukan p`,
+  '8gugdeccz1': R`Perangkai sebagai daerah: DAN adalah irisan, ATAU adalah semua bagian di dalam salah satu lingkaran, BUKAN p adalah semua bagian di luar $p$.`,
+  'kskfa8facc': R`Jam dengan 7 posisi 0 sampai 6; perpangkatan 2 berputar 1, 2, 4, 1, …`,
+  '18xwomhalgd': R`gradien −3/4`,
+  '1p8iwczz04s': R`Lingkaran x² + y² = 25 dengan garis singgung di (3; 4)`,
+  '21zx0cgseac': R`Turunan implisit memberikan gradien garis singgung $-\frac{x}{y} = -\frac{3}{4}$ di $(3; 4)$ — tegak lurus terhadap jari-jari yang gradiennya $\frac{4}{3}$.`,
+  '2e7063wkobg': R`maks 432 cm³ saat x = 3`,
+  '1iewsvz30pu': R`Grafik volume kotak V = x(18 − 2x)² dengan maksimum 432 saat x = 3`,
+  'b0nxi2qdcb': R`$V(x) = x(18 - 2x)^2$ pada $0 \le x \le 9$: puncaknya, tempat $V' = 0$, berada di $x = 3$.`,
+  '4q44bonyk5': R`garis singgung di 25`,
+  '1kls25n6qft': R`Kurva akar kuadrat dan garis singgungnya di x = 25`,
+  '1a7uiddsedk': R`Di dekat $x = 25$ garis singgung menempel pada kurva, sehingga memberi hampiran yang baik: $\sqrt{26} \approx 5{,}1$ (nilai sebenarnya $5{,}0990\ldots$).`,
+  '1nghpuy37gf': R`garis potong`,
+  '14sudikl25m': R`garis singgung di c`,
+  '293ef1452la': R`Teorema nilai rata-rata: garis singgung yang sejajar dengan garis potong dari a ke b`,
+  '13gtbidm161': R`Teorema Nilai Rata-rata untuk $f(x) = x^2$ pada $[0, 2]$: garis singgung di $c = 1$ sejajar dengan garis potong (keduanya bergradien 2).`,
+  '12zrnyux61u': R`Integral standar? → pakai tabel`,
+  '16sg3xjysil': R`f(g(x)) · g′(x)? → substitusi`,
+  'kedbd7m6kf': R`hasil kali dua jenis fungsi berbeda? → parsial (LIATE)`,
+  '1exw8wo80dq': R`fungsi rasional? → pecahan parsial`,
+  '3g2z6sdbxj': R`Daftar periksa untuk memilih teknik integrasi`,
+  'z2ywtb6lhr': R`Daftar periksa singkat: coba pertanyaannya secara berurutan.`,
+  'og653vmj3w': R`Luas di bawah 1/x dan 1/x² dari 1 sampai tak hingga`,
+  'dn13560le0': R`Kedua kurva menuju 0, tetapi hanya luas di bawah kurva yang lebih rendah, $\frac{1}{x^2}$ (diarsir), yang berhingga: $\int_1^\infty \frac{dx}{x^2} = 1$. Luas di bawah $\frac{1}{x}$ tumbuh seperti $\ln x$ tanpa batas.`,
+  '1s4cb2rcnlo': R`cakram`,
+  '806h0g6gs0': R`Benda putar hasil memutar y = √x terhadap sumbu-x, dengan satu cakram tipis`,
+  '1kd52baqv0i': R`Memutar $y = \sqrt{x}$ terhadap sumbu-$x$: setiap cakram tipis bervolume $\pi y^2\,dx = \pi x\,dx$; jumlah semuanya adalah $8\pi$.`,
+  'm5clvqb0mn': R`Grafik gaya–pertambahan panjang pegas; segitiga di bawahnya sampai 0,3 m berluas 9 joule`,
+  '225bg4u38pi': R`Usaha adalah luas di bawah grafik gaya–pertambahan panjang: sebuah segitiga $\frac{1}{2} \times 0{,}3 \times 60 = 9$ J.`,
+  '1a8zs92t56c': R`limit 1`,
+  '1y9px07sht0': R`harmonik Σ 1/n`,
+  'cezd25u2ay': R`Jumlah parsial deret teleskopik yang mendekati 1, dan deret harmonik yang tumbuh perlahan tanpa batas`,
+  'wkzbbbpzmt': R`Jumlah parsial $S_N$: deret teleskopik mendatar di 1 (konvergen), sedangkan deret harmonik terus merayap naik (divergen).`,
+  '17yy4fugakd': R`Kurva sinus dengan polinomial Taylor berderajat 1, 3, dan 5`,
+  '1vv57xqt390': R`Polinomial Taylor untuk $\sin x$: setiap suku tambahan membuat polinomial menempel pada kurva di selang yang lebih lebar.`,
+  '1bcnk7kygar': R`Garis kontur f = x² + y² dengan panah gradien yang mengarah lurus ke luar`,
+  '1dlfrerjue7': R`Kontur $f = x^2 + y^2$ (tingkat 1, 4, 9). Gradien $\nabla f = (2x, 2y)$ tegak lurus terhadap setiap kontur dan mengarah ke atas bukit.`,
+  '1ccwfnybcxw': R`Kurva tingkat xy = 9, 16, 25 dan garis kendala x + y = 10, yang bersinggungan di (5; 5)`,
+  '1x9r423ge2j': R`Kurva tingkat terbaik $xy = 25$ tepat menyinggung garis kendala di $(5; 5)$: di sana $\nabla f$ dan $\nabla g$ sejajar — syarat Lagrange.`,
+  '1jwgnzb1d2z': R`Medan arah dy/dx = 2xy dengan tiga kurva penyelesaian y = A e^(x²)`,
+  '13jw3j3o1x9': R`Medan arah $y' = 2xy$: setiap ruas pendek menunjukkan gradien di titik itu. Kurva penyelesaian $y = Ae^{x^2}$ mengikuti ruas-ruas tersebut.`,
+  '1kik7dc296m': R`Penyelesaian untuk akar real: meluruh tanpa berosilasi`,
+  '218nrs3y2db': R`Akar real: tanpa osilasi`,
+  '1qk4gb2d7uo': R`Penyelesaian untuk akar kompleks: berosilasi di dalam selubung yang meluruh`,
+  '2a9zpmm65ol': R`Akar kompleks $\alpha \pm \beta i$: berosilasi`,
+  '1ctklf6p6d1': R`Akar persamaan karakteristik menentukan bentuknya: akar real menghasilkan eksponensial murni, akar kompleks menghasilkan gelombang (teredam jika $\alpha \lt 0$).`,
+  'giwkvelbcc': R`Vektor eigen (1; 1) dan (1; −2) diregangkan sepanjang garisnya sendiri dengan faktor 5 dan 2; vektor (1; 0) dibelokkan menjadi (4; 2)`,
+  '10zoe3cxhmh': R`$A = \begin{pmatrix} 4 & 1 \\ 2 & 3 \end{pmatrix}$ meregangkan vektor eigennya sepanjang garisnya sendiri (dengan faktor 5 dan 2). Vektor biasa seperti $\mathbf{u} = (1; 0)$ terlempar dari garisnya, menjadi $(4; 2)$.`,
+  '1kh6ncrrjhr': R`Diagram Argand dengan z = 3 + 2i, modulus r, argumen theta, dan sekawannya`,
+  '18by369zpdw': R`Diagram Argand: $z = a + bi$ adalah titik $(a; b)$. Jaraknya dari 0 adalah $r = |z| = \sqrt{13}$, sudutnya $\theta = \arg z$, dan $\bar{z}$ adalah bayangan cerminnya terhadap sumbu real.`,
+  '2ca46km61o7': R`Enam akar pangkat enam dari satu yang membentuk segi enam beraturan pada lingkaran satuan`,
+  'z7gejv15pg': R`Akar pangkat 6 dari satu, $e^{2\pi i k/6}$, terletak di titik-titik sudut segi enam beraturan pada lingkaran satuan.`,
+  '29swvaaz64n': R`Diagram batang distribusi binomial B(10; 0,5)`,
+  'aj8pez2n9z': R`$B(10; 0{,}5)$: peluangnya simetris terhadap rata-rata $np = 5$, dengan $P(X = 5) \approx 0{,}246$.`,
+  '128ovwhf0xt': R`Kurva normal tinggi badan dengan rata-rata 170 dan simpangan baku 8; ekor di atas 186 diarsir`,
+  'f0r0sm75po': R`$N(170, 8^2)$: 186 cm berada 2 simpangan baku di atas rata-rata; ekor yang diarsir sekitar 2,5% dari seluruh luas.`,
+  'r62u9c9xje': R`Kurva normal baku dengan 95 persen bagian tengah di antara −1,96 dan 1,96 diarsir`,
+  '1duqmk71tmc': R`95% rata-rata sampel jatuh dalam $1{,}96$ galat baku dari $\mu$ — itulah sebabnya $\bar{x} \pm 1{,}96\frac{\sigma}{\sqrt{n}}$ memuat $\mu$ pada 95% kasus.`,
+  '162ox02119f': R`z teramati = 2,4`,
+  '17q1572rbon': R`Uji dua pihak pada 5 persen: daerah penolakan di luar ±1,96 dan z teramati 2,4 di ekor kanan`,
+  '6fofc667su': R`Uji dua pihak dengan $\alpha = 0{,}05$: ekor yang diarsir adalah daerah penolakan. $z = 2{,}4$ yang teramati jatuh di sana, jadi $H_0$ ditolak (nilai-p $\approx 0{,}016$).`,
+  '4jgetub3ye': R`Diagram pencar dengan garis regresi kuadrat terkecil`,
+  '1vzq0h3n0ai': R`Garis kuadrat terkecil melewati tengah-tengah sebaran titik sehingga jumlah kuadrat jarak tegaknya sekecil mungkin. Garis ini selalu melalui $(\bar{x}; \bar{y})$.`,
+  '1tipu7c9al3': R`Perpangkatan 2 modulo 7 berulang $1 \to 2 \to 4 \to 1$ setiap 3 langkah, jadi $2^{100} = 2^{99} \cdot 2 \equiv 1 \cdot 2 = 2$.`,
+  'rvvoukm432': R`Graf dengan lima simpul dan tujuh sisi, setiap simpul diberi label derajatnya`,
+  '2f014abbyyc': R`Derajat $3 + 3 + 2 + 4 + 2 = 14 = 2 \times 7$ sisi: setiap sisi dihitung sekali di masing-masing ujungnya (lema jabat tangan).`,
+  '1h6vyclq2id': R`Metode Newton pada x² − 10 mulai dari x₀ = 6: garis singgung mengarah ke x₁ ≈ 3,83 dan x₂ ≈ 3,22`,
+  'rw5pr8zfhj': R`Metode Newton: ikuti garis singgung turun ke sumbu, lalu ulangi. Dari titik awal yang jauh $x_0 = 6$: $x_1 \approx 3{,}83$, $x_2 \approx 3{,}22$, makin mendekati $\sqrt{10} \approx 3{,}162$.`,
+  '2dcxkd04r99': R`Aturan trapesium dengan empat pias di bawah kurva`,
+  'xtadyxerve': R`Aturan trapesium menghubungkan titik-titik yang bertetangga dengan garis lurus; celah kecil antara tali busur dan kurva adalah galatnya.`,
+  '2ak1gl7cef1': R`Euler 5,06`,
+  '116ohe8fv24': R`eksak 7,39`,
+  '19y93u0q15t': R`Metode Euler dengan langkah 0,5 untuk y′ = y dibandingkan dengan penyelesaian eksak e pangkat x`,
+  'cdu2d6t5hv': R`Metode Euler untuk $y' = y$, $y(0) = 1$, $h = 0{,}5$: setiap langkah mengikuti gradien saat itu, sehingga poligonnya makin jauh di bawah $e^x$ ketika kurva melengkung ke atas.`,
+  'colkfdim43': R`Medan vektor (x, y) yang mengarah ke luar dari titik asal`,
+  'i9e3oxp5ne': R`$\mathbf{F} = (x, y)$: div $= 2$, curl $= 0$`,
+  'ud7c2723aa': R`Medan vektor (−y, x) yang berputar berlawanan arah jarum jam`,
+  '1w7qhhdphc9': R`$\mathbf{F} = (-y, x)$: div $= 0$, curl $= 2$`,
+  '22dpzh2y6el': R`Aliran keluar versus rotasi: medan pertama menyebar dari titik asal, medan kedua berputar mengelilinginya.`,
+  '27glld2op9x': R`Penyelesaian y = 3 cos 2t + sin 2t dari masalah nilai awal`,
+  '1jcdtlvnw9v': R`Penyelesaian yang diperoleh dengan transformasi Laplace: dimulai di $y(0) = 3$ dengan gradien $y'(0) = 2$ dan berosilasi dengan periode $\pi$.`,
+  '1tr9ijkjrm8': R`Tegak lurus:<br>$m_1 m_2 = -1$`,
+});
+
+/* Bahasa Indonesia — 9-figlessons */
+addT('id', {
+  'whhnraxlat': R`
+<p>Sistem bilangan kita memakai sepuluh angka, yaitu 0 sampai 9. <b>Tempat</b> sebuah angka menentukan <b>nilainya</b>: setiap tempat bernilai sepuluh kali tempat di sebelah kanannya.</p>
+⟦0⟧
+<p>Pada <b>5 382 417</b>, angka 8 berada di tempat puluh ribuan, jadi nilainya $8 \times 10\,000 = 80\,000$. Angka 3 bernilai $300\,000$.</p>
+<h3>Bentuk panjang</h3>
+<p>Menulis bilangan sebagai jumlah nilai tempatnya menunjukkan nilai setiap angka:</p>
+⟦1⟧
+⟦2⟧
+<p>Angka 0 di tempat puluhan berfungsi sebagai <b>pengisi tempat</b>. Tanpa 0 itu, 4 307 akan berubah menjadi 437.</p>
+<h3>Membandingkan bilangan</h3>
+<p>Bilangan cacah yang angkanya lebih banyak adalah yang lebih besar. Jika banyak angkanya sama, bandingkan angka demi angka mulai dari kiri; tempat pertama yang berbeda menentukan. Jadi $52\,814 \gt 52\,781$ karena pada tempat ratusan $8 \gt 7$.</p>
+<h3>Pembulatan</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '963azreidi': R`
+<p>Penjumlahan menggabungkan beberapa banyak benda; pengurangan mencari sisa atau <b>selisih</b> dua banyak benda. Untuk bilangan besar kita memakai <b>cara bersusun</b>: susun angka sesuai nilai tempatnya lalu hitung mulai dari kolom satuan ke kiri.</p>
+<h3>Penjumlahan dengan menyimpan</h3>
+<p>Jika jumlah satu kolom 10 atau lebih, tulis angka satuannya dan <b>simpan</b> puluhannya ke kolom berikutnya.</p>
+⟦0⟧
+⟦1⟧
+<h3>Pengurangan dengan meminjam</h3>
+<p>Jika angka atas pada suatu kolom lebih kecil daripada angka bawah, <b>pinjam</b> satu dari kolom berikutnya: kolom saat ini bertambah 10.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Soal cerita</h3>
+<p>Kata-kata seperti <i>semuanya, seluruhnya, lebih banyak, bertambah</i> biasanya berarti penjumlahan. Kata-kata seperti <i>sisa, tinggal, selisih, berapa lebih banyak, lebih sedikit</i> biasanya berarti pengurangan. Selalu tanyakan apa yang sebenarnya diminta soal.</p>
+⟦5⟧
+⟦6⟧`,
+  '1nuty7g7e3m': R`
+<p><b>Perkalian</b> adalah penjumlahan berulang dari kelompok-kelompok yang sama besar: $4 \times 6$ berarti 4 kelompok berisi 6, yaitu $6 + 6 + 6 + 6 = 24$. <b>Pembagian</b> membagi suatu banyak benda menjadi kelompok-kelompok yang sama besar: $24 \div 6 = 4$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Mengalikan bilangan yang lebih besar</h3>
+<p>Uraikan salah satu bilangan menurut nilai tempatnya, kalikan setiap bagian, lalu jumlahkan (inilah sifat distributif):</p>
+⟦2⟧
+⟦3⟧
+<h3>Pembagian dan sisa</h3>
+<p>Jika suatu bilangan tidak habis dibagi, bagian yang tersisa disebut <b>sisa</b>. Sisa selalu lebih kecil daripada pembagi.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '2il80u5f0p': R`
+<p>Jika suatu perhitungan memuat beberapa operasi, semua orang harus mengerjakannya dengan urutan yang sama; kalau tidak, satu bentuk yang sama bisa menghasilkan jawaban berbeda. Urutan yang disepakati ini disebut <b>urutan operasi hitung</b>; dalam bahasa Inggris sering diingat dengan singkatan <b>PEMDAS</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qawwgtxxnt': R`
+<p><b>Faktor</b> suatu bilangan adalah bilangan yang membagi habis bilangan itu. <b>Kelipatan</b> suatu bilangan adalah bilangan itu dikali bilangan asli.</p>
+<ul><li>Faktor 12: 1, 2, 3, 4, 6, 12 (berpasangan: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Kelipatan 12: 12, 24, 36, 48, …</li></ul>
+⟦0⟧
+<h3>Bilangan prima dan komposit</h3>
+<p>Bilangan <b>prima</b> tepat memiliki dua faktor: 1 dan bilangan itu sendiri (2, 3, 5, 7, 11, 13, …). Bilangan <b>komposit</b> memiliki lebih dari dua faktor. Bilangan 1 bukan prima dan bukan komposit, dan 2 adalah satu-satunya bilangan prima genap.</p>
+⟦1⟧
+<h3>Faktorisasi prima</h3>
+<p>Setiap bilangan cacah yang lebih dari 1 dapat ditulis sebagai hasil kali bilangan prima dengan tepat satu cara. Gunakan pohon faktor: terus uraikan sampai setiap cabang berakhir di bilangan prima.</p>
+⟦2⟧
+⟦3⟧
+<h3>FPB dan KPK</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '1izrzgyjhj9': R`
+<p><b>Pecahan</b> $\frac{a}{b}$ berarti $a$ bagian dari $b$ bagian yang sama besar. Bilangan di atas disebut <b>pembilang</b>; bilangan di bawah disebut <b>penyebut</b>.</p>
+⟦0⟧
+<h3>Pecahan senilai dan bentuk paling sederhana</h3>
+<p>Mengalikan atau membagi pembilang dan penyebut dengan bilangan yang sama menghasilkan pecahan senilai: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Untuk <b>menyederhanakan</b>, bagi keduanya dengan FPB-nya:</p>
+⟦1⟧
+⟦2⟧
+<h3>Pecahan campuran</h3>
+<p>$2\frac{1}{3}$ berarti $2 + \frac{1}{3}$. Sebagai pecahan biasa: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
+⟦3⟧
+<h3>Penjumlahan dan pengurangan</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+<h3>Perkalian dan pembagian</h3>
+⟦7⟧
+<p>Untuk membagi, <b>tetapkan</b> pecahan pertama, <b>ubah</b> ÷ menjadi ×, lalu <b>balik</b> pecahan kedua.</p>
+⟦8⟧
+<h3>Pecahan dari suatu jumlah</h3>
+<p>Bagi dengan penyebut, lalu kalikan dengan pembilang: $\frac{3}{8}$ dari $40 = (40 \div 8) \times 3 = 15$.</p>
+⟦9⟧
+⟦10⟧`,
+  '10kgjsjaxgz': R`
+<p>Bilangan desimal memperluas nilai tempat ke sebelah kanan satuan. Setiap tempat bernilai sepersepuluh tempat di sebelah kirinya.</p>
+⟦0⟧
+<p>Jadi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
+⟦1⟧
+<h3>Membandingkan desimal</h3>
+<p>Samakan banyak angka di belakang koma dengan menambahkan nol, lalu bandingkan: $0{,}5 = 0{,}50 \gt 0{,}45$. Desimal yang lebih panjang belum tentu lebih besar!</p>
+⟦2⟧
+<h3>Penjumlahan dan pengurangan</h3>
+⟦3⟧
+⟦4⟧
+<h3>Perkalian</h3>
+<p>Kalikan seolah-olah tidak ada koma, lalu hitung jumlah angka di belakang koma pada kedua faktor — hasilnya memiliki angka di belakang koma sebanyak itu.</p>
+⟦5⟧
+<h3>Pembagian dan mengubah bentuk</h3>
+<p>Mengalikan dengan 10, 100, atau 1000 menggeser angka-angka 1, 2, atau 3 tempat ke kiri (bilangannya membesar); membagi menggesernya ke kanan. Pecahan diubah menjadi desimal dengan membagi pembilang oleh penyebut: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
+<h3>Membulatkan desimal</h3>
+<p>Aturannya sama dengan bilangan cacah: lihat angka berikutnya. $6{,}847$ dibulatkan ke persepuluhan terdekat menjadi $6{,}8$; ke perseratusan terdekat menjadi $6{,}85$.</p>
+⟦6⟧`,
+  '1rw72cdcsy1': R`
+<p><b>Persen</b> berarti "per seratus": $35\% = \frac{35}{100} = 0{,}35$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Tiga pertanyaan dasar</h3>
+⟦2⟧
+⟦3⟧
+<h3>Kenaikan, penurunan, dan diskon</h3>
+<p>Diskon $20\%$ untuk barang seharga 80 ribu rupiah menghemat $0{,}2 \times 80 = 16$ ribu rupiah, jadi harga setelah diskon $80 - 16 = 64$ ribu rupiah. Lebih cepat: kamu membayar $80\%$ dari harga, yaitu $0{,}8 \times 80 = 64$.</p>
+⟦4⟧
+<p>Kenaikan $p\%$ berarti dikalikan $1 + \frac{p}{100}$; penurunan berarti dikalikan $1 - \frac{p}{100}$.</p>
+⟦5⟧`,
+  'qwxct8meof': R`
+<p>Sistem metrik dibangun dari perpangkatan sepuluh, dengan awalan yang menunjukkan besar suatu satuan.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Waktu</h3>
+<p>Waktu <i>tidak</i> desimal: satu jam sama dengan 60 menit, bukan 100. Untuk menghitung lama waktu, hitung maju bertahap: dari 09:35 sampai 13:10 adalah 25 menit (sampai 10:00) + 3 jam (sampai 13:00) + 10 menit = 3 jam 35 menit = 215 menit.</p>
+⟦5⟧
+⟦6⟧`,
+  '1duo6cowvco': R`
+<p><b>Keliling</b> adalah panjang seluruh tepi suatu bangun (diukur dalam cm, m, …). <b>Luas</b> adalah besar permukaan yang ditutupi bangun itu (diukur dalam satuan persegi: cm², m², …).</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Bangun gabungan</h3>
+<p>Bagi bangun berbentuk L atau bangun gabungan lain menjadi persegi panjang dan segitiga, lalu jumlahkan luasnya — atau ambil satu persegi panjang besar lalu kurangi bagian yang hilang.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2bjnshv99mz': R`
+<p><b>Volume</b> adalah besar ruang yang ditempati suatu bangun ruang, dihitung dalam <b>satuan kubik</b> (cm³, m³). Kubus dengan rusuk 1 cm memiliki volume 1 cm³.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Luas permukaan</h3>
+<p>Luas permukaan adalah jumlah luas semua sisi. Balok memiliki tiga pasang persegi panjang yang sama:</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'hdpir6essq': R`
+<p>Sudut mengukur besar putaran, dalam satuan <b>derajat</b> (°). Satu putaran penuh adalah $360^\circ$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Segitiga</h3>
+<p><b>Sama sisi</b>: ketiga sisinya sama panjang, setiap sudutnya $60^\circ$. <b>Sama kaki</b>: dua sisi sama panjang dan dua sudut alasnya sama besar. <b>Sembarang</b>: tidak ada sisi yang sama panjang. Segitiga <b>siku-siku</b> memiliki satu sudut $90^\circ$.</p>
+<h3>Segi banyak</h3>
+<p>Segi banyak dengan $n$ sisi dapat dibagi menjadi $n - 2$ segitiga dari satu titik sudut, sehingga</p>
+⟦3⟧
+⟦4⟧
+<p>Pada segi banyak <b>beraturan</b> semua sudutnya sama besar, jadi setiap sudut besarnya $\frac{(n-2) \times 180^\circ}{n}$. Segi enam beraturan memiliki sudut $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
+⟦5⟧`,
+  '1t5wicpcspm': R`
+<p>Data adalah informasi yang kita kumpulkan, misalnya nilai ulangan atau buah kesukaan. <b>Tabel frekuensi</b> mencatat berapa kali setiap nilai muncul; <b>diagram batang</b> dan <b>piktogram</b> menampilkan informasi yang sama secara visual.</p>
+⟦0⟧
+<h3>Empat ukuran ringkasan</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '2c85eiflpnj': R`
+<p><b>Bilangan bulat</b> terdiri atas bilangan cacah dan lawan-lawannya: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Pada garis bilangan, bilangan makin besar ke arah kanan, jadi $-7 \lt -2$ walaupun 7 lebih besar daripada 2.</p>
+⟦0⟧
+<p><b>Nilai mutlak</b> $|a|$ adalah jarak bilangan itu dari 0: $|-6| = 6$ dan $|6| = 6$.</p>
+<h3>Penjumlahan dan pengurangan</h3>
+⟦1⟧
+⟦2⟧
+<h3>Perkalian dan pembagian</h3>
+⟦3⟧
+⟦4⟧
+<p>Penerapan sehari-hari: suhu di bawah nol, ketinggian di bawah permukaan laut, utang, dan lantai di bawah tanah.</p>
+⟦5⟧`,
+  'tte1va9nbg': R`
+<p><b>Perpangkatan</b> menyatakan perkalian berulang: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ faktor}}$. Pada $2^5 = 32$, 2 adalah <b>bilangan pokok</b> dan 5 adalah <b>pangkat</b>.</p>
+⟦0⟧
+<h3>Sifat-sifat perpangkatan</h3>
+⟦1⟧
+⟦2⟧
+<h3>Akar</h3>
+<p>Akar kuadrat adalah kebalikan dari kuadrat: $\sqrt{81} = 9$ karena $9^2 = 81$. Akar pangkat tiga adalah kebalikan dari pangkat tiga: $\sqrt[3]{64} = 4$ karena $4^3 = 64$.</p>
+⟦3⟧
+⟦4⟧`,
+  'akeowmn81l': R`
+<p>Para ilmuwan menulis bilangan yang sangat besar atau sangat kecil secara ringkas dalam bentuk</p>
+⟦0⟧
+<ul><li>Jarak ke Matahari, sekitar $150\,000\,000$ km, adalah $1{,}5 \times 10^{8}$ km.</li><li>Sel darah merah yang lebarnya sekitar $0{,}000\,008$ m berukuran $8 \times 10^{-6}$ m.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Menghitung</h3>
+<p>Kalikan (atau bagi) bilangan di depan, lalu jumlahkan (atau kurangkan) pangkatnya. Setelah itu, sesuaikan bilangan di depan jika tidak berada di antara 1 dan 10:</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'z6teiu3uc7': R`
+<p><b>Perbandingan</b> $a : b$ membandingkan dua besaran. Seperti pecahan, perbandingan dapat disederhanakan dengan membagi kedua sukunya dengan FPB: $18 : 24 = 3 : 4$.</p>
+<h3>Membagi menurut perbandingan</h3>
+⟦0⟧
+⟦1⟧
+<h3>Laju dan nilai satuan</h3>
+<p><b>Laju</b> membandingkan besaran dengan satuan berbeda: kilometer per jam, rupiah per kg. Mencari nilai untuk <b>satu</b> satuan (nilai satuan) menyelesaikan sebagian besar soal.</p>
+⟦2⟧
+<h3>Perbandingan senilai dan berbalik nilai</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+<h3>Skala peta</h3>
+<p>Skala $1 : 50\,000$ berarti 1 cm pada peta sama dengan $50\,000$ cm $= 500$ m $= 0{,}5$ km sebenarnya.</p>
+⟦6⟧`,
+  '1aox7mamv38': R`
+<p>Pada bentuk $5x^2 - 3xy + 7$, <b>suku-sukunya</b> adalah $5x^2$, $-3xy$, dan $7$; <b>koefisiennya</b> 5 dan $-3$; 7 adalah <b>konstanta</b>. <b>Suku sejenis</b> memiliki variabel dan pangkat yang persis sama ($4ab$ dan $-ab$ sejenis; $x^2$ dan $x$ tidak).</p>
+<h3>Menyederhanakan</h3>
+<p>Gabungkan suku sejenis dengan menjumlahkan koefisiennya: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
+<h3>Menjabarkan tanda kurung</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Perkalian istimewa</h3>
+⟦3⟧
+⟦4⟧
+<h3>Pemfaktoran</h3>
+<p>Memfaktorkan adalah kebalikan dari menjabarkan. Keluarkan faktor persekutuan terbesar: $12x - 18 = 6(2x - 3)$.</p>
+<h3>Substitusi</h3>
+<p>Ganti setiap huruf dengan nilainya, pakai tanda kurung untuk bilangan negatif: jika $x = -2$, maka $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
+⟦5⟧`,
+  '2ez6y5q5jl': R`
+<p>Persamaan menyatakan bahwa dua bentuk bernilai sama. Bayangkan timbangan: apa pun yang dilakukan pada satu sisi, lakukan juga pada sisi lain, maka timbangan tetap seimbang. Tujuannya adalah membuat variabel sendirian di satu ruas.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Tanda kurung dan pecahan</h3>
+<p>Jabarkan tanda kurung lebih dulu (atau bagi kedua ruas dengan bilangan di luar kurung). Hilangkan pecahan dengan mengalikan setiap suku dengan penyebut persekutuan:</p>
+⟦3⟧
+<h3>Soal cerita</h3>
+<ol><li>Pilih huruf untuk besaran yang dicari dan jelaskan artinya.</li><li>Ubah kalimat soal menjadi persamaan.</li><li>Selesaikan, lalu periksa apakah jawabannya masuk akal.</li></ol>
+⟦4⟧
+⟦5⟧`,
+  '1em42pkc1jv': R`
+<p><b>Pertidaksamaan</b> membandingkan dua bentuk: $\lt$ (kurang dari), $\gt$ (lebih dari), $\le$ (kurang dari atau sama dengan), $\ge$ (lebih dari atau sama dengan). Penyelesaiannya biasanya berupa suatu rentang bilangan.</p>
+<p>Pada garis bilangan, $x \gt 2$ digambar dengan bulatan <b>kosong</b> di 2 (2 tidak termasuk) dan panah ke kanan; $x \le 2$ memakai bulatan <b>penuh</b> dan panah ke kiri.</p>
+⟦0⟧
+<h3>Menyelesaikan</h3>
+<p>Selesaikan seperti persamaan — tambah, kurangi, kalikan, atau bagi kedua ruas — dengan satu aturan tambahan:</p>
+⟦1⟧
+<p>Mengapa? $2 \lt 5$, tetapi jika kedua ruas dikalikan $-1$ diperoleh $-2$ dan $-5$, dan $-2 \gt -5$.</p>
+⟦2⟧
+<h3>Pertidaksamaan ganda</h3>
+<p>Lakukan operasi yang sama pada ketiga bagian: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Penyelesaian bulatnya $-1; 0; 1; 2; 3$.</p>
+⟦3⟧
+⟦4⟧`,
+  '2facwts035v': R`
+<p><b>Himpunan</b> adalah kumpulan benda yang terdefinisi dengan jelas; benda-bendanya disebut <b>anggota</b>. Kita tulis $A = \{2; 4; 6; 8\}$ dan $4 \in A$ ("4 anggota A"), $5 \notin A$. $n(A)$ adalah banyak anggota; di sini $n(A) = 4$. <b>Himpunan kosong</b> $\varnothing$ tidak punya anggota; <b>himpunan semesta</b> $U$ memuat semua yang sedang dibicarakan.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'qkk3uk216j': R`
+<p><b>Fungsi linear</b> memiliki grafik berupa garis lurus. Dalam <b>bentuk gradien–titik potong</b></p>
+⟦0⟧
+<p>$m$ adalah <b>gradien</b> (kemiringan): besar perubahan $y$ ketika $x$ bertambah 1. $c$ adalah <b>titik potong sumbu $y$</b>, tempat garis memotong sumbu $y$. Dengan notasi fungsi ditulis $f(x) = mx + c$, jadi $f(3)$ berarti "nilai fungsi ketika $x = 3$".</p>
+<h3>Gradien dari dua titik</h3>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Titik potong sumbu dan bentuk lain</h3>
+<p>Ambil $x = 0$ untuk mencari titik potong sumbu $y$, dan $y = 0$ untuk titik potong sumbu $x$. Garis dapat ditulis $ax + by = c$; ubah menjadi $y = -\frac{a}{b}x + \frac{c}{b}$ untuk membaca gradiennya. Melalui titik $(x_1; y_1)$ dengan gradien $m$: $y - y_1 = m(x - x_1)$.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'k20oq9cujh': R`
+<p><b>Sistem</b> dua persamaan linear dalam $x$ dan $y$ meminta nilai yang membuat <i>kedua</i> persamaan benar sekaligus. Secara grafik, penyelesaiannya adalah titik potong kedua garis.</p>
+⟦0⟧
+<h3>Metode substitusi</h3>
+⟦1⟧
+<h3>Metode eliminasi</h3>
+⟦2⟧
+⟦3⟧
+<h3>Kasus khusus</h3>
+⟦4⟧
+<p>Garis sejajar (gradien sama, titik potong sumbu-y berbeda) tidak pernah berpotongan: <b>tidak ada penyelesaian</b>. Garis yang berimpit punya <b>tak hingga banyak</b> penyelesaian.</p>
+<h3>Soal cerita</h3>
+<p>Dua bilangan yang tidak diketahui memerlukan dua informasi. "Ayam dan sapi di sebuah peternakan punya 30 kepala dan 84 kaki": misalkan $c$ = banyak sapi dan $h$ = banyak ayam, maka $c + h = 30$ dan $4c + 2h = 84$.</p>
+⟦5⟧`,
+  '1bdrzsceuor': R`
+<p>Pada segitiga siku-siku, sisi terpanjang yang berhadapan dengan sudut siku-siku disebut <b>hipotenusa</b> (sisi miring) $c$. Dua sisi lainnya, $a$ dan $b$, adalah <b>sisi siku-siku</b>.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Tripel Pythagoras</h3>
+<p>Penyelesaian bilangan bulat beserta kelipatannya layak dihafal: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, serta $(6; 8; 10)$, $(9; 12; 15)$, …</p>
+<h3>Jarak antara dua titik</h3>
+⟦4⟧
+⟦5⟧
+<h3>Kebalikan teorema</h3>
+<p>Jika $c$ sisi terpanjang: $a^2 + b^2 = c^2$ berarti segitiga <b>siku-siku</b>; $a^2 + b^2 \gt c^2$ berarti segitiga <b>lancip</b>; $a^2 + b^2 \lt c^2$ berarti segitiga <b>tumpul</b>.</p>
+⟦6⟧`,
+  'focn6p44n1': R`
+⟦0⟧
+<p>Perbandingan keliling dengan diameter selalu sama untuk setiap lingkaran: $\pi \approx 3{,}14159\ldots$ (sering didekati dengan $3{,}14$ atau $\frac{22}{7}$).</p>
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Busur dan juring</h3>
+<p>Juring dengan sudut pusat $\theta$ adalah bagian $\frac{\theta}{360^\circ}$ dari seluruh lingkaran:</p>
+⟦4⟧
+⟦5⟧
+<h3>Sudut pada lingkaran</h3>
+⟦6⟧
+<ul><li>Sudut pusat besarnya <b>dua kali</b> sudut keliling yang menghadap busur yang sama.</li><li>Sudut keliling yang menghadap diameter besarnya $90^\circ$.</li><li>Garis singgung tegak lurus jari-jari di titik singgungnya.</li></ul>
+⟦7⟧`,
+  'g6b5ghp740': R`
+<p><b>Prisma</b> memiliki penampang yang sama sepanjang tubuhnya, jadi volumenya cukup luas penampang dikali panjangnya. Limas atau kerucut yang pas masuk ke dalamnya memiliki tepat sepertiga volume itu.</p>
+⟦0⟧
+⟦1⟧
+<p>Pada kerucut, $s$ adalah <b>garis pelukis</b>; menurut Pythagoras, $s = \sqrt{r^2 + h^2}$.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'f13hxf9kw3': R`
+<p><b>Ukuran pemusatan</b> merangkum sekumpulan data dengan satu nilai khas; <b>ukuran penyebaran</b> menunjukkan seberapa tersebar nilai-nilainya.</p>
+⟦0⟧
+⟦1⟧
+<h3>Rata-rata dari tabel frekuensi</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Bekerja mundur</h3>
+⟦5⟧
+<p>Jika banyak data genap, median adalah rata-rata dua nilai di tengah.</p>
+⟦6⟧`,
+  '190fxed0s6m': R`
+<p>Sebuah <b>percobaan</b> (melempar dadu, mengambil kartu) memiliki <b>hasil</b> yang mungkin. Himpunan semua hasil disebut <b>ruang sampel</b> $S$; sebuah <b>kejadian</b> $E$ adalah himpunan beberapa hasil. Jika semua hasil sama mungkinnya:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Dua dadu</h3>
+<p>Melempar dua dadu menghasilkan $6 \times 6 = 36$ hasil yang sama mungkin. Jumlah 7 muncul dengan 6 cara — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) — jadi $P(\text{jumlah} = 7) = \frac{6}{36} = \frac{1}{6}$. Secara umum, banyak cara memperoleh jumlah $s$ adalah $6 - |s - 7|$.</p>
+⟦4⟧
+<h3>Satu set kartu remi</h3>
+<p>52 kartu: 4 jenis (♠ ♣ hitam, ♥ ♦ merah) masing-masing 13 nilai (A, 2–10, J, Q, K). Ada 12 kartu bergambar (J, Q, K).</p>
+⟦5⟧`,
+  '151qbeg6ykm': R`
+<p>Soal uang sehari-hari sebenarnya adalah soal persen yang menyamar.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Diskon dan pajak</h3>
+<p>Terapkan persentase satu per satu: diskon 20% lalu pajak 10% atas 150 ribu rupiah menghasilkan $150 \times 0{,}8 \times 1{,}1 = 132$ ribu rupiah.</p>
+<h3>Bunga tunggal</h3>
+⟦3⟧
+<p>Tabungan 1 500 ribu rupiah dengan bunga 6% per tahun selama 3 tahun menghasilkan $1\,500 \times 0{,}06 \times 3 = 270$ ribu rupiah; totalnya menjadi 1 770 ribu rupiah. Jika waktunya dalam bulan, gunakan $t = \frac{\text{bulan}}{12}$.</p>
+⟦4⟧
+<h3>Bruto, tara, dan neto</h3>
+<p><b>Bruto</b> = berat keseluruhan; <b>tara</b> = berat kemasan; <b>neto</b> = bruto − tara. Karung 50 kg dengan tara 2% memiliki berat neto $50 \times 0{,}98 = 49$ kg.</p>
+⟦5⟧`,
+  '2goqscgnmgq': R`
+<p><b>Barisan</b> adalah daftar bilangan yang berurutan; setiap bilangannya disebut <b>suku</b>. Dengan menemukan aturannya, kamu bisa melanjutkan pola atau langsung mencari suku mana pun.</p>
+<h3>Barisan aritmetika</h3>
+<p>Setiap kali ditambah bilangan yang sama $d$ (<b>beda</b>): 5; 8; 11; 14; … memiliki $d = 3$.</p>
+⟦0⟧
+⟦1⟧
+<h3>Barisan geometri</h3>
+<p>Setiap suku dikalikan dengan <b>rasio</b> yang sama $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
+⟦2⟧
+<h3>Barisan khusus</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'dep80mf33u': R`
+<p><b>Transformasi</b> memindahkan bangun atau mengubah ukurannya. Pada translasi, refleksi, dan rotasi, bayangannya <b>kongruen</b> (bentuk dan ukuran sama); pada dilatasi, bayangannya <b>sebangun</b> (bentuk sama, ukuran berbeda).</p>
+⟦0⟧
+⟦1⟧
+<h3>Bangun yang sebangun</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ayg6rt51qo': R`
+<p><b>Persamaan kuadrat</b> berbentuk $ax^2 + bx + c = 0$ dengan $a \ne 0$. Persamaan ini memiliki paling banyak dua penyelesaian (akar).</p>
+<h3>1. Pemfaktoran</h3>
+<p>Jika suatu hasil kali bernilai nol, salah satu faktornya nol. Cari dua bilangan yang hasil kalinya $c$ dan jumlahnya $b$ (jika $a = 1$):</p>
+⟦0⟧
+⟦1⟧
+<h3>2. Melengkapkan kuadrat sempurna</h3>
+⟦2⟧
+<h3>3. Rumus kuadrat (rumus abc)</h3>
+⟦3⟧
+⟦4⟧
+<h3>Jumlah dan hasil kali akar (Vieta)</h3>
+⟦5⟧
+<p>Jadi, persamaan dengan akar-akar $r$ dan $s$ adalah $x^2 - (r + s)x + rs = 0$.</p>
+⟦6⟧
+⟦7⟧`,
+  'r0cxzc7jq8': R`
+<p>Grafik $f(x) = ax^2 + bx + c$ berupa <b>parabola</b>. Parabola terbuka <b>ke atas</b> jika $a \gt 0$ (seperti lembah, dengan nilai minimum) dan <b>ke bawah</b> jika $a \lt 0$ (seperti bukit, dengan nilai maksimum).</p>
+⟦0⟧
+<h3>Bentuk puncak</h3>
+⟦1⟧
+⟦2⟧
+<p>Melengkapkan kuadrat mengubah bentuk umum menjadi bentuk puncak: $x^2 - 6x + 11 = (x - 3)^2 + 2$, jadi titik puncaknya $(3; 2)$ dan nilai minimumnya 2. Daerah hasilnya $y \ge 2$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '1mi3l1zkm3t': R`
+<p><b>Fungsi</b> memasangkan setiap masukan dengan tepat <b>satu</b> keluaran. Himpunan masukan yang diperbolehkan disebut <b>daerah asal</b> (domain); himpunan keluarannya disebut <b>daerah hasil</b> (range).</p>
+⟦0⟧
+<h3>Daerah asal alami</h3>
+<ul><li>Tidak boleh membagi dengan nol: untuk $\frac{1}{x - 2}$, daerah asalnya $x \ne 2$.</li><li>Tidak ada akar kuadrat dari bilangan negatif: untuk $\sqrt{x + 3}$, daerah asalnya $x \ge -3$.</li><li>Logaritma memerlukan numerus positif: untuk $\log(x - 1)$, daerah asalnya $x \gt 1$.</li></ul>
+<h3>Komposisi</h3>
+⟦1⟧
+⟦2⟧
+<h3>Fungsi invers</h3>
+<p>$f^{-1}$ membatalkan kerja $f$: jika $f(a) = b$ maka $f^{-1}(b) = a$. Untuk mencarinya, tulis $y = f(x)$, tukar $x$ dan $y$, lalu nyatakan $y$.</p>
+⟦3⟧
+⟦4⟧
+<p>Grafik $f^{-1}$ adalah pencerminan grafik $f$ terhadap garis $y = x$. Hanya fungsi satu-satu (injektif) yang memiliki invers.</p>
+⟦5⟧`,
+  '24wdt7r22ed': R`
+<p>Eksponen pecahan menggabungkan pangkat dan akar: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Jadi $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ dan $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
+<h3>Logaritma</h3>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Menyelesaikan persamaan</h3>
+<ul><li>Basis sama: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Persamaan logaritma: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Basis berbeda: logaritmakan kedua ruas, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
+<h3>Pertumbuhan dan peluruhan eksponensial</h3>
+<p>$A = A_0 \cdot r^{t/T}$: besaran yang dikalikan $r$ setiap $T$ satuan waktu. Bunga majemuk: $A = P(1 + i)^n$.</p>
+⟦3⟧
+⟦4⟧`,
+  '3hbd521s2e': R`
+⟦0⟧
+<p>Di sini $a$ adalah suku pertama dan $l$ suku terakhir.</p>
+⟦1⟧
+⟦2⟧
+<h3>Deret geometri tak hingga</h3>
+⟦3⟧
+<p>Contoh: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+⟦4⟧
+<h3>Notasi sigma</h3>
+<p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
+⟦5⟧`,
+  '1t70i52x3de': R`
+<p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
+⟦0⟧
+⟦1⟧
+<p>Jembatan keledai: <b>SOH-CAH-TOA</b> (sin = depan/miring, cos = samping/miring, tan = depan/samping). Selain itu, $\tan\theta = \frac{\sin\theta}{\cos\theta}$, dan kebalikannya adalah $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
+<h3>Nilai eksak</h3>
+⟦2⟧
+⟦3⟧
+<h3>Radian</h3>
+<p>$180^\circ = \pi$ radian. Untuk mengubah derajat ke radian, kalikan dengan $\frac{\pi}{180}$; radian ke derajat, kalikan dengan $\frac{180}{\pi}$. Jadi $60^\circ = \frac{\pi}{3}$ dan $\frac{3\pi}{4} = 135^\circ$.</p>
+<h3>Lingkaran satuan</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  'mvrwakwbru': R`
+<p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Menyelesaikan persamaan trigonometri</h3>
+<p>Tentukan sudut acuannya, lalu semua sudut pada interval yang diminta dengan tanda yang benar.</p>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2ei45ji3kzc': R`
+<p>Beri nama segitiga sehingga sisi $a$ berhadapan dengan sudut $A$, $b$ dengan $B$, dan $c$ dengan $C$. Aturan ini berlaku untuk <b>setiap</b> segitiga, bukan hanya segitiga siku-siku.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  '61mbb87wjy': R`
+<p><b>Polinomial</b> (suku banyak) adalah jumlah suku-suku $a_n x^n + \cdots + a_1 x + a_0$ dengan pangkat bilangan cacah. <b>Derajatnya</b> adalah pangkat tertinggi; $a_n$ adalah <b>koefisien utama</b>. Saat polinomial dikalikan, derajatnya dijumlahkan dan koefisien utamanya dikalikan.</p>
+<h3>Pembagian</h3>
+<p>Membagi $P(x)$ dengan $(x - a)$ menghasilkan hasil bagi $Q(x)$ dan sisa $R$: $P(x) = (x - a)Q(x) + R$. <b>Cara Horner</b> (pembagian sintetis) adalah cara cepat yang hanya memakai koefisien.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Akar-akar polinomial berderajat tiga</h3>
+<p>Untuk $ax^3 + bx^2 + cx + d = 0$ dengan akar-akar $r_1, r_2, r_3$:</p>
+⟦3⟧
+⟦4⟧`,
+  '1v5flijcft8': R`
+<p><b>Matriks</b> adalah susunan bilangan berbentuk persegi panjang. Matriks $m \times n$ memiliki $m$ baris dan $n$ kolom; $a_{ij}$ adalah elemen pada baris $i$, kolom $j$.</p>
+<h3>Operasi</h3>
+<ul><li><b>Penjumlahan/pengurangan</b> elemen demi elemen (hanya untuk ordo yang sama).</li><li><b>Perkalian skalar</b>: kalikan setiap elemen.</li><li><b>Perkalian</b> $AB$: elemen $(i, j)$ adalah baris $i$ dari $A$ "dikali" kolom $j$ dari $B$. Syaratnya (banyak kolom $A$) = (banyak baris $B$), dan matriks $m \times n$ dikali $n \times p$ menghasilkan $m \times p$.</li></ul>
+⟦0⟧
+⟦1⟧
+<h3>Determinan dan invers (2 × 2)</h3>
+⟦2⟧
+<p>Jika $\det A = 0$, matriksnya <b>singular</b> dan tidak memiliki invers. Invers dapat menyelesaikan sistem persamaan: $AX = B \Rightarrow X = A^{-1}B$.</p>
+⟦3⟧
+⟦4⟧`,
+  'etxqyliwjj': R`
+<p><b>Vektor</b> memiliki besar dan arah. Dalam komponen, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ atau $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Vektor dari $P$ ke $Q$ adalah $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  '66h68qke5m': R`
+<p>$\displaystyle\lim_{x \to a} f(x) = L$ berarti $f(x)$ dapat sedekat mungkin dengan $L$ ketika $x$ mendekati $a$ — apa pun yang terjadi tepat di $x = a$.</p>
+<h3>Teknik</h3>
+<ol><li><b>Substitusi langsung</b> berlaku untuk polinomial dan fungsi kontinu lainnya: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorkan lalu sederhanakan</b> untuk bentuk $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rasionalkan</b> bentuk akar: kalikan dengan sekawannya.</li></ol>
+⟦0⟧
+⟦1⟧
+<h3>Limit di tak hingga</h3>
+⟦2⟧
+⟦3⟧
+<h3>Limit trigonometri istimewa</h3>
+⟦4⟧
+<h3>Kekontinuan</h3>
+<p>$f$ kontinu di $a$ jika $\lim_{x \to a} f(x) = f(a)$: tidak ada lubang, lompatan, atau asimtot di sana. Untuk fungsi sepotong-sepotong, kedua potongan harus bertemu di titik sambungnya.</p>
+⟦5⟧`,
+  'a1ga4rrgb4': R`
+<p><b>Turunan</b> $f'(x)$ adalah laju perubahan sesaat $f$ — gradien garis singgung di $x$. Turunan didefinisikan dengan limit:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+<h3>Garis singgung</h3>
+<p>Di $x = a$, garis singgung bergradien $m = f'(a)$ dan melalui $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
+<h3>Titik stasioner</h3>
+<p>Di tempat $f'(x) = 0$, grafik sesaat mendatar. Gunakan turunan kedua: $f''(a) \gt 0$ → minimum lokal; $f''(a) \lt 0$ → maksimum lokal. $f$ naik di tempat $f' \gt 0$ dan turun di tempat $f' \lt 0$.</p>
+⟦4⟧
+<h3>Optimasi</h3>
+⟦5⟧
+⟦6⟧`,
+  'l6pgzhyei6': R`
+<p>Integral adalah kebalikan dari turunan. <b>Antiturunan</b> dari $f$ adalah sembarang $F$ dengan $F' = f$; <b>integral tak tentu</b> memuat konstanta integrasi:</p>
+⟦0⟧
+⟦1⟧
+<h3>Integral tentu</h3>
+⟦2⟧
+⟦3⟧
+<p>Untuk $f \ge 0$, ini adalah luas di bawah kurva antara $x = a$ dan $x = b$. Luas di bawah sumbu-$x$ dihitung negatif, jadi pisahkan integral di akar-akarnya jika ingin luas total.</p>
+⟦4⟧
+⟦5⟧
+<h3>Menentukan fungsi dari turunannya</h3>
+<p>Jika $f'(x) = 6x + 2$ dan $f(1) = 10$, maka $f(x) = 3x^2 + 2x + C$ dan $3 + 2 + C = 10$ memberikan $C = 5$.</p>
+⟦6⟧`,
+  'kgwrue8ydx': R`
+⟦0⟧
+⟦1⟧
+<h3>Permutasi: urutan diperhatikan</h3>
+⟦2⟧
+<p>Juara pertama, kedua, dan ketiga dari 10 orang: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
+<ul><li>Susunan dengan unsur yang sama: $\frac{n!}{p!\,q!\cdots}$. Kata "BANANA" memiliki $\frac{6!}{3!\,2!} = 60$ susunan.</li><li>Permutasi siklis (melingkar): $(n - 1)!$ (hasil rotasi dianggap sama).</li></ul>
+<h3>Kombinasi: urutan tidak diperhatikan</h3>
+⟦3⟧
+<p>Panitia 3 orang dari 10 orang: $\binom{10}{3} = 120$. Panitia berisi 2 pria (dari 5) dan 3 wanita (dari 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
+<h3>Teorema binomial</h3>
+⟦4⟧
+⟦5⟧
+<p>Koefisien $x^2$ pada $(x + 3)^5$ adalah $\binom{5}{2}3^{3} = 270$.</p>
+⟦6⟧`,
+  '5087kj3cei': R`
+⟦0⟧
+⟦1⟧
+<h3>Dengan dan tanpa pengembalian</h3>
+⟦2⟧
+<p>Diagram pohon membantu mengaturnya: kalikan sepanjang cabang, jumlahkan antarcabang.</p>
+⟦3⟧
+<h3>"Paling sedikit satu"</h3>
+<p>Gunakan komplemen: $P(\text{paling sedikit satu mata 6 dalam 3 lemparan}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
+<h3>Teorema Bayes</h3>
+⟦4⟧
+⟦5⟧`,
+  'tc0j77gt19': R`
+<h3>Kuartil dan diagram kotak-garis</h3>
+<p>Urutkan data. Median $Q_2$ membagi data menjadi dua bagian; $Q_1$ adalah median bagian bawah dan $Q_3$ median bagian atas (di sini median tidak dimasukkan ke kedua bagian jika $n$ ganjil). <b>Jangkauan antarkuartil</b> $\text{JAK} = Q_3 - Q_1$ mengukur sebaran 50% data di tengah.</p>
+⟦0⟧
+⟦1⟧
+<h3>Ragam dan simpangan baku</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<h3>Data berkelompok</h3>
+<p>Taksir rata-rata dengan titik tengah kelas: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+⟦5⟧
+<h3>Transformasi data</h3>
+⟦6⟧
+⟦7⟧`,
+  'c7ge7rgpv3': R`
+⟦0⟧
+<h3>Persamaan lingkaran</h3>
+⟦1⟧
+<p>Jika dijabarkan, diperoleh <b>bentuk umum</b> $x^2 + y^2 + Dx + Ey + F = 0$ dengan pusat $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ dan jari-jari $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
+⟦2⟧
+⟦3⟧
+<h3>Kedudukan titik</h3>
+<p>Substitusikan titik ke $(x - a)^2 + (y - b)^2$ dan bandingkan dengan $r^2$: lebih kecil → di dalam, sama → pada lingkaran, lebih besar → di luar.</p>
+<h3>Garis singgung</h3>
+<p>Garis singgung tegak lurus jari-jari di titik singgung. Untuk lingkaran $x^2 + y^2 = r^2$ di titik $(x_1; y_1)$, gradien jari-jarinya $\frac{y_1}{x_1}$, jadi gradien garis singgungnya $-\frac{x_1}{y_1}$.</p>
+<h3>Parabola</h3>
+<p>$y^2 = 4px$ memiliki fokus $(p; 0)$ dan direktriks $x = -p$; $x^2 = 4py$ memiliki fokus $(0; p)$ dan direktriks $y = -p$. Setiap titik pada parabola berjarak sama ke fokus dan ke direktriks.</p>
+⟦4⟧
+⟦5⟧`,
+  'kxyg3nvi7f': R`
+<p><b>Program linear</b> mencari nilai terbaik (terbesar atau terkecil) dari <b>fungsi objektif</b> linear, misalnya keuntungan $z = 30x + 20y$, dengan <b>kendala</b> linear seperti $x + y \le 40$.</p>
+<ol><li>Tulis kendala sebagai pertidaksamaan (termasuk $x \ge 0$, $y \ge 0$).</li><li>Gambar setiap garis batas dan arsir daerah yang memenuhi semua kendala — <b>daerah penyelesaian</b> (daerah layak).</li><li>Tentukan titik-titik pojok dengan menyelesaikan pasangan persamaan garis batas.</li><li>Hitung nilai fungsi objektif di setiap titik pojok.</li></ol>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p>Untuk masalah minimum dengan kendala "≥", daerahnya sering tidak terbatas; jika biayanya positif, nilai minimum tetap tercapai di titik pojok.</p>
+⟦3⟧`,
+  '242c6ma5mvc': R`
+<p><b>Pernyataan</b> (proposisi) adalah kalimat yang bernilai benar atau salah, tetapi tidak keduanya. Pernyataan majemuk dibentuk dengan <b>kata hubung logika</b>:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Konvers, invers, dan kontraposisi</h3>
+⟦3⟧
+<h3>Kuantor</h3>
+<p>$\forall$ "untuk semua" dan $\exists$ "ada/terdapat". Negasi menukar keduanya: negasi dari "Semua siswa lulus" adalah "<b>Ada</b> siswa yang <b>tidak</b> lulus"; negasi dari "Ada burung yang tidak dapat terbang" adalah "Semua burung dapat terbang".</p>
+<h3>Penarikan kesimpulan yang sah</h3>
+<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; jadi $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; jadi $\neg p$.</li><li><b>Silogisme:</b> $p \Rightarrow q$, $q \Rightarrow r$; jadi $p \Rightarrow r$.</li></ul>
+⟦4⟧`,
+  '2eractxl2pu': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Turunan implisit</h3>
+<p>Jika $y$ didefinisikan secara implisit, turunkan kedua ruas terhadap $x$ dengan memandang $y$ sebagai fungsi dari $x$ (jadi $\frac{d}{dx}y^2 = 2y\,y'$), lalu selesaikan untuk $y'$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '2pce0rr7ld': R`
+<h3>Aturan L'Hôpital</h3>
+⟦0⟧
+<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (diterapkan dua kali).</p>
+<h3>Optimasi</h3>
+<ol><li>Tulis besaran yang dioptimalkan sebagai fungsi satu variabel (gunakan kendalanya).</li><li>Turunkan dan selesaikan $f'(x) = 0$.</li><li>Periksa apakah itu maksimum/minimum (turunan kedua atau titik ujung).</li></ol>
+⟦1⟧
+⟦2⟧
+<h3>Laju yang berkaitan</h3>
+<p>Turunkan suatu hubungan terhadap waktu. Untuk lingkaran yang membesar, $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
+<h3>Aproksimasi linear</h3>
+⟦3⟧
+⟦4⟧
+<h3>Kecekungan dan teorema nilai rata-rata</h3>
+<p>$f'' \gt 0$: cekung ke atas; $f'' \lt 0$: cekung ke bawah; <b>titik belok</b> adalah tempat kecekungan berubah. <b>Teorema nilai rata-rata:</b> jika $f$ kontinu pada $[a; b]$ dan terdiferensialkan di dalamnya, ada $c$ di $(a; b)$ dengan $f'(c) = \frac{f(b) - f(a)}{b - a}$.</p>
+⟦5⟧
+⟦6⟧`,
+  '1i8ljxmt6ne': R`
+⟦0⟧
+<h3>Substitusi</h3>
+<p>Cari sebuah fungsi beserta turunannya. Dengan $u = g(x)$, $du = g'(x)\,dx$:</p>
+⟦1⟧
+<p>Untuk integral tentu, ubah juga batasnya (atau kembalikan ke variabel semula sebelum menghitung).</p>
+<h3>Integral parsial</h3>
+⟦2⟧
+⟦3⟧
+<h3>Pecahan parsial</h3>
+<p>Pecah fungsi rasional menjadi bagian yang lebih sederhana: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. Hilangkan penyebut lalu substitusikan $x = 1$ dan $x = -2$: $A = \frac{4}{3}$, $B = \frac{11}{3}$. Setiap bagian diintegralkan menjadi logaritma.</p>
+<h3>Integral tak wajar</h3>
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '22ywziqc3vc': R`
+<p>Deret tak hingga $\sum a_n$ <b>konvergen</b> jika jumlah parsialnya $S_N = a_1 + \cdots + a_N$ mendekati suatu limit berhingga.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Deret pangkat dan deret Taylor</h3>
+<p>Deret pangkat $\sum c_n (x - a)^n$ konvergen untuk $|x - a| \lt R$, dengan $R$ adalah <b>jari-jari kekonvergenan</b> (dicari dengan uji rasio). Deret Taylor $f$ di sekitar $a$ adalah $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$; di sekitar 0 disebut deret Maclaurin.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧`,
+  'snltdvly4b': R`
+<p>Untuk $f(x, y)$, <b>turunan parsial</b> $f_x = \frac{\partial f}{\partial x}$ diturunkan terhadap $x$ dengan memandang $y$ sebagai konstanta (sebaliknya untuk $f_y$). Untuk $f = x^2y^3$: $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
+<h3>Gradien dan turunan berarah</h3>
+⟦0⟧
+⟦1⟧
+<h3>Titik kritis: uji turunan kedua</h3>
+<p>Di titik tempat $f_x = f_y = 0$, misalkan $D = f_{xx}f_{yy} - f_{xy}^2$.</p>
+<ul><li>$D \gt 0$, $f_{xx} \gt 0$: minimum lokal. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: maksimum lokal.</li><li>$D \lt 0$: titik pelana. &nbsp; $D = 0$: uji tidak dapat menyimpulkan.</li></ul>
+<h3>Integral lipat dua</h3>
+<p>Pada persegi panjang, integralkan satu variabel setiap kali (Fubini): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. Dalam koordinat kutub, $dA = r\,dr\,d\theta$.</p>
+<h3>Pengali Lagrange</h3>
+<p>Untuk mengoptimalkan $f$ dengan kendala $g = c$, selesaikan $\nabla f = \lambda\nabla g$ bersama kendalanya.</p>
+⟦2⟧
+⟦3⟧
+⟦4⟧`,
+  'fs23huivh': R`
+<p><b>Persamaan diferensial</b> menghubungkan suatu fungsi dengan turunan-turunannya. <b>Ordenya</b> adalah turunan tertinggi yang muncul. <b>Solusi umum</b> memuat konstanta sembarang; syarat awal menentukan solusi khusus.</p>
+<h3>Persamaan terpisahkan</h3>
+⟦0⟧
+⟦1⟧
+<p>Kasus khusus: $\frac{dy}{dt} = ky$ memberi $y = y_0e^{kt}$ — pertumbuhan ($k \gt 0$) atau peluruhan ($k \lt 0$) eksponensial. Dengan waktu paruh $T$, jumlah yang tersisa adalah $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
+<h3>Persamaan linear orde satu</h3>
+⟦2⟧
+<h3>Persamaan linear orde dua dengan koefisien konstan</h3>
+<p>Untuk $ay'' + by' + cy = 0$, coba $y = e^{rx}$ sehingga diperoleh <b>persamaan karakteristik</b> $ar^2 + br + c = 0$.</p>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  '24kf7gdq652': R`
+<h3>Sistem persamaan linear dan rank</h3>
+<p>Sistem $A\mathbf{x} = \mathbf{b}$ diselesaikan dengan mereduksi baris matriks lengkap $[A \mid \mathbf{b}]$ menjadi bentuk eselon. <b>Rank</b> $A$ adalah banyaknya pivot (baris tak nol dalam bentuk eselon).</p>
+⟦0⟧
+<h3>Determinan</h3>
+⟦1⟧
+<p>Sifat-sifat yang berguna untuk matriks $n \times n$: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Aturan Cramer: $x_i = \frac{\det A_i}{\det A}$.</p>
+<h3>Nilai eigen dan vektor eigen</h3>
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Jika $A$ memiliki $n$ vektor eigen yang bebas linear, $A$ <b>dapat didiagonalkan</b>: $A = PDP^{-1}$, dengan vektor eigen sebagai kolom $P$ dan nilai eigen pada diagonal $D$.</p>
+⟦5⟧`,
+  'to00bbswkc': R`
+<p>Satuan imajiner memenuhi $i^2 = -1$. Bilangan kompleks ditulis $z = a + bi$ dengan bagian real $\text{Re}(z) = a$ dan bagian imajiner $\text{Im}(z) = b$. Pangkat $i$ berulang setiap empat: $i; -1; -i; 1; \ldots$</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Bentuk polar dan rumus Euler</h3>
+⟦3⟧
+⟦4⟧
+<p>Akar pangkat $n$ dari satu adalah $e^{2\pi ik/n}$ untuk $k = 0; 1; \ldots; n - 1$: titik-titik yang berjarak sama pada lingkaran satuan.</p>
+⟦5⟧
+⟦6⟧`,
+  'x4ag408mej': R`
+<p><b>Variabel acak</b> $X$ memberi angka pada setiap hasil. Untuk $X$ diskret dengan peluang $p(x)$:</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<h3>Distribusi normal</h3>
+⟦3⟧
+⟦4⟧
+⟦5⟧
+⟦6⟧`,
+  'c7oei6is1q': R`
+<p>Kita memakai statistik <b>sampel</b> (seperti $\bar{x}$) untuk menaksir parameter <b>populasi</b> (seperti $\mu$). Menurut <b>teorema limit pusat</b>, untuk $n$ besar rata-rata sampel kira-kira berdistribusi normal dengan rata-rata $\mu$ dan <b>galat baku</b> $\frac{\sigma}{\sqrt{n}}$.</p>
+<h3>Selang kepercayaan</h3>
+⟦0⟧
+⟦1⟧
+<p>Agar batas galatnya $E$, diperlukan $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (dibulatkan ke atas). Jika $\sigma$ tidak diketahui, gunakan $s$ dan distribusi $t$.</p>
+<h3>Uji hipotesis</h3>
+<ol><li>Rumuskan $H_0$ (mis. $\mu = \mu_0$) dan $H_1$.</li><li>Hitung statistik uji, mis. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Tentukan <b>nilai-p</b>: peluang, dengan menganggap $H_0$ benar, memperoleh hasil yang paling sedikit seekstrem ini.</li><li>Jika $p \le \alpha$, tolak $H_0$; jika tidak, $H_0$ tidak ditolak.</li></ol>
+⟦2⟧
+⟦3⟧
+<h3>Regresi linear</h3>
+<p>Garis kuadrat terkecil $\hat{y} = a + bx$ memiliki gradien $b = r\frac{s_y}{s_x}$ dan melalui $(\bar{x}; \bar{y})$, jadi $a = \bar{y} - b\bar{x}$.</p>
+⟦4⟧
+⟦5⟧`,
+  '1sl57vmn5mx': R`
+<h3>Teori bilangan</h3>
+<p>$a \equiv b \pmod n$ berarti $n$ membagi habis $a - b$; $a \bmod n$ adalah sisa pembagian dalam $\{0; 1; \ldots; n - 1\}$. Kongruensi boleh dijumlahkan dan dikalikan, dan pangkat dapat direduksi langkah demi langkah.</p>
+⟦0⟧
+⟦1⟧
+⟦2⟧
+<p><b>Invers modular</b> $a$ modulo $n$ adalah $x$ dengan $ax \equiv 1 \pmod n$; invers ini ada tepat ketika $\gcd(a, n) = 1$.</p>
+<h3>Pencacahan</h3>
+<ul><li>Fungsi dari himpunan berukuran $m$ ke himpunan berukuran $n$: $n^m$; fungsi injektif: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusi–eksklusi: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Prinsip sarang merpati:</b> jika lebih dari $kn$ benda dimasukkan ke $n$ kotak, ada kotak yang berisi paling sedikit $k + 1$.</li></ul>
+<h3>Relasi rekurensi dan graf</h3>
+<p>Relasi rekurensi mendefinisikan setiap suku dari suku-suku sebelumnya, seperti $a_n = 2a_{n-1} + 1$, $a_0 = 1$. Pada graf, <b>lema jabat tangan</b> menyatakan $\sum \deg(v) = 2|E|$; $K_n$ memiliki $\binom{n}{2}$ sisi; pohon dengan $n$ simpul memiliki $n - 1$ sisi; graf terhubung memiliki sirkuit Euler jika dan hanya jika semua derajatnya genap.</p>
+⟦3⟧
+⟦4⟧`,
+  '1mtvwhuo4v8': R`
+<p>Metode numerik mengaproksimasi jawaban yang tidak memiliki bentuk tertutup yang praktis. Dua jenis galat penting: galat <b>pemotongan</b> (dari metodenya) dan galat <b>pembulatan</b> (dari presisi yang terbatas).</p>
+⟦0⟧
+<h3>Mencari akar</h3>
+<ul><li><b>Bagi dua (biseksi):</b> jika $f(a)$ dan $f(b)$ berlawanan tanda, uji titik tengah $m$ dan simpan separuh yang mengalami perubahan tanda. Lambat tetapi pasti: galatnya menjadi separuh setiap langkah.</li><li><b>Newton–Raphson:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sangat cepat di dekat akar sederhana (konvergensi kuadratik), tetapi bisa gagal dengan tebakan awal yang buruk atau jika $f' \approx 0$.</li></ul>
+⟦1⟧
+⟦2⟧
+<h3>Integrasi numerik</h3>
+⟦3⟧
+<p>Di sini $h = \frac{b - a}{n}$. Aturan Simpson eksak untuk polinomial berderajat paling tinggi 3.</p>
+⟦4⟧
+<h3>Metode Euler</h3>
+⟦5⟧
+⟦6⟧
+⟦7⟧`,
+  '12ng1nf8855': R`
+<p><b>Medan vektor</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ memberikan sebuah vektor pada setiap titik — seperti kecepatan angin atau gaya. Dengan $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
+⟦0⟧
+<p>Divergensi mengukur aliran keluar dari suatu titik; curl mengukur putaran.</p>
+⟦1⟧
+<h3>Integral garis dan medan konservatif</h3>
+⟦2⟧
+⟦3⟧
+<h3>Teorema-teorema besar</h3>
+⟦4⟧
+<p>Akibat menarik dari teorema Green: luas $D$ sama dengan $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
+⟦5⟧`,
+  'u5cfzxzcr6': R`
+⟦0⟧
+⟦1⟧
+⟦2⟧
+⟦3⟧
+⟦4⟧
+<p>Transformasi invers biasanya memerlukan pecahan parsial terlebih dahulu, lalu dicocokkan dengan tabel.</p>
+⟦5⟧`,
 });

@@ -1,15 +1,6 @@
 /* 한국어 — 대학 (미분법 → 미분방정식) */
 addT('ko', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>음함수의 미분</h3>
-<p>$y$가 음함수로 주어지면, $y$를 $x$의 함수로 보고 양변을 $x$에 대하여 미분한 뒤($\frac{d}{dx}y^2 = 2y\,y'$), $y'$에 대하여 푼다.</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`곱`,
   '1fd6nxjb0xt': R`몫`,
   '21u0n9yxqot': R`합성함수`,
@@ -36,20 +27,6 @@ addT('ko', {
   '20aqqhk2mtp': R`곱의 미분: $f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$. 따라서 $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$.`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>로피탈의 정리</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$ (두 번 적용).</p>
-<h3>최적화</h3>
-<ol><li>최적화할 양을 한 변수의 함수로 나타낸다(조건을 이용한다).</li><li>미분하여 $f'(x) = 0$을 푼다.</li><li>최댓값/최솟값인지 확인한다(이계도함수 또는 양 끝 값).</li></ol>
-⟦1⟧
-<h3>관련 변화율</h3>
-<p>관계식을 시간에 대하여 미분한다. 커지는 원이라면 $A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$.</p>
-<h3>일차근사</h3>
-⟦2⟧
-<h3>오목·볼록과 평균값 정리</h3>
-<p>$f'' \gt 0$: 아래로 볼록; $f'' \lt 0$: 위로 볼록; 볼록성이 바뀌는 점이 <b>변곡점</b>이다. <b>평균값 정리:</b> $f$가 $[a, b]$에서 연속이고 내부에서 미분가능하면, $(a, b)$ 안에 $f'(c) = \frac{f(b) - f(a)}{b - a}$인 $c$가 존재한다.</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>$\lim \frac{f(x)}{g(x)}$가 $\frac{0}{0}$ 또는 $\frac{\infty}{\infty}$ 꼴이면 $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$ (우변의 극한이 존재할 때).</p>`,
   '189x52ko5mw': R`<p>한 변이 18 cm인 정사각형 판의 네 귀퉁이에서 한 변이 $x$인 정사각형을 잘라 내고 옆면을 접어 올린다. $V = x(18 - 2x)^2$, $V' = (18 - 2x)(18 - 6x) = 0$에서 $x = 3$이므로 $V_{\max} = 3 \cdot 12^2 = 432$ cm³.</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{예: } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1`,
@@ -74,19 +51,6 @@ addT('ko', {
   '1c5ltuvzsrq': R`평균 기울기 $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$. $f'(c) = 2c ⟦5⟧ = ⟦6⟧$에서 $c = ⟦7⟧$ — 이차함수에서는 언제나 구간의 중점이다.`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>치환적분</h3>
-<p>함수와 그 도함수를 찾는다. $u = g(x)$, $du = g'(x)\,dx$로 놓으면:</p>
-⟦0⟧
-<p>정적분에서는 적분 구간도 함께 바꾼다(또는 원래 변수로 되돌린 뒤 계산한다).</p>
-<h3>부분적분</h3>
-⟦1⟧
-⟦2⟧
-<h3>부분분수</h3>
-<p>유리함수를 더 간단한 조각으로 나눈다: $\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$. 분모를 없애고 $x = 1$, $x = -2$를 대입하면 $A = \frac{4}{3}$, $B = \frac{11}{3}$. 각 조각은 적분하면 로그가 된다.</p>
-<h3>이상적분</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>$u$는 <b>로·역·다·삼·지</b> 순서로 고른다: 로그함수, 역삼각함수, 다항함수, 삼각함수, 지수함수 — 앞에 오는 것을 $u$로 한다.</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$: $u = x$, $dv = e^{2x}dx$로 놓으면 $du = dx$, $v = \frac{1}{2}e^{2x}$. 결과: $\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$.</p>`,
@@ -139,14 +103,6 @@ addT('ko', {
   'lpjavqv13n': R`용수철 상수가 $k = ⟦0⟧$ N/m인 용수철을 자연 길이에서 ⟦1⟧ m 늘이는 데 필요한 일은?`,
 
   // series
-  '1efhn95iov3': R`
-<p>무한급수 $\sum a_n$은 부분합 $S_N = a_1 + \cdots + a_N$이 유한한 값에 가까워지면 <b>수렴한다</b>고 한다.</p>
-⟦0⟧
-⟦1⟧
-<h3>거듭제곱급수와 테일러 급수</h3>
-<p>거듭제곱급수 $\sum c_n (x - a)^n$은 $|x - a| \lt R$에서 수렴하며, $R$을 <b>수렴반지름</b>이라 한다(비율판정법으로 구한다). $a$ 근방에서 $f$의 테일러 급수는 $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$이고, 0 근방의 것을 매클로린 급수라 한다.</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`판정법`,
   '1boy0ga8tbt': R`결론`,
   '7ih7yeq8ue': R`발산 판정법`,
@@ -200,19 +156,6 @@ addT('ko', {
   '262p4pwoflz': R`이것은 $⟦0⟧$의 표준 전개식이다.`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>$f(x, y)$의 <b>편도함수</b> $f_x = \frac{\partial f}{\partial x}$는 $y$를 상수로 보고 $x$에 대하여 미분한 것이다($f_y$는 그 반대). $f = x^2y^3$이면 $f_x = 2xy^3$, $f_y = 3x^2y^2$.</p>
-<h3>기울기 벡터와 방향도함수</h3>
-⟦0⟧
-<h3>임계점: 이계도함수 판정법</h3>
-<p>$f_x = f_y = 0$인 점에서 $D = f_{xx}f_{yy} - f_{xy}^2$라 하자.</p>
-<ul><li>$D \gt 0$, $f_{xx} \gt 0$: 극소. &nbsp; $D \gt 0$, $f_{xx} \lt 0$: 극대.</li><li>$D \lt 0$: 안장점. &nbsp; $D = 0$: 판정할 수 없다.</li></ul>
-<h3>이중적분</h3>
-<p>직사각형 위에서는 한 변수씩 적분한다(푸비니 정리): $\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$. 극좌표에서는 $dA = r\,dr\,d\theta$.</p>
-<h3>라그랑주 승수법</h3>
-<p>조건 $g = c$ 아래에서 $f$를 최적화하려면 $\nabla f = \lambda\nabla g$와 조건식을 연립하여 푼다.</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$는 가장 빠르게 증가하는 방향을 가리키며, 그 크기가 최대 변화율이다.</p>`,
   'opu0v1dwpl': R`<p>$x + y = 10$일 때 $f = xy$의 최댓값: $(y, x) = \lambda(1, 1)$에서 $x = y = 5$이므로 최댓값은 25.</p>`,
   '83uqphqp8x': R`<p>극좌표에서는 $dA = r\,dr\,d\theta$의 추가 인수 $r$을 잊지 말자.</p>`,
@@ -240,18 +183,6 @@ addT('ko', {
   'hl1el1t8oy': R`극좌표: $\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$.`,
 
   // ode
-  '29y4y4v6xas': R`
-<p><b>미분방정식</b>은 함수와 그 도함수 사이의 관계식이다. 나타나는 가장 높은 도함수의 계수를 <b>계수</b>라 한다. <b>일반해</b>는 임의상수를 포함하고, 초기조건으로 특수해가 정해진다.</p>
-<h3>변수분리형</h3>
-⟦0⟧
-<p>특별한 경우: $\frac{dy}{dt} = ky$의 해는 $y = y_0e^{kt}$ — 지수적 증가($k \gt 0$) 또는 감소($k \lt 0$). 반감기가 $T$이면 남은 양은 $N_0\left(\frac{1}{2}\right)^{t/T}$.</p>
-<h3>일계 선형미분방정식</h3>
-⟦1⟧
-<h3>상수계수 이계 선형미분방정식</h3>
-<p>$ay'' + by' + cy = 0$에 $y = e^{rx}$를 대입하면 <b>특성방정식</b> $ar^2 + br + c = 0$을 얻는다.</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$: 변수를 분리하면 $\int\frac{dy}{y} = \int 2x\,dx$, 따라서 $\ln|y| = x^2 + C$, $y = Ae^{x^2}$.</p>`,
   '24caer7vpv9': R`<p>$y' + P(x)y = Q(x)$에는 <b>적분인자</b> $\mu(x) = e^{\int P(x)\,dx}$를 곱한다. 그러면 $(\mu y)' = \mu Q$이므로 $y = \frac{1}{\mu}\int \mu Q\,dx$.</p>`,
   '2fhw42v6h9r': R`특성근`,

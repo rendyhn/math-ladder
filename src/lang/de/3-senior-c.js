@@ -1,16 +1,6 @@
 /* Deutsch — Oberstufe (Polynome → Integrale) */
 addT('de', {
   // polynomials
-  '1dv82xempy': R`
-<p>Ein <b>Polynom</b> ist eine Summe von Termen $a_n x^n + \cdots + a_1 x + a_0$ mit natürlichen Exponenten. Sein <b>Grad</b> ist der höchste Exponent; $a_n$ ist der <b>Leitkoeffizient</b>. Beim Multiplizieren von Polynomen addieren sich die Grade und die Leitkoeffizienten werden multipliziert.</p>
-<h3>Division</h3>
-<p>Die Division von $P(x)$ durch $(x - a)$ liefert einen Quotienten $Q(x)$ und einen Rest $R$: $P(x) = (x - a)Q(x) + R$. Das <b>Horner-Schema</b> erledigt das schnell nur mit den Koeffizienten.</p>
-⟦0⟧
-⟦1⟧
-<h3>Nullstellen eines kubischen Polynoms</h3>
-<p>Für $ax^3 + bx^2 + cx + d = 0$ mit den Nullstellen $r_1, r_2, r_3$ gilt:</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ mit dem Horner-Schema:</p>⟦0⟧<p>Quotient $x^2 - 2x - 3$, Rest 0.</p>`,
   'agfsjitvd': R`<p><b>Restsatz:</b> Der Rest bei der Division von $P(x)$ durch $(x - a)$ ist $P(a)$.</p><p><b>Linearfaktorsatz:</b> $(x - a)$ ist genau dann ein Faktor von $P(x)$, wenn $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Division durch $(x + 3)$ bedeutet $a = -3$: Berechne $P(-3)$, nicht $P(3)$.</p>`,
@@ -31,16 +21,6 @@ addT('de', {
   '1uusi8yg5sk': R`Das absolute Glied ist das Produkt der absoluten Glieder: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p>Eine <b>Matrix</b> ist ein rechteckiges Zahlenschema. Eine $m \times n$-Matrix hat $m$ Zeilen und $n$ Spalten; $a_{ij}$ ist der Eintrag in Zeile $i$, Spalte $j$.</p>
-<h3>Rechenoperationen</h3>
-<ul><li><b>Addieren/Subtrahieren</b> eintragsweise (nur bei gleicher Größe).</li><li><b>Skalare Multiplikation</b>: jeden Eintrag multiplizieren.</li><li><b>Multiplizieren</b> $AB$: Eintrag $(i, j)$ ist Zeile $i$ von $A$ „mal“ Spalte $j$ von $B$. Dazu muss (Spaltenzahl von $A$) = (Zeilenzahl von $B$) sein; eine $m \times n$- mal eine $n \times p$-Matrix ergibt eine $m \times p$-Matrix.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Determinante und Inverse (2 × 2)</h3>
-⟦2⟧
-<p>Ist $\det A = 0$, so ist die Matrix <b>singulär</b> und hat keine Inverse. Mit Inversen löst man Gleichungssysteme: $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>Die Matrixmultiplikation ist <b>nicht kommutativ</b>: Meist ist $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Für die Inverse: $a$ und $d$ <b>vertauschen</b>, $b$ und $c$ <b>mit −1 multiplizieren</b>, dann durch die Determinante teilen.</p>`,
   '1h6gnxjh2g6': R`Berechne die Determinante von $⟦0⟧$.`,
@@ -57,12 +37,6 @@ addT('de', {
   'xdj657lej': R`Zeile ⟦0⟧ von $A$ mal Spalte ⟦1⟧ von $B$: $⟦2⟧ = ⟦3⟧$. (Eine $2 \times 3$- mal eine $3 \times 2$-Matrix ergibt eine $2 \times 2$-Matrix.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p>Ein <b>Vektor</b> hat Länge und Richtung. In Koordinaten: $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ oder $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Der Vektor von $P$ nach $Q$ ist $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Betrag`,
   '1czax49eh4c': R`Addition`,
   'q2ntocofkn': R`Koordinaten addieren`,
@@ -86,18 +60,6 @@ addT('de', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Teile jede Koordinate durch ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ bedeutet: $f(x)$ kommt $L$ beliebig nahe, wenn $x$ gegen $a$ geht — egal, was genau bei $x = a$ passiert.</p>
-<h3>Methoden</h3>
-<ol><li><b>Direktes Einsetzen</b> funktioniert bei Polynomen und anderen stetigen Funktionen: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorisieren und kürzen</b> bei $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Erweitern mit dem konjugierten Term</b> bei Wurzelausdrücken.</li></ol>
-⟦0⟧
-<h3>Grenzwerte im Unendlichen</h3>
-⟦1⟧
-<h3>Ein besonderer trigonometrischer Grenzwert</h3>
-⟦2⟧
-<h3>Stetigkeit</h3>
-<p>$f$ ist stetig in $a$, wenn $\lim_{x \to a} f(x) = f(a)$: keine Lücken, Sprünge oder Asymptoten dort. Bei einer abschnittsweise definierten Funktion müssen die beiden Teile an der Nahtstelle zusammenpassen.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Bei einer gebrochenrationalen Funktion teilst du Zähler und Nenner durch die höchste Potenz von $x$ im Nenner:</p><ul><li>gleicher Grad → Quotient der Leitkoeffizienten;</li><li>Zählergrad kleiner → 0;</li><li>Zählergrad größer → kein endlicher Grenzwert ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ ist weder „0“ noch „nicht definiert“ — es zeigt, dass mehr Arbeit nötig ist (faktorisieren, erweitern).</p>`,
   '18znpgymeuk': R`Berechne $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -115,18 +77,6 @@ addT('de', {
   '1l84k7ifkz6': R`Die Teile müssen bei $x = ⟦0⟧$ zusammenpassen: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, also $⟦5⟧ + k = ⟦6⟧$ und $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p>Die <b>Ableitung</b> $f'(x)$ ist die momentane Änderungsrate von $f$ — die Steigung der Tangente an der Stelle $x$. Sie ist durch einen Grenzwert definiert:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Tangenten</h3>
-<p>Bei $x = a$ hat die Tangente die Steigung $m = f'(a)$ und geht durch $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Stationäre Stellen</h3>
-<p>Wo $f'(x) = 0$ ist, verläuft der Graph kurz waagerecht. Nutze die zweite Ableitung: $f''(a) \gt 0$ → lokales Minimum; $f''(a) \lt 0$ → lokales Maximum. $f$ ist steigend, wo $f' \gt 0$, und fallend, wo $f' \lt 0$.</p>
-<h3>Optimierung</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Regeln`,
   '21wooetnwi8': R`<p>Mit 100 m Zaun wird ein Rechteck an einem Fluss eingezäunt (an der Flussseite kein Zaun). Mit den Seiten $x, y, x$: $2x + y = 100$, Fläche $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ ergibt $x = 25$, also $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>Die Ableitung einer Konstanten ist 0 — nimm das absolute Glied nicht mit in $f'(x)$.</p>`,
@@ -153,17 +103,6 @@ addT('de', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, also $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>Integrieren kehrt das Ableiten um. Eine <b>Stammfunktion</b> von $f$ ist jede Funktion $F$ mit $F' = f$; das <b>unbestimmte Integral</b> enthält die Integrationskonstante:</p>
-⟦0⟧
-⟦1⟧
-<h3>Bestimmte Integrale</h3>
-⟦2⟧
-<p>Für $f \ge 0$ ist das die Fläche unter der Kurve zwischen $x = a$ und $x = b$. Flächen unterhalb der $x$-Achse zählen negativ — teile das Integral an den Nullstellen, wenn du die Gesamtfläche willst.</p>
-⟦3⟧
-<h3>Eine Funktion aus ihrer Ableitung bestimmen</h3>
-<p>Ist $f'(x) = 6x + 2$ und $f(1) = 10$, dann ist $f(x) = 3x^2 + 2x + C$, und $3 + 2 + C = 10$ ergibt $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Probe durch Ableiten.</p>`,
   '1jsx5j8bwuv': R`Hauptsatz der Differential- und Integralrechnung`,
   'k8jg70602j': R`<p>Fläche zwischen $y = x^2$ und $y = 2x$: Sie schneiden sich bei $x = 0$ und $x = 2$, dazwischen ist $2x \ge x^2$, also $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,

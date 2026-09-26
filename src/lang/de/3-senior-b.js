@@ -1,17 +1,6 @@
 /* Deutsch — Oberstufe (Folgen → Dreiecksberechnung) */
 addT('de', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>Dabei ist $a$ das erste und $l$ das letzte Glied.</p>
-⟦1⟧
-⟦2⟧
-<h3>Unendliche geometrische Reihen</h3>
-⟦3⟧
-<p>Beispiel: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
-<h3>Summenzeichen</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ bedeutet $f(1) + f(2) + \cdots + f(n)$. Nützlich: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ und $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧`,
   'lwukzez7ke': R`Arithmetisch`,
   '1atqzl7ltey': R`Geometrisch`,
   'zs186mkwh5': R`jedes Mal $d$ addieren`,
@@ -33,18 +22,6 @@ addT('de', {
   '222tg0c1ffy': R`Das ist eine arithmetische Reihe: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ Euro.`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>In einem rechtwinkligen Dreieck gilt für einen spitzen Winkel $\theta$:</p>
-⟦0⟧
-<p>Merkhilfe: <b>GAGA-HHAG</b> (Sinus = Gegenkathete/Hypotenuse, Kosinus = Ankathete/Hypotenuse, Tangens = Gegenkathete/Ankathete). Außerdem ist $\tan\theta = \frac{\sin\theta}{\cos\theta}$, und die Kehrwerte sind $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
-<h3>Exakte Werte</h3>
-⟦1⟧
-<h3>Bogenmaß</h3>
-<p>$180^\circ = \pi$ im Bogenmaß. Von Grad ins Bogenmaß: mit $\frac{\pi}{180}$ multiplizieren; vom Bogenmaß in Grad: mit $\frac{180}{\pi}$ multiplizieren. Also $60^\circ = \frac{\pi}{3}$ und $\frac{3\pi}{4} = 135^\circ$.</p>
-<h3>Der Einheitskreis</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{Gegenkathete}}{\text{Hypotenuse}} \qquad \cos\theta = \frac{\text{Ankathete}}{\text{Hypotenuse}} \qquad \tan\theta = \frac{\text{Gegenkathete}}{\text{Ankathete}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('de', {
   '1856p6n9vrk': R`Der Sinus ist positiv in I und II, der Kosinus in I und IV, der Tangens in I und III. Nur <b>⟦0⟧</b> erfüllt beide Bedingungen.`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p>Eine <b>Identität</b> gilt für jeden Winkel. Die wichtigsten:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Trigonometrische Gleichungen lösen</h3>
-<p>Bestimme den Bezugswinkel und dann alle Winkel im geforderten Intervall mit dem richtigen Vorzeichen.</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`Trigonometrischer Pythagoras`,
   '28msif6x03y': R`Additionstheoreme`,
   '1qlqqnnfd2i': R`Doppelwinkelformeln`,
@@ -111,13 +79,6 @@ addT('de', {
   '19cq8bi37ib': R`Das Dreieck hat die Seiten ⟦0⟧, ⟦1⟧ und ⟦2⟧. Im Quadranten ⟦3⟧ ist der Sinus ⟦4⟧ und der Kosinus ⟦5⟧, also $\sin\theta = ⟦6⟧$ und $\cos\theta = ⟦7⟧$.`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>Beschrifte ein Dreieck so, dass die Seite $a$ dem Winkel $A$ gegenüberliegt, $b$ dem Winkel $B$ und $c$ dem Winkel $C$. Diese Sätze gelten für <b>jedes</b> Dreieck, nicht nur für rechtwinklige.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Verwende ihn, wenn du eine Seite und den gegenüberliegenden Winkel sowie eine weitere Seite oder einen weiteren Winkel kennst.</p>`,
   'mp16igkhf3': R`Sinussatz`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>Verwende ihn bei zwei Seiten und dem eingeschlossenen Winkel (SWS) oder bei drei Seiten (SSS).</p>`,

@@ -1,16 +1,6 @@
 /* Deutsch — Sekundarstufe I (Statistik → Ähnlichkeit) */
 addT('de', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p>Ein <b>Lagemaß</b> fasst einen Datensatz durch einen typischen Wert zusammen; ein <b>Streuungsmaß</b> gibt an, wie weit die Werte auseinanderliegen.</p>
-⟦0⟧
-<h3>Mittelwert aus einer Häufigkeitstabelle</h3>
-⟦1⟧
-⟦2⟧
-<h3>Rückwärts rechnen</h3>
-⟦3⟧
-<p>Bei einer geraden Anzahl von Werten ist der Median der Mittelwert der beiden mittleren Werte.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Geeignet, wenn…`,
   'j0p0vvrwxf': R`die Daten keine extremen Werte (Ausreißer) haben`,
   '2ajydntyvld': R`die Daten schief verteilt sind oder Ausreißer haben — z. B. Hauspreise`,
@@ -36,16 +26,6 @@ addT('de', {
   '22iugjzjcbh': R`Der Modalwert ist der Wert mit der größten Häufigkeit. ⟦0⟧ hat die Häufigkeit ⟦1⟧, die größte.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Ein <b>Zufallsexperiment</b> (einen Würfel werfen, eine Karte ziehen) hat mögliche <b>Ergebnisse</b>. Die Menge aller Ergebnisse ist die <b>Ergebnismenge</b> $S$; ein <b>Ereignis</b> $E$ ist eine Menge von Ergebnissen. Sind alle Ergebnisse gleich wahrscheinlich, gilt:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Zwei Würfel</h3>
-<p>Zwei Würfel ergeben $6 \times 6 = 36$ gleich wahrscheinliche Ergebnisse. Die Augensumme 7 entsteht auf 6 Arten — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) —, also ist $P(\text{Summe} = 7) = \frac{6}{36} = \frac{1}{6}$. Allgemein gibt es $6 - |s - 7|$ Arten, die Summe $s$ zu erhalten.</p>
-<h3>Ein Kartenspiel</h3>
-<p>52 Karten: 4 Farben (♠ ♣ schwarz, ♥ ♦ rot) mit je 13 Werten (A, 2–10, B, D, K). Es gibt 12 Bildkarten (B, D, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 bedeutet unmöglich, 1 bedeutet sicher.</li><li><b>Gegenereignis:</b> $P(\text{nicht } E) = 1 - P(E)$.</li><li><b>Erwartete Häufigkeit</b> bei $n$ Versuchen $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>In einem Beutel sind 3 rote, 5 blaue und 2 grüne Murmeln. $P(\text{blau}) = \frac{5}{10} = \frac{1}{2}$ und $P(\text{nicht grün}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>Die relative Häufigkeit (aus echten Versuchen) nähert sich mit wachsender Versuchszahl der theoretischen Wahrscheinlichkeit — stimmt aber selten genau überein.</p>`,
@@ -97,19 +77,6 @@ addT('de', {
   '23r35ol6pkt': R`Von den 52 Karten sind es ⟦0⟧: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Alltägliche Geldfragen sind meist verkleidete Prozentaufgaben.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Rabatt und Steuer</h3>
-<p>Wende Prozentsätze nacheinander an: 20 % Rabatt und danach 10 % Steuer auf 150 Euro ergeben $150 \times 0{,}8 \times 1{,}1 = 132$ Euro.</p>
-<h3>Einfache Zinsen</h3>
-⟦3⟧
-<p>1 500 Euro, 3 Jahre lang zu 6 % pro Jahr angelegt, bringen $1\,500 \times 0{,}06 \times 3 = 270$ Euro; das Guthaben wächst auf 1 770 Euro. Bei Monaten nimm $t = \frac{\text{Monate}}{12}$.</p>
-<h3>Brutto, Tara und Netto</h3>
-<p><b>Brutto</b> = Gesamtgewicht; <b>Tara</b> = Gewicht der Verpackung; <b>Netto</b> = Brutto − Tara. Ein 50-kg-Sack mit 2 % Tara hat ein Nettogewicht von $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Begriff`,
   '1mb9fntmked': R`Einkaufspreis (EP)`,
   '12bh5c74j0l': R`was der Verkäufer bezahlt hat`,
@@ -142,17 +109,6 @@ addT('de', {
   'g36e4lpvm4': R`$\text{VP} = \text{EP} \times ⟦0⟧$, also $\text{EP} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ Euro. (⟦4⟧ % vom Verkaufspreis abzuziehen wäre falsch.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p>Eine <b>Folge</b> ist eine geordnete Liste von Zahlen, den <b>Gliedern</b>. Wer die Regel erkennt, kann die Folge fortsetzen oder direkt zu jedem beliebigen Glied springen.</p>
-<h3>Arithmetische Folgen</h3>
-<p>Es wird jedes Mal dieselbe Zahl $d$ (die <b>Differenz</b>) addiert: 5; 8; 11; 14; … hat $d = 3$.</p>
-⟦0⟧
-<h3>Geometrische Folgen</h3>
-<p>Jedes Glied wird mit demselben <b>Quotienten</b> $r$ multipliziert: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Besondere Folgen</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>wobei $a$ das erste Glied ist. Für 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, also $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Name`,
   'mwgm16sn11': R`Glieder`,
@@ -179,14 +135,6 @@ addT('de', {
   'o3oiu9pprw': R`Die Glieder sind ⟦0⟧. Das 7. Glied ist ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p>Eine <b>Abbildung</b> verschiebt eine Figur oder ändert ihre Größe. Bei Verschiebungen, Spiegelungen und Drehungen ist das Bild <b>kongruent</b> (gleiche Form und Größe); bei einer zentrischen Streckung ist es <b>ähnlich</b> (gleiche Form, andere Größe).</p>
-⟦0⟧
-<h3>Ähnliche Figuren</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Abbildung`,
   'jmpbrf5c1s': R`Regel für einen Punkt (x; y)`,
   '2b0j70wot2h': R`Verschiebung um $\binom{a}{b}$`,

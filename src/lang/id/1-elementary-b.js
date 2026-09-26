@@ -1,23 +1,6 @@
 /* Bahasa Indonesia — SD (pecahan → pengukuran) */
 addT('id', {
   // fractions
-  '1j59vvw5wlm': R`
-<p><b>Pecahan</b> $\frac{a}{b}$ berarti $a$ bagian dari $b$ bagian yang sama besar. Bilangan di atas disebut <b>pembilang</b>; bilangan di bawah disebut <b>penyebut</b>.</p>
-<h3>Pecahan senilai dan bentuk paling sederhana</h3>
-<p>Mengalikan atau membagi pembilang dan penyebut dengan bilangan yang sama menghasilkan pecahan senilai: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. Untuk <b>menyederhanakan</b>, bagi keduanya dengan FPB-nya:</p>
-⟦0⟧
-<h3>Pecahan campuran</h3>
-<p>$2\frac{1}{3}$ berarti $2 + \frac{1}{3}$. Sebagai pecahan biasa: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
-<h3>Penjumlahan dan pengurangan</h3>
-⟦1⟧
-⟦2⟧
-<h3>Perkalian dan pembagian</h3>
-⟦3⟧
-<p>Untuk membagi, <b>tetapkan</b> pecahan pertama, <b>ubah</b> ÷ menjadi ×, lalu <b>balik</b> pecahan kedua.</p>
-⟦4⟧
-<h3>Pecahan dari suatu jumlah</h3>
-<p>Bagi dengan penyebut, lalu kalikan dengan pembilang: $\frac{3}{8}$ dari $40 = (40 \div 8) \times 3 = 15$.</p>
-⟦5⟧`,
   'twupiargma': R`<p>Pecahan hanya dapat dijumlahkan atau dikurangkan jika <b>penyebutnya sama</b>. Samakan penyebutnya (gunakan KPK dari penyebut-penyebutnya), lalu jumlahkan atau kurangkan pembilangnya.</p>`,
   'cscyf10ta5': R`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`,
   'bcas553r7s': R`<p>Jangan pernah menjumlahkan penyebut: $\frac{1}{2} + \frac{1}{3}$ hasilnya $\frac{5}{6}$, bukan $\frac{2}{5}$.</p>`,
@@ -43,23 +26,6 @@ addT('id', {
   '2er4a94vvmc': R`Bandingkan dalam bentuk desimal (atau samakan penyebutnya): ⟦0⟧. Yang terkecil adalah $⟦1⟧$.`,
 
   // decimals
-  '2663pva71c8': R`
-<p>Bilangan desimal memperluas nilai tempat ke sebelah kanan satuan. Setiap tempat bernilai sepersepuluh tempat di sebelah kirinya.</p>
-⟦0⟧
-<p>Jadi $47{,}305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
-<h3>Membandingkan desimal</h3>
-<p>Samakan banyak angka di belakang koma dengan menambahkan nol, lalu bandingkan: $0{,}5 = 0{,}50 \gt 0{,}45$. Desimal yang lebih panjang belum tentu lebih besar!</p>
-<h3>Penjumlahan dan pengurangan</h3>
-⟦1⟧
-⟦2⟧
-<h3>Perkalian</h3>
-<p>Kalikan seolah-olah tidak ada koma, lalu hitung jumlah angka di belakang koma pada kedua faktor — hasilnya memiliki angka di belakang koma sebanyak itu.</p>
-⟦3⟧
-<h3>Pembagian dan mengubah bentuk</h3>
-<p>Mengalikan dengan 10, 100, atau 1000 menggeser angka-angka 1, 2, atau 3 tempat ke kiri (bilangannya membesar); membagi menggesernya ke kanan. Pecahan diubah menjadi desimal dengan membagi pembilang oleh penyebut: $\frac{3}{8} = 3 \div 8 = 0{,}375$.</p>
-<h3>Membulatkan desimal</h3>
-<p>Aturannya sama dengan bilangan cacah: lihat angka berikutnya. $6{,}847$ dibulatkan ke persepuluhan terdekat menjadi $6{,}8$; ke perseratusan terdekat menjadi $6{,}85$.</p>
-⟦4⟧`,
   'yhxj3mz2az': R`Persepuluhan`,
   '1usmp59h50n': R`Perseratusan`,
   'biszmhnvcw': R`Perseribuan`,
@@ -87,16 +53,6 @@ addT('id', {
   'clxur1r60o': R`Tulis semuanya dengan tiga angka di belakang koma: ⟦0⟧. Yang terkecil adalah <b>⟦1⟧</b>.`,
 
   // percent
-  'r0jl598zxh': R`
-<p><b>Persen</b> berarti "per seratus": $35\% = \frac{35}{100} = 0{,}35$.</p>
-⟦0⟧
-<h3>Tiga pertanyaan dasar</h3>
-⟦1⟧
-⟦2⟧
-<h3>Kenaikan, penurunan, dan diskon</h3>
-<p>Diskon $20\%$ untuk barang seharga 80 ribu rupiah menghemat $0{,}2 \times 80 = 16$ ribu rupiah, jadi harga setelah diskon $80 - 16 = 64$ ribu rupiah. Lebih cepat: kamu membayar $80\%$ dari harga, yaitu $0{,}8 \times 80 = 64$.</p>
-<p>Kenaikan $p\%$ berarti dikalikan $1 + \frac{p}{100}$; penurunan berarti dikalikan $1 - \frac{p}{100}$.</p>
-⟦3⟧`,
   '2e1ivkcc9wi': R`Pecahan`,
   '21lfn42y4af': R`Desimal`,
   '1vaz29jk1go': R`Persen`,
@@ -118,15 +74,6 @@ addT('id', {
   '260avkxsjev': R`Perubahan: ⟦0⟧ ribu rupiah. Persentase penurunan: ⟦1⟧ — selalu bagi dengan harga <b>awal</b>.`,
 
   // measurement
-  'ymwylkippx': R`
-<p>Sistem metrik dibangun dari perpangkatan sepuluh, dengan awalan yang menunjukkan besar suatu satuan.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<h3>Waktu</h3>
-<p>Waktu <i>tidak</i> desimal: satu jam sama dengan 60 menit, bukan 100. Untuk menghitung lama waktu, hitung maju bertahap: dari 09:35 sampai 13:10 adalah 25 menit (sampai 10:00) + 3 jam (sampai 13:00) + 10 menit = 3 jam 35 menit = 215 menit.</p>
-⟦4⟧`,
   '1vt4z8db5g': R`Awalan`,
   '18vrcwaxvwu': R`Arti`,
   '1j1ms4p35q': R`Contoh`,

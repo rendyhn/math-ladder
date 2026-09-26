@@ -1,18 +1,6 @@
 /* Bahasa Indonesia — SMP (sistem persamaan → bangun ruang) */
 addT('id', {
   // systems
-  '1obgwi6un65': R`
-<p><b>Sistem</b> dua persamaan linear dalam $x$ dan $y$ meminta nilai yang membuat <i>kedua</i> persamaan benar sekaligus. Secara grafik, penyelesaiannya adalah titik potong kedua garis.</p>
-<h3>Metode substitusi</h3>
-⟦0⟧
-<h3>Metode eliminasi</h3>
-⟦1⟧
-⟦2⟧
-<h3>Kasus khusus</h3>
-<p>Garis sejajar (gradien sama, titik potong sumbu-y berbeda) tidak pernah berpotongan: <b>tidak ada penyelesaian</b>. Garis yang berimpit punya <b>tak hingga banyak</b> penyelesaian.</p>
-<h3>Soal cerita</h3>
-<p>Dua bilangan yang tidak diketahui memerlukan dua informasi. "Ayam dan sapi di sebuah peternakan punya 30 kepala dan 84 kaki": misalkan $c$ = banyak sapi dan $h$ = banyak ayam, maka $c + h = 30$ dan $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Substitusikan persamaan pertama ke persamaan kedua: $3x + (2x - 1) = 14$, jadi $5x = 15$, $x = 3$, dan $y = 2(3) - 1 = 5$. Penyelesaian: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Jumlahkan kedua persamaan untuk mengeliminasi $y$: $7x = 21$, jadi $x = 3$. Lalu dari $2(3) + 3y = 12$ diperoleh $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Kalikan salah satu atau kedua persamaan agar koefisien salah satu variabel sama (atau berlawanan), lalu kurangkan (atau jumlahkan) untuk mengeliminasinya. Selalu periksa jawaban pada <b>kedua</b> persamaan asal.</p>`,
@@ -33,18 +21,6 @@ addT('id', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ dan $a - b = ⟦1⟧$. Jumlahkan: $2a = ⟦2⟧$, jadi $a = ⟦3⟧$ dan $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>Pada segitiga siku-siku, sisi terpanjang yang berhadapan dengan sudut siku-siku disebut <b>hipotenusa</b> (sisi miring) $c$. Dua sisi lainnya, $a$ dan $b$, adalah <b>sisi siku-siku</b>.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Tripel Pythagoras</h3>
-<p>Penyelesaian bilangan bulat beserta kelipatannya layak dihafal: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, serta $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Jarak antara dua titik</h3>
-⟦3⟧
-<h3>Kebalikan teorema</h3>
-<p>Jika $c$ sisi terpanjang: $a^2 + b^2 = c^2$ berarti segitiga <b>siku-siku</b>; $a^2 + b^2 \gt c^2$ berarti segitiga <b>lancip</b>; $a^2 + b^2 \lt c^2$ berarti segitiga <b>tumpul</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Untuk mencari hipotenusa, jumlahkan kuadratnya; untuk mencari sisi siku-siku, kurangkan: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Tangga sepanjang 10 m disandarkan ke dinding dengan kaki tangga 6 m dari dinding. Tinggi yang dicapai: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Untuk sisi siku-siku 3 dan 4, hipotenusanya 5, bukan 7.</p>`,
@@ -66,17 +42,6 @@ addT('id', {
   '5pal2wak00': R`Bandingkan dengan sisi terpanjang, ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ dan $⟦4⟧^2 = ⟦5⟧$. Karena $⟦6⟧ ⟦7⟧ ⟦8⟧$, segitiga itu <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>Perbandingan keliling dengan diameter selalu sama untuk setiap lingkaran: $\pi \approx 3{,}14159\ldots$ (sering didekati dengan $3{,}14$ atau $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Busur dan juring</h3>
-<p>Juring dengan sudut pusat $\theta$ adalah bagian $\frac{\theta}{360^\circ}$ dari seluruh lingkaran:</p>
-⟦3⟧
-<h3>Sudut pada lingkaran</h3>
-<ul><li>Sudut pusat besarnya <b>dua kali</b> sudut keliling yang menghadap busur yang sama.</li><li>Sudut keliling yang menghadap diameter besarnya $90^\circ$.</li><li>Garis singgung tegak lurus jari-jari di titik singgungnya.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Bagian-bagian lingkaran. Diameter adalah dua kali jari-jari: d = 2r.`,
   '1y041ovnv67': R`<p>Jari-jari 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm dan $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Menuliskan jawaban "dalam $\pi$" membuatnya tetap eksak.</p>`,
   '1ljhd2tb7ca': R`\text{Panjang busur} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{Luas juring} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -104,13 +69,6 @@ addT('id', {
   'kfe0atvapi': R`Sudut keliling = setengah sudut pusat: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p><b>Prisma</b> memiliki penampang yang sama sepanjang tubuhnya, jadi volumenya cukup luas penampang dikali panjangnya. Limas atau kerucut yang pas masuk ke dalamnya memiliki tepat sepertiga volume itu.</p>
-⟦0⟧
-<p>Pada kerucut, $s$ adalah <b>garis pelukis</b>; menurut Pythagoras, $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Bangun`,
   'alc1a0j1b0': R`Volume`,
   'bt7ak3o2ct': R`Luas permukaan`,

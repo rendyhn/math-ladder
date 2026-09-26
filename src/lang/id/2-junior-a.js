@@ -14,16 +14,6 @@ addT('id', {
   '187npo1zduj': R`tali busur`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p><b>Bilangan bulat</b> terdiri atas bilangan cacah dan lawan-lawannya: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ Pada garis bilangan, bilangan makin besar ke arah kanan, jadi $-7 \lt -2$ walaupun 7 lebih besar daripada 2.</p>
-<p><b>Nilai mutlak</b> $|a|$ adalah jarak bilangan itu dari 0: $|-6| = 6$ dan $|6| = 6$.</p>
-<h3>Penjumlahan dan pengurangan</h3>
-⟦0⟧
-<h3>Perkalian dan pembagian</h3>
-⟦1⟧
-⟦2⟧
-<p>Penerapan sehari-hari: suhu di bawah nol, ketinggian di bawah permukaan laut, utang, dan lantai di bawah tanah.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Tanda sama:</b> jumlahkan nilai mutlaknya, tandanya tetap. $-4 + (-9) = -13$.</li><li><b>Tanda berbeda:</b> kurangkan nilai mutlaknya, ambil tanda bilangan yang nilai mutlaknya lebih besar. $-11 + 5 = -6$.</li><li><b>Mengurangkan</b> berarti menambahkan lawannya: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Tanda`,
   '18hy4wrreq9': R`Hasil`,
@@ -47,15 +37,6 @@ addT('id', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ dan $|⟦2⟧| = ⟦3⟧$, jadi nilainya $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p><b>Perpangkatan</b> menyatakan perkalian berulang: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ faktor}}$. Pada $2^5 = 32$, 2 adalah <b>bilangan pokok</b> dan 5 adalah <b>pangkat</b>.</p>
-<h3>Sifat-sifat perpangkatan</h3>
-⟦0⟧
-⟦1⟧
-<h3>Akar</h3>
-<p>Akar kuadrat adalah kebalikan dari kuadrat: $\sqrt{81} = 9$ karena $9^2 = 81$. Akar pangkat tiga adalah kebalikan dari pangkat tiga: $\sqrt[3]{64} = 4$ karena $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Sifat`,
   '2du0zx6ztd9': R`<p>Sederhanakan $(2x^3)(5x^4)$: kalikan angkanya dan jumlahkan pangkatnya, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Untuk menyederhanakan akar kuadrat, keluarkan faktor kuadrat sempurna yang terbesar: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -85,16 +66,6 @@ addT('id', {
   'r5mpjrvznb': R`Cari faktor kuadrat sempurna terbesar: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Jadi $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Para ilmuwan menulis bilangan yang sangat besar atau sangat kecil secara ringkas dalam bentuk</p>
-⟦0⟧
-<ul><li>Jarak ke Matahari, sekitar $150\,000\,000$ km, adalah $1{,}5 \times 10^{8}$ km.</li><li>Sel darah merah yang lebarnya sekitar $0{,}000\,008$ m berukuran $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Menghitung</h3>
-<p>Kalikan (atau bagi) bilangan di depan, lalu jumlahkan (atau kurangkan) pangkatnya. Setelah itu, sesuaikan bilangan di depan jika tidak berada di antara 1 dan 10:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ bilangan bulat}`,
   '1phwx4rhhb0': R`<p>Hitung berapa tempat tanda koma harus digeser agar di depannya tersisa tepat satu angka bukan nol. Bilangan besar (koma bergeser ke kiri) berpangkat <b>positif</b>; bilangan yang kurang dari 1 (koma bergeser ke kanan) berpangkat <b>negatif</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -116,19 +87,6 @@ addT('id', {
   '1ujla3379au': R` Karena ⟦0⟧ kurang dari 1, tulis ulang $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p><b>Perbandingan</b> $a : b$ membandingkan dua besaran. Seperti pecahan, perbandingan dapat disederhanakan dengan membagi kedua sukunya dengan FPB: $18 : 24 = 3 : 4$.</p>
-<h3>Membagi menurut perbandingan</h3>
-⟦0⟧
-<h3>Laju dan nilai satuan</h3>
-<p><b>Laju</b> membandingkan besaran dengan satuan berbeda: kilometer per jam, rupiah per kg. Mencari nilai untuk <b>satu</b> satuan (nilai satuan) menyelesaikan sebagian besar soal.</p>
-⟦1⟧
-<h3>Perbandingan senilai dan berbalik nilai</h3>
-⟦2⟧
-⟦3⟧
-<h3>Skala peta</h3>
-<p>Skala $1 : 50\,000$ berarti 1 cm pada peta sama dengan $50\,000$ cm $= 500$ m $= 0{,}5$ km sebenarnya.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Bagikan 60 permen dengan perbandingan $2 : 3$.</p><ol><li>Jumlah bagian: $2 + 3 = 5$.</li><li>Satu bagian: $60 \div 5 = 12$.</li><li>Bagiannya: $2 \times 12 = 24$ dan $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{kecepatan} = \frac{\text{jarak}}{\text{waktu}} \qquad \text{jarak} = \text{kecepatan} \times \text{waktu}`,
   '1lx74znbkzq': R`<ul><li><b>Senilai:</b> kedua besaran bertambah bersama, $y = kx$. Buku tulis dua kali lebih banyak harganya dua kali lipat.</li><li><b>Berbalik nilai:</b> yang satu bertambah, yang lain berkurang, $xy = k$. Pekerja dua kali lebih banyak menyelesaikan pekerjaan dalam separuh waktu.</li></ul>`,

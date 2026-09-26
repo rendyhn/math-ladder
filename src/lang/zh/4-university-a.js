@@ -1,15 +1,6 @@
 /* 中文 — 大学（求导技巧 → 微分方程） */
 addT('zh', {
   // diff-techniques
-  'i2e9stiapi': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>隐函数求导</h3>
-<p>当 $y$ 由方程隐式给出时，两边同时对 $x$ 求导，把 $y$ 看作 $x$ 的函数（所以 $\frac{d}{dx}y^2 = 2y\,y'$），再解出 $y'$。</p>
-⟦3⟧
-⟦4⟧
-⟦5⟧`,
   '1kr8zytc8j5': R`乘积`,
   '1fd6nxjb0xt': R`商`,
   '21u0n9yxqot': R`链式`,
@@ -36,20 +27,6 @@ addT('zh', {
   '20aqqhk2mtp': R`乘积法则：$f'(x) = \ln x + x \cdot \frac{1}{x} = \ln x + 1$。所以 $f'(e^{⟦0⟧}) = ⟦1⟧ + 1 = ⟦2⟧$。`,
 
   // diff-applications
-  'g0oq20zzs': R`
-<h3>洛必达法则</h3>
-⟦0⟧
-<p>$\displaystyle\lim_{x \to 0}\frac{1 - \cos 4x}{x^2} = \lim\frac{4\sin 4x}{2x} = \lim\frac{16\cos 4x}{2} = 8$（用了两次）。</p>
-<h3>最优化</h3>
-<ol><li>把要优化的量写成一个变量的函数（利用约束条件）。</li><li>求导并解 $f'(x) = 0$。</li><li>检验它是最大值还是最小值（二阶导数或端点）。</li></ol>
-⟦1⟧
-<h3>相关变化率</h3>
-<p>把一个关系式对时间求导。对于不断变大的圆，$A = \pi r^2 \Rightarrow \frac{dA}{dt} = 2\pi r\frac{dr}{dt}$。</p>
-<h3>线性近似</h3>
-⟦2⟧
-<h3>凹凸性与中值定理</h3>
-<p>$f'' \gt 0$：下凸（凹向上）；$f'' \lt 0$：上凸（凹向下）；凹凸性改变的点叫<b>拐点</b>。<b>拉格朗日中值定理：</b>若 $f$ 在 $[a, b]$ 上连续、在内部可导，则存在 $c \in (a, b)$ 使 $f'(c) = \frac{f(b) - f(a)}{b - a}$。</p>
-⟦3⟧`,
   '11hmiu9w9s4': R`<p>若 $\lim \frac{f(x)}{g(x)}$ 是 $\frac{0}{0}$ 或 $\frac{\infty}{\infty}$ 型，则 $\displaystyle\lim\frac{f(x)}{g(x)} = \lim\frac{f'(x)}{g'(x)}$（右边极限存在时）。</p>`,
   '189x52ko5mw': R`<p>从边长 18 cm 的正方形铁皮四角各剪去边长为 $x$ 的小正方形，再把四边折起。$V = x(18 - 2x)^2$，$V' = (18 - 2x)(18 - 6x) = 0$ 得 $x = 3$，所以 $V_{\max} = 3 \cdot 12^2 = 432$ cm³。</p>`,
   'e22qux2ozs': R`f(a + h) \approx f(a) + f'(a)\,h \qquad \text{例如 } \sqrt{26} \approx 5 + \frac{1}{2 \cdot 5} = 5.1`,
@@ -74,19 +51,6 @@ addT('zh', {
   '1c5ltuvzsrq': R`平均斜率 $= \frac{f(⟦0⟧) - f(⟦1⟧)}{⟦2⟧ - ⟦3⟧} = ⟦4⟧$。$f'(c) = 2c ⟦5⟧ = ⟦6⟧$ 得 $c = ⟦7⟧$——正是区间中点，二次函数总是如此。`,
 
   // integration-techniques
-  'vrvi3bfbr': R`
-<h3>换元法</h3>
-<p>寻找一个函数和它的导数。令 $u = g(x)$，$du = g'(x)\,dx$：</p>
-⟦0⟧
-<p>对定积分，积分上下限也要一起换（或先换回原变量再代入）。</p>
-<h3>分部积分法</h3>
-⟦1⟧
-⟦2⟧
-<h3>部分分式</h3>
-<p>把有理函数拆成更简单的部分：$\dfrac{5x - 1}{(x - 1)(x + 2)} = \dfrac{A}{x - 1} + \dfrac{B}{x + 2}$。去分母后代入 $x = 1$ 和 $x = -2$：$A = \frac{4}{3}$，$B = \frac{11}{3}$。每一部分积分后都是对数。</p>
-<h3>反常积分</h3>
-⟦3⟧
-⟦4⟧`,
   '26zznowz8be': R`\int 2x(x^2 + 1)^3\,dx = \int u^3\,du = \frac{u^4}{4} + C = \frac{(x^2 + 1)^4}{4} + C`,
   '5ecfawuidh': R`$$\int u\,dv = uv - \int v\,du$$<p>按<b>“反对幂三指”</b>选择 $u$：反三角函数、对数函数、幂函数（代数式）、三角函数、指数函数——排在前面的优先作 $u$。</p>`,
   'c0nz9m0n3d': R`<p>$\int x e^{2x}\,dx$：$u = x$，$dv = e^{2x}dx$，所以 $du = dx$，$v = \frac{1}{2}e^{2x}$。结果：$\frac{x}{2}e^{2x} - \int\frac{1}{2}e^{2x}\,dx = \frac{x}{2}e^{2x} - \frac{1}{4}e^{2x} + C$。</p>`,
@@ -139,14 +103,6 @@ addT('zh', {
   'lpjavqv13n': R`弹簧的劲度系数 $k = ⟦0⟧$ N/m。把它从自然长度拉长 ⟦1⟧ m 需要做多少功？`,
 
   // series
-  '1efhn95iov3': R`
-<p>如果无穷级数 $\sum a_n$ 的部分和 $S_N = a_1 + \cdots + a_N$ 趋于一个有限极限，就称它<b>收敛</b>。</p>
-⟦0⟧
-⟦1⟧
-<h3>幂级数与泰勒级数</h3>
-<p>幂级数 $\sum c_n (x - a)^n$ 在 $|x - a| \lt R$ 时收敛，$R$ 称为<b>收敛半径</b>（用比值判别法求）。$f$ 在 $a$ 处的泰勒级数是 $\sum \frac{f^{(n)}(a)}{n!}(x - a)^n$；在 0 处的称为麦克劳林级数。</p>
-⟦2⟧
-⟦3⟧`,
   '1fv7uha3bb4': R`判别法`,
   '1boy0ga8tbt': R`结论`,
   '7ih7yeq8ue': R`发散判别（通项）`,
@@ -200,19 +156,6 @@ addT('zh', {
   '262p4pwoflz': R`这是 $⟦0⟧$ 的标准展开式。`,
 
   // multivariable
-  'elrzs4craq': R`
-<p>对 $f(x, y)$，<b>偏导数</b> $f_x = \frac{\partial f}{\partial x}$ 是把 $y$ 看作常数、对 $x$ 求导（$f_y$ 反之）。对 $f = x^2y^3$：$f_x = 2xy^3$，$f_y = 3x^2y^2$。</p>
-<h3>梯度与方向导数</h3>
-⟦0⟧
-<h3>驻点：二阶导数判别法</h3>
-<p>在 $f_x = f_y = 0$ 的点处，令 $D = f_{xx}f_{yy} - f_{xy}^2$。</p>
-<ul><li>$D \gt 0$，$f_{xx} \gt 0$：极小值。 &nbsp; $D \gt 0$，$f_{xx} \lt 0$：极大值。</li><li>$D \lt 0$：鞍点。 &nbsp; $D = 0$：无法判定。</li></ul>
-<h3>二重积分</h3>
-<p>在矩形区域上逐个变量积分（富比尼定理）：$\displaystyle\int_0^2\!\!\int_0^3 xy\,dy\,dx = \int_0^2 \frac{9x}{2}\,dx = 9$。在极坐标下，$dA = r\,dr\,d\theta$。</p>
-<h3>拉格朗日乘数法</h3>
-<p>在约束 $g = c$ 下求 $f$ 的最值，解 $\nabla f = \lambda\nabla g$ 并联立约束条件。</p>
-⟦1⟧
-⟦2⟧`,
   '1lpi0dcmqpt': R`$$\nabla f = \left(f_x, f_y\right) \qquad D_{\mathbf{u}}f = \nabla f \cdot \mathbf{u} \quad (|\mathbf{u}| = 1)$$<p>$\nabla f$ 指向函数增长最快的方向；它的长度就是这个最大变化率。</p>`,
   'opu0v1dwpl': R`<p>在 $x + y = 10$ 下求 $f = xy$ 的最大值：$(y, x) = \lambda(1, 1)$ 得 $x = y = 5$，所以最大值为 25。</p>`,
   '83uqphqp8x': R`<p>用极坐标时，别忘了 $dA = r\,dr\,d\theta$ 中多出的因子 $r$。</p>`,
@@ -240,18 +183,6 @@ addT('zh', {
   'hl1el1t8oy': R`极坐标：$\int_0^{2\pi}\!\int_0^{⟦0⟧} r^2 \cdot r\,dr\,d\theta = 2\pi \cdot \frac{⟦1⟧^4}{4} = ⟦2⟧$。`,
 
   // ode
-  '29y4y4v6xas': R`
-<p><b>微分方程</b>把一个函数与它的导数联系起来。它的<b>阶</b>是出现的最高阶导数。<b>通解</b>含有任意常数；初始条件确定一个特解。</p>
-<h3>可分离变量方程</h3>
-⟦0⟧
-<p>特例：$\frac{dy}{dt} = ky$ 的解是 $y = y_0e^{kt}$——指数增长（$k \gt 0$）或衰减（$k \lt 0$）。半衰期为 $T$ 时，剩余量为 $N_0\left(\frac{1}{2}\right)^{t/T}$。</p>
-<h3>一阶线性方程</h3>
-⟦1⟧
-<h3>二阶常系数线性方程</h3>
-<p>对 $ay'' + by' + cy = 0$，设 $y = e^{rx}$，得到<b>特征方程</b> $ar^2 + br + c = 0$。</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'cqow3q58nr': R`<p>$\frac{dy}{dx} = 2xy$：分离变量，$\int\frac{dy}{y} = \int 2x\,dx$，所以 $\ln|y| = x^2 + C$，$y = Ae^{x^2}$。</p>`,
   '24caer7vpv9': R`<p>对 $y' + P(x)y = Q(x)$，乘以<b>积分因子</b> $\mu(x) = e^{\int P(x)\,dx}$。于是 $(\mu y)' = \mu Q$，所以 $y = \frac{1}{\mu}\int \mu Q\,dx$。</p>`,
   '2fhw42v6h9r': R`特征根`,

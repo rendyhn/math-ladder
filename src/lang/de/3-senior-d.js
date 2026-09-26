@@ -1,19 +1,6 @@
 /* Deutsch — Oberstufe (Kombinatorik → Logik) */
 addT('de', {
   // combinatorics
-  '205beb6gfix': R`
-⟦0⟧
-<h3>Permutationen/Variationen: Die Reihenfolge zählt</h3>
-⟦1⟧
-<p>Erster, zweiter und dritter Preis unter 10 Personen: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
-<ul><li>Anordnungen mit Wiederholung: $\frac{n!}{p!\,q!\cdots}$. „BANANA“ hat $\frac{6!}{3!\,2!} = 60$ Anordnungen.</li><li>Um einen runden Tisch: $(n - 1)!$ (Drehungen gelten als gleich).</li></ul>
-<h3>Kombinationen: Die Reihenfolge zählt nicht</h3>
-⟦2⟧
-<p>Ein Ausschuss aus 3 von 10 Personen: $\binom{10}{3} = 120$. Ein Ausschuss aus 2 Männern (von 5) und 3 Frauen (von 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
-<h3>Binomischer Lehrsatz</h3>
-⟦3⟧
-<p>Der Koeffizient von $x^2$ in $(x + 3)^5$ ist $\binom{5}{2}3^{3} = 270$.</p>
-⟦4⟧`,
   '1v1ul4mcyis': R`<p><b>Produktregel:</b> Gibt es für eine Wahl $m$ Möglichkeiten und für eine zweite $n$ Möglichkeiten, dann gibt es zusammen $m \times n$ Möglichkeiten.</p>`,
   'zol45txfa7': R`^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1`,
   '1mk1wwf7o0g': R`^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}`,
@@ -42,16 +29,6 @@ addT('de', {
   'g50ag8cs5t': R`$10 \times 9 \times \cdots$ (⟦0⟧ Faktoren) $= ⟦1⟧$.`,
 
   // probability-sh
-  '1uh8iajnkq0': R`
-⟦0⟧
-<h3>Mit und ohne Zurücklegen</h3>
-⟦1⟧
-<p>Baumdiagramme ordnen das: entlang der Äste multiplizieren (Pfadregel), über die Äste addieren (Summenregel).</p>
-<h3>„Mindestens einmal“</h3>
-<p>Nutze das Gegenereignis: $P(\text{mindestens eine Sechs in 3 Würfen}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
-<h3>Satz von Bayes</h3>
-⟦2⟧
-⟦3⟧`,
   '2e5fwx8zs1w': R`Formel`,
   '29i7n2pf82k': R`Gegenereignis`,
   '1q1cgu220ce': R`Unvereinbar`,
@@ -89,18 +66,6 @@ addT('de', {
   '29cd8gay3w4': R`Mit Zurücklegen sind die Züge unabhängig: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.`,
 
   // statistics-sh
-  '1xab92vueba': R`
-<h3>Quartile und Boxplots</h3>
-<p>Sortiere die Daten. Der Median $Q_2$ teilt sie in zwei Hälften; $Q_1$ ist der Median der unteren Hälfte, $Q_3$ der der oberen Hälfte (hier lassen wir den Median bei ungeradem $n$ aus beiden Hälften weg). Der <b>Interquartilsabstand</b> $\text{IQA} = Q_3 - Q_1$ misst die Streuung der mittleren 50 %.</p>
-⟦0⟧
-<h3>Varianz und Standardabweichung</h3>
-⟦1⟧
-⟦2⟧
-<h3>Klassierte Daten</h3>
-<p>Schätze den Mittelwert mit den Klassenmitten: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Daten transformieren</h3>
-⟦3⟧
-⟦4⟧`,
   'l167vch4m7': R`<p>Eine übliche Regel für Ausreißer: Werte unter $Q_1 - 1{,}5\,\text{IQA}$ oder über $Q_3 + 1{,}5\,\text{IQA}$.</p>`,
   '1i22g7xb1dd': R`\sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (Stichprobe)}`,
   '1c6crwakkdh': R`<p>Daten 2; 4; 4; 4; 5; 5; 7; 9: Mittelwert 5, quadrierte Abweichungen 9; 1; 1; 1; 0; 0; 4; 16 (Summe 32). Varianz der Grundgesamtheit $= \frac{32}{8} = 4$ und $\sigma = 2$.</p>`,
@@ -131,19 +96,6 @@ addT('de', {
   '111p9ug7ykx': R`Untere Grenze $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.`,
 
   // conics
-  '12p1gvv8rrs': R`
-⟦0⟧
-<h3>Kreisgleichung</h3>
-⟦1⟧
-<p>Ausmultipliziert ergibt sich die <b>allgemeine Form</b> $x^2 + y^2 + Dx + Ey + F = 0$ mit dem Mittelpunkt $\left(-\frac{D}{2}; -\frac{E}{2}\right)$ und dem Radius $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
-⟦2⟧
-<h3>Lage eines Punktes</h3>
-<p>Setze den Punkt in $(x - a)^2 + (y - b)^2$ ein und vergleiche mit $r^2$: kleiner → innerhalb, gleich → auf dem Kreis, größer → außerhalb.</p>
-<h3>Tangenten</h3>
-<p>Eine Tangente steht im Berührpunkt senkrecht auf dem Radius. Beim Kreis $x^2 + y^2 = r^2$ im Punkt $(x_1; y_1)$ hat der Radius die Steigung $\frac{y_1}{x_1}$, also hat die Tangente die Steigung $-\frac{x_1}{y_1}$.</p>
-<h3>Parabeln</h3>
-<p>$y^2 = 4px$ hat den Brennpunkt $(p; 0)$ und die Leitgerade $x = -p$; $x^2 = 4py$ hat den Brennpunkt $(0; p)$ und die Leitgerade $y = -p$. Jeder Punkt einer Parabel ist vom Brennpunkt genauso weit entfernt wie von der Leitgeraden.</p>
-⟦3⟧`,
   'd8g3n0gso0': R`\text{Mittelpunkt } \left(\frac{x_1 + x_2}{2}; \frac{y_1 + y_2}{2}\right) \qquad \text{Abstand } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}`,
   'yeziymovo4': R`$$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{Mittelpunkt } (a; b), \text{ Radius } r$$`,
   '16n3xjnynm7': R`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$: quadratisch ergänzen, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Mittelpunkt $(3; -2)$, Radius 5.</p>`,
@@ -172,13 +124,6 @@ addT('de', {
   '1huwumypuyf': R`Der Radius zu $⟦0⟧$ hat die Steigung $\frac{⟦1⟧}{⟦2⟧}$. Die Tangente steht senkrecht darauf: Steigung $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.`,
 
   // linear-programming
-  '23l7ef2fdyh': R`
-<p><b>Lineare Optimierung</b> sucht den besten (größten oder kleinsten) Wert einer linearen <b>Zielfunktion</b>, etwa des Gewinns $z = 30x + 20y$, unter linearen <b>Nebenbedingungen</b> wie $x + y \le 40$.</p>
-<ol><li>Schreibe die Nebenbedingungen als Ungleichungen (mit $x \ge 0$, $y \ge 0$).</li><li>Zeichne jede Randgerade und markiere den Bereich, der alle Bedingungen erfüllt — den <b>zulässigen Bereich</b>.</li><li>Bestimme die Eckpunkte, indem du Paare von Randgleichungen löst.</li><li>Werte die Zielfunktion in jedem Eckpunkt aus.</li></ol>
-⟦0⟧
-⟦1⟧
-<p>Bei Minimierungsaufgaben mit „≥“-Bedingungen ist der Bereich oft unbeschränkt; bei positiven Kosten liegt das Minimum trotzdem in einer Ecke.</p>
-⟦2⟧`,
   'hs1573xprv': R`<p><b>Eckpunktsatz:</b> Wenn ein Optimum existiert, wird es in einer Ecke des zulässigen Bereichs angenommen.</p>`,
   '1g8qhbmqb9w': R`<p>Maximiere $z = 3x + 2y$ unter $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Ecken: $(0; 0)$, $(6; 0)$, $(4; 4)$ [Schnitt von $x + y = 8$ und $2x + y = 12$], $(0; 8)$.</p><p>Werte von $z$: 0; 18; 20; 16. Maximum $z = 20$ in $(4; 4)$.</p>`,
   '11p3z90h4pd': R`<p>Prüfe, ob jede Ecke <b>alle</b> Bedingungen erfüllt — ein Schnittpunkt zweier Randgeraden kann außerhalb des Bereichs liegen.</p>`,
@@ -192,17 +137,6 @@ addT('de', {
   '296rrmt4h4q': R`Bedingungen: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Ecken: ⟦3⟧. Maximaler Gewinn: <b>⟦4⟧</b> Euro.`,
 
   // logic
-  '22xng4phovn': R`
-<p>Eine <b>Aussage</b> ist ein Satz, der entweder wahr oder falsch ist. Zusammengesetzte Aussagen entstehen mit <b>Junktoren</b>:</p>
-⟦0⟧
-⟦1⟧
-<h3>Verwandte Implikationen</h3>
-⟦2⟧
-<h3>Quantoren</h3>
-<p>$\forall$ „für alle“ und $\exists$ „es gibt“. Die Verneinung vertauscht sie: Die Verneinung von „Alle Schüler haben bestanden“ ist „<b>Einige</b> Schüler haben <b>nicht</b> bestanden“; die Verneinung von „Einige Vögel können nicht fliegen“ ist „Alle Vögel können fliegen“.</p>
-<h3>Gültige Schlüsse</h3>
-<ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; also $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; also $\neg p$.</li><li><b>Kettenschluss:</b> $p \Rightarrow q$, $q \Rightarrow r$; also $p \Rightarrow r$.</li></ul>
-⟦3⟧`,
   '2aa32u1lmw9': R`WF`,
   '1h0id2d836q': R`<p>Eine Implikation $p \Rightarrow q$ ist <b>nur</b> dann falsch, wenn $p$ wahr und $q$ falsch ist.</p>`,
   '2aojok6ubm7': R`Form`,

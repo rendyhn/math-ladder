@@ -13,6 +13,26 @@ const shapesSvg = () => `<svg viewBox="0 0 520 150" role="img" aria-label="${T`A
 <text class="fig-text" x="445" y="22" text-anchor="middle">a</text><text class="fig-text" x="445" y="132" text-anchor="middle">b</text><text class="fig-text" x="447" y="80">h</text>
 </svg>`;
 
+const lShapeSvg = () => {   // an L-shape split into two rectangles
+  const u = 22, x0 = 40, y0 = 16, P = (x, y) => [x0 + x * u, y0 + (8 - y) * u];
+  let s = svgBox(320, 8 * u + 50, T`An L-shaped figure split by a dashed line into a 4 by 8 rectangle A and a 6 by 4 rectangle B`);
+  s += sPoly([P(0, 0), P(4, 0), P(4, 8), P(0, 8)], 'mf-s1l', ' stroke-width="1.8"') + sPoly([P(4, 0), P(10, 0), P(10, 4), P(4, 4)], 'mf-s2l', ' stroke-width="1.8"');
+  s += sL(...P(4, 0), ...P(4, 4), 'mf-line', ' stroke-dasharray="6 4" stroke-width="2"');
+  s += sT(...P(2, 4.2), 'A = 4 × 8 = 32', 'mf-lab-b') + sT(...P(7, 2.2), 'B = 6 × 4 = 24', 'mf-lab-b');
+  s += sT(...P(5, -0.9), '10', 'mf-var') + sT(P(0, 4)[0] - 8, P(0, 4)[1] + 5, '8', 'mf-var', 'end') + sT(...P(2, 8.3), '4', 'mf-var') + sT(P(10, 2)[0] + 8, P(10, 2)[1] + 5, '4', 'mf-var', 'start');
+  return s + '</svg>';
+};
+const polyTriSvg = ns => {   // polygons cut into triangles from one corner
+  const cw = 130, W = ns.length * cw;
+  let s = svgBox(W, 150, T`A quadrilateral, a pentagon and a hexagon, each cut into triangles by diagonals from one corner`);
+  ns.forEach((n, i) => {
+    const cx = i * cw + cw / 2, cy = 60, r = 48, pts = [...Array(n)].map((_, k) => [cx + r * Math.cos(Math.PI / 2 + 2 * Math.PI * k / n + (n % 2 ? 0 : Math.PI / n)), cy + r * Math.sin(Math.PI / 2 + 2 * Math.PI * k / n + (n % 2 ? 0 : Math.PI / n))]);
+    for (let k = 1; k < n - 1; k++) s += sPoly([pts[0], pts[k], pts[k + 1]], ['mf-s1l', 'mf-s2l', 'mf-s3l', 'mf-s4l'][(k - 1) % 4], ' stroke-width="1.6"');
+    s += sC(...pts[0], 4, 'mf-dot') + sT(cx, 136, T`${n} sides → ${n - 2} triangles`, 'mf-small');
+  });
+  return s + '</svg>';
+};
+
 level({
   id: 'elementary', name: 'Elementary School', short: 'Elementary', band: 'Grades 1–6', color: 'lv1',
   blurb: 'Number sense, the four operations, fractions, decimals, percentages, measurement and first geometry.',
@@ -28,12 +48,14 @@ ${Tbl([T`Millions`, T`Hundred thousands`, T`Ten thousands`, T`Thousands`, T`Hund
 <h3>Expanded form</h3>
 <p>Writing a number as the sum of its place values shows what each digit is worth:</p>
 ${Fm(T`4{,}307 = 4{,}000 + 300 + 7`)}
+${Fig(placeChartSvg([T`Thousands`, T`Hundreds`, T`Tens`, T`Ones`], ['4', '3', '0', '7'], { label: T`Place value chart of 4,307`, values: [F(4000), F(300), '0', '7'], hl: 2 }), T`Each column is worth ten times the column on its right. The 0 keeps the tens column empty so the 4 stays in the thousands.`)}
 <p>The 0 in the tens place is a <b>placeholder</b>. Without it, 4,307 would collapse into 437.</p>
 <h3>Comparing numbers</h3>
 <p>A whole number with more digits is larger. If two numbers have the same number of digits, compare them digit by digit from the left; the first place where they differ decides. So $52{,}814 \gt 52{,}781$ because in the hundreds place $8 \gt 7$.</p>
 <h3>Rounding</h3>
 ${Key(T`<p>To round to a place, look at the digit <b>one place to its right</b>.</p><ul><li>5 or more: round <b>up</b> (add one to the rounding digit).</li><li>4 or less: round <b>down</b> (keep the rounding digit).</li></ul><p>Every digit after the rounding place becomes 0.</p>`)}
 ${Ex(T`<p>Round 3,462 to the nearest hundred.</p><ol><li>The hundreds digit is 4. The digit to its right (tens) is 6.</li><li>6 is 5 or more, so round up: the 4 becomes 5.</li><li>Answer: <b>3,500</b>.</li></ol><p>To the nearest ten, 3,462 is 3,460; to the nearest thousand it is 3,000.</p>`)}
+${Fig(numberLineSvg({ min: 3400, max: 3500, step: 10, labelEvery: 50, marks: [{ v: 3462, label: F(3462) }, { v: 3450, label: T`halfway`, cls: 'mf-s4', below: true }], H: 104, label: T`Number line from 3,400 to 3,500 with 3,462 marked past the halfway point 3,450` }), T`3,462 lies past the halfway mark 3,450, so it is closer to 3,500 than to 3,400.`)}
 ${Tip(T`<p>Only look at the next digit. 3,449 rounds to 3,400 (nearest hundred), not 3,500 — never round in stages.</p>`)}`,
   gens: [
     () => {
@@ -81,12 +103,15 @@ ${Tip(T`<p>Only look at the next digit. 3,449 rounds to 3,400 (nearest hundred),
 <h3>Adding with carrying</h3>
 <p>When a column adds up to 10 or more, write the ones digit and <b>carry</b> the ten into the next column.</p>
 ${Ex(T`<p>$4{,}587 + 2{,}846$</p><ol><li>Ones: $7 + 6 = 13$ → write 3, carry 1.</li><li>Tens: $8 + 4 + 1 = 13$ → write 3, carry 1.</li><li>Hundreds: $5 + 8 + 1 = 14$ → write 4, carry 1.</li><li>Thousands: $4 + 2 + 1 = 7$.</li></ol><p>Answer: <b>7,433</b>.</p>`)}
+${Fig(columnSvg(4587, 2846, '+', { label: T`Column addition of 4,587 and 2,846 with the carried ones shown above` }), T`The small 1s are the carries: each column that reaches 10 or more passes a ten to the column on its left.`)}
 <h3>Subtracting with borrowing</h3>
 <p>If the top digit in a column is smaller than the bottom digit, <b>borrow</b> (regroup) one from the next column: that adds 10 to the current column.</p>
 ${Ex(T`<p>$6{,}204 - 1{,}758$</p><ol><li>Ones: 4 is less than 8. The tens digit is 0, so borrow from the hundreds: 204 becomes 1 hundred, 9 tens, 14 ones. $14 - 8 = 6$.</li><li>Tens: $9 - 5 = 4$.</li><li>Hundreds: 1 is less than 7, so borrow a thousand: $11 - 7 = 4$.</li><li>Thousands: $5 - 1 = 4$.</li></ol><p>Answer: <b>4,446</b>.</p>`)}
+${Fig(columnSvg(6204, 1758, '-', { label: T`Column subtraction of 1,758 from 6,204 with borrowed tens marked` }), T`"+10" marks each column that had to borrow from its left neighbour.`)}
 ${Key(T`<p>Addition and subtraction undo each other. Check a subtraction by adding: $4{,}446 + 1{,}758 = 6{,}204$ ✓. This also finds missing numbers: if $\square + 348 = 1{,}000$, then $\square = 1{,}000 - 348 = 652$.</p>`)}
 <h3>Word problems</h3>
 <p>Words like <i>altogether, total, more, increased</i> usually mean add. Words like <i>left, remain, difference, how many more, fewer</i> usually mean subtract. Always ask what the question really wants.</p>
+${Fig(barModelSvg([[F(1758), 1758, 'mf-s2l'], ['?', 4446, 'mf-cell']], { label: T`Bar model: a whole of 6,204 split into a known part 1,758 and an unknown part`, top: F(6204) }), T`A bar model: the whole is split into two parts. Missing part = whole − known part.`)}
 ${Tip(T`<p>A common error is subtracting the smaller digit from the larger in every column (e.g. writing $52 - 38 = 26$). Borrow instead: $52 - 38 = 14$.</p>`)}`,
   gens: [
     () => { const a = ri(1000, 9999), b = ri(100, 9999); return { q: T`Calculate $${M(a)} + ${M(b)}$.`, a: a + b, w: [a + b - 10, a + b + 10, a + b - 100, a + b + 100], s: T`Line up the digits by place value and add from the ones column, carrying whenever a column reaches 10 or more: $${M(a)} + ${M(b)} = ${M(a + b)}$.` }; },
@@ -102,13 +127,16 @@ ${Tip(T`<p>A common error is subtracting the smaller digit from the larger in ev
   blurb: 'Times tables, multi-digit multiplication, division with and without remainders.',
   lesson: () => T`
 <p><b>Multiplication</b> is repeated addition of equal groups: $4 \times 6$ means 4 groups of 6, which is $6 + 6 + 6 + 6 = 24$. <b>Division</b> splits an amount into equal groups: $24 \div 6 = 4$.</p>
+${Fig(gridSvg(4, 6, 24, { dots: true, cell: 30, label: T`An array of 4 rows with 6 dots in each row`, caption: '4 × 6 = 24' }), T`An array: 4 rows of 6. Read it by columns and you see 6 rows of 4 — the same 24 dots.`)}
 ${Key(T`<p>Multiplication and division undo each other: $4 \times 6 = 24 \iff 24 \div 6 = 4$.</p><ul><li>Order doesn't matter in multiplication: $a \times b = b \times a$.</li><li>Multiplication spreads over addition: $a \times (b + c) = a \times b + a \times c$.</li></ul>`)}
 <h3>Multiplying bigger numbers</h3>
 <p>Split one number into place values, multiply each part, and add (this is the distributive law at work):</p>
 ${Fm(T`347 \times 26 = 347 \times 20 + 347 \times 6 = 6{,}940 + 2{,}082 = 9{,}022`)}
+${Fig(areaModelSvg([['300', 3], ['40', 2], ['7', 1]], [['20', 2], ['6', 1]], { label: T`Area model for 347 times 26`, cells: [[F(6000), F(800), '140'], [F(1800), '240', '42']], total: `${F(6000)} + 800 + 140 + ${F(1800)} + 240 + 42 = ${F(9022)}` }), T`The area model: split 347 and 26 into place values, multiply each pair, then add all the pieces.`)}
 <h3>Division and remainders</h3>
 <p>When a number does not divide exactly, the amount left over is the <b>remainder</b>. It is always smaller than the divisor.</p>
 ${Fm(T`47 \div 5 = 9 \text{ remainder } 2 \qquad \text{because } 5 \times 9 + 2 = 47`)}
+${Fig(gridSvg(5, 10, (r, c) => c < 9 ? 'mf-s1' : c === 9 && r < 2 ? 'mf-s4' : false, { dots: true, cell: 26, label: T`47 dots arranged in 9 full columns of 5 and 2 left over`, caption: T`9 groups of 5, remainder 2` }), T`47 counters in groups of 5: nine full groups and 2 left over.`)}
 ${Ex(T`<p>150 students go on a trip. Each bus holds 40 students. How many buses are needed?</p><p>$150 \div 40 = 3$ remainder 30. Three buses carry 120 students; the other 30 still need a bus, so <b>4 buses</b> are needed.</p>`)}
 ${Tip(T`<p>In word problems, decide what the remainder means. "How many buses are <i>needed</i>" rounds up; "how many boxes can be <i>completely filled</i>" rounds down.</p>`)}`,
   gens: [
@@ -137,6 +165,7 @@ ${Tbl([T`Step`, T`Operation`, T`Example`], [['1', T`Brackets / Parentheses`, T`$
 ${Key(T`<p>Multiplication and division have <b>equal</b> priority, and so do addition and subtraction. Within the same level, work from <b>left to right</b>.</p>`)}
 ${Ex(T`<p>Evaluate $20 - 8 \div 2 \times 3 + 1$.</p><ol><li>Division and multiplication first, left to right: $8 \div 2 = 4$, then $4 \times 3 = 12$.</li><li>Now $20 - 12 + 1$, left to right: $8 + 1 = 9$.</li></ol><p>Answer: <b>9</b>.</p>`)}
 ${Ex(T`<p>Evaluate $(8 + 4) \times 3 - 2^3$.</p><ol><li>Brackets: $8 + 4 = 12$.</li><li>Powers: $2^3 = 8$.</li><li>Multiply: $12 \times 3 = 36$.</li><li>Subtract: $36 - 8 = 28$.</li></ol>`)}
+${Fig(flowSvg(['(8 + 4) × 3 − 2³', '12 × 3 − 2³', '12 × 3 − 8', '36 − 8', '28'], { W: 360, label: T`Step-by-step simplification of (8 + 4) × 3 − 2³` }), T`One step at a time: brackets, then powers, then multiplication, then subtraction.`)}
 ${Tip(T`<p>"PEMDAS" does not mean multiplication before division. $12 \div 3 \times 2 = 8$, not $12 \div 6 = 2$.</p>`)}`,
   gens: [
     () => { const a = ri(2, 20), b = ri(2, 9), c = ri(2, 9); return { q: T`Evaluate $${a} + ${b} \times ${c}$.`, a: a + b * c, w: [(a + b) * c, a * b + c, a + b + c], s: T`Multiply first: $${b} \times ${c} = ${b * c}$. Then add: $${a} + ${b * c} = ${a + b * c}$.` }; },
@@ -154,15 +183,18 @@ ${Tip(T`<p>"PEMDAS" does not mean multiplication before division. $12 \div 3 \ti
   lesson: () => T`
 <p>A <b>factor</b> of a number divides it exactly. A <b>multiple</b> of a number is that number times a whole number.</p>
 <ul><li>Factors of 12: 1, 2, 3, 4, 6, 12 (they come in pairs: $1 \times 12$, $2 \times 6$, $3 \times 4$).</li><li>Multiples of 12: 12, 24, 36, 48, …</li></ul>
+${FigRow([[gridSvg(1, 12, 12, { cell: 18, label: T`1 by 12 rectangle` }), '1 × 12'], [gridSvg(2, 6, 12, { cell: 18, cls: 'mf-s2', label: T`2 by 6 rectangle` }), '2 × 6'], [gridSvg(3, 4, 12, { cell: 18, cls: 'mf-s3', label: T`3 by 4 rectangle` }), '3 × 4']], T`12 squares can be arranged into exactly three different rectangles, one for each factor pair.`)}
 <h3>Prime and composite numbers</h3>
 <p>A <b>prime</b> number has exactly two factors: 1 and itself (2, 3, 5, 7, 11, 13, …). A <b>composite</b> number has more than two factors. The number 1 is neither prime nor composite, and 2 is the only even prime.</p>
 ${Tbl([T`Divisible by`, T`Rule`], [['2', T`last digit is even`], ['3', T`digit sum is divisible by 3`], ['4', T`last two digits form a multiple of 4`], ['5', T`last digit is 0 or 5`], ['6', T`divisible by both 2 and 3`], ['9', T`digit sum is divisible by 9`], ['10', T`last digit is 0`]])}
 <h3>Prime factorization</h3>
 <p>Every whole number greater than 1 can be written as a product of primes in exactly one way. Use a factor tree: keep splitting until every branch ends in a prime.</p>
 ${Fm(T`360 = 36 \times 10 = (4 \times 9) \times (2 \times 5) = 2^3 \times 3^2 \times 5`)}
+${Fig(factorTreeSvg(360, { label: T`Factor tree of 360` }), T`A factor tree for 360: the circled numbers are primes, so $360 = 2^3 \times 3^2 \times 5$.`)}
 <h3>GCF and LCM</h3>
 ${Key(T`<p>The <b>greatest common factor</b> (GCF, also called HCF or GCD) is the largest number dividing both numbers. The <b>least common multiple</b> (LCM) is the smallest number both divide into.</p><p>Using prime factorizations: the GCF takes each shared prime with its <b>smallest</b> power; the LCM takes every prime with its <b>largest</b> power.</p>`)}
 ${Ex(T`<p>$24 = 2^3 \times 3$ and $36 = 2^2 \times 3^2$.</p><p>GCF $= 2^2 \times 3 = 12$. &nbsp; LCM $= 2^3 \times 3^2 = 72$.</p><p>Check: $\text{GCF} \times \text{LCM} = 12 \times 72 = 864 = 24 \times 36$ ✓ (this is always true for two numbers).</p>`)}
+${Fig(venn2Svg({ a: '24', b: '36', texts: { a: '2', ab: '2 · 2 · 3', b: '3' }, label: T`Venn diagram of the prime factors of 24 and 36` }), T`Shared primes sit in the overlap. GCF = product of the overlap = 12; LCM = product of everything = 72.`)}
 ${Tip(T`<p>GCF problems are about <i>splitting into equal groups</i> (the largest group size). LCM problems are about <i>things happening together again</i> (the first time cycles line up).</p>`)}`,
   gens: [
     () => { const g = ri(2, 12); let m, n; do { m = ri(2, 9); n = ri(2, 9); } while (m === n || gcd(m, n) !== 1); const a = g * m, b = g * n; return { q: T`What is the greatest common factor (GCF) of ${a} and ${b}?`, a: g, w: [lcm(a, b), g * 2, Math.min(m, n), Math.min(a, b)], s: T`Factors of ${a}: ${divisors(a).join(LS())}.<br>Factors of ${b}: ${divisors(b).join(LS())}.<br>The largest factor they share is <b>${g}</b>.` }; },
@@ -189,20 +221,25 @@ ${Tip(T`<p>GCF problems are about <i>splitting into equal groups</i> (the larges
   blurb: 'Equivalent fractions, simplifying, comparing, mixed numbers and all four operations.',
   lesson: () => T`
 <p>A <b>fraction</b> $\frac{a}{b}$ means $a$ parts out of $b$ equal parts. The top number is the <b>numerator</b>; the bottom number is the <b>denominator</b>.</p>
+${Fig(piesSvg([[3, 4, '3/4'], [5, 8, '5/8'], [2, 3, '2/3']], { label: T`Circles shaded to show three quarters, five eighths and two thirds` }), T`The denominator says how many equal parts the whole is cut into; the numerator says how many are shaded.`)}
 <h3>Equivalent fractions and simplest form</h3>
 <p>Multiplying or dividing the numerator and the denominator by the same number gives an equal fraction: $\frac{2}{3} = \frac{4}{6} = \frac{10}{15}$. To <b>simplify</b>, divide both by their GCF:</p>
+${Fig(fracBarsSvg([[2, 3, '2/3'], [4, 6, '4/6'], [10, 15, '10/15']], { label: T`Fraction bars showing that 2/3, 4/6 and 10/15 cover the same length` }), T`Equivalent fractions cover the same length — the parts are just cut finer.`)}
 ${Fm(T`\frac{18}{24} = \frac{18 \div 6}{24 \div 6} = \frac{3}{4}`)}
 <h3>Mixed numbers</h3>
 <p>$2\frac{1}{3}$ means $2 + \frac{1}{3}$. As an improper fraction: $2\frac{1}{3} = \frac{2 \times 3 + 1}{3} = \frac{7}{3}$.</p>
+${Fig(piesSvg([[3, 3, '1'], [3, 3, '1'], [1, 3, '1/3']], { r: 36, label: T`Two whole circles cut into thirds and one third of a circle` }), T`$2\frac{1}{3}$ is 2 wholes and 1 third; counting thirds gives $3 + 3 + 1 = 7$ thirds.`)}
 <h3>Adding and subtracting</h3>
 ${Key(T`<p>You can only add or subtract fractions with the <b>same denominator</b>. Rewrite them over a common denominator (the LCM of the denominators), then add or subtract the numerators.</p>`)}
 ${Ex(T`<p>$\frac{2}{3} + \frac{3}{4} = \frac{8}{12} + \frac{9}{12} = \frac{17}{12} = 1\frac{5}{12}$</p>`)}
+${Fig(fracBarsSvg([[8, 12, '2/3'], [9, 12, '3/4']], { label: T`Fraction bars in twelfths: 2/3 is 8 twelfths and 3/4 is 9 twelfths` }), T`Cut both bars into twelfths: $\frac{2}{3} = \frac{8}{12}$ and $\frac{3}{4} = \frac{9}{12}$, so together they make $\frac{17}{12}$.`)}
 <h3>Multiplying and dividing</h3>
 ${Fm(T`\frac{a}{b} \times \frac{c}{d} = \frac{ac}{bd} \qquad\qquad \frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c}`)}
 <p>To divide, <b>keep</b> the first fraction, <b>change</b> ÷ to ×, and <b>flip</b> the second fraction.</p>
 ${Ex(T`<p>$\frac{3}{5} \div \frac{9}{10} = \frac{3}{5} \times \frac{10}{9} = \frac{30}{45} = \frac{2}{3}$</p>`)}
 <h3>Fraction of an amount</h3>
 <p>Divide by the denominator, then multiply by the numerator: $\frac{3}{8}$ of $40 = (40 \div 8) \times 3 = 15$.</p>
+${Fig(barModelSvg([...Array(8)].map((_, i) => ['5', 1, i < 3 ? 'mf-s1l' : 'mf-cell']), { top: '40', label: T`A bar of 40 cut into 8 equal parts of 5 with 3 parts shaded` }), T`40 split into 8 equal parts is 5 each; 3 parts make 15.`)}
 ${Tip(T`<p>Never add the denominators: $\frac{1}{2} + \frac{1}{3}$ is $\frac{5}{6}$, not $\frac{2}{5}$.</p>`)}`,
   gens: [
     () => { const [n, d] = properFrac(3, 12), k = ri(2, 9), N = n * k, D = d * k; const pf = [2, 3, 5, 7].find(p => k % p === 0 && k !== p); return { q: T`Write $\frac{${N}}{${D}}$ in simplest form.`, a: fx(n, d), alt: [`${n}/${d}`], h: T`Type a fraction such as 3/4.`, w: [pf ? rawF(N / pf, D / pf) : fx(n, d + 1), n > 1 ? rawF(d, n) : `$${d}$`, fx(n + 1, d + 1)], s: T`The GCF of ${N} and ${D} is ${k}. Divide both by ${k}: $\frac{${N} \div ${k}}{${D} \div ${k}} = \frac{${n}}{${d}}$.` }; },
@@ -223,8 +260,10 @@ ${Tip(T`<p>Never add the denominators: $\frac{1}{2} + \frac{1}{3}$ is $\frac{5}{
 <p>Decimals extend place value to the right of the ones place. Each place is one tenth of the place to its left.</p>
 ${Tbl([T`Tens`, T`Ones`, I18N.conf.dec, T`Tenths`, T`Hundredths`, T`Thousandths`], [['4', '7', I18N.conf.dec, '3', '0', '5']])}
 <p>So $47.305 = 40 + 7 + \frac{3}{10} + \frac{0}{100} + \frac{5}{1000}$.</p>
+${Fig(gridSvg(10, 10, (r, c) => c < 4 ? 'mf-s1' : c === 4 && r < 5 ? 'mf-s2' : false, { cell: 20, label: T`A hundred grid with 4 columns and 5 more squares shaded`, caption: `${F(0.45)} = 4 ${T`tenths`} + 5 ${T`hundredths`}` }), T`One whole cut into 100 squares: each column is a tenth, each small square a hundredth.`)}
 <h3>Comparing decimals</h3>
 <p>Give the numbers the same number of decimal places by adding zeros, then compare: $0.5 = 0.50 \gt 0.45$. A longer decimal is not necessarily larger!</p>
+${Fig(numberLineSvg({ min: 0.3, max: 0.6, step: 0.01, labelEvery: 0.05, marks: [{ v: 0.45, label: F(0.45), cls: 'mf-s2' }, { v: 0.5, label: F(0.5) }], label: T`Number line from 0.3 to 0.6 with 0.45 just to the left of 0.5` }), T`On the number line 0.45 is to the left of 0.5, so it is smaller.`)}
 <h3>Adding and subtracting</h3>
 ${Key(T`<p>Line up the <b>decimal points</b>, fill empty places with zeros, then add or subtract as with whole numbers.</p>`)}
 ${Ex(T`<p>$12.7 + 3.45$: write $12.70 + 3.45 = 16.15$.</p>`)}
@@ -251,12 +290,14 @@ ${Tip(T`<p>$\frac{3}{4}$ is 0.75, not 3.4. The fraction bar means divide.</p>`)}
   blurb: 'Percent of an amount, converting between forms, discounts and percentage change.',
   lesson: () => T`
 <p><b>Percent</b> means "out of 100": $35\% = \frac{35}{100} = 0.35$.</p>
+${Fig(gridSvg(10, 10, 35, { cell: 20, label: T`A hundred grid with 35 squares shaded`, caption: `35% = 35/100 = ${F(0.35)}` }), T`35 of the 100 squares are shaded: 35 percent.`)}
 ${Tbl([T`Fraction`, T`Decimal`, T`Percent`], [[T`$\frac{1}{2}$`, F(0.5), '50%'], [T`$\frac{1}{4}$`, F(0.25), '25%'], [T`$\frac{3}{4}$`, F(0.75), '75%'], [T`$\frac{1}{5}$`, F(0.2), '20%'], [T`$\frac{1}{10}$`, F(0.1), '10%'], [T`$\frac{1}{8}$`, F(0.125), F(12.5) + '%']])}
 <h3>The three basic questions</h3>
 ${Key(T`<ul><li><b>Percent of an amount:</b> $p\% \text{ of } N = \frac{p}{100} \times N$.</li><li><b>What percent is $a$ of $b$?</b> $\frac{a}{b} \times 100\%$.</li><li><b>Percentage change:</b> $\frac{\text{change}}{\text{original}} \times 100\%$.</li></ul>`)}
 ${Ex(T`<p>$15\%$ of $240 = 0.15 \times 240 = 36$. &nbsp; Mental shortcut: $10\% = 24$, $5\% = 12$, total $36$.</p>`)}
 <h3>Increase, decrease and discounts</h3>
 <p>A $20\%$ discount on 80 dollars saves $0.2 \times 80 = 16$ dollars, so the sale price is $80 - 16 = 64$ dollars. Faster: pay $80\%$ of the price, $0.8 \times 80 = 64$.</p>
+${Fig(barModelSvg([[T`pay 16`, 1, 'mf-s1l'], [T`pay 16`, 1, 'mf-s1l'], [T`pay 16`, 1, 'mf-s1l'], [T`pay 16`, 1, 'mf-s1l'], [T`save 16`, 1, 'mf-s4l']], { top: T`80 dollars = 100%`, bottom: T`each part is 20% = 16 dollars`, label: T`Bar model: 80 dollars split into five 20 percent parts, four paid and one saved` }), T`A 20% discount: cut the price into five 20% parts; you save one part and pay the other four (80%).`)}
 <p>An increase of $p\%$ multiplies by $1 + \frac{p}{100}$; a decrease multiplies by $1 - \frac{p}{100}$.</p>
 ${Tip(T`<p>Percentage change always divides by the <b>original</b> value. A price rising from 50 to 60 is a $\frac{10}{50} = 20\%$ increase, not $\frac{10}{60}$.</p>`)}`,
   gens: [
@@ -277,9 +318,11 @@ ${Tip(T`<p>Percentage change always divides by the <b>original</b> value. A pric
 ${Tbl([T`Prefix`, T`Meaning`, T`Examples`], [[T`kilo- (k)`, F(1000) + ' ×', un('km, kg')], [T`centi- (c)`, T`$\frac{1}{100}$`, un('cm')], [T`milli- (m)`, T`$\frac{1}{1000}$`, un('mm, mg, mL')]])}
 ${Tbl([T`Quantity`, T`Conversions`], [[T`Length`, un('1 km = ' + F(1000) + ' m · 1 m = 100 cm · 1 cm = 10 mm')], [T`Mass`, T`1 t (tonne) = 1,000 kg · 1 kg = 1,000 g`], [T`Capacity`, un('1 L = ' + F(1000) + ' mL')], [T`Time`, T`1 min = 60 s · 1 h = 60 min · 1 day = 24 h · 1 week = 7 days`]])}
 ${Key(T`<p>Going from a <b>bigger</b> unit to a <b>smaller</b> unit, you need more of them — <b>multiply</b>. Going from smaller to bigger — <b>divide</b>.</p>`)}
+${FigW(stepsSvg(['km', 'hm', 'dam', 'm', 'dm', 'cm', 'mm'], { W: 520, arrowText: '× 10', label: T`Staircase of length units from kilometre down to millimetre` }), T`Each step down the metric staircase multiplies by 10; each step up divides by 10. From km to m is three steps: × 1,000.`)}
 ${Ex(T`<p>$3.5 \text{ km} = 3.5 \times 1000 = 3{,}500 \text{ m}$. &nbsp; $2{,}750 \text{ g} = 2{,}750 \div 1000 = 2.75 \text{ kg}$.</p>`)}
 <h3>Time</h3>
 <p>Time is <i>not</i> decimal: an hour has 60 minutes, not 100. To find elapsed time, count on in steps: from 09:35 to 13:10 is 25 min (to 10:00) + 3 h (to 13:00) + 10 min = 3 h 35 min = 215 minutes.</p>
+${Fig(numberLineSvg({ min: 0, max: 5, step: 5, ticks: false, H: 110, y: 58, jumps: [{ from: 0, to: 1, label: '25 min' }, { from: 1, to: 4, label: '3 h', cls: 'mf-c1' }, { from: 4, to: 5, label: '10 min', cls: 'mf-c3' }], marks: [{ v: 0, label: '09:35', below: true }, { v: 1, label: '10:00', below: true }, { v: 4, label: '13:00', below: true }, { v: 5, label: '13:10', below: true }], label: T`Time line counting on from 09:35 to 13:10` }), T`Count on to the next whole hour, then in whole hours, then the minutes left (not to scale).`)}
 ${Tip(T`<p>Don't subtract times like ordinary numbers: $13{:}10 - 9{:}35$ is not $1310 - 935 = 375$ minutes.</p>`)}`,
   gens: [
     () => { const [big, small, f] = pick([['km', 'm', 1000], ['m', 'cm', 100], ['cm', 'mm', 10], ['m', 'mm', 1000], ['kg', 'g', 1000], ['L', 'mL', 1000], ['t', 'kg', 1000]]); const down = chance(); let v, a; if (down) { v = chance() ? ri(2, 60) : ri(12, 95) / 10; a = rnd(v * f, 4); } else { v = ri(5, 9999); a = v / f; } const from = down ? big : small, to = down ? small : big; return { q: T`Convert ${F(v)} ${un(from)} to ${un(to)}.`, a, u: to, w: [down ? v / f : v * f, down ? v * f * 10 : v / (f * 10), down ? (v * f) / 10 : (v * 10) / f], s: T`1 ${un(big)} = ${F(f)} ${un(small)}. ${down ? T`Bigger to smaller unit, so multiply: $${M(v)} \times ${M(f)} = ${M(a)}$` : T`Smaller to bigger unit, so divide: $${M(v)} \div ${M(f)} = ${M(a)}$`} ${un(to)}.` }; },
@@ -300,6 +343,8 @@ ${Key(T`<p>A triangle is half of a rectangle (or parallelogram) with the same ba
 ${Ex(T`<p>A rectangle is 12 m by 5 m. Perimeter $= 2(12 + 5) = 34$ m. Area $= 12 \times 5 = 60$ m².</p>`)}
 <h3>Composite shapes</h3>
 <p>Split an L-shape or other composite shape into rectangles and triangles, then add the areas — or take a big rectangle and subtract the missing piece.</p>
+${Fig(gridSvg(3, 5, 15, { cell: 26, label: T`A 5 by 3 rectangle made of 15 unit squares`, caption: T`Area: 5 × 3 = 15 squares` }), T`Area counts unit squares: 3 rows of 5 squares.`)}
+${Fig(lShapeSvg(), T`An L-shape split into two rectangles: total area $32 + 24 = 56$ square units. Check: $10 \times 8 - 6 \times 4 = 56$.`)}
 ${Tip(T`<p>Perimeter uses ordinary units (m); area uses square units (m²). Also, the height of a triangle is perpendicular to the base — not the slanted side.</p>`)}`,
   gens: [
     () => { const l = ri(4, 40), w = ri(2, l - 1); return { q: T`A rectangle is ${l} cm long and ${w} cm wide. What is its perimeter?`, a: 2 * (l + w), u: 'cm', w: [l * w, l + w, 2 * l + w], s: T`$P = 2(l + w) = 2(${l} + ${w}) = ${2 * (l + w)}$ cm.` }; },
@@ -319,11 +364,13 @@ ${Tip(T`<p>Perimeter uses ordinary units (m); area uses square units (m²). Also
   lesson: () => T`
 <p><b>Volume</b> is the space a solid takes up, counted in <b>cubic units</b> (cm³, m³). A cube with 1 cm edges has a volume of 1 cm³.</p>
 ${Fm(T`\text{Cuboid: } V = l \times w \times h \qquad\qquad \text{Cube: } V = s^3`)}
+${Fig(cuboidSvg(4, 3, 2, { cubes: true, labels: ['4 cm', '3 cm', '2 cm'], label: T`A 4 by 3 by 2 cuboid built from unit cubes` }), T`Each layer holds $4 \times 3 = 12$ cubes and there are 2 layers, so $V = 24 \text{ cm}^3$.`)}
 ${Key(T`<p>Capacity links to volume: $1 \text{ cm}^3 = 1 \text{ mL}$ and $1{,}000 \text{ cm}^3 = 1 \text{ L}$. Also $1 \text{ m}^3 = 1{,}000 \text{ L}$.</p>`)}
 ${Ex(T`<p>A fish tank is 50 cm long, 30 cm wide and 40 cm high.</p><p>$V = 50 \times 30 \times 40 = 60{,}000 \text{ cm}^3 = 60 \text{ L}$.</p>`)}
 <h3>Surface area</h3>
 <p>The surface area is the total area of all the faces. A cuboid has three pairs of equal rectangles:</p>
 ${Fm(T`SA = 2(lw + lh + wh) \qquad\qquad \text{Cube: } SA = 6s^2`)}
+${Fig(netSvg(4, 3, 2, { label: T`Net of a 4 by 3 by 2 cuboid` }), T`Unfolded into a net, the 6 faces show three matching pairs: top and bottom, front and back, the two sides.`)}
 ${Tip(T`<p>Volume uses cubic units (cm³); surface area uses square units (cm²). If you know the volume and two edges, divide to find the third: $h = \frac{V}{l \times w}$.</p>`)}`,
   gens: [
     () => { const s = ri(2, 12); return { q: T`A cube has edges of length ${s} cm. What is its volume?`, a: s ** 3, u: 'cm³', w: [6 * s * s, s * s, 3 * s, 12 * s], s: T`$V = s^3 = ${s}^3 = ${s ** 3}$ cm³.` }; },
@@ -341,12 +388,14 @@ ${Tip(T`<p>Volume uses cubic units (cm³); surface area uses square units (cm²)
   lesson: () => T`
 <p>Angles measure turn, in <b>degrees</b> (°). A full turn is $360^\circ$.</p>
 ${Tbl([T`Type`, T`Size`], [[T`Acute`, T`less than $90^\circ$`], [T`Right`, T`exactly $90^\circ$`], [T`Obtuse`, T`between $90^\circ$ and $180^\circ$`], [T`Straight`, T`exactly $180^\circ$`], [T`Reflex`, T`between $180^\circ$ and $360^\circ$`]])}
+${FigW(anglesRowSvg([[50, T`Acute`], [90, T`Right`], [130, T`Obtuse`], [180, T`Straight`]], { label: T`Acute, right, obtuse and straight angles` }), T`Acute < 90° < obtuse < 180°. A reflex angle is bigger than 180°.`)}
 ${Key(T`<ul><li>Angles on a straight line add up to $180^\circ$.</li><li>Angles around a point add up to $360^\circ$.</li><li>Vertically opposite angles are equal.</li><li>The angles in a triangle add up to $180^\circ$; in a quadrilateral, $360^\circ$.</li></ul>`)}
 <h3>Triangles</h3>
 <p><b>Equilateral</b>: three equal sides, every angle $60^\circ$. <b>Isosceles</b>: two equal sides and two equal base angles. <b>Scalene</b>: no equal sides. A <b>right</b> triangle has one $90^\circ$ angle.</p>
 <h3>Polygons</h3>
 <p>A polygon with $n$ sides can be cut into $n - 2$ triangles from one corner, so</p>
 ${Fm(T`\text{sum of interior angles} = (n - 2) \times 180^\circ`)}
+${Fig(polyTriSvg([4, 5, 6]), T`Diagonals from one corner cut an $n$-gon into $n - 2$ triangles, each with $180^\circ$.`)}
 <p>In a <b>regular</b> polygon all angles are equal, so each is $\frac{(n-2) \times 180^\circ}{n}$. A regular hexagon has angles of $\frac{4 \times 180^\circ}{6} = 120^\circ$.</p>
 ${Ex(T`<p>A triangle has angles $48^\circ$ and $75^\circ$. The third angle is $180^\circ - 48^\circ - 75^\circ = 57^\circ$.</p>`)}`,
   gens: [
@@ -365,10 +414,12 @@ ${Ex(T`<p>A triangle has angles $48^\circ$ and $75^\circ$. The third angle is $1
   blurb: 'Reading tables and charts; mean, median, mode and range.',
   lesson: () => T`
 <p>Data is information we collect, such as test scores or favourite fruits. A <b>frequency table</b> records how often each value occurs; <b>bar charts</b> and <b>pictographs</b> show the same information visually.</p>
+${Fig(barsSvg([[T`Apple`, 8], [T`Banana`, 5], [T`Mango`, 11], [T`Orange`, 6]], { yl: T`students`, label: T`Bar chart of favourite fruits: apple 8, banana 5, mango 11, orange 6` }), T`A bar chart of a class's favourite fruits. The tallest bar is the mode: mango.`)}
 <h3>Four summary numbers</h3>
 ${Tbl([T`Measure`, T`How to find it`, T`For 3, 7, 7, 8, 10`], [[T`Mean`, T`add all values, divide by how many`, T`$\frac{35}{5} = 7$`], [T`Median`, T`middle value after sorting`, '7'], [T`Mode`, T`most frequent value`, '7'], [T`Range`, T`largest − smallest`, T`$10 - 3 = 7$`]])}
 ${Key(T`<p>If there is an <b>even</b> number of values, the median is the mean of the two middle values: the median of 2, 4, 9, 11 is $\frac{4 + 9}{2} = 6.5$.</p>`)}
 ${Ex(T`<p>Scores: 12, 5, 9, 12, 7.</p><ul><li>Mean $= \frac{12 + 5 + 9 + 12 + 7}{5} = \frac{45}{5} = 9$</li><li>Sorted: 5, 7, 9, 12, 12 → median 9</li><li>Mode 12 · Range $12 - 5 = 7$</li></ul>`)}
+${Fig(dotPlotSvg([12, 5, 9, 12, 7], { min: 4, max: 13, marks: [[9, T`mean = median = 9`], [12, T`mode`, 'mf-c4']], label: T`Dot plot of the scores 5, 7, 9, 12, 12` }), T`A dot plot of the scores: the median is the middle dot, the mode is the tallest stack, the range is the spread from 5 to 12.`)}
 ${Tip(T`<p>Always <b>sort</b> the data before finding the median. The middle of the unsorted list is usually wrong.</p>`)}`,
   gens: [
     () => { const n = ri(4, 7), vals = range(1, n).map(() => ri(2, 30)), r = sum(vals) % n; if (r) vals[n - 1] += n - r; const tot = sum(vals), m = tot / n, list = shuffle(vals); return { q: T`Find the mean of: ${list.join(LS())}.`, a: m, w: [median(list), tot, m + 1, m - 1], s: T`Add the values and divide by how many there are: $\frac{${tot}}{${n}} = ${m}$.` }; },

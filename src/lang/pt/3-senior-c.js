@@ -1,16 +1,6 @@
 /* Português (Brasil) — Ensino Médio (polinômios → integrais) */
 addT('pt', {
   // polynomials
-  '1dv82xempy': R`
-<p>Um <b>polinômio</b> é uma soma de termos $a_n x^n + \cdots + a_1 x + a_0$ com expoentes naturais. Seu <b>grau</b> é o maior expoente; $a_n$ é o <b>coeficiente dominante</b>. Ao multiplicar polinômios, os graus se somam e os coeficientes dominantes se multiplicam.</p>
-<h3>Divisão</h3>
-<p>Dividir $P(x)$ por $(x - a)$ dá um quociente $Q(x)$ e um resto $R$: $P(x) = (x - a)Q(x) + R$. O <b>dispositivo de Briot-Ruffini</b> faz isso rapidamente usando só os coeficientes.</p>
-⟦0⟧
-⟦1⟧
-<h3>Raízes de um polinômio do 3º grau</h3>
-<p>Para $ax^3 + bx^2 + cx + d = 0$ com raízes $r_1, r_2, r_3$:</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ pelo dispositivo de Briot-Ruffini:</p>⟦0⟧<p>Quociente $x^2 - 2x - 3$, resto 0.</p>`,
   'agfsjitvd': R`<p><b>Teorema do resto:</b> o resto da divisão de $P(x)$ por $(x - a)$ é $P(a)$.</p><p><b>Teorema de D'Alembert:</b> $(x - a)$ é fator de $P(x)$ exatamente quando $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Dividir por $(x + 3)$ significa $a = -3$: calcule $P(-3)$, não $P(3)$.</p>`,
@@ -31,16 +21,6 @@ addT('pt', {
   '1uusi8yg5sk': R`O termo independente é o produto dos termos independentes: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p>Uma <b>matriz</b> é uma tabela retangular de números. Uma matriz $m \times n$ tem $m$ linhas e $n$ colunas; $a_{ij}$ é o elemento da linha $i$, coluna $j$.</p>
-<h3>Operações</h3>
-<ul><li><b>Somar/subtrair</b> elemento a elemento (só com o mesmo tamanho).</li><li><b>Multiplicação por escalar</b>: multiplique cada elemento.</li><li><b>Produto</b> $AB$: o elemento $(i, j)$ é a linha $i$ de $A$ "vezes" a coluna $j$ de $B$. Exige (colunas de $A$) = (linhas de $B$), e uma $m \times n$ vezes uma $n \times p$ dá uma $m \times p$.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Determinante e inversa (2 × 2)</h3>
-⟦2⟧
-<p>Se $\det A = 0$, a matriz é <b>singular</b> e não tem inversa. Inversas resolvem sistemas: $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>A multiplicação de matrizes <b>não é comutativa</b>: em geral $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Para a inversa: <b>troque</b> $a$ e $d$, <b>troque o sinal</b> de $b$ e $c$ e divida pelo determinante.</p>`,
   '1h6gnxjh2g6': R`Calcule o determinante de $⟦0⟧$.`,
@@ -57,12 +37,6 @@ addT('pt', {
   'xdj657lej': R`Linha ⟦0⟧ de $A$ vezes coluna ⟦1⟧ de $B$: $⟦2⟧ = ⟦3⟧$. (Uma matriz $2 \times 3$ vezes uma $3 \times 2$ dá uma $2 \times 2$.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p>Um <b>vetor</b> tem módulo, direção e sentido. Em coordenadas, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ ou $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. O vetor de $P$ até $Q$ é $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Módulo`,
   '1czax49eh4c': R`Adição`,
   'q2ntocofkn': R`some as coordenadas`,
@@ -86,18 +60,6 @@ addT('pt', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Divida cada coordenada por ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ significa que $f(x)$ fica tão perto quanto quisermos de $L$ quando $x$ se aproxima de $a$ — não importa o que acontece exatamente em $x = a$.</p>
-<h3>Técnicas</h3>
-<ol><li><b>Substituição direta</b> funciona para polinômios e outras funções contínuas: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Fatorar e simplificar</b> diante de $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Racionalizar</b> expressões com raízes: multiplique pelo conjugado.</li></ol>
-⟦0⟧
-<h3>Limites no infinito</h3>
-⟦1⟧
-<h3>Um limite trigonométrico especial</h3>
-⟦2⟧
-<h3>Continuidade</h3>
-<p>$f$ é contínua em $a$ se $\lim_{x \to a} f(x) = f(a)$: sem buracos, saltos ou assíntotas ali. Numa função definida por partes, faça as duas partes se encontrarem no ponto de junção.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Numa função racional, divida numerador e denominador pela maior potência de $x$ do denominador:</p><ul><li>mesmo grau → razão dos coeficientes dominantes;</li><li>numerador de grau menor → 0;</li><li>numerador de grau maior → sem limite finito ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ não é "0" nem "indefinido" — indica que é preciso mais trabalho (fatorar, racionalizar).</p>`,
   '18znpgymeuk': R`Calcule $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -115,18 +77,6 @@ addT('pt', {
   '1l84k7ifkz6': R`As partes devem se encontrar em $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, então $⟦5⟧ + k = ⟦6⟧$ e $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p>A <b>derivada</b> $f'(x)$ é a taxa de variação instantânea de $f$ — a inclinação da reta tangente em $x$. Ela é definida por um limite:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Retas tangentes</h3>
-<p>Em $x = a$, a tangente tem inclinação $m = f'(a)$ e passa por $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Pontos críticos</h3>
-<p>Onde $f'(x) = 0$ o gráfico fica momentaneamente horizontal. Use a segunda derivada: $f''(a) \gt 0$ → mínimo local; $f''(a) \lt 0$ → máximo local. $f$ é crescente onde $f' \gt 0$ e decrescente onde $f' \lt 0$.</p>
-<h3>Otimização</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Regras`,
   '21wooetnwi8': R`<p>100 m de cerca fecham um retângulo junto a um rio (sem cerca do lado do rio). Com lados $x, y, x$: $2x + y = 100$, área $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ dá $x = 25$, então $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>A derivada de uma constante é 0 — não leve o termo constante para $f'(x)$.</p>`,
@@ -153,17 +103,6 @@ addT('pt', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, então $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>A integração desfaz a derivação. Uma <b>primitiva</b> de $f$ é qualquer $F$ com $F' = f$; a <b>integral indefinida</b> inclui a constante de integração:</p>
-⟦0⟧
-⟦1⟧
-<h3>Integrais definidas</h3>
-⟦2⟧
-<p>Para $f \ge 0$, isso é a área sob a curva entre $x = a$ e $x = b$. Área abaixo do eixo $x$ conta como negativa; então divida a integral nas raízes quando quiser a área total.</p>
-⟦3⟧
-<h3>Encontrando uma função a partir da derivada</h3>
-<p>Se $f'(x) = 6x + 2$ e $f(1) = 10$, então $f(x) = 3x^2 + 2x + C$ e $3 + 2 + C = 10$ dá $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Confira derivando.</p>`,
   '1jsx5j8bwuv': R`Teorema Fundamental do Cálculo`,
   'k8jg70602j': R`<p>Área entre $y = x^2$ e $y = 2x$: elas se encontram em $x = 0$ e $x = 2$, e $2x \ge x^2$ entre elas, então $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,

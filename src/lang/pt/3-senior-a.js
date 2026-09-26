@@ -5,20 +5,6 @@ addT('pt', {
   '2gdno2vs4iz': R`Digite uma resposta como 9pi ou 3pi/4.`,
 
   // quadratics
-  'zojqk1lf1a': R`
-<p>Uma <b>equação do 2º grau</b> tem a forma $ax^2 + bx + c = 0$ com $a \ne 0$. Ela tem no máximo duas soluções (raízes).</p>
-<h3>1. Fatoração</h3>
-<p>Se um produto é zero, um de seus fatores é zero. Procure dois números cujo produto seja $c$ e cuja soma seja $b$ (quando $a = 1$):</p>
-⟦0⟧
-<h3>2. Completar o quadrado</h3>
-⟦1⟧
-<h3>3. A fórmula de Bhaskara</h3>
-⟦2⟧
-<h3>Soma e produto das raízes (Vieta)</h3>
-⟦3⟧
-<p>Assim, uma equação com raízes $r$ e $s$ é $x^2 - (r + s)x + rs = 0$.</p>
-⟦4⟧
-⟦5⟧`,
   '2eim40ubkm5': R`x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ ou } x = -3`,
   '2fswinarukx': R`$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>O <b>discriminante</b> $D = b^2 - 4ac$ diz quantas raízes reais existem:</p><ul><li>$D \gt 0$: duas raízes reais distintas</li><li>$D = 0$: uma raiz real dupla</li><li>$D \lt 0$: nenhuma raiz real (duas raízes complexas)</li></ul>`,
   '2es7ki62fmx': R`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, então $x = \frac{7 \pm 5}{4}$, o que dá $x = 3$ ou $x = \frac{1}{2}$. Verificação: soma $= \frac{7}{2}$ ✓, produto $= \frac{3}{2}$ ✓.</p>`,
@@ -46,14 +32,6 @@ addT('pt', {
   '27ssy7fe6w9': R`Seja $w$ a largura: $w(w + ⟦0⟧) = ⟦1⟧$, então $⟦2⟧ = 0$, ou seja, $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. Uma largura deve ser positiva, então $w = ⟦5⟧$ m.`,
 
   // quad-functions
-  't6hwj355ki': R`
-<p>O gráfico de $f(x) = ax^2 + bx + c$ é uma <b>parábola</b>. Ela tem concavidade <b>para cima</b> se $a \gt 0$ (um vale, com mínimo) e <b>para baixo</b> se $a \lt 0$ (um morro, com máximo).</p>
-⟦0⟧
-<h3>Forma canônica</h3>
-⟦1⟧
-<p>Completar o quadrado transforma a forma geral na forma canônica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, então o vértice é $(3; 2)$ e o valor mínimo é 2. A imagem é $y \ge 2$.</p>
-⟦2⟧
-⟦3⟧`,
   's0tk1crha5': R`<ul><li>Eixo de simetria e vértice: $x = -\dfrac{b}{2a}$; o vértice é $\left(-\dfrac{b}{2a};\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>Intersecção com o eixo $y$: $(0; c)$.</li><li>Intersecções com o eixo $x$: as raízes de $ax^2 + bx + c = 0$ (se houver).</li></ul>`,
   '8vanwczjp2': R`f(x) = a(x - h)^2 + k \qquad \text{vértice } (h; k)`,
   '17der0pee5r': R`<p>A altura de uma bola é $h(t) = -5t^2 + 20t + 1$ metros. O vértice está em $t = -\frac{20}{2(-5)} = 2$ s, e a altura máxima é $h(2) = -20 + 40 + 1 = 21$ m.</p>`,
@@ -77,18 +55,6 @@ addT('pt', {
   'xs3xxut6a6': R`O vértice é $⟦0⟧$ e a parábola tem concavidade para baixo, então a imagem é $y \le ⟦1⟧$.`,
 
   // functions
-  '8naid6th7m': R`
-<p>Uma <b>função</b> associa a cada entrada exatamente <b>uma</b> saída. O conjunto das entradas permitidas é o <b>domínio</b>; o conjunto das saídas é a <b>imagem</b>.</p>
-<h3>Domínios naturais</h3>
-<ul><li>Não há divisão por zero: para $\frac{1}{x - 2}$, o domínio é $x \ne 2$.</li><li>Não há raiz quadrada de negativo: para $\sqrt{x + 3}$, o domínio é $x \ge -3$.</li><li>Logaritmos precisam de argumento positivo: para $\log(x - 1)$, o domínio é $x \gt 1$.</li></ul>
-<h3>Composição</h3>
-⟦0⟧
-⟦1⟧
-<h3>Funções inversas</h3>
-<p>$f^{-1}$ desfaz o que $f$ faz: se $f(a) = b$, então $f^{-1}(b) = a$. Para encontrá-la, escreva $y = f(x)$, troque $x$ e $y$ e isole $y$.</p>
-⟦2⟧
-<p>O gráfico de $f^{-1}$ é o reflexo do gráfico de $f$ em relação à reta $y = x$. Só funções injetoras têm inversa.</p>
-⟦3⟧`,
   '1ph305emxqf': R`$$(f \circ g)(x) = f(g(x))$$<p>Aplique primeiro $g$ e depois $f$. Em geral, $f \circ g \ne g \circ f$.</p>`,
   '1cxwjq7z97r': R`<p>$f(x) = 2x + 1$, $g(x) = x^2$. Então $f(g(3)) = f(9) = 19$, mas $g(f(3)) = g(7) = 49$. Como expressões: $f(g(x)) = 2x^2 + 1$ e $g(f(x)) = (2x + 1)^2$.</p>`,
   '15c8mvolh1o': R`<p>$f(x) = 3x - 5$: trocando, obtemos $x = 3y - 5$, então $y = \frac{x + 5}{3}$ e $f^{-1}(x) = \frac{x + 5}{3}$. Verificação: $f(f^{-1}(x)) = x$ ✓</p>`,
@@ -112,16 +78,6 @@ addT('pt', {
   'ranlsqjvf9': R`Como $⟦0⟧ \ge ⟦1⟧$, usamos a segunda regra: $f(⟦2⟧) = ⟦3⟧$.`,
 
   // exp-log
-  'l9f49uc5fx': R`
-<p>Expoentes racionais combinam potências e raízes: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. Assim, $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ e $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
-<h3>Logaritmos</h3>
-⟦0⟧
-⟦1⟧
-<h3>Resolvendo equações</h3>
-<ul><li>Mesma base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Equação logarítmica: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Bases diferentes: aplique logaritmo nos dois lados, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1{,}861$.</li></ul>
-<h3>Crescimento e decaimento exponencial</h3>
-<p>$A = A_0 \cdot r^{t/T}$: uma quantidade multiplicada por $r$ a cada $T$ unidades de tempo. Juros compostos: $A = P(1 + i)^n$.</p>
-⟦2⟧`,
   'cgsm0nxs87': R`$$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0;\; b \ne 1;\; a \gt 0)$$<p>Um logaritmo responde "a que potência devo elevar $b$ para obter $a$?" — assim, $\log_2 32 = 5$. $\log x$ significa $\log_{10} x$; $\ln x$ significa $\log_e x$, com $e \approx 2{,}718$.</p>`,
   '5k5p7u9mjc': R`mudança de base`,
   'unmvz575yi': R`<p>$\log(x + y) \ne \log x + \log y$. A propriedade do produto transforma um <i>produto</i> dentro em uma soma fora.</p>`,

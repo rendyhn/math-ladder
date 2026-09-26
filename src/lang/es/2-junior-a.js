@@ -14,16 +14,6 @@ addT('es', {
   '187npo1zduj': R`cuerda`,
 
   // integers
-  '1d3b0kga2d8': R`
-<p>Los <b>números enteros</b> son los números naturales, sus opuestos y el cero: $\ldots, -3, -2, -1, 0, 1, 2, 3, \ldots$ En la recta numérica los números aumentan hacia la derecha, así que $-7 \lt -2$ aunque 7 sea mayor que 2.</p>
-<p>El <b>valor absoluto</b> $|a|$ es la distancia al 0: $|-6| = 6$ y $|6| = 6$.</p>
-<h3>Sumar y restar</h3>
-⟦0⟧
-<h3>Multiplicar y dividir</h3>
-⟦1⟧
-⟦2⟧
-<p>Usos reales: temperaturas bajo cero, alturas bajo el nivel del mar, deudas y plantas bajo tierra.</p>
-⟦3⟧`,
   'y08mdvxdvx': R`<ul><li><b>Mismo signo:</b> suma los valores absolutos y conserva el signo. $-4 + (-9) = -13$.</li><li><b>Signos distintos:</b> resta los valores absolutos y pon el signo del de mayor valor absoluto. $-11 + 5 = -6$.</li><li><b>Restar</b> es sumar el opuesto: $3 - (-8) = 3 + 8 = 11$.</li></ul>`,
   '265jmr0pgn6': R`Signos`,
   '18hy4wrreq9': R`Resultado`,
@@ -47,15 +37,6 @@ addT('es', {
   '1hal8q9tj2u': R`$|⟦0⟧| = ⟦1⟧$ y $|⟦2⟧| = ⟦3⟧$, así que el valor es $⟦4⟧ - ⟦5⟧ = ⟦6⟧$.`,
 
   // exponents
-  '2d43wqplznz': R`
-<p>Una <b>potencia</b> abrevia una multiplicación repetida: $a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ factores}}$. En $2^5 = 32$, 2 es la <b>base</b> y 5 es el <b>exponente</b>.</p>
-<h3>Propiedades de las potencias</h3>
-⟦0⟧
-⟦1⟧
-<h3>Raíces</h3>
-<p>La raíz cuadrada deshace el cuadrado: $\sqrt{81} = 9$ porque $9^2 = 81$. La raíz cúbica deshace el cubo: $\sqrt[3]{64} = 4$ porque $4^3 = 64$.</p>
-⟦2⟧
-⟦3⟧`,
   '21iigvito9y': R`Propiedad`,
   '2du0zx6ztd9': R`<p>Simplifica $(2x^3)(5x^4)$: multiplica los números y suma los exponentes, $10x^{7}$.</p>`,
   '2b2ar8gx2t7': R`<p>Para simplificar una raíz cuadrada, extrae el mayor factor que sea un cuadrado perfecto: $\sqrt{ab} = \sqrt{a}\,\sqrt{b}$.</p>$$\sqrt{72} = \sqrt{36 \times 2} = 6\sqrt{2}$$`,
@@ -85,16 +66,6 @@ addT('es', {
   'r5mpjrvznb': R`Busca el mayor factor que sea un cuadrado perfecto: $⟦0⟧ = ⟦1⟧ \times ⟦2⟧$. Así, $\sqrt{⟦3⟧} = \sqrt{⟦4⟧} \cdot \sqrt{⟦5⟧} = ⟦6⟧$.`,
 
   // sci-notation
-  '2855qmmjjc': R`
-<p>Los científicos escriben los números muy grandes o muy pequeños de forma compacta como</p>
-⟦0⟧
-<ul><li>La distancia al Sol, unos $150\,000\,000$ km, es $1{,}5 \times 10^{8}$ km.</li><li>Un glóbulo rojo, de unos $0{,}000\,008$ m de ancho, mide $8 \times 10^{-6}$ m.</li></ul>
-⟦1⟧
-<h3>Calcular</h3>
-<p>Multiplica (o divide) los números de delante y suma (o resta) los exponentes. Después ajusta el número de delante si no está entre 1 y 10:</p>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '244so12quwj': R`a \times 10^{n}, \qquad 1 \le a \lt 10, \quad n \text{ entero}`,
   '1phwx4rhhb0': R`<p>Cuenta cuántos lugares se mueve la coma para que quede exactamente una cifra distinta de cero delante de ella. Los números grandes (la coma va a la izquierda) dan un exponente <b>positivo</b>; los menores que 1 (la coma va a la derecha), un exponente <b>negativo</b>.</p>`,
   '17xqz1i19gu': R`(4 \times 10^{5}) \times (3 \times 10^{7}) = 12 \times 10^{12} = 1{,}2 \times 10^{13}`,
@@ -116,19 +87,6 @@ addT('es', {
   '1ujla3379au': R` Como ⟦0⟧ es menor que 1, reescribe $⟦1⟧ \times 10^{⟦2⟧} = ⟦3⟧ \times 10^{⟦4⟧}$.`,
 
   // ratio
-  'j1hx7015fs': R`
-<p>Una <b>razón</b> $a : b$ compara dos cantidades. Como las fracciones, las razones se simplifican dividiendo ambos términos entre su MCD: $18 : 24 = 3 : 4$.</p>
-<h3>Repartos proporcionales</h3>
-⟦0⟧
-<h3>Tasas y valor unitario</h3>
-<p>Una <b>tasa</b> compara cantidades con unidades distintas: km por hora, dólares por kg. Hallar el valor de <b>una</b> unidad (el valor unitario) resuelve la mayoría de los problemas.</p>
-⟦1⟧
-<h3>Proporcionalidad directa e inversa</h3>
-⟦2⟧
-⟦3⟧
-<h3>Escalas de mapas</h3>
-<p>Una escala de $1 : 50\,000$ significa que 1 cm en el mapa equivale a $50\,000$ cm $= 500$ m $= 0{,}5$ km en la realidad.</p>
-⟦4⟧`,
   '1ldxptmm0q1': R`<p>Reparte 60 caramelos en la razón $2 : 3$.</p><ol><li>Partes totales: $2 + 3 = 5$.</li><li>Una parte: $60 \div 5 = 12$.</li><li>Repartos: $2 \times 12 = 24$ y $3 \times 12 = 36$.</li></ol>`,
   'mtzadc2zz9': R`\text{velocidad} = \frac{\text{distancia}}{\text{tiempo}} \qquad \text{distancia} = \text{velocidad} \times \text{tiempo}`,
   '1lx74znbkzq': R`<ul><li><b>Directa:</b> las dos cantidades crecen juntas, $y = kx$. El doble de cuadernos cuesta el doble.</li><li><b>Inversa:</b> una crece cuando la otra disminuye, $xy = k$. El doble de trabajadores termina en la mitad de tiempo.</li></ul>`,

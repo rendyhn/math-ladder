@@ -1,20 +1,6 @@
 /* Deutsch — Sekundarstufe I (Terme → lineare Funktionen) */
 addT('de', {
   // algebra-expr
-  '2ngxvisbtd': R`
-<p>Im Term $5x^2 - 3xy + 7$ sind die <b>Summanden</b> $5x^2$, $-3xy$ und $7$; die <b>Koeffizienten</b> sind 5 und $-3$; 7 ist die <b>Konstante</b>. <b>Gleichartige Terme</b> haben genau dieselben Variablen mit denselben Exponenten ($4ab$ und $-ab$ sind gleichartig; $x^2$ und $x$ nicht).</p>
-<h3>Zusammenfassen</h3>
-<p>Fasse gleichartige Terme zusammen, indem du ihre Koeffizienten addierst: $6a + 2b - 4a + 5b = 2a + 7b$.</p>
-<h3>Klammern auflösen</h3>
-⟦0⟧
-⟦1⟧
-<h3>Binomische Formeln</h3>
-⟦2⟧
-<h3>Faktorisieren</h3>
-<p>Faktorisieren ist Ausmultiplizieren rückwärts. Klammere den größten gemeinsamen Faktor aus: $12x - 18 = 6(2x - 3)$.</p>
-<h3>Einsetzen</h3>
-<p>Ersetze jede Variable durch ihren Wert und setze negative Zahlen in Klammern: Für $x = -2$ ist $3x^2 - x = 3(-2)^2 - (-2) = 12 + 2 = 14$.</p>
-⟦3⟧`,
   '107qibv29t1': R`<p><b>Distributivgesetz:</b> $a(b + c) = ab + ac$. Multipliziere <i>jeden</i> Summanden in der Klammer mit dem Faktor davor.</p><p><b>Zwei Klammern:</b> $(x + a)(x + b) = x^2 + (a + b)x + ab$.</p>`,
   'evwoax8bsy': R`(a + b)^2 = a^2 + 2ab + b^2 \qquad (a - b)^2 = a^2 - 2ab + b^2 \qquad (a + b)(a - b) = a^2 - b^2`,
   'qw20z3i54y': R`<p>$(x + 4)^2 \ne x^2 + 16$. Der mittlere Term $2 \cdot 4 \cdot x = 8x$ wird leicht vergessen.</p>`,
@@ -31,17 +17,6 @@ addT('de', {
   '2e60a5izj9m': R`Multipliziere aus: $(x ⟦0⟧)^2$.`,
 
   // linear-eq
-  '2e108zyv3t2': R`
-<p>Eine Gleichung sagt aus, dass zwei Terme gleich sind. Denk an eine Balkenwaage: Was du auf der einen Seite tust, tust du auch auf der anderen, dann bleibt sie im Gleichgewicht. Ziel ist, die Unbekannte allein auf eine Seite zu bringen.</p>
-⟦0⟧
-⟦1⟧
-<h3>Klammern und Brüche</h3>
-<p>Löse zuerst die Klammern auf (oder teile beide Seiten durch die Zahl vor der Klammer). Brüche beseitigst du, indem du jeden Summanden mit dem Hauptnenner multiplizierst:</p>
-⟦2⟧
-<h3>Textaufgaben</h3>
-<ol><li>Wähle eine Variable für die Unbekannte und schreibe auf, wofür sie steht.</li><li>Übersetze den Text in eine Gleichung.</li><li>Löse sie und prüfe, ob die Antwort zur Situation passt.</li></ol>
-⟦3⟧
-⟦4⟧`,
   '23dcqvv32cf': R`<p>Mache die Rechenschritte in umgekehrter Reihenfolge mit <b>Umkehroperationen</b> rückgängig: Addition ↔ Subtraktion, Multiplikation ↔ Division.</p>`,
   '11eu1q8a3p': R`<p>Löse $5x - 7 = 2x + 11$.</p><ol><li>Auf beiden Seiten $2x$ subtrahieren: $3x - 7 = 11$.</li><li>7 addieren: $3x = 18$.</li><li>Durch 3 teilen: $x = 6$.</li></ol><p>Probe: $5(6) - 7 = 23$ und $2(6) + 11 = 23$ ✓</p>`,
   '1wy5h98gkn6': R`<p>Die Summe dreier aufeinanderfolgender ganzer Zahlen ist 72. Nenne sie $n$, $n + 1$, $n + 2$: $3n + 3 = 72$, also $n = 23$. Die Zahlen sind 23, 24 und 25.</p>`,
@@ -69,17 +44,6 @@ addT('de', {
   'h4vi0amulx': R`$⟦0⟧x - ⟦1⟧ = ⟦2⟧$, also $⟦3⟧x = ⟦4⟧$ und $x = ⟦5⟧$.`,
 
   // inequalities
-  'x75whe4hrd': R`
-<p>Eine <b>Ungleichung</b> vergleicht zwei Terme: $\lt$ (kleiner als), $\gt$ (größer als), $\le$ (kleiner oder gleich), $\ge$ (größer oder gleich). Ihre Lösung ist meist ein ganzer Zahlenbereich.</p>
-<p>Auf dem Zahlenstrahl zeichnet man $x \gt 2$ mit einem <b>offenen</b> Kreis bei 2 (2 gehört nicht dazu) und einem Pfeil nach rechts; $x \le 2$ mit einem <b>ausgefüllten</b> Kreis und einem Pfeil nach links.</p>
-<h3>Lösen</h3>
-<p>Man löst wie eine Gleichung – auf beiden Seiten addieren, subtrahieren, multiplizieren oder dividieren – mit einer zusätzlichen Regel:</p>
-⟦0⟧
-<p>Warum? $2 \lt 5$, aber nach Multiplikation mit $-1$ erhält man $-2$ und $-5$, und $-2 \gt -5$.</p>
-⟦1⟧
-<h3>Doppelungleichungen</h3>
-<p>Wende dieselbe Umformung auf alle drei Teile an: $-1 \lt 2x + 3 \le 9 \Rightarrow -4 \lt 2x \le 6 \Rightarrow -2 \lt x \le 3$. Die ganzzahligen Lösungen sind $-1; 0; 1; 2; 3$.</p>
-⟦2⟧`,
   '4uypmmfwnv': R`<p>Wenn du mit einer <b>negativen Zahl multiplizierst oder durch sie dividierst</b>, dreht sich das Ungleichheitszeichen um.</p>$$-3x \gt 12 \;\Rightarrow\; x \lt -4$$`,
   '2g9ptainv5b': R`<p>Löse $7 - 2x \ge 1$.</p><ol><li>7 subtrahieren: $-2x \ge -6$.</li><li>Durch $-2$ teilen und Zeichen umdrehen: $x \le 3$.</li></ol>`,
   'q5ww8c7swj': R`<p>„Die kleinste ganze Zahl mit $x \gt 4$“ ist 5, nicht 4 – eine echte Ungleichung schließt ihren Randwert aus.</p>`,
@@ -98,13 +62,6 @@ addT('de', {
   'abjkjjicc6': R`allen Teilen`,
 
   // sets
-  '1upw9az6tpj': R`
-<p>Eine <b>Menge</b> ist eine klar festgelegte Zusammenfassung von Objekten, ihren <b>Elementen</b>. Wir schreiben $A = \{2; 4; 6; 8\}$ und $4 \in A$ („4 ist Element von A“), $5 \notin A$. $n(A)$ ist die Anzahl der Elemente; hier $n(A) = 4$. Die <b>leere Menge</b> $\varnothing$ hat keine Elemente; die <b>Grundmenge</b> $U$ enthält alles, worüber gerade gesprochen wird.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'zdmpl6ts1e': R`Ein Venn-Diagramm: Jedes Feld ist eine andere Kombination aus „in A“ und „in B“.`,
   '142ifrt0jkt': R`Schreibweise`,
   '14czndj1h0b': R`Beispiel mit A = {1; 2; 3; 4}, B = {3; 4; 5}`,
@@ -139,17 +96,6 @@ addT('de', {
   '9yersm2gye': R`$A = ⟦0⟧$, also $n(A) = ⟦1⟧$.`,
 
   // linear-functions
-  '1dcyn9qstbs': R`
-<p>Eine <b>lineare Funktion</b> hat als Graphen eine Gerade. In der <b>Normalform</b></p>
-⟦0⟧
-<p>ist $m$ die <b>Steigung</b>: um wie viel sich $y$ ändert, wenn $x$ um 1 wächst. $c$ ist der <b>$y$-Achsenabschnitt</b>, wo die Gerade die $y$-Achse schneidet. In Funktionsschreibweise schreibt man $f(x) = mx + c$; $f(3)$ bedeutet „der Wert für $x = 3$“.</p>
-<h3>Steigung aus zwei Punkten</h3>
-⟦1⟧
-⟦2⟧
-<h3>Achsenschnittpunkte und andere Formen</h3>
-<p>Setze $x = 0$, um den $y$-Achsenabschnitt zu finden, und $y = 0$ für die Nullstelle. Eine Gerade kann man als $ax + by = c$ schreiben; forme zu $y = -\frac{a}{b}x + \frac{c}{b}$ um, um die Steigung abzulesen. Durch einen Punkt $(x_1; y_1)$ mit Steigung $m$: $y - y_1 = m(x - x_1)$.</p>
-⟦3⟧
-⟦4⟧`,
   'b6i5f4mrw8': R`y = mx + c`,
   '2debyr8clym': R`m = \frac{\text{Höhenunterschied}}{\text{Längenunterschied}} = \frac{y_2 - y_1}{x_2 - x_1}`,
   '2487xq0zh4o': R`<p>Durch $(1; 2)$ und $(4; 11)$: $m = \frac{11 - 2}{4 - 1} = 3$. Setze $(1; 2)$ in $y = 3x + c$ ein: $2 = 3 + c$, also $c = -1$, und die Gerade ist $y = 3x - 1$.</p>`,

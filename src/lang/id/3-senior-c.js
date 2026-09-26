@@ -1,16 +1,6 @@
 /* Bahasa Indonesia — SMA (polinomial → integral) */
 addT('id', {
   // polynomials
-  '1dv82xempy': R`
-<p><b>Polinomial</b> (suku banyak) adalah jumlah suku-suku $a_n x^n + \cdots + a_1 x + a_0$ dengan pangkat bilangan cacah. <b>Derajatnya</b> adalah pangkat tertinggi; $a_n$ adalah <b>koefisien utama</b>. Saat polinomial dikalikan, derajatnya dijumlahkan dan koefisien utamanya dikalikan.</p>
-<h3>Pembagian</h3>
-<p>Membagi $P(x)$ dengan $(x - a)$ menghasilkan hasil bagi $Q(x)$ dan sisa $R$: $P(x) = (x - a)Q(x) + R$. <b>Cara Horner</b> (pembagian sintetis) adalah cara cepat yang hanya memakai koefisien.</p>
-⟦0⟧
-⟦1⟧
-<h3>Akar-akar polinomial berderajat tiga</h3>
-<p>Untuk $ax^3 + bx^2 + cx + d = 0$ dengan akar-akar $r_1, r_2, r_3$:</p>
-⟦2⟧
-⟦3⟧`,
   '16v6jrymjv2': R`<p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ dengan cara Horner:</p>⟦0⟧<p>Hasil bagi $x^2 - 2x - 3$, sisa 0.</p>`,
   'agfsjitvd': R`<p><b>Teorema sisa:</b> sisa pembagian $P(x)$ oleh $(x - a)$ adalah $P(a)$.</p><p><b>Teorema faktor:</b> $(x - a)$ adalah faktor $P(x)$ tepat ketika $P(a) = 0$.</p>`,
   'sqyu8zjvtn': R`<p>Membagi dengan $(x + 3)$ berarti $a = -3$: hitung $P(-3)$, bukan $P(3)$.</p>`,
@@ -31,16 +21,6 @@ addT('id', {
   '1uusi8yg5sk': R`Konstanta hasil kali adalah hasil kali konstanta-konstantanya: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.`,
 
   // matrices
-  '104wb071wss': R`
-<p><b>Matriks</b> adalah susunan bilangan berbentuk persegi panjang. Matriks $m \times n$ memiliki $m$ baris dan $n$ kolom; $a_{ij}$ adalah elemen pada baris $i$, kolom $j$.</p>
-<h3>Operasi</h3>
-<ul><li><b>Penjumlahan/pengurangan</b> elemen demi elemen (hanya untuk ordo yang sama).</li><li><b>Perkalian skalar</b>: kalikan setiap elemen.</li><li><b>Perkalian</b> $AB$: elemen $(i, j)$ adalah baris $i$ dari $A$ "dikali" kolom $j$ dari $B$. Syaratnya (banyak kolom $A$) = (banyak baris $B$), dan matriks $m \times n$ dikali $n \times p$ menghasilkan $m \times p$.</li></ul>
-⟦0⟧
-⟦1⟧
-<h3>Determinan dan invers (2 × 2)</h3>
-⟦2⟧
-<p>Jika $\det A = 0$, matriksnya <b>singular</b> dan tidak memiliki invers. Invers dapat menyelesaikan sistem persamaan: $AX = B \Rightarrow X = A^{-1}B$.</p>
-⟦3⟧`,
   '4bk6hc9is8': R`<p>Perkalian matriks <b>tidak komutatif</b>: umumnya $AB \ne BA$.</p>`,
   '4ckwr8umw4': R`<p>Untuk invers: <b>tukar</b> $a$ dan $d$, <b>ubah tanda</b> $b$ dan $c$, lalu bagi dengan determinan.</p>`,
   '1h6gnxjh2g6': R`Tentukan determinan dari $⟦0⟧$.`,
@@ -57,12 +37,6 @@ addT('id', {
   'xdj657lej': R`Baris ⟦0⟧ dari $A$ dikali kolom ⟦1⟧ dari $B$: $⟦2⟧ = ⟦3⟧$. (Matriks $2 \times 3$ dikali $3 \times 2$ menghasilkan $2 \times 2$.)`,
 
   // vectors
-  '1gljxtukffx': R`
-<p><b>Vektor</b> memiliki besar dan arah. Dalam komponen, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ atau $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. Vektor dari $P$ ke $Q$ adalah $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   'i7t2goihqv': R`Panjang (besar)`,
   '1czax49eh4c': R`Penjumlahan`,
   'q2ntocofkn': R`jumlahkan komponennya`,
@@ -86,18 +60,6 @@ addT('id', {
   '22ii0i40ri': R`$|\mathbf{v}| = ⟦0⟧$. Bagi setiap komponen dengan ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.`,
 
   // limits
-  '239kmg9x5mj': R`
-<p>$\displaystyle\lim_{x \to a} f(x) = L$ berarti $f(x)$ dapat sedekat mungkin dengan $L$ ketika $x$ mendekati $a$ — apa pun yang terjadi tepat di $x = a$.</p>
-<h3>Teknik</h3>
-<ol><li><b>Substitusi langsung</b> berlaku untuk polinomial dan fungsi kontinu lainnya: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Faktorkan lalu sederhanakan</b> untuk bentuk $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rasionalkan</b> bentuk akar: kalikan dengan sekawannya.</li></ol>
-⟦0⟧
-<h3>Limit di tak hingga</h3>
-⟦1⟧
-<h3>Limit trigonometri istimewa</h3>
-⟦2⟧
-<h3>Kekontinuan</h3>
-<p>$f$ kontinu di $a$ jika $\lim_{x \to a} f(x) = f(a)$: tidak ada lubang, lompatan, atau asimtot di sana. Untuk fungsi sepotong-sepotong, kedua potongan harus bertemu di titik sambungnya.</p>
-⟦3⟧`,
   '25jnb5snm7z': R`<p>Untuk fungsi rasional, bagi pembilang dan penyebut dengan pangkat tertinggi $x$ pada penyebut:</p><ul><li>derajat sama → perbandingan koefisien utama;</li><li>derajat pembilang lebih kecil → 0;</li><li>derajat pembilang lebih besar → tidak ada limit berhingga ($\pm\infty$).</li></ul>`,
   'extw7corym': R`<p>$\frac{0}{0}$ bukan "0" dan bukan "tidak terdefinisi" — itu bentuk tak tentu yang menandakan perlu langkah lanjut (memfaktorkan, merasionalkan).</p>`,
   '18znpgymeuk': R`Hitunglah $\displaystyle\lim_{x \to ⟦0⟧} (⟦1⟧)$.`,
@@ -115,18 +77,6 @@ addT('id', {
   '1l84k7ifkz6': R`Kedua potongan harus bertemu di $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, jadi $⟦5⟧ + k = ⟦6⟧$ dan $k = ⟦7⟧$.`,
 
   // derivatives
-  '1pv2wkwyvwg': R`
-<p><b>Turunan</b> $f'(x)$ adalah laju perubahan sesaat $f$ — gradien garis singgung di $x$. Turunan didefinisikan dengan limit:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Garis singgung</h3>
-<p>Di $x = a$, garis singgung bergradien $m = f'(a)$ dan melalui $(a; f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
-<h3>Titik stasioner</h3>
-<p>Di tempat $f'(x) = 0$, grafik sesaat mendatar. Gunakan turunan kedua: $f''(a) \gt 0$ → minimum lokal; $f''(a) \lt 0$ → maksimum lokal. $f$ naik di tempat $f' \gt 0$ dan turun di tempat $f' \lt 0$.</p>
-<h3>Optimasi</h3>
-⟦3⟧
-⟦4⟧`,
   '1kddytp99dm': R`Aturan`,
   '21wooetnwi8': R`<p>Pagar sepanjang 100 m dipakai untuk memagari persegi panjang di tepi sungai (sisi sungai tidak perlu dipagari). Dengan sisi $x, y, x$: $2x + y = 100$, luas $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ memberikan $x = 25$, jadi $A_{\max} = 25 \times 50 = 1250$ m².</p>`,
   '14x6kebc9en': R`<p>Turunan konstanta adalah 0 — jangan membawa suku konstanta ke $f'(x)$.</p>`,
@@ -153,17 +103,6 @@ addT('id', {
   '1yi10f0kgm7': R`$v(t) = s'(t) = ⟦0⟧$, jadi $v(⟦1⟧) = ⟦2⟧$ m/s.`,
 
   // integrals
-  '1wdt9h7s66j': R`
-<p>Integral adalah kebalikan dari turunan. <b>Antiturunan</b> dari $f$ adalah sembarang $F$ dengan $F' = f$; <b>integral tak tentu</b> memuat konstanta integrasi:</p>
-⟦0⟧
-⟦1⟧
-<h3>Integral tentu</h3>
-⟦2⟧
-<p>Untuk $f \ge 0$, ini adalah luas di bawah kurva antara $x = a$ dan $x = b$. Luas di bawah sumbu-$x$ dihitung negatif, jadi pisahkan integral di akar-akarnya jika ingin luas total.</p>
-⟦3⟧
-<h3>Menentukan fungsi dari turunannya</h3>
-<p>Jika $f'(x) = 6x + 2$ dan $f(1) = 10$, maka $f(x) = 3x^2 + 2x + C$ dan $3 + 2 + C = 10$ memberikan $C = 5$.</p>
-⟦4⟧`,
   '20z1821bwrr': R`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 - 2x^2 + 3x + C$. Periksa dengan menurunkannya.</p>`,
   '1jsx5j8bwuv': R`Teorema Dasar Kalkulus`,
   'k8jg70602j': R`<p>Luas antara $y = x^2$ dan $y = 2x$: keduanya berpotongan di $x = 0$ dan $x = 2$, dan $2x \ge x^2$ di antaranya, jadi $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>`,

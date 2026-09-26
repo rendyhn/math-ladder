@@ -1,18 +1,6 @@
 /* 한국어 — 대학 (선형대수 → 라플라스 변환) */
 addT('ko', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>연립일차방정식과 계수</h3>
-<p>연립방정식 $A\mathbf{x} = \mathbf{b}$는 첨가행렬 $[A \mid \mathbf{b}]$를 기본행연산으로 사다리꼴로 바꾸어 푼다. $A$의 <b>계수</b>는 선도 성분(피벗)의 개수, 곧 사다리꼴에서 영이 아닌 행의 수이다.</p>
-⟦0⟧
-<h3>행렬식</h3>
-⟦1⟧
-<p>$n \times n$ 행렬의 유용한 성질: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. 크라메르 공식: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>고윳값과 고유벡터</h3>
-⟦2⟧
-⟦3⟧
-<p>$A$가 일차독립인 고유벡터를 $n$개 가지면 <b>대각화 가능</b>하다: $A = PDP^{-1}$. $P$의 열은 고유벡터, $D$의 대각성분은 고윳값이다.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>차원 정리:</b> $m \times n$ 행렬에 대하여 $\text{rank}(A) + \text{nullity}(A) = n$. 정사각행렬 $A$가 가역 $\iff \det A \ne 0 \iff$ 열벡터들이 일차독립 $\iff \text{rank} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>$2 \times 2$ 행렬에서는 $\lambda^2 - (\text{tr}\,A)\lambda + \det A = 0$. 고윳값의 합은 대각합, 곱은 행렬식과 같다.</p>`,
@@ -44,15 +32,6 @@ addT('ko', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$이므로 $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>허수단위는 $i^2 = -1$을 만족한다. 복소수는 $z = a + bi$ 꼴이고, 실수부는 $\text{Re}(z) = a$, 허수부는 $\text{Im}(z) = b$이다. $i$의 거듭제곱은 4개마다 반복된다: $i, -1, -i, 1, \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>극형식과 오일러 공식</h3>
-⟦2⟧
-⟦3⟧
-<p>1의 $n$제곱근은 $e^{2\pi ik/n}$ ($k = 0, 1, \ldots, n - 1$)이며, 단위원 위에 같은 간격으로 놓인 점들이다.</p>
-⟦4⟧`,
   'rz9c61mn5': R`곱셈`,
   '1lvuh3a6n9s': R`켤레`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$, $z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('ko', {
   '1xd7417ut46': R`$z = ⟦0⟧$일 때, $\text{⟦1⟧}(z^2)$를 구하시오.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p><b>확률변수</b> $X$는 각 결과에 수를 대응시킨다. 확률이 $p(x)$인 이산확률변수 $X$에 대하여:</p>
-⟦0⟧
-⟦1⟧
-<h3>정규분포</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`분포`,
   'z5bw2hz29r': R`P(X = k) 또는 밀도`,
@@ -120,17 +91,6 @@ addT('ko', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$, $\text{Var}(X) = ⟦1⟧$. $E[⟦2⟧]$를 구하시오.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p><b>표본</b> 통계량(예: $\bar{x}$)으로 <b>모집단</b>의 모수(예: $\mu$)를 추정한다. <b>중심극한정리</b>에 의해 $n$이 크면 표본평균은 평균이 $\mu$, <b>표준오차</b>가 $\frac{\sigma}{\sqrt{n}}$인 정규분포를 근사적으로 따른다.</p>
-<h3>신뢰구간</h3>
-⟦0⟧
-<p>오차한계를 $E$로 하려면 $n \ge \left(\frac{z^*\sigma}{E}\right)^2$(올림)이 필요하다. $\sigma$를 모르면 $s$와 $t$분포를 쓴다.</p>
-<h3>가설검정</h3>
-<ol><li>$H_0$(예: $\mu = \mu_0$)과 $H_1$을 세운다.</li><li>검정통계량을 계산한다. 예: $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li><b>유의확률(p값)</b>을 구한다: $H_0$이 참이라고 가정할 때 적어도 이만큼 극단적인 결과가 나올 확률.</li><li>$p \le \alpha$이면 $H_0$을 기각하고, 그렇지 않으면 기각하지 않는다.</li></ol>
-⟦1⟧
-<h3>선형회귀</h3>
-<p>최소제곱 직선 $\hat{y} = a + bx$의 기울기는 $b = r\frac{s_y}{s_x}$이고 $(\bar{x}, \bar{y})$를 지나므로 $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1.645 \;(90\%),\; 1.96 \;(95\%),\; 2.576 \;(99\%)`,
   '7nca7j57l5': R`H₀ 참`,
   '2e0zey7f13x': R`H₀ 거짓`,
@@ -172,17 +132,6 @@ addT('ko', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$이므로 올림하여 $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>정수론</h3>
-<p>$a \equiv b \pmod n$은 $n$이 $a - b$를 나누어떨어지게 한다는 뜻이다. $a \bmod n$은 $\{0, 1, \ldots, n - 1\}$ 안의 나머지이다. 합동식은 더하고 곱할 수 있으며, 거듭제곱은 단계적으로 줄일 수 있다.</p>
-⟦0⟧
-⟦1⟧
-<p>$n$을 법으로 하는 $a$의 <b>모듈러 역원</b>은 $ax \equiv 1 \pmod n$인 $x$이며, $\gcd(a, n) = 1$일 때에만 존재한다.</p>
-<h3>경우의 수</h3>
-<ul><li>원소가 $m$개인 집합에서 원소가 $n$개인 집합으로의 함수: $n^m$개; 일대일함수: $n(n-1)\cdots(n-m+1)$개.</li><li>포함배제의 원리: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>비둘기집 원리:</b> $kn$개보다 많은 물건을 $n$개의 상자에 넣으면 어떤 상자에는 적어도 $k + 1$개가 들어간다.</li></ul>
-<h3>점화식과 그래프</h3>
-<p>점화식은 앞의 항들로 각 항을 정한다. 예: $a_n = 2a_{n-1} + 1$, $a_0 = 1$. 그래프에서 <b>악수 정리</b>는 $\sum \deg(v) = 2|E|$; $K_n$의 변은 $\binom{n}{2}$개; 꼭짓점이 $n$개인 트리의 변은 $n - 1$개; 연결 그래프가 오일러 회로를 가질 필요충분조건은 모든 차수가 짝수인 것이다.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>유클리드 호제법:</b> 나머지가 0이 될 때까지 $\gcd(a, b) = \gcd(b, a \bmod b)$를 반복한다.</p><p><b>페르마의 소정리:</b> $p$가 소수이고 $p \nmid a$이면 $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. 따라서 최대공약수는 18.</p><p>$2^{100} \bmod 7$: $2^3 = 8 \equiv 1$이므로 $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>포함배제 문제(“3 또는 5로 나누어떨어지는 수”)에서 겹치는 부분은 <b>최소공배수</b> 15로 나누어떨어지는 수이다.</p>`,
@@ -223,18 +172,6 @@ addT('ko', {
   '27kjdpfw0sg': R`종류가 ⟦0⟧가지이므로 $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$명까지는 피할 수 있지만, 한 명이 더 있으면 ⟦4⟧명의 묶음이 반드시 생긴다: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>수치해석은 편리한 식으로 나타낼 수 없는 답을 근사한다. 중요한 오차는 두 가지이다: <b>절단</b> 오차(방법에서 생김)와 <b>반올림</b> 오차(유한한 정밀도에서 생김).</p>
-⟦0⟧
-<h3>근 찾기</h3>
-<ul><li><b>이분법:</b> $f(a)$와 $f(b)$의 부호가 다르면 중점 $m$을 확인하고 부호가 바뀌는 쪽 절반을 남긴다. 느리지만 확실하다: 매 단계 오차가 절반으로 준다.</li><li><b>뉴턴 방법:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. 단순근 근처에서는 매우 빠르지만(이차 수렴), 초깃값이 나쁘거나 $f' \approx 0$이면 실패할 수 있다.</li></ul>
-⟦1⟧
-<h3>수치적분</h3>
-⟦2⟧
-<p>여기서 $h = \frac{b - a}{n}$. 심프슨 공식은 3차 이하의 다항식에 대해 정확하다.</p>
-<h3>오일러 방법</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{절대오차} = |x_{\text{참}} - x_{\text{근사}}| \qquad \text{상대오차} = \frac{|x_{\text{참}} - x_{\text{근사}}|}{|x_{\text{참}}|}`,
   '1a9noj3sp27': R`<p>$f(x) = x^2 - 10$, $x_0 = 3$에서 $\sqrt{10}$ 구하기: $x_1 = 3 - \frac{-1}{6} = 3.1667$, $x_2 = 3.1623$ — 이미 소수점 아래 넷째 자리까지 정확하다.</p>`,
   'vx6qz5zup7': R`\text{사다리꼴 공식: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{심프슨 (}n \text{은 짝수): } \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('ko', {
   '6utp8finkn': R`$⟦0⟧$을 ⟦1⟧로 근사한다. 상대오차를 백분율로 소수점 아래 셋째 자리까지 구하시오.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p><b>벡터장</b> $\mathbf{F}(x, y, z) = (P, Q, R)$는 각 점에 벡터를 대응시킨다 — 바람의 속도나 힘처럼. $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$라 하면:</p>
-⟦0⟧
-<p>발산은 한 점에서 흘러나가는 양을, 회전은 소용돌이의 세기를 나타낸다.</p>
-<h3>선적분과 보존장</h3>
-⟦1⟧
-⟦2⟧
-<h3>중요한 정리들</h3>
-⟦3⟧
-<p>그린 정리의 멋진 결과: $D$의 넓이는 $\frac{1}{2}\oint_C (x\,dy - y\,dx)$이다.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{curl}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>어떤 퍼텐셜 $\varphi$에 대하여 $\mathbf{F} = \nabla\varphi$이면 $\mathbf{F}$는 <b>보존장</b>이다. 이때 $A$에서 $B$로 가는 모든 경로에 대하여 $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$. 평면(단순연결 영역)에서 $(P, Q)$가 보존장일 필요충분조건은 $P_y = Q_x$이다.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$이므로 보존장이고 $\varphi = x^2y + 3y$. $(0, 0)$에서 $(2, 1)$까지: $\varphi(2, 1) - \varphi(0, 0) = 4 + 3 = 7$.</p>`,
@@ -293,13 +219,6 @@ addT('ko', {
   '4awle3me9d': R`$P$를 $x$에 대하여 적분: $\varphi = ⟦0⟧ + g(y)$. 그러면 $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$에서 $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>역변환은 보통 먼저 부분분수로 분해한 뒤 표와 맞추어 본다.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>선형성:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>도함수:</b> $\mathcal{L}\{y'\} = sY - y(0)$, $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — 이렇게 미분방정식이 대수 문제로 바뀐다.</p>`,
   'ie964pskzz': R`<p>$y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$를 푼다.</p><p>$s^2Y - 3s - 2 + 4Y = 0$이므로 $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. 역변환하면 $y = 3\cos 2t + \sin 2t$.</p>`,

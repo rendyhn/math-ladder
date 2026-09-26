@@ -5,27 +5,49 @@ Type both solutions separated by a comma, e.g. -2, 5.
 Type an answer such as 9pi or 3pi/4.
 @2aa32u1lmw9
 TF
+@12u8u9gs25f
+A unit square repeatedly halved: 1/2, 1/4, 1/8, 1/16 … fill the whole square
 
 ##### quadratics
-@zojqk1lf1a  ; 0=Fm(T`x^2 - x - 12 = 0 \;\Rightarrow\; (x | 1=Fm(T`x^2 + 6x + 2 = 0 \;\Rightarrow\; (x | 2=Key(T`$$x = \frac{-b \pm \sqrt{b^2 - 4ac | 3=Fm(T`x_1 + x_2 = -\frac{b}{a} \qquad\qqu | 4=Ex(T`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 2 | 5=Tip(T`<p>Never divide both sides by $x$ 
+@2ayg6rt51qo  ; 0=Fm(T`x^2 - x - 12 = 0 \;\Rightarrow\; (x | 1=Fig(planeSvg({ W: 340, x: [-5, 6], y: [- | 2=Fm(T`x^2 + 6x + 2 = 0 \;\Rightarrow\; (x | 3=Key(T`$$x = \frac{-b \pm \sqrt{b^2 - 4ac | 4=FigRow([[planeSvg({ W: 220, x: [-2, 4],  | 5=Fm(T`x_1 + x_2 = -\frac{b}{a} \qquad\qqu | 6=Ex(T`<p>$2x^2 - 7x + 3 = 0$: $D = 49 - 2 | 7=Tip(T`<p>Never divide both sides by $x$ 
 
 <p>A <b>quadratic equation</b> has the form $ax^2 + bx + c = 0$ with $a \ne 0$. It has at most two solutions (roots).</p>
 <h3>1. Factorising</h3>
 <p>If a product is zero, one of its factors is zero. Find two numbers that multiply to $c$ and add to $b$ (when $a = 1$):</p>
 ⟦0⟧
-<h3>2. Completing the square</h3>
 ⟦1⟧
-<h3>3. The quadratic formula</h3>
+<h3>2. Completing the square</h3>
 ⟦2⟧
-<h3>Sum and product of roots (Vieta)</h3>
+<h3>3. The quadratic formula</h3>
 ⟦3⟧
-<p>So an equation with roots $r$ and $s$ is $x^2 - (r + s)x + rs = 0$.</p>
 ⟦4⟧
+<h3>Sum and product of roots (Vieta)</h3>
 ⟦5⟧
+<p>So an equation with roots $r$ and $s$ is $x^2 - (r + s)x + rs = 0$.</p>
+⟦6⟧
+⟦7⟧
 @2eim40ubkm5
 x^2 - x - 12 = 0 \;\Rightarrow\; (x - 4)(x + 3) = 0 \;\Rightarrow\; x = 4 \text{ or } x = -3
+@2df5i2n5fxl
+Parabola y = x² − x − 12 crossing the x-axis at −3 and 4
+@1a0ipt3mxs6
+The roots are where the graph crosses the $x$-axis: $x = -3$ and $x = 4$.
 @2fswinarukx
 $$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$<p>The <b>discriminant</b> $D = b^2 - 4ac$ tells you how many real roots there are:</p><ul><li>$D \gt 0$: two distinct real roots</li><li>$D = 0$: one repeated real root</li><li>$D \lt 0$: no real roots (two complex roots)</li></ul>
+@1ot26xx6whq
+Parabola crossing the x-axis twice
+@ui14wewfih
+$D \gt 0$: two roots
+@1kyv65yupx6
+Parabola touching the x-axis once
+@s47tj5d72u
+$D = 0$: one root
+@27vsbjm7p55
+Parabola above the x-axis
+@sdk9apoqyu
+$D \lt 0$: no real roots
+@1w3my89w63p
+The discriminant decides whether the parabola crosses, touches or misses the $x$-axis.
 @2es7ki62fmx
 <p>$2x^2 - 7x + 3 = 0$: $D = 49 - 24 = 25$, so $x = \frac{7 \pm 5}{4}$, giving $x = 3$ or $x = \frac{1}{2}$. Check: sum $= \frac{7}{2}$ ✓, product $= \frac{3}{2}$ ✓.</p>
 @2fn72wvlok5
@@ -74,21 +96,37 @@ A rectangle's length is ⟦0⟧ m more than its width, and its area is ⟦1⟧ m
 Let the width be $w$: $w(w + ⟦0⟧) = ⟦1⟧$, so $⟦2⟧ = 0$, i.e. $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. A width must be positive, so $w = ⟦5⟧$ m.
 
 ##### quad-functions
-@t6hwj355ki  ; 0=Key(T`<ul><li>Axis of symmetry and verte | 1=Fm(T`f(x) = a(x - h)^2 + k \qquad \text{ | 2=Ex(T`<p>A ball's height is $h(t) = -5t^2 | 3=Tip(T`<p>The axis of symmetry lies exact
+@r0cxzc7jq8  ; 0=Key(T`<ul><li>Axis of symmetry and verte | 1=Fm(T`f(x) = a(x - h)^2 + k \qquad \text{ | 2=Fig(planeSvg({ W: 320, x: [-1, 7], y: [- | 3=Ex(T`<p>A ball's height is $h(t) = -5t^2 | 4=Fig(planeSvg({ W: 340, x: [0, 4.5], y: [ | 5=Tip(T`<p>The axis of symmetry lies exact
 
 <p>The graph of $f(x) = ax^2 + bx + c$ is a <b>parabola</b>. It opens <b>upward</b> if $a \gt 0$ (a valley, with a minimum) and <b>downward</b> if $a \lt 0$ (a hill, with a maximum).</p>
 ⟦0⟧
 <h3>Vertex form</h3>
 ⟦1⟧
-<p>Completing the square converts standard form to vertex form: $x^2 - 6x + 11 = (x - 3)^2 + 2$, so the vertex is $(3, 2)$ and the minimum value is 2. The range is $y \ge 2$.</p>
 ⟦2⟧
+<p>Completing the square converts standard form to vertex form: $x^2 - 6x + 11 = (x - 3)^2 + 2$, so the vertex is $(3, 2)$ and the minimum value is 2. The range is $y \ge 2$.</p>
 ⟦3⟧
+⟦4⟧
+⟦5⟧
 @s0tk1crha5
 <ul><li>Axis of symmetry and vertex: $x = -\dfrac{b}{2a}$; the vertex is $\left(-\dfrac{b}{2a},\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>$y$-intercept: $(0, c)$.</li><li>$x$-intercepts: the roots of $ax^2 + bx + c = 0$ (if any).</li></ul>
 @8vanwczjp2
 f(x) = a(x - h)^2 + k \qquad \text{vertex } (h, k)
+@1xdj87zn4cv
+vertex (3, 2)
+@24zhl271dki
+axis x = 3
+@1smbyumcyqd
+Parabola with vertex (3, 2) and axis of symmetry x = 3
+@neeqce8iry
+$y = (x - 3)^2 + 2$: the vertex $(3, 2)$ sits on the axis of symmetry $x = 3$; the graph is a mirror image on either side.
 @17der0pee5r
 <p>A ball's height is $h(t) = -5t^2 + 20t + 1$ metres. The vertex is at $t = -\frac{20}{2(-5)} = 2$ s, and the maximum height is $h(2) = -20 + 40 + 1 = 21$ m.</p>
+@16qcu2sfdou
+max 21 m at t = 2 s
+@1t7piztddba
+Height of a ball h = −5t² + 20t + 1 with maximum 21 m at t = 2 s
+@8czrhdn0de
+The ball's path: a downward parabola ($a \lt 0$) whose vertex is the highest point.
 @zvghnbm8dy
 <p>The axis of symmetry lies exactly halfway between the two $x$-intercepts: if the roots are $p$ and $q$, it is $x = \frac{p + q}{2}$.</p>
 @1mhp7175d34  ; 0=poly([a, b, c])
@@ -127,25 +165,39 @@ The vertex is $⟦0⟧$ and the parabola opens upward, so the range is $y \ge �
 The vertex is $⟦0⟧$ and the parabola opens downward, so the range is $y \le ⟦1⟧$.
 
 ##### functions
-@8naid6th7m  ; 0=Key(T`$$(f \circ g)(x) = f(g(x))$$<p>App | 1=Ex(T`<p>$f(x) = 2x + 1$, $g(x) = x^2$. T | 2=Ex(T`<p>$f(x) = 3x - 5$: swap to get $x  | 3=Tip(T`<p>$f^{-1}(x)$ means the inverse f
+@1mi3l1zkm3t  ; 0=FigRow([[mappingSvg(['1', '2', '3'], ['3 | 1=Key(T`$$(f \circ g)(x) = f(g(x))$$<p>App | 2=Ex(T`<p>$f(x) = 2x + 1$, $g(x) = x^2$. T | 3=Ex(T`<p>$f(x) = 3x - 5$: swap to get $x  | 4=Fig(planeSvg({ W: 320, x: [-6, 6], y: [- | 5=Tip(T`<p>$f^{-1}(x)$ means the inverse f
 
 <p>A <b>function</b> assigns to each input exactly <b>one</b> output. The set of allowed inputs is the <b>domain</b>; the set of outputs is the <b>range</b>.</p>
+⟦0⟧
 <h3>Natural domains</h3>
 <ul><li>No division by zero: for $\frac{1}{x - 2}$, the domain is $x \ne 2$.</li><li>No square roots of negatives: for $\sqrt{x + 3}$, the domain is $x \ge -3$.</li><li>Logarithms need positive arguments: for $\log(x - 1)$, the domain is $x \gt 1$.</li></ul>
 <h3>Composition</h3>
-⟦0⟧
 ⟦1⟧
+⟦2⟧
 <h3>Inverse functions</h3>
 <p>$f^{-1}$ undoes $f$: if $f(a) = b$ then $f^{-1}(b) = a$. To find it, write $y = f(x)$, swap $x$ and $y$, and solve for $y$.</p>
-⟦2⟧
-<p>The graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y = x$. Only one-to-one functions have inverses.</p>
 ⟦3⟧
+⟦4⟧
+<p>The graph of $f^{-1}$ is the reflection of the graph of $f$ in the line $y = x$. Only one-to-one functions have inverses.</p>
+⟦5⟧
+@295s65oqmbi
+Mapping diagram of a function
+@b84d1oqpg0
+Function: each input has one output
+@1qwi8aqdo25
+Mapping diagram that is not a function
+@bzyc25gztx
+Not a function: 1 has two outputs
 @1ph305emxqf
 $$(f \circ g)(x) = f(g(x))$$<p>Apply $g$ first, then $f$. In general $f \circ g \ne g \circ f$.</p>
 @1cxwjq7z97r
 <p>$f(x) = 2x + 1$, $g(x) = x^2$. Then $f(g(3)) = f(9) = 19$, but $g(f(3)) = g(7) = 49$. As expressions: $f(g(x)) = 2x^2 + 1$ and $g(f(x)) = (2x + 1)^2$.</p>
 @15c8mvolh1o
 <p>$f(x) = 3x - 5$: swap to get $x = 3y - 5$, so $y = \frac{x + 5}{3}$ and $f^{-1}(x) = \frac{x + 5}{3}$. Check: $f(f^{-1}(x)) = x$ ✓</p>
+@ku7jg1k7ol
+Graphs of f(x) = 3x − 5 and its inverse, mirror images in the line y = x
+@xkcxsaydnf
+$f$ and $f^{-1}$ are mirror images in $y = x$: the point $(2, 1)$ on $f$ becomes $(1, 2)$ on $f^{-1}$.
 @26njpf4q54n
 <p>$f^{-1}(x)$ means the inverse function, not $\frac{1}{f(x)}$.</p>
 @i7pel35sqq  ; 0=lin(a, b) | 1=poly([1, 0, c]) | 2=fg ? `f(g(${k}))` : `g(f(${k}))`
@@ -184,21 +236,31 @@ Since $⟦0⟧ \lt ⟦1⟧$, use the first rule: $f(⟦2⟧) = ⟦3⟧$.
 Since $⟦0⟧ \ge ⟦1⟧$, use the second rule: $f(⟦2⟧) = ⟦3⟧$.
 
 ##### exp-log
-@l9f49uc5fx  ; 0=Key(T`$$\log_b a = c \quad\Longleftright | 1=Tbl([T`Law`, T`Example`], [[T`$\log_b(xy | 2=Tip(T`<p>$\log(x + y) \ne \log x + \log 
+@24wdt7r22ed  ; 0=Key(T`$$\log_b a = c \quad\Longleftright | 1=Tbl([T`Law`, T`Example`], [[T`$\log_b(xy | 2=Fig(planeSvg({ W: 320, x: [-4, 8], y: [- | 3=Fig(planeSvg({ W: 340, x: [0, 22], y: [0 | 4=Tip(T`<p>$\log(x + y) \ne \log x + \log 
 
 <p>Rational exponents combine powers and roots: $a^{\frac{m}{n}} = \left(\sqrt[n]{a}\right)^m$. So $8^{\frac{2}{3}} = (\sqrt[3]{8})^2 = 4$ and $16^{-\frac{1}{2}} = \frac{1}{4}$.</p>
 <h3>Logarithms</h3>
 ⟦0⟧
 ⟦1⟧
+⟦2⟧
 <h3>Solving equations</h3>
 <ul><li>Same base: $2^{x+1} = 32 = 2^5 \Rightarrow x + 1 = 5 \Rightarrow x = 4$.</li><li>Log equation: $\log_3(2x - 1) = 2 \Rightarrow 2x - 1 = 3^2 = 9 \Rightarrow x = 5$.</li><li>Different bases: take logs of both sides, $5^x = 20 \Rightarrow x = \frac{\log 20}{\log 5} \approx 1.861$.</li></ul>
 <h3>Exponential growth and decay</h3>
 <p>$A = A_0 \cdot r^{t/T}$: a quantity multiplied by $r$ every $T$ time units. Compound interest: $A = P(1 + i)^n$.</p>
-⟦2⟧
+⟦3⟧
+⟦4⟧
 @cgsm0nxs87
 $$\log_b a = c \quad\Longleftrightarrow\quad b^c = a \qquad (b \gt 0,\; b \ne 1,\; a \gt 0)$$<p>A logarithm answers "what power of $b$ gives $a$?" — so $\log_2 32 = 5$. $\log x$ means $\log_{10} x$; $\ln x$ means $\log_e x$ with $e \approx 2.718$.</p>
 @5k5p7u9mjc
 change of base
+@1s6oxtf8uwp
+Graphs of y = 2 to the x and y = log base 2 of x, reflections in y = x
+@jeflpwn4hi
+$y = \log_2 x$ is the reflection of $y = 2^x$ in $y = x$: it passes through $(1, 0)$ because $2^0 = 1$, and is only defined for $x \gt 0$.
+@qovloyiaa
+Exponential decay halving every 5 years: 100, 50, 25, 12.5
+@ea9i2rkdn9
+Decay with $r = \frac{1}{2}$ and $T = 5$: $A = 100 \cdot \left(\frac{1}{2}\right)^{t/5}$ halves every 5 years (a half-life).
 @unmvz575yi
 <p>$\log(x + y) \ne \log x + \log y$. The product law turns a <i>product</i> inside into a sum outside.</p>
 @osur1d06sr  ; 0=b | 1=arg
@@ -239,7 +301,7 @@ $⟦0⟧ = ⟦1⟧$, so $\log ⟦2⟧ = ⟦3⟧ \approx ⟦4⟧$.⟦5⟧
  Here $\log 5 = 1 - 0.3010 = 0.6990$.
 
 ##### sequences
-@214j3dem4vw  ; 0=Tbl(['', T`Arithmetic`, T`Geometric`], [ | 1=Ex(T`<p>The sum of the first 20 terms of | 2=Ex(T`<p>In an arithmetic sequence $u_4 = | 3=Key(T`<p>If $|r| \lt 1$ the terms shrink | 4=Tip(T`<p>Between $u_p$ and $u_q$ there a
+@3hbd521s2e  ; 0=Tbl(['', T`Arithmetic`, T`Geometric`], [ | 1=Ex(T`<p>The sum of the first 20 terms of | 2=Ex(T`<p>In an arithmetic sequence $u_4 = | 3=Key(T`<p>If $|r| \lt 1$ the terms shrink | 4=Fig(halvingSquareSvg(), T`$\frac{1}{2} + | 5=Tip(T`<p>Between $u_p$ and $u_q$ there a
 
 ⟦0⟧
 <p>Here $a$ is the first term and $l$ the last term.</p>
@@ -248,9 +310,10 @@ $⟦0⟧ = ⟦1⟧$, so $\log ⟦2⟧ = ⟦3⟧ \approx ⟦4⟧$.⟦5⟧
 <h3>Infinite geometric series</h3>
 ⟦3⟧
 <p>Example: $8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$.</p>
+⟦4⟧
 <h3>Sigma notation</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ means $f(1) + f(2) + \cdots + f(n)$. Useful facts: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ and $\sum_{k=1}^{n} c = cn$.</p>
-⟦4⟧
+⟦5⟧
 @lwukzez7ke
 Arithmetic
 @1atqzl7ltey
@@ -267,6 +330,8 @@ Sum of n terms
 <p>In an arithmetic sequence $u_4 = 17$ and $u_9 = 42$. Five steps of $d$ separate them, so $5d = 25$, $d = 5$, and $a = 17 - 3 \times 5 = 2$.</p>
 @3zsr22exdg
 <p>If $|r| \lt 1$ the terms shrink fast enough for the sum to settle on a finite value:</p>$$S_\infty = \frac{a}{1 - r}$$<p>If $|r| \ge 1$ the series has no finite sum.</p>
+@1vtnatr92t4
+$\frac{1}{2} + \frac{1}{4} + \frac{1}{8} + \cdots$ keeps filling half of what is left, so it never passes 1 — the sum to infinity is exactly $\frac{1/2}{1 - 1/2} = 1$.
 @22swm7le3e
 <p>Between $u_p$ and $u_q$ there are $q - p$ steps, not $q - p + 1$.</p>
 @v83xyier66  ; 0=p | 1=a + (p - 1) * d | 2=q | 3=a + (q - 1) * d | 4=r
@@ -291,21 +356,34 @@ Dina's first-year salary is ⟦0⟧ dollars and it rises by ⟦1⟧ dollars ever
 This is an arithmetic series: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ dollars.
 
 ##### trig-basics
-@25ycjlixcfv  ; 0=Fm(T`\sin\theta = \frac{\text{opposite}} | 1=Tbl(['θ', '0°', '30°', '45°', '60°', '90 | 2=Key(T`<p>For any angle $\theta$, the poi | 3=Ex(T`<p>From 30 m away, the angle of ele | 4=Tip(T`<p>Check your calculator mode (DEG
+@1t70i52x3de  ; 0=Fm(T`\sin\theta = \frac{\text{opposite}} | 1=Fig(triangleSvg([[40, 180], [300, 180],  | 2=Tbl(['θ', '0°', '30°', '45°', '60°', '90 | 3=FigRow([[triangleSvg([[20, 150], [200, 1 | 4=Key(T`<p>For any angle $\theta$, the poi | 5=Fig(planeSvg({ W: 320, x: [-1.4, 1.4], y | 6=Ex(T`<p>From 30 m away, the angle of ele | 7=Tip(T`<p>Check your calculator mode (DEG
 
 <p>In a right triangle, relative to an acute angle $\theta$:</p>
 ⟦0⟧
+⟦1⟧
 <p>Memory aid: <b>SOH-CAH-TOA</b>. Also $\tan\theta = \frac{\sin\theta}{\cos\theta}$, and the reciprocals are $\csc\theta = \frac{1}{\sin\theta}$, $\sec\theta = \frac{1}{\cos\theta}$, $\cot\theta = \frac{1}{\tan\theta}$.</p>
 <h3>Exact values</h3>
-⟦1⟧
+⟦2⟧
+⟦3⟧
 <h3>Radians</h3>
 <p>$180^\circ = \pi$ radians. To convert degrees to radians multiply by $\frac{\pi}{180}$; radians to degrees multiply by $\frac{180}{\pi}$. So $60^\circ = \frac{\pi}{3}$ and $\frac{3\pi}{4} = 135^\circ$.</p>
 <h3>The unit circle</h3>
-⟦2⟧
-⟦3⟧
 ⟦4⟧
+⟦5⟧
+⟦6⟧
+⟦7⟧
 @27jmws7mgxv
 \sin\theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan\theta = \frac{\text{opposite}}{\text{adjacent}}
+@1x61y1509nw
+adjacent
+@6caqcq2gkc
+opposite
+@1ilnjp6gt1o
+hypotenuse
+@a0f8g4t9i2
+Right triangle with angle theta: adjacent side along the bottom, opposite side vertical, hypotenuse slanted
+@1zrbwlvtfgw
+Names depend on the angle: the opposite side faces $\theta$, the adjacent side touches it, the hypotenuse faces the right angle.
 @ig8vf2x1y6
 sin θ
 @1qsg2x3tak
@@ -314,8 +392,26 @@ cos θ
 tan θ
 @5bd73v8u9s
 undefined
+@rrf7aflm82
+30-60-90 triangle with sides 1, root 3 and 2
+@1fsfo15wcly
+45-45-90 triangle with sides 1, 1 and root 2
+@2d3ydwfjvbc
+The exact values come from these two triangles (half a square and half an equilateral triangle).
 @uyvhui04wr
 <p>For any angle $\theta$, the point on the unit circle is $(\cos\theta, \sin\theta)$. Signs by quadrant — "<b>A</b>ll <b>S</b>tudents <b>T</b>ake <b>C</b>alculus": all positive in I, sin in II, tan in III, cos in IV.</p><p>Use the <b>reference angle</b> (the acute angle to the $x$-axis) plus the correct sign: $\sin 150^\circ = +\sin 30^\circ = \frac{1}{2}$, $\cos 240^\circ = -\cos 60^\circ = -\frac{1}{2}$.</p>
+@7rps7y09yd
+All +
+@2ayg6tt8n96
+Sin +
+@bces0a05ul
+Tan +
+@1e8w7p9ym5b
+Cos +
+@1v5h6x67v2x
+Unit circle with the point (cos theta, sin theta) and the signs in each quadrant
+@wf7766943r
+On the unit circle the point at angle $\theta$ is $(\cos\theta, \sin\theta)$; the quadrant labels show which ratios are positive.
 @hizqd1rl8k
 <p>From 30 m away, the angle of elevation to the top of a tower is $60^\circ$. Height $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52.0$ m.</p>
 @neyxpix7b9
@@ -374,24 +470,34 @@ In which quadrant does $\theta$ lie if $⟦0⟧\theta ⟦1⟧ 0$ and $⟦2⟧\th
 sin is positive in I and II; cos in I and IV; tan in I and III. Only <b>⟦0⟧</b> matches both conditions.
 
 ##### trig-identities
-@v1udjwhzk5  ; 0=Key(T`$$\sin^2\theta + \cos^2\theta = 1  | 1=Tbl([T`Compound angles`, T`Double angles | 2=Ex(T`<p>$\sin 75^\circ = \sin(45^\circ + | 3=Ex(T`<p>Solve $\sin x = -\frac{1}{2}$ fo | 4=Tip(T`<p>If $\sin\theta = \frac{3}{5}$ a
+@mvrwakwbru  ; 0=Key(T`$$\sin^2\theta + \cos^2\theta = 1  | 1=FigW(planeSvg({ W: 560, H: 220, x: [0, 3 | 2=Tbl([T`Compound angles`, T`Double angles | 3=Ex(T`<p>$\sin 75^\circ = \sin(45^\circ + | 4=Ex(T`<p>Solve $\sin x = -\frac{1}{2}$ fo | 5=FigW(planeSvg({ W: 560, H: 200, x: [0, 3 | 6=Tip(T`<p>If $\sin\theta = \frac{3}{5}$ a
 
 <p>An <b>identity</b> is true for every angle. The most important ones:</p>
 ⟦0⟧
 ⟦1⟧
 ⟦2⟧
+⟦3⟧
 <h3>Solving trig equations</h3>
 <p>Find the reference angle, then every angle in the required interval with the right sign.</p>
-⟦3⟧
 ⟦4⟧
+⟦5⟧
+⟦6⟧
 @23mroepg91v
 Pythagorean identities
+@290uscz1t5v
+Graphs of sin x and cos x from 0 to 360 degrees
+@1vb77zjcntx
+$\sin x$ and $\cos x$ are the same wave shifted by $90^\circ$; both repeat every $360^\circ$ and stay between $-1$ and 1.
 @28msif6x03y
 Compound angles
 @1qlqqnnfd2i
 Double angles
 @14xjp53gt4x
 <p>Solve $\sin x = -\frac{1}{2}$ for $0^\circ \le x \lt 360^\circ$. The reference angle is $30^\circ$; sine is negative in quadrants III and IV, so $x = 180^\circ + 30^\circ = 210^\circ$ or $x = 360^\circ - 30^\circ = 330^\circ$.</p>
+@zm1uo0yz1r
+Sine curve meeting the line y = −1/2 at 210 and 330 degrees
+@1s5iw6srr9n
+$\sin x = -\frac{1}{2}$ has two solutions in one turn, where the wave crosses the line: $210^\circ$ and $330^\circ$.
 @1hkvix57r6q
 <p>If $\sin\theta = \frac{3}{5}$ and $\theta$ is in quadrant II, then $\cos\theta = -\frac{4}{5}$ — the Pythagorean identity gives the size, the quadrant gives the sign.</p>
 @64164qr2jw  ; 0=a | 1=c
@@ -424,7 +530,7 @@ $\tan\theta = ⟦0⟧$ and $\theta$ lies in quadrant ⟦1⟧. Find $⟦2⟧$.
 The triangle has sides ⟦0⟧, ⟦1⟧, ⟦2⟧. In quadrant ⟦3⟧, sine is ⟦4⟧ and cosine is ⟦5⟧, so $\sin\theta = ⟦6⟧$ and $\cos\theta = ⟦7⟧$.
 
 ##### triangle-rules
-@2ga1qjtwo42  ; 0=Key(T`$$\frac{a}{\sin A} = \frac{b}{\sin | 1=Key(T`$$a^2 = b^2 + c^2 - 2bc\cos A \qqu | 2=Key(T`$$\text{Area} = \tfrac{1}{2}ab\sin | 3=Ex(T`<p>Sides 5 and 8 with an included a | 4=Tip(T`<p>The sine rule can give two poss
+@2ei45ji3kzc  ; 0=Fig(triangleSvg([[40, 170], [320, 170],  | 1=Key(T`$$\frac{a}{\sin A} = \frac{b}{\sin | 2=Key(T`$$a^2 = b^2 + c^2 - 2bc\cos A \qqu | 3=Key(T`$$\text{Area} = \tfrac{1}{2}ab\sin | 4=Ex(T`<p>Sides 5 and 8 with an included a | 5=Tip(T`<p>The sine rule can give two poss
 
 <p>Label a triangle so that side $a$ is opposite angle $A$, $b$ opposite $B$, and $c$ opposite $C$. These rules work for <b>any</b> triangle, not just right triangles.</p>
 ⟦0⟧
@@ -432,6 +538,11 @@ The triangle has sides ⟦0⟧, ⟦1⟧, ⟦2⟧. In quadrant ⟦3⟧, sine is �
 ⟦2⟧
 ⟦3⟧
 ⟦4⟧
+⟦5⟧
+@29p2h3x92hg
+Triangle ABC with side a opposite A, b opposite B and c opposite C
+@3diu9ruk8r
+Each side is named after the angle opposite it: $a$ faces $A$, $b$ faces $B$, $c$ faces $C$.
 @2fw62bzegqh
 $$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>Use it when you know a side and its opposite angle, plus one more side or angle.</p>
 @mp16igkhf3
@@ -470,21 +581,26 @@ Use Heron's formula to find the area of a triangle with sides ⟦0⟧, ⟦1⟧ a
 $s = \frac{⟦0⟧ + ⟦1⟧ + ⟦2⟧}{2} = ⟦3⟧$. Area $= \sqrt{⟦4⟧(⟦5⟧)(⟦6⟧)(⟦7⟧)} = \sqrt{⟦8⟧} = ⟦9⟧$.
 
 ##### polynomials
-@1dv82xempy  ; 0=Ex(T`<p>$(x^3 - 4x^2 + x + 6) \div (x -  | 1=Key(T`<p><b>Remainder theorem:</b> the r | 2=Fm(T`r_1 + r_2 + r_3 = -\frac{b}{a} \qqu | 3=Tip(T`<p>Dividing by $(x + 3)$ means $a 
+@61mbb87wjy  ; 0=Ex(T`<p>$(x^3 - 4x^2 + x + 6) \div (x -  | 1=Key(T`<p><b>Remainder theorem:</b> the r | 2=Fig(planeSvg({ W: 340, x: [-2, 4], y: [- | 3=Fm(T`r_1 + r_2 + r_3 = -\frac{b}{a} \qqu | 4=Tip(T`<p>Dividing by $(x + 3)$ means $a 
 
 <p>A <b>polynomial</b> is a sum of terms $a_n x^n + \cdots + a_1 x + a_0$ with whole-number powers. Its <b>degree</b> is the highest power; $a_n$ is the <b>leading coefficient</b>. When multiplying polynomials, degrees add and leading coefficients multiply.</p>
 <h3>Division</h3>
 <p>Dividing $P(x)$ by $(x - a)$ gives a quotient $Q(x)$ and a remainder $R$: $P(x) = (x - a)Q(x) + R$. <b>Synthetic division</b> is a quick way to do it using only the coefficients.</p>
 ⟦0⟧
 ⟦1⟧
+⟦2⟧
 <h3>Roots of a cubic</h3>
 <p>For $ax^3 + bx^2 + cx + d = 0$ with roots $r_1, r_2, r_3$:</p>
-⟦2⟧
 ⟦3⟧
+⟦4⟧
 @16v6jrymjv2  ; 0=Tbl(['2', '1', '−4', '1', '6'], [['', ''
 <p>$(x^3 - 4x^2 + x + 6) \div (x - 2)$ with synthetic division:</p>⟦0⟧<p>Quotient $x^2 - 2x - 3$, remainder 0.</p>
 @agfsjitvd
 <p><b>Remainder theorem:</b> the remainder when $P(x)$ is divided by $(x - a)$ is $P(a)$.</p><p><b>Factor theorem:</b> $(x - a)$ is a factor of $P(x)$ exactly when $P(a) = 0$.</p>
+@kmj00f2t6h
+Graph of the cubic x³ − 4x² + x + 6 crossing the x-axis at −1, 2 and 3
+@d5j9grci2i
+$P(x) = x^3 - 4x^2 + x + 6 = (x + 1)(x - 2)(x - 3)$: each factor $(x - a)$ gives a root where the curve crosses the axis.
 @sqyu8zjvtn
 <p>Dividing by $(x + 3)$ means $a = -3$: evaluate $P(-3)$, not $P(3)$.</p>
 @u4dg9by4un  ; 0=poly(c) | 1=sg(-r)
@@ -519,7 +635,7 @@ Multiply the leading terms: $⟦0⟧ \cdot ⟦1⟧ = ⟦2⟧$, so the leading co
 The constant term is the product of the constant terms: $⟦0⟧ \times ⟦1⟧ = ⟦2⟧$.
 
 ##### matrices
-@104wb071wss  ; 0=Fm(T`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end | 1=Key(T`<p>Matrix multiplication is <b>not | 2=Fm(T`A = \begin{pmatrix} a & b \\ c & d  | 3=Tip(T`<p>For the inverse: <b>swap</b> $a
+@1v5flijcft8  ; 0=Fm(T`\begin{pmatrix} 1 & 2 \\ 3 & 4 \end | 1=Key(T`<p>Matrix multiplication is <b>not | 2=Fm(T`A = \begin{pmatrix} a & b \\ c & d  | 3=Fig(planeSvg({ W: 320, x: [-1, 4], y: [- | 4=Tip(T`<p>For the inverse: <b>swap</b> $a
 
 <p>A <b>matrix</b> is a rectangular array of numbers. An $m \times n$ matrix has $m$ rows and $n$ columns; $a_{ij}$ is the entry in row $i$, column $j$.</p>
 <h3>Operations</h3>
@@ -530,12 +646,21 @@ The constant term is the product of the constant terms: $⟦0⟧ \times ⟦1⟧ 
 ⟦2⟧
 <p>If $\det A = 0$ the matrix is <b>singular</b> and has no inverse. Inverses solve systems: $AX = B \Rightarrow X = A^{-1}B$.</p>
 ⟦3⟧
+⟦4⟧
 @itm4o8cny
 \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}\begin{pmatrix} 5 & 6 \\ 7 & 8 \end{pmatrix} = \begin{pmatrix} 1\cdot5 + 2\cdot7 & 1\cdot6 + 2\cdot8 \\ 3\cdot5 + 4\cdot7 & 3\cdot6 + 4\cdot8 \end{pmatrix} = \begin{pmatrix} 19 & 22 \\ 43 & 50 \end{pmatrix}
 @4bk6hc9is8
 <p>Matrix multiplication is <b>not commutative</b>: usually $AB \ne BA$.</p>
 @25hetn68fsz
 A = \begin{pmatrix} a & b \\ c & d \end{pmatrix} \qquad \det A = ad - bc \qquad A^{-1} = \frac{1}{ad - bc}\begin{pmatrix} d & -b \\ -c & a \end{pmatrix}
+@1jclipsu2an
+area 1
+@2bovttmv9b4
+area 2
+@1ir4ocgumcz
+The matrix with rows (2, 1) and (0, 1) maps the unit square to a parallelogram of area 2
+@28dc7tt4yqq
+$\begin{pmatrix} 2 & 1 \\ 0 & 1 \end{pmatrix}$ sends the unit square to a parallelogram. Its determinant, 2, is the area scale factor.
 @4ckwr8umw4
 <p>For the inverse: <b>swap</b> $a$ and $d$, <b>negate</b> $b$ and $c$, then divide by the determinant.</p>
 @1h6gnxjh2g6  ; 0=mat(m)
@@ -564,13 +689,14 @@ $A = ⟦0⟧$ and $B = ⟦1⟧$. Find the entry in row ⟦2⟧, column ⟦3⟧ o
 Row ⟦0⟧ of $A$ dotted with column ⟦1⟧ of $B$: $⟦2⟧ = ⟦3⟧$. (A $2 \times 3$ times a $3 \times 2$ matrix is $2 \times 2$.)
 
 ##### vectors
-@1gljxtukffx  ; 0=Tbl([T`Operation`, T`Rule`], [[T`Magnitu | 1=Key(T`$$\mathbf{a}\cdot\mathbf{b} = |\ma | 2=Ex(T`<p>$\mathbf{a} = \begin{pmatrix} 3  | 3=Tip(T`<p>The dot product of two vectors 
+@etxqyliwjj  ; 0=Tbl([T`Operation`, T`Rule`], [[T`Magnitu | 1=Fig(planeSvg({ W: 300, x: [-1, 5], y: [- | 2=Key(T`$$\mathbf{a}\cdot\mathbf{b} = |\ma | 3=Ex(T`<p>$\mathbf{a} = \begin{pmatrix} 3  | 4=Tip(T`<p>The dot product of two vectors 
 
 <p>A <b>vector</b> has size and direction. In components, $\mathbf{a} = \begin{pmatrix} a_1 \\ a_2 \end{pmatrix}$ or $\begin{pmatrix} a_1 \\ a_2 \\ a_3 \end{pmatrix}$. The vector from $P$ to $Q$ is $\overrightarrow{PQ} = \mathbf{q} - \mathbf{p}$.</p>
 ⟦0⟧
 ⟦1⟧
 ⟦2⟧
 ⟦3⟧
+⟦4⟧
 @i7t2goihqv
 Magnitude
 @1czax49eh4c
@@ -585,6 +711,10 @@ $k\mathbf{a}$: multiply every component by $k$
 Unit vector
 @214ftyeo0vg
 Dot product
+@2fyfdxmivso
+Triangle law: vector a then vector b gives a plus b
+@1dxsrrk9peh
+Triangle law: put $\mathbf{b}$ at the tip of $\mathbf{a}$; the sum goes from the start of $\mathbf{a}$ to the tip of $\mathbf{b}$. Here $\binom{3}{1} + \binom{1}{3} = \binom{4}{4}$.
 @1xghg9dwzeq
 $$\mathbf{a}\cdot\mathbf{b} = |\mathbf{a}|\,|\mathbf{b}|\cos\theta \qquad\Longrightarrow\qquad \cos\theta = \frac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}|\,|\mathbf{b}|}$$<p>Two non-zero vectors are <b>perpendicular</b> exactly when $\mathbf{a}\cdot\mathbf{b} = 0$.</p>
 @1w9baxb120w
@@ -615,21 +745,33 @@ Type the components separated by a comma, e.g. 3/5, -4/5.
 $|\mathbf{v}| = ⟦0⟧$. Divide each component by ⟦1⟧: $\hat{\mathbf{v}} = ⟦2⟧$.
 
 ##### limits
-@239kmg9x5mj  ; 0=Ex(T`$$\lim_{x \to 0}\frac{\sqrt{x + 4}  | 1=Key(T`<p>For a rational function, divide | 2=Fm(T`\lim_{x \to 0}\frac{\sin x}{x} = 1  | 3=Tip(T`<p>$\frac{0}{0}$ is not "0" or "un
+@66h68qke5m  ; 0=Ex(T`$$\lim_{x \to 0}\frac{\sqrt{x + 4}  | 1=Fig(planeSvg({ W: 320, x: [-1, 5], y: [- | 2=Key(T`<p>For a rational function, divide | 3=Fig(planeSvg({ W: 340, x: [-4, 12], y: [ | 4=Fm(T`\lim_{x \to 0}\frac{\sin x}{x} = 1  | 5=Tip(T`<p>$\frac{0}{0}$ is not "0" or "un
 
 <p>$\displaystyle\lim_{x \to a} f(x) = L$ means $f(x)$ gets as close as we like to $L$ as $x$ approaches $a$ — whatever happens exactly at $x = a$.</p>
 <h3>Techniques</h3>
 <ol><li><b>Direct substitution</b> works for polynomials and other continuous functions: $\lim_{x \to 2}(x^2 + 3x) = 10$.</li><li><b>Factor and cancel</b> for $\frac{0}{0}$: $\displaystyle\lim_{x \to 3}\frac{x^2 - 9}{x - 3} = \lim_{x \to 3}(x + 3) = 6$.</li><li><b>Rationalise</b> expressions with roots: multiply by the conjugate.</li></ol>
 ⟦0⟧
-<h3>Limits at infinity</h3>
 ⟦1⟧
-<h3>A special trig limit</h3>
+<h3>Limits at infinity</h3>
 ⟦2⟧
+⟦3⟧
+<h3>A special trig limit</h3>
+⟦4⟧
 <h3>Continuity</h3>
 <p>$f$ is continuous at $a$ if $\lim_{x \to a} f(x) = f(a)$: no holes, jumps or asymptotes there. For a piecewise function, make the two pieces meet at the join.</p>
-⟦3⟧
+⟦5⟧
+@1a5pbyiouth
+hole at (2, 4)
+@1hvnws943sl
+Graph of (x² − 4)/(x − 2): the line y = x + 2 with a hole at (2, 4)
+@8opl4mv2n
+$\frac{x^2 - 4}{x - 2}$ equals $x + 2$ except at $x = 2$, where there is a hole. The limit is still 4.
 @25jnb5snm7z
 <p>For a rational function, divide top and bottom by the highest power of $x$ in the denominator:</p><ul><li>same degree → ratio of leading coefficients;</li><li>numerator of lower degree → 0;</li><li>numerator of higher degree → no finite limit ($\pm\infty$).</li></ul>
+@2aoajizmej3
+Rational function approaching the horizontal asymptote y = 2
+@25k6q30kp4
+Same degree on top and bottom: as $x \to \pm\infty$, $\frac{2x + 1}{x - 1} \to \frac{2}{1} = 2$, the horizontal asymptote.
 @1i9j07wofgh
 \lim_{x \to 0}\frac{\sin x}{x} = 1 \qquad\Longrightarrow\qquad \lim_{x \to 0}\frac{\sin ax}{bx} = \frac{a}{b}
 @extw7corym
@@ -662,23 +804,39 @@ Find $k$ so that $f(x) = \begin{cases} x^2 + k, & x \lt ⟦0⟧ \\ ⟦1⟧, & x 
 The pieces must meet at $x = ⟦0⟧$: $(⟦1⟧)^2 + k = ⟦2⟧(⟦3⟧) ⟦4⟧$, so $⟦5⟧ + k = ⟦6⟧$ and $k = ⟦7⟧$.
 
 ##### derivatives
-@1pv2wkwyvwg  ; 0=Fm(T`f'(x) = \lim_{h \to 0}\frac{f(x + h | 1=Key(T`$$\frac{d}{dx}x^n = nx^{n-1} \qqua | 2=Ex(T`<p>$f(x) = 2x^3 - 5x^2 + 4x - 7 \;\ | 3=Ex(T`<p>100 m of fencing encloses a rect | 4=Tip(T`<p>The derivative of a constant is
+@a1ga4rrgb4  ; 0=Fm(T`f'(x) = \lim_{h \to 0}\frac{f(x + h | 1=Fig(planeSvg({ W: 340, x: [-1, 3.5], y:  | 2=Key(T`$$\frac{d}{dx}x^n = nx^{n-1} \qqua | 3=Ex(T`<p>$f(x) = 2x^3 - 5x^2 + 4x - 7 \;\ | 4=Fig(planeSvg({ W: 320, x: [-2.5, 2.5], y | 5=Ex(T`<p>100 m of fencing encloses a rect | 6=Tip(T`<p>The derivative of a constant is
 
 <p>The <b>derivative</b> $f'(x)$ is the instantaneous rate of change of $f$ — the slope of the tangent line at $x$. It is defined by a limit:</p>
 ⟦0⟧
 ⟦1⟧
 ⟦2⟧
+⟦3⟧
 <h3>Tangent lines</h3>
 <p>At $x = a$, the tangent has slope $m = f'(a)$ and passes through $(a, f(a))$: $y - f(a) = f'(a)(x - a)$.</p>
 <h3>Stationary points</h3>
 <p>Where $f'(x) = 0$ the graph is momentarily flat. Use the second derivative: $f''(a) \gt 0$ → local minimum; $f''(a) \lt 0$ → local maximum. $f$ is increasing where $f' \gt 0$ and decreasing where $f' \lt 0$.</p>
-<h3>Optimisation</h3>
-⟦3⟧
 ⟦4⟧
+<h3>Optimisation</h3>
+⟦5⟧
+⟦6⟧
+@4ht51xublf
+tangent, slope 2
+@1honzfpzudw
+Secant lines from P(1, 1) with h = 2 and h = 1 approaching the tangent of slope 2
+@jivzxlq2jl
+As $h \to 0$ the secant slopes ($4$, then $3$, …) approach the tangent slope $f'(1) = 2$.
 @21rfw9yowzp
 $$\frac{d}{dx}x^n = nx^{n-1} \qquad \frac{d}{dx}c = 0 \qquad \frac{d}{dx}\big(af + bg\big) = af' + bg'$$$$\frac{d}{dx}\sin x = \cos x \qquad \frac{d}{dx}\cos x = -\sin x$$
 @1kddytp99dm
 Rules
+@i3hnwz7fz6
+max
+@mu0l0xxh4t
+min
+@1z8b8ras2ps
+Cubic y = x³ − 3x with a local maximum at (−1, 2) and a local minimum at (1, −2), where the tangents are horizontal
+@2g9cz5bdt4e
+At stationary points the tangent is horizontal ($f'(x) = 3x^2 - 3 = 0$, $x = \pm 1$). $f'' = 6x$ is negative at $-1$ (max) and positive at $1$ (min).
 @21wooetnwi8
 <p>100 m of fencing encloses a rectangle against a river (no fence needed on the river side). With sides $x, y, x$: $2x + y = 100$, area $A = x(100 - 2x)$. $A'(x) = 100 - 4x = 0$ gives $x = 25$, so $A_{\max} = 25 \times 50 = 1250$ m².</p>
 @14x6kebc9en
@@ -727,18 +885,20 @@ A particle moves with position $s(t) = ⟦0⟧$ metres. Find its velocity at $t 
 $v(t) = s'(t) = ⟦0⟧$, so $v(⟦1⟧) = ⟦2⟧$ m/s.
 
 ##### integrals
-@1wdt9h7s66j  ; 0=Key(T`$$\int x^n\,dx = \frac{x^{n+1}}{n  | 1=Ex(T`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 | 2=Key(T`$$\int_a^b f(x)\,dx = \Big[F(x)\Bi | 3=Ex(T`<p>Area between $y = x^2$ and $y =  | 4=Tip(T`<p>Don't forget $+ C$ on indefinit
+@l6pgzhyei6  ; 0=Key(T`$$\int x^n\,dx = \frac{x^{n+1}}{n  | 1=Ex(T`<p>$\int (6x^2 - 4x + 3)\,dx = 2x^3 | 2=Key(T`$$\int_a^b f(x)\,dx = \Big[F(x)\Bi | 3=Fig(planeSvg({ W: 340, x: [-0.5, 4.5], y | 4=Ex(T`<p>Area between $y = x^2$ and $y =  | 5=Fig(planeSvg({ W: 300, x: [-0.5, 2.8], y | 6=Tip(T`<p>Don't forget $+ C$ on indefinit
 
 <p>Integration reverses differentiation. An <b>antiderivative</b> of $f$ is any $F$ with $F' = f$; the <b>indefinite integral</b> includes the constant of integration:</p>
 ⟦0⟧
 ⟦1⟧
 <h3>Definite integrals</h3>
 ⟦2⟧
-<p>For $f \ge 0$ this is the area under the curve between $x = a$ and $x = b$. Area below the $x$-axis counts as negative, so split the integral at the roots when you want total area.</p>
 ⟦3⟧
+<p>For $f \ge 0$ this is the area under the curve between $x = a$ and $x = b$. Area below the $x$-axis counts as negative, so split the integral at the roots when you want total area.</p>
+⟦4⟧
+⟦5⟧
 <h3>Finding a function from its derivative</h3>
 <p>If $f'(x) = 6x + 2$ and $f(1) = 10$, then $f(x) = 3x^2 + 2x + C$ and $3 + 2 + C = 10$ gives $C = 5$.</p>
-⟦4⟧
+⟦6⟧
 @oq0mo2ln2m
 $$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}{x}\,dx = \ln|x| + C$$$$\int \cos x\,dx = \sin x + C \qquad \int \sin x\,dx = -\cos x + C$$
 @20z1821bwrr
@@ -747,8 +907,16 @@ $$\int x^n\,dx = \frac{x^{n+1}}{n + 1} + C \quad (n \ne -1) \qquad \int \frac{1}
 $$\int_a^b f(x)\,dx = \Big[F(x)\Big]_a^b = F(b) - F(a)$$
 @1jsx5j8bwuv
 Fundamental Theorem of Calculus
+@10q2afa9ji6
+Area under a curve approximated by eight rectangles
+@ojylbearpk
+The definite integral is the limit of rectangle sums: thinner rectangles fit the area under the curve better and better.
 @k8jg70602j
 <p>Area between $y = x^2$ and $y = 2x$: they meet at $x = 0$ and $x = 2$, and $2x \ge x^2$ in between, so $\int_0^2 (2x - x^2)\,dx = \left[x^2 - \frac{x^3}{3}\right]_0^2 = 4 - \frac{8}{3} = \frac{4}{3}$.</p>
+@b8mvpm4ec2
+Region between y = 2x and y = x² from 0 to 2
+@15fpmapmvaj
+The shaded area between the curves: $\int_0^2 (\text{top} - \text{bottom})\,dx = \frac{4}{3}$.
 @2645ntoenmj
 <p>Don't forget $+ C$ on indefinite integrals — and don't include it in definite ones (it cancels).</p>
 @1a4h4aolv1n  ; 0=poly([a, b, c])
@@ -779,26 +947,40 @@ Evaluate $\displaystyle\int_0^{\pi/2} ⟦0⟧\cos x\,dx$.
 Evaluate $\displaystyle\int_0^{\pi} ⟦0⟧\sin x\,dx$.
 
 ##### combinatorics
-@205beb6gfix  ; 0=Key(T`<p><b>Multiplication principle:</b | 1=Fm(T`^nP_r = \frac{n!}{(n - r)!} \qquad  | 2=Fm(T`^nC_r = \binom{n}{r} = \frac{n!}{r! | 3=Fm(T`(a + b)^n = \sum_{k=0}^{n}\binom{n} | 4=Tip(T`<p>Ask "does swapping two chosen i
+@kgwrue8ydx  ; 0=Key(T`<p><b>Multiplication principle:</b | 1=Fig(treeSvg([[['S', ''], ['M', ''], ['L' | 2=Fm(T`^nP_r = \frac{n!}{(n - r)!} \qquad  | 3=Fm(T`^nC_r = \binom{n}{r} = \frac{n!}{r! | 4=Fm(T`(a + b)^n = \sum_{k=0}^{n}\binom{n} | 5=Fig(pascalSvg(7, { hl: [[5, 2], [5, 3]], | 6=Tip(T`<p>Ask "does swapping two chosen i
 
 ⟦0⟧
-<h3>Permutations: order matters</h3>
 ⟦1⟧
+<h3>Permutations: order matters</h3>
+⟦2⟧
 <p>First, second and third prizes among 10 people: $^{10}P_3 = 10 \times 9 \times 8 = 720$.</p>
 <ul><li>Arrangements with repeated items: $\frac{n!}{p!\,q!\cdots}$. "BANANA" has $\frac{6!}{3!\,2!} = 60$ arrangements.</li><li>Around a circle: $(n - 1)!$ (rotations are the same).</li></ul>
 <h3>Combinations: order doesn't matter</h3>
-⟦2⟧
+⟦3⟧
 <p>A committee of 3 from 10 people: $\binom{10}{3} = 120$. A committee of 2 men (from 5) and 3 women (from 6): $\binom{5}{2}\binom{6}{3} = 10 \times 20 = 200$.</p>
 <h3>Binomial theorem</h3>
-⟦3⟧
-<p>The coefficient of $x^2$ in $(x + 3)^5$ is $\binom{5}{2}3^{3} = 270$.</p>
 ⟦4⟧
+⟦5⟧
+<p>The coefficient of $x^2$ in $(x + 3)^5$ is $\binom{5}{2}3^{3} = 270$.</p>
+⟦6⟧
 @1v1ul4mcyis
 <p><b>Multiplication principle:</b> if one choice can be made in $m$ ways and a second in $n$ ways, together they can be made in $m \times n$ ways.</p>
+@1zy2qkjfkse
+tea
+@r0b7wz9smm
+coffee
+@5q1z823ntg
+Tree diagram: 3 cup sizes then 2 drinks gives 6 outcomes
+@46n2u09dn
+3 sizes × 2 drinks = 6 branches: the multiplication principle.
 @zol45txfa7
 ^nP_r = \frac{n!}{(n - r)!} \qquad n! = n \times (n-1) \times \cdots \times 1, \quad 0! = 1
 @1mk1wwf7o0g
 ^nC_r = \binom{n}{r} = \frac{n!}{r!\,(n - r)!}
+@1nspk0bcn0f
+Pascal's triangle rows 0 to 6
+@1yupp6g5ssm
+Pascal's triangle: each number is the sum of the two above it. Row $n$ holds $\binom{n}{0}, \binom{n}{1}, \ldots$ — row 5 gives $1, 5, 10, 10, 5, 1$.
 @44tf1m2pka
 <p>Ask "does swapping two chosen items give something different?" If yes, use permutations; if no, combinations.</p>
 @asaw2vy5ho  ; 0=r === 3 ? T`first, second and third` : T | 1=n
@@ -847,17 +1029,19 @@ Each of the ⟦0⟧ positions has 10 choices: $10^{⟦1⟧} = ⟦2⟧$.
 $10 \times 9 \times \cdots$ (⟦0⟧ factors) $= ⟦1⟧$.
 
 ##### probability-sh
-@1uh8iajnkq0  ; 0=Tbl([T`Rule`, T`Formula`], [[T`Complemen | 1=Ex(T`<p>A bag has 5 red and 3 blue balls | 2=Key(T`$$P(A \mid B) = \frac{P(B \mid A)\ | 3=Tip(T`<p>$P(A \mid B)$ and $P(B \mid A)$
+@5087kj3cei  ; 0=Tbl([T`Rule`, T`Formula`], [[T`Complemen | 1=Fig(venn2Svg({ shade: ['a', 'ab', 'b'],  | 2=Ex(T`<p>A bag has 5 red and 3 blue balls | 3=Fig(treeSvg([[[T`R`, '5/8'], [T`B`, '3/8 | 4=Key(T`$$P(A \mid B) = \frac{P(B \mid A)\ | 5=Tip(T`<p>$P(A \mid B)$ and $P(B \mid A)$
 
 ⟦0⟧
-<h3>With and without replacement</h3>
 ⟦1⟧
+<h3>With and without replacement</h3>
+⟦2⟧
 <p>Tree diagrams organise these: multiply along branches, add across branches.</p>
+⟦3⟧
 <h3>"At least one"</h3>
 <p>Use the complement: $P(\text{at least one six in 3 rolls}) = 1 - \left(\frac{5}{6}\right)^3 = \frac{91}{216}$.</p>
 <h3>Bayes' theorem</h3>
-⟦2⟧
-⟦3⟧
+⟦4⟧
+⟦5⟧
 @2e5fwx8zs1w
 Formula
 @29i7n2pf82k
@@ -870,8 +1054,16 @@ $P(A \cap B) = 0$, so $P(A \cup B) = P(A) + P(B)$
 Independent
 @1oou6k826kr
 Conditional
+@1wkjx7pohuu
+Venn diagram with A union B shaded
+@1im9uh2bc26
+$P(A \cup B)$: adding $P(A)$ and $P(B)$ counts the overlap twice, so subtract $P(A \cap B)$ once.
 @1qgmh66fhna
 <p>A bag has 5 red and 3 blue balls. Two are drawn <b>without</b> replacement. $P(\text{both red}) = \frac{5}{8} \times \frac{4}{7} = \frac{5}{14}$. With replacement it would be $\frac{5}{8} \times \frac{5}{8} = \frac{25}{64}$.</p>
+@1bdgsdwgpgu
+Tree diagram for drawing two balls without replacement from 5 red and 3 blue
+@dlv1xzz3o6
+Without replacement the second-draw probabilities change. Multiply along each path; the four results add to 1.
 @6418q9b2s4
 $$P(A \mid B) = \frac{P(B \mid A)\,P(A)}{P(B \mid A)P(A) + P(B \mid A')P(A')}$$<p>It "reverses" a conditional probability — for example, from $P(\text{positive test} \mid \text{disease})$ to $P(\text{disease} \mid \text{positive test})$.</p>
 @1zp2m1asa8t
@@ -930,25 +1122,40 @@ A bag has ⟦0⟧ red and ⟦1⟧ blue counters. A counter is drawn, replaced, a
 With replacement the draws are independent: $\frac{⟦0⟧}{⟦1⟧} \times \frac{⟦2⟧}{⟦3⟧} = ⟦4⟧$.
 
 ##### statistics-sh
-@1xab92vueba  ; 0=Key(T`<p>A common outlier rule: values b | 1=Fm(T`\sigma^2 = \frac{\sum (x - \mu)^2}{ | 2=Ex(T`<p>Data 2, 4, 4, 4, 5, 5, 7, 9: mea | 3=Tbl([T`If every value becomes`, T`Mean b | 4=Tip(T`<p>Adding a constant shifts the da
+@tc0j77gt19  ; 0=Fig(boxPlotSvg([2, 4, 4.5, 6, 9], { lo:  | 1=Key(T`<p>A common outlier rule: values b | 2=Fm(T`\sigma^2 = \frac{\sum (x - \mu)^2}{ | 3=Ex(T`<p>Data 2, 4, 4, 4, 5, 5, 7, 9: mea | 4=FigW(planeSvg({ W: 540, H: 230, x: [-3.6 | 5=Fig(barsSvg([['0', 3], ['10', 7], ['20', | 6=Tbl([T`If every value becomes`, T`Mean b | 7=Tip(T`<p>Adding a constant shifts the da
 
 <h3>Quartiles and box plots</h3>
 <p>Sort the data. The median $Q_2$ splits it in half; $Q_1$ is the median of the lower half and $Q_3$ the median of the upper half (here we leave the median out of both halves when $n$ is odd). The <b>interquartile range</b> $\text{IQR} = Q_3 - Q_1$ measures the spread of the middle 50%.</p>
 ⟦0⟧
-<h3>Variance and standard deviation</h3>
 ⟦1⟧
+<h3>Variance and standard deviation</h3>
 ⟦2⟧
-<h3>Grouped data</h3>
-<p>Estimate the mean with class midpoints: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
-<h3>Transforming data</h3>
 ⟦3⟧
 ⟦4⟧
+<h3>Grouped data</h3>
+<p>Estimate the mean with class midpoints: $\bar{x} \approx \frac{\sum f m}{\sum f}$.</p>
+⟦5⟧
+<h3>Transforming data</h3>
+⟦6⟧
+⟦7⟧
+@24dknxd2uyx
+Box plot of 2, 4, 4, 4, 5, 5, 7, 9: minimum 2, Q1 4, median 4.5, Q3 6, maximum 9
+@2at6r2370td
+Box plot of 2, 4, 4, 4, 5, 5, 7, 9. The box spans the middle half (IQR $= 6 - 4 = 2$); the whiskers reach the extremes.
 @l167vch4m7
 <p>A common outlier rule: values below $Q_1 - 1.5\,\text{IQR}$ or above $Q_3 + 1.5\,\text{IQR}$.</p>
 @1i22g7xb1dd
 \sigma^2 = \frac{\sum (x - \mu)^2}{n} \qquad \sigma = \sqrt{\sigma^2} \qquad\qquad s^2 = \frac{\sum (x - \bar{x})^2}{n - 1} \text{ (sample)}
 @1c6crwakkdh
 <p>Data 2, 4, 4, 4, 5, 5, 7, 9: mean 5, squared deviations 9, 1, 1, 1, 0, 0, 4, 16 (sum 32). Population variance $= \frac{32}{8} = 4$ and $\sigma = 2$.</p>
+@2cty80joc4v
+Normal curve: about 68 percent within one standard deviation and 95 percent within two
+@1m7yt676n71
+For bell-shaped (normal) data about 68% lies within $1\sigma$ of the mean, 95% within $2\sigma$ and 99.7% within $3\sigma$.
+@sfjgv5bi6j
+Histogram of grouped data with classes 0–10 up to 40–50
+@g6j7qo5lvo
+A histogram of grouped data: bars touch because the classes are continuous. Midpoints 5, 15, 25, … estimate the mean.
 @etseh8nv9i
 If every value becomes
 @tocb6e1sav
@@ -1001,26 +1208,38 @@ Upper fence $= ⟦0⟧ + ⟦1⟧ = ⟦2⟧$.
 Lower fence $= ⟦0⟧ - ⟦1⟧ = ⟦2⟧$.
 
 ##### conics
-@12p1gvv8rrs  ; 0=Fm(T`\text{Midpoint } \left(\frac{x_1 +  | 1=Key(T`$$(x - a)^2 + (y - b)^2 = r^2 \qqu | 2=Ex(T`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$:  | 3=Tip(T`<p>In $(x + 3)^2 + (y - 1)^2 = 16$
+@c7ge7rgpv3  ; 0=Fm(T`\text{Midpoint } \left(\frac{x_1 +  | 1=Key(T`$$(x - a)^2 + (y - b)^2 = r^2 \qqu | 2=Ex(T`<p>$x^2 + y^2 - 6x + 4y - 12 = 0$:  | 3=Fig(planeSvg({ W: 320, x: [-3, 9], y: [- | 4=Fig(planeSvg({ W: 320, x: [-4, 4], y: [- | 5=Tip(T`<p>In $(x + 3)^2 + (y - 1)^2 = 16$
 
 ⟦0⟧
 <h3>Equation of a circle</h3>
 ⟦1⟧
 <p>Expanding gives the <b>general form</b> $x^2 + y^2 + Dx + Ey + F = 0$, with centre $\left(-\frac{D}{2}, -\frac{E}{2}\right)$ and radius $r = \sqrt{\frac{D^2}{4} + \frac{E^2}{4} - F}$.</p>
 ⟦2⟧
+⟦3⟧
 <h3>Position of a point</h3>
 <p>Substitute the point into $(x - a)^2 + (y - b)^2$ and compare with $r^2$: smaller → inside, equal → on, larger → outside.</p>
 <h3>Tangents</h3>
 <p>A tangent is perpendicular to the radius at the point of contact. For the circle $x^2 + y^2 = r^2$ at $(x_1, y_1)$, the radius has slope $\frac{y_1}{x_1}$, so the tangent has slope $-\frac{x_1}{y_1}$.</p>
 <h3>Parabolas</h3>
 <p>$y^2 = 4px$ has focus $(p, 0)$ and directrix $x = -p$; $x^2 = 4py$ has focus $(0, p)$ and directrix $y = -p$. Every point on a parabola is the same distance from the focus as from the directrix.</p>
-⟦3⟧
+⟦4⟧
+⟦5⟧
 @d8g3n0gso0
 \text{Midpoint } \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right) \qquad \text{Distance } \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 @yeziymovo4
 $$(x - a)^2 + (y - b)^2 = r^2 \qquad \text{centre } (a, b), \text{ radius } r$$
 @16n3xjnynm7
 <p>$x^2 + y^2 - 6x + 4y - 12 = 0$: complete the squares, $(x - 3)^2 + (y + 2)^2 = 12 + 9 + 4 = 25$. Centre $(3, -2)$, radius 5.</p>
+@2dz4u1upux2
+Circle with centre (3, −2) and radius 5
+@259kql24e0h
+$(x - 3)^2 + (y + 2)^2 = 25$: centre $(3, -2)$, radius 5 (the radius to $(7, 1)$ is a 3-4-5 triangle).
+@66xwoufwul
+directrix y = −1
+@m7x7pgnu6
+Parabola x² = 4y with focus (0, 1) and directrix y = −1
+@11wjqvwr36i
+Every point of $x^2 = 4y$ is equally far from the focus $(0, 1)$ and the directrix $y = -1$; for $P(2, 1)$ both distances are 2.
 @11ib4pk61jv
 <p>In $(x + 3)^2 + (y - 1)^2 = 16$ the centre is $(-3, 1)$ — the signs flip — and the radius is 4, not 16.</p>
 @a19ymany96  ; 0=pt(x1, y1) | 1=pt(x2, y2)
@@ -1069,18 +1288,23 @@ Find the slope of the tangent to $x^2 + y^2 = ⟦0⟧$ at the point $⟦1⟧$.
 The radius to $⟦0⟧$ has slope $\frac{⟦1⟧}{⟦2⟧}$. The tangent is perpendicular: slope $= -\frac{⟦3⟧}{⟦4⟧} = ⟦5⟧$.
 
 ##### linear-programming
-@23l7ef2fdyh  ; 0=Key(T`<p><b>Corner-point theorem:</b> if | 1=Ex(T`<p>Maximise $z = 3x + 2y$ subject t | 2=Tip(T`<p>Check each corner satisfies <b>
+@kxyg3nvi7f  ; 0=Key(T`<p><b>Corner-point theorem:</b> if | 1=Ex(T`<p>Maximise $z = 3x + 2y$ subject t | 2=Fig(planeSvg({ W: 340, x: [-1, 10], y: [ | 3=Tip(T`<p>Check each corner satisfies <b>
 
 <p><b>Linear programming</b> finds the best (largest or smallest) value of a linear <b>objective function</b>, such as profit $z = 30x + 20y$, subject to linear <b>constraints</b> such as $x + y \le 40$.</p>
 <ol><li>Write the constraints as inequalities (include $x \ge 0$, $y \ge 0$).</li><li>Draw each boundary line and shade the region satisfying all constraints — the <b>feasible region</b>.</li><li>Find the corner points (vertices) by solving pairs of boundary equations.</li><li>Evaluate the objective at each corner.</li></ol>
 ⟦0⟧
 ⟦1⟧
-<p>For minimisation problems with "≥" constraints, the region is often unbounded; with positive costs, the minimum still occurs at a corner.</p>
 ⟦2⟧
+<p>For minimisation problems with "≥" constraints, the region is often unbounded; with positive costs, the minimum still occurs at a corner.</p>
+⟦3⟧
 @hs1573xprv
 <p><b>Corner-point theorem:</b> if an optimum exists, it occurs at a vertex of the feasible region.</p>
 @1g8qhbmqb9w
 <p>Maximise $z = 3x + 2y$ subject to $x + y \le 8$, $2x + y \le 12$, $x, y \ge 0$.</p><p>Vertices: $(0, 0)$, $(6, 0)$, $(4, 4)$ [where $x + y = 8$ meets $2x + y = 12$], $(0, 8)$.</p><p>$z$ values: 0, 18, 20, 16. Maximum $z = 20$ at $(4, 4)$.</p>
+@2e3pxrmclup
+Feasible region with corners (0, 0), (6, 0), (4, 4) and (0, 8) and the objective line z = 20 touching (4, 4)
+@14n1v4325z3
+The shaded feasible region. Sliding the dashed objective line $3x + 2y = z$ outwards, the last corner it touches is $(4, 4)$, so $z_{\max} = 20$.
 @11p3z90h4pd
 <p>Check each corner satisfies <b>every</b> constraint — an intersection of two boundary lines may lie outside the region.</p>
 @22hgo1z3v51  ; 0=xt(c) | 1=xt(d, 'y') | 2=consT(cons)
@@ -1101,20 +1325,29 @@ A bakery makes cakes ($x$) and pies ($y$) each day. It can bake at most ⟦0⟧ 
 Constraints: $x + y \le ⟦0⟧$, $⟦1⟧ \le ⟦2⟧$, $x, y \ge 0$. Corners: ⟦3⟧. Maximum profit: <b>⟦4⟧</b> dollars.
 
 ##### logic
-@22xng4phovn  ; 0=truthTbl() | 1=Key(T`<p>An implication $p \Rightarrow q | 2=Tbl([T`Name`, T`Form`, T`Equivalent to t | 3=Tip(T`<p>From $p \Rightarrow q$ and $q$ 
+@242c6ma5mvc  ; 0=truthTbl() | 1=Key(T`<p>An implication $p \Rightarrow q | 2=FigRow([[venn2Svg({ a: 'p', b: 'q', shad | 3=Tbl([T`Name`, T`Form`, T`Equivalent to t | 4=Tip(T`<p>From $p \Rightarrow q$ and $q$ 
 
 <p>A <b>statement</b> (proposition) is a sentence that is either true or false. Compound statements are built with <b>connectives</b>:</p>
 ⟦0⟧
 ⟦1⟧
-<h3>Related conditionals</h3>
 ⟦2⟧
+<h3>Related conditionals</h3>
+⟦3⟧
 <h3>Quantifiers</h3>
 <p>$\forall$ "for all" and $\exists$ "there exists". Negation swaps them: the negation of "All students passed" is "<b>Some</b> students did <b>not</b> pass"; the negation of "Some birds can't fly" is "All birds can fly".</p>
 <h3>Valid arguments</h3>
 <ul><li><b>Modus ponens:</b> $p \Rightarrow q$, $p$; therefore $q$.</li><li><b>Modus tollens:</b> $p \Rightarrow q$, $\neg q$; therefore $\neg p$.</li><li><b>Syllogism:</b> $p \Rightarrow q$, $q \Rightarrow r$; therefore $p \Rightarrow r$.</li></ul>
-⟦3⟧
+⟦4⟧
 @1h0id2d836q
 <p>An implication $p \Rightarrow q$ is false <b>only</b> when $p$ is true and $q$ is false.</p>
+@2axvfjsy2e8
+Venn diagram for p and q
+@27zesysl3rr
+Venn diagram for p or q
+@1nb1y2il4sd
+Venn diagram for not p
+@8gugdeccz1
+Connectives as regions: AND is the overlap, OR is everything inside either circle, NOT p is everything outside $p$.
 @2aojok6ubm7
 Form
 @1bpxgxn3wdt

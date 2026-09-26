@@ -1,16 +1,6 @@
 /* Bahasa Indonesia — SMP (statistika → kesebangunan) */
 addT('id', {
   // statistics-jh
-  '1gkv2j833s3': R`
-<p><b>Ukuran pemusatan</b> merangkum sekumpulan data dengan satu nilai khas; <b>ukuran penyebaran</b> menunjukkan seberapa tersebar nilai-nilainya.</p>
-⟦0⟧
-<h3>Rata-rata dari tabel frekuensi</h3>
-⟦1⟧
-⟦2⟧
-<h3>Bekerja mundur</h3>
-⟦3⟧
-<p>Jika banyak data genap, median adalah rata-rata dua nilai di tengah.</p>
-⟦4⟧`,
   'zy4hmws2f9': R`Cocok jika…`,
   'j0p0vvrwxf': R`data tidak memiliki nilai ekstrem (pencilan)`,
   '2ajydntyvld': R`data miring atau memiliki pencilan — mis. harga rumah`,
@@ -36,16 +26,6 @@ addT('id', {
   '22iugjzjcbh': R`Modus adalah nilai dengan frekuensi terbesar. ⟦0⟧ memiliki frekuensi ⟦1⟧, yang terbesar.`,
 
   // probability-jh
-  '1s529z7x9mx': R`
-<p>Sebuah <b>percobaan</b> (melempar dadu, mengambil kartu) memiliki <b>hasil</b> yang mungkin. Himpunan semua hasil disebut <b>ruang sampel</b> $S$; sebuah <b>kejadian</b> $E$ adalah himpunan beberapa hasil. Jika semua hasil sama mungkinnya:</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Dua dadu</h3>
-<p>Melempar dua dadu menghasilkan $6 \times 6 = 36$ hasil yang sama mungkin. Jumlah 7 muncul dengan 6 cara — (1; 6), (2; 5), (3; 4), (4; 3), (5; 2), (6; 1) — jadi $P(\text{jumlah} = 7) = \frac{6}{36} = \frac{1}{6}$. Secara umum, banyak cara memperoleh jumlah $s$ adalah $6 - |s - 7|$.</p>
-<h3>Satu set kartu remi</h3>
-<p>52 kartu: 4 jenis (♠ ♣ hitam, ♥ ♦ merah) masing-masing 13 nilai (A, 2–10, J, Q, K). Ada 12 kartu bergambar (J, Q, K).</p>
-⟦3⟧`,
   '2zwk9a7b7o': R`<ul><li>$0 \le P(E) \le 1$: 0 berarti mustahil, 1 berarti pasti.</li><li><b>Komplemen:</b> $P(\text{bukan } E) = 1 - P(E)$.</li><li><b>Frekuensi harapan</b> dalam $n$ percobaan $= P(E) \times n$.</li></ul>`,
   'sp7ttiactv': R`<p>Sebuah kantong berisi 3 kelereng merah, 5 biru, dan 2 hijau. $P(\text{biru}) = \frac{5}{10} = \frac{1}{2}$, dan $P(\text{bukan hijau}) = 1 - \frac{2}{10} = \frac{4}{5}$.</p>`,
   '1quguehv908': R`<p>Peluang empiris (dari percobaan nyata) makin mendekati peluang teoretis seiring bertambahnya banyak percobaan — tetapi jarang tepat sama.</p>`,
@@ -97,19 +77,6 @@ addT('id', {
   '23r35ol6pkt': R`Ada ⟦0⟧ dari 52 kartu: $P = \frac{⟦1⟧}{52} = ⟦2⟧$.`,
 
   // social-arith
-  '28qmmxd3nnk': R`
-<p>Soal uang sehari-hari sebenarnya adalah soal persen yang menyamar.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Diskon dan pajak</h3>
-<p>Terapkan persentase satu per satu: diskon 20% lalu pajak 10% atas 150 ribu rupiah menghasilkan $150 \times 0{,}8 \times 1{,}1 = 132$ ribu rupiah.</p>
-<h3>Bunga tunggal</h3>
-⟦3⟧
-<p>Tabungan 1 500 ribu rupiah dengan bunga 6% per tahun selama 3 tahun menghasilkan $1\,500 \times 0{,}06 \times 3 = 270$ ribu rupiah; totalnya menjadi 1 770 ribu rupiah. Jika waktunya dalam bulan, gunakan $t = \frac{\text{bulan}}{12}$.</p>
-<h3>Bruto, tara, dan neto</h3>
-<p><b>Bruto</b> = berat keseluruhan; <b>tara</b> = berat kemasan; <b>neto</b> = bruto − tara. Karung 50 kg dengan tara 2% memiliki berat neto $50 \times 0{,}98 = 49$ kg.</p>
-⟦4⟧`,
   '104nn3vx4at': R`Istilah`,
   '1mb9fntmked': R`Harga beli (HB)`,
   '12bh5c74j0l': R`yang dibayar penjual`,
@@ -142,17 +109,6 @@ addT('id', {
   'g36e4lpvm4': R`$\text{HJ} = \text{HB} \times ⟦0⟧$, jadi $\text{HB} = \frac{⟦1⟧}{⟦2⟧} = ⟦3⟧$ ribu rupiah. (Mengurangi ⟦4⟧% dari harga jual adalah cara yang salah.)`,
 
   // patterns
-  '2bajjwmyt59': R`
-<p><b>Barisan</b> adalah daftar bilangan yang berurutan; setiap bilangannya disebut <b>suku</b>. Dengan menemukan aturannya, kamu bisa melanjutkan pola atau langsung mencari suku mana pun.</p>
-<h3>Barisan aritmetika</h3>
-<p>Setiap kali ditambah bilangan yang sama $d$ (<b>beda</b>): 5; 8; 11; 14; … memiliki $d = 3$.</p>
-⟦0⟧
-<h3>Barisan geometri</h3>
-<p>Setiap suku dikalikan dengan <b>rasio</b> yang sama $r$: 3; 6; 12; 24; … ($r = 2$); 80; 40; 20; … ($r = \frac{1}{2}$).</p>
-<h3>Barisan khusus</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '11v4eu8405a': R`$$u_n = a + (n - 1)d$$<p>dengan $a$ suku pertama. Untuk 5; 8; 11; …: $u_n = 5 + 3(n - 1) = 3n + 2$, jadi $u_{50} = 152$.</p>`,
   '7gqysfvinh': R`Nama`,
   'mwgm16sn11': R`Suku-suku`,
@@ -179,14 +135,6 @@ addT('id', {
   'o3oiu9pprw': R`Suku-sukunya adalah ⟦0⟧. Suku ke-7 adalah ⟦1⟧.`,
 
   // similarity
-  '165d9zkx0zx': R`
-<p><b>Transformasi</b> memindahkan bangun atau mengubah ukurannya. Pada translasi, refleksi, dan rotasi, bayangannya <b>kongruen</b> (bentuk dan ukuran sama); pada dilatasi, bayangannya <b>sebangun</b> (bentuk sama, ukuran berbeda).</p>
-⟦0⟧
-<h3>Bangun yang sebangun</h3>
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '8do2aamvnn': R`Transformasi`,
   'jmpbrf5c1s': R`Aturan untuk titik (x; y)`,
   '2b0j70wot2h': R`Translasi oleh $\binom{a}{b}$`,

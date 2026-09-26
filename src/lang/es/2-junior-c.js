@@ -1,18 +1,6 @@
 /* Español — Secundaria (sistemas → cuerpos geométricos) */
 addT('es', {
   // systems
-  '1obgwi6un65': R`
-<p>Un <b>sistema</b> de dos ecuaciones lineales con $x$ e $y$ busca los valores que hacen verdaderas <i>ambas</i> ecuaciones. Gráficamente, la solución es el punto donde se cortan las dos rectas.</p>
-<h3>Sustitución</h3>
-⟦0⟧
-<h3>Reducción</h3>
-⟦1⟧
-⟦2⟧
-<h3>Casos especiales</h3>
-<p>Las rectas paralelas (misma pendiente, distinta ordenada en el origen) no se cortan nunca: <b>no hay solución</b>. Si las rectas coinciden, hay <b>infinitas</b> soluciones.</p>
-<h3>Problemas con enunciado</h3>
-<p>Dos incógnitas necesitan dos datos. «En una granja hay gallinas y vacas: 30 cabezas y 84 patas», con $c$ vacas y $h$ gallinas: $c + h = 30$ y $4c + 2h = 84$.</p>
-⟦3⟧`,
   '1jftngyboyy': R`$$\begin{cases} y = 2x - 1 \\ 3x + y = 14 \end{cases}$$<p>Sustituye la primera en la segunda: $3x + (2x - 1) = 14$, así que $5x = 15$, $x = 3$, e $y = 2(3) - 1 = 5$. Solución: $(3; 5)$.</p>`,
   '2g9mhat3jml': R`$$\begin{cases} 2x + 3y = 12 \\ 5x - 3y = 9 \end{cases}$$<p>Suma las ecuaciones para eliminar $y$: $7x = 21$, así que $x = 3$. Entonces $2(3) + 3y = 12$ da $y = 2$.</p>`,
   '2hm0wzsgn4': R`<p>Multiplica primero una o las dos ecuaciones para que una variable tenga coeficientes iguales (u opuestos) y después resta (o suma) para eliminarla. Comprueba siempre la respuesta en <b>ambas</b> ecuaciones originales.</p>`,
@@ -33,18 +21,6 @@ addT('es', {
   '15xzu54of35': R`$a + b = ⟦0⟧$ y $a - b = ⟦1⟧$. Sumando: $2a = ⟦2⟧$, así que $a = ⟦3⟧$ y $b = ⟦4⟧$.`,
 
   // pythagoras
-  '18dtbjhvgbb': R`
-<p>En un triángulo rectángulo, el lado más largo, opuesto al ángulo recto, es la <b>hipotenusa</b> $c$. Los otros dos lados son los <b>catetos</b> $a$ y $b$.</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>Ternas pitagóricas</h3>
-<p>Conviene recordar las soluciones con números enteros y sus múltiplos: $(3; 4; 5)$, $(5; 12; 13)$, $(8; 15; 17)$, $(7; 24; 25)$, y $(6; 8; 10)$, $(9; 12; 15)$, …</p>
-<h3>Distancia entre dos puntos</h3>
-⟦3⟧
-<h3>El recíproco</h3>
-<p>Siendo $c$ el lado mayor: si $a^2 + b^2 = c^2$, el triángulo es <b>rectángulo</b>; si $a^2 + b^2 \gt c^2$, es <b>acutángulo</b>; si $a^2 + b^2 \lt c^2$, es <b>obtusángulo</b>.</p>
-⟦4⟧`,
   '29quz32s0mq': R`$$a^2 + b^2 = c^2$$<p>Para hallar la hipotenusa, suma los cuadrados; para hallar un cateto, réstalos: $b = \sqrt{c^2 - a^2}$.</p>`,
   '266inyds4fo': R`<p>Una escalera de 10 m se apoya en una pared con el pie a 6 m de ella. Altura que alcanza: $\sqrt{10^2 - 6^2} = \sqrt{64} = 8$ m.</p>`,
   '2f1i3z4fpqs': R`<p>$\sqrt{a^2 + b^2} \ne a + b$. Con catetos 3 y 4, la hipotenusa es 5, no 7.</p>`,
@@ -66,17 +42,6 @@ addT('es', {
   '5pal2wak00': R`Compara con el lado mayor, ⟦0⟧: $⟦1⟧^2 + ⟦2⟧^2 = ⟦3⟧$ y $⟦4⟧^2 = ⟦5⟧$. Como $⟦6⟧ ⟦7⟧ ⟦8⟧$, el triángulo es <b>⟦9⟧</b>.`,
 
   // circles
-  '162uvssoo3s': R`
-⟦0⟧
-<p>El cociente entre la longitud de cualquier circunferencia y su diámetro es siempre el mismo número, $\pi \approx 3{,}14159\ldots$ (a menudo se aproxima por $3{,}14$ o $\frac{22}{7}$).</p>
-⟦1⟧
-⟦2⟧
-<h3>Arcos y sectores</h3>
-<p>Un sector de ángulo central $\theta$ es la fracción $\frac{\theta}{360^\circ}$ del círculo completo:</p>
-⟦3⟧
-<h3>Ángulos en la circunferencia</h3>
-<ul><li>El ángulo central es el <b>doble</b> del ángulo inscrito que abarca el mismo arco.</li><li>Un ángulo inscrito en una semicircunferencia mide $90^\circ$.</li><li>La tangente es perpendicular al radio en el punto de tangencia.</li></ul>
-⟦4⟧`,
   '20wibo4oznt': R`Elementos de la circunferencia. El diámetro es el doble del radio: d = 2r.`,
   '1y041ovnv67': R`<p>Radio 5 cm: $C = 2\pi(5) = 10\pi \approx 31{,}4$ cm y $A = \pi(5)^2 = 25\pi \approx 78{,}5$ cm². Dejar el resultado «en función de $\pi$» lo mantiene exacto.</p>`,
   '1ljhd2tb7ca': R`\text{longitud del arco} = \frac{\theta}{360^\circ} \times 2\pi r \qquad \text{área del sector} = \frac{\theta}{360^\circ} \times \pi r^2`,
@@ -104,13 +69,6 @@ addT('es', {
   'kfe0atvapi': R`El ángulo inscrito es la mitad del central: $\frac{⟦0⟧^\circ}{2} = ⟦1⟧^\circ$.`,
 
   // solids
-  '57zv1tsefg': R`
-<p>Un <b>prisma</b> tiene la misma sección en toda su longitud, así que su volumen es simplemente el área de esa sección por la longitud. Una pirámide o un cono que quepa exactamente dentro tiene justo un tercio de ese volumen.</p>
-⟦0⟧
-<p>En el cono, $s$ es la <b>generatriz</b>; por Pitágoras, $s = \sqrt{r^2 + h^2}$.</p>
-⟦1⟧
-⟦2⟧
-⟦3⟧`,
   '1uywbz6o84t': R`Cuerpo`,
   'alc1a0j1b0': R`Volumen`,
   'bt7ak3o2ct': R`Área total`,

@@ -1,17 +1,6 @@
 /* 中文 — 高中（数列 → 解三角形） */
 addT('zh', {
   // sequences
-  '214j3dem4vw': R`
-⟦0⟧
-<p>其中 $a$ 是首项，$l$ 是末项。</p>
-⟦1⟧
-⟦2⟧
-<h3>无穷等比级数</h3>
-⟦3⟧
-<p>例：$8 + 4 + 2 + 1 + \cdots = \frac{8}{1 - \frac{1}{2}} = 16$。</p>
-<h3>求和符号</h3>
-<p>$\displaystyle\sum_{k=1}^{n} f(k)$ 表示 $f(1) + f(2) + \cdots + f(n)$。常用结论：$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$，$\sum_{k=1}^{n} c = cn$。</p>
-⟦4⟧`,
   'lwukzez7ke': R`等差数列`,
   '1atqzl7ltey': R`等比数列`,
   'zs186mkwh5': R`每次加 $d$`,
@@ -33,18 +22,6 @@ addT('zh', {
   '222tg0c1ffy': R`这是等差数列求和：$S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ 元。`,
 
   // trig-basics
-  '25ycjlixcfv': R`
-<p>在直角三角形中，对于锐角 $\theta$：</p>
-⟦0⟧
-<p>英文记忆法：<b>SOH-CAH-TOA</b>（正弦 = 对边/斜边，余弦 = 邻边/斜边，正切 = 对边/邻边）。另外 $\tan\theta = \frac{\sin\theta}{\cos\theta}$，倒数关系为 $\csc\theta = \frac{1}{\sin\theta}$、$\sec\theta = \frac{1}{\cos\theta}$、$\cot\theta = \frac{1}{\tan\theta}$。</p>
-<h3>特殊角的三角函数值</h3>
-⟦1⟧
-<h3>弧度制</h3>
-<p>$180^\circ = \pi$ 弧度。角度化弧度乘以 $\frac{\pi}{180}$；弧度化角度乘以 $\frac{180}{\pi}$。所以 $60^\circ = \frac{\pi}{3}$，$\frac{3\pi}{4} = 135^\circ$。</p>
-<h3>单位圆</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '27jmws7mgxv': R`\sin\theta = \frac{\text{对边}}{\text{斜边}} \qquad \cos\theta = \frac{\text{邻边}}{\text{斜边}} \qquad \tan\theta = \frac{\text{对边}}{\text{邻边}}`,
   'ig8vf2x1y6': R`sin θ`,
   '1qsg2x3tak': R`cos θ`,
@@ -81,15 +58,6 @@ addT('zh', {
   '1856p6n9vrk': R`sin 在第一、二象限为正；cos 在第一、四象限为正；tan 在第一、三象限为正。只有<b>⟦0⟧</b>同时满足两个条件。`,
 
   // trig-identities
-  'v1udjwhzk5': R`
-<p><b>恒等式</b>对所有角都成立。最重要的有：</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-<h3>解三角方程</h3>
-<p>先求参考角，再找出所给区间内符号正确的所有角。</p>
-⟦3⟧
-⟦4⟧`,
   '23mroepg91v': R`平方关系`,
   '28msif6x03y': R`和角公式`,
   '1qlqqnnfd2i': R`二倍角公式`,
@@ -111,13 +79,6 @@ addT('zh', {
   '19cq8bi37ib': R`三角形的三边为 ⟦0⟧、⟦1⟧、⟦2⟧。在第 ⟦3⟧ 象限，正弦为⟦4⟧，余弦为⟦5⟧，所以 $\sin\theta = ⟦6⟧$，$\cos\theta = ⟦7⟧$。`,
 
   // triangle-rules
-  '2ga1qjtwo42': R`
-<p>约定边 $a$ 对角 $A$，边 $b$ 对角 $B$，边 $c$ 对角 $C$。这些定理适用于<b>任何</b>三角形，而不仅是直角三角形。</p>
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   '2fw62bzegqh': R`$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C}$$<p>已知一边及其对角，再加上另一边或另一角时使用。</p>`,
   'mp16igkhf3': R`正弦定理`,
   'eonocytnm1': R`$$a^2 = b^2 + c^2 - 2bc\cos A \qquad\qquad \cos A = \frac{b^2 + c^2 - a^2}{2bc}$$<p>已知两边及其夹角（SAS），或已知三边（SSS）时使用。</p>`,

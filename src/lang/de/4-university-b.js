@@ -1,18 +1,6 @@
 /* Deutsch — Universität (lineare Algebra → Laplace-Transformation) */
 addT('de', {
   // linear-algebra
-  'aoku0sfspm': R`
-<h3>Lineare Gleichungssysteme und Rang</h3>
-<p>Ein System $A\mathbf{x} = \mathbf{b}$ löst man, indem man die erweiterte Matrix $[A \mid \mathbf{b}]$ durch Zeilenumformungen auf Stufenform bringt. Der <b>Rang</b> von $A$ ist die Anzahl der Pivotelemente (Nicht-Nullzeilen in Stufenform).</p>
-⟦0⟧
-<h3>Determinanten</h3>
-⟦1⟧
-<p>Nützliche Eigenschaften für $n \times n$-Matrizen: $\det(AB) = \det A \det B$, $\det(A^T) = \det A$, $\det(A^{-1}) = \frac{1}{\det A}$, $\det(kA) = k^n\det A$. Cramersche Regel: $x_i = \frac{\det A_i}{\det A}$.</p>
-<h3>Eigenwerte und Eigenvektoren</h3>
-⟦2⟧
-⟦3⟧
-<p>Hat $A$ $n$ linear unabhängige Eigenvektoren, so ist sie <b>diagonalisierbar</b>: $A = PDP^{-1}$, mit den Eigenvektoren als Spalten von $P$ und den Eigenwerten auf der Diagonalen von $D$.</p>
-⟦4⟧`,
   'q9p1mxjp5t': R`<p><b>Rangsatz (Dimensionsformel):</b> Für eine $m \times n$-Matrix gilt $\text{Rang}(A) + \dim\ker(A) = n$. Eine quadratische Matrix $A$ ist invertierbar $\iff \det A \ne 0 \iff$ ihre Spalten sind linear unabhängig $\iff \text{Rang} = n$.</p>`,
   '12oak6poq42': R`\det\begin{pmatrix} a & b & c \\ d & e & f \\ g & h & i \end{pmatrix} = a(ei - fh) - b(di - fg) + c(dh - eg)`,
   'zx600ry55i': R`$$A\mathbf{v} = \lambda\mathbf{v},\; \mathbf{v} \ne \mathbf{0} \qquad\Longleftrightarrow\qquad \det(A - \lambda I) = 0$$<p>Für eine $2 \times 2$-Matrix: $\lambda^2 - (\text{Spur}\,A)\lambda + \det A = 0$. Die Summe der Eigenwerte ist die Spur, ihr Produkt die Determinante.</p>`,
@@ -44,15 +32,6 @@ addT('de', {
   'spg1kefpa7': R`$A\mathbf{v} = ⟦0⟧ = ⟦1⟧⟦2⟧$, also $\lambda = ⟦3⟧$.`,
 
   // complex
-  'n87wkmbfmz': R`
-<p>Die imaginäre Einheit erfüllt $i^2 = -1$. Eine komplexe Zahl ist $z = a + bi$ mit Realteil $\text{Re}(z) = a$ und Imaginärteil $\text{Im}(z) = b$. Die Potenzen von $i$ wiederholen sich alle vier: $i; -1; -i; 1; \ldots$</p>
-⟦0⟧
-⟦1⟧
-<h3>Polarform und eulersche Formel</h3>
-⟦2⟧
-⟦3⟧
-<p>Die $n$-ten Einheitswurzeln sind $e^{2\pi ik/n}$ für $k = 0; 1; \ldots; n - 1$: gleichmäßig verteilte Punkte auf dem Einheitskreis.</p>
-⟦4⟧`,
   'rz9c61mn5': R`Multiplizieren`,
   '1lvuh3a6n9s': R`Konjugieren`,
   '73hhnvn9cf': R`$\bar{z} = a - bi$ und $z\bar{z} = a^2 + b^2$`,
@@ -81,14 +60,6 @@ addT('de', {
   '1xd7417ut46': R`Sei $z = ⟦0⟧$. Bestimme $\text{⟦1⟧}(z^2)$.`,
 
   // distributions
-  '28d8604hmp9': R`
-<p>Eine <b>Zufallsvariable</b> $X$ ordnet den Ergebnissen Zahlen zu. Für eine diskrete $X$ mit Wahrscheinlichkeiten $p(x)$:</p>
-⟦0⟧
-⟦1⟧
-<h3>Die Normalverteilung</h3>
-⟦2⟧
-⟦3⟧
-⟦4⟧`,
   'gk52muplh1': R`E[X] = \sum x\,p(x) \qquad \text{Var}(X) = E[X^2] - (E[X])^2 \qquad E[aX + b] = aE[X] + b \qquad \text{Var}(aX + b) = a^2\,\text{Var}(X)`,
   '115owsb7jcv': R`Verteilung`,
   'z5bw2hz29r': R`P(X = k) bzw. Dichte`,
@@ -120,17 +91,6 @@ addT('de', {
   'ha18xspr5t': R`$E[X] = ⟦0⟧$ und $\text{Var}(X) = ⟦1⟧$. Bestimme $E[⟦2⟧]$.`,
 
   // inference
-  'oph0fjnqfd': R`
-<p>Wir schätzen mit einer Kenngröße der <b>Stichprobe</b> (etwa $\bar{x}$) einen Parameter der <b>Grundgesamtheit</b> (etwa $\mu$). Nach dem <b>zentralen Grenzwertsatz</b> ist der Stichprobenmittelwert für großes $n$ annähernd normalverteilt mit Mittelwert $\mu$ und <b>Standardfehler</b> $\frac{\sigma}{\sqrt{n}}$.</p>
-<h3>Konfidenzintervalle</h3>
-⟦0⟧
-<p>Für eine Fehlermarge $E$ braucht man $n \ge \left(\frac{z^*\sigma}{E}\right)^2$ (aufrunden). Ist $\sigma$ unbekannt, nimm $s$ und die $t$-Verteilung.</p>
-<h3>Hypothesentests</h3>
-<ol><li>Formuliere $H_0$ (z. B. $\mu = \mu_0$) und $H_1$.</li><li>Berechne eine Teststatistik, z. B. $z = \dfrac{\bar{x} - \mu_0}{\sigma/\sqrt{n}}$.</li><li>Bestimme den <b>p-Wert</b>: die Wahrscheinlichkeit, unter $H_0$ ein mindestens so extremes Ergebnis zu erhalten.</li><li>Ist $p \le \alpha$, verwirf $H_0$; sonst wird $H_0$ nicht verworfen.</li></ol>
-⟦1⟧
-<h3>Lineare Regression</h3>
-<p>Die Regressionsgerade $\hat{y} = a + bx$ (Methode der kleinsten Quadrate) hat die Steigung $b = r\frac{s_y}{s_x}$ und verläuft durch $(\bar{x}; \bar{y})$, also $a = \bar{y} - b\bar{x}$.</p>
-⟦2⟧`,
   'cozbu7bifr': R`\bar{x} \pm z^*\frac{\sigma}{\sqrt{n}} \qquad z^* = 1{,}645 \;(90\,\%);\; 1{,}96 \;(95\,\%);\; 2{,}576 \;(99\,\%)`,
   '7nca7j57l5': R`H₀ wahr`,
   '2e0zey7f13x': R`H₀ falsch`,
@@ -172,17 +132,6 @@ addT('de', {
   'cysiojo18k': R`$n \ge \left(\frac{⟦0⟧ \times ⟦1⟧}{⟦2⟧}\right)^2 \approx ⟦3⟧$, also aufrunden: $n = ⟦4⟧$.`,
 
   // discrete
-  'a1ovpdx0vp': R`
-<h3>Zahlentheorie</h3>
-<p>$a \equiv b \pmod n$ bedeutet, dass $n$ ein Teiler von $a - b$ ist; $a \bmod n$ ist der Rest in $\{0; 1; \ldots; n - 1\}$. Kongruenzen darf man addieren und multiplizieren, und Potenzen schrittweise reduzieren.</p>
-⟦0⟧
-⟦1⟧
-<p>Das <b>modulare Inverse</b> von $a$ modulo $n$ ist das $x$ mit $ax \equiv 1 \pmod n$; es existiert genau dann, wenn $\gcd(a, n) = 1$.</p>
-<h3>Abzählen</h3>
-<ul><li>Abbildungen einer $m$-elementigen in eine $n$-elementige Menge: $n^m$; injektive: $n(n-1)\cdots(n-m+1)$.</li><li>Inklusion–Exklusion: $|A \cup B| = |A| + |B| - |A \cap B|$.</li><li><b>Schubfachprinzip:</b> Kommen mehr als $kn$ Objekte in $n$ Schubfächer, so enthält ein Fach mindestens $k + 1$.</li></ul>
-<h3>Rekursionen und Graphen</h3>
-<p>Eine Rekursion definiert jedes Glied aus früheren, etwa $a_n = 2a_{n-1} + 1$, $a_0 = 1$. In einem Graphen besagt das <b>Handschlaglemma</b> $\sum \deg(v) = 2|E|$; $K_n$ hat $\binom{n}{2}$ Kanten; ein Baum mit $n$ Knoten hat $n - 1$ Kanten; ein zusammenhängender Graph hat genau dann einen Eulerkreis, wenn alle Grade gerade sind.</p>
-⟦2⟧`,
   '1vllnifl24g': R`<p><b>Euklidischer Algorithmus:</b> $\gcd(a, b) = \gcd(b, a \bmod b)$, wiederholt, bis der Rest 0 ist.</p><p><b>Kleiner Satz von Fermat:</b> Ist $p$ prim und $p \nmid a$, dann gilt $a^{p-1} \equiv 1 \pmod p$.</p>`,
   '28pp2kgl31t': R`<p>$\gcd(252, 198)$: $252 = 1 \cdot 198 + 54$, $198 = 3 \cdot 54 + 36$, $54 = 1 \cdot 36 + 18$, $36 = 2 \cdot 18$. Der ggT ist also 18.</p><p>$2^{100} \bmod 7$: Da $2^3 = 8 \equiv 1$, ist $2^{100} = (2^3)^{33} \cdot 2 \equiv 2$.</p>`,
   '23tw4c5wfxh': R`<p>Bei Inklusion–Exklusion („durch 3 oder 5 teilbar“) ist die Überschneidung die Teilbarkeit durch das <b>kgV</b>, 15.</p>`,
@@ -223,18 +172,6 @@ addT('de', {
   '27kjdpfw0sg': R`Bei ⟦0⟧ Kategorien könnten $⟦1⟧ \times ⟦2⟧ = ⟦3⟧$ Personen es vermeiden; eine mehr erzwingt eine Gruppe von ⟦4⟧: $⟦5⟧$.`,
 
   // numerical
-  '106u35np5bp': R`
-<p>Numerische Verfahren nähern Ergebnisse an, für die es keine handliche geschlossene Form gibt. Zwei Fehlerarten sind wichtig: der <b>Verfahrensfehler</b> (Abbruchfehler) und der <b>Rundungsfehler</b> (durch endliche Genauigkeit).</p>
-⟦0⟧
-<h3>Nullstellensuche</h3>
-<ul><li><b>Bisektion:</b> Haben $f(a)$ und $f(b)$ verschiedene Vorzeichen, prüfe die Mitte $m$ und behalte die Hälfte mit dem Vorzeichenwechsel. Langsam, aber sicher: Der Fehler halbiert sich bei jedem Schritt.</li><li><b>Newton-Verfahren:</b> $x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}$. Sehr schnell nahe einer einfachen Nullstelle (quadratische Konvergenz), kann aber bei schlechtem Startwert oder $f' \approx 0$ versagen.</li></ul>
-⟦1⟧
-<h3>Numerische Integration</h3>
-⟦2⟧
-<p>Hier ist $h = \frac{b - a}{n}$. Die Simpsonregel ist für Polynome bis zum Grad 3 exakt.</p>
-<h3>Euler-Verfahren</h3>
-⟦3⟧
-⟦4⟧`,
   '2fbw9jej1dm': R`\text{absoluter Fehler} = |x_{\text{exakt}} - x_{\text{Näherung}}| \qquad \text{relativer Fehler} = \frac{|x_{\text{exakt}} - x_{\text{Näherung}}|}{|x_{\text{exakt}}|}`,
   '1a9noj3sp27': R`<p>$\sqrt{10}$ über $f(x) = x^2 - 10$ mit $x_0 = 3$: $x_1 = 3 - \frac{-1}{6} = 3{,}1667$, $x_2 = 3{,}1623$ — schon auf 4 Nachkommastellen genau.</p>`,
   'vx6qz5zup7': R`\text{Trapezregel: } \frac{h}{2}\big[f_0 + 2f_1 + \cdots + 2f_{n-1} + f_n\big] \qquad \text{Simpson } (n \text{ gerade}): \frac{h}{3}\big[f_0 + 4f_1 + 2f_2 + 4f_3 + \cdots + f_n\big]`,
@@ -253,17 +190,6 @@ addT('de', {
   '6utp8finkn': R`$⟦0⟧$ wird durch ⟦1⟧ angenähert. Bestimme den relativen Fehler in Prozent auf 3 Nachkommastellen.`,
 
   // vector-calculus
-  'bh1w03a054': R`
-<p>Ein <b>Vektorfeld</b> $\mathbf{F}(x, y, z) = (P, Q, R)$ ordnet jedem Punkt einen Vektor zu — etwa eine Windgeschwindigkeit oder eine Kraft. Mit $\nabla = \left(\frac{\partial}{\partial x}, \frac{\partial}{\partial y}, \frac{\partial}{\partial z}\right)$:</p>
-⟦0⟧
-<p>Die Divergenz misst die Quellstärke in einem Punkt; die Rotation misst die Wirbelstärke.</p>
-<h3>Kurvenintegrale und konservative Felder</h3>
-⟦1⟧
-⟦2⟧
-<h3>Die großen Integralsätze</h3>
-⟦3⟧
-<p>Eine schöne Folgerung aus dem Satz von Green: Der Flächeninhalt von $D$ ist $\frac{1}{2}\oint_C (x\,dy - y\,dx)$.</p>
-⟦4⟧`,
   '1oemuo3mhjj': R`\text{div}\,\mathbf{F} = \nabla\cdot\mathbf{F} = P_x + Q_y + R_z \qquad \text{rot}\,\mathbf{F} = \nabla\times\mathbf{F} = (R_y - Q_z,\; P_z - R_x,\; Q_x - P_y)`,
   'dx5b9h7rwd': R`<p>$\mathbf{F}$ ist <b>konservativ</b> (ein Gradientenfeld), wenn $\mathbf{F} = \nabla\varphi$ für ein Potential $\varphi$. Dann gilt $\displaystyle\int_C \mathbf{F}\cdot d\mathbf{r} = \varphi(B) - \varphi(A)$ für jeden Weg von $A$ nach $B$. In der Ebene (einfach zusammenhängendes Gebiet) ist $(P, Q)$ genau dann konservativ, wenn $P_y = Q_x$.</p>`,
   '11uavg1kohe': R`<p>$\mathbf{F} = (2xy, x^2 + 3)$: $P_y = 2x = Q_x$, also konservativ mit $\varphi = x^2y + 3y$. Von $(0; 0)$ nach $(2; 1)$: $\varphi(2; 1) - \varphi(0; 0) = 4 + 3 = 7$.</p>`,
@@ -293,13 +219,6 @@ addT('de', {
   '4awle3me9d': R`Integriere $P$ nach $x$: $\varphi = ⟦0⟧ + g(y)$. Dann ergibt $\varphi_y = ⟦1⟧ + g'(y) = ⟦2⟧$, dass $g = ⟦3⟧$.`,
 
   // laplace
-  'f6f4kfx30i': R`
-⟦0⟧
-⟦1⟧
-⟦2⟧
-⟦3⟧
-<p>Für Rücktransformationen braucht man meist zuerst eine Partialbruchzerlegung und dann einen Abgleich mit der Tabelle.</p>
-⟦4⟧`,
   '1kbz0ay16v9': R`\mathcal{L}\{f(t)\} = F(s) = \int_0^\infty e^{-st}f(t)\,dt`,
   '1id74v8hrdj': R`<p><b>Linearität:</b> $\mathcal{L}\{af + bg\} = aF + bG$. <b>Ableitungen:</b> $\mathcal{L}\{y'\} = sY - y(0)$ und $\mathcal{L}\{y''\} = s^2Y - sy(0) - y'(0)$ — so werden Differentialgleichungen zu Algebra.</p>`,
   'ie964pskzz': R`<p>Löse $y'' + 4y = 0$, $y(0) = 3$, $y'(0) = 2$.</p><p>$s^2Y - 3s - 2 + 4Y = 0$, also $Y = \dfrac{3s + 2}{s^2 + 4} = 3\dfrac{s}{s^2 + 4} + \dfrac{2}{s^2 + 4}$. Rücktransformation: $y = 3\cos 2t + \sin 2t$.</p>`,
