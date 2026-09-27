@@ -18,6 +18,8 @@ addUI('ja', {
   reviewLink: R`総合復習ワークシート →`,
   freshQ: R`新しい問題`,
   anotherQ: R`別の問題`,
+  funFact: R`豆知識`,
+  anotherFact: R`別の豆知識`,
   showAnswer: R`答えを見る`,
   hideAnswer: R`答えを隠す`,
   answerColon: R`答え：`,

@@ -18,6 +18,8 @@ addUI('fa', {
   reviewLink: R`برگهٔ مرور ترکیبی ←`,
   freshQ: R`پرسش تازه`,
   anotherQ: R`پرسش دیگر`,
+  funFact: R`دانستنی جالب`,
+  anotherFact: R`دانستنی دیگر`,
   showAnswer: R`نمایش پاسخ`,
   hideAnswer: R`پنهان کردن پاسخ`,
   answerColon: R`پاسخ:`,

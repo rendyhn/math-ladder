@@ -18,6 +18,8 @@ addUI('ko', {
   reviewLink: R`종합 복습 학습지 →`,
   freshQ: R`새 문제`,
   anotherQ: R`다른 문제`,
+  funFact: R`재미있는 사실`,
+  anotherFact: R`다른 사실`,
   showAnswer: R`정답 보기`,
   hideAnswer: R`정답 숨기기`,
   answerColon: R`정답:`,
