@@ -415,7 +415,7 @@ addT('id', {
 <p>Jadi, persamaan dengan akar-akar $r$ dan $s$ adalah $x^2 - (r + s)x + rs = 0$.</p>
 ⟦6⟧
 ⟦7⟧`,
-  'r0cxzc7jq8': R`
+  '20tfjgdu3mb': R`
 <p>Grafik $f(x) = ax^2 + bx + c$ berupa <b>parabola</b>. Parabola terbuka <b>ke atas</b> jika $a \gt 0$ (seperti lembah, dengan nilai minimum) dan <b>ke bawah</b> jika $a \lt 0$ (seperti bukit, dengan nilai maksimum).</p>
 ⟦0⟧
 <h3>Bentuk puncak</h3>
@@ -424,7 +424,9 @@ addT('id', {
 <p>Melengkapkan kuadrat mengubah bentuk umum menjadi bentuk puncak: $x^2 - 6x + 11 = (x - 3)^2 + 2$, jadi titik puncaknya $(3; 2)$ dan nilai minimumnya 2. Daerah hasilnya $y \ge 2$.</p>
 ⟦3⟧
 ⟦4⟧
-⟦5⟧`,
+⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+`,
   '1mi3l1zkm3t': R`
 <p><b>Fungsi</b> memasangkan setiap masukan dengan tepat <b>satu</b> keluaran. Himpunan masukan yang diperbolehkan disebut <b>daerah asal</b> (domain); himpunan keluarannya disebut <b>daerah hasil</b> (range).</p>
 ⟦0⟧
@@ -463,7 +465,7 @@ addT('id', {
 <h3>Notasi sigma</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
 ⟦5⟧`,
-  '1t70i52x3de': R`
+  '17ca4jg5twj': R`
 <p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
 ⟦0⟧
 ⟦1⟧
@@ -477,7 +479,9 @@ addT('id', {
 ⟦4⟧
 ⟦5⟧
 ⟦6⟧
-⟦7⟧`,
+⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+`,
   'mvrwakwbru': R`
 <p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
 ⟦0⟧

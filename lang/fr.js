@@ -21,6 +21,18 @@ addUI('fr', {
   funFact: R`Le saviez-vous ?`,
   anotherFact: R`Un autre fait`,
   hint: R`Indice`,
+  glossary: R`Glossaire`,
+  glossaryLede: R`⟦0⟧ termes clés en anglais et en indonésien, chacun avec une courte définition (en anglais) et un lien vers sa leçon.`,
+  glossarySearch: R`Rechercher un terme`,
+  glossaryNone: R`Aucun terme ne correspond.`,
+  examStart: R`Mode examen (⟦0⟧ min)`,
+  examOn: R`Mode examen`,
+  examLeft: R`Temps restant`,
+  examFinish: R`Terminer et corriger`,
+  examNote: R`Les indices, la correction et le corrigé sont masqués jusqu’à la fin. La fiche est corrigée automatiquement quand le temps est écoulé.`,
+  examUp: R`Temps écoulé : votre fiche a été corrigée.`,
+  examDone: R`Votre fiche a été corrigée.`,
+  examConfirm: R`Terminer l’examen et voir votre score ?`,
   hintHead: R`Idée clé de la leçon`,
   openLesson: R`Ouvrir la leçon`,
   pgLevel: R`⟦0⟧ sur ⟦1⟧ maîtrisés`,
@@ -2732,7 +2744,7 @@ addT('fr', {
 <p>Ainsi, une équation de racines $r$ et $s$ est $x^2 - (r + s)x + rs = 0$.</p>
 ⟦6⟧
 ⟦7⟧`,
-  'r0cxzc7jq8': R`
+  '20tfjgdu3mb': R`
 <p>La courbe de $f(x) = ax^2 + bx + c$ est une <b>parabole</b>. Elle est tournée <b>vers le haut</b> si $a \gt 0$ (une vallée, avec un minimum) et <b>vers le bas</b> si $a \lt 0$ (une colline, avec un maximum).</p>
 ⟦0⟧
 <h3>Forme canonique</h3>
@@ -2741,7 +2753,9 @@ addT('fr', {
 <p>La mise sous forme canonique transforme la forme développée : $x^2 - 6x + 11 = (x - 3)^2 + 2$, donc le sommet est $(3 ; 2)$ et le minimum vaut 2. L’ensemble des images est $y \ge 2$.</p>
 ⟦3⟧
 ⟦4⟧
-⟦5⟧`,
+⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+`,
   '1mi3l1zkm3t': R`
 <p>Une <b>fonction</b> associe à chaque antécédent exactement <b>une</b> image. L’ensemble des valeurs autorisées est l’<b>ensemble de définition</b> ; l’ensemble des images est l’<b>ensemble image</b>.</p>
 ⟦0⟧
@@ -2780,7 +2794,7 @@ addT('fr', {
 <h3>Notation sigma</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ signifie $f(1) + f(2) + \cdots + f(n)$. À retenir : $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ et $\sum_{k=1}^{n} c = cn$.</p>
 ⟦5⟧`,
-  '1t70i52x3de': R`
+  '17ca4jg5twj': R`
 <p>Dans un triangle rectangle, pour un angle aigu $\theta$ :</p>
 ⟦0⟧
 ⟦1⟧
@@ -2794,7 +2808,9 @@ addT('fr', {
 ⟦4⟧
 ⟦5⟧
 ⟦6⟧
-⟦7⟧`,
+⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+`,
   'mvrwakwbru': R`
 <p>Une <b>identité</b> est vraie pour tout angle. Les plus importantes :</p>
 ⟦0⟧

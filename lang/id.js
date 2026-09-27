@@ -21,6 +21,18 @@ addUI('id', {
   funFact: R`Fakta unik`,
   anotherFact: R`Fakta lain`,
   hint: R`Petunjuk`,
+  glossary: R`Glosarium`,
+  glossaryLede: R`⟦0⟧ istilah penting dalam bahasa Indonesia dan Inggris, masing-masing dengan definisi singkat dan tautan ke materinya.`,
+  glossarySearch: R`Cari istilah`,
+  glossaryNone: R`Tidak ada istilah yang cocok.`,
+  examStart: R`Mode ujian (⟦0⟧ menit)`,
+  examOn: R`Mode ujian`,
+  examLeft: R`Sisa waktu`,
+  examFinish: R`Selesai dan nilai`,
+  examNote: R`Petunjuk, pengecekan, dan kunci jawaban disembunyikan sampai kamu selesai. Lembar dinilai otomatis saat waktu habis.`,
+  examUp: R`Waktu habis: lembarmu sudah dinilai.`,
+  examDone: R`Lembarmu sudah dinilai.`,
+  examConfirm: R`Selesaikan ujian dan lihat nilaimu?`,
   hintHead: R`Konsep kunci dari materi`,
   openLesson: R`Buka materi`,
   pgLevel: R`⟦0⟧ dari ⟦1⟧ dikuasai`,
@@ -3091,7 +3103,7 @@ addT('id', {
 <p>Jadi, persamaan dengan akar-akar $r$ dan $s$ adalah $x^2 - (r + s)x + rs = 0$.</p>
 ⟦6⟧
 ⟦7⟧`,
-  'r0cxzc7jq8': R`
+  '20tfjgdu3mb': R`
 <p>Grafik $f(x) = ax^2 + bx + c$ berupa <b>parabola</b>. Parabola terbuka <b>ke atas</b> jika $a \gt 0$ (seperti lembah, dengan nilai minimum) dan <b>ke bawah</b> jika $a \lt 0$ (seperti bukit, dengan nilai maksimum).</p>
 ⟦0⟧
 <h3>Bentuk puncak</h3>
@@ -3100,7 +3112,9 @@ addT('id', {
 <p>Melengkapkan kuadrat mengubah bentuk umum menjadi bentuk puncak: $x^2 - 6x + 11 = (x - 3)^2 + 2$, jadi titik puncaknya $(3; 2)$ dan nilai minimumnya 2. Daerah hasilnya $y \ge 2$.</p>
 ⟦3⟧
 ⟦4⟧
-⟦5⟧`,
+⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+`,
   '1mi3l1zkm3t': R`
 <p><b>Fungsi</b> memasangkan setiap masukan dengan tepat <b>satu</b> keluaran. Himpunan masukan yang diperbolehkan disebut <b>daerah asal</b> (domain); himpunan keluarannya disebut <b>daerah hasil</b> (range).</p>
 ⟦0⟧
@@ -3139,7 +3153,7 @@ addT('id', {
 <h3>Notasi sigma</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ berarti $f(1) + f(2) + \cdots + f(n)$. Fakta berguna: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ dan $\sum_{k=1}^{n} c = cn$.</p>
 ⟦5⟧`,
-  '1t70i52x3de': R`
+  '17ca4jg5twj': R`
 <p>Pada segitiga siku-siku, terhadap sudut lancip $\theta$:</p>
 ⟦0⟧
 ⟦1⟧
@@ -3153,7 +3167,9 @@ addT('id', {
 ⟦4⟧
 ⟦5⟧
 ⟦6⟧
-⟦7⟧`,
+⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+`,
   'mvrwakwbru': R`
 <p><b>Identitas</b> berlaku untuk setiap sudut. Yang paling penting:</p>
 ⟦0⟧
@@ -3572,3 +3588,21 @@ addFacts('id', [
   { t: `Tujuh soal, masing-masing satu juta dolar`, b: `Pada 2000 Clay Mathematics Institute menetapkan tujuh Soal Millennium Prize dan menawarkan satu juta dolar AS untuk penyelesaian masing-masing. Di antaranya hipotesis Riemann tentang bilangan prima dan pertanyaan P versus NP tentang seberapa sulit suatu soal bagi komputer. Sejauh ini baru satu, konjektur Poincaré, yang terpecahkan.` },
   { t: `Mengapa √2 bukan pecahan`, b: `Bangsa Yunani kuno membuktikan bahwa √2 tidak dapat ditulis sebagai pecahan dua bilangan bulat: jika bisa, kedua bilangan itu harus genap terus-menerus tanpa akhir, dan itu mustahil. Legenda mengatakan bahwa Hippasus, pengikut Pythagoras yang mengungkap hal ini, ditenggelamkan di laut karenanya. Benar atau tidak, penemuan bilangan irasional mengguncang matematika Yunani.` }
 ]);
+
+/* Bahasa Indonesia — interactive figures */
+addT('id', {
+  'hyx5hub2jn': R`Dengan a = 0 grafiknya berupa garis lurus, bukan parabola.`,
+  '86qetr5zno': R`tidak ada akar real`,
+  '1o2kwole8py': R`Terbuka ⟦0⟧. Titik puncak (⟦1⟧, ⟦2⟧), sumbu simetri x = ⟦3⟧. Diskriminan D = b² − 4ac = ⟦4⟧, jadi ⟦5⟧.`,
+  '1u8aa5b66sw': R`ke atas (a > 0)`,
+  'i62rlefhyz': R`ke bawah (a < 0)`,
+  '2e90cdjvs53': R`Grafik parabola y = ax² + bx + c untuk nilai a, b, dan c yang dipilih`,
+  'h6zmpgxfpx': R`amplitudo A`,
+  '1f3wlmyh46z': R`frekuensi B`,
+  'c8if24oi28': R`pergeseran vertikal D`,
+  '20zo58489lq': R`Grafik y = A sin(Bx) + D untuk nilai A, B, dan D yang dipilih, dengan y = sin x putus-putus sebagai pembanding`,
+  'jcns3t3fq4': R`y = ⟦0⟧sin ⟦1⟧⟦2⟧: amplitudo ⟦3⟧, periode 360° ÷ ⟦4⟧ = ⟦5⟧°, maksimum ⟦6⟧, minimum ⟦7⟧. Garis putus-putus: y = sin x.`,
+  'qgl9kj4nky': R`Coba sendiri`,
+  's5u2mjr8kk': R`Geser penggeser: a mengubah lebar dan arah parabola, b menggeser titik puncak ke samping, c menggeser grafik ke atas dan ke bawah. Perhatikan titik puncak dan akar-akarnya.`,
+  '1aqhegm2ks': R`Ubah amplitudo, frekuensi, dan pergeseran vertikal y = A sin(Bx) + D, lalu bandingkan dengan y = sin x.`,
+});

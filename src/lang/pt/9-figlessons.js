@@ -415,7 +415,7 @@ addT('pt', {
 <p>Assim, uma equação com raízes $r$ e $s$ é $x^2 - (r + s)x + rs = 0$.</p>
 ⟦6⟧
 ⟦7⟧`,
-  'r0cxzc7jq8': R`
+  '20tfjgdu3mb': R`
 <p>O gráfico de $f(x) = ax^2 + bx + c$ é uma <b>parábola</b>. Ela tem concavidade <b>para cima</b> se $a \gt 0$ (um vale, com mínimo) e <b>para baixo</b> se $a \lt 0$ (um morro, com máximo).</p>
 ⟦0⟧
 <h3>Forma canônica</h3>
@@ -424,7 +424,9 @@ addT('pt', {
 <p>Completar o quadrado transforma a forma geral na forma canônica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, então o vértice é $(3; 2)$ e o valor mínimo é 2. A imagem é $y \ge 2$.</p>
 ⟦3⟧
 ⟦4⟧
-⟦5⟧`,
+⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+`,
   '1mi3l1zkm3t': R`
 <p>Uma <b>função</b> associa a cada entrada exatamente <b>uma</b> saída. O conjunto das entradas permitidas é o <b>domínio</b>; o conjunto das saídas é a <b>imagem</b>.</p>
 ⟦0⟧
@@ -463,7 +465,7 @@ addT('pt', {
 <h3>Notação de somatório</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Fatos úteis: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ e $\sum_{k=1}^{n} c = cn$.</p>
 ⟦5⟧`,
-  '1t70i52x3de': R`
+  '17ca4jg5twj': R`
 <p>Num triângulo retângulo, em relação a um ângulo agudo $\theta$:</p>
 ⟦0⟧
 ⟦1⟧
@@ -477,7 +479,9 @@ addT('pt', {
 ⟦4⟧
 ⟦5⟧
 ⟦6⟧
-⟦7⟧`,
+⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+`,
   'mvrwakwbru': R`
 <p>Uma <b>identidade</b> vale para todo ângulo. As mais importantes:</p>
 ⟦0⟧
