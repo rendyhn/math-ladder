@@ -390,7 +390,6 @@ function renderHome() {
   const first = LEVELS[0].topics[0];
   main.innerHTML = `
   <section class="hero">
-    ${typeof HERO_ART === 'string' ? `<div class="hero-bg" aria-hidden="true">${HERO_ART}</div>` : ''}
     <div class="hero-copy">
       <div class="hero-logo" aria-hidden="true"><svg viewBox="0 0 64 64"><rect x='1' y='1' width='62' height='62' rx='14' fill='#141B2B' stroke='#FFFFFF' stroke-opacity='0.14' stroke-width='2'/><path d='M21 12.5V29.5M12.5 21H29.5' stroke='#FB8B52' stroke-width='4.4' stroke-linecap='round'/><path d='M34.5 21H51.5' stroke='#34CDB8' stroke-width='4.4' stroke-linecap='round'/><path d='M15 37L27 49M27 37L15 49' stroke='#A9B2FF' stroke-width='4.4' stroke-linecap='round'/><path d='M34.5 43H51.5' stroke='#F58BB0' stroke-width='4.4' stroke-linecap='round'/><circle cx='43' cy='35.5' r='2.7' fill='#F58BB0'/><circle cx='43' cy='50.5' r='2.7' fill='#F58BB0'/></svg></div>
       <p class="eyebrow">${esc(ui('heroEyebrow'))}</p>
