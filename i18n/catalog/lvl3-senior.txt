@@ -96,7 +96,7 @@ A rectangle's length is ⟦0⟧ m more than its width, and its area is ⟦1⟧ m
 Let the width be $w$: $w(w + ⟦0⟧) = ⟦1⟧$, so $⟦2⟧ = 0$, i.e. $(w - ⟦3⟧)(w + ⟦4⟧) = 0$. A width must be positive, so $w = ⟦5⟧$ m.
 
 ##### quad-functions
-@r0cxzc7jq8  ; 0=Key(T`<ul><li>Axis of symmetry and verte | 1=Fm(T`f(x) = a(x - h)^2 + k \qquad \text{ | 2=Fig(planeSvg({ W: 320, x: [-1, 7], y: [- | 3=Ex(T`<p>A ball's height is $h(t) = -5t^2 | 4=Fig(planeSvg({ W: 340, x: [0, 4.5], y: [ | 5=Tip(T`<p>The axis of symmetry lies exact
+@20tfjgdu3mb  ; 0=Key(T`<ul><li>Axis of symmetry and verte | 1=Fm(T`f(x) = a(x - h)^2 + k \qquad \text{ | 2=Fig(planeSvg({ W: 320, x: [-1, 7], y: [- | 3=Ex(T`<p>A ball's height is $h(t) = -5t^2 | 4=Fig(planeSvg({ W: 340, x: [0, 4.5], y: [ | 5=Tip(T`<p>The axis of symmetry lies exact | 6=T`Try it yourself` | 7=Ix('parabola', T`Move the sliders: a cha
 
 <p>The graph of $f(x) = ax^2 + bx + c$ is a <b>parabola</b>. It opens <b>upward</b> if $a \gt 0$ (a valley, with a minimum) and <b>downward</b> if $a \lt 0$ (a hill, with a maximum).</p>
 ⟦0⟧
@@ -107,6 +107,8 @@ Let the width be $w$: $w(w + ⟦0⟧) = ⟦1⟧$, so $⟦2⟧ = 0$, i.e. $(w - �
 ⟦3⟧
 ⟦4⟧
 ⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+
 @s0tk1crha5
 <ul><li>Axis of symmetry and vertex: $x = -\dfrac{b}{2a}$; the vertex is $\left(-\dfrac{b}{2a},\, f\!\left(-\dfrac{b}{2a}\right)\right)$.</li><li>$y$-intercept: $(0, c)$.</li><li>$x$-intercepts: the roots of $ax^2 + bx + c = 0$ (if any).</li></ul>
 @8vanwczjp2
@@ -129,6 +131,10 @@ Height of a ball h = −5t² + 20t + 1 with maximum 21 m at t = 2 s
 The ball's path: a downward parabola ($a \lt 0$) whose vertex is the highest point.
 @zvghnbm8dy
 <p>The axis of symmetry lies exactly halfway between the two $x$-intercepts: if the roots are $p$ and $q$, it is $x = \frac{p + q}{2}$.</p>
+@qgl9kj4nky
+Try it yourself
+@s5u2mjr8kk
+Move the sliders: a changes the width and direction, b moves the vertex sideways, c moves the graph up and down. Watch the vertex and the roots.
 @1mhp7175d34  ; 0=poly([a, b, c])
 Find the $x$-coordinate of the vertex of $y = ⟦0⟧$.
 @2clzljfduzb  ; 0=f
@@ -356,7 +362,7 @@ Dina's first-year salary is ⟦0⟧ dollars and it rises by ⟦1⟧ dollars ever
 This is an arithmetic series: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2⟧ + ⟦3⟧ \times ⟦4⟧\big) = ⟦5⟧$ dollars.
 
 ##### trig-basics
-@1t70i52x3de  ; 0=Fm(T`\sin\theta = \frac{\text{opposite}} | 1=Fig(triangleSvg([[40, 180], [300, 180],  | 2=Tbl(['θ', '0°', '30°', '45°', '60°', '90 | 3=FigRow([[triangleSvg([[20, 150], [200, 1 | 4=Key(T`<p>For any angle $\theta$, the poi | 5=Fig(planeSvg({ W: 320, x: [-1.4, 1.4], y | 6=Ex(T`<p>From 30 m away, the angle of ele | 7=Tip(T`<p>Check your calculator mode (DEG
+@17ca4jg5twj  ; 0=Fm(T`\sin\theta = \frac{\text{opposite}} | 1=Fig(triangleSvg([[40, 180], [300, 180],  | 2=Tbl(['θ', '0°', '30°', '45°', '60°', '90 | 3=FigRow([[triangleSvg([[20, 150], [200, 1 | 4=Key(T`<p>For any angle $\theta$, the poi | 5=Fig(planeSvg({ W: 320, x: [-1.4, 1.4], y | 6=Ex(T`<p>From 30 m away, the angle of ele | 7=Tip(T`<p>Check your calculator mode (DEG | 8=T`Try it yourself` | 9=Ix('sine', T`Change the amplitude, frequ
 
 <p>In a right triangle, relative to an acute angle $\theta$:</p>
 ⟦0⟧
@@ -372,6 +378,8 @@ This is an arithmetic series: $S_{⟦0⟧} = \frac{⟦1⟧}{2}\big(2 \times ⟦2
 ⟦5⟧
 ⟦6⟧
 ⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+
 @27jmws7mgxv
 \sin\theta = \frac{\text{opposite}}{\text{hypotenuse}} \qquad \cos\theta = \frac{\text{adjacent}}{\text{hypotenuse}} \qquad \tan\theta = \frac{\text{opposite}}{\text{adjacent}}
 @1x61y1509nw
@@ -416,6 +424,8 @@ On the unit circle the point at angle $\theta$ is $(\cos\theta, \sin\theta)$; th
 <p>From 30 m away, the angle of elevation to the top of a tower is $60^\circ$. Height $= 30 \tan 60^\circ = 30\sqrt{3} \approx 52.0$ m.</p>
 @neyxpix7b9
 <p>Check your calculator mode (DEG vs RAD) before evaluating trig functions.</p>
+@1aqhegm2ks
+Change the amplitude, frequency and vertical shift of y = A sin(Bx) + D and compare with y = sin x.
 @67i6rxexro  ; 0=Fn | 1=angT
 Find the exact value of $⟦0⟧ ⟦1⟧$.
 @pdy7ypcls7

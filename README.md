@@ -77,9 +77,11 @@ To add a language: add its code to `LANGS` in `tools/i18n.py` and to `LANGS` and
 | `src/core.js` | Random numbers, fraction and formula formatting, the translation system, number formats per language. |
 | `src/facts.js` | Fun facts shown on the home page, one per visit from a shuffled deck (Indonesian versions in `src/lang/id/facts.js`, same order). |
 | `src/subjects.js` | The four Ladder sites, for the subject menu in the top bar (it keeps the chosen language). |
+| `src/glossary.js` | Bilingual glossary (English–Indonesian): term, definition and the topic that teaches it; shown at `#glossary`. |
+| `src/interactive.js` | Interactive figures: sliders that redraw a graph or diagram inside a lesson (`Ix(name, caption)`). |
 | `src/sw.js` | Service worker template; `build.py` writes `sw.js` with a new cache name on every build, so the site works offline once visited. |
 | `manifest.webmanifest`, `icons/` | Lets the site be installed on a phone or computer like an app. |
-| `src/app.js` | Navigation, worksheets, answer checking, answer key, printing, language menu, progress (best score per topic, saved in the browser), hints (the topic's key ideas). |
+| `src/app.js` | Navigation, worksheets, answer checking, answer key, printing, language menu, progress (best score per topic, saved in the browser), hints (the topic's key ideas), exam mode (a timed sheet), glossary page. |
 | `src/style.css`, `src/head.html`, `src/body.html` | Styles (light/dark, print, right-to-left) and page skeleton. |
 | `src/lang/<code>/` | Translation sources: `0-ui.js` (interface and topic titles), one or more files per level, and `5-ladder.js` (prerequisite reasons). |
 | `i18n/` | String catalogue for translators and `PROGRESS.md`. |

@@ -1,0 +1,23 @@
+##### c
+@hyx5hub2jn
+With a = 0 the graph is a straight line, not a parabola.
+@86qetr5zno
+no real roots
+@1o2kwole8py  ; 0=a > 0 ? T`upwards (a > 0)` : T`downwards | 1=ixF(h, 2) | 2=ixF(k, 2) | 3=ixF(h, 2) | 4=ixF(D, 2) | 5=rs
+Opens ⟦0⟧. Vertex (⟦1⟧, ⟦2⟧), axis of symmetry x = ⟦3⟧. Discriminant D = b² − 4ac = ⟦4⟧, so ⟦5⟧.
+@1u8aa5b66sw
+upwards (a > 0)
+@i62rlefhyz
+downwards (a < 0)
+@2e90cdjvs53
+Graph of the parabola y = ax² + bx + c for the chosen a, b and c
+@h6zmpgxfpx
+amplitude A
+@1f3wlmyh46z
+frequency B
+@c8if24oi28
+vertical shift D
+@20zo58489lq
+Graph of y = A sin(Bx) + D for the chosen A, B and D, with y = sin x dashed for comparison
+@jcns3t3fq4  ; 0=A === 1 ? '' : ixF(A) + ' ' | 1=B === 1 ? 'x' : `(${ixF(B)}x)` | 2=D ? ` ${D < 0 ? '−' : '+'} ${ixF(Math.ab | 3=ixF(A) | 4=ixF(B) | 5=ixF(360 / B) | 6=ixF(A + D) | 7=ixF(D - A)
+y = ⟦0⟧sin ⟦1⟧⟦2⟧: amplitude ⟦3⟧, period 360° ÷ ⟦4⟧ = ⟦5⟧°, maximum ⟦6⟧, minimum ⟦7⟧. Dashed: y = sin x.

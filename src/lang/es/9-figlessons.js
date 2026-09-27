@@ -415,7 +415,7 @@ addT('es', {
 <p>Así, una ecuación con raíces $r$ y $s$ es $x^2 - (r + s)x + rs = 0$.</p>
 ⟦6⟧
 ⟦7⟧`,
-  'r0cxzc7jq8': R`
+  '20tfjgdu3mb': R`
 <p>La gráfica de $f(x) = ax^2 + bx + c$ es una <b>parábola</b>. Abre <b>hacia arriba</b> si $a \gt 0$ (un valle, con un mínimo) y <b>hacia abajo</b> si $a \lt 0$ (una colina, con un máximo).</p>
 ⟦0⟧
 <h3>Forma canónica (del vértice)</h3>
@@ -424,7 +424,9 @@ addT('es', {
 <p>Completar el cuadrado convierte la forma general en la forma canónica: $x^2 - 6x + 11 = (x - 3)^2 + 2$, así que el vértice es $(3; 2)$ y el valor mínimo es 2. El recorrido es $y \ge 2$.</p>
 ⟦3⟧
 ⟦4⟧
-⟦5⟧`,
+⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+`,
   '1mi3l1zkm3t': R`
 <p>Una <b>función</b> asigna a cada entrada exactamente <b>una</b> salida. El conjunto de entradas permitidas es el <b>dominio</b>; el conjunto de salidas es el <b>recorrido</b>.</p>
 ⟦0⟧
@@ -463,7 +465,7 @@ addT('es', {
 <h3>Notación sigma</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ significa $f(1) + f(2) + \cdots + f(n)$. Datos útiles: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ y $\sum_{k=1}^{n} c = cn$.</p>
 ⟦5⟧`,
-  '1t70i52x3de': R`
+  '17ca4jg5twj': R`
 <p>En un triángulo rectángulo, respecto a un ángulo agudo $\theta$:</p>
 ⟦0⟧
 ⟦1⟧
@@ -477,7 +479,9 @@ addT('es', {
 ⟦4⟧
 ⟦5⟧
 ⟦6⟧
-⟦7⟧`,
+⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+`,
   'mvrwakwbru': R`
 <p>Una <b>identidad</b> se cumple para todo ángulo. Las más importantes:</p>
 ⟦0⟧

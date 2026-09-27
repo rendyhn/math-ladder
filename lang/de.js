@@ -21,6 +21,18 @@ addUI('de', {
   funFact: R`Wusstest du?`,
   anotherFact: R`Noch ein Fakt`,
   hint: R`Tipp`,
+  glossary: R`Glossar`,
+  glossaryLede: R`⟦0⟧ Schlüsselbegriffe auf Englisch und Indonesisch, jeweils mit kurzer Definition (auf Englisch) und Link zur Lektion.`,
+  glossarySearch: R`Begriffe suchen`,
+  glossaryNone: R`Keine passenden Begriffe.`,
+  examStart: R`Prüfungsmodus (⟦0⟧ min)`,
+  examOn: R`Prüfungsmodus`,
+  examLeft: R`Restzeit`,
+  examFinish: R`Beenden und auswerten`,
+  examNote: R`Tipps, Kontrolle und Lösungen bleiben bis zum Ende verborgen. Nach Ablauf der Zeit wird das Blatt automatisch ausgewertet.`,
+  examUp: R`Die Zeit ist um: dein Blatt wurde ausgewertet.`,
+  examDone: R`Dein Blatt wurde ausgewertet.`,
+  examConfirm: R`Prüfung beenden und Ergebnis ansehen?`,
   hintHead: R`Kernidee aus der Lektion`,
   openLesson: R`Lektion öffnen`,
   pgLevel: R`⟦0⟧ von ⟦1⟧ gemeistert`,
@@ -2732,7 +2744,7 @@ addT('de', {
 <p>Eine Gleichung mit den Lösungen $r$ und $s$ lautet also $x^2 - (r + s)x + rs = 0$.</p>
 ⟦6⟧
 ⟦7⟧`,
-  'r0cxzc7jq8': R`
+  '20tfjgdu3mb': R`
 <p>Der Graph von $f(x) = ax^2 + bx + c$ ist eine <b>Parabel</b>. Sie ist <b>nach oben</b> geöffnet, wenn $a \gt 0$ (ein Tal mit einem Minimum), und <b>nach unten</b>, wenn $a \lt 0$ (ein Hügel mit einem Maximum).</p>
 ⟦0⟧
 <h3>Scheitelpunktform</h3>
@@ -2741,7 +2753,9 @@ addT('de', {
 <p>Die quadratische Ergänzung wandelt die allgemeine Form in die Scheitelpunktform um: $x^2 - 6x + 11 = (x - 3)^2 + 2$, der Scheitelpunkt ist also $(3; 2)$ und der kleinste Wert 2. Die Wertemenge ist $y \ge 2$.</p>
 ⟦3⟧
 ⟦4⟧
-⟦5⟧`,
+⟦5⟧
+<h3>⟦6⟧</h3>⟦7⟧
+`,
   '1mi3l1zkm3t': R`
 <p>Eine <b>Funktion</b> ordnet jedem Eingabewert genau <b>einen</b> Ausgabewert zu. Die Menge der erlaubten Eingaben ist die <b>Definitionsmenge</b>; die Menge der Ausgaben ist die <b>Wertemenge</b>.</p>
 ⟦0⟧
@@ -2780,7 +2794,7 @@ addT('de', {
 <h3>Summenzeichen</h3>
 <p>$\displaystyle\sum_{k=1}^{n} f(k)$ bedeutet $f(1) + f(2) + \cdots + f(n)$. Nützlich: $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$ und $\sum_{k=1}^{n} c = cn$.</p>
 ⟦5⟧`,
-  '1t70i52x3de': R`
+  '17ca4jg5twj': R`
 <p>In einem rechtwinkligen Dreieck gilt für einen spitzen Winkel $\theta$:</p>
 ⟦0⟧
 ⟦1⟧
@@ -2794,7 +2808,9 @@ addT('de', {
 ⟦4⟧
 ⟦5⟧
 ⟦6⟧
-⟦7⟧`,
+⟦7⟧
+<h3>⟦8⟧</h3>⟦9⟧
+`,
   'mvrwakwbru': R`
 <p>Eine <b>Identität</b> gilt für jeden Winkel. Die wichtigsten:</p>
 ⟦0⟧
