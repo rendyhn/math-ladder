@@ -18,6 +18,8 @@ addUI('zh', {
   reviewLink: R`综合复习练习卷 →`,
   freshQ: R`随机一题`,
   anotherQ: R`换一题`,
+  funFact: R`趣味知识`,
+  anotherFact: R`换一个`,
   showAnswer: R`显示答案`,
   hideAnswer: R`隐藏答案`,
   answerColon: R`答案：`,

@@ -18,6 +18,8 @@ addUI('ar', {
   reviewLink: R`ورقة المراجعة الشاملة ←`,
   freshQ: R`سؤال جديد`,
   anotherQ: R`سؤال آخر`,
+  funFact: R`معلومة طريفة`,
+  anotherFact: R`معلومة أخرى`,
   showAnswer: R`إظهار الإجابة`,
   hideAnswer: R`إخفاء الإجابة`,
   answerColon: R`الإجابة:`,

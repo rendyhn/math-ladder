@@ -18,6 +18,8 @@ addUI('pt', {
   reviewLink: R`Folha de revisão mista →`,
   freshQ: R`Questão nova`,
   anotherQ: R`Outra questão`,
+  funFact: R`Curiosidade`,
+  anotherFact: R`Outra curiosidade`,
   showAnswer: R`Mostrar resposta`,
   hideAnswer: R`Ocultar resposta`,
   answerColon: R`Resposta:`,

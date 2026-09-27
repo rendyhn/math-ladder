@@ -18,6 +18,8 @@ addUI('de', {
   reviewLink: R`Arbeitsblatt zur Wiederholung →`,
   freshQ: R`Neue Aufgabe`,
   anotherQ: R`Andere Aufgabe`,
+  funFact: R`Wusstest du?`,
+  anotherFact: R`Noch ein Fakt`,
   showAnswer: R`Antwort zeigen`,
   hideAnswer: R`Antwort ausblenden`,
   answerColon: R`Antwort:`,

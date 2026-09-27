@@ -18,6 +18,8 @@ addUI('ru', {
   reviewLink: R`Лист смешанного повторения →`,
   freshQ: R`Новая задача`,
   anotherQ: R`Другая задача`,
+  funFact: R`Интересный факт`,
+  anotherFact: R`Другой факт`,
   showAnswer: R`Показать ответ`,
   hideAnswer: R`Скрыть ответ`,
   answerColon: R`Ответ:`,

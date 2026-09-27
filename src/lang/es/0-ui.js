@@ -18,6 +18,8 @@ addUI('es', {
   reviewLink: R`Hoja de repaso mixto →`,
   freshQ: R`Pregunta nueva`,
   anotherQ: R`Otra pregunta`,
+  funFact: R`Dato curioso`,
+  anotherFact: R`Otro dato`,
   showAnswer: R`Ver respuesta`,
   hideAnswer: R`Ocultar respuesta`,
   answerColon: R`Respuesta:`,
